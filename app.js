@@ -1,13 +1,12 @@
 var express = require('express');
 var path = require('path');
+var router = require(path.join(__dirname, '/server/routes/routes'));
 
 var app = express();
 
 app.use(express.static(__dirname + '/public'));
 
-app.get('/', function(req, res) {
-    res.sendFile('/public/views/index.html', {root: __dirname });
-});
+app.use('/', router)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
