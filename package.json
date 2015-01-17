@@ -1,0 +1,19 @@
+{
+  "name": "fleek",
+  "version": "0.0.1",
+  "description": "finna get crunk",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mit6148-2015/fleek"
+  },
+  "author": "I browse on fleek",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~4.11.0"
+  }
+}
