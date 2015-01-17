@@ -9,5 +9,5 @@ app.get('/', function(req, res) {
 });
 
 app.listen(app.get('port'), function() {
-    console.log("browsing on fleek at localhost:" + fleek.get('port'));
+    console.log("browsing on fleek at localhost:" + app.get('port'));
 });
