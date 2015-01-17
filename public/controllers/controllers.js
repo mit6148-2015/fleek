@@ -1,5 +1,7 @@
-var fleekApp = angular.module('fleekApp', []);
+(function() {
+	var app = angular.module('fleekApp', []);
 
-fleekApp.controller(function ($scope) {
-
-});
+	app.controller("testController", function () {
+		this.test = "hi vahid :)"
+	});
+})();

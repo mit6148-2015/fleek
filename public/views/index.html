@@ -20,8 +20,13 @@
         <script src="../controllers/controllers.js"></script>
     </head>
     <body>
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is fleek. {{":)" + " hi vahid"}}</p>
+        <div id="main-container">
+          <div id="top-bar">
+          </div>
+          <div id="page-content" ng-controller="testController as t">
+            {{t.test}}
+          </div>
+        </div>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
