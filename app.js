@@ -8,14 +8,7 @@ app.use(express.static(__dirname + '/public'));
 
 app.use('/', router)
 
-// catch 404 and forward to error handler
-app.use(function(req, res, next) {
-    var err = new Error('Not Found');
-    err.status = 404;
-    next(err);
-});
-
-// error handler
+// general error handler
 app.use(function(err, req, res, next) {
     res.status(err.status || 500);
     res.render('error', {
@@ -24,7 +17,6 @@ app.use(function(err, req, res, next) {
     });
 });
 
-// TODO: check if this is good
 // set port, listen and log 
 app.set('port', (process.env.PORT || 5000));
 app.listen(app.get('port'), function() {
