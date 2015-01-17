@@ -12,4 +12,11 @@
 		};
 	});
 
+	app.directive("splashTop", function() {
+		return {
+			restrict: 'E',
+			templateUrl: '../views/splash-top.html'
+		};
+	});
+
 })();

@@ -10,21 +10,21 @@
         <link rel="icon" href="../assets/img/favicon.ico" type="image/x-icon"> 
         <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon"> 
 
-        <link rel="stylesheet" href="../assets/css/normalize.css">
-        <link rel="stylesheet" href="../assets/css/main.css">
-        <script src="../assets/js/vendor/modernizr-2.6.2.min.js"></script>
+        <link rel="stylesheet" href="../assets/css/bootstrap-theme.css">
+        <link rel="stylesheet" href="../assets/css/bootstrap.css">
+        
         <script src="../assets/js/vendor/jquery-1.10.2.min.js"></script>
         <script src="../assets/js/vendor/angular.min.js"></script>
-        <script src="../assets/js/plugins.js"></script>
+        <script src="../assets/js/bootstrap.min.js"></script>
         <script src="../assets/js/main.js"></script>
         <script src="../controllers/controllers.js"></script>
     </head>
     <body>
         <div id="main-container">
           <nav-bar></nav-bar>
-          <div id="page-content" ng-controller="testController as t">
-            {{t.test}}
-          </div>
+          <section id="page-content" ng-controller="testController as t">
+            <splash-top></splash-top>
+          </section>
         </div>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
