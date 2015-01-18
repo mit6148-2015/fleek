@@ -27,6 +27,19 @@
           </section>
         </div>
 
+
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Contest</label>
+            <input type="text" class="form-control" id="contestVal" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Year</label>
+            <input type="text" class="form-control" id="yearVal" placeholder="Password">
+          </div>
+          <button type="submit" id="submitQ" class="btn btn-default">Submit</button>
+        </form>
+
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -36,5 +49,22 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
+
+
+        <script>
+      $(document).ready(function(){
+        var year,contest;
+        $("#submitQ").click(function(){
+          year=$("#yearVal").val();
+          contest=$("#contestVal").val();
+          $.post("http://localhost:5000/search",{year: year,contest: contest}, function(data){
+            if(data === 'done')
+              {
+                alert("query success");
+              }
+          });
+        });
+      });
+    </script>
     </body>
 </html>

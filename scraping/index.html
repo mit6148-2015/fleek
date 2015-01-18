@@ -22,47 +22,29 @@
   });
 </script>
 
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
 </head>
 <body>
 
-
-	Let $ ABC $ be equilateral, and $ D, E, $ and $ F $ be the midpoints of $ \overline{BC},\overline{CA}, $ and $ \overline{AB}, $ respectively.  There exist points $ P, Q, $ and $ R $ on $ \overline{DE},\overline{EF}, $ and $ \overline{FD}, $ respectively, with the property that $ P $ is on $ \overline{CQ}, Q $ is on $ \overline{AR}, $ and $ R $ is on $ \overline{BP}. $  The ratio of the area of triangle $ ABC $ to the area of triangle $ PQR $ is $ a+b\sqrt{c}, $ where $ a, b $ and $ c $ are integers, and $ c $ is not divisible by the square of any prime.  What is $ a^{2}+b^{2}+c^{2} $? <br/>
-
-	Let $ f(x) = (x^2+3x+2)^{\cos(\pi x)} $. Find the sum of all positive integers $ n $ for which \[ \left|\sum_{k=1}^n\log_{10}f(k)\right| = 1. \] <br/>
-
-	For any integer $ k\ge1 $, let $ p(k) $ be the smallest prime which does not divide $ k $. Define the integer function $ X(k) $ to be the product of all primes less than $ p(k) $ if $ p(k)>2 $, and $ X(k)=1 $ if $ p(k)=2 $. Let $ \{x_n\} $ be the sequence defined by $ x_0=1 $, and $ x_{n+1}X(x_n)=x_np(x_n) $ for $ n\ge0 $. Find the smallest positive integer, $ t $ such that $ x_t=2090 $ <br/>
-
-	Jon and Steve ride their bicycles on a path that parallels two side-by-side train tracks running in the east/west direction. Jon rides east at 20 miles per hour, and Steve rides west at 20 miles per hour. Two trains of equal length traveling in opposite directions at constant but different speeds, each pass the two riders. Each train takes exactly 1 minute to go past Jon. The westbound train takes 10 times as long as the eastbound train to go past Steve. The length of each train is $ \tfrac mn $, where $ m $ and $ n $ are relatively prime positive integers. Find $ m+n $. <br/>
-
-	Find the remainder when $ 9\times 99\times 999\times\cdots\times\underbrace{99\cdots9}_{\text{999 9's}} $ is divided by $ 1000 $. <br/>
-	Define an ordered triple $ (A, B, C) $ of sets to be minimally intersecting if $ |A\cap B| = |B\cap C| = |C\cap A| = 1 $ and $ A\cap B\cap C =\emptyset $. For example, $ (\{1,2\},\{2,3\},\{1,3,4\}) $ is a minimally intersecting triple. Let $ N $ be the number of minimally intersecting ordered triples of sets for which each set is a subset of $ \{1,2,3,4,5,6,7\} $. Find the remainder when $ N $ is divided by $ 1000$. Note: $ |S| $ represents the number of elements in the set $ S $. <br/>
-
-	Determine $ w^2+x^2+y^2+z^2 $ if 
-	\[ \begin{array}{l}\frac{x^2}{2^2-1}+\frac{y^2}{2^2-3^2}+\frac{z^2}{2^2-5^2}+\frac{w^2}{2^2-7^2}=1\\ \frac{x^2}{4^2-1}+\frac{y^2}{4^2-3^2}+\frac{z^2}{4^2-5^2}+\frac{w^2}{4^2-7^2}=1\\ \frac{x^2}{6^2-1}+\frac{y^2}{6^2-3^2}+\frac{z^2}{6^2-5^2}+\frac{w^2}{6^2-7^2}=1\\ \frac{x^2}{8^2-1}+\frac{y^2}{8^2-3^2}+\frac{z^2}{8^2-5^2}+\frac{w^2}{8^2-7^2}=1\\ \end{array} \] <br/>
-
-	Ninety-four bricks, each measuring $ 4''\times10''\times19'', $ are to stacked one on top of another to form a tower 94 bricks tall.  Each brick can be oriented so it contribues $ 4'' $ or $ 10'' $ or $ 19'' $ to the total height of the tower.  How many differnt tower heights can be achieved using all 94 of the bricks? <br/>
-
-	Compute the number of sequences of numbers ${a_1,a_2,\dots,a_{10}}$ such that
-$\begin{eqnarray*}
-& & \textrm{I. } a_i = 0 \textrm{ or 1 for all } i \\
-& & \textrm{II. } a_i\cdot a_{i+1} = 0 \textrm{ for } i = 1,2,\dots,9 \\
-& & \textrm{III. } a_i\cdot a_{i+2} = 0 \textrm{ for } i = 1,2,\dots,8.
-\end{eqnarray*}$ <br/>
-
-Let $A := \mathbb{Q} \sm \{0,1\}$ denote the set of all rationals other than 0 and 1. A function $f : A \ra \mathbb{R}$ has the property that for all $x \in A$,
-\[
-f\lp x \rp + f\lp 1 - \frac{1}{x}\rp = \log|x|.
-\]
-Compute the value of $f(2007)$.
-
-	$\\frac{125}{12}$ <br/>
-
-	Compute
-\[
-\left\lfloor \frac{2007! + 2004!}{2006! + 2005!}\right\rfloor.
-\]
-(Note that $\lfloor x \rfloor$ denotes the greatest integer less than or equal to $x$.)
-
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Contest</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Year</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
 
 </body>
 </html>

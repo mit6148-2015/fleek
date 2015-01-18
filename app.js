@@ -23,4 +23,13 @@ app.listen(app.get('port'), function() {
     console.log("browsing on fleek at localhost:" + app.get('port'));
 });
 
+
+
+app.post('/search',function(req,res){
+  var year =req.body.year;
+  var contest =req.body.contest;
+  console.log("User name = "+year+", contest is "+contest);
+  res.end("yes");
+});
+
 module.exports = app;
