@@ -1,11 +1,19 @@
 var express = require('express');
 var app = express();
-var router = require(__dirname + '/server/routes/routes');
-var path = require('path');
+var port     = process.env.PORT || 5000;
 var fs = require('fs');
+var morgan = require('morgan');
 var bodyParser = require('body-parser');
+var cookieParser = require('cookie-parser');
+var mongoose = require('mongoose');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
+var session = require('express-session');
+var flash = require('connect-flash')
+var configDB = require(__dirname + '/server/config/database.js');
+
+// log requests to console
+app.use(morgan('dev'));
 
 // set public folder
 app.use(express.static(__dirname + '/public'));
@@ -20,24 +28,23 @@ app.engine('html', function(path, options, cb) {
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+// cookie parser
+app.use(cookieParser());
+
+// connect to database
+mongoose.connect(configDB.url);
+
 // configure Passport
-passport.use(new LocalStrategy(
-  function(username, password, done) {
-    User.findOne({ username: username }, function (err, user) {
-      if (err) { return done(err); }
-      if (!user) {
-        return done(null, false, { message: 'Incorrect username.' });
-      }
-      if (!user.validPassword(password)) {
-        return done(null, false, { message: 'Incorrect password.' });
-      }
-      return done(null, user);
-    });
-  }
-));
+require(__dirname + '/server/config/passport')(passport); // pass passport for configuration
+app.use(session({ secret: 'fleeksesh',
+                  saveUninitialized: true,
+                  resave: true}));
+app.use(passport.initialize());
+app.use(passport.session());
+app.use(flash());
 
 // add routes
-app.use('/', router);
+require(__dirname + '/server/routes/routes')(app, passport);
 
 // general error handler
 app.use(function(err, req, res, next) {
@@ -45,9 +52,8 @@ app.use(function(err, req, res, next) {
 });
 
 // set port, listen and log 
-app.set('port', (process.env.PORT || 5000));
-app.listen(app.get('port'), function() {
-    console.log("browsing on fleek at localhost:" + app.get('port'));
+app.listen(port, function() {
+    console.log("browsing on fleek at localhost:" + port);
 });
 
 module.exports = app;
