@@ -7,28 +7,22 @@ module.exports = function(app, passport) {
         res.sendFile(path.join(__dirname, '../../public/views/index.html'));
     });
 
-    // general success for debugging
-    app.get('/success', function(req, res) {
-        res.sendFile(path.join(__dirname, '../../public/views/index.html'));
-        console.log('success');
-    });
-
     // signup via Passport
     app.post('/signup', passport.authenticate('local-signup'), function(req, res) {
-        console.log('successful signup');
+        console.log('Signup successful');
         res.send('Signup successful');
     });
 
     // login via Passport
     app.post('/login', passport.authenticate('local-login'), function(req, res) {
-        console.log('successful login');
+        console.log('Login successful');
         res.send('Login successful');
     });
 
     // logout via Passport
     app.get('/logout', function(req, res) {
         req.logout();
-        res.redirect('/');
+        console.log('Logout successful');
         res.send('Logout successful');
     });
 
