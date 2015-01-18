@@ -14,7 +14,8 @@
   "author": "I browse on fleek",
   "license": "MIT",
   "dependencies": {
-    "express": "~4.11.0",
+    "body-parser": "^1.10.1",
+    "express": "^4.11.0",
     "mongodb": "^1.4.28",
     "mongoose": "^3.8.21"
   }
