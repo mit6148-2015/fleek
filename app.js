@@ -6,7 +6,7 @@ var app = express();
 
 app.use(express.static(__dirname + '/public'));
 
-app.use('/', router)
+app.use('/', router);
 
 // general error handler
 app.use(function(err, req, res, next) {

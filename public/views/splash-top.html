@@ -1,15 +1,5 @@
 <div id="splash-top" class="col-sm-6 col-sm-offset-3">
 	<h1 class="splash-top-title">fleek</h1>
-	<form action="/login" method="post">
-		<div class="form-group">
-			<label>Email</label>
-			<input type="email" class="form-control" name="email">
-		</div>
-		<div class="form-group">
-			<label>Password</label>
-			<input type="password" class="form-control" name="password">
-		</div>
-
-		<button type="submit" class="btn btn-primary btn-lg">Login</button>
-	</form>
+	<button id="splash-login" class="btn btn-primary btn-lg" ng-click="setView('login')">Log In</button>
+	<button id="splash-signup" class="btn btn-primary btn-lg" ng-click="setView('signup')">Sign Up</button>
 </div>
