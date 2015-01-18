@@ -10,61 +10,34 @@
         <link rel="icon" href="../assets/img/favicon.ico" type="image/x-icon"> 
         <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon"> 
 
-        <link rel="stylesheet" href="../assets/css/bootstrap-theme.css">
-        <link rel="stylesheet" href="../assets/css/bootstrap.css">
-        
+        <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../assets/css/custom.css">
+
         <script src="../assets/js/vendor/jquery-1.10.2.min.js"></script>
         <script src="../assets/js/vendor/angular.min.js"></script>
+        <script src="../assets/js/vendor/MathJax/MathJax.js"></script>
+        <script src="../config/mathjax-config.js"></script>
         <script src="../assets/js/bootstrap.min.js"></script>
         <script src="../assets/js/main.js"></script>
         <script src="../controllers/controllers.js"></script>
     </head>
-    <body>
-        <div id="main-container">
-          <nav-bar></nav-bar>
-          <section id="page-content" ng-controller="testController as t">
-            <splash-top></splash-top>
-          </section>
-        </div>
+    <body ng-controller="pageController">
+      <nav-bar></nav-bar>
+      <div id="page-content" class="container fill">
+        <splash-top ng-show="current == 'splash'"></splash-top>
+        <login ng-show="current == 'login'"></login>
+        <signup ng-show="current == 'signup'"></signup>
+        <problem ng-show="current == 'problem'"></problem>
+      </div>
 
-
-        <form>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Contest</label>
-            <input type="text" class="form-control" id="contestVal" placeholder="Enter email">
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1">Year</label>
-            <input type="text" class="form-control" id="yearVal" placeholder="Password">
-          </div>
-          <button type="submit" id="submitQ" class="btn btn-default">Submit</button>
-        </form>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
-
-
-        <script>
-      $(document).ready(function(){
-        var year,contest;
-        $("#submitQ").click(function(){
-          year=$("#yearVal").val();
-          contest=$("#contestVal").val();
-          $.post("http://localhost:5000/search",{year: year,contest: contest}, function(data){
-            if(data === 'done')
-              {
-                alert("query success");
-              }
-          });
-        });
-      });
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
     </script>
     </body>
 </html>

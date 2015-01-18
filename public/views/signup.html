@@ -1,0 +1,29 @@
+<div id="signup-container" class="page-fill">
+	<div id="signup" class="col-sm-6 col-sm-offset-3" ng-controller="signupController">
+		<h2>fleek</h2>
+		<form name="signupForm" ng-submit="submit()" novalidate>
+			<div class="alert alert-danger alert-dismissible" role="alert" ng-show="err">
+				<button type="button" class="close" ng-click="err = false" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				Username already exists.
+			</div>
+			<div class="control-group form-group" ng-class="{'has-error':signupForm.user.$invalid && signupForm.user.$dirty}">
+				<input autofocus type="email" ng-model="user" class="form-control" name="user" placeholder="email" required>
+			</div>
+			<div class="control-group form-group" ng-class="{'has-error':signupForm.pass.$invalid && signupForm.pass.$dirty}">
+				<input type="password" ng-model="pass" ng-minlength="8" class="form-control" name="pass" placeholder="password" required>
+			</div>
+			<div class="control-group form-group">
+				<select class="form-control" ng-model="gen" name="gen" required>
+					<option></option>
+					<option>Male</option>
+					<option>Female</option>
+					<option>Other</option>
+				</select>
+			</div>
+			<div class="control-group form-group">
+				<select required class="form-control" ng-model="ctry" ng-options="c.name as c.name for c in countries"></select>
+			</div>
+			<button class="btn btn-primary" ng-disabled="signupForm.$invalid || submitted" type="submit">Sign Up</button>
+		</form>
+	</div>
+</div>
