@@ -9,6 +9,22 @@
 		};
 	});
 
+	app.controller("loginController", function($scope,$http) {
+		$scope.success = false;
+		$scope.error = false;
+	    $scope.submit = function(){
+	    	$http.post('../../login', {username: angular.lowercase($scope.user), password: $scope.pass})
+	    	.success(function(data) {
+	    		$scope.success = true;
+	    		console.log('success ' + angular.lowercase($scope.user) + $scope.pass);
+	    	})
+	    	.error(function(data) {
+	    		$scope.error = true;
+	    		console.log('fail');
+	    	})
+	    }
+	});
+
 	app.controller("signupController", function($scope,$http) {
 		$scope.success = false;
 		$scope.error = false;
@@ -33,6 +49,7 @@
 	    }
 	});
 
+	//nav-bar.html
 	app.directive("navBar", function() {
 		return {
 			restrict: 'E',
@@ -40,6 +57,7 @@
 		};
 	});
 
+	//splash-top.html
 	app.directive("splashTop", function() {
 		return {
 			restrict: 'E',
@@ -47,6 +65,7 @@
 		};
 	});
 
+	//login.html
 	app.directive("login", function() {
 		return {
 			restrict: 'E',
@@ -54,10 +73,19 @@
 		};
 	});
 
+	//signup.html
 	app.directive("signup", function() {
 		return {
 			restrict: 'E',
 			templateUrl: '../views/signup.html'
+		};
+	});
+
+	//problem.html
+	app.directive("problem", function() {
+		return {
+			restrict: 'E',
+			templateUrl: '../views/problem.html'
 		};
 	});
 

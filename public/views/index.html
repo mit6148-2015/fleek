@@ -15,16 +15,19 @@
 
         <script src="../assets/js/vendor/jquery-1.10.2.min.js"></script>
         <script src="../assets/js/vendor/angular.min.js"></script>
+        <script src="../assets/js/vendor/MathJax/MathJax.js"></script>
+        <script src="../config/mathjax-config.js"></script>
         <script src="../assets/js/bootstrap.min.js"></script>
         <script src="../assets/js/main.js"></script>
         <script src="../controllers/controllers.js"></script>
     </head>
     <body ng-controller="pageController" style="height: 100vh;">
       <nav-bar></nav-bar>
-      <div id="page-content" class="container fill" ng-hide="isAuthenticated">
+      <div id="page-content" class="container fill">
         <splash-top ng-show="current == 'splash'"></splash-top>
         <login ng-show="current == 'login'"></login>
         <signup ng-show="current == 'signup'"></signup>
+        <problem ng-show="current == 'problem'"></problem>
       </div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
