@@ -18,7 +18,7 @@
 	          <ul class="dropdown-menu" role="menu">
 	            <li><a href>Profile</a></li>
 	            <li><a href>Settings</a></li>
-	            <li><a href>Log Out</a></li>
+	            <li ng-show="isAuthenticated" ng-click="logout()"><a href>Log Out</a></li>
 	          </ul>
 	        </li>
 	      </ul>

@@ -1,36 +1,50 @@
 (function() {
 	var app = angular.module('fleekApp', []);
 
-	app.controller("pageController", function ($scope, $location) {
+	app.controller("pageController", function ($scope, $http, $location) {
 		$scope.current= "splash";
 		$scope.isAuthenticated = false;
 		$scope.setView = function(page) {
 			$scope.current = page;
 		};
+		$scope.setAuthentication = function(auth) {
+			$scope.isAuthenticated = auth;
+		}
+		$scope.logout = function() {
+			$http.get('../../logout')
+	        .success(function(data) {
+	            $scope.isAuthenticated=false;
+	       		$scope.setView('splash');
+	            console.log('logout successful');
+	        })
+		}
 	});
 
 	app.controller("loginController", function($scope,$http) {
 		$scope.submitted = false;
 		$scope.success = false;
-		$scope.error = false;
+		$scope.err = false;
 	    $scope.submit = function(){
 	    	$scope.submitted = true;
 	    	$http.post('../../login', {username: angular.lowercase($scope.user), password: $scope.pass})
-	    	.success(function(data) {
-	    		$scope.success = true;
-	    		console.log('success ' + angular.lowercase($scope.user) + $scope.pass);
-	    	})
-	    	.error(function(data) {
-	    		$scope.error = true;
-	    		console.log('fail');
-	    	})
+		    	.success(function(data) {
+		    		$scope.success = true;
+		    		console.log('success ' + angular.lowercase($scope.user));
+		    		$scope.setView('problem');
+		    		$scope.setAuthentication(true);
+		    	})
+		    	.error(function(data) {
+		    		$scope.err = true;
+		    		console.log('fail');
+		    		$scope.submitted = false;
+		    	})
 	    }
 	});
 
 	app.controller("signupController", function($scope,$http) {
 		$scope.submitted = false;
 		$scope.success = false;
-		$scope.error = false;
+		$scope.err = false;
 		$scope.countries = null;
 		$http.get('../assets/countries.json')
 	        .success(function(data) {
@@ -42,14 +56,17 @@
 	    $scope.submit = function(){
 	    	$scope.submitted = true;
 	    	$http.post('../../signup', {username: angular.lowercase($scope.user), password: $scope.pass, gender: $scope.gen, country: $scope.ctry})
-	    	.success(function(data) {
-	    		$scope.success = true;
-	    		console.log('success ' + angular.lowercase($scope.user) + $scope.pass + $scope.gen + $scope.ctry + "\n" + data);
-	    	})
-	    	.error(function(data) {
-	    		$scope.error = true;
-	    		console.log('fail');
-	    	})
+		    	.success(function(data) {
+		    		$scope.success = true;
+		    		console.log('success ' + angular.lowercase($scope.user));
+		    		$scope.setView('problem');
+		    		$scope.setAuthentication(true);
+		    	})
+		    	.error(function(data) {
+		    		$scope.err = true;
+		    		console.log('fail');
+		    		$scope.submitted = false;
+		    	})
 	    }
 	});
 
