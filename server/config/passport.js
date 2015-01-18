@@ -64,6 +64,8 @@ module.exports = function(passport) {
                 // set the user's local credentials
                 newUser.username = username;
                 newUser.password = newUser.generateHash(password);
+                newUser.gender = req.body.gender;
+                newUser.country = req.body.country;
 
                 // save the user
                 newUser.save(function(err) {
