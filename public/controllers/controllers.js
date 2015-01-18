@@ -21,10 +21,10 @@
 	        	$scope.countries=[{"name": "USA"}];
 	        });
 	    $scope.submit = function(){
-	    	$http.post('../../signup', {username: $scope.user, password: $scope.pass, gender: $scope.gen, country: $scope.ctry})
+	    	$http.post('../../signup', {username: angular.lowercase($scope.user), password: $scope.pass, gender: $scope.gen, country: $scope.ctry})
 	    	.success(function(data) {
 	    		$scope.success = true;
-	    		console.log('success ' + $scope.user + $scope.pass + $scope.gen + $scope.ctry);
+	    		console.log('success ' + angular.lowercase($scope.user) + $scope.pass + $scope.gen + $scope.ctry);
 	    	})
 	    	.error(function(data) {
 	    		$scope.error = true;
