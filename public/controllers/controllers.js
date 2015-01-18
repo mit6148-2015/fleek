@@ -1,7 +1,7 @@
 (function() {
 	var app = angular.module('fleekApp', []);
 
-	app.controller("pageController", function ($scope) {
+	app.controller("pageController", function ($scope, $location) {
 		$scope.current= "splash";
 		$scope.isAuthenticated = false;
 		$scope.setView = function(page) {
@@ -10,9 +10,11 @@
 	});
 
 	app.controller("loginController", function($scope,$http) {
+		$scope.submitted = false;
 		$scope.success = false;
 		$scope.error = false;
 	    $scope.submit = function(){
+	    	$scope.submitted = true;
 	    	$http.post('../../login', {username: angular.lowercase($scope.user), password: $scope.pass})
 	    	.success(function(data) {
 	    		$scope.success = true;
@@ -26,6 +28,7 @@
 	});
 
 	app.controller("signupController", function($scope,$http) {
+		$scope.submitted = false;
 		$scope.success = false;
 		$scope.error = false;
 		$scope.countries = null;
@@ -37,6 +40,7 @@
 	        	$scope.countries=[{"name": "USA"}];
 	        });
 	    $scope.submit = function(){
+	    	$scope.submitted = true;
 	    	$http.post('../../signup', {username: angular.lowercase($scope.user), password: $scope.pass, gender: $scope.gen, country: $scope.ctry})
 	    	.success(function(data) {
 	    		$scope.success = true;
@@ -47,6 +51,9 @@
 	    		console.log('fail');
 	    	})
 	    }
+	});
+
+	app.controller("problemController", function($scope,$http) {
 	});
 
 	//nav-bar.html

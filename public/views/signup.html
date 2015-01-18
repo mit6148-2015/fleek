@@ -1,25 +1,25 @@
 <div id="signup-container" class="page-fill">
 	<div id="signup" class="col-sm-6 col-sm-offset-3" ng-controller="signupController">
 		<h2>fleek</h2>
-		<form ng-submit="submit()">
-			<div class="form-group">
-				<input type="email" ng-model="user" class="form-control" name="email" placeholder="email" required>
+		<form name="signupForm" ng-submit="submit()" novalidate>
+			<div class="control-group form-group" ng-class="{'has-error':signupForm.user.$invalid && signupForm.user.$dirty}">
+				<input type="email" ng-model="user" class="form-control" name="user" placeholder="email" required>
 			</div>
-			<div class="form-group">
-				<input type="password" ng-model="pass" class="form-control" name="password" placeholder="password" required>
+			<div class="control-group form-group" ng-class="{'has-error':signupForm.pass.$invalid && signupForm.pass.$dirty}">
+				<input type="password" ng-model="pass" ng-minlength="8" class="form-control" name="pass" placeholder="password" required>
 			</div>
-			<div class="form-group">
-				<select class="form-control" ng-model="gen" name="gender" required>
+			<div class="control-group form-group">
+				<select class="form-control" ng-model="gen" name="gen" required>
 					<option></option>
 					<option>Male</option>
 					<option>Female</option>
 					<option>Other</option>
 				</select>
 			</div>
-			<div class="form-group">
-				<select required-select class="form-control" ng-model="ctry" ng-options="c.name as c.name for c in countries"></select>
+			<div class="control-group form-group">
+				<select required class="form-control" ng-model="ctry" ng-options="c.name as c.name for c in countries"></select>
 			</div>
-			<button class="btn btn-primary" type="submit">Sign Up</button>
+			<button class="btn btn-primary" ng-disabled="signupForm.$invalid || submitted" type="submit">Sign Up</button>
 		</form>
 	</div>
 </div>
