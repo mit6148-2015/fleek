@@ -1,15 +1,13 @@
 var express = require('express');
 var app = express();
-var port     = process.env.PORT || 5000;
+var port = process.env.PORT || 5000;
 var fs = require('fs');
 var morgan = require('morgan');
 var bodyParser = require('body-parser');
-var cookieParser = require('cookie-parser');
 var mongoose = require('mongoose');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 var session = require('express-session');
-var flash = require('connect-flash')
 var configDB = require(__dirname + '/server/config/database.js');
 
 // log requests to console
@@ -28,9 +26,6 @@ app.engine('html', function(path, options, cb) {
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// cookie parser
-app.use(cookieParser());
-
 // connect to database
 mongoose.connect(configDB.url);
 
@@ -41,7 +36,6 @@ app.use(session({ secret: 'fleeksesh',
                   resave: true}));
 app.use(passport.initialize());
 app.use(passport.session());
-app.use(flash());
 
 // add routes
 require(__dirname + '/server/routes/routes')(app, passport);
