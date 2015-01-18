@@ -11,14 +11,14 @@
 
 	app.controller("signupController", function($scope,$http) {
 		$scope.countries = null;
-		// $http.get('../assets/countries.json')
-	 //        .success(function(data) {
-	 //            $scope.countries=data;
-	 //        })
-	 //        .error(function(data) {
-	 //        	$scope.countries=[{'name': 'USA'}];
-	 //        });
-	   	$scope.countries = [{'name': 'USA'}];
+		$http.get('../assets/countries.json')
+	        .success(function(data) {
+	            $scope.countries=data;
+	        })
+	        .error(function(data) {
+	        	$scope.countries=[{"name": "USA"}];
+	        });
+	   	// $scope.countries = [{'name': 'USA'}];
 
 	});
 
