@@ -16,17 +16,20 @@ module.exports = function(app, passport) {
     // signup via Passport
     app.post('/signup', passport.authenticate('local-signup'), function(req, res) {
         console.log('successful signup');
+        res.send('signup successful');
     });
 
     // login via Passport
     app.post('/login', passport.authenticate('local-login'), function(req, res) {
         console.log('successful login');
+        res.send('login successful');
     });
 
     // logout via Passport
     app.get('/logout', function(req, res) {
         req.logout();
         res.redirect('/');
+        res.send('logout successful');
     });
 
     // provides list of countries
