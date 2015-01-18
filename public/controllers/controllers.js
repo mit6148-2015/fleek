@@ -10,6 +10,8 @@
 	});
 
 	app.controller("signupController", function($scope,$http) {
+		$scope.success = false;
+		$scope.error = false;
 		$scope.countries = null;
 		$http.get('../assets/countries.json')
 	        .success(function(data) {
@@ -18,8 +20,17 @@
 	        .error(function(data) {
 	        	$scope.countries=[{"name": "USA"}];
 	        });
-	   	// $scope.countries = [{'name': 'USA'}];
-
+	    $scope.submit = function(){
+	    	$http.post('../../signup', {username: $scope.user, password: $scope.pass, gender: $scope.gen, country: $scope.ctry})
+	    	.success(function(data) {
+	    		$scope.success = true;
+	    		console.log('success ' + $scope.user + $scope.pass + $scope.gen + $scope.ctry);
+	    	})
+	    	.error(function(data) {
+	    		$scope.error = true;
+	    		console.log('fail');
+	    	})
+	    }
 	});
 
 	app.directive("navBar", function() {
