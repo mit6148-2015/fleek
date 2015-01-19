@@ -128,10 +128,10 @@ tagSchema.methods.descendants = function() {
         
         currentTag.children().forEach(function(childTag) {
             if (descendantTags.indexOf(childTag) === -1)
-                descendantTags.push(childTag) // adds parent to ancestors if not already present
+                descendantTags.push(childTag) // adds child to descendants if not already present
 
             if (tagsToExpand.indexOf(childTag) === -1)
-                tagsToExpand.push(childTag) // adds parent to tags to expand if not already present
+                tagsToExpand.push(childTag) // adds child to tags to expand if not already present
         })
     }
 
