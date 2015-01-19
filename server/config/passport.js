@@ -1,7 +1,7 @@
 function configurePassport(passport) {
 
     var LocalStrategy = require('passport-local').Strategy;
-    var User = require('../models/user'); // might have to change path
+    var User = require('../models/user');
 
 
     // serialize user for the session
