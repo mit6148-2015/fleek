@@ -39,11 +39,15 @@
 		    	.success(function(data) {
 		    		$scope.setView('problem');
 		    		$scope.setAuthentication(true);
+		    		$scope.user = "";
+		    		$scope.pass = "";
+		    		$scope.submitted = false;
 		    		console.log(data);
 		    	})
 		    	.error(function(data) {
 		    		$scope.err = true;
 		    		$scope.submitted = false;
+		    		$scope.pass = "";
 		    		console.log(data);
 		    	})
 	    }
@@ -71,6 +75,7 @@
 		    	.success(function(data) {
 		    		$scope.setView('problem');
 		    		$scope.setAuthentication(true);
+		    		$scope.submitted = false;
 		    		console.log(data);
 		    	})
 		    	.error(function(data) {
@@ -78,6 +83,10 @@
 		    		$scope.submitted = false;
 		    		console.log(data);
 		    	})
+		    	$scope.user = "";
+		    	$scope.pass = "";
+		    	$scope.gen = "";
+		    	$scope.ctry = "";
 	    }
 	});
 
