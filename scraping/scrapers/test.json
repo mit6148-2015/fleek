@@ -1,0 +1,22 @@
+{
+    "answer_choices": [
+        "$-10$",
+        "$-6$",
+        "$0$",
+        "$6$",
+        "$10$"
+    ],
+    "answer_names": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+    ],
+    "source_name": "Art of Problem Solving",
+    "problem_statement": "Harry and Terry are each told to calculate $ 8-(2+5) $. Harry gets the correct answer. Terry ignores the parentheses and calculates $ 8-2+5 $. If Harry's answer is $ H $ and Terry's answer is $ T $, what is $ H-T $?",
+    "contest_name": "AMC 8",
+    "year": 2014,
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2014&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
+    "problem_number": 1
+}
