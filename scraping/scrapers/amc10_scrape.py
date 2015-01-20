@@ -106,11 +106,14 @@ def readPagesAMC10(year):
 				probNum = 1
 				contest = "P"
 			json.dump(data,out_file, indent=4, separators=(',', ': ')) 
+			out_file.write(",\n")
 
 # Use the main function to get the AIME problems for any year.
 if __name__ == '__main__':
+	out_file.write("[\n")
 	currind = 1
  	year = 2000
  	while year < 2015:
 		readPagesAMC10(year)
 		year = year + 1
+	out_file.write("]\n")

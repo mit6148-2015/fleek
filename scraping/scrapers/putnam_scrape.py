@@ -43,6 +43,7 @@ def readPagesPutnam(year):
 			print (mod + str(probNum))
 			data = {"contest_name":"Putnam", "name_modifier":mod,"year":year, "problem_number":probNum, "problem_statement":tb.get_text().strip(), "source_name":"Art of Problem Solving", "source_link": aimelink}
 			json.dump(data,out_file, indent=4, separators=(',', ': ')) 
+			out_file.write(",\n") 
 			probNum = probNum + 1
 			currind = currind + 1
 			if probNum == 7:
@@ -53,9 +54,11 @@ def readPagesPutnam(year):
 
 # Use the main function to get the AIME problems for any year.
 if __name__ == '__main__':
+	out_file.write("[ \n") 
 	currind = 1
  	year = 1994
  	while year < 2015:
 		readPagesPutnam(year)
 		year = year + 1
+	out_file.write("]")
 

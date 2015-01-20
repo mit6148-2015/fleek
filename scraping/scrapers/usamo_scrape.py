@@ -45,12 +45,15 @@ def readPagesUSAMO(year):
 			probNum = probNum + 1
 			currind = currind + 1
 			json.dump(data,out_file, indent=4, separators=(',', ': ')) 
+			out_file.write(",\n") 
 
 
 # Use the main function to get the AIME problems for any year.
 if __name__ == '__main__':
+	out_file.write("[") 
 	currind = 1
  	year = 1972
  	while year < 2015:
 		readPagesUSAMO(year)
 		year = year + 1
+	out_file.write("]") 
