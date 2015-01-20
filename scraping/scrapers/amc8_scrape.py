@@ -49,7 +49,11 @@ def getChoices(text):
 		if len(choice) > 0 and choice[0:2] == '\ ':
 			#print("YES")
 			choice = choice[1:].strip()
-		array = array + ['$'+choice+'$']			
+		if len(choice) > 0:
+			if choice[-1]=="\\":
+				choice = choice[:-1]
+			#print(choice)
+		array = array + ['$'+choice.strip()+'$']	
 		#print(x + ' $' + choice+'$')
 	return(array)
 
@@ -88,18 +92,22 @@ def readPagesAMC10(year):
 			#print(tb.get_text().strip())
 			print (probNum)
 			#print(tb.get_text().strip())
+
 			data = {"contest_name":contest, "year":year, "problem_number":probNum, "problem_statement":tb.get_text().strip(), "source_name":"Art of Problem Solving", "source_link": amclink, "answer_names":["A", "B", "C", "D", "E"], "answer_choices":contest_answers}
-			print(data)
+			#print(data)
 			currind = currind + 1
 			probNum = probNum + 1
 			json.dump(data,out_file, indent=4, separators=(',', ': ')) 
+			out_file.write(",\n")
 
 
 # Use the main function to get the AIME problems for any year.
 if __name__ == '__main__':
 	currind = 1
  	year = 1985
+ 	out_file.write("[\n")
  	while year < 2015:
 		readPagesAMC10(year)
 		year = year + 1
+	out_file.write("\n]")
 

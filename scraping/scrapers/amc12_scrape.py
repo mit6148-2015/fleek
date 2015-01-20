@@ -4,7 +4,7 @@ import xlwt
 import json
 # Using BeautifulSoup and urllib to scrape AIME problems. 
 
-out_file = open("amc12.json","w")
+out_file = open("amc12_part2.json","w")
 
 # Get the code from a LaTeX URL.
 def getLatex(url):
@@ -111,15 +111,18 @@ def readPagesAMC12(year):
 			if probNum == 26 and contest == "AMC 12 B":
 				probNum = 1
 				contest = "AMC 12 P"
-			json.dump(data,out_file, indent=4, separators=(',', ': ')) 
+			json.dump(data,out_file, indent=4, separators=(',', ': '))
+			out_file.write(",\n") 
 
 # Use the main function to get the AIME problems for any year.
 if __name__ == '__main__':
 	currind = 1
 	wb = xlwt.Workbook()
+	out_file.write("[\n")
 	ws = wb.add_sheet('AMC 12 Problems')
- 	year = 1950
+ 	year = 1988
  	#year = 2014
  	while year < 2015:
 		readPagesAMC12(year)
 		year = year + 1
+	out_file.write("]\n")

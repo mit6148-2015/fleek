@@ -1,1635 +1,1868 @@
-{
+[{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "The symbols $ (a,b,\\ldots,g) $ and $ [a,b,\\ldots,g] $ denote the greatest common divisor and least common multiple, respectively, of the positive integers $ a,b,\\ldots,g $. For example, $ (3,6,18)=3 $ and $ [6,15]=30 $. Prove that \\[ \\frac{[a,b,c]^2}{[a,b][b,c][c,a]}=\\frac{(a,b,c)^2}{(a,b)(b,c)(c,a)}. \\]",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1972&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1972,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "A given tetrahedron $ ABCD $ is isoceles, that is, $ AB=CD $, $ AC=BD $, $ AD=BC $. Show that the faces of the tetrahedron are acute-angled triangles.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1972&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1972,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "A random selector can only select one of the nine integers $ 1,2,\\ldots,9 $, and it makes these selections with equal probability. Determine the probability that after $ n $ selections ($ n>1 $), the product of the $ n $ numbers selected will be divisible by 10.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1972&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1972,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ R $ denote a non-negative rational number. Determine a fixed set of integers $ a,b,c,d,e,f $, such that for every choice of $ R $, \\[ \\left|\\frac{aR^2+bR+c}{dR^2+eR+f}-\\sqrt[3]{2}\\right| <\\left|R-\\sqrt[3]{2}\\right|. \\]",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1972&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1972,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "A given convex pentagon $ ABCDE $ has the property that the area of each of five triangles $ ABC, BCD, CDE, DEA $, and $ EAB $ is unity (equal to 1). Show that all pentagons with the above property have the same area, and calculate that area. Show, furthermore, that there are infinitely many non-congruent pentagons having the above area property.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1972&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1972,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Two points $ P $ and $ Q $ lie in the interior of a regular tetrahedron $ ABCD $. Prove that angle $ PAQ < 60^\\circ $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1973&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1973,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ \\{X_n\\} $ and $ \\{Y_n\\} $ denote two sequences of integers defined as follows:\\[ X_0 = 1,\\ X_1 = 1,\\ X_{n+1}= X_n+2X_{n-1}\\quad (n = 1,2,3,\\ldots),\\\\ Y_0 = 1,\\ Y_1 = 7,\\ Y_{n+1}= 2Y_n+3Y_{n-1}\\quad (n = 1,2,3,\\ldots). \\]Prove that, except for the \"1\", there is no term which occurs in both sequences.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1973&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1973,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Three distinct vertices are chosen at random from the vertices of a given regular polygon of $ (2n+1) $ sides. If all such choices are equally likely, what is the probability that the center of the given polygon lies in the interior of the triangle determined by the three chosen random points?",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1973&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1973,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Determine all roots, real or complex, of the system of simultaneous equations\n\\[ \\begin{align*}x+y+z &= 3,\\\\ x^2+y^2+z^2 &= 3,\\\\ x^3+y^3+z^3 &= 3.\\end{align*} \\]",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1973&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1973,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Show that the cube roots of three distinct prime numbers cannot be three terms (not necessarily consecutive) of an arithmetic progression.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1973&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1973,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ a,b, $ and $ c $ denote three distinct integers, and let $ P $ denote a polynomial having integer coefficients. Show that it is impossible that $ P(a) = b, P(b) = c, $ and $ P(c) = a $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1974&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1974,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Prove that if $ a,b, $ and $ c $ are positive real numbers, then \\[ a^ab^bc^c\\ge (abc)^{(a+b+c)/3}. \\]",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1974&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1974,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Two boundary points of a ball of radius 1 are joined by a curve contained in the ball and having length less than 2. Prove that the curve is contained entirely within some hemisphere of the given ball.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1974&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1974,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "A father, a mother and son hold a family tournament, playing a two person board game with no ties. The tournament rules are:\n(i) The weakest player chooses the first two contestants.\n(ii) The winner of any game plays the next game against the person left out.\n(iii) The first person to win two games wins the tournament.\nThe father is the weakest player, the son the strongest, and it is assumed that any player's probability of winning an individual game from another player does not change during the tournament.\nProve that the father's optimal strategy for winning the tournament is to play the first game with his wife.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1974&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1974,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Consider the two triangles $ ABC $ and $ PQR $ shown below. In triangle $ ABC,\\angle ADB =\\angle BDC =\\angle CDA = 120^\\circ $. Prove that $ x=u+v+w $.\n[asy]unitsize(7mm);defaultpen(linewidth(.7pt)+fontsize(10pt));pair C=(0,0), B=4*dir(5);pair A=intersectionpoints(Circle(C,5), Circle(B,6))[0];pair Oc=scale(sqrt(3)/3)*rotate(30)*(B-A)+A;pair Ob=scale(sqrt(3)/3)*rotate(30)*(A-C)+C;pair D=intersectionpoints(Circle(Ob,length(Ob-C)), Circle(Oc,length(Oc-B)))[1];real s=length(A-D)+length(B-D)+length(C-D);pair P=(6,0), Q=P+(s,0), R=rotate(60)*(s,0)+P;pair M=intersectionpoints(Circle(P,length(B-C)), Circle(Q,length(A-C)))[0];draw(A--B--C--A--D--B);draw(D--C);label(\"$B$\",B,SE);label(\"$C$\",C,SW);label(\"$A$\",A,N);label(\"$D$\",D,NE);label(\"$a$\",midpoint(B--C),S);label(\"$b$\",midpoint(A--C),WNW);label(\"$c$\",midpoint(A--B),NE);label(\"$u$\",midpoint(A--D),E);label(\"$v$\",midpoint(B--D),N);label(\"$w$\",midpoint(C--D),NNW);draw(P--Q--R--P--M--Q);draw(M--R);label(\"$P$\",P,SW);label(\"$Q$\",Q,SE);label(\"$R$\",R,N);label(\"$M$\",M,NW);label(\"$x$\",midpoint(P--R),NW);label(\"$x$\",midpoint(P--Q),S);label(\"$x$\",midpoint(Q--R),NE);label(\"$c$\",midpoint(R--M),ESE);label(\"$a$\",midpoint(P--M),NW);label(\"$b$\",midpoint(Q--M),NE);[/asy]",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1974&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1974,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "(a) Prove that \\[ [5x]+[5y]\\ge [3x+y]+[3y+x], \\] where $ x,y\\ge 0 $ and $ [u] $ denotes the greatest integer $ \\le u $ (e.g., $ [\\sqrt{2}]=1 $).\n(b) Using (a) or otherwise, prove that \\[ \\frac{(5m)!(5n)!}{m!n!(3m+n)!(3n+m)!} \\] is integral for all positive integral $ m $ and $ n $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1975&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1975,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ A,B,C, $ and $ D $ denote four points in space and $ AB $ the distance between $ A $ and $ B $, and so on. Show that \\[ AC^2+BD^2+AD^2+BC^2\\ge AB^2+CD^2. \\]",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1975&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1975,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "If $ P(x) $ denotes a polynomial of degree $ n $ such that $ P(k)=\\frac{k}{k+1} $ for $ k=0,1,2,\\ldots,n $, determine $ P(n+1) $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1975&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1975,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Two given circles intersect in two points $ P $ and $ Q $. Show how to construct a segment $ AB $ passing through $ P $ and terminating on the circles such that $ AP\\cdot PB $ is a maximum.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1975&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1975,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "A deck of $ n $ playing cards, which contains three aces, is shuffled at random (it is assumed that all possible card distributions are equally likely). The cards are then turned up one by one from the top until the second ace appears. Prove that the expected (average) number of cards to be turned up is $ (n+1)/2 $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1975&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1975,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "(a) Suppose that each square of a 4 x 7 chessboard is colored either black or white. Prove that with any such coloring, the board must contain a rectangle (formed by the horizontal and vertical lines of the board) whose four distinct unit corner squares are all of the same color.\n(b) Exhibit a black-white coloring of a 4 x6 board in which the four corner squares of every rectangle, as described above, are not all of the same color.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1976&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1976,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "If $ A $ and $ B $ are fixed points on a given circle and $ XY $ is a variable diameter of the same circle, determine the locus of the point of intersection of lines $ AX $ and $ BY $. You may assume that $ AB $ is not a diameter.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1976&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1976,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Determine all integral solutions of \\[ a^2+b^2+c^2=a^2b^2. \\]",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1976&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1976,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "If the sum of the lengths of the six edges of a trirectangular tetrahedron $ PABC $ (i.e., $ \\angle APB =\\angle BPC =\\angle CPA = 90^\\circ $) is $ S $, determine its maximum volume.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1976&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1976,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "If $ P(x),Q(x),R(x) $, and $ S(x) $ are all polynomials such that \\[ P(x^5)+xQ(x^5)+x^2R(x^5)=(x^4+x^3+x^2+x+1)S(x), \\] prove that $ x-1 $ is a factor of $ P(x) $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1976&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1976,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Determine all pairs of positive integers $ (m,n) $ such that\n$ (1+x^n+x^{2n}+\\cdots+x^{mn}) $ is divisible by $ (1+x+x^2+\\cdots+x^{m}) $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1977&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1977,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "$ ABC $ and $ A'B'C' $ are two triangles in the same plane such that the lines $ AA',BB',CC' $ are mutually parallel. Let $ [ABC] $ denotes the area of triangle $ ABC $ with an appropriate $ \\pm $ sign, etc.; prove that\n\\[ 3([ABC]+[A'B'C']) = [AB'C']+[BC'A']+[CA'B']+[A'BC]+[B'CA]+[C'AB]. \\]",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1977&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1977,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "If $ a $ and $ b $ are two of the roots of $ x^4+x^3-1=0 $, prove that $ ab $ is a root of $ x^6+x^4+x^3-x^2-1=0 $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1977&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1977,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Prove that if the opposite sides of a skew (non-planar) quadrilateral are congruent, then the line joining the midpoints of the two diagonals is perpendicular to these diagonals, and conversely, if the line joining the midpoints of the two diagonals of a skew quadrilateral is perpendicular to these diagonals, then the opposite sides of the quadrilateral are congruent.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1977&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1977,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "If $ a,b,c,d,e $ are positive numbers bounded by $ p $ and $ q $, i.e, if they lie in $ [p,q], 0 < p $, prove that\\[ (a+b+c+d+e)\\left(\\frac{1}{a}+\\frac{1}{b}+\\frac{1}{c}+\\frac{1}{d}+\\frac{1}{e}\\right)\\le 25+6\\left(\\sqrt{\\frac{p}{q}}-\\sqrt{\\frac{q}{p}}\\right)^2 \\]and determine when there is equality.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1977&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1977,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Given that $ a,b,c,d,e $ are real numbers such that$ a+b+c+d+e=8 $,$ a^2+b^2+c^2+d^2+e^2=16 $.Determine the maximum value of $ e $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1978&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1978,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "$ ABCD $ and $ A'B'C'D' $ are square maps of the same region, drawn to different scales and superimposed as shown in the figure. Prove that there is only one point $ O $ on the small map that lies directly over point $ O' $ of the large map such that $ O $ and $ O' $ each represent the same place of the country. Also, give a Euclidean construction (straight edge and compass) for $ O $.[asy]defaultpen(linewidth(0.7)+fontsize(10));// -- change small square parameters here! -- azjpsreal theta = -100, r = 0.3; pair D2 = (0.3,0.76);// -- end parameters changed -- string[] lbl = {'A', 'B', 'C', 'D'}; draw(unitsquare); draw(shift(D2)*rotate(theta)*scale(r)*unitsquare);for(int i = 0; i < lbl.length; ++i) { pair Q = dir(135-90*i), P = (.5,.5)+Q/2^.5; label(\"$\"+lbl[i]+\"'$\", P, Q); label(\"$\"+lbl[i]+\"$\",D2+rotate(theta)*(r*P), rotate(theta)*Q);}[/asy]",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1978&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1978,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "An integer $ n $ will be called good if we can write$ n=a_1+a_2+\\cdots+a_k $,where $ a_1,a_2,\\ldots, a_k $ are positive integers (not necessarily distinct) satisfying$ \\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}=1 $.Given the information that the integers 33 through 73 are good, prove that every integer $ \\ge 33 $ is good.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1978&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1978,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "(a) Prove that if the six dihedral (i.e. angles between pairs of faces) of a given tetrahedron are congruent, then the tetrahedron is regular.(b) Is a tetrahedron necessarily regular if five dihedral angles are congruent?",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1978&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1978,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Nine mathematicians meet at an international conference and discover that among any three of them, at least two speak a common language. If each of the mathematicians speak at most three languages, prove that there are at least three of the mathematicians who can speak the same language.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1978&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1978,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Determine all non-negative integral solutions $ (n_{1},n_{2},\\dots , n_{14}) $ if any, apart from permutations, of the Diophantine Equation $ n_{1}^{4}+n_{2}^{4}+\\cdots+n_{14}^{4}=1599 $",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1979&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1979,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ S $ be a great circle with pole $ P $.  On any great circle through $ P $, two points $ A $ and $ B $ are chosen equidistant from $ P $.  For any  spherical triangle  $ ABC $ (the sides are great circles ares), where $ C $ is on $ S $, prove that the great circle are $ CP $ is the angle bisector of angle $ C $.   Note.   A great circle on a sphere is one whose center is the center of the sphere.  A pole of the great circle $ S $ is a point $ P $ on the sphere such that the diameter through $ P $ is perpendicular to the plane of $ S $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1979&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1979,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Given three identical $ n $- faced dice whose corresponding faces are identically numbered with arbitrary integers.  Prove that if they are tossed at random, the probability that the sum of the bottom three face numbers is divisible by three is greater than or equal to $ \\frac{1}{4} $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1979&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1979,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Show how to construct a chord $ BPC $ of a given angle $ A $ through a given point $ P $ such that $ \\frac{1}{BP}+\\frac{1}{PC} $ is a maximum.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1979&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1979,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "A certain organization has $ n $ members, and it has $ n+1 $ three-member committees, no two of which have identical member-ship.  Prove that there are two committees which share exactly one members.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1979&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1979,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "A two-pan balance is innacurate since its balance arms are of different lengths and its pans are of different weights. Three objects of different weights $ A $, $ B $, and $ C $ are each weighed separately. When placed on the left-hand pan, they are balanced by weights $ A_1 $, $ B_1 $, and $ C_1 $, respectively. When $ A $ and $ B $ are placed on the right-hand pan, they are balanced by $ A_2 $ and $ B_2 $, respectively. Determine the true weight of $ C $ in terms of $ A_1, B_1, C_1, A_2 $, and $ B_2 $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1980&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1980,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Determine the maximum number of three-term arithmetic progressions which can be chosen from a sequence of $ n $ real numbers$ a_1<a_2<\\cdots<a_n $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1980&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1980,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ F_r=x^r\\sin{rA}+y^r\\sin{rB}+z^r\\sin{rC} $, where $ x,y,z,A,B,C $ are real and $ A+B+C $ is an integral multiple of $ \\pi $. Prove that if $ F_1=F_2=0 $, then $ F_r=0 $ for all positive integral $ r $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1980&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1980,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "The inscribed sphere of a given tetrahedron touches all four faces of the tetrahedron at their respective centroids. Prove that the tetrahedron is regular.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1980&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1980,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Prove that for numbers $ a,b,c $ in the interval $ [0,1] $,$ \\frac{a}{b+c+1}+\\frac{b}{c+a+1}+\\frac{c}{a+b+1}+(1-a)(1-b)(1-c)\\le 1 $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1980&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1980,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "The measure of a given angle is $ \\frac{180^{\\circ}}{n} $ where $ n $ is a positive integer not divisible by $ 3 $. Prove that the angle can be trisected by Euclidean means (straightedge and compasses).",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1981&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1981,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Every pair of communities in a county are linked directly by one mode of transportation; bus, train, or airplane. All three methods of transportation are used in the county with no community being serviced by all three modes and no three communities being linked pairwise by the same mode. Determine the largest number of communities in this county.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1981&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1981,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "If $ A,B,C $ are the angles of a triangle, prove that\\[ -2\\le\\sin{3A}+\\sin{3B}+\\sin{3C}\\le\\frac{3\\sqrt{3}}{2} \\]and determine when equality holds.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1981&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1981,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "The sum of the measures of all the face angles of a given complex polyhedral angle is equal to the sum of all its dihedral angles. Prove that the polyhedral angle is a trihedral angle.$ \\mathbf{Note:} $ A convex polyhedral angle may be formed by drawing rays from an exterior point to all points of a convex polygon.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1981&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1981,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "If $ x $ is a positive real number, and $ n $ is a positive integer, prove that\\[ [ nx] >\\frac{[ x]}{1}+\\frac{[ 2x]}{2}+\\frac{[ 3x]}{3}+\\cdots+\\frac{[ nx]}{n}, \\]where $ [t] $ denotes the greatest integer less than or equal to $ t $. For example, $ [\\pi] = 3 $ and $ \\left[\\sqrt2\\right] = 1 $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1981&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1981,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "In a party with $ 1982 $ persons, among any group of four there is at least one person who knows each of the other three. What is the minimum number of people in the party who know everyone else.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1982&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1982,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ X_r=x^r+y^r+z^r $ with $ x,y,z $ real. It is known that if $ S_1=0 $,$ (*) $ $ \\frac{S_{m+n}}{m+n}=\\frac{S_m}{m}\\frac{S_n}{n} $for $ (m,n)=(2,3),(3,2),(2,5) $, or $ (5,2) $. Determine all other pairs of integers $ (m,n) $ if any, so that $ (*) $ holds for all real numbers $ x,y,z $ such that $ x+y+z=0 $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1982&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1982,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "If a point $ A_1 $ is in the interior of an equilateral triangle $ ABC $ and point $ A_2 $ is in the interior of $ \\triangle{A_1BC} $, prove that$ I.Q. (A_1BC) > I.Q.(A_2BC) $,where the isoperrimetric quotient of a figure $ F $ is defined by$ I.Q.(F) =\\frac{\\text{Area (F)}}{\\text{[Perimeter (F)]}^2} $",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1982&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1982,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Prove that there exists a positive integer $ k $ such that $ k\\cdot2^n+1 $ is composite for every integer $ n $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1982&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1982,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "$ A,B $, and $ C $ are three interior points of a sphere $ S $ such that $ AB $ and $ AC $ are perpendicular to the diameter of $ S $ through $ A $, and so that two spheres can be constructed through $ A $, $ B $, and $ C $ which are both tangent to $ S $. Prove that the sum of their radii is equal to the radius of $ S $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1982&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1982,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "On a given circle, six points $ A $, $ B $, $ C $, $ D $, $ E $, and $ F $ are chosen at random, independently and uniformly with respect to arc length. Determine the probability that the two triangles $ ABC $ and $ DEF $ are disjoint, i.e., have no common points.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1983&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1983,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Prove that the roots of\\[ x^5+ax^4+bx^3+cx^2+dx+e = 0 \\] cannot all be real if $ 2a^2 < 5b $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1983&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1983,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Each set of a finite family of subsets of a line is a union of two closed intervals. Moreover, any three of the sets of the family have a point in common. Prove that there is a point which is common to at least half the sets of the family.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1983&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1983,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Six segments $ S_1, S_2, S_3, S_4, S_5, $ and $ S_6 $ are given in a plane. These are congruent to the edges $ AB, AC, AD, BC, BD, $ and $ CD $, respectively, of a tetrahedron $ ABCD $. Show how to construct a segment congruent to the altitude of the tetrahedron from vertex $ A $ with straight-edge and compasses.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1983&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1983,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Consider an open interval of length $ 1/n $ on the real number line, where $ n $ is a positive integer. Prove that the number of irreducible fractions $ p/q $, with $ 1\\le q\\le n $, contained in the given interval is at most $ (n+1)/2 $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1983&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1983,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "The product of two of the four roots of the quartic equation $ x^4-18x^3+kx^2+200x-1984=0 $ is $ -32 $. Determine the value of $ k $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1984&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1984,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "The geometric mean of any set of $ m $ non-negative numbers is the $ m $-th root of their product.$ \\quad (\\text{i})\\quad $ For which positive integers $ n $ is there a finite set $ S_n $ of $ n $ distinct positive integers such that the geometric mean of any subset of $ S_n $ is an integer?$ \\quad (\\text{ii})\\quad $ Is there an infinite set $ S $ of distinct positive integers such that the geometric mean of any finite subset of $ S $ is an integer?",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1984&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1984,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "$ P, A, B, C, $ and $ D $ are five distinct points in space such that $ \\angle APB =\\angle BPC =\\angle CPD =\\angle DPA =\\theta $, where $ \\theta $ is a given acute angle. Determine the greatest and least values of $ \\angle APC+\\angle BPD $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1984&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1984,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "A difficult mathematical competition consisted of a Part I and a Part II with a combined total of $ 28 $ problems. Each contestant solved $ 7 $ problems altogether. For each pair of problems, there were exactly two contestants who solved both of them. Prove that there was a contestant who, in Part I, solved either no problems or at least four problems.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1984&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1984,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "$ P(x) $ is a polynomial of degree $ 3n $ such that\\[ \\begin{eqnarray*}P(0) = P(3) =\\cdots &=& P(3n) = 2,\\\\ P(1) = P(4) =\\cdots &=& P(3n-2) = 1,\\\\ P(2) = P(5) =\\cdots &=& P(3n-1) = 0,\\quad\\text{ and }\\\\ && P(3n+1) = 730.\\end{eqnarray*} \\]Determine $ n $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1984&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1984,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Determine whether or not there are any positive integral solutions of the simultaneous equations \\[ x_1^2+x_2^2+\\cdots+x_{1985}^2=y^3\\\\\\\\ x_1^3+x_2^3+\\cdots+x_{1985}^3=z^2 \\]with distinct integers $ x_1,x_2,\\cdots,x_{1985} $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1985&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1985,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Determine each real root of$ x^4-(2\\cdot10^{10}-1)x^3-x+10^{20}+10^{10}-1=0 $correct to four decimal places.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1985&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1985,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ A,B,C,D $ denote four points in space such that at most one of the distances $ AB,AC,AD,BC,BD,CD $ is greater than $ 1 $. Determine the maximum value of the sum of the six distances.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1985&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1985,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ a_1,a_2,a_3,\\cdots $ be a non-decreasing sequence of positive integers. For $ m\\ge1 $, define $ b_m=\\min\\{n: a_n\\ge m\\} $, that is, $ b_m $ is the minimum value of $ n $ such that $ a_n\\ge m $. If $ a_{19}=85 $, determine the maximum value of$ a_1+a_2+\\cdots+a_{19}+b_1+b_2+\\cdots+b_{85} $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1985&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1985,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "$ 0\\le a_1\\le a_2\\le a_3\\le\\cdots $ is an unbounded sequence of integers. Let $ b_n = m $ if $ a_m $ is the first member of the sequence to equal or exceed $ n $. Given that $ a_{19}=85 $, what is the maximum possible value of $ a_1+a_2+\\cdots a_{19}+b_1+b_2+\\cdots b_{85} $",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1985&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1985,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "$ (\\text{a}) $ Do there exist 14 consecutive positive integers each of which is divisible by one or more primes $ p $ from the interval $ 2\\le p\\le 11 $?$ (\\text{b}) $ Do there exist 21 consecutive positive integers each of which is divisible by one or more primes $ p $ from the interval $ 2\\le p\\le 13 $?",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1986&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1986,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "During a certain lecture, each of five mathematicians fell asleep exactly twice. For each pair of mathematicians, there was some moment when both were asleep simultaneously. Prove that, at some moment, three of them were sleeping simultaneously.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1986&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1986,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "What is the smallest integer $ n $, greater than one, for which the root-mean-square of the first $ n $ positive integers is an integer?$ \\mathbf{Note.} $ The root-mean-square of $ n $ numbers $ a_1, a_2,\\cdots, a_n $ is defined to be\\[ \\left[\\frac{a_1^2+a_2^2+\\cdots+a_n^2}{n}\\right]^{1/2} \\]",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1986&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1986,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Two distinct circles $ K_1 $ and $ K_2 $ are drawn in the plane. They intersect at points $ A $ and $ B $, where $ AB $ is the diameter of $ K_1 $. A point $ P $ on $ K_2 $ and inside $ K_1 $ is also given.Using only a \"T-square\" (i.e. an instrument which can produce a straight line joining two points and the perpendicular to a line through a point on or off the line), find a construction for two points $ C $ and $ D $ on $ K_1 $ such that $ CD $ is perpendicular to $ AB $ and $ \\angle CPD $ is a right angle.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1986&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1986,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "By a partition $ \\pi $ of an integer $ n\\ge 1 $, we mean here a representation of $ n $ as a sum of one or more positive integers where the summands must be put in nondecreasing order. (E.g., if $ n=4 $, then the partitions $ \\pi $ are $ 1+1+1+1 $, $ 1+1+2 $, $ 1+3, 2+2 $, and $ 4 $).For any partition $ \\pi $, define $ A(\\pi) $ to be the number of $ 1 $'s which appear in $ \\pi $, and define $ B(\\pi) $ to be the number of distinct integers which appear in $ \\pi $. (E.g., if $ n=13 $ and $ \\pi $ is the partition $ 1+1+2+2+2+5 $, then $ A(\\pi)=2 $ and $ B(\\pi) = 3 $).Prove that, for any fixed $ n $, the sum of $ A(\\pi) $ over all partitions of $ \\pi $ of $ n $ is equal to the sum of $ B(\\pi) $ over all partitions of $ \\pi $ of $ n $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1986&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1986,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Find all solutions to $ (m^2+n)(m+n^2)= (m-n)^3 $, where m and n are non-zero integers.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1987&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1987,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "The feet of the angle bisectors of $ \\Delta ABC $ form a right-angled triangle. If the right-angle is at $ X $, where $ AX $ is the bisector of $ \\angle A $, find all possible values for $ \\angle A $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1987&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1987,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "$ X $ is the smallest set of polynomials $ p(x) $ such that: 1. $ p(x) = x $ belongs to $ X $.2. If $ r(x) $ belongs to $ X $, then $ x\\cdot r(x) $ and $ (x+(1-x)\\cdot r(x) ) $ both belong to $ X $. Show that if $ r(x) $ and $ s(x) $ are distinct elements of $ X $, then $ r(x)\\neq s(x) $ for any $ 0 < x < 1 $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1987&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1987,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "M is the midpoint of XY. The points P and Q lie on a line through Y on opposite sides of Y, such that $ |XQ| = 2|MP| $ and $ \\frac{|XY|}{2} < |MP| <\\frac{3|XY|}{2} $. For what value of $ \\frac{|PY|}{|QY|} $ is $ |PQ| $ a minimum?",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1987&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1987,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "$ a_1, a_2,\\cdots, a_n $ is a sequence of 0's and 1's. T is the number of triples $ (a_i, a_j, a_k) $ with $ i<j<k $ which are not equal to (0, 1, 0) or (1, 0, 1). For $ 1\\le i\\le n $, $ f(i) $ is the number of $ j<i $ with $ a_j = a_i $ plus the number of $ j>i $ with $ a_j\\neq a_i $. Show that $ T=\\sum_{i=1}^n f(i)\\cdot\\left(\\frac{f(i)-1}{2}\\right) $. If n is odd, what is the smallest value of T?",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1987&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1987,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "The repeating decimal $ 0.ab\\cdots k\\overline{pq\\cdots u}=\\frac{m}{n} $, where $ m $ and $ n $ are relatively prime integers, and there is at least one decimal before the repeating part. Show that $ n $ is divisible by $ 2 $ or $ 5 $ (or both). (For example, $ 0.011\\overline{36}= 0.01136363636\\cdots =\\frac{1}{88} $, and $ 88 $ is divisible by $ 2 $.)",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1988&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1988,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "The cubic polynomial $ x^3+ax^2+bx+c $ has real coefficients and three real roots $ r\\ge s\\ge t $. Show that $ k = a^2-3b\\ge 0 $ and that $ \\sqrt{k}\\le r-t $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1988&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1988,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ X $ be the set $ \\{ 1, 2,\\cdots, 20\\} $ and let $ P $ be the set of all 9-element subsets of $ X $. Show that for any map $ f: P\\mapsto X $ we can find a 10-element subset $ Y $ of $ X $, such that $ f(Y-\\{ k\\})\\ne k $ for any $ k $ in $ Y $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1988&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1988,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "$ \\triangle ABC $ is a triangle with incenter $ I $. Show that the circumcenters of $ \\triangle IAB,\\triangle IBC,\\triangle ICA $ lie on a circle whose center is the circumcenter of $ \\triangle ABC $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1988&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1988,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ p(x) $ be the polynomial $ (1-x)^a (1-x^2)^b (1-x^3)^c\\cdots (1-x^{32})^k $, where $ a, b,\\cdots, k $ are integers. When expanded in powers of $ x $, the coefficient of $ x^1 $ is $ -2 $ and the coefficients of $ x^2, x^3,\\cdots, x^{32} $ are all zero. Find $ k $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1988&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1988,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "For each positive integer $ n $, let\n\\[ \\begin{eqnarray*}S_n &=& 1+\\frac{1}{2}+\\frac{1}{3}+\\cdots+\\frac{1}{n},\\\\ T_n &=& S_1+S_2+S_3+\\cdots+S_n,\\\\ U_n &=&\\frac{T_1}{2}+\\frac{T_2}{3}+\\frac{T_3}{4}+\\cdots+\\frac{T_n}{n+1}.\\end{eqnarray*} \\] Find, with proof, integers $ 0 < a, b,c, d < 1000000 $ such that $ T_{1988}= a S_{1989}-b $ and $ U_{1988}= c S_{1989}-d $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1989&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1989,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "The 20 members of a local tennis club have scheduled exactly 14 two-person games among themselves, with each member playing in at least one game. Prove that within this schedule there must be a set of 6 games with 12 distinct players.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1989&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1989,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ P(z)= z^n+c_1 z^{n-1}+c_2 z^{n-2}+\\cdots+c_n $ be a polynomial in the complex variable $ z $, with real coefficients $ c_k $. Suppose that $ |P(i)| < 1 $. Prove that there exist real numbers $ a $ and $ b $ such that $ P(a+bi) = 0 $ and $ (a^2+b^2+1)^2 < 4 b^2+1 $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1989&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1989,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ ABC $ be an acute-angled triangle whose side lengths satisfy the inequalities $ AB < AC < BC $. If point $ I $ is the center of the inscribed circle of triangle $ ABC $ and point $ O $ is the center of the circumscribed circle, prove that line $ IO $ intersects segments $ AB $ and $ BC $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1989&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1989,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ u $ and $ v $ be real numbers such that\n\\[ (u+u^2+u^3+\\cdots+u^8)+10u^9 = (v+v^2+v^3+\\cdots+v^{10})+10v^{11}= 8. \\]\nDetermine, with proof, which of the two numbers, $ u $ or $ v $, is larger.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1989&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1989,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "A certain state issues license plates consisting of six digits (from 0 to 9).  The state requires that any two license plates differ in at least two places.  (For instance, the numbers 027592 and 020592 cannot both be used.)  Determine, with proof, the maximum number of distinct license plates that the state can use.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1990&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1990,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "A sequence of functions $ \\,\\{f_n(x)\\}\\, $ is defined recursively as follows: \\[ f_1(x) =\\sqrt{x^2+48},\\quad\\mbox{and}\\\\ f_{n+1}(x) =\\sqrt{x^2+6f_n(x)}\\quad\\mbox{for }n\\geq 1. \\]\n(Recall that $ \\sqrt{\\makebox[5mm]{}} $ is understood to represent the positive square root.) For each positive integer $ n $, find all real solutions of the equation $ \\, f_n(x) = 2x\\, $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1990&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1990,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Suppose that necklace $ \\, A\\, $ has 14 beads and necklace $ \\, B\\, $ has 19. Prove that for any odd integer $ n\\geq 1 $, there is a way to number each of the 33 beads with an integer from the sequence \\[ \\{ n, n+1, n+2,\\dots, n+32\\} \\] so that each integer is used once, and adjacent beads correspond to relatively prime integers. (Here a ``necklace'' is viewed as a circle in which each bead is adjacent to two other beads.)",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1990&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1990,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Find, with proof, the number of positive integers whose base-$ n $ representation consists of distinct digits with the property that, except for the leftmost digit, every digit differs by $ \\pm 1 $ from some digit further to the left. (Your answer should be an explicit function of $ n $ in simplest form.)",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1990&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1990,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "An acute-angled triangle $ ABC $ is given in the plane. The circle with diameter $ \\, AB\\, $ intersects altitude $ \\, CC'\\, $ and its extension at points $ \\, M\\, $ and $ \\, N\\, $, and the circle with diameter $ \\, AC\\, $ intersects altitude $ \\, BB'\\, $ and its extensions at $ \\, P\\, $ and $ \\, Q\\, $. Prove that the points $ \\, M, N, P, Q\\, $ lie on a common circle.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1990&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1990,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "In triangle $ \\, ABC,\\, $ angle $ \\,A\\, $ is twice angle $ \\,B,\\, $ angle $ \\,C\\, $ is obtuse, and the three side lengths $ \\,a,b,c\\, $ are integers.  Determine, with proof, the minimum possible perimeter.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1991&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1991,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "For any nonempty set $ \\,S\\, $ of numbers, let $ \\,\\sigma(S)\\, $ and $ \\,\\pi(S)\\, $ denote the sum and product, respectively, of the elements of $ \\,S\\, $.  Prove that\n\\[ \\sum\\frac{\\sigma(S)}{\\pi(S)}= (n^2+2n)-\\left(1+\\frac{1}{2}+\\frac{1}{3}+\\cdots+\\frac{1}{n}\\right) (n+1), \\]\nwhere ``$ \\Sigma $'' denotes a sum involving all nonempty subsets $ S $ of $ \\{1,2,3,\\ldots,n\\} $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1991&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1991,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Show that, for any fixed integer $ \\,n\\geq 1,\\, $ the sequence \\[ 2,\\; 2^2,\\; 2^{2^2},\\; 2^{2^{2^2}},\\ldots (\\mbox{mod}\\; n) \\] is eventually constant. \n\n[The tower of exponents is defined by $ a_1 = 2,\\; a_{i+1}= 2^{a_i} $. Also $ a_i\\; (\\mbox{mod}\\; n) $ means the remainder which results from dividing $ \\,a_i\\, $ by $ \\,n $.]",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1991&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1991,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ a =\\frac{m^{m+1}+n^{n+1}}{m^m+n^n} $, where $ m $ and $ n $ are positive integers.  Prove that $ a^m+a^n\\geq m^m+n^n $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1991&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1991,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ \\, D\\, $ be an arbitrary point on side $ \\, AB\\, $ of a given triangle $ \\, ABC,\\, $ and let $ \\, E\\, $ be the interior point where $ \\, CD\\, $ intersects the external common tangent to the incircles of triangles $ \\, ACD\\, $ and $ \\, BCD $.  As $ \\, D\\, $ assumes all positions between $ \\, A\\, $ and $ \\, B\\, $, prove that the point $ \\, E\\, $ traces the arc of a circle.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1991&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1991,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Find, as a function of $ \\, n,\\, $ the sum of the digits of \n\\[ 9\\times 99\\times 9999\\times\\cdots\\times\\left( 10^{2^n}-1\\right), \\]\nwhere each factor has twice as many digits as the previous one.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1992&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1992,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Prove \\[ \\frac{1}{\\cos 0^\\circ\\cos 1^\\circ}+\\frac{1}{\\cos 1^\\circ\\cos 2^\\circ}+\\cdots+\\frac{1}{\\cos 88^\\circ\\cos 89^\\circ}=\\frac{\\cos 1^\\circ}{\\sin^2 1^\\circ}. \\]",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1992&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1992,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "For a nonempty set $ \\, S\\, $ of integers, let $ \\,\\sigma(S)\\, $ be the sum of the elements of $ \\, S $.  Suppose that $ \\, A =\\{a_1, a_2,\\ldots, a_{11}\\}\\, $ is a set of positive integers with $ \\, a_1 < a_2 <\\cdots < a_{11}\\, $ and that, for each positive integer $ \\, n\\leq 1500,\\, $ there is a subset  $ \\, S\\, $ of $ \\, A\\, $ for which $ \\,\\sigma(S) = n $.  What is the smallest possible value of $ \\, a_{10} $?",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1992&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1992,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Chords $ AA^{\\prime} $, $ BB^{\\prime} $, $ CC^{\\prime} $ of a sphere meet at an interior point $ P $ but are not contained in a plane.  The sphere through $ A $, $ B $, $ C $, $ P $ is tangent to the sphere through $ A^{\\prime} $, $ B^{\\prime} $, $ C^{\\prime} $, $ P $. Prove that $ \\, AA' = BB' = CC' $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1992&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1992,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ \\, P(z)\\, $ be a polynomial with complex coefficients which is of degree $ \\, 1992\\, $ and has distinct zeros. Prove that there exist complex numbers $ \\, a_1, a_2,\\ldots, a_{1992}\\, $ such that $ \\, P(z)\\, $ divides the polynomial \\[ \\left(\\cdots\\left( (z-a_1)^2-a_2\\right)^2\\cdots-a_{1991}\\right)^2-a_{1992}. \\]",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1992&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1992,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "For each integer $ \\, n\\geq 2,\\, $ determine, with proof, which of the two positive real numbers $ \\, a\\, $ and $ \\, b\\, $ satisfying \\[ a^n = a+1,\\hspace{.3in}b^{2n}= b+3a \\] is larger.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1993&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1993,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ \\, ABCD\\, $ be a convex quadrilateral such that diagonals $ \\, AC\\, $ and $ \\, BD\\, $ intersect at right angles, and let $ \\, E\\, $ be their intersection.  Prove that the reflections of $ \\, E\\, $ across $ \\, AB,\\, BC,\\, CD,\\, DA\\, $ are concyclic.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1993&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1993,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Consider functions $ \\, f: [0,1]\\rightarrow\\RR\\, $ which satisfy\n(i) $ f(x)\\geq 0\\, $ for all $ \\, x\\, $ in $ \\, [0,1], $\n(ii) $ f(1) = 1, $\n(iii) $ f(x)+f(y)\\leq f(x+y)\\, $ whenever $ \\, x,\\, y,\\, $ and $ \\, x+y\\, $ are all in $ \\, [0,1] $.\n\nFind, with proof, the smallest constant $ \\, c\\, $ such that \n\\[ f(x)\\leq cx \\]\nfor every function $ \\, f\\, $ satisfying (i)-(iii) and every $ \\, x\\, $ in $ \\, [0,1] $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1993&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1993,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ \\, a,b\\, $ be odd positive integers.  Define the sequence $ \\, (f_n )\\, $ by putting $ \\, f_1 = a, $ $ f_2 = b,\\, $ and by letting $ \\, f_n\\, $ for $ \\, n\\geq 3\\, $ be the greatest odd divisor of $ \\, f_{n-1}+f_{n-2} $.  Show that $ \\, f_n\\, $ is constant for $ \\, n\\, $ sufficiently large and determine the eventual value as a function of $ \\, a\\, $ and $ \\, b $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1993&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1993,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ \\, a_{0}, a_{1}, a_{2},\\ldots\\, $ be a sequence of positive real numbers satisfying $ \\, a_{i-1}a_{i+1}\\leq a_{i}^{2}\\, $ for $ i = 1,2,3,\\ldots\\; . $  (Such a sequence is said to be log concave.)  Show that for each $ \\, n > 1, $\n\\[ \\frac{a_{0}+\\cdots+a_{n}}{n+1}\\cdot\\frac{a_{1}+\\cdots+a_{n-1}}{n-1}\\geq\\frac{a_{0}+\\cdots+a_{n-1}}{n}\\cdot\\frac{a_{1}+\\cdots+a_{n}}{n}. \\]",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1993&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1993,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ \\, k_1 < k_2 < k_3 <\\cdots\\, $ be positive integers, no two consecutive, and let $ \\, s_m = k_1+k_2+\\cdots+k_m\\, $ for $ \\, m = 1,2,3,\\ldots\\;\\; $.  Prove that, for each positive integer $ \\, n,\\, $ the interval $ \\, [s_n, s_{n+1})\\, $ contains at least one perfect square.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1994&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1994,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "The sides of a 99-gon are initially colored so that consecutive sides are red, blue, red, blue, $ \\,\\ldots,\\, $ red, blue, yellow. We make a sequence of modifications in the coloring, changing the color of one side at a time to one of the three given colors (red, blue, yellow), under the constraint that no two adjacent sides may be the same color.  By making a sequence of such modifications, is it possible to arrive at the coloring in which consecutive sides\nare red, blue, red, blue, red, blue, $ \\,\\ldots,\\, $ red, yellow, blue?",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1994&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1994,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "A convex hexagon $ ABCDEF $ is inscribed in a circle such that $ AB = CD = EF $ and diagonals $ AD $, $ BE $, and $ CF $ are concurrent. Let $ P $ be the intersection of $ AD $ and $ CE $. Prove that $ CP/PE = (AC/CE)^2 $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1994&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1994,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ \\, a_1, a_2, a_3,\\ldots\\, $ be a sequence of positive real numbers satisfying $ \\,\\sum_{j=1}^n a_j\\geq\\sqrt{n}\\, $ for all $ \\, n\\geq 1 $. Prove that, for all $ \\, n\\geq 1,\\, $ \\[ \\sum_{j=1}^n a_j^2 >\\frac{1}{4}\\left( 1+\\frac{1}{2}+\\cdots+\\frac{1}{n}\\right). \\]",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1994&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1994,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ \\, |U|,\\,\\sigma(U)\\, $ and $ \\,\\pi(U)\\, $ denote the number of elements, the sum, and the product, respectively, of a finite set $ \\, U\\, $ of positive integers.  (If $ \\, U\\, $ is the empty set, $ \\, |U| = 0,\\,\\sigma(U) = 0,\\,\\pi(U) = 1 $.) Let $ \\, S\\, $ be a finite set of positive integers. As usual, let $ \\,\\binom{n}{k}\\, $ denote $ \\, n!\\over k!\\, (n-k)! $. Prove that \\[ \\sum_{U\\subseteq S}(-1)^{|U|}\\binom{m-\\sigma(U)}{|S|}=\\pi(S) \\] for all integers $ \\, m\\geq\\sigma(S) $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1994&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1994,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ \\, p\\, $ be an odd prime.  The sequence $ (a_n)_{n\\geq 0} $ is defined as follows: $ \\, a_0 = 0, $ $ a_1 = 1,\\,\\ldots,\\, a_{p-2}= p-2\\, $ and, for all $ \\, n\\geq p-1,\\, $ $ \\, a_n\\, $ is the least positive integer that does not form an arithmetic sequence of length $ \\, p\\, $ with any of the preceding terms. Prove that, for all $ \\, n,\\, $ $ \\, a_n\\, $ is the number obtained by writing $ \\, n\\, $ in base $ \\, p-1\\, $ and reading the result in base $ \\, p $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1995&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1995,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "A calculator is broken so that the only keys that still work are the $ \\sin $, $ \\cos $, and $ \\tan $ buttons, and their inverses (the $ \\arcsin $, $ \\arccos $, and $ \\arctan $ buttons). The display initially shows 0. Given any positive rational number $ q $, show that pressing some finite sequence of buttons will yield the number $ q $ on the display. Assume that the calculator does real number calculations with infinite precision. All functions are in terms of radians.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1995&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1995,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Given a nonisosceles, nonright triangle ABC, let O denote the center of its circumscribed circle, and let $ A_1 $, $ B_1 $, and $ C_1 $ be the midpoints of sides BC, CA, and AB, respectively. Point $ A_2 $ is located on the ray $ OA_1 $ so that $ OAA_1 $ is similar to $ OA_2A $. Points $ B_2 $ and $ C_2 $ on rays $ OB_1 $ and $ OC_1 $, respectively, are defined similarly. Prove that lines $ AA_2 $, $ BB_2 $, and $ CC_2 $ are concurrent, i.e. these three lines intersect at a point.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1995&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1995,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Suppose $ \\, q_{0},\\, q_{1},\\, q_{2},\\ldots\\;\\, $ is an infinite sequence of integers satisfying the following two conditions:\n\n(i)  $ \\, m-n\\, $ divides $ \\, q_{m}-q_{n}\\, $ for $ \\, m > n\\geq 0, $\n(ii) there is a polynomial $ \\, P\\, $ such that $ \\, |q_{n}| < P(n)\\, $ for all $ \\, n $\n\nProve that there is a polynomial $ \\, Q\\, $ such that $ \\, q_{n}= Q(n)\\, $ for all $ \\, n $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1995&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1995,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Suppose that in a certain society, each pair of persons can be classified as either amicable or hostile. We shall say that each member of an amicable pair is a friend of the other, and each member of a hostile pair is a  foe of the other.  Suppose that the society has $ \\, n\\, $ persons and $ \\, q\\, $ amicable pairs, and that for every set of three persons, at least one pair is hostile.  Prove that there is at least one member of the society whose foes include $ \\, q(1-4q/n^2)\\, $ or fewer amicable pairs.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1995&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1995,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Prove that the average of the numbers $ n\\sin n^{\\circ}\\; (n = 2,4,6,\\ldots,180) $ is $ \\cot 1^{\\circ} $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1996&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1996,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "For any nonempty set $ S $ of real numbers, let $ \\sigma(S) $ denote the sum of the elements of $ S $. Given a set $ A $ of $ n $ positive integers, consider the collection of all distinct sums $ \\sigma(S) $ as $ S $ ranges over the nonempty subsets of $ A $.  Prove that this collection of sums can be partitioned into $ n $ classes so that in each class, the ratio of the largest sum to the smallest sum does not exceed 2.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1996&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1996,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ ABC $ be a triangle.  Prove that there is a line $ \\ell $ (in the plane of triangle $ ABC $) such that the intersection of the interior of triangle $ ABC $ and the interior of its reflection $ A'B'C' $ in $ \\ell $ has area more than $ \\frac{2}3 $ the area of triangle $ ABC $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1996&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1996,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "An $ n $-term sequence $ (x_1, x_2,\\ldots, x_n) $ in which each term is either 0 or 1 is called a binary sequence of length $ n $.  Let $ a_n $ be the number of binary sequences of length $ n $ containing no three consecutive terms equal to 0, 1, 0 in that order.  Let $ b_n $ be the number of binary sequences of length $ n $ that contain no four consecutive terms equal to 0, 0, 1, 1 or 1, 1, 0, 0 in that order. Prove that $ b_{n+1}= 2a_n $ for all positive integers $ n $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1996&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1996,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ ABC $ be a triangle, and $ M $ an interior point such that $ \\angle MAB=10^\\circ $, $ \\angle MBA=20^\\circ $, $ \\angle MAC=40^\\circ $ and $ \\angle MCA=30^\\circ $. Prove that the triangle is isosceles.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1996&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1996,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Determine (with proof) whether there is a subset $ X $ of the integers with the following property: for any integer $ n $ there is exactly one solution of $ a+2b = n $ with $ a,b\\in X $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1996&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1996,
     "problem_number": 6
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ p_1, p_2, p_3,\\ldots $ be the prime numbers listed in increasing order, and let $ x_0 $ be a real number between 0 and 1.  For positive integer $ k $, define\n\\[ x_k =\\begin{cases}0 &\\mbox{if}\\; x_{k-1}= 0,\\\\[.1in]{\\left\\{\\frac{p_k}{x_{k-1}}\\right\\}}&\\mbox{if}\\; x_{k-1}\\neq 0,\\end{cases} \\]\nwhere $ \\{x\\} $ denotes the fractional part of $ x $.  (The fractional part of $ x $ is given by $ x-\\lfloor x\\rfloor $ where $ \\lfloor x\\rfloor $ is the greatest integer less than or equal to $ x $.) Find, with proof, all $ x_0 $ satisfying $ 0 < x_0 < 1 $ for which the sequence $ x_0, x_1, x_2,\\ldots $ eventually becomes 0.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1997&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1997,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ ABC $ be a triangle. Take points $ D $, $ E $, $ F $ on the perpendicular bisectors of $ BC $, $ CA $, $ AB $ respectively. Show that the lines through $ A $, $ B $, $ C $ perpendicular to $ EF $, $ FD $, $ DE $ respectively are concurrent.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1997&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1997,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Prove that for any integer $ n $, there exists a unique polynomial $ Q $ with coefficients in $ \\{0,1,\\ldots,9\\} $ such that $ Q(-2) = Q(-5) = n $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1997&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1997,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "To clip a convex $ n $-gon means to choose a pair of consecutive sides $ AB, BC $ and to replace them by the three segments $ AM, MN $, and $ NC $, where $ M $ is the midpoint of $ AB $ and $ N $ is the midpoint of $ BC $.  In other words, one cuts off the triangle $ MBN $ to obtain a convex $ (n+1) $-gon.  A regular hexagon $ {\\cal P}_6 $ of area 1 is clipped to obtain a heptagon $ {\\cal P}_7 $.  Then $ {\\cal P}_7 $ is clipped (in one of the seven possible ways) to obtain an octagon $ {\\cal P}_8 $, and so on.  Prove that no matter how the clippings are done, the area of $ {\\cal P}_n $ is greater than $ \\frac{1}{3} $, for all $ n\\geq 6 $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1997&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1997,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Prove that, for all positive real numbers $ a $, $ b $, $ c $, the inequality\\[ \\frac{1}{a^3+b^3+abc}+\\frac{1}{b^3+c^3+abc}+\\frac{1}{c^3+a^3+abc}\\leq\\frac{1}{abc} \\]holds.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1997&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1997,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Suppose the sequence of nonnegative integers $ a_1, a_2,\\ldots, a_{1997} $ satisfies \n\\[ a_i+a_j\\leq a_{i+j}\\leq a_i+a_j+1 \\]\nfor all $ i,j\\geq 1 $ with $ i+j\\leq 1997 $.  Show that there exists a real number $ x $ such that $ a_n =\\lfloor nx\\rfloor $ (the greatest integer $ \\leq nx $) for all $ 1\\leq n\\leq 1997 $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1997&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1997,
     "problem_number": 6
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Suppose that the set $ \\{1,2,\\cdots, 1998\\} $ has been partitioned into disjoint pairs $ \\{a_i,b_i\\} $ ($ 1\\leq i\\leq 999 $) so that for all $ i $, $ |a_i-b_i| $ equals $ 1 $ or $ 6 $. Prove that the sum \\[ |a_1-b_1|+|a_2-b_2|+\\cdots+|a_{999}-b_{999}| \\] ends in the digit $ 9 $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1998&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1998,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ {\\cal C}_1 $ and $ {\\cal C}_2 $ be  concentric circles, with $ {\\cal C}_2 $ in the interior of  $ {\\cal C}_1 $. From a point $ A $ on $ {\\cal C}_1 $ one draws the tangent $ AB $ to $ {\\cal C}_2 $ ($ B\\in{\\cal C}_2 $). Let $ C $ be the second point of intersection of $ AB $ and $ {\\cal C}_1 $, and let $ D $ be the midpoint of $ AB $. A line passing through $ A $ intersects $ {\\cal C}_2 $ at $ E $ and $ F $ in such a way that the perpendicular  bisectors of $ DE $ and $ CF $ intersect at a point $ M $ on $ AB $. Find, with proof,  the ratio $ AM/MC $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1998&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1998,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ a_0,a_1,\\cdots ,a_n $ be numbers from the interval $ (0,\\pi/2) $ such that \\[ \\tan (a_0-\\frac{\\pi}{4})+\\tan (a_1-\\frac{\\pi}{4})+\\cdots+\\tan (a_n-\\frac{\\pi}{4})\\geq n-1. \\] Prove that \\[ \\tan a_0\\tan a_1\\cdots\\tan a_n\\geq n^{n+1}. \\]",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1998&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1998,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "A computer screen shows a $ 98\\times 98 $ chessboard, colored in the usual way. One can select with a mouse any rectangle with sides on the lines of the chessboard and click the mouse button: as a result,  the colors in the selected rectangle switch (black becomes white, white becomes black). Find, with proof, the minimum number of mouse clicks needed to make the chessboard all one color.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1998&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1998,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Prove that for each $ n\\geq 2 $, there is a set $ S $ of $ n $ integers such that $ (a-b)^2 $ divides $ ab $ for every distinct $ a,b\\in S $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1998&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1998,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ n\\geq 5 $ be an integer. Find the largest integer $ k $ (as a function of $ n $) such that there exists a convex $ n $-gon $ A_{1}A_{2}\\dots A_{n} $ for which exactly $ k $ of the quadrilaterals $ A_{i}A_{i+1}A_{i+2}A_{i+3} $ have an inscribed circle. (Here $ A_{n+j}= A_{j} $.)",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1998&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1998,
     "problem_number": 6
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Some checkers placed on an $ n\\times n $ checkerboard satisfy the following conditions:\n\n(a) every square that does not contain a checker shares a side with one that does;\n\n(b) given any pair of squares that contain checkers, there is a sequence of squares containing checkers, starting and ending with the given squares, such that every two consecutive squares of the sequence share a side.\n\nProve that at least $ (n^{2}-2)/3 $ checkers have been placed on the board.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1999&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1999,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ ABCD $ be a cyclic quadrilateral. Prove that \\[ |AB-CD|+|AD-BC|\\geq 2|AC-BD|. \\]",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1999&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1999,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ p > 2 $ be a prime and let $ a,b,c,d $ be integers not divisible by $ p $, such that\n\\[ \\left\\{\\frac{ra}{p}\\right\\}+\\left\\{\\frac{rb}{p}\\right\\}+\\left\\{\\frac{rc}{p}\\right\\}+\\left\\{\\frac{rd}{p}\\right\\}= 2 \\]\nfor any integer $ r $ not divisible by $ p $. Prove that at least two of the numbers $ a+b $, $ a+c $, $ a+d $, $ b+c $, $ b+d $, $ c+d $ are divisible by $ p $.\n(Note: $ \\{x\\}= x-\\lfloor x\\rfloor $ denotes the fractional part of $ x $.)",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1999&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1999,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ a_{1}, a_{2},\\dots, a_{n} $ ($ n > 3 $) be real numbers such that \\[ a_{1}+a_{2}+\\cdots+a_{n}\\geq n\\qquad\\mbox{and}\\qquad a_{1}^{2}+a_{2}^{2}+\\cdots+a_{n}^{2}\\geq n^{2}. \\] Prove that $ \\max(a_{1}, a_{2},\\dots, a_{n})\\geq 2 $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1999&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1999,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "The Y2K Game is played on a $ 1\\times 2000 $ grid as follows. Two players in turn write either an S or an O in an empty square. The first player who produces three consecutive boxes that spell SOS wins. If all boxes are filled without producing SOS then the game is a draw. Prove that the second player has a winning strategy.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1999&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1999,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ ABCD $ be an isosceles trapezoid with $ AB\\parallel CD $. The inscribed circle $ \\omega $ of triangle $ BCD $ meets $ CD $ at $ E $. Let $ F $ be a point on the (internal) angle bisector of $ \\angle DAC $ such that $ EF\\perp CD $. Let the circumscribed circle of triangle $ ACF $ meet line $ CD $ at $ C $ and $ G $. Prove that the triangle $ AFG $ is isosceles.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=1999&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 1999,
     "problem_number": 6
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Call a real-valued function $ f $ very convex if\n\\[ \\frac{f(x)+f(y)}{2}\\ge f\\left(\\frac{x+y}{2}\\right)+|x-y| \\]\nholds for all real numbers $ x $ and $ y $. Prove that no very convex function exists.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2000&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2000,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ S $ be the set of all triangles $ ABC $ for which \\[ 5\\left(\\frac{1}{AP}+\\frac{1}{BQ}+\\frac{1}{CR}\\right)-\\frac{3}{\\min\\{ AP, BQ, CR\\}}=\\frac{6}{r}, \\] where $ r $ is the inradius and $ P, Q, R $ are the points of tangency of the incircle with sides $ AB, BC, CA, $ respectively. Prove that all triangles in $ S $ are isosceles  and similar to one another.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2000&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2000,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "A game of solitaire is played with $ R $ red cards, $ W $ white cards, and $ B $ blue cards. A player plays all the cards one at a time. With each play he accumulates a penalty. If he plays a blue card, then he is charged a penalty which is the number of white cards still in his hand. If he plays a white card, then he is charged a penalty which is twice the number of red cards still in his hand. If he plays a red card, then he is charged a penalty which is three times the number of blue cards still in his hand. Find, as a function of $ R, W, $ and $ B, $ the minimal total penalty a player can amass and all the ways in which this minimum can be achieved.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2000&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2000,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Find the smallest positive integer $ n $ such that if $ n $ squares of a $ 1000\\times 1000 $ chessboard are colored, then there will exist three colored squares whose centers form a right triangle with sides parallel to the edges of the board.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2000&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2000,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ A_1A_2A_3 $ be a triangle and let $ \\omega_1 $ be a circle in its plane passing through $ A_1 $ and $ A_2. $ Suppose there exist circles $ \\omega_2,\\omega_3,\\dots,\\omega_7 $ such that for $ k = 2, 3,\\dots, 7, $ $ \\omega_k $ is externally tangent to $ \\omega_{k-1} $ and passes through $ A_k $ and $ A_{k+1}, $  where $ A_{n+3}= A_{n} $ for all $ n\\ge 1 $. Prove that $ \\omega_7 =\\omega_1. $",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2000&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2000,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ a_1, b_1, a_2, b_2,\\dots , a_n, b_n $ be nonnegative real numbers. Prove that\n\\[ \\sum_{i, j = 1}^{n}\\min\\{a_ia_j, b_ib_j\\}\\le\\sum_{i, j = 1}^{n}\\min\\{a_ib_j, a_jb_i\\}. \\]",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2000&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2000,
     "problem_number": 6
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Each of eight boxes contains six balls. Each ball has been colored with one of $ n $ colors, such that no two balls in the same box are the same color, and no two colors occur together in more than one box. Determine, with justification, the smallest integer $ n $ for which this is possible.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2001&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2001,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ ABC $ be a triangle and let $ \\omega $ be its incircle. Denote by $ D_1 $ and $ E_1 $ the points where $ \\omega $ is tangent to sides $ BC $ and $ AC $, respectively. Denote by $ D_2 $ and $ E_2 $ the points on sides $ BC $ and $ AC $, respectively, such that $ CD_2=BD_1 $ and $ CE_2=AE_1 $, and denote by $ P $ the point of intersection of segments $ AD_2 $ and $ BE_2 $. Circle $ \\omega $ intersects segment $ AD_2 $ at two points, the closer of which to the vertex $ A $ is denoted by $ Q $. Prove that $ AQ=D_2P $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2001&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2001,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ a, b, c\\geq 0 $ and satisfy  \\[ a^2+b^2+c^2+abc = 4 . \\] Show that \\[ 0\\le ab+bc+ca-abc\\leq 2. \\]",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2001&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2001,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ P $ be a point in the plane of triangle $ ABC $ such that the segments $ PA $, $ PB $, and $ PC $ are the sides of an obtuse triangle. Assume that in this triangle the obtuse angle opposes the side congruent to $ PA $. Prove that $ \\angle BAC $ is acute.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2001&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2001,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ S $ be a set of integers (not necessarily positive) such that\n\n(a) there exist $ a,b\\in S $ with $ \\gcd(a,b)=\\gcd(a-2,b-2)=1 $;\n(b) if $ x $ and $ y $ are elements of $ S $ (possibly equal), then $ x^2-y $ also belongs to $ S $. \n\nProve that $ S $ is the set of all integers.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2001&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2001,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Each point in the plane is assigned a real number such that, for any triangle, the number at the center of its inscribed circle is equal to the arithmetic mean of the three numbers at its vertices. Prove that all points in the plane are assigned the same number.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2001&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2001,
     "problem_number": 6
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ S $ be a set with 2002 elements, and let $ N $ be an integer with $ 0\\leq N\\leq 2^{2002} $. Prove that it is possible to color every subset of $ S $ either black or white so that the following conditions hold:\n\n(a) the union of any two white subsets is white;\n(b) the union of any two black subsets is black;\n(c) there are exactly $ N $ white subsets.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2002&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2002,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ ABC $ be a triangle such that\n\\[ \\left(\\cot\\frac{A}{2}\\right)^2+\\left( 2\\cot\\frac{B}{2}\\right)^2+\\left( 3\\cot\\frac{C}{2}\\right)^2 =\\left(\\frac{6s}{7r}\\right)^2, \\]\nwhere $ s $ and $ r $ denote its semiperimeter and its inradius, respectively. Prove that triangle $ ABC $ is similar to a triangle $ T $ whose side lengths are all positive integers with no common divisors and determine these integers.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2002&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2002,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Prove that any monic polynomial (a polynomial with leading coefficient 1) of degree $ n $ with real coefficients is the average of two monic polynomials of degree $ n $ with $ n $ real roots.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2002&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2002,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ \\mathbb{R} $ be the set of real numbers. Determine all functions $ f:\\mathbb{R}\\to\\mathbb{R} $ such that \\[ f(x^2-y^2) = x f(x)-y f(y) \\] for all pairs of real numbers $ x $ and $ y $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2002&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2002,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ a,b $ be integers greater than 2. Prove that there exists a positive integer $ k $ and a finite sequence $ n_1, n_2,\\dots, n_k $ of positive integers such that $ n_1 = a $, $ n_k = b $, and $ n_i n_{i+1} $ is divisible by $ n_i+n_{i+1} $ for each $ i $ ($ 1\\leq i < k $).",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2002&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2002,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "I have an $ n\\times n $ sheet of stamps, from which I've been asked to tear out blocks of three adjacent stamps in a single row or column. (I can only tear along the perforations separating adjacent stamps, and each block must come out of the sheet in one piece.) Let $ b(n) $ be the smallest number of blocks I can tear out and make it impossible to tear out any more blocks. Prove that there are real constants $ c $ and $ d $ such that \\[ \\frac{1}{7}n^2-cn\\leq b(n)\\leq\\frac{1}{5}n^2+dn \\] for all $ n > 0 $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2002&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2002,
     "problem_number": 6
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Prove that for every positive integer $ n $ there exists an $ n $-digit number divisible by $ 5^n $ all of whose digits are odd.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2003&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2003,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "A convex polygon $ \\mathcal{P} $ in the plane is dissected into smaller convex polygons by drawing all of its diagonals. The lengths of all sides and all diagonals of the polygon $ \\mathcal{P} $ are rational numbers. Prove that the lengths of all sides of all polygons in the dissection are also rational numbers.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2003&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2003,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ n\\neq 0 $. For every sequence of integers \\[ A = a_0,a_1,a_2,\\dots, a_n \\] satisfying $ 0\\le a_i\\le i $, for $ i=0,\\dots,n $, define another sequence \\[ t(A)= t(a_0), t(a_1), t(a_2),\\dots, t(a_n) \\] by setting $ t(a_i) $ to be the number of terms in the sequence $ A $ that precede the term $ a_i $ and are different from $ a_i $. Show that, starting from any sequence $ A $ as above, fewer than $ n $ applications of the  transformation $ t $ lead to a sequence $ B $ such that $ t(B) = B $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2003&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2003,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ ABC $ be a triangle. A circle passing through $ A $ and $ B $ intersects segments $ AC $ and $ BC $ at $ D $ and $ E $, respectively. Lines $ AB $ and $ DE $ intersect at $ F $, while lines $ BD $ and $ CF $ intersect at $ M $. Prove that $ MF = MC $ if and only if $ MB\\cdot MD = MC^2 $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2003&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2003,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ a $, $ b $, $ c $ be positive real numbers. Prove that\n\\[ \\frac{(2a+b+c)^2}{2a^2+(b+c)^2}+\\frac{(2b+c+a)^2}{2b^2+(c+a)^2}+\\frac{(2c+a+b)^2}{2c^2+(a+b)^2}\\le 8. \\]",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2003&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2003,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "At the vertices of a regular hexagon are written six nonnegative integers whose sum is $ 2003^{2003} $. Bert is allowed to make moves of the following form: he may pick a vertex and replace the number written there by the absolute value of the difference between the numbers written at the two neighboring vertices. Prove that Bert can make a sequence of moves, after which the number 0 appears at all six vertices.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2003&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2003,
     "problem_number": 6
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ ABCD $ be a quadrilateral circumscribed about a circle, whose interior and exterior angles are at least 60 degrees. Prove that\n\\[ \\frac{1}{3}|AB^3-AD^3|\\le |BC^3-CD^3|\\le 3|AB^3-AD^3|. \\]\nWhen does equality hold?",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2004&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2004,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Suppose $ a_1,\\dots, a_n $ are integers whose greatest common divisor is 1. Let $ S $ be a set of integers with the following properties:\n\n(a) For $ i=1,\\dots, n $, $ a_i\\in S $.\n(b) For $ i,j = 1,\\dots, n $ (not necessarily distinct), $ a_i-a_j\\in S $.\n(c) For any integers $ x,y\\in S $, if $ x+y\\in S $, then $ x-y\\in S $.\n\nProve that $ S $ must be equal to the set of all integers.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2004&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2004,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "For what real values of $ k>0 $ is it possible to dissect a $ 1\\times k $ rectangle into two similar, but noncongruent, polygons?",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2004&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2004,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Alice and Bob play a game on a 6 by 6 grid.  On his or her turn, a player chooses a rational number not yet appearing in the grid and writes it in an empty square of the grid.  Alice goes first and then the players alternate.  When all squares have numbers written in them, in each row, the square with the greatest number in that row is colored black.  Alice wins if she can then draw a line from the top of the grid to the bottom of the grid that stays in black squares, and Bob wins if she can't.  (If two squares share a vertex, Alice can draw a line from one to the other that stays in those two squares.)  Find, with proof, a winning strategy for one of the players.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2004&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2004,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ a, b, c > 0 $. Prove that $ (a^5-a^2+3)(b^5-b^2+3)(c^5-c^2+3)\\geq (a+b+c)^3 $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2004&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2004,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "A circle $ \\omega $ is inscribed in a quadrilateral $ ABCD $. Let $ I $ be the center of $ \\omega $. Suppose that \\[ (AI+DI)^2+(BI+CI)^2 = (AB+CD)^2. \\] Prove that $ ABCD $ is an isosceles trapezoid.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2004&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2004,
     "problem_number": 6
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Determine all composite positive integers $ n $ for which it is possible to arrange all divisors of $ n $ that are greater than 1 in a circle so that no two adjacent divisors are relatively prime.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2005&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2005,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Prove that the system \\[ \\begin{align*}x^6+x^3+x^3y+y & = 147^{157}\\\\ x^3+x^3y+y^2+y+z^9 & = 157^{147}\\end{align*} \\] has no solutions in integers $ x $, $ y $, and $ z $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2005&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2005,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ ABC $ be an acute-angled triangle, and let $ P $ and $ Q $ be two points on its side $ BC $. Construct a point $ C_{1} $ in such a way that the convex quadrilateral $ APBC_{1} $ is cyclic, $ QC_{1}\\parallel CA $, and $ C_{1} $ and $ Q $ lie on opposite sides of line $ AB $. Construct a point $ B_{1} $ in such a way that the convex quadrilateral $ APCB_{1} $ is cyclic, $ QB_{1}\\parallel BA $, and $ B_{1} $ and $ Q $ lie on opposite sides of line $ AC $.  Prove that the points $ B_{1} $, $ C_{1} $, $ P $, and $ Q $ lie on a circle.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2005&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2005,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Legs $ L_1, L_2, L_3, L_4 $ of a square table each have  length $ n $, where $ n $ is a positive integer.  For how many ordered  4-tuples $ (k_1, k_2, k_3, k_4) $ of nonnegative integers can we cut  a piece of length $ k_i $ from the end of leg $ L_i\\; (i=1,2,3,4) $ and still have a stable table?\n\n(The table is stable if it can be placed so that  all four of the leg ends touch the floor. Note that a cut leg of length 0 is permitted.)",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2005&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2005,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ n $ be an integer greater than 1. Suppose $ 2n $ points are given in the plane, no three of which are collinear. Suppose $ n $ of the given $ 2n $ points are colored blue and the other $ n $ colored red. A line in the plane is called a balancing line if it passes through one blue and one red point and, for each side of the line, the number of blue points on that side is equal to the number of red points on the same side. \nProve that there exist at least two balancing lines.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2005&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2005,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "For $ m $ a positive integer, let $ s(m) $ be the sum of the digits of $ m $. For $ n\\ge 2 $, let $ f(n) $ be the minimal $ k $ for which there  exists a set $ S $ of $ n $ positive integers such that  $ s\\left(\\sum_{x\\in X}x\\right)=k $ for any nonempty subset $ X\\subset S $.  Prove that there are constants $ 0<C_1<C_2 $ with\n\\[ C_1\\log_{10}n\\le f(n)\\le C_2\\log_{10}n. \\]",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2005&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2005,
     "problem_number": 6
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ p $ be a prime number and let $ s $ be an integer with $ 0 < s < p. $ Prove that there exist integers $ m $ and $ n $ with $ 0 < m < n < p $ and\n\n\\[ \\left\\{\\frac{sm}{p}\\right\\}<\\left\\{\\frac{sn}{p}\\right\\}<\\frac{s}{p} \\]\n\nif and only if $ s $ is not a divisor of $ p-1 $.\n\nNote: For $ x $ a real number, let $ \\lfloor x\\rfloor $ denote the greatest integer less than or equal to $ x $, and let $ \\{x\\}= x-\\lfloor x\\rfloor $ denote the fractional part of x.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2006&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2006,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "For a given positive integer $ k $ find, in terms of $ k $, the minimum value of $ N $ for which there is a set of $ 2k+1 $ distinct positive integers that has sum greater than $ N $ but every subset of size $ k $ has sum at most $ \\tfrac{N}{2}. $",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2006&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2006,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "For integral $ m $, let $ p(m) $ be the greatest prime divisor of $ m. $ By convention, we set $ p(\\pm 1) = 1 $ and $ p(0) =\\infty. $ Find all polynomials $ f $ with integer coefficients such that the sequence\n\\[ \\{p\\left( f\\left( n^2\\right)\\right)-2n\\}_{n\\geq 0} \\] is bounded above. (In particular, this requires $ f\\left (n^2\\right )\\neq 0 $ for $ n\\geq 0. $)",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2006&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2006,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Find all positive integers $ n $ such that there are $ k\\geq 2 $ positive rational numbers $ a_1, a_2,\\ldots, a_k $ satisfying $ a_1+a_2+\\ldots+a_k = a_1\\cdot a_2\\cdots a_k = n. $",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2006&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2006,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "A mathematical frog jumps along the number line. The frog starts at $ 1 $, and jumps according to the following rule: if the frog is at integer $ n $, then it can jump either to $ n+1 $ or to $ n+2^{m_n+1} $ where $ 2^{m_n} $ is the largest power of $ 2 $ that is a factor of $ n. $ Show that if $ k\\geq 2 $ is a positive integer and $ i $ is a nonnegative integer, then the minimum number of jumps needed to reach $ 2^ik $ is greater than the minimum number of jumps needed to reach $ 2^i. $",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2006&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2006,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ ABCD $ be a quadrilateral, and let $ E $ and $ F $ be points on sides $ AD $ and $ BC $, respectively, such that $ \\frac{AE}{ED}=\\frac{BF}{FC} $. Ray $ FE $ meets rays $ BA $ and $ CD $ at $ S $ and $ T $, respectively. Prove that the circumcircles of triangles $ SAE $, $ SBF $, $ TCF $, and $ TDE $ pass through a common point.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2006&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2006,
     "problem_number": 6
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ n $ be a positive integer. Define a sequence by setting $ a_{1}= n $ and, for each $ k > 1 $, letting $ a_{k} $ be the unique integer in the range $ 0\\leq a_{k}\\leq k-1 $ for which $ a_{1}+a_{2}+...+a_{k} $ is divisible by $ k $. For instance, when $ n = 9 $ the obtained sequence is $ 9,1,2,0,3,3,3,... $. Prove that for any $ n $ the sequence $ a_{1},a_{2},... $ eventually becomes constant.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2007&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2007,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "A square grid on the Euclidean plane consists of all points $ (m,n) $, where $ m $ and $ n $ are integers. Is it possible to cover all grid points by an infinite family of discs with non-overlapping interiors if each disc in the family has radius at least $ 5 $?",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2007&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2007,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ S $ be a set containing $ n^{2}+n-1 $ elements, for some positive integer $ n $. Suppose that the $ n $-element subsets of $ S $ are partitioned into two classes. Prove that there are at least $ n $ pairwise disjoint sets in the same class.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2007&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2007,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "An animal with $ n $ cells is a connected figure consisting of $ n $ equal-sized cells[1].\n\nA dinosaur is an animal with at least $ 2007 $ cells. It is said to be primitive it its cells cannot be partitioned into two or more dinosaurs. Find with proof the maximum number of cells in a primitive dinosaur. \n\n[1]Animals are also called polyominoes. They can be defined inductively. Two cells are adjacent if they share a complete edge. A single cell is an animal, and given an animal with $ n $ cells, one with $ n+1 $ cells is obtained by adjoining a new cell by making it adjacent to one or more existing cells.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2007&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2007,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Prove that for every nonnegative integer $ n $, the number $ 7^{7^{n}}+1 $ is the product of at least $ 2n+3 $ (not necessarily distinct) primes.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2007&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2007,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ ABC $ be an acute triangle with $ \\omega,S $, and $ R $ being its incircle, circumcircle, and circumradius, respectively. Circle $ \\omega_{A} $ is tangent internally to $ S $ at $ A $ and tangent externally to $ \\omega $. Circle $ S_{A} $ is tangent internally to $ S $ at $ A $ and tangent internally to $ \\omega $. Let $ P_{A} $ and $ Q_{A} $ denote the centers of $ \\omega_{A} $ and $ S_{A} $, respectively. Define points $ P_{B}, Q_{B}, P_{C}, Q_{C} $ analogously. Prove that\n\\[ 8P_{A}Q_{A}\\cdot P_{B}Q_{B}\\cdot P_{C}Q_{C}\\leq R^{3}\\; , \\]\nwith equality if and only if triangle $ ABC $ is equilateral.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2007&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2007,
     "problem_number": 6
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Prove that for each positive integer $ n $, there are pairwise relatively prime integers $ k_0,k_1,\\ldots,k_n $, all strictly greater than $ 1 $, such that $ k_0k_1\\ldots k_n-1 $ is the product of two consecutive integers.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2008&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2008,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ ABC $ be an acute, scalene triangle, and let $ M $, $ N $, and $ P $ be the midpoints of $ \\overline{BC} $, $ \\overline{CA} $, and $ \\overline{AB} $, respectively. Let the perpendicular bisectors of $ \\overline{AB} $ and $ \\overline{AC} $ intersect ray $ AM $ in points $ D $ and $ E $ respectively, and let lines $ BD $ and $ CE $ intersect in point $ F $, inside of triangle $ ABC $. Prove that points $ A $, $ N $, $ F $, and $ P $ all lie on one circle.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2008&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2008,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ n $ be a positive integer. Denote by $ S_n $ the set of points $ (x, y) $ with integer coordinates such that \\[ \\left\\lvert x\\right\\rvert+\\left\\lvert y+\\frac{1}{2}\\right\\rvert < n. \\] A path is a sequence of distinct points $ (x_1 , y_1), (x_2, y_2),\\ldots, (x_\\ell, y_\\ell) $ in $ S_n $ such that, for $ i = 2,\\ldots,\\ell $, the distance between $ (x_i , y_i) $ and $ (x_{i-1}, y_{i-1}) $ is $ 1 $ (in other words, the points $ (x_i, y_i) $ and $ (x_{i-1}, y_{i-1}) $ are neighbors in the lattice of points with integer coordinates). Prove that the points in $ S_n $ cannot be partitioned into fewer than $ n $ paths (a partition of $ S_n $ into $ m $ paths is a set $ \\mathcal{P} $ of $ m $ nonempty paths such that each point in $ S_n $ appears in exactly one of the $ m $ paths in $ \\mathcal{P} $).",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2008&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2008,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ \\mathcal{P} $ be a convex polygon with $ n $ sides, $ n\\ge3 $. Any set of $ n-3 $ diagonals of $ \\mathcal{P} $ that do not intersect in the interior of the polygon determine a triangulation of $ \\mathcal{P} $ into $ n-2 $ triangles. If $ \\mathcal{P} $ is regular and there is a triangulation of $ \\mathcal{P} $ consisting of only isosceles triangles, find all the possible values of $ n $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2008&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2008,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Three nonnegative real numbers $ r_1 $, $ r_2 $, $ r_3 $ are written on a blackboard. These numbers have the property that there exist integers $ a_1 $, $ a_2 $, $ a_3 $, not all zero, satisfying $ a_1r_1+a_2r_2+a_3r_3 = 0 $. We are permitted to perform the following operation: find two numbers $ x $, $ y $ on the blackboard with $ x\\le y $, then erase $ y $ and write $ y-x $ in its place. Prove that after a finite number of such operations, we can end up with at least one 0 on the blackboard.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2008&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2008,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "At a certain mathematical conference, every pair of mathematicians are either friends or strangers. At mealtime, every participant eats in one of two large dining rooms. Each mathematician insists upon eating in a room which contains an even number of his or her friends. Prove that the number of ways that the mathematicians may be split between the two rooms is a power of two (i.e., is of the form $ 2^k $ for some positive integer $ k $).",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2008&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2008,
     "problem_number": 6
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Given circles $ \\omega_1 $ and $ \\omega_2 $ intersecting at points $ X $ and $ Y $, let $ \\ell_1 $ be a line through the center of $ \\omega_1 $ intersecting $ \\omega_2 $ at points $ P $ and $ Q $ and let $ \\ell_2 $ be a line through the center of $ \\omega_2 $ intersecting $ \\omega_1 $ at points $ R $ and $ S $.  Prove that if $ P, Q, R $ and $ S $ lie on a circle then the center of this circle lies on line $ XY $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2009&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2009,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ n $ be a positive integer.  Determine the size of the largest subset of $ \\{-n,-n+1,\\ldots , n-1, n\\} $ which does not contain three elements $ a, b, c $ (not necessarily distinct) satisfying $ a+b+c=0 $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2009&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2009,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "We define a chessboard polygon to be a polygon whose sides are situated along lines of the form $ x = a $ or $ y = b $, where $ a $ and $ b $ are integers. These lines divide the interior into unit squares, which are shaded alternately grey and white so that adjacent squares have different colors. To tile a chessboard polygon by dominoes is to exactly cover the polygon by non-overlapping $ 1\\times 2 $ rectangles. Finally, a tasteful tiling is one which avoids the two configurations of dominoes shown on the left below. Two tilings of a $ 3\\times 4 $ rectangle are shown; the first one is tasteful, while the second is not, due to the vertical dominoes in the upper right corner.\n\n[asy]size(300); pathpen = linewidth(2.5);void chessboard(int a, int b, pair P){  for(int i = 0; i < a; ++i) for(int j = 0; j < b; ++j)   if((i+j) % 2 == 1) fill(shift(P.x+i,P.y+j)*unitsquare,rgb(0.6,0.6,0.6));  D(P--P+(a,0)--P+(a,b)--P+(0,b)--cycle);}chessboard(2,2,(2.5,0));fill(unitsquare,rgb(0.6,0.6,0.6));fill(shift(1,1)*unitsquare,rgb(0.6,0.6,0.6)); chessboard(4,3,(6,0)); chessboard(4,3,(11,0)); MP(\"\\mathrm{Distasteful\\ tilings}\",(2.25,3),fontsize(12)); /* draw lines */D((0,0)--(2,0)--(2,2)--(0,2)--cycle); D((1,0)--(1,2)); D((2.5,1)--(4.5,1)); D((7,0)--(7,2)--(6,2)--(10,2)--(9,2)--(9,0)--(9,1)--(7,1)); D((8,2)--(8,3)); D((12,0)--(12,2)--(11,2)--(13,2)); D((13,1)--(15,1)--(14,1)--(14,3)); D((13,0)--(13,3));[/asy] a) Prove that if a chessboard polygon can be tiled by dominoes, then it can be done so tastefully.\n\nb) Prove that such a tasteful tiling is unique.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2009&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2009,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "For $ n\\geq2 $ let $ a_1, a_2,\\ldots a_n $ be positive real numbers such that\n\\[ (a_1+a_2+\\cdots+a_n)\\left(\\frac{1}{a_1}+\\frac{1}{a_2}+\\cdots+\\frac{1}{a_n}\\right)\\leq\\left(n+\\frac{1}{2}\\right)^2. \\]\nProve that $ \\max(a_1, a_2,\\ldots, a_n)\\leq 4\\min(a_1, a_2,\\ldots, a_n) $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2009&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2009,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Trapezoid $ ABCD $, with $ \\overline{AB}\\parallel \\overline{CD} $, is inscribed in circle $ \\omega $ and point $ G $ lies inside triangle $ BCD $.  Rays $ AG $ and $ BG $ meet $ \\omega $ again at points $ P $ and $ Q $, respectively.  Let the line through $ G $ parallel to $ \\overline{AB} $ intersects $ \\overline{BD} $ and $ \\overline{BC} $ at points $ R $ and $ S $, respectively.  Prove that quadrilateral $ PQRS $ is cyclic if and only if $ \\overline{BG} $ bisects $ \\angle CBD $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2009&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2009,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ s_1, s_2, s_3,\\ldots $ be an infinite, nonconstant sequence of rational numbers, meaning it is not the case that $ s_1 = s_2 = s_3 =\\cdots. $  Suppose that $ t_1, t_2, t_3,\\ldots $ is also an infinite, nonconstant sequence of rational numbers with the property that $ (s_i-s_j)(t_i-t_j) $ is an integer for all $ i $ and $ j $.  Prove that there exists a rational number $ r $ such that $ (s_i-s_j)r $ and $ (t_i-t_j)/r $ are integers for all $ i $ and $ j $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2009&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2009,
     "problem_number": 6
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ AXYZB $ be a convex pentagon inscribed in a semicircle of diameter $ AB $. Denote by$ P $, $ Q $, $ R $, $ S $ the feet of the perpendiculars from $ Y $ onto lines $ AX $, $ BX $, $ AZ $, $ BZ $, respectively.  Prove that the acute angle formed by lines $ PQ $ and $ RS $ is half the size of $ \\angle XOZ $, where $ O $ is the midpoint of segment $ AB $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2010&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2010,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "There are $ n $ students standing in a circle, one behind the other. The students have heights $ h_1<h_2<\\dots <h_n $. If a student with height $ h_k $ is standing directly behind a student with height $ h_{k-2} $ or less, the two students are permitted to switch places. Prove that it is not possible to make more than $ \\binom{n}{3} $ such switches before reaching a position in which no further switches are possible.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2010&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2010,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "The 2010 positive numbers $ a_1, a_2,\\ldots , a_{2010} $ satisfy the inequality $ a_ia_j\\le i+j $ for all distinct indices $ i, j $. Determine, with proof, the largest possible value of the product $ a_1a_2\\ldots a_{2010} $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2010&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2010,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ ABC $ be a triangle with $ \\angle A = 90^{\\circ} $. Points $ D $ and $ E $ lie on sides $ AC $ and $ AB $, respectively, such that $ \\angle ABD =\\angle DBC $ and $ \\angle ACE =\\angle ECB $. Segments $ BD $ and $ CE $ meet at $ I $. Determine whether or not it is possible for segments $ AB $, $ AC $, $ BI $, $ ID $, $ CI $, $ IE $ to all have integer lengths.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2010&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2010,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ q =\\frac{3p-5}{2} $ where $ p $ is an odd prime, and let\\[ S_q =\\frac{1}{2\\cdot 3\\cdot 4}+\\frac{1}{5\\cdot 6\\cdot 7}+\\cdots+\\frac{1}{q(q+1)(q+2)} \\]Prove that if $ \\frac{1}{p}-2S_q =\\frac{m}{n} $ for integers $ m $ and $ n $, then $ m-n $ is divisible by $ p $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2010&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2010,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "A blackboard contains 68 pairs of nonzero integers.  Suppose that for each positive integer $ k $ at most one of the pairs $ (k, k) $ and $ (-k,-k) $ is written on the blackboard.  A student erases some of the 136 integers, subject to the condition that no two erased integers may add to 0.  The student then scores one point for each of the 68 pairs in which at least one integer is erased.  Determine, with proof, the largest number $ N $ of points that the student can guarantee to score regardless of which 68 pairs have been written on the board.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2010&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2010,
     "problem_number": 6
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ a, b, c $ be positive real numbers such that $ a^2+b^2+c^2+(a+b+c)^2\\leq4 $.  Prove that\\[ \\frac{ab+1}{(a+b)^2}+\\frac{bc+1}{(b+c)^2}+\\frac{ca+1}{(c+a)^2}\\geq 3. \\]",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2011&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2011,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "An integer is assigned to each vertex of a regular pentagon so that the sum of the five integers is 2011.  A turn of a solitaire game consists of subtracting an integer $ m $ from each of the integers at two neighboring vertices and adding $ 2m $ to the opposite vertex, which is not adjacent to either of the first two vertices.  (The amount $ m $ and the vertices chosen can vary from turn to turn.)  The game is won at a certain vertex if, after some number of turns, that vertex has the number 2011 and the other four vertices have the number 0.  Prove that for any choice of the initial integers, there is exactly one vertex at which the game can be won.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2011&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2011,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "In hexagon $ ABCDEF $, which is nonconvex but not self-intersecting, no pair of opposite sides are parallel.  The internal angles satisfy $ \\angle A=3\\angle D $, $ \\angle C=3\\angle F $, and $ \\angle E=3\\angle B $.  Furthermore $ AB=DE $, $ BC=EF $, and $ CD=FA $.  Prove that diagonals $ \\overline{AD} $, $ \\overline{BE} $, and $ \\overline{CF} $ are concurrent.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2011&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2011,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Consider the assertion that for each positive integer $ n\\geq2 $, the remainder upon dividing $ 2^{2^n} $ by $ 2^n-1 $ is a power of $ 4 $.  Either prove the assertion or find (with proof) a counterexample.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2011&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2011,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ P $ be a given point inside quadrilateral $ ABCD $.  Points $ Q_1 $ and $ Q_2 $ are located within $ ABCD $ such that$ \\begin{align*}\\angle Q_1BC&=\\angle ABP,&\\angle Q_1CB&=\\angle DCP,&\\angle Q_2AD&=\\angle BAP,&\\angle Q_2DA&=\\angle CDP.\\end{align*} $Prove that $ \\overline{Q_1Q_2}\\parallel \\overline{AB} $ if and only if $ \\overline{Q_1Q_2}\\parallel \\overline{CD} $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2011&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2011,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ A $ be a set with $ |A|=225 $, meaning that $ A $ has 225 elements.  Suppose further that there are eleven subsets $ A_1,\\ldots, A_{11} $ of $ A $ such that $ |A_i|=45 $ for $ 1\\leq i\\leq11 $ and $ |A_i\\cap A_j|=9 $ for $ 1\\leq i<j\\leq11 $.  Prove that $ |A_1\\cup A_2\\cup\\ldots\\cup A_{11}|\\geq 165 $, and give an example for which equality holds.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2011&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2011,
     "problem_number": 6
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Find all integers $ n\\geq 3 $ such that among any $ n $ positive real numbers $ a_1, a_2,\\hdots, a_n $ with $ \\text{max}(a_1,a_2,\\hdots,a_n)\\leq n\\cdot\\text{min}(a_1,a_2,\\hdots,a_n) $, there exist three that are the side lengths of an acute triangle.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2012&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2012,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "A circle is divided into $ 432 $ congruent arcs by $ 432 $ points.  The points are colored in four colors such that some $ 108 $ points are colored Red, some $ 108 $ points are colored Green, some $ 108 $ points are colored Blue, and the remaining $ 108 $ points are colored Yellow.  Prove that one can choose three points of each color in such a way that the four triangles formed by the chosen points of the same color are congruent.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2012&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2012,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Determine which integers $ n > 1 $ have the property that there exists an infinite sequence $ a_1, a_2, a_3,\\ldots $ of nonzero integers such that the equality \\[ a_k+2a_{2k}+\\ldots+na_{nk}=0 \\]holds for every positive integer $ k $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2012&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2012,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Find all functions $ f:\\mathbb{Z}^+\\rightarrow\\mathbb{Z}^+ $ (where $ \\mathbb{Z}^+ $ is the set of positive integers) such that $ f(n!) = f(n)! $ for all positive integers $ n $ and such that $ m-n $ divides $ f(m)-f(n) $ for all distinct positive integers $ m, n $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2012&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2012,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ P $ be a point in the plane of $ \\triangle ABC $, and $ \\gamma $ a line passing through $ P $. Let $ A', B', C' $ be the points where the reflections of lines $ PA, PB, PC $ with respect to $ \\gamma $ intersect lines $ BC, AC, AB $ respectively. Prove that $ A', B', C' $ are collinear.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2012&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2012,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "For integer $ n\\geq2 $, let $ x_1, x_2,\\ldots, x_n $ be real numbers satisfying \\[ x_1+x_2+\\ldots+x_n=0,\\qquad\\text{and}\\qquad x_1^2+x_2^2+\\ldots+x_n^2=1. \\]For each subset $ A\\subseteq\\{1, 2,\\ldots, n\\} $, define\\[ S_A=\\sum_{i\\in A}x_i. \\](If $ A $ is the empty set, then $ S_A=0 $.)Prove that for any positive number $ \\lambda $, the number of sets $ A $ satisfying $ S_A\\geq\\lambda $ is at most $ 2^{n-3}/\\lambda^2 $.  For which choices of $ x_1, x_2,\\ldots, x_n,\\lambda $ does equality hold?",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2012&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2012,
     "problem_number": 6
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "In triangle $ ABC $, points $ P $, $ Q $, $ R $ lie on sides $ BC $, $ CA $, $ AB $ respectively.  Let $ \\omega_A $, $ \\omega_B $, $ \\omega_C $ denote the circumcircles of triangles $ AQR $, $ BRP $, $ CPQ $, respectively.  Given the fact that segment $ AP $ intersects $ \\omega_A $, $ \\omega_B $, $ \\omega_C $ again at $ X $, $ Y $, $ Z $, respectively, prove that $ YX/XZ=BP/PC $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2013&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2013,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "For a positive integer $ n\\geq 3 $ plot $ n $ equally spaced points around a circle.  Label one of them $ A $, and place a marker at $ A $.  One may move the marker forward in a clockwise direction to either the next point or the point after that.  Hence there are a total of $ 2n $ distinct moves available; two from each point.  Let $ a_n $ count the number of ways to advance around the circle exactly twice, beginning and ending at $ A $, without repeating a move.  Prove that $ a_{n-1}+a_n=2^n $ for all $ n\\geq 4 $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2013&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2013,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ n $ be a positive integer.  There are $ \\tfrac{n(n+1)}{2} $ marks, each with a black side and a white side, arranged into an equilateral triangle, with the biggest row containing $ n $ marks.  Initially, each mark has the black side up.  An operation is to choose a line parallel to the sides of the triangle, and flipping all the marks on that line.  A configuration is called admissible  if it can be obtained from the initial configuration by performing a finite number of operations.  For each admissible configuration $ C $, let $ f(C) $ denote the smallest number of operations required to obtain $ C $ from the initial configuration.  Find the maximum value of $ f(C) $, where $ C $ varies over all admissible configurations.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2013&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2013,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Find all real numbers $ x,y,z\\geq 1 $ satisfying \\[ \\min(\\sqrt{x+xyz},\\sqrt{y+xyz},\\sqrt{z+xyz})=\\sqrt{x-1}+\\sqrt{y-1}+\\sqrt{z-1}. \\]",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2013&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2013,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Given postive integers $ m $ and $ n $, prove that there is a positive integer $ c $ such that the numbers $ cm $ and $ cn $ have the same number of occurrences of each non-zero digit when written in base ten.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2013&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2013,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ ABC $ be a triangle.  Find all points $ P $ on segment $ BC $ satisfying the following property:  If $ X $ and $ Y $ are the intersections of line $ PA $ with the common external tangent lines of the circumcircles of triangles $ PAB $ and $ PAC $, then \\[ \\left(\\frac{PA}{XY}\\right)^2+\\frac{PB\\cdot PC}{AB\\cdot AC}=1. \\]",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2013&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2013,
     "problem_number": 6
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ a $, $ b $, $ c $, $ d $ be real numbers such that $ b-d\\ge 5 $ and all zeros $ x_1, x_2, x_3, $ and $ x_4 $ of the polynomial $ P(x)=x^4+ax^3+bx^2+cx+d $ are real. Find the smallest value the product $ (x_1^2+1)(x_2^2+1)(x_3^2+1)(x_4^2+1) $ can take.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2014&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2014,
     "problem_number": 1
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ \\mathbb{Z} $ be the set of integers. Find all functions $ f :\\mathbb{Z}\\rightarrow\\mathbb{Z} $ such that \\[ xf(2f(y)-x)+y^2f(2x-f(y))=\\frac{f(x)^2}{x}+f(yf(y)) \\] for all $ x, y\\in\\mathbb{Z} $ with $ x\\neq 0 $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2014&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2014,
     "problem_number": 2
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Prove that there exists an infinite set of points \\[ \\dots,\\; P_{-3},\\; P_{-2},\\; P_{-1},\\; P_0,\\; P_1,\\; P_2,\\; P_3,\\;\\dots \\] in the plane with the following property: For any three distinct integers $ a,b, $ and $ c $, points $ P_a $, $ P_b $, and $ P_c $ are collinear if and only if $ a+b+c=2014 $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2014&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2014,
     "problem_number": 3
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ k $ be a positive integer. Two players $ A $ and $ B $ play a game on an infinite grid of regular hexagons. Initially all the grid cells are empty. Then the players alternately take turns with $ A $ moving first. In his move, $ A $ may choose two adjacent hexagons in the grid which are empty and place a counter in both of them. In his move, $ B $ may choose any counter on the board and remove it. If at any time there are $ k $ consecutive grid cells in a line all of which contain a counter, $ A $ wins. Find the minimum value of $ k $ for which $ A $ cannot win in a finite number of moves, or prove that no such minimum value exists.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2014&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2014,
     "problem_number": 4
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Let $ ABC $ be a triangle with orthocenter $ H $ and let $ P $ be the second intersection of the circumcircle of triangle $ AHC $ with the internal bisector of the angle $ \\angle BAC $.  Let $ X $ be the circumcenter of triangle $ APB $ and $ Y $ the orthocenter of triangle $ APC $.  Prove that the length of segment $ XY $ is equal to the circumradius of triangle $ ABC $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=27&year=2014&sid=8bf355f3c674ece9cea1dc6232e8fffc",
     "year": 2014,
     "problem_number": 5
-}{
+},
+{
     "source_name": "Art of Problem Solving",
     "contest_name": "USAMO",
     "problem_statement": "Prove that there is a constant $ c>0 $ with the following property: If $ a, b, n $ are positive integers such that $ \\gcd(a+i, b+j)>1 $ for all $ i, j\\in\\{0, 1,\\ldots n\\} $, then\\[ \\min\\{a, b\\}>c^n\\cdot n^{\\frac{n}{2}}. \\]",
@@ -1637,3 +1870,4 @@
     "year": 2014,
     "problem_number": 6
 }
+]
