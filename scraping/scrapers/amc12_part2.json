@@ -5,7 +5,7 @@
         "$2(\\sqrt{2}+\\sqrt{3})$",
         "$7$",
         "$5\\sqrt{2}$",
-        "$2\\sqrt{13} \\$"
+        "$2\\sqrt{13} $"
     ],
     "answer_names": [
         "A",
@@ -27,7 +27,7 @@
         "$6$",
         "$6\\frac{1}{4}$",
         "$6\\frac{2}{3}$",
-        "$8 \\$"
+        "$8 $"
     ],
     "answer_names": [
         "A",
@@ -3683,10 +3683,10 @@
 },
 {
     "answer_choices": [
-        "$\\text{For all positive real numbers}\\ k,\\ \\text{both roots are pure imaginary.}\\\\$",
-        "$\\text{For all negative real numbers}\\ k,\\ \\text{both roots are pure imaginary.}\\\\$",
-        "$\\text{For all pure imaginary numbers}\\ k,\\ \\text{both roots are real and rational.}\\\\$",
-        "$\\text{For all pure imaginary numbers}\\ k,\\ \\text{both roots are real and irrational.}\\\\$",
+        "$\\text{For all positive real numbers}\\ k,\\ \\text{both roots are pure imaginary.}\\$",
+        "$\\text{For all negative real numbers}\\ k,\\ \\text{both roots are pure imaginary.}\\$",
+        "$\\text{For all pure imaginary numbers}\\ k,\\ \\text{both roots are real and rational.}\\$",
+        "$\\text{For all pure imaginary numbers}\\ k,\\ \\text{both roots are real and irrational.}\\$",
         "$\\text{For all complex numbers}\\ k,\\ \\text{neither root is real.}$"
     ],
     "answer_names": [
@@ -3751,7 +3751,7 @@
     "answer_choices": [
         "$\\cos 6^{\\circ}\\cos 12^{\\circ}\\sec 18^{\\circ}$",
         "$\\cos 6^{\\circ}\\sin 12^{\\circ}\\csc 18^{\\circ}$",
-        "$\\cos 6^{\\circ}\\sin 12^{\\circ}\\sec 18^{\\circ}\\\\$",
+        "$\\cos 6^{\\circ}\\sin 12^{\\circ}\\sec 18^{\\circ}\\$",
         "$\\sin 6^{\\circ}\\sin 12^{\\circ}\\csc 18^{\\circ}$",
         "$\\sin 6^{\\circ}\\sin 12^{\\circ}\\sec 18^{\\circ}$"
     ],
@@ -3793,10 +3793,10 @@
 },
 {
     "answer_choices": [
-        "$\\text{exactly 2 such triangles}\\\\$",
-        "$\\text{exactly 3 such triangles}\\\\$",
-        "$\\text{exactly 7 such triangles}\\\\$",
-        "$\\text{exactly 15 such triangles}\\\\$",
+        "$\\text{exactly 2 such triangles}\\$",
+        "$\\text{exactly 3 such triangles}\\$",
+        "$\\text{exactly 7 such triangles}\\$",
+        "$\\text{exactly 15 such triangles}\\$",
         "$\\text{more than 15 such triangles}$"
     ],
     "answer_names": [
@@ -8464,7 +8464,7 @@
 {
     "answer_choices": [
         "$\\frac{10000!}{(5000!)^2}$",
-        "$\\frac{10000!}{2^{5000}}\\$",
+        "$\\frac{10000!}{2^{5000}}$",
         "$\\frac{9999!}{2^{5000}}$",
         "$\\frac{10000!}{2^{5000}\\cdot 5000!}$",
         "$\\frac{5000!}{2^{5000}}$"
@@ -9181,7 +9181,7 @@
         "$2$",
         "$\\sqrt{5}$",
         "$\\sqrt{6}$",
-        "$3 \\$"
+        "$3 $"
     ],
     "answer_names": [
         "A",

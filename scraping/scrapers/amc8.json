@@ -15684,9 +15684,9 @@
 {
     "answer_choices": [
         "$\\text{Hannah, Cassie, Bridget}$",
-        "$\\text{Hannah, Bridget, Cassie}\\$",
+        "$\\text{Hannah, Bridget, Cassie}$",
         "$\\text{Cassie, Bridget, Hannah}$",
-        "$\\text{Cassie, Hannah, Bridget}\\$",
+        "$\\text{Cassie, Hannah, Bridget}$",
         "$\\text{Bridget, Cassie, Hannah}$"
     ],
     "answer_names": [
