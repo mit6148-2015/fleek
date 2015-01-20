@@ -27,7 +27,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // connect to database
-mongoose.connect(configDB.url);
+mongoose.connect(configDB.uri);
 
 // configure Passport
 require(__dirname + '/server/config/passport')(passport); // pass passport for configuration

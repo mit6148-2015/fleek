@@ -1,3 +1,3 @@
 module.exports = {
-    'url' : 'mongodb://localhost/fleekdb'
+    'uri' : process.env.MONGOLAB_URI || 'mongodb://localhost/fleekdb'
 };
