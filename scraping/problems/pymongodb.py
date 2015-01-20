@@ -67,7 +67,7 @@ def addProblems(wb, wk):
 			if x not in removeDup:
 				removeDup = removeDup + [x]
 
-		collection.insert({"year": year, "name": contest_name, "problem_number": probNum, "answer_type": contest_type, "choices":choices, "tags":removeDup})
+		collection.insert({"year": year, "name": contest_name, "problem_number": probNum, "answer_type": contest_type, "choices":choices, "tags":removeDup, "source":"http://www.artofproblemsolving.com/Forum/resources.php"})
 		print(str(year) + " " + str(contest_name) + " #" + str(probNum) + " " + str(contest_type) + " ")
 		print(removeDup)
 		curr_row = curr_row + 1
