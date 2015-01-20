@@ -1,8 +1,9 @@
 from bs4 import BeautifulSoup
 import urllib2
 import xlwt
+import json
 # Using BeautifulSoup and urllib to scrape AIME problems. 
-
+out_file = open("putnam.json","w")
 
 # Get the code from a LaTeX URL.
 def getLatex(url):
@@ -40,29 +41,21 @@ def readPagesPutnam(year):
 			#print(tb.get_text().strip())
 			print(year)
 			print (mod + str(probNum))
-			ws.write(currind, 0, contest)
-			ws.write(currind, 1, year)
-			ws.write(currind, 2, mod+str(probNum))
-			ws.write(currind, 3, tb.get_text().strip())
+			data = {"contest_name":"Putnam", "name_modifier":mod,"year":year, "problem_number":probNum, "problem_statement":tb.get_text().strip(), "source_name":"Art of Problem Solving", "source_link": aimelink}
+			json.dump(data,out_file, indent=4, separators=(',', ': ')) 
 			probNum = probNum + 1
 			currind = currind + 1
 			if probNum == 7:
 				probNum = 1
 				mod = "B"
-			wb.save('putnam_probs.xls')
+
 
 
 # Use the main function to get the AIME problems for any year.
 if __name__ == '__main__':
 	currind = 1
-	wb = xlwt.Workbook()
-	ws = wb.add_sheet('USAMO Problems')
-	ws.write(0, 0, "Contest Name")
-	ws.write(0, 1, "Year")
-	ws.write(0, 2, "Problem Number")
-	ws.write(0, 3, "Problem")
  	year = 1994
  	while year < 2015:
 		readPagesPutnam(year)
 		year = year + 1
-	wb.save('putnam_probs.xls')
+

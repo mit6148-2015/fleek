@@ -1,9 +1,11 @@
 from bs4 import BeautifulSoup
 import urllib2
 import xlwt
+import json
 # Using BeautifulSoup and urllib to scrape AIME problems. 
 
 
+out_file = open("amc10.json","w")
 # Get the code from a LaTeX URL.
 def getLatex(url):
 	page = urllib2.urlopen(url)  
@@ -67,9 +69,9 @@ def readPagesAMC10(year):
 	soup.prettify()
 	probNum = 1
 	if year < 2002:
-		contest = "AMC 10"
+		contest = ""
 	else:
-		contest = "AMC 10 A"
+		contest = "A"
 
 	#Find <span class="res_gen">, and replace all <a> tags with the result of getLatex(href)
 	for tb in soup.find_all("span"):
@@ -82,51 +84,33 @@ def readPagesAMC10(year):
 				else:
 					newlink = "http://artofproblemsolving.com/Forum/" + x.get('href')
 				latex = getLatex(newlink)
+				contest_answers = []
 				if '(A)' in latex and '(E)' in latex and '(C)' in latex:
 					answers = getChoices(latex)
 					if len(answers) == 5:
 						#print(currind)
 						#print(answers)
-						ws.write(currind, 4, answers[0])
-						ws.write(currind, 5, answers[1])
-						ws.write(currind, 6, answers[2])
-						ws.write(currind, 7, answers[3])
-						ws.write(currind, 8, answers[4])
+						contest_answers = answers
 					latex = ""
 				x.replace_with(latex)
 			#print(tb.get_text().strip())
 			print (probNum)
 			#print(tb.get_text().strip())
-			ws.write(currind, 0, contest)
-			ws.write(currind, 1, year)
-			ws.write(currind, 2, probNum)
-			ws.write(currind, 3, tb.get_text().strip())
+			data = {"contest_name":"AMC 10", "name_modifier":contest,"year":year, "problem_number":probNum, "problem_statement":tb.get_text().strip(), "source_name":"Art of Problem Solving", "source_link": amclink, "answer_names":["A", "B", "C", "D", "E"], "answer_choices":contest_answers}
 			currind = currind + 1
 			probNum = probNum + 1
-			if probNum == 26 and contest != "AMC 10 B":
+			if probNum == 26 and contest != "B":
 				probNum = 1
-				contest = "AMC 10 B"
-			if probNum == 26 and contest == "AMC 10 B":
+				contest = "B"
+			if probNum == 26 and contest == "B":
 				probNum = 1
-				contest = "AMC 10 P"
-			wb.save('amc10_probs.xls')
+				contest = "P"
+			json.dump(data,out_file, indent=4, separators=(',', ': ')) 
 
 # Use the main function to get the AIME problems for any year.
 if __name__ == '__main__':
 	currind = 1
-	wb = xlwt.Workbook()
-	ws = wb.add_sheet('AMC 10 Problems')
-	ws.write(0, 0, "Contest Name")
-	ws.write(0, 1, "Year")
-	ws.write(0, 2, "Problem Number")
-	ws.write(0, 3, "Problem")
-	ws.write(0, 4, "A")
-	ws.write(0, 5, "B")
-	ws.write(0, 6, "C")
-	ws.write(0, 7, "D")
-	ws.write(0, 8, "E")
  	year = 2000
  	while year < 2015:
 		readPagesAMC10(year)
 		year = year + 1
-	wb.save('amc10_probs.xls')

@@ -1,8 +1,9 @@
 from bs4 import BeautifulSoup
 import urllib2
 import xlwt
+import json
 # Using BeautifulSoup and urllib to scrape AIME problems. 
-
+out_file = open("usamo.json","w")
 
 # Get the code from a LaTeX URL.
 def getLatex(url):
@@ -39,25 +40,17 @@ def readPagesUSAMO(year):
 			#print(tb.get_text().strip())
 			print(year)
 			print (probNum)
-			ws.write(currind, 0, contest)
-			ws.write(currind, 1, year)
-			ws.write(currind, 2, probNum)
-			ws.write(currind, 3, tb.get_text().strip())
+			data = {"contest_name":"USAMO","year":year, "problem_number":probNum, "problem_statement":tb.get_text().strip(), "source_name":"Art of Problem Solving", "source_link": aimelink}
+			#print(data)
 			probNum = probNum + 1
 			currind = currind + 1
+			json.dump(data,out_file, indent=4, separators=(',', ': ')) 
 
 
 # Use the main function to get the AIME problems for any year.
 if __name__ == '__main__':
 	currind = 1
-	wb = xlwt.Workbook()
-	ws = wb.add_sheet('USAMO Problems')
-	ws.write(0, 0, "Contest Name")
-	ws.write(0, 1, "Year")
-	ws.write(0, 2, "Problem Number")
-	ws.write(0, 3, "Problem")
  	year = 1972
  	while year < 2015:
 		readPagesUSAMO(year)
 		year = year + 1
-	wb.save('usamo_probs.xls')

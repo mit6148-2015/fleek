@@ -98,7 +98,7 @@ def readPagesAMC10(year):
 # Use the main function to get the AIME problems for any year.
 if __name__ == '__main__':
 	currind = 1
- 	year = 2014
+ 	year = 1985
  	while year < 2015:
 		readPagesAMC10(year)
 		year = year + 1

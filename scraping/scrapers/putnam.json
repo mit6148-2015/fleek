@@ -1,0 +1,2017 @@
+{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Suppose that a sequence $ \\{a_n\\}_{n\\ge 1} $ satisfies $ 0 < a_n\\le a_{2n}+a_{2n+1} $ for all $ n\\in\\mathbb{N} $. Prove that the series$ \\sum_{n=1}^{\\infty}a_n $ diverges.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1994&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1994,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ A $ be the area of the region in the first quadrant bounded by the line $ y =\\frac{x}{2} $, the x-axis, and the ellipse $ \\frac{x^2}{9}+y^2 = 1 $. Find the positive number $ m $ such that $ A $ is equal to the area of the region in the first quadrant bounded by the line $ y = mx, $ the y-axis, and the ellipse $ \\frac{x^2}{9}+y^2 = 1. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1994&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1994,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Show that if the points of an isosceles right triangle of side length $ 1 $ are each colored with one of four colors, then there must be two points of the same color which are at least a distance $ 2-\\sqrt 2 $ apart.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1994&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1994,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ A $ and $ B $ be $ 2\\times 2 $ matrices with integer entries such that $ A, A+B, A+2B, A+3B, $ and $ A+4B $ are all invertible matrices whose inverses have integer entries. Show that $ A+5B $ is invertible and that its inverse has integer entries.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1994&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1994,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ (r_n)_{n\\ge 0} $ be a sequence of positive real numbers such that $ \\lim_{n\\to\\infty}r_n = 0 $. Let $ S $ be the set of numbers representable as a sum \\[ r_{i_1}+r_{i_2}+\\cdots+r_{i_{1994}}, \\] with $ i_1 < i_2 <\\cdots< i_{1994}. $ Show that every nonempty interval $ (a, b) $ contains a nonempty subinterval $ (c, d) $ that does not intersect $ S $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1994&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1994,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ f_1,f_2,\\cdots ,f_{10} $ be bijections on $ \\mathbb{Z} $ such that for each integer $ n $, there is some composition $ f_{\\ell_1}\\circ f_{\\ell_2}\\circ\\cdots\\circ f_{\\ell_m} $ (allowing repetitions) which maps 0 to $ n $. Consider the set of $ 1024 $ functions \\[ \\mathcal{F}=\\{f_1^{\\epsilon_1}\\circ f_2^{\\epsilon_2}\\circ\\cdots\\circ f_{10}^{\\epsilon_{10}}\\} \\]where $ \\epsilon_i=0 $ or $ 1 $ for $ 1\\le i\\le 10.\\; (f_i^{0} $ is the identity function and $ f_i^1=f_i) $. Show that if $ A $ is a finite set of integers then at most $ 512 $ of the functions in $ \\mathcal{F} $ map $ A $ into itself.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1994&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1994,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Find all positive integers that are within $ 250 $ of exactly $ 15 $ perfect squares.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1994&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1994,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "For which real numbers $ c $ is there a straight line that intersects the curve\\[ y = x^4+9x^3+cx^2+9x+4 \\] in four distinct points?",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1994&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1994,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Find the set of all real numbers $ k $ with the following property: For any positive, differentiable function $ f $ that satisfies $ f^{\\prime}(x) > f(x) $ for all $ x, $ there is some number $ N $ such that $ f(x) > e^{kx} $ for all $ x > N. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1994&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1994,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "For $ n\\ge 1 $ let $ d_n $ be the $ \\gcd $ of the entries of $ A^n-\\mathcal{I}_2 $ where \\[ A=\\begin{pmatrix}3&2\\\\ 4&3\\end{pmatrix}\\quad\\text{ and }\\quad\\mathcal{I}_2=\\begin{pmatrix}1&0\\\\ 0&1\\\\\\end{pmatrix} \\]Show that $ \\lim_{n\\to\\infty}d_n=\\infty $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1994&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1994,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "For each $ \\alpha\\in\\mathbb{R} $ define $ f_{\\alpha}(x)=\\lfloor{\\alpha x}\\rfloor $. Let $ n\\in\\mathbb{N} $. Show there exists a real $ \\alpha $ such that for $ 1\\le\\ell\\le n $ :\\[ f_{\\alpha}^{\\ell}(n^2)=n^2-\\ell=f_{\\alpha^{\\ell}}(n^2). \\] Here $ f^{\\ell}_{\\alpha}(x)=(f_{\\alpha}\\circ f_{\\alpha}\\circ\\cdots\\circ f_{\\alpha})(x) $ where the composition is carried out $ \\ell $ times.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1994&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1994,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "For $ a\\in\\mathbb{Z} $ define \\[ n_a=101a-100\\cdot 2^a \\]Show that, for $ 0\\le a,b,c,d\\le 99 $ \\[ n_a+n_b\\equiv n_c+n_d\\pmod{10100}\\implies\\{a,b\\}=\\{c,d\\} \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1994&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1994,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ S $ be a set of real numbers which is closed under multiplication (that is $ a,b\\in S\\implies ab\\in S $). Let $ T,U\\subset S $ such that $ T\\cap U=\\emptyset, T\\cup U=S $. Given that for any three elements $ a,b,c $ in $ T $, not necessarily distinct, we have $ abc\\in T $ and also if $ a,b,c\\in U $, not necessarily distinct then $ abc\\in U $. Show at least one of $ T $ and $ U $ is closed under multiplication.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1995&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1995,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "For what pairs of positive real numbers $ (a,b) $ does the improper integral $ (1) $ converge?\\[ \\begin{align}\\int_{b}^{\\infty}\\left(\\sqrt{\\sqrt{x+a}-\\sqrt{x}}-\\sqrt{\\sqrt{x}-\\sqrt{x-b}}\\right)\\,\\mathrm{d}x \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1995&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1995,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "The number $ d_1d_2\\cdots d_9 $ has nine (not necessarily distinct) decimal digits. The number $ e_1e_2\\cdots e_9 $ is such that each of the nine $ 9 $-digit numbers formed by replacing just one of the digits $ d_i $ in $ d_1d_2\\cdots d_9 $ by the corresponding digit $ e_i\\;\\;(1\\le i\\le 9) $ is divisible by $ 7 $. The number $ f_1f_2\\cdots f_9 $ is related to $ e_1e_2\\cdots e_9 $ is the same way: that is, each of the nine numbers formed by replacing one of the $ e_i $ by the corresponding $ f_i $ is divisible by $ 7 $. Show that, for each $ i $, $ d_i-f_i $ is divisible by $ 7 $. [For example, if $ d_1d_2\\cdots d_9 = 199501996 $, then $ e_6 $ may be $ 2 $ or $ 9 $, since $ 199502996 $ and $ 199509996 $ are multiples of $ 7 $.]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1995&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1995,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Suppose we have a necklace of $ n $ beads. Each bead is labelled with an integer and the sum of all these labels is $ n-1 $. Prove that we can cut the necklace to form a string whose consecutive labels $ x_1, x_2,\\cdots , x_n $ satisfy \\[ \\sum_{i=1}^{k}x_i\\le k-1\\quad\\forall\\;\\;1\\le k\\le n \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1995&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1995,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ x_1,x_2,\\cdots, x_n $ be real valued differentiable functions of a variable $ t $ which satisfy\\[ \\begin{align*}&\\frac{\\mathrm{d}x_1}{\\mathrm{d}t}=a_{11}x_1+a_{12}x_2+\\cdots+a_{1n}x_n\\\\ &\\frac{\\mathrm{d}x_2}{\\mathrm{d}t}=a_{21}x_1+a_{22}x_2+\\cdots+a_{2n}x_n\\\\ &\\;\\qquad\\vdots\\\\ &\\frac{\\mathrm{d}x_n}{\\mathrm{d}t}=a_{n1}x_1+a_{n2}x_2+\\cdots+a_{nn}x_n\\\\ \\end{align*} \\]For some constants $ a_{ij}>0 $. Suppose that $ \\lim_{t\\to\\infty}x_i(t)=0 $ for all $ 1\\le i\\le n $. Are the functions $ x_i $ necessarily linearly dependent?",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1995&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1995,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Suppose that each of $ n $ people writes down the numbers $ 1, 2, 3 $ in random order in one column of a $ 3\\times n $ matrix, with all orders equally likely and with the orders for different columns independent of each other. Let the row sums $ a, b, c $ of the resulting matrix be rearranged (if necessary) so that $ a\\le b\\le c $. Show that for some $ n\\ge 1995 $ ,it is at least four times as likely that both $ b = a+1 $ and $ c = a+2 $ as that $ a = b = c $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1995&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1995,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "For a partition $ \\pi $ of $ \\{1, 2, 3, 4, 5, 6, 7, 8, 9\\} $, let $ \\pi(x) $ be the number of elements in the part containing $ x $. Prove that for any two partitions $ \\pi $ and $ \\pi^{\\prime} $, there are two distinct numbers $ x $ and $ y $ in $ \\{1, 2, 3, 4, 5, 6, 7, 8, 9\\} $ such that $ \\pi(x) =\\pi(y) $ and $ \\pi^{\\prime}(x) =\\pi^{\\prime}(y) $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1995&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1995,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "An ellipse, whose semi-axes have length $ a $ and $ b $, rolls without slipping on the curve $ y=c\\sin{\\left(\\frac{x}{a}\\right)} $. How are $ a,b,c $ related, given that the ellipse completes one revolution when it traverses one period of the curve?",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1995&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1995,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "To each number with $ n^2 $ digits, we associate the $ n\\times n $ determinant of the matrix obtained by writing the digits of the number in order along the rows. For example : $ 8617\\mapsto\\det\\left(\\begin{matrix}{\\;8& 6\\;\\\\ \\;1 & 7\\;}\\end{matrix}\\right)=50 $.Find, as a function of $ n $, the sum of all the determinants associated with $ n^2 $-digit integers. (Leading digits are assumed to be nonzero; for example, for $ n = 2 $, there are $ 9000 $ determinants.)",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1995&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1995,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Evaluate :\\[ \\sqrt[8]{2207-\\frac{1}{2207-\\frac{1}{2207-\\cdots}}} \\]Express your expression in the form $ \\frac{a+b\\sqrt{c}}{d} $ where $ a,b,c,d\\in\\Bbb{Z} $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1995&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1995,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "A game starts with four heaps of beans, containing 3, 4, 5 and 6 beans. The two players move alternately. A move consists of taking (a) $ \\text{either} $ one bean from a heap, provided at least two beans are left behind in that heap,(b) $ \\text{or} $ a complete heap of two or three beans.The player who takes the last heap wins. To win the game, do you want to move first or second? Give a winning strategy.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1995&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1995,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "For any $ a>0 $,set $ \\mathcal{S}(a)=\\{\\lfloor{na}\\rfloor|n\\in\\mathbb{N}\\} $. Show that there are no three positive reals $ a,b,c $ such that \\[ \\mathcal{S}(a)\\cap\\mathcal{S}(b)=\\mathcal{S}(b)\\cap\\mathcal{S}(c)=\\mathcal{S}(c)\\cap\\mathcal{S}(a)=\\emptyset \\]\\[ \\mathcal{S}(a)\\cup\\mathcal{S}(b)\\cup\\mathcal{S}(c)=\\mathbb{N} \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1995&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1995,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Find the least number $ A $ such that for any two squares of combined area $ 1 $, a rectangle of area $ A $ exists such that the two squares can be packed in the rectangle (without the interiors of the squares overlapping) . You may assume the sides of the squares will be parallel to the sides of the rectangle.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1996&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1996,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ \\mathcal{C}_1 $ and $ \\mathcal{C}_2 $ be circles whose centers are $ 10 $ units apart, and whose radii are $ 1 $ and $ 3 $. Find, with proof, the locus of all points $ M $ for which there exists points $ X\\in\\mathcal{C}_1,Y\\in\\mathcal{C}_2 $ such that $ M $ is the midpoint of $ XY $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1996&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1996,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Suppose that each of $ 20 $ students has made a choice of anywhere from 0 to $ 6 $ courses from a total of $ 6 $ courses offered. Prove or disprove : there are $ 5 $ students and $ 2 $ courses such that all $ 5 $ have chosen both courses or all $ 5 $ have chosen neither course.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1996&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1996,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "$ S $ be a set of ordered triples $ (a,b,c) $ of distinct elements of a finite set $ A $. Suppose that  $ (a,b,c)\\in S\\iff (b,c,a)\\in S $  $ (a,b,c)\\in S\\iff (c,b,a)\\not\\in S $ $ (a,b,c),(c,d,a)\\text{ both }\\in S\\iff (b,c,d),(d,a,b)\\text{ both }\\in S $Prove there exists $ g: A\\to\\mathbb{R} $, such that $ g $ is one-one and $ g(a)<g(b)<g(c)\\implies (a,b,c)\\in S $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1996&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1996,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ p $ be a prime greater than $ 3 $. Prove that :\\[ p^2\\mid\\sum_{i=1}^{\\left\\lfloor{\\frac{2p}{3}\\right\\rfloor}\\dbinom{p}{i} \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1996&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1996,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ c\\ge 0 $ be a real number. Give a complete description with proof of the set of all continuous functions $ f:\\mathbb{R}\\to\\mathbb{R} $ such that $ f(x)=f(x^2+c) $ for all $ x\\in\\mathbb{R} $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1996&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1996,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Define a $ \\emph{selfish} $ set to be a set which has its own cardinality as its element. And a set is a $ \\emph{minimal }\\text{ selfish} $ set if none of its proper subsets are $ \\emph{selfish} $. Find with proof the number of $ \\text{minimal selfish} $ subsets of $ \\{1,2,\\cdots ,n\\} $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1996&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1996,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Prove the inequality for all positive integer $ n $ :\\[ \\left(\\frac{2n-1}{e}\\right)^{\\frac{2n-1}{2}}<1\\cdot 3\\cdot 5\\cdots (2n-1)<\\left(\\frac{2n+1}{e}\\right)^{\\frac{2n+1}{2}} \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1996&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1996,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ S_n $ be the set of all permutations of $ (1,2,\\ldots,n) $. Then find :\\[ \\max_{\\sigma\\in S_n}\\left(\\sum_{i=1}^{n}\\sigma(i)\\sigma(i+1)\\right) \\]where $ \\sigma(n+1)=\\sigma(1) $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1996&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1996,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "For any square matrix $ \\mathcal{A} $ we define $ \\sin{\\mathcal{A}} $ by the usual power series. \\[ \\sin{\\mathcal{A}}=\\sum_{n=0}^{\\infty}\\frac{(-1)^n}{(2n+1)!}\\mathcal{A}^{2n+1} \\]Prove or disprove :$ \\exists 2\\times 2 $ matrix $ A\\in\\mathcal{M}_2(\\mathbb{R}) $ such that \\[ \\sin{A}=\\left(\\begin{array}{cc}1 & 1996\\\\0 & 1\\end{array}\\right) \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1996&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1996,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Given a finite binary string $ S $ of symbols $ X,O $ we define $ \\Delta(S)=n(X)-n(O) $ where $ n(X),n(O) $ respectively denote number of $ X $'s and $ O $'s in a string. For example $ \\Delta(XOOXOOX)=3-4=-1 $. We call a string $ S $ $ \\emph{balanced} $ if every substring $ T $ of $ S $ has $ -2\\le\\Delta(T)\\le 2 $. Find number of balanced strings of length $ n $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1996&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1996,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ (a_1,b_1),(a_2,b_2),\\ldots ,(a_n,b_n) $ be the vertices of a convex polygon containing the origin in its interior. Prove that there are positive real numbers $ x,y $ such that :\\[ (a_1,b_1)x^{a_1}y^{b_1}+(a_2,b_2)x^{a_2}y^{b_2}+\\ldots+(a_n,b_n)x^{a_n}y^{b_n}=(0,0) \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1996&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1996,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "A rectangle, $ HOMF $, has sides $ HO=11 $ and $ OM=5 $. A triangle $ \\Delta ABC $ has $ H $ as orthocentre,  $ O $ as circumcentre, $ M $ be the midpoint of $ BC $, $ F $ is the feet of altitude from $ A $. What is the length of $ BC $ ?[asy]unitsize(0.3 cm);pair F, H, M, O;F = (0,0);H = (0,5);O = (11,5);M = (11,0);draw(H--O--M--F--cycle);label(\"$F$\", F, SW);label(\"$H$\", H, NW);label(\"$M$\", M, SE);label(\"$O$\", O, NE);[/asy]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1997&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1997,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Players $ 1,2,\\ldots n $ are seated around a table, and each has a single penny. Player $ 1 $ passes a penny to Player $ 2 $, who then passes two pennies to Player $ 3 $, who then passes one penny to player $ 4 $, who then passes two pennies to Player $ 5 $ and so on, players alternately pass one or two pennies to the next player who still has some pennies. The player who runs out of pennies drops out of the game and leaves the table. Find an infinite set of numbers $ n $ for which some player ends up with all the $ n $ pennies.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1997&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1997,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Evaluate the following :\\[ \\int_{0}^{\\infty}\\left(x-\\frac{x^3}{2}+\\frac{x^5}{2\\cdot 4}-\\frac{x^7}{2\\cdot 4\\cdot 6}+\\cdots\\right)\\;\\left(1+\\frac{x^2}{2^2}+\\frac{x^4}{2^2\\cdot 4^2}+\\frac{x^6}{2^2\\cdot 4^2\\cdot 6^2}+\\cdots\\right)\\,\\mathrm{d}x \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1997&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1997,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ G $ be group with identity $ e $ and $ \\phi :G\\to G $ be a function such that :\\[ \\phi(g_1)\\cdot\\phi(g_2)\\cdot\\phi(g_3)=\\phi(h_1)\\cdot\\phi(h_2)\\cdot\\phi(h_3) \\]Whenever $ g_1\\cdot g_2\\cdot g_3=e=h_1\\cdot h_2\\cdot h_3 $Show there exists $ a\\in G $ such that $ \\psi(x)=a\\phi(x) $ is a homomorphism. (that is $ \\psi(x\\cdot y)=\\psi (x)\\cdot\\psi(y) $ for all $ x,y\\in G $ )",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1997&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1997,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ N_k $ denote number of ordered $ n $-tuples of positive integers $ (a_1,a_2,\\cdots ,a_k) $ such that \\[ \\frac{1}{a_1}+\\frac{1}{a_2}+\\ldots+\\frac{1}{a_k}=1 \\]Determine $ N_{10} $ is odd or even.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1997&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1997,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "For a positive integer $ n $ and any real number $ c $, define $ x_k $ recursively by :\\[ x_0=0,x_1=1\\text{ and for }k\\ge 0,\\;x_{k+2}=\\frac{cx_{k+1}-(n-k)x_k}{k+1} \\]Fix $ n $ and then take $ c $ to be the largest value for which $ x_{n+1}=0 $. Find $ x_k $ in terms of $ n $ and $ k,\\; 1\\le k\\le n $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1997&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1997,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "For all reals $ x $ define $ \\{x\\} $ to be the difference between $ x $ and the closest integer to $ x $. For each positive integer $ n $ evaluate :\\[ S_n=\\sum_{m=1}^{6n-1}\\min\\left(\\left\\{\\frac{m}{6n}\\right\\},\\left\\{\\frac{m}{3n}\\right\\}\\right) \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1997&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1997,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "$ f $ be a twice differentiable real valued function satisfying\\[ f(x)+f^{\\prime\\prime}(x)=-xg(x)f^{\\prime}(x) \\]where $ g(x)\\ge 0 $ for all real $ x $. Show that $ |f(x)| $ is bounded.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1997&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1997,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "For each positive integer $ n $ write the sum $ \\sum_{i=}^{n}\\frac{1}{i}=\\frac{p_n}{q_n} $ with $ \\text{gcd}(p_n,q_n)=1 $. Find all such $ n $ such that $ 5\\nmid q_n $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1997&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1997,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ a_{m,n} $ denote the coefficient of $ x^n $ in the expansion $ (1+x+x^2)^n $. Prove the inequality for all integers $ k\\ge 0 $ :\\[ 0\\le\\sum_{\\ell=0}^{\\left\\lfloor{\\frac{2k}{3}}\\right\\rfloor}(-1)^{\\ell}a_{k-\\ell,\\ell}\\le 1 \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1997&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1997,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let us define a sequence $ \\{a_n\\}_{n\\ge 1} $. Define as follows:\\[ a_1=2\\text{ and }a_{n+1}=2^{a_n}\\text{ for }n\\ge 1 \\]Show this :\\[ a_{n}\\equiv a_{n-1}\\pmod n \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1997&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1997,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "The dissection of the $ 3-4-5 $ triangle shown below has diameter $ 5/2 $. [asy]/* Geogebra to Asymptote conversion, documentation at artofproblemsolving.com/Wiki, go to User:Azjps/geogebra */import graph; size(23cm); real labelscalefactor = 0.5; /* changes label-to-point distance */pen dps = linewidth(0.7) + fontsize(10); defaultpen(dps); /* default pen style */ pen dotstyle = black; /* point style */ real xmin = 1.42, xmax = 24.42, ymin = 3.8, ymax = 15.54;  /* image dimensions */Label laxis; laxis.p = fontsize(10); xaxis(xmin, xmax,defaultpen+black, Ticks(laxis, Step = 1, Size = 2, NoZero), Arrows(6), above = true); yaxis(ymin, ymax,defaultpen+black, Ticks(laxis, Step = 1, Size = 2, NoZero), Arrows(6), above = true); /* draws axes; NoZero hides '0' label */  /* draw figures */draw((9.44,8.52)--(12.44,8.52)); draw((9.44,12.52)--(9.44,8.52)); draw((9.44,12.52)--(12.44,8.52)); draw((9.44,10.52)--(10.94,10.52)); draw((10.94,10.52)--(10.94,8.52)); draw((9.44,8.52)--(10.94,10.52));  /* dots and labels */dot((9.44,8.52),dotstyle); label(\"$A$\", (9.52,8.64), NE * labelscalefactor); dot((12.44,8.52),dotstyle); label(\"$B$\", (12.52,8.64), NE * labelscalefactor); dot((9.44,12.52),dotstyle); label(\"$C$\", (9.52,12.64), NE * labelscalefactor); dot((10.94,8.52),dotstyle); label(\"$D$\", (11.02,8.64), NE * labelscalefactor); dot((9.44,10.52),dotstyle); label(\"$E$\", (9.52,10.64), NE * labelscalefactor); dot((10.94,10.52),dotstyle); label(\"$F$\", (11.02,10.64), NE * labelscalefactor); clip((xmin,ymin)--(xmin,ymax)--(xmax,ymax)--(xmax,ymin)--cycle);  /* end of picture */[/asy]Find the least diameter of this triangle into four parts. (The diameter of a dissection is the least upper bound of the distances between pairs of points belonging to the same part.)",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1997&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1997,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "A right circular cone has base of radius 1 and height 3.  A cube is inscribed in the cone so that one face of the cube is contained in the base of the cone.  What is the side-length of the cube?",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1998&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1998,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ s $ be any arc of the unit circle lying entirely in the first quadrant.  Let $ A $ be the area of the region lying below $ s $ and  above the $ x $-axis and let $ B $ be the area of the region lying to the right of the $ y $-axis and to the left of $ s $.  Prove that $ A+B $ depends  only on the arc length, and not on the position, of $ s $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1998&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1998,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ f $ be a real function on the real line with continuous third derivative.  Prove that there exists a point $ a $ such that \\[ f(a)\\cdot f^\\prime(a)\\cdot f^{\\prime\\prime}(a)\\cdot f^{\\prime\\prime\\prime}(a)\\geq 0. \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1998&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1998,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ A_1=0 $ and $ A_2=1 $.  For $ n>2 $, the number $ A_n $ is defined by concatenating the decimal expansions of $ A_{n-1} $ and $ A_{n-2} $ from left to right.  For example $ A_3=A_2A_1=10 $, $ A_4=A_3A_2=101 $, $ A_5=A_4A_3=10110 $, and so forth.  Determine all $ n $ such that $ 11 $ divides $ A_n $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1998&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1998,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ \\mathcal{F} $ be a finite collection of open discs in $ \\mathbb{R}^2 $ whose union contains a set $ E\\subseteq\\mathbb{R}^2 $.  Show that there is a pairwise disjoint subcollection $ D_1,\\ldots,D_n $ in $ \\mathcal{F} $ such that \\[ E\\subseteq\\cup_{j=1}^n 3D_j. \\]  Here, if $ D $ is the disc of radius $ r $ and center $ P $, then $ 3D $ is the disc of radius $ 3r $ and center $ P $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1998&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1998,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ A,B,C $ denote distinct points with integer coefficients in $ \\mathbb{R}^2 $.  Prove that if \\[ (|AB|+|BC|)^2<8\\cdot[ABC]+1 \\] then $ A,B,C $ are three vertices of a square.  Here $ |XY| $ is the length of segment $ XY $ and $ [ABC] $ is the area of triangle $ ABC $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1998&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1998,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Find the minimum value of \\[ \\frac{(x+1/x)^6-(x^6+1/x^6)-2}{(x+1/x)^3+(x^3+1/x^3)} \\] for $ x>0 $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1998&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1998,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Given a point $ (a,b) $ with $ 0<b<a $, determine the minimum perimeter of a triangle with one vertex at $ (a,b) $, one on the $ x $-axis, and one on the line $ y=x $.  You may assume that a triangle of minimum perimeter exists.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1998&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1998,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ H $ be the unit hemisphere $ \\{(x,y,z):x^2+y^2+z^2=1,z\\geq 0\\} $, $ C $ the unit circle $ \\{(x,y,0):x^2+y^2=1\\} $, and $ P $ the regular pentagon inscribed in $ C $.  Determine the surface area of that portion of $ H $ lying over the planar region inside $ P $, and write your answer in the form $ A\\sin\\alpha+B\\cos\\beta $, where $ A,B,\\alpha,\\beta $ are real numbers.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1998&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1998,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Find necessary and sufficient conditions on positive integers $ m $ and $ n $ so that \\[ \\sum_{i=0}^{mn-1}(-1)^{\\lfloor i/m\\rfloor+\\lfloor i/n\\rfloor}=0. \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1998&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1998,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ N $ be the positive integer with 1998 decimal digits, all of them 1; that is,\\[ N=1111\\cdots 11. \\]Find the thousandth digit after the decimal point of $ \\sqrt N $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1998&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1998,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Prove that, for any integers $ a,b,c $, there exists a positive integer $ n $ such that $ \\sqrt{n^3+an^2+bn+c} $ is not an integer.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1998&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1998,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Find polynomials $ f(x) $, $ g(x) $, and $ h(x) $, if they exist, such that for all $ x $, \\[ |f(x)|-|g(x)|+h(x)=\\begin{cases}-1 &\\text{if }x<-1\\\\3x+2 &\\text{if }-1\\leq x\\leq 0\\\\-2x+2 &\\text{if }x>0.\\end{cases} \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1999&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1999,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ p(x) $ be a polynomial that is nonnegative for all real $ x $.  Prove that for some $ k $, there are polynomials $ f_1(x),f_2(x),\\ldots,f_k(x) $ such that \\[ p(x)=\\sum_{j=1}^k(f_j(x))^2. \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1999&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1999,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Consider the power series expansion \\[ \\frac{1}{1-2x-x^2}=\\sum_{n=0}^\\infty a_nx^n. \\] Prove that, for each integer $ n\\geq 0 $, there is an integer $ m $ such that \\[ a_n^2+a_{n+1}^2=a_m. \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1999&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1999,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Sum the series \\[ \\sum_{m=1}^\\infty\\sum_{n=1}^\\infty\\frac{m^2n}{3^m(n3^m+m3^n)}. \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1999&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1999,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Prove that there is a constant $ C $ such that, if $ p(x) $ is a polynomial of degree $ 1999 $, then \\[ |p(0)|\\leq C\\int_{-1}^1|p(x)|\\,dx. \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1999&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1999,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "The sequence $ (a_n)_{n\\geq 1} $ is defined by $ a_1=1,a_2=2,a_3=24, $ and, for $ n\\geq 4, $ \\[ a_n=\\frac{6a_{n-1}^2a_{n-3}-8a_{n-1}a_{n-2}^2}{a_{n-2}a_{n-3}}. \\] Show that, for all $ n $, $ a_n $ is an integer multiple of $ n $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1999&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 1999,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Right triangle $ ABC $ has right angle at $ C $ and $ \\angle BAC=\\theta $; the point $ D $ is chosen on $ AB $ so that $ |AC|=|AD|=1 $; the point $ E $ is chosen on $ BC $ so that $ \\angle CDE=\\theta $.  The perpendicular to $ BC $ at $ E $ meets $ AB $ at $ F $.  Evaluate $ \\lim_{\\theta\\to 0}|EF| $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1999&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1999,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ P(x) $ be a polynomial of degree $ n $ such that $ P(x)=Q(x)P^{\\prime\\prime}(x) $, where $ Q(x) $ is a quadratic polynomial and $ P^{\\prime\\prime}(x) $ is the second derivative of $ P(x) $.  Show that if $ P(x) $ has at least two distinct roots then it must have $ n $ distinct roots.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1999&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1999,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ A=\\{(x,y): 0\\le x,y < 1\\}. $ For $ (x,y)\\in A, $ let\\[ S(x,y)=\\sum_{\\frac{1}2\\le\\frac{m}{n}\\le2}x^my^n, \\]where the sum ranges over all pairs $ (m,n) $ of positive integers satisfying the indicated inequalities. Evaluate\\[ \\lim_{(x,y)\\to(1,1),(x,y)\\in A}(1-xy^2)(1-x^2y)S(x,y). \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1999&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1999,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ f $ be a real function with a continuous third derivative such that $ f(x) $, $ f^\\prime(x) $, $ f^{\\prime\\prime}(x) $, $ f^{\\prime\\prime\\prime}(x) $ are positive for all $ x $.  Suppose that $ f^{\\prime\\prime\\prime}(x)\\leq f(x) $ for all $ x $.  Show that $ f^\\prime(x)<2f(x) $ for all $ x $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1999&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1999,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "For an integer $ n\\geq 3 $, let $ \\theta=2\\pi/n $.  Evaluate the determinant of the $ n\\times n $ matrix $ I+A $, where $ I $ is the $ n\\times n $ identity matrix and $ A=(a_{jk}) $ has entries $ a_{jk}=\\cos(j\\theta+k\\theta) $ for all $ j,k $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1999&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1999,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ S $ be a finite set of integers, each greater than $ 1 $.  Suppose that for each integer $ n $ there is some $ s\\in S $ such that $ \\gcd(s,n)=1 $ or $ \\gcd(s,n)=s $.  Show that there exist $ s,t\\in S $ such that $ \\gcd(s,t) $ is prime.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1999&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 1999,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ A $ be a positive real number. What are the possible values of $ \\sum_{j=0}^{\\infty}x_j^2, $ given that $ x_0, x_1,\\cdots $ are positive numbers for which $ \\sum_{j=0}^{\\infty}x_j = A $?",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2000&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2000,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Prove that there exist infinitely many integers $ n $ such that $ n $, $ n+1 $, $ n+2 $ are each the sum of the squares of two integers. [Example: $ 0=0^2+0^2 $, $ 1=0^2+1^2 $, $ 2=1^2+1^2 $.]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2000&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2000,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "The octagon $ P_1P_2P_3P_4P_5P_6P_7P_8 $ is inscribed in a circle with the vertices around the circumference in the given order. Given that the polygon $ P_1P_3P_5P_7 $ is a square of area $ 5 $, and the polygon $ P_2P_4P_6P_8 $ is a rectangle of area $ 4 $, find the maximum possible area of the octagon.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2000&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2000,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Show that the improper integral \\[ \\lim_{B\\rightarrow\\infty}\\int_{0}^{B}\\sin (x)\\sin (x^2) dx \\] converges.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2000&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2000,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Three distinct points with integer coordinates lie in the plane on a circle of radius $ r>0 $. Show that two of these points are separated by a distance of at least $ r^{1/3} $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2000&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2000,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ f(x) $ be a polynomial with integer coefficients. Define a sequence $ a_0, a_1,\\cdots $ of integers such that $ a_0=0 $ and $ a_{n+1}=f(a_n) $ for all $ n\\ge 0 $. Prove that if there exists a positive integer $ m $ for which $ a_m=0 $ then either $ a_1=0 $ or $ a_2=0 $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2000&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2000,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ a_j $, $ b_j $, $ c_j $ be integers for $ 1\\le j\\le N $. Assume for each $ j $, at least one of $ a_j $, $ b_j $, $ c_j $ is odd. Show that there exists integers $ r, s, t $ such that $ ra_j+sb_j+tc_j $ is odd for at least $ \\tfrac{4N}{7} $ values of $ j $, $ 1\\le j\\le N $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2000&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2000,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Prove that the expression \\[ \\frac{\\text{gcd}(m, n)}{n}\\dbinom{n}{m} \\] is an integer for all pairs of integers $ n\\ge m\\ge 1 $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2000&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2000,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ f(t) =\\sum_{j=1}^{N}a_j\\sin (2\\pi jt) $, where each $ a_j $ is areal and $ a_N $ is not equal to 0. Let $ N_k $ denote the number of zeroes (including multiplicites) of $ \\frac{d^k f}{dt^k} $. Prove that \\[ N_0\\le N_1\\le N_2\\le\\cdots\\text{ and }\\lim_{k\\rightarrow\\infty}N_k = 2N. \\] [Only zeroes in [0, 1) should be counted.]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2000&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2000,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ f(x) $ be a continuous function such that $ f(2x^2-1)=2xf(x) $ for all $ x $. Show that $ f(x)=0 $ for $ -1\\le x\\le 1 $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2000&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2000,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ S_0 $ be a finite set of positive integers. We define finite sets $ S_1, S_2,\\cdots $ of positive integers as follows: the integer $ a $ in $ S_{n+1} $ if and only if exactly one of $ a-1 $ or $ a $ is in $ S_n $. Show that there exist infinitely many integers $ N $ for which $ S_N = S_0\\cup\\{ N+a: a\\in S_0\\} $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2000&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2000,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ B $ be a set of more than $ \\tfrac{2^{n+1}}{n} $ distinct points with coordinates of the form $ (\\pm 1,\\pm 1,\\cdots,\\pm 1) $ in $ n $-dimensional space with $ n\\ge 3 $. Show that there are three distinct points in $ B $ which are the vertices of an equilateral triangle.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2000&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2000,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Consider a set $ S $ and a binary operation $ * $, i.e. for each $ a,b\\in S $, $ a*b\\in S $. Assume $ (a*b)*a=b $ for all $ a,b\\in S $. Prove that $ a*(b*a)=b $ for all $ a,b\\in S $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2001&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2001,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "For each $ k $, $ \\mathcal{C}_k $ is biased so that, when tossed, it has probability $ \\tfrac{1}{(2k+1)} $ of falling heads. If the $ n $ coins are tossed, what is the probability that the number of heads is odd? Express the answer as a rational function $ n $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2001&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2001,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "For each integer $ m $, consider the polynomial \\[ P_m(x)=x^4-(2m+4)x^2+(m-2)^2. \\] For what values of $ m $ is $ P_m(x) $ the product of two non-consant polynomials with integer coefficients?",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2001&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2001,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Triangle $ ABC $ has area $ 1 $. Points $ E $, $ F $, and $ G $ lie, respectively, on sides $ BC $, $ CA $, and $ AB $ such that $ AE $ bisects $ BF $ at point $ R $, $ BF $ bisects $ CG $ at point $ S $, and $ CG $ bisects $ AE $ at point $ T $. Find the area of the triangle $ RST $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2001&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2001,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Prove that there are unique positive integers $ a $, $ n $ such that $ a^{n+1}-(a+1)^n=2001 $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2001&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2001,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Can an arc of a parabola inside a circle of radius $ 1 $ have a length greater than $ 4 $?",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2001&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2001,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ n $ be an even positive integer. Write the numbers $ 1, 2,\\cdots, n^2 $ in the squares of an $ n\\times n $ grid so that the $ k $th row, from left to right, is \\[ (k-1)n+1,\\ (k-1)n+2,\\ \\cdots,\\ (k-1)n+n. \\] Color the squares of the grid so that half of the squares in each row and in each column are red and the other half are black (a checkerboard coloring is one possibility). Prove that for each coloring, the sum of the numbers on the red squares is equal to the sum of the numbers on the black squares.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2001&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2001,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Find all pairs of real numbers $ (x,y) $ satisfying the system of equations: \\[ \\begin{eqnarray*}\\frac{1}{x}+\\frac{1}{2y}&=& (x^2+3y^2)(3x^2+y^2)\\\\ \\frac{1}{x}-\\frac{1}{2y}&=& 2(y^4-x^4). \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2001&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2001,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "For any positive integer $ n $, let $ \\left< n\\right> $ denote the closest integer to $ \\sqrt{n} $. Evaluate: \\[ \\sum_{n=1}^{\\infty}\\frac{2^{\\left< n\\right>}+2^{-\\left< n\\right>}}{2^n} \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2001&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2001,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ S $ denote the set of rational numbers different from $ \\{-1, 0, 1\\} $. Define $ f: S\\rightarrow S $ by $ f(x)=x-1/x $. Prove or disprove that \\[ \\cap_{n=1}^{\\infty}f^{(n)}(S) =\\cancel{0} \\] where $ f^{(n)} $ denotes $ f $ composed with itself $ n $ times.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2001&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2001,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ a $ and $ b $ be real numbers in the interval $ \\left(0,\\tfrac{1}{2}\\right) $, and let $ g $ be a continuous real-valued function such that $ g(g(x))=ag(x)+bx $ for all real $ x $. Prove that $ g(x)=cx $ for some constant $ c $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2001&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2001,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Assume that $ (a_n)_{n\\ge 1} $ is an increasing sequence of positive real numbers such that $ \\lim\\tfrac{a_n}{n}=0 $. Must there exist infinitely many positive integers $ n $ such that $ a_{n-i}+a_{n+i}<2a_n $ for $ i=1,2,\\cdots,n-1 $?",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2001&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2001,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ k $ be a fixed positive integer. The $ n $th derivative of $ \\tfrac{1}{x^k-1} $ has the form $ \\tfrac{P_n(x)}{(x^k-1)^{n+1}} $, where $ P_n(x) $ is a polynomial. Find $ P_n(1) $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2002&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2002,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Given any five points on a sphere, show that some four of them must lie on a closed hemisphere.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2002&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2002,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ N $ be an integer greater than $ 1 $ and let $ T_n $ be the number of non empty subsets $ S $ of $ \\{1,2,.....,n\\} $ with the property that the average of the elements of $ S $ is an integer.Provethat $ T_n-n $ is always even.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2002&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2002,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "In Determinant Tic-Tac-Toe, Player $ 1 $ enters a $ 1 $ in an empty $ 3\\times 3 $ matrix. Player 0 counters with a 0 in a vacant position and play continues in turn intil the $ 3\\times 3 $ matrix is completed with five $ 1 $\u2019s and four 0\u2019s. Player 0 wins if the determinant is 0 and player $ 1 $ wins otherwise. Assuming both players pursue optimal strategies, who will win and how?",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2002&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2002,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Define a sequence by $ a_0=1 $, together with the rules $ a_{2n+1}=a_n $ and $ a_{2n+2}=a_n+a_{n+1} $ for each integer $ n\\ge0 $. Prove that every positive rational number appears in the set $ \\left\\{\\tfrac{a_{n-1}}{a_n}: n\\ge 1\\right\\}=\\left\\{\\tfrac{1}{1},\\tfrac{1}{2},\\tfrac{2}{1},\\tfrac{1}{3},\\tfrac{3}{2},\\cdots\\right\\} $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2002&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2002,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Fix an integer $ b\\geq 2 $. Let $ f(1) = 1 $, $ f(2) = 2 $, and for each $ n\\geq 3 $, define $ f(n) = n f(d) $, where $ d $ is the number of base-$ b $ digits of $ n $. For which values of $ b $ does\\[ \\sum_{n=1}^\\infty\\frac{1}{f(n)} \\]converge?",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2002&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2002,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Shanille O'Keal shoots free throws on a basketball court. She hits the first and misses the second, and thereafter the probability that she hits the next shot is equal to the proportion of shots she has hit so far. What is the probability she hits exactly $ 50 $ of her first $ 100 $ shots?",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2002&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2002,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Consider a polyhedron with at least five faces such that exactly three edges emerge from each of its vertices. Two players play the following game: Each, in turn, signs his or her name on a previously unsigned face. The winner is the player who first succeeds in signing three faces that share a common vertex. Show that the player who signs first will always win by playing as well as possible.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2002&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2002,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Show that for all integers $ n>1 $, \\[ \\frac{1}{2ne}<\\frac{1}{e}-\\left( 1-\\frac{1}{n}\\right)^n <\\frac{1}{ne}. \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2002&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2002,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "An integer $ n $, unknown to you, has been randomly chosen in the interval $ [1,2002] $ with uniform probability. Your objective is to select $ n $ in an ODD number of guess. After each incorrect guess, you are informed whether $ n $ is higher or lower, and you $ \\textbf{must} $ guess an integer on your next turn among the numbers that are still feasibly correct. Show that you have a strategy so that the chance of winning is greater than $ \\tfrac{2}{3} $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2002&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2002,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "A palindrome in base $ b $ is a positive integer whose base-$ b $ digits read the same backwards and forwards; for example, $ 2002 $ is a $ 4 $-digit palindrome in base $ 10 $. Note that $ 200 $ is not a palindrome in base $ 10 $, but it is a $ 3 $-digit palindrome: $ 242 $ in base $ 9 $, and $ 404 $ in base $ 7 $. Prove that there is an integer which is a $ 3 $-digit palindrome in base $ b $ for at least $ 2002 $ different values of $ b $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2002&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2002,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ p $ be a prime number. Prove that the determinant of the matrix \\[ \\begin{bmatrix}x & y & z\\\\ x^p & y^p & z^p\\\\ x^{p^2}& y^{p^2}& z^{p^2}\\end{bmatrix} \\] is congruent modulo $ p $ to a product of polynomials of the form $ ax+by+cz $, where $ a $, $ b $, and $ c $ are integers. (We say two integer polynomials are congruent modulo $ p $ if corresponding coefficients are congruent modulo $ p $.)",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2002&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2002,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ n $ be a \ufb01xed positive integer. How many ways are there to write $ n $ as a sum ofpositive integers,\\[ n = a_1+a_2+\\cdots a_k \\]with $ k $ an arbitrary positive integer and $ a_1\\le a_2\\le\\cdots\\le a_k\\le a_1+1 $? For example, with $ n = 4 $, there are four ways: $ 4 $, $ 2+2 $, $ 1+1+2 $, $ 1+1+1+1 $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2003&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2003,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ a_1, a_2,\\cdots , a_n $ and $ b_1, b_2,\\cdots, b_n $ be nonnegative real numbers. Show that \\[ (a_1a_2\\cdots a_n)^{1/n}+(b_1b_2\\cdots b_n)^{1/n}\\le ((a_1+b_1)(a_2+b_2)\\cdots (a_n+b_n))^{1/n} \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2003&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2003,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Find the minimum value of \\[ |\\sin{x}+\\cos{x}+\\tan{x}+\\cot{x}+\\sec{x}+\\csc{x}| \\] for real numbers $ x $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2003&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2003,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Suppose that $ a, b, c, A, B, C $ are real numbers, $ a\\not= 0 $ and $ A\\not= 0 $, such that \\[ |ax^2+bx+c|\\le |Ax^2+Bx+C| \\] for all real numbers $ x $. Show that \\[ |b^2-4ac|\\le |B^2-4AC| \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2003&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2003,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "A Dyck $ n $-path is a lattice path of $ n $ upsteps $ (1, 1) $ and $ n $ downsteps $ (1,-1) $ that starts at the origin $ O $ and never dips below the $ x $-axis. A return is a maximal sequence of contiguous downsteps that terminates on the $ x $-axis. For example, the Dyck $ 5 $-path illustrated has two returns, of length $ 3 $ and $ 1 $ respectively. Show that there is a one-to-one correspondence between the Dyck $ n $-paths with no return of even length and the Dyck $ (n-1) $ paths.\\[ \\begin{picture}(165,70)\\put(-5,0){O}\\put(0,10){\\line(1,0){150}}\\put(0,10){\\line(1,1){30}}\\put(30,40){\\line(1,-1){15}}\\put(45,25){\\line(1,1){30}}\\put(75,55){\\line(1,-1){45}}\\put(120,10){\\line(1,1){15}}\\put(135,25){\\line(1,-1){15}}\\put(0,10){\\circle{1}}\\put(0,10){\\circle{2}}\\put(0,10){\\circle{3}}\\put(0,10){\\circle{4}}\\put(15,25){\\circle{1}}\\put(15,25){\\circle{2}}\\put(15,25){\\circle{3}}\\put(15,25){\\circle{4}}\\put(30,40){\\circle{1}}\\put(30,40){\\circle{2}}\\put(30,40){\\circle{3}}\\put(30,40){\\circle{4}}\\put(45,25){\\circle{1}}\\put(45,25){\\circle{2}}\\put(45,25){\\circle{3}}\\put(45,25){\\circle{4}}\\put(60,40){\\circle{1}}\\put(60,40){\\circle{2}}\\put(60,40){\\circle{3}}\\put(60,40){\\circle{4}}\\put(75,55){\\circle{1}}\\put(75,55){\\circle{2}}\\put(75,55){\\circle{3}}\\put(75,55){\\circle{4}}\\put(90,40){\\circle{1}}\\put(90,40){\\circle{2}}\\put(90,40){\\circle{3}}\\put(90,40){\\circle{4}}\\put(105,25){\\circle{1}}\\put(105,25){\\circle{2}}\\put(105,25){\\circle{3}}\\put(105,25){\\circle{4}}\\put(120,10){\\circle{1}}\\put(120,10){\\circle{2}}\\put(120,10){\\circle{3}}\\put(120,10){\\circle{4}}\\put(135,25){\\circle{1}}\\put(135,25){\\circle{2}}\\put(135,25){\\circle{3}}\\put(135,25){\\circle{4}}\\put(150,10){\\circle{1}}\\put(150,10){\\circle{2}}\\put(150,10){\\circle{3}}\\put(150,10){\\circle{4}}\\end{picture} \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2003&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2003,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "For a set $ S $ of nonnegative integers, let $ r_S(n) $ denote the number of ordered pairs $ (s_1, s_2) $ such that $ s_1\\in S $, $ s_2\\in S $, $ s_1\\not= s_2 $, and $ s_1+s_2 = n $. Is it possible to partition the nonnegative integers into two sets $ A $ and $ B $ in such a way that $ r_A(n) = r_B(n) $ for all $ n $?",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2003&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2003,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Do there exist polynomials $ a(x) $, $ b(x) $, $ c(y) $, $ d(y) $ such that \\[ 1+xy+x^2y^2= a(x)c(y)+b(x)d(y) \\] holds identically?",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2003&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2003,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ n $ be a positive integer. Starting with the sequence $ 1,\\frac{1}{2},\\frac{1}{3},\\cdots ,\\frac{1}{n} $, form a new sequence of $ n-1 $ entries $ \\frac{3}{4},\\frac{5}{12},\\cdots ,\\frac{2n-1}{2n(n-1)} $, by taking the averages of two consecutive entries in the first sequence. Repeat the averaging of neighbors on the second sequence to obtain a third sequence of $ n-2 $ entries and continue until the final sequence consists of a single number $ x_n $. Show that $ x_n <\\frac{2}{n} $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2003&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2003,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Show that for each positive integer n, \\[ n!=\\prod_{i=1}^n\\;\\text{lcm}\\;\\{1, 2,\\ldots,\\left\\lfloor\\frac{n}{i}\\right\\rfloor\\} \\] (Here lcm denotes the least common multiple, and $ \\lfloor x\\rfloor $ denotes the greatest integer $ \\le x $.)",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2003&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2003,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ f(z) = az^4+bz^3+cz^2+dz+e = a(z-r_1)(z-r_2)(z-r_3)(z-r_4) $ where $ a, b, c, d, e $ are integers, $ a\\not= 0 $. Show that if $ r_1+r_2 $ is a rational number, and if $ r_1+r_2\\not= r_3+r_4 $, then $ r_1r_2 $ is a rational number.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2003&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2003,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ A $, $ B $ and $ C $ be equidistant points on the circumference of a circle of unit radius centered at $ O $, and let $ P $ be any point in the circle's interior. Let $ a $, $ b $, $ c $ be the distances from $ P $ to $ A $, $ B $, $ C $ respectively. Show that there is a triangle with side lengths $ a $, $ b $, $ c $, and that the area of this triangle depends only on the distance from $ P $ to $ O $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2003&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2003,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ f(x) $ be a continuous real-valued function de\ufb01ned on the interval $ [0, 1] $. Show that \\[ \\int_0^1\\int_0^1|f(x)+f(y)|dx\\; dy\\ge\\int_0^1 |f(x)|dx \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2003&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2003,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Basketball star Shanille O'Keal's team statistician keeps track of the number, $ S(N), $ of successful free throws she has made in her first $ N $ attempts of the season. Early in the season, $ S(N) $ was less than 80% of $ N, $ but by the end of the season, $ S(N) $ was more than 80% of $ N. $ Was there necessarily a moment in between when $ S(N) $ was exactly 80% of $ N $?",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2004&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2004,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "For $ i=1,2, $ let $ T_i $ be a triangle with side length $ a_i,b_i,c_i, $ and area $ A_i. $ Suppose that $ a_1\\le a_2, b_1\\le b_2, c_1\\le c_2, $ and that $ T_2 $ is an acute triangle. Does it follow that $ A_1\\le A_2 $?",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2004&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2004,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Define a sequence $ \\{u_n\\}_{n=0}^{\\infty} $ by $ u_0=u_1=u_2=1, $ and thereafter by the condition that\n$ \\det\\begin{vmatrix}u_n & u_{n+1}\\\\ u_{n+2}& u_{n+3}\\end{vmatrix}=n! $\nfor all $ n\\ge 0. $ Show that $ u_n $ is an integer for all $ n. $ (By convention, $ 0!=1 $.)",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2004&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2004,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Show that for any positive integer $ n $ there is an integer $ N $ such that the product $ x_1x_2\\cdots x_n $ can be expressed identically in the form\n\\[ x_1x_2\\cdots x_n=\\sum_{i=1}^Nc_i(a_{i1}x_1+a_{i2}x_2+\\cdots+a_{in}x_n)^n \\]\nwhere the $ c_i $ are rational numbers and each $ a_{ij} $ is one of the numbers, $ -1,0,1. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2004&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2004,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "An $ m\\times n $ checkerboard is colored randomly: each square is independently assigned red or black with probability $ \\frac{1}2. $ we say that two squares, $ p $ and $ q $, are in the same connected monochromatic region if there is a sequence of squares, all of the same color, starting at $ p $ and ending at $ q, $ in which successive squares in the sequence share a common side. Show that the expected number of connected monochromatic regions is greater than $ \\frac{mn}{8}. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2004&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2004,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Suppose that $ f(x,y) $ is a continuous real-valued function on the unit square $ 0\\le x\\le1,0\\le y\\le1. $ Show that\n\n$ \\int_0^1\\left(\\int_0^1f(x,y)dx\\right)^2dy+\\int_0^1\\left(\\int_0^1f(x,y)dy\\right)^2dx $\n\n$ \\le\\left(\\int_0^1\\int_0^1f(x,y)dxdy\\right)^2+\\int_0^1\\int_0^1\\left[f(x,y)\\right]^2dxdy. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2004&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2004,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ P(x)=c_nx^n+c_{n-1}x^{n-1}+\\cdots+c_0 $ be a polynomial with integer coefficients. Suppose that $ r $ is a rational number such that $ P(r)=0 $. Show that the $ n $ numbers\n$ c_nr, c_nr^2+c_{n-1}r, c_nr^3+c_{n-1}r^2+c_{n-1}r,\\dots, c_nr^n+c_{n-1}r^{n-1}+\\cdots+c_1r $\nare all integers.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2004&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2004,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ m $ and $ n $ be positive integers. Show that\n$ \\frac{(m+n)!}{(m+n)^{m+n}}<\\frac{m!}{m^m}\\cdot\\frac{n!}{n^n} $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2004&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2004,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Determine all real numbers $ a>0 $ for which there exists a nonnegative continuous function $ f(x) $ defined on $ [0,a] $ with the property that the region\n$ R=\\{(x,y): 0\\le x\\le a, 0\\le y\\le f(x)\\} $\nhas perimeter $ k $ units and area $ k $ square units for some real number $ k $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2004&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2004,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ n $ be a positive integer, $ n\\ge 2 $, and put $ \\theta=\\frac{2\\pi}{n} $. Define points $ P_k=(k,0) $ in the xy-plane, for $ k=1,2,\\dots,n $. Let $ R_k $ be the map that rotates the plane counterclockwise by the angle $ \\theta $ about the point $ P_k $. Let $ R $ denote the map obtained by applying in order, $ R_1 $, then $ R_2 $, ..., then $ R_n $. For an arbitrary point $ (x,y) $, find and simplify the coordinates of $ R(x,y) $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2004&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2004,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Evaluate $ \\lim_{x\\to 1^-}\\prod_{n=0}^{\\infty}\\left(\\frac{1+x^{n+1}}{1+x^n}\\right)^{x^n} $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2004&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2004,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ A $ be a nonempty set of positive integers, and let $ N(x) $ denote the number of elements of $ A $ not exceeding $ x $. Let $ B $ denote the set of positive integers $ b $ that can be written in the form $ b=a-a^{\\prime} $ with $ a\\in A $ and $ a^{\\prime}\\in A $. Let $ b_1<b_2<\\cdots $ be the members of $ B $, listed in increasing order. Show that if the sequence $ b_{i+1}-b_i $ is unbounded, then $ \\lim_{x\\to\\infty}\\frac{N(x)}{x}=0 $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2004&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2004,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Show that every positive integer is a sum of one or more numbers of the form $ 2^r3^s, $ where $ r $ and $ s $ are nonnegative integers and no summand divides another.\n(For example, $ 23=9+8+6.) $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2005&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2005,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ S=\\{(a,b)|a=1,2,\\dots,n,b=1,2,3\\} $. A rook tour of $ S $ is a polygonal path made up of line segments connecting points $ p_1,p_2,\\dots,p_{3n} $ is sequence such that \n\n(i) $ p_i\\in S, $\n\n(ii) $ p_i $ and $ p_{i+1} $ are a unit distance apart, for $ 1\\le i<3n, $\n\n(iii) for each $ p\\in S $ there is a unique $ i $ such that $ p_i=p. $\n\nHow many rook tours are there that begin at $ (1,1) $ and end at $ (n,1)? $\n\n(The official statement includes a picture depicting an example of a rook tour for $ n=5. $ This example consists of line segments with vertices at which there is a change of direction at the following points, in order: $ (1,1),(2,1),(2,2),(1,2), (1,3),(3,3),(3,1),(4,1), (4,3),(5,3),(5,1). $)",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2005&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2005,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ p(z) $ be a polynomial of degree $ n, $ all of whose zeros have absolute value $ 1 $ in the complex plane. Put $ g(z)=\\frac{p(z)}{z^{n/2}}. $ Show that all zeros of $ g'(z)=0 $ have absolute value $ 1. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2005&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2005,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ H $ be an $ n\\times n $ matrix all of whose entries are $ \\pm1 $ and whose rows are mutually orthogonal. Suppose $ H $ has an $ a\\times b $ submatrix whose entries are all $ 1. $ Show that $ ab\\le n. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2005&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2005,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Evaluate $ \\int_0^1\\frac{\\ln(x+1)}{x^2+1}\\,dx. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2005&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2005,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ n $ be given, $ n\\ge 4, $ and suppose that $ P_1,P_2,\\dots,P_n $ are $ n $ randomly, independently and uniformly, chosen points on a circle. Consider the convex $ n $-gon whose vertices are the $ P_i. $ What is the probability that at least one of the vertex angles of this polygon is acute.?",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2005&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2005,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Find a nonzero polynomial $ P(x,y) $ such that $ P(\\lfloor a\\rfloor,\\lfloor 2a\\rfloor)=0 $ for all real numbers $ a. $\n\n(Note: $ \\lfloor v\\rfloor $ is the greatest integer less than or equal to $ v. $)",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2005&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2005,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Find all positive integers $ n,k_1,\\dots,k_n $ such that $ k_1+\\cdots+k_n=5n-4 $ and\n\\[ \\frac{1}{k_1}+\\cdots+\\frac{1}{k_n}=1. \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2005&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2005,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Find all differentiable functions $ f: (0,\\infty)\\mapsto (0,\\infty) $ for which there is a positive real number $ a $ such that\n\\[ f'\\left(\\frac{a}{x}\\right)=\\frac {x}{f(x)} \\]\nfor all $ x>0. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2005&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2005,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "For positive integers $ m $ and $ n $, let $ f\\left(m,n\\right) $ denote the number of $ n $-tuples $ \\left(x_1,x_2,\\dots,x_n\\right) $ of integers such that $ \\left|x_1\\right|+\\left|x_2\\right|+\\cdots+\\left|x_n\\right|\\le m $. Show that $ f\\left(m,n\\right) = f\\left(n,m\\right) $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2005&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2005,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ P(x_1,\\dots,x_n) $ denote a polynomial with real coefficients in the variables $ x_1,\\dots,x_n, $ and suppose that\n\n(a)  $ \\left(\\frac{\\partial^2}{\\partial x_1^2}+\\cdots+\\frac{\\partial^2}{\\partial x_n^2}\\right)P(x_1,\\dots,x_n)=0 $  (identically)\n\nand that\n\n(b)  $ x_1^2+\\cdots+x_n^2 $ divides $ P(x_1,\\dots,x_n). $\n\nShow that $ P=0 $ identically.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2005&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2005,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ S_n $ denote the set of all permutations of the numbers $ 1,2,\\dots,n. $ For $ \\pi\\in S_n, $ let $ \\sigma(\\pi)=1 $ if $ \\pi $ is an even permutation and $ \\sigma(\\pi)=-1 $ if $ \\pi $ is an odd permutation. Also, let $ v(\\pi) $ denote the number of fixed points of $ \\pi. $ Show that\n\\[ \\sum_{\\pi\\in S_n}\\frac{\\sigma(\\pi)}{v(\\pi)+1}=(-1)^{n+1}\\frac{n}{n+1}. \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2005&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2005,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Find the volume of the region of points $ (x,y,z) $ such that\n\\[ \\left(x^{2}+y^{2}+z^{2}+8\\right)^{2}\\le 36\\left(x^{2}+y^{2}\\right). \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2006&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2006,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Alice and Bob play a game in which they take turns removing stones from a heap that initially has $ n $ stones. The number of stones removed at each turn must be one less than a prime number. The winner is the player who takes the last stone. Alice plays first. Prove that there are infinitely many such $ n $ such that Bob has a winning strategy. (For example, if $ n=17, $ then Alice might take $ 6 $ leaving $ 11; $ then Bob might take $ 1 $ leaving $ 10; $ then Alice can take the remaining stones to win.)",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2006&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2006,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ 1,2,3,\\dots,2005,2006,2007,2009,2012,2016,\\dots $ be a sequence defined by $ x_{k}=k $ for $ k=1,2\\dots,2006 $ and $ x_{k+1}=x_{k}+x_{k-2005} $ for $ k\\ge 2006. $ Show that the sequence has 2005 consecutive terms each divisible by 2006.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2006&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2006,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ S=\\{1,2\\dots,n\\} $ for some integer $ n>1. $ Say a permutation $ \\pi $ of $ S $ has a local maximum at $ k\\in S $ if\n\\[ \\begin{array}{ccc}\\text{(i)}&\\pi(k)>\\pi(k+1)&\\text{for }k=1\\\\ \\text{(ii)}&\\pi(k-1)<\\pi(k)\\text{ and }\\pi(k)>\\pi(k+1)&\\text{for }1<k<n\\\\ \\text{(iii)}&\\pi(k-1)M\\pi(k)&\\text{for }k=n\\end{array} \\]\n(For example, if $ n=5 $ and $ \\pi $ takes values at $ 1,2,3,4,5 $ of $ 2,1,4,5,3, $ then $ \\pi $ has a local maximum of $ 2 $ as $ k=1, $ and a local maximum at $ k-4. $)\nWhat is the average number of local maxima of a permutation of $ S, $ averaging over all permuatations of $ S? $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2006&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2006,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ n $ be a positive odd integer and let $ \\theta $ be a real number such that $ \\theta/\\pi $ is irrational. Set $ a_{k}=\\tan(\\theta+k\\pi/n),\\ k=1,2\\dots,n. $ Prove that\n\\[ \\frac{a_{1}+a_{2}+\\cdots+a_{n}}{a_{1}a_{2}\\cdots a_{n}} \\]\nis an integer, and determine its value.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2006&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2006,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Four points are chosen uniformly and independently at random in the interior of a given circle. Find the probability that they are the vertices of a convex quadrilateral.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2006&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2006,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Show that the curve $ x^{3}+3xy+y^{3}=1 $ contains only one set of three distinct points, $ A,B, $ and $ C, $ which are the vertices of an equilateral triangle.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2006&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2006,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Prove that, for every set $ X=\\{x_{1},x_{2},\\dots,x_{n}\\} $ of $ n $ real numbers, there exists a non-empty subset $ S $ of $ X $ and an integer $ m $ such that\n\\[ \\left|m+\\sum_{s\\in S}s\\right|\\le\\frac{1}{n+1} \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2006&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2006,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ S $ be a finite set of points in the plane. A linear partition of $ S $ is an unordered pair $ \\{A,B\\} $ of subsets  of $ S $ such that $ A\\cup B=S,\\ A\\cap B=\\emptyset, $ and $ A $ and $ B $ lie on opposite sides of some straight line disjoint from $ S $ ($ A $ or $ B $ may be empty). Let $ L_{S} $ be the number of linear partitions of $ S. $ For each positive integer $ n, $ find the maximum of $ L_{S} $ over all sets $ S $ of $ n $ points.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2006&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2006,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ Z $ denote the set of points in $ \\mathbb{R}^{n} $ whose coordinates are 0 or $ 1. $ (Thus $ Z $ has $ 2^{n} $ elements, which are the vertices of a unit hypercube in $ \\mathbb{R}^{n} $.) Given a vector subspace $ V $ of $ \\mathbb{R}^{n}, $ let $ Z(V) $ denote the number of members of $ Z $ that lie in $ V. $ Let $ k $ be given, $ 0\\le k\\le n. $ Find the maximum, over all vector subspaces $ V\\subseteq\\mathbb{R}^{n} $ of dimension $ k, $ of the number of points in $ V\\cap Z. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2006&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2006,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "For each continuous function $ f: [0,1]\\to\\mathbb{R}, $ let $ I(f)=\\int_{0}^{1}x^{2}f(x)\\,dx $ and $ J(f)=\\int_{0}^{1}x\\left(f(x)\\right)^{2}\\,dx. $ Find the maximum value of $ I(f)-J(f) $ over all such functions $ f. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2006&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2006,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ k $ be an integer greater than $ 1. $ Suppose $ a_{0}>0 $ and define\n\\[ a_{n+1}=a_{n}+\\frac{1}{\\sqrt[k]{a_{n}}} \\]\nfor $ n\\ge 0. $ Evaluate\n\\[ \\lim_{n\\to\\infty}\\frac{a_{n}^{k+1}}{n^{k}}. \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2006&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2006,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Find all values of $ \\alpha $ for which the curves $ y=\\alpha x^2+\\alpha x+\\frac{1}{24} $ and $ x=\\alpha y^2+\\alpha y+\\frac{1}{24} $ are tangent to each other.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2007&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2007,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Find the least possible area of a convex set in the plane that intersects both branches of the hyperbola $ xy=1 $ and both branches of the hyperbola $ xy=-1. $ (A set $ S $ in the plane is called convex if for any two points in $ S $ the line segment connecting them is contained in $ S. $)",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2007&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2007,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ k $ be a positive integer. Suppose that the integers $ 1,2,3,\\dots,3k+1 $ are written down in random order. What is the probability that at no time during this process, the sum of the integers that have been written up to that time is a positive integer divisible by $ 3 $ ? Your answer should be in closed form, but may include factorials.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2007&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2007,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "A repunit is a positive integer whose digits in base $ 10 $ are all ones. Find all polynomials $ f $ with real coefficients such that if $ n $ is a repunit, then so is $ f(n). $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2007&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2007,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Suppose that a finite group has exactly $ n $ elements of order $ p, $ where $ p $ is a prime. Prove that either $ n=0 $ or $ p $ divides $ n+1. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2007&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2007,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "A triangulation $ \\mathcal{T} $ of a polygon $ P $ is a finite collection of triangles whose union is $ P, $ and such that the intersection of any two triangles is either empty, or a shared vertex, or a shared side. Moreover, each side of $ P $ is a side of exactly one triangle in $ \\mathcal{T}. $ Say that $ \\mathcal{T} $ is admissible if every internal vertex is shared by $ 6 $ or more triangles. For example\n\n[The included figure shows a heptagon. The first and third vertices are connected by a diagonal. Every vertex except the second (the one \"outside\" the diagonal) is connected by an edge to a single internal vertex; that internal vertex has 6 edges connected to it. There are 7 triangles in the picture; 6 around the internal vertex and one outside the diagonal.]\n\nProve that there is an integer $ M_n, $ depending only on $ n, $ such that any admissible triangulation of a polygon $ P $ with $ n $ sides has at most $ M_n $ triangles.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2007&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2007,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ f $ be a polynomial with positive integer coefficients. Prove that if $ n $ is a positive integer, then $ f(n) $ divides $ f(f(n)+1) $ if and only if $ n=1. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2007&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2007,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Suppose that $ f: [0,1]\\to\\mathbb{R} $ has a continuous derivative and that $ \\int_0^1f(x)\\,dx=0. $\nProve that for every $ \\alpha\\in(0,1), $\n\\[ \\left|\\int_0^{\\alpha}f(x)\\,dx\\right|\\le\\frac{1}8\\max_{0\\le x\\le 1}|f'(x)| \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2007&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2007,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ x_0 = 1 $ and for $ n\\ge0, $ let $ x_{n+1}= 3x_n+\\left\\lfloor x_n\\sqrt{5}\\right\\rfloor. $ In particular, $ x_1 = 5,\\ x_2 = 26,\\ x_3 = 136,\\ x_4 = 712. $ Find a closed-form expression for $ x_{2007}. $ ($ \\lfloor a\\rfloor $ means the largest integer $ \\le a. $)",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2007&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2007,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ n $ be a positive integer. Find the number of pairs $ P,Q $ of polynomials with real coefficients such that\n\\[ (P(X))^2+(Q(X))^2=X^{2n}+1 \\]\nand $ \\text{deg}P<\\text{deg}{Q}. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2007&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2007,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ k $ be a positive integer. Prove that there exist polynomials $ P_0(n),P_1(n),\\dots,P_{k-1}(n) $ (which may depend on $ k $) such that for any integer $ n, $\n\\[ \\left\\lfloor\\frac{n}{k}\\right\\rfloor^k=P_0(n)+P_1(n)\\left\\lfloor\\frac{n}{k}\\right\\rfloor+\\cdots+P_{k-1}(n)\\left\\lfloor\\frac{n}{k}\\right\\rfloor^{k-1}. \\]\n($ \\lfloor a\\rfloor $ means the largest integer $ \\le a. $)",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2007&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2007,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "For each positive integer $ n, $ let $ f(n) $ be the number of ways to make $ n! $ cents using an unordered collection of coins, each worth $ k! $ cents for some $ k,\\ 1\\le k\\le n. $ Prove that for some constant $ C, $ independent of $ n, $\n\\[ n^{n^2/2-Cn}e^{-n^2/4}\\le f(n)\\le n^{n^2/2+Cn}e^{-n^2/4}. \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2007&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2007,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ f:\\mathbb{R}^2\\to\\mathbb{R} $ be a function such that $ f(x,y)+f(y,z)+f(z,x)=0 $ for real numbers $ x,y, $ and $ z. $ Prove that there exists a function $ g:\\mathbb{R}\\to\\mathbb{R} $ such that $ f(x,y)=g(x)-g(y) $ for all real numbers $ x $ and $ y. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2008&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2008,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Alan and Barbara play a game in which they take turns filling entries of an initially empty $ 2008\\times 2008 $ array. Alan plays first. At each turn, a player chooses a real number and places it in a vacant entry. The game ends when all entries are filled. Alan wins if the determinant of the resulting matrix is nonzero; Barbara wins if it is zero. Which player has a winning strategy?",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2008&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2008,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Start with a finite sequence $ a_1,a_2,\\dots,a_n $ of positive integers. If possible, choose two indices $ j < k $ such that $ a_j $ does not divide $ a_k $ and replace $ a_j $ and $ a_k $ by $ \\gcd(a_j,a_k) $ and $ \\text{lcm}\\,(a_j,a_k), $ respectively. Prove that if this process is repeated, it must eventually stop and the final sequence does not depend on the choices made. (Note: $ \\gcd $ means greatest common divisor and lcm means least common multiple.)",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2008&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2008,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Define $ f:\\mathbb{R}\\to\\mathbb{R} $ by\n\\[ f(x)=\\begin{cases}x&\\text{if }x\\le e\\\\ xf(\\ln x)&\\text{if }x>e\\end{cases} \\]\nDoes $ \\sum_{n=1}^{\\infty}\\frac{1}{f(n)} $ converge?",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2008&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2008,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ n\\ge 3 $ be an integer. Let $ f(x) $ and $ g(x) $ be polynomials with real coefficients such that the points $ (f(1),g(1)),(f(2),g(2)),\\dots,(f(n),g(n)) $ in $ \\mathbb{R}^2 $ are the vertices of a regular $ n $-gon in counterclockwise order. Prove that at least one of $ f(x) $ and $ g(x) $ has degree greater than or equal to $ n-1. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2008&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2008,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Prove that there exists a constant $ c>0 $ such that in every nontrivial finite group $ G $ there exists a sequence of length at most $ c\\ln |G| $ with the property that each element of $ G $ equals the product of some subsequence. (The elements of $ G $ in the sequence are not required to be distinct. A subsequence of a sequence is obtained by selecting some of the terms, not necessarily consecutive, without reordering them; for example, $ 4,4,2 $ is a subesequence of $ 2,4,6,4,2, $ but $ 2,2,4 $ is not.)",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2008&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2008,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "What is the maximum number of rational points that can lie on a circle in $ \\mathbb{R}^2 $ whose center is not a rational point? (A rational point is a point both of whose coordinates are rational numbers.)",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2008&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2008,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ F_0=\\ln x. $ For $ n\\ge 0 $ and $ x>0, $ let $ F_{n+1}(x)=\\int_0^xF_n(t)\\,dt. $ Evaluate $ \\lim_{n\\to\\infty}\\frac{n!F_n(1)}{\\ln n}. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2008&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2008,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "What is the largest possible radius of a circle contained in a 4-dimensional hypercube of side length 1?",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2008&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2008,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ p $ be a prime number. Let $ h(x) $ be a polynomial with integer coefficients such that $ h(0),h(1),\\dots, h(p^2-1) $ are distinct modulo $ p^2. $ Show that $ h(0),h(1),\\dots, h(p^3-1) $ are distinct modulo $ p^3. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2008&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2008,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Find all continuously differentiable functions $ f:\\mathbb{R}\\to\\mathbb{R} $ such that for every rational number $ q, $ the number $ f(q) $ is rational and has the same denominator as $ q. $ (The denominator of a rational number $ q $ is the unique positive integer $ b $ such that $ q=a/b $ for some integer $ a $ with $ \\gcd(a,b)=1. $) (Note: $ \\gcd $ means greatest common divisor.)",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2008&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2008,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ n $ and $ k $ be positive integers. Say that a permutation $ \\sigma $ of $ \\{1,2,\\dots n\\} $ is $ k $-limited if $ |\\sigma(i)-i|\\le k $ for all $ i. $ Prove that the number of $ k $-limited permutations of $ \\{1,2,\\dots n\\} $ is odd if and only if $ n\\equiv 0 $ or $ 1\\pmod{2k+1}. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2008&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2008,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ f $ be a real-valued function on the plane such that for every square $ ABCD $ in the plane, $ f(A)+f(B)+f(C)+f(D)=0. $ Does it follow that $ f(P)=0 $ for all points $ P $ in the plane.\n\n[Yes, I know there really should be a question mark at the end - but the Putnam authors themselves failed to put in the question mark.]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2009&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2009,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Functions $ f,g,h $ are differentiable on some open interval around 0 and satisfy the equations and initial conditions\n\\[ \\begin{align*}f'&=2f^2gh+\\frac{1}{gh},\\ f(0)=1,\\\\ g'&=fg^2h+\\frac{4}{fh},\\ g(0)=1,\\\\ h'&=3fgh^2+\\frac{1}{fg},\\ h(0)=1.\\end{align*} \\]\nFind an explicit formula for $ f(x), $ valid in some open interval around $ 0. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2009&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2009,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ d_n $ be the determinant of the $ n\\times n $ matrix whose entries, from left to right and then from top to bottom, are $ \\cos 1,\\cos 2,\\dots,\\cos n^2. $ (For example, $ d_3 =\\begin{vmatrix}\\cos 1 &\\cos2 &\\cos3\\\\ \\cos4 &\\cos5 &\\cos 6\\\\ \\cos7 &\\cos8 &\\cos 9\\end{vmatrix}. $ The argument of  $ \\cos $  is always in radians, not degrees.)\n\nEvaluate $ \\lim_{n\\to\\infty}d_n. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2009&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2009,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ S $ be a set of rational numbers such that \n\n(a) $ 0\\in S; $\n\n(b) If $ x\\in S $ then $ x+1\\in S $ and $ x-1\\in S; $ and\n\n(c) If $ x\\in S $ and $ x\\notin\\{0,1\\}, $ then $ \\frac{1}{x(x-1)}\\in S. $\n\nMust $ S $ contain all rational numbers?",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2009&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2009,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Is there a finite abelian group $ G $ such that the product of the orders of all its elements is $ 2^{2009}? $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2009&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2009,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ f: [0,1]^2\\to\\mathbb{R} $ be a continuous function on the closed unit square such that $ \\frac{\\partial f}{\\partial x} $ and $ \\frac{\\partial f}{\\partial y} $ exist and are continuous on the interior of $ (0,1)^2. $ Let $ a=\\int_0^1f(0,y)\\,dy,\\ b=\\int_0^1f(1,y)\\,dy,\\ c=\\int_0^1f(x,0)\\,dx $ and $ d=\\int_0^1f(x,1)\\,dx. $ Prove or disprove: There must be a point $ (x_0,y_0) $ in $ (0,1)^2 $ such that \n\n$ \\frac{\\partial f}{\\partial x}(x_0,y_0)=b-a $ and $ \\frac{\\partial f}{\\partial y}(x_0,y_0)=d-c. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2009&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2009,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Show that every positive rational number can be written as a quotient of products of factorials of (not necessarily distinct) primes. For example, $ \\frac{10}{9}=\\frac{2!\\cdot 5!}{3!\\cdot 3!\\cdot 3!}. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2009&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2009,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "A game involves jumping to the right on the real number line. If $ a $ and $ b $ are real numbers and $ b>a, $ the cost of jumping from $ a $ to $ b $ is $ b^3-ab^2. $ For what real numbers $ c $ can one travel from 0 to $ 1 $ in a finite number of jumps with total cost exactly $ c? $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2009&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2009,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Call a subset $ S $ of $ \\{1,2,\\dots,n\\} $ mediocre if it has the following property: Whenever $ a $ and $ b $ are elements of $ S $ whose average is an integer, that average is also an element of $ S. $ Let $ A(n) $ be the number of mediocre subsets of $ \\{1,2,\\dots,n\\}. $ [For instance, every subset of $ \\{1,2,3\\} $ except $ \\{1,3\\} $ is mediocre, so $ A(3)=7. $] Find all positive integers $ n $ such that $ A(n+2)-2A(n+1)+A(n)=1. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2009&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2009,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Say that a polynomial with real coefficients in two variable, $ x,y, $ is balanced if the average value of the polynomial on each circle centered at the origin is $ 0. $ The balanced polynomials of degree at most $ 2009 $ form a vector space $ V $ over $ \\mathbb{R}. $ Find the dimension of $ V. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2009&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2009,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ f: (1,\\infty)\\to\\mathbb{R} $ be a differentiable function such that\n\\[ f'(x)=\\frac{x^2-\\left(f(x)\\right)^2}{x^2\\left(\\left(f(x)\\right)^2+1\\right)}\\quad\\text{for all }x>1. \\]\nProve that $ \\lim_{x\\to\\infty}f(x)=\\infty. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2009&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2009,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Prove that for every positive integer $ n, $ there is a sequence of integers $ a_0,a_1,\\dots,a_{2009} $ with $ a_0=0 $ and $ a_{2009}=n $ such that each term after $ a_0 $ is either an earlier term plus $ 2^k $ for some nonnnegative integer $ k, $ or of the form $ b\\mod{c} $ for some earlier positive terms $ b $ and $ c. $ [Here $ b\\mod{c} $ denotes the remainder when $ b $ is divided by $ c, $ so $ 0\\le(b\\mod{c})<c. $]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2009&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2009,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Given a positive integer $ n, $ what is the largest $ k $ such that the numbers $ 1,2,\\dots,n $ can be put into $ k $ boxes so that the sum of the numbers in each box is the same?[When $ n=8, $ the example $ \\{1,2,3,6\\},\\{4,8\\},\\{5,7\\} $ shows that the largest $ k $ is at least 3.]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2010&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2010,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Find all differentiable functions $ f:\\mathbb{R}\\to\\mathbb{R} $ such that\\[ f'(x)=\\frac{f(x+n)-f(x)}{n} \\]for all real numbers $ x $ and all positive integers $ n. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2010&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2010,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Suppose that the function $ h:\\mathbb{R}^2\\to\\mathbb{R} $ has continuous partial derivatives and satisfies the equation\\[ h(x,y)=a\\frac{\\partial h}{\\partial x}(x,y)+b\\frac{\\partial h}{\\partial y}(x,y) \\]for some constants $ a,b. $ Prove that if there is a constant $ M $ such that $ |h(x,y)|\\le M $ for all $ (x,y) $ in $ \\mathbb{R}^2, $ then $ h $ is identically zero.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2010&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2010,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Prove that for each positive integer $ n, $ the number $ 10^{10^{10^n}}+10^{10^n}+10^n-1 $ is not prime.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2010&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2010,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ G $ be a group, with operation $ * $. Suppose that(i) $ G $ is a subset of $ \\mathbb{R}^3 $ (but $ * $ need not be related to addition of vectors);(ii) For each $ \\mathbf{a},\\mathbf{b}\\in G, $ either $ \\mathbf{a}\\times\\mathbf{b}=\\mathbf{a}*\\mathbf{b} $ or $ \\mathbf{a}\\times\\mathbf{b}=\\mathbf{0} $ (or both), where $ \\times $ is the usual cross product in $ \\mathbb{R}^3. $Prove that $ \\mathbf{a}\\times\\mathbf{b}=\\mathbf{0} $ for all $ \\mathbf{a},\\mathbf{b}\\in G. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2010&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2010,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ f:[0,\\infty)\\to\\mathbb{R} $ be a strictly decreasing continuous function such that $ \\lim_{x\\to\\infty}f(x)=0. $ Prove that $ \\int_0^{\\infty}\\frac{f(x)-f(x+1)}{f(x)}\\,dx $ diverges.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2010&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2010,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Is there an infinite sequence of real numbers $ a_1,a_2,a_3,\\dots $ such that\\[ a_1^m+a_2^m+a_3^m+\\cdots=m \\]for every positive integer $ m? $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2010&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2010,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Given that $ A,B, $ and $ C $ are noncollinear points in the plane with integer coordinates such that the distances $ AB,AC, $ and $ BC $ are integers, what is the smallest possible value of $ AB? $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2010&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2010,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "There are 2010 boxes labeled $ B_1,B_2,\\dots,B_{2010}, $ and $ 2010n $ balls have been distributed among them, for some positive integer $ n. $ You may redistribute the balls by a sequence of moves, each of which consists of choosing an $ i $ and moving exactly $ i $ balls from box $ B_i $ into any one other box. For which values of $ n $ is it possible to reach the distribution with exactly $ n $ balls in each box, regardless of the initial distribution of balls?",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2010&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2010,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Find all pairs of polynomials $ p(x) $ and $ q(x) $ with real coefficients for which\\[ p(x)q(x+1)-p(x+1)q(x)=1. \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2010&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2010,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Is there a strictly increasing function $ f:\\mathbb{R}\\to\\mathbb{R} $ such that $ f'(x)=f(f(x)) $ for all $ x? $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2010&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2010,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ A $ be an $ n\\times n $ matrix of real numbers for some $ n\\ge 1. $ For each positive integer $ k, $ let $ A^{[k]} $ be the matrix obtained by raising each entry to the $ k $th power. Show that if $ A^k=A^{[k]} $ for $ k=1,2,\\cdots,n+1, $ then $ A^k=A^{[k]} $ for all $ k\\ge 1. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2010&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2010,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Define a growing spiral in the plane to be a sequence of points with integer coordinates $ P_0=(0,0),P_1,\\dots,P_n $ such that $ n\\ge 2 $ and:\u2022 The directed line segments $ P_0P_1,P_1P_2,\\dots,P_{n-1}P_n $ are in successive coordinate directions east (for $ P_0P_1 $), north, west, south, east, etc.\u2022 The lengths of these line segments are positive and strictly increasing.\\[ \\begin{picture}(200,180)\\put(20,100){\\line(1,0){160}}\\put(100,10){\\line(0,1){170}}\\put(0,97){West}\\put(180,97){East}\\put(90,0){South}\\put(90,180){North}\\put(100,100){\\circle{1}}\\put(100,100){\\circle{2}}\\put(100,100){\\circle{3}}\\put(115,100){\\circle{1}}\\put(115,100){\\circle{2}}\\put(115,100){\\circle{3}}\\put(115,130){\\circle{1}}\\put(115,130){\\circle{2}}\\put(115,130){\\circle{3}}\\put(40,130){\\circle{1}}\\put(40,130){\\circle{2}}\\put(40,130){\\circle{3}}\\put(40,20){\\circle{1}}\\put(40,20){\\circle{2}}\\put(40,20){\\circle{3}}\\put(170,20){\\circle{1}}\\put(170,20){\\circle{2}}\\put(170,20){\\circle{3}}\\multiput(100,99.5)(0,.5){3}{\\line(1,0){15}}\\multiput(114.5,100)(.5,0){3}{\\line(0,1){30}}\\multiput(40,129.5)(0,.5){3}{\\line(1,0){75}}\\multiput(39.5,20)(.5,0){3}{\\line(0,1){110}}\\multiput(40,19.5)(0,.5){3}{\\line(1,0){130}}\\put(102,90){P0}\\put(117,90){P1}\\put(117,132){P2}\\put(28,132){P3}\\put(30,10){P4}\\put(172,10){P5}\\end{picture} \\]How many of the points $ (x,y) $ with integer coordinates $ 0\\le x\\le 2011,0\\le y\\le 2011 $ cannot be the last point, $ P_n, $ of any growing spiral?",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2011&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2011,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ a_1,a_2,\\dots $ and $ b_1,b_2,\\dots $ be sequences of positive real numbers such that $ a_1=b_1=1 $ and $ b_n=b_{n-1}a_n-2 $ for $ n=2,3,\\dots. $ Assume that the sequence $ (b_j) $ is bounded. Prove that \\[ S=\\sum_{n=1}^{\\infty}\\frac{1}{a_1\\cdots a_n} \\] converges, and evaluate $ S. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2011&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2011,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Find a real number $ c $ and a positive number $ L $ for which\\[ \\lim_{r\\to\\infty}\\frac{r^c\\int_0^{\\pi/2}x^r\\sin x\\,dx}{\\int_0^{\\pi/2}x^r\\cos x\\,dx}=L. \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2011&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2011,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "For which positive integers $ n $ is there an $ n\\times n $ matrix with integer entries such that every dot product of a row with itself is even, while every dot product of two different rows is odd?",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2011&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2011,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ F:\\mathbb{R}^2\\to\\mathbb{R} $ and $ g:\\mathbb{R}\\to\\mathbb{R} $ be twice continuously differentiable functions with the following properties:\u2022 $ F(u,u)=0 $ for every $ u\\in\\mathbb{R}; $\u2022 for every $ x\\in\\mathbb{R},g(x)>0 $ and $ x^2g(x)\\le 1; $\u2022 for every $ (u,v)\\in\\mathbb{R}^2, $ the vector $ \\nabla F(u,v) $ is either $ \\mathbf{0} $ or parallel to the vector $ \\langle g(u),-g(v)\\rangle. $Prove that there exists a constant $ C $ such that for every $ n\\ge 2 $ and any $ x_1,\\dots,x_{n+1}\\in\\mathbb{R}, $ we have\\[ \\min_{i\\ne j}|F(x_i,x_j)|\\le\\frac{C}{n}. \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2011&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2011,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ G $ be an abelian group with $ n $ elements, and let \\[ \\{g_1=e,g_2,\\dots,g_k\\}\\subsetneq G \\] be a (not necessarily minimal) set of distinct generators of $ G. $ A special die, which randomly selects one of the elements $ g_1,g_2,\\dots,g_k $ with equal probability, is rolled $ m $ times and the selected elements are multiplied to produce an element $ g\\in G. $Prove that there exists a real number $ b\\in(0,1) $ such that \\[ \\lim_{m\\to\\infty}\\frac{1}{b^{2m}}\\sum_{x\\in G}\\left(\\mathrm{Prob}(g=x)-\\frac{1}n\\right)^2 \\] is positive and finite.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2011&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2011,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ h $ and $ k $ be positive integers. Prove that for every $ \\varepsilon >0, $ there are positive integers $ m $ and $ n $ such that \\[ \\varepsilon <\\left|h\\sqrt{m}-k\\sqrt{n}\\right|<2\\varepsilon. \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2011&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2011,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ S $ be the set of all ordered triples $ (p,q,r) $ of prime numbers for which at least one rational number $ x $ satisfies $ px^2+qx+r=0. $ Which primes appear in seven or more elements of $ S? $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2011&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2011,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ f $ and $ g $ be (real-valued) functions defined on an open interval containing $ 0, $ with $ g $ nonzero and continuous at $ 0. $ If $ fg $ and $ f/g $ are differentiable at $ 0, $ must $ f $ be differentiable at $ 0? $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2011&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2011,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "In a tournament, 2011 players meet 2011 times to play a multiplayer game. Every game is played by all 2011 players together and ends with each of the players either winning or losing. The standings are kept in two $ 2011\\times 2011 $ matrices, $ T=(T_{hk}) $ and $ W=(W_{hk}). $ Initially, $ T=W=0. $ After every game, for every $ (h,k) $ (including for $ h=k), $ if players $ h $ and $ k $ tied (that is, both won or both lost), the entry $ T_{hk} $ is increased by $ 1, $ while if player $ h $ won and player $ k $ lost, the entry $ W_{hk} $ is increased by $ 1 $ and $ W_{kh} $ is decreased by $ 1. $Prove that at the end of the tournament, $ \\det(T+iW) $ is a non-negative integer divisible by $ 2^{2010}. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2011&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2011,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ a_1,a_2,\\dots $ be real numbers. Suppose there is a constant $ A $ such that for all $ n, $\\[ \\int_{-\\infty}^{\\infty}\\left(\\sum_{i=1}^n\\frac{1}{1+(x-a_i)^2}\\right)^2\\,dx\\le An. \\]Prove there is a constant $ B>0 $ such that for all $ n, $\\[ \\sum_{i,j=1}^n\\left(1+(a_i-a_j)^2\\right)\\ge Bn^3. \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2011&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2011,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ p $ be an odd prime. Show that for at least $ (p+1)/2 $ values of $ n $ in $ \\{0,1,2,\\dots,p-1\\}, $\\[ \\sum_{k=0}^{p-1}k!n^k\\quad\\text{is not divisible by }p. \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2011&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2011,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ d_1,d_2,\\dots,d_{12} $ be real numbers in the open interval $ (1,12). $ Show that there exist distinct indices $ i,j,k $ such that $ d_i,d_j,d_k $ are the side lengths of an acute triangle.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2012&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2012,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ * $ be a commutative and associative binary operation on a set $ S. $ Assume that for every $ x $ and $ y $ in $ S, $ there exists $ z $ in $ S $ such that $ x*z=y. $ (This $ z $ may depend on $ x $ and $ y. $) Show that if $ a,b,c $ are in $ S $ and $ a*c=b*c, $ then $ a=b. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2012&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2012,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ f:[-1,1]\\to\\mathbb{R} $ be a continuous function such that(i) $ f(x)=\\frac{2-x^2}{2}f\\left(\\frac{x^2}{2-x^2}\\right) $ for every $ x $ in $ [-1,1], $(ii) $ f(0)=1, $ and(iii) $ \\lim_{x\\to 1^-}\\frac{f(x)}{\\sqrt{1-x}} $ exists and is finite.Prove that $ f $ is unique, and express $ f(x) $ in closed form.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2012&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2012,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ q $ and $ r $ be integers with $ q>0, $ and let $ A $ and $ B $ be intervals on the real line. Let $ T $ be the set of all $ b+mq $ where $ b $ and $ m $ are integers with $ b $ in $ B, $ and let $ S $ be the set of all integers $ a $ in $ A $ such that $ ra $ is in $ T. $ Show that if the product of the lengths of $ A $ and $ B $ is less than $ q, $ then $ S $ is the intersection of $ A $ with some arithmetic progression.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2012&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2012,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ \\mathbb{F}_p $ denote the field of integers modulo a prime $ p, $ and let $ n $ be a positive integer. Let $ v $ be a fixed vector in $ \\mathbb{F}_p^n, $ let $ M $ be an $ n\\times n $ matrix with entries in $ \\mathbb{F}_p, $ and define $ G:\\mathbb{F}_p^n\\to\\mathbb{F}_p^n $ by $ G(x)=v+Mx. $ Let $ G^{(k)} $ denote the $ k $-fold composition of $ G $ with itself, that is, $ G^{(1)}(x)=G(x) $ and $ G^{(k+1)}(x)=G(G^{(k)}(x)). $ Determine all pairs $ p,n $ for which there exist $ v $ and $ M $ such that the $ p^n $ vectors $ G^{(k)}(0), $ $ k=1,2,\\dots,p^n $ are distinct.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2012&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2012,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ f(x,y) $ be a continuous, real-valued function on $ \\mathbb{R}^2. $ Suppose that, for every rectangular region $ R $ of area $ 1, $ the double integral of $ f(x,y) $ over $ R $ equals $ 0. $ Must $ f(x,y) $ be identically $ 0? $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2012&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2012,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ S $ be a class of functions from $ [0,\\infty) $ to $ [0,\\infty) $ that satisfies:(i) The functions $ f_1(x)=e^x-1 $ and $ f_2(x)=\\ln(x+1) $ are in $ S; $(ii) If $ f(x) $ and $ g(x) $ are in $ S, $ the functions $ f(x)+g(x) $ and $ f(g(x)) $ are in $ S; $(iii) If $ f(x) $ and $ g(x) $ are in $ S $ and $ f(x)\\ge g(x) $ for all $ x\\ge 0, $ then the function $ f(x)-g(x) $ is in $ S. $Prove that if $ f(x) $ and $ g(x) $ are in $ S, $ then the function $ f(x)g(x) $ is also in $ S. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2012&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2012,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ P $ be a given (non-degenerate) polyhedron. Prove that there is a constant $ c(P)>0 $ with the following property: If a collection of $ n $ balls whose volumes sum to $ V $ contains the entire surface of $ P, $ then $ n>c(P)/V^2. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2012&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2012,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "A round-robin tournament among $ 2n $ teams lasted for $ 2n-1 $ days, as follows. On each day, every team played one game against another team, with one team winning and one team losing in each of the $ n $ games. Over the course of the tournament, each team played every other team exactly once. Can one necessarily choose one winning team from each day without choosing any team more than once?",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2012&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2012,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Suppose that $ a_0=1 $ and that $ a_{n+1}=a_n+e^{-a_n} $ for $ n=0,1,2,\\dots. $ Does $ a_n-\\log n $ have a finite limit as $ n\\to\\infty? $ (Here $ \\log n=\\log_en=\\ln n. $)",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2012&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2012,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Prove that, for any two bounded functions $ g_1,g_2 :\\mathbb{R}\\to[1,\\infty), $ there exist functions $ h_1,h_2 :\\mathbb{R}\\to\\mathbb{R} $ such that for every $ x\\in\\mathbb{R}, $\\[ \\sup_{s\\in\\mathbb{R}}\\left(g_1(s)^xg_2(s)\\right)=\\max_{t\\in\\mathbb{R}}\\left(xh_1(t)+h_2(t)\\right). \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2012&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2012,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ p $ be an odd prime number such that $ p\\equiv 2\\pmod{3}. $ Define a permutation $ \\pi $ of the residue classes modulo $ p $ by $ \\pi(x)\\equiv x^3\\pmod{p}. $ Show that $ \\pi $ is an even permutation if and only if $ p\\equiv 3\\pmod{4}. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2012&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2012,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Recall that a regular icosahedron is a convex polyhedron having 12 vertices and 20 faces; the faces are congruent equilateral triangles. On each face of a regular icosahedron is written a nonnegative integer such that the sum of all $ 20 $ integers is $ 39. $ Show that there are two faces that share a vertex and have the same integer written on them.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2013&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2013,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ S $ be the set of all positive integers that are not perfect squares. For $ n $ in $ S, $ consider choices of integers $ a_1,a_2,\\dots, a_r $ such that $ n<a_1<a_2<\\cdots<a_r $ and $ n\\cdot a_1\\cdot a_2\\cdots a_r $ is a perfect square, and let $ f(n) $ be the minimum of $ a_r $ over all such choices. For example, $ 2\\cdot 3\\cdot 6 $ is a perfect square, while $ 2\\cdot 3,2\\cdot 4, 2\\cdot 5, 2\\cdot 3\\cdot 4, $ $ 2\\cdot 3\\cdot 5, 2\\cdot 4\\cdot 5, $ and $ 2\\cdot 3\\cdot 4\\cdot 5 $ are not, and so $ f(2)=6. $ Show that the function $ f $ from $ S $ to the integers is one-to-one.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2013&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2013,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Suppose that the real numbers $ a_0,a_1,\\dots,a_n $ and $ x, $ with $ 0<x<1, $ satisfy \\[ \\frac{a_0}{1-x}+\\frac{a_1}{1-x^2}+\\cdots+\\frac{a_n}{1-x^{n+1}}=0. \\] Prove that there exists a real number $ y $ with $ 0<y<1 $ such that \\[ a_0+a_1y+\\cdots+a_ny^n=0. \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2013&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2013,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "A finite collection of digits 0 and $ 1 $ is written around a circle. An arc of length $ L\\ge 0 $ consists of $ L $ consecutive digits around the circle. For each arc $ w, $ let $ Z(w) $ and $ N(w) $ denote the number of 0's in $ w $ and the number of $ 1 $'s in $ w, $ respectively. Assume that $ |Z(w)-Z(w')|\\le 1 $ for any two arcs $ w,w' $ of the same length. Suppose that some arcs $ w_1,\\dots,w_k $ have the property that \\[ Z=\\frac{1}k\\sum_{j=1}^kZ(w_j)\\text{ and }N=\\frac{1}k\\sum_{j=1}^k N(w_j) \\] are both integers. Prove that there exists an arc $ w $ with $ Z(w)=Z $ and $ N(w)=N. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2013&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2013,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "For $ m\\ge 3, $ a list of $ \\binom m3 $ real numbers $ a_{ijk} $ $ (1\\le i<j<k\\le m) $ is said to be area definite for $ \\mathbb{R}^n $ if the inequality \\[ \\sum_{1\\le i<j<k\\le m}a_{ijk}\\cdot\\text{Area}(\\triangle A_iA_jA_k)\\ge0 \\] holds for every choice of $ m $ points $ A_1,\\dots,A_m $ in $ \\mathbb{R}^n. $ For example, the list of four numbers $ a_{123}=a_{124}=a_{134}=1, a_{234}=-1 $ is area definite for $ \\mathbb{R}^2. $ Prove that if a list of $ \\binom m3 $ numbers is area definite for $ \\mathbb{R}^2, $ then it is area definite for $ \\mathbb{R}^3. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2013&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2013,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Define a function $ w:\\mathbb{Z}\\times\\mathbb{Z}\\to\\mathbb{Z} $ as follows. For $ |a|,|b|\\le 2, $ let $ w(a,b) $ be as in the table shown; otherwise, let $ w(a,b)=0. $\\[ \\begin{array}{|lr|rrrrr|}\\hline &&&&b&&\\\\ &w(a,b)&-2&-1&0&1&2\\\\ \\hline &-2&-1&-2&2&-2&-1\\\\ &-1&-2&4&-4&4&-2\\\\ a&0&2&-4&12&-4&2\\\\ &1&-2&4&-4&4&-2\\\\ &2&-1&-2&2&-2&-1\\\\ \\hline\\end{array} \\]For every finite subset $ S $ of $ \\mathbb{Z}\\times\\mathbb{Z}, $ define \\[ A(S)=\\sum_{(\\mathbf{s},\\mathbf{s'})\\in S\\times S}w(\\mathbf{s}-\\mathbf{s'}). \\] Prove that if $ S $ is any finite nonempty subset of $ \\mathbb{Z}\\times\\mathbb{Z}, $ then $ A(S)>0. $ (For example, if $ S=\\{(0,1),(0,2),(2,0),(3,1)\\}, $ then the terms in $ A(S) $ are $ 12,12,12,12,4,4,0,0,0,0,-1,-1,-2,-2,-4,-4. $)",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2013&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2013,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "For positive integers $ n, $ let the numbers $ c(n) $ be determined by the rules $ c(1)=1,c(2n)=c(n), $ and $ c(2n+1)=(-1)^nc(n). $ Find the value of \\[ \\sum_{n=1}^{2013}c(n)c(n+2). \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2013&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2013,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ C=\\bigcup_{N=1}^{\\infty}C_N, $ where $ C_N $ denotes the set of 'cosine polynomials' of the form \\[ f(x)=1+\\sum_{n=1}^Na_n\\cos(2\\pi nx) \\] for which:(i) $ f(x)\\ge 0 $ for all real $ x, $ and(ii) $ a_n=0 $ whenever $ n $ is a multiple of $ 3. $Determine the maximum value of  $ f(0) $ as $ f $ ranges through $ C, $ and prove that this maximum is attained.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2013&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2013,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ P $ be a nonempty collection of subsets of $ \\{1,\\dots,n\\} $ such that:(i) if $ S,S'\\in P, $ then $ S\\cup S'\\in P $ and $ S\\cap S'\\in P, $ and(ii) if $ S\\in P $ and $ S\\ne\\emptyset, $ then there is a subset $ T\\subset S $ such that $ T\\in P $ and $ T $ contains exactly one fewer element than $ S. $Suppose that $ f:P\\to\\mathbb{R} $ is a function such that $ f(\\emptyset)=0 $ and \\[ f(S\\cup S')= f(S)+f(S')-f(S\\cap S')\\text{ for all }S,S'\\in P. \\] Must there exist real numbers $ f_1,\\dots,f_n $ such that \\[ f(S)=\\sum_{i\\in S}f_i \\] for every $ S\\in P? $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2013&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2013,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "For any continuous real-valued function $ f $ defined on the interval $ [0,1], $ let \\[ \\mu(f)=\\int_0^1f(x)\\,dx,\\text{Var}(f)=\\int_0^1(f(x)-\\mu(f))^2\\,dx, M(f)=\\max_{0\\le x\\le 1}|f(x)|. \\] Show that if $ f $ and $ g $ are continuous real-valued functions defined on the interval $ [0,1], $ then \\[ \\text{Var}(fg)\\le 2\\text{Var}(f)M(g)^2+2\\text{Var}(g)M(f)^2. \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2013&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2013,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ X=\\{1,2,\\dots,n\\}, $ and let $ k\\in X. $ Show that there are exactly $ k\\cdot n^{n-1} $ functions $ f:X\\to X $ such that for every $ x\\in X $ there is a $ j\\ge 0 $ such that $ f^{(j)}(x)\\le k. $[Here $ f^{(j)} $ denotes the $ j $th iterate of $ f, $ so that $ f^{(0)}(x)=x $ and $ f^{(j+1)}(x)=f\\left(f^{(j)}(x)\\right). $]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2013&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2013,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ n\\ge 1 $ be an odd integer. Alice and Bob play the following game, taking alternating turns, with Alice playing first. The playing area consists of $ n $ spaces, arranged in a line. Initially all spaces are empty. At each turn, a player either\u2022 places a stone in an empty space, or\u2022 removes a stone from a nonempty space $ s, $ places a stone in the nearest empty space to the left of $ s $ (if such a space exists), and places a stone in the nearest empty space to the right of $ s $ (if such a space exists).Furthermore, a move is permitted only if the resulting position has not occurred previously in the game. A player loses if he or she is unable to move. Assuming that both players play optimally throughout the game, what moves may Alice make on her first turn?",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2013&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2013,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Prove that every nonzero coefficient of the Taylor series of $ (1-x+x^2)e^x $ about $ x=0 $ is a rational number whose numerator (in lowest terms) is either $ 1 $ or a prime number.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2014&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2014,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ A $ be the $ n\\times n $ matrix whose entry in the $ i $-th row and $ j $-th column is \\[ \\frac{1}{\\min(i,j)} \\] for $ 1\\le i,j\\le n. $ Compute $ \\det(A). $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2014&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2014,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ a_0=5/2 $ and $ a_k=a_{k-1}^2-2 $ for $ k\\ge 1. $ Compute \\[ \\prod_{k=0}^{\\infty}\\left(1-\\frac{1}{a_k}\\right) \\] in closed form.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2014&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2014,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Suppose $ X $ is a random variable that takes on only nonnegative integer values, with $ E[X]=1, $ $ E[X^2]=2, $ and $ E[X^3]=5. $ (Here $ E[Y] $ denotes the expectation of the random variable $ Y. $) Determine the smallest possible value of the probability of the event $ X=0. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2014&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2014,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ P_n(x)=1+2x+3x^2+\\cdots+nx^{n-1}. $ Prove that the polynomials $ P_j(x) $ and $ P_k(x) $ are relatively prime for all positive integers $ j $ and $ k $ with $ j\\ne k. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2014&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2014,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ n $ be a positive integer. What is the largest $ k $ for which there exist $ n\\times n $ matrices $ M_1,\\dots,M_k $ and $ N_1,\\dots,N_k $ with real entries such that for all $ i $ and $ j, $ the matrix product $ M_iN_j $ has a zero entry somewhere on its diagonal if and only if $ i\\ne j? $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2014&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "A",
+    "year": 2014,
+    "problem_number": 6
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "A base 10 over-expansion of a positive integer $ N $ is an expression of the form $ N=d_k10^k+d_{k-1}10^{k-1}+\\cdots+d_0 10^0 $ with $ d_k\\ne 0 $ and $ d_i\\in\\{0,1,2,\\dots,10\\} $ for all $ i. $ For instance, the integer $ N=10 $ has two base 10 over-expansions: $ 10=10\\cdot 10^0 $ and the usual base 10 expansion $ 10=1\\cdot 10^1+0\\cdot 10^0. $ Which positive integers have a unique base 10 over-expansion?",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2014&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2014,
+    "problem_number": 1
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Suppose that $ f $ is a function on the interval $ [1,3] $ such that $ -1\\le f(x)\\le 1 $ for all $ x $ and $ \\int_1^3f(x)\\,dx=0. $ How large can $ \\int_1^3\\frac{f(x)}{x}\\,dx $ be?",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2014&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2014,
+    "problem_number": 2
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ A $ be an $ m\\times n $ matrix with rational entries. Suppose that there are at least $ m+n $ distinct prime numbers among the absolute values of the entries of $ A. $ Show that the rank of $ A $ is at least $ 2. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2014&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2014,
+    "problem_number": 3
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Show that for each positive integer $ n, $ all the roots of the polynomial \\[ \\sum_{k=0}^n 2^{k(n-k)}x^k \\] are real numbers.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2014&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2014,
+    "problem_number": 4
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "In the 75th Annual Putnam Games, participants compete at mathematical games. Patniss and Keeta play a game in which they take turns choosing an element from the group of invertible $ n\\times n $ matrices with entries in the field $ \\mathbb{Z}/p\\mathbb{Z} $ of integers modulo $ p, $ where $ n $ is a fixed positive integer and $ p $ is a fixed prime number. The rules of the game are:(1) A player cannot choose an element that has been chosen by either player on any previous turn.(2) A player can only choose an element that commutes with all previously chosen elements.(3) A player who cannot choose an element on his/her turn loses the game.Patniss takes the first turn. Which player has a winning strategy?",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2014&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2014,
+    "problem_number": 5
+}{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "Putnam",
+    "problem_statement": "Let $ f:[0,1]\\to\\mathbb{R} $ be a function for which there exists a constant $ K>0 $ such that $ |f(x)-f(y)|\\le K|x-y| $ for all $ x,y\\in [0,1]. $ Suppose also that for each rational number $ r\\in [0,1], $ there exist integers $ a $ and $ b $ such that $ f(r)=a+br. $ Prove that there exist finitely many intervals $ I_1,\\dots,I_n $ such that $ f $ is a linear function on each $ I_i $ and $ [0,1]=\\bigcup_{i=1}^nI_i. $",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=2014&sid=a5ed14cdf428267d6f5c296a3d8f583e",
+    "name_modifier": "B",
+    "year": 2014,
+    "problem_number": 6
+}
