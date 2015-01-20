@@ -4,21 +4,39 @@ var app = angular.module('fleekApp', []);
 app.controller("pageController", function ($scope, $http, $location) {
 	//default page is splash
 	$scope.current= "splash";
+	$scope.restrictions = {"splash": false, "login": false, "signup": false, "problem": true, "search": true};
 	//default authentication state is false
 	$scope.isAuthenticated = false;
-	//function to set view (accessible from child scopes)
-	$scope.setView = function(page) {
-		$scope.current = page;
-	};
+	// $scope.isAuthenticated = function() {
+	// 	// $http.get('../../auth')
+	// 	// .success(function(data) {
+	// 	// 	console.log(data);
+	// 	// 	return true;
+	// 	// })
+	// 	// .error(function(data) {
+	// 	// 	console.log(data);
+	// 	// 	return false;
+	// 	// })
+	// 	return $scope.isAuthenticated;
+	// };
 	//function to set authentication (accessible from child scopes) - NEEDS TO BE DONE DIFFERENTLY
 	$scope.setAuthentication = function(auth) {
 		$scope.isAuthenticated = auth;
 	}
+	//function to set view (accessible from child scopes)
+	$scope.setView = function(page) {
+		if (!$scope.isAuthenticated && $scope.restrictions[page]) {
+			$scope.current = "login";
+		}
+		else {
+			$scope.current = page;
+		}
+	};
 	//function to log out - NEEDS TO BE DONE DIFFERENTLY
 	$scope.logout = function() {
 		$http.get('../../logout')
         .success(function(data) {
-            $scope.isAuthenticated=false;
+            $scope.setAuthentication(false);
        		$scope.setView('splash');
             console.log(data);
         })
@@ -35,18 +53,18 @@ app.controller("loginController", function($scope,$http) {
     	$scope.submitted = true;
     	$http.post('../../login', {username: angular.lowercase($scope.user), password: $scope.pass})
 	    	.success(function(data) {
-	    		$scope.setView('problem');
 	    		$scope.setAuthentication(true);
-	    		$scope.user = "";
-	    		$scope.pass = "";
+	    		$scope.setView('search');
 	    		$scope.submitted = false;
 	    		console.log(data);
+	    		$scope.user = "";
+	    		$scope.pass = "";
 	    	})
 	    	.error(function(data) {
 	    		$scope.err = true;
 	    		$scope.submitted = false;
-	    		$scope.pass = "";
 	    		console.log(data);
+	    		$scope.pass = "";
 	    	})
     }
 });
@@ -71,25 +89,31 @@ app.controller("signupController", function($scope,$http) {
     	$scope.submitted = true;
     	$http.post('../../signup', {username: angular.lowercase($scope.user), password: $scope.pass, gender: $scope.gen, country: $scope.ctry})
 	    	.success(function(data) {
-	    		$scope.setView('problem');
 	    		$scope.setAuthentication(true);
 	    		$scope.submitted = false;
+	    		$scope.setView('search');
 	    		console.log(data);
+	    		$scope.user = "";
+		    	$scope.pass = "";
+		    	$scope.gen = "";
+		    	$scope.ctry = "";
 	    	})
 	    	.error(function(data) {
 	    		$scope.err = true;
 	    		$scope.submitted = false;
 	    		console.log(data);
+	    		$scope.user = "";
+		    	$scope.pass = "";
 	    	})
-	    	$scope.user = "";
-	    	$scope.pass = "";
-	    	$scope.gen = "";
-	    	$scope.ctry = "";
     }
 });
 
 //problem view controller - add stuff here later
 app.controller("problemController", function($scope,$http) {
+});
+
+//search view controller - add stuff here later
+app.controller("searchController", function($scope,$http) {
 });
 
 //nav-bar.html
@@ -128,7 +152,14 @@ app.directive("signup", function() {
 app.directive("problem", function() {
 	return {
 		restrict: 'E',
-		url: 'browse',
 		templateUrl: '../views/problem.html'
+	};
+});
+
+//search.html
+app.directive("search", function() {
+	return {
+		restrict: 'E',
+		templateUrl: '../views/search.html'
 	};
 });
