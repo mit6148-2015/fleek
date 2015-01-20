@@ -14,10 +14,6 @@
   "author": "I browse on fleek",
   "license": "MIT",
   "dependencies": {
-<<<<<<< HEAD
-    "body-parser": "^1.10.1",
-    "express": "~4.11.0"
-=======
     "bcrypt": "^0.8.0",
     "body-parser": "^1.10.1",
     "express": "^4.11.0",
@@ -26,6 +22,5 @@
     "morgan": "^1.5.1",
     "passport": "^0.2.1",
     "passport-local": "^1.0.0"
->>>>>>> 4d420d607ac4c4d5974d9098d07ea05316822397
   }
 }
