@@ -10,7 +10,7 @@
  */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -2574,26 +2574,6 @@ tbody.collapse.in {
   font-family: 'Glyphicons Halflings';
   src: url('../fonts/glyphicons-halflings-regular.eot') format('truetype');
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), font-url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
-}
-@font-face {
-    font-family: "Open Sans";
-    src: url('fonts/OpenSans-regular.ttf') format('truetype');
-}
-@font-face {
-    font-family: "Open Sans";
-    src: url('fonts/OpenSans-Bold.ttf') format('truetype');
-    font-weight: bold;
-}
-@font-face {
-    font-family: "Open Sans";
-    src: url('fonts/OpenSans-Italic.ttf') format('truetype');
-    font-style: italic;
-}
-@font-face {
-    font-family: "Open Sans";
-    src: url('fonts/OpenSans-BoldItalic.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
 }
 .glyphicon {
   position: relative;
