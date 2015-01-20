@@ -2577,21 +2577,21 @@ tbody.collapse.in {
 }
 @font-face {
     font-family: "Open Sans";
-    src: url('fonts/OpenSans-regular.ttf') format('truetype');
+    src: url('/assets/OpenSans-regular.ttf') format('truetype');
 }
 @font-face {
     font-family: "Open Sans";
-    src: url('fonts/OpenSans-Bold.ttf') format('truetype');
+    src: url('/assets/OpenSans-Bold.ttf') format('truetype');
     font-weight: bold;
 }
 @font-face {
     font-family: "Open Sans";
-    src: url('fonts/OpenSans-Italic.ttf') format('truetype');
+    src: url('/assets/OpenSans-Italic.ttf') format('truetype');
     font-style: italic;
 }
 @font-face {
     font-family: "Open Sans";
-    src: url('fonts/OpenSans-BoldItalic.ttf') format('truetype');
+    src: url('/assets/OpenSans-BoldItalic.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
 }
