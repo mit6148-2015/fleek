@@ -2572,26 +2572,26 @@ tbody.collapse.in {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('../fonts/glyphicons-halflings-regular.eot') format('truetype');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), font-url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 @font-face {
     font-family: "Open Sans";
-    src: url("../fonts/OpenSans-regular.ttf");
+    src: url("../fonts/OpenSans-regular.ttf") format('truetype');
 }
 @font-face {
     font-family: "Open Sans";
-    src: url("../fonts/OpenSans-Bold.ttf");
+    src: url("../fonts/OpenSans-Bold.ttf") format('truetype');
     font-weight: bold;
 }
 @font-face {
     font-family: "Open Sans";
-    src: url("fonts/OpenSans-Italic.ttf");
+    src: url("fonts/OpenSans-Italic.ttf") format('truetype');
     font-style: italic, oblique;
 }
 @font-face {
     font-family: "Open Sans";
-    src: url("fonts/OpenSans-BoldItalic.ttf");
+    src: url("fonts/OpenSans-BoldItalic.ttf") format('truetype');
     font-weight: bold;
     font-style: italic, oblique;
 }
