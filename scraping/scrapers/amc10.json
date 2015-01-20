@@ -7235,7 +7235,7 @@
         "$\\frac{2}{3}$",
         "$\\frac{3}{2}$",
         "$2$",
-        "$3 \\$"
+        "$3 $"
     ],
     "answer_names": [
         "A",
@@ -7257,7 +7257,7 @@
         "$\\frac{\\pi}{3}+1-\\sqrt{3}$",
         "$\\frac{\\pi}{2}\\left( 2-\\sqrt{3}\\right)$",
         "$\\pi\\left(2-\\sqrt{3}\\right)$",
-        "$\\frac{\\pi}{6}+\\frac{\\sqrt{3}-1}{2}\\\\$",
+        "$\\frac{\\pi}{6}+\\frac{\\sqrt{3}-1}{2}\\$",
         "$\\frac{\\pi}{3}-1+\\sqrt{3}$"
     ],
     "answer_names": [

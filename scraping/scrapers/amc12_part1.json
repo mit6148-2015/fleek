@@ -1391,7 +1391,7 @@
     "answer_choices": [
         "$\\text{have a maximum}$",
         "$\\text{have a minimum}$",
-        "$\\text{be tangent to the x-axis}\\\\$",
+        "$\\text{be tangent to the x-axis}\\$",
         "$\\text{be tangent to the y-axis}$",
         "$\\text{lie in one quadrant only}$"
     ],
@@ -1633,10 +1633,10 @@
 },
 {
     "answer_choices": [
-        "$\\text{the ratio of two sides and the inc{}luded angle}\\\\$",
-        "$\\text{the ratios of the three altitudes}\\\\$",
-        "$\\text{the ratios of the three medians}\\\\$",
-        "$\\text{the ratio of the altitude to the corresponding base}\\\\$",
+        "$\\text{the ratio of two sides and the inc{}luded angle}\\$",
+        "$\\text{the ratios of the three altitudes}\\$",
+        "$\\text{the ratios of the three medians}\\$",
+        "$\\text{the ratio of the altitude to the corresponding base}\\$",
         "$\\text{two angles}$"
     ],
     "answer_names": [
@@ -15337,7 +15337,7 @@
     "answer_choices": [
         "$3$",
         "$\\frac{5\\sqrt{2}}{2}$",
-        "$\\frac{5\\sqrt3}{2}\\$",
+        "$\\frac{5\\sqrt3}{2}$",
         "$3\\sqrt3$",
         "$\\text{none of these}$"
     ],
@@ -17363,10 +17363,10 @@
 },
 {
     "answer_choices": [
-        "$\\text{equal to}\\ \\frac{1}{4}\\\\$",
-        "$\\text{equal to or greater than}\\ \\frac{1}{8}\\ \\text{and less than}\\ \\frac{1}{2}\\\\$",
-        "$\\text{greater than}\\ \\frac{1}{8}\\ \\text{and less than}\\ \\frac{1}{2}\\\\$",
-        "$\\text{greater than}\\ \\frac{1}{8}\\ \\text{and less than}\\ \\frac{1}{4}\\\\$",
+        "$\\text{equal to}\\ \\frac{1}{4}\\$",
+        "$\\text{equal to or greater than}\\ \\frac{1}{8}\\ \\text{and less than}\\ \\frac{1}{2}\\$",
+        "$\\text{greater than}\\ \\frac{1}{8}\\ \\text{and less than}\\ \\frac{1}{2}\\$",
+        "$\\text{greater than}\\ \\frac{1}{8}\\ \\text{and less than}\\ \\frac{1}{4}\\$",
         "$\\text{less than}\\ \\frac{1}{2}$"
     ],
     "answer_names": [
@@ -17385,10 +17385,10 @@
 },
 {
     "answer_choices": [
-        "$\\text{all real values of}\\ x\\\\$",
-        "$\\text{no real values of}\\ x\\\\$",
-        "$\\text{all real values of}\\ x\\ \\text{except}\\ x=0\\\\$",
-        "$\\text{no real values of}\\ x\\ \\text{except}\\ x=0\\\\$",
+        "$\\text{all real values of}\\ x\\$",
+        "$\\text{no real values of}\\ x\\$",
+        "$\\text{all real values of}\\ x\\ \\text{except}\\ x=0\\$",
+        "$\\text{no real values of}\\ x\\ \\text{except}\\ x=0\\$",
         "$\\text{all real values of}\\ x\\ \\text{except}\\ x=1$"
     ],
     "answer_names": [
@@ -19895,11 +19895,11 @@
 },
 {
     "answer_choices": [
-        "$& 3^{1/3},\\ 2^{1/2}\\quad &\\hbox{(B)}& 3^{1/3},\\ 8^{1/8}\\quad &\\hbox{(C)}& 3^{1/3},\\ 9^{1/9}\\quad &\\hbox{(D)}& 8^{1/8},\\ 9^{1/9}\\\\ \\hbox{(E)}&\\multicolumn{3}{l}{\\hbox{None of these}}\\end{array} \\$",
-        "$& 3^{1/3},\\ 8^{1/8}\\quad &\\hbox{(C)}& 3^{1/3},\\ 9^{1/9}\\quad &\\hbox{(D)}& 8^{1/8},\\ 9^{1/9}\\\\ \\hbox{(E)}&\\multicolumn{3}{l}{\\hbox{None of these}}\\end{array} \\$",
-        "$& 3^{1/3},\\ 9^{1/9}\\quad &\\hbox{(D)}& 8^{1/8},\\ 9^{1/9}\\\\ \\hbox{(E)}&\\multicolumn{3}{l}{\\hbox{None of these}}\\end{array} \\$",
-        "$& 8^{1/8},\\ 9^{1/9}\\\\ \\hbox{(E)}&\\multicolumn{3}{l}{\\hbox{None of these}}\\end{array} \\$",
-        "$&\\multicolumn{3}{l}{\\hbox{None of these}}\\end{array} \\$"
+        "$& 3^{1/3},\\ 2^{1/2}\\quad &\\hbox{(B)}& 3^{1/3},\\ 8^{1/8}\\quad &\\hbox{(C)}& 3^{1/3},\\ 9^{1/9}\\quad &\\hbox{(D)}& 8^{1/8},\\ 9^{1/9}\\\\ \\hbox{(E)}&\\multicolumn{3}{l}{\\hbox{None of these}}\\end{array} $",
+        "$& 3^{1/3},\\ 8^{1/8}\\quad &\\hbox{(C)}& 3^{1/3},\\ 9^{1/9}\\quad &\\hbox{(D)}& 8^{1/8},\\ 9^{1/9}\\\\ \\hbox{(E)}&\\multicolumn{3}{l}{\\hbox{None of these}}\\end{array} $",
+        "$& 3^{1/3},\\ 9^{1/9}\\quad &\\hbox{(D)}& 8^{1/8},\\ 9^{1/9}\\\\ \\hbox{(E)}&\\multicolumn{3}{l}{\\hbox{None of these}}\\end{array} $",
+        "$& 8^{1/8},\\ 9^{1/9}\\\\ \\hbox{(E)}&\\multicolumn{3}{l}{\\hbox{None of these}}\\end{array} $",
+        "$&\\multicolumn{3}{l}{\\hbox{None of these}}\\end{array} $"
     ],
     "answer_names": [
         "A",
@@ -19981,7 +19981,7 @@
         "$& 125$",
         "$& 120$",
         "$& 100$",
-        "$& 80 &\\end{array} \\$"
+        "$& 80 &\\end{array} $"
     ],
     "answer_names": [
         "A",
@@ -21295,7 +21295,7 @@
     "answer_choices": [
         "$4x+3y=xy$",
         "$y=\\frac{4x}{6-y}$",
-        "$\\frac{x}{2}+\\frac{y}{3}=2\\\\$",
+        "$\\frac{x}{2}+\\frac{y}{3}=2\\$",
         "$\\frac{4y}{y-6}=x$",
         "$\\text{none of these}$"
     ],
@@ -21403,10 +21403,10 @@
 },
 {
     "answer_choices": [
-        "$\\text{\"*\" is commutative but not associative}\\\\$",
-        "$\\text{\"*\" is associative but not commutative}\\\\$",
-        "$\\text{\"*\" is neither commutative nor associative}\\\\$",
-        "$\\text{\"*\" is commutative and associative}\\\\$",
+        "$\\text{\"*\" is commutative but not associative}\\$",
+        "$\\text{\"*\" is associative but not commutative}\\$",
+        "$\\text{\"*\" is neither commutative nor associative}\\$",
+        "$\\text{\"*\" is commutative and associative}\\$",
         "$\\text{none of these}$"
     ],
     "answer_names": [
@@ -21743,8 +21743,8 @@
     "answer_choices": [
         "$25/6$",
         "$6$",
-        "$25/4\\\\$",
-        "$\\text{a number other than }25/6, 6, 25/4\\\\$",
+        "$25/4\\$",
+        "$\\text{a number other than }25/6, 6, 25/4\\$",
         "$\\text{not determinable from the given information}$"
     ],
     "answer_names": [
@@ -21832,7 +21832,7 @@
         "$b\\le a/3$",
         "$b > a/3$",
         "$a\\le b/3$",
-        "$a > b/3\\\\$",
+        "$a > b/3\\$",
         "$\\text{The statement is never true.}$"
     ],
     "answer_names": [
@@ -22341,7 +22341,7 @@
     "answer_choices": [
         "$\\text{for no values of}\\ \\theta$",
         "$\\text{only if}\\ \\theta=45^{\\circ}$",
-        "$\\text{only if}\\ 0^{\\circ}<\\theta\\le 45^{\\circ}\\\\$",
+        "$\\text{only if}\\ 0^{\\circ}<\\theta\\le 45^{\\circ}\\$",
         "$\\text{only if}\\ 45^{\\circ}\\le\\theta < 60^{\\circ}$",
         "$\\text{for all}\\ \\theta\\ \\text{such that}\\ 0^{\\circ}<\\theta < 60^{\\circ}$"
     ],
@@ -22364,7 +22364,7 @@
         "$\\text{the woman}$",
         "$\\text{her son}$",
         "$\\text{her brother}$",
-        "$\\text{her daughter}\\\\$",
+        "$\\text{her daughter}\\$",
         "$\\text{No solution is consistent with the given information}$"
     ],
     "answer_names": [
@@ -22385,7 +22385,7 @@
     "answer_choices": [
         "$\\measuredangle CND+\\measuredangle BMD-\\measuredangle DAC =120^{\\circ}$",
         "$AMDN\\ \\text{is a trapezoid}$",
-        "$BC\\ \\text{is parallel to}\\ MN\\\\$",
+        "$BC\\ \\text{is parallel to}\\ MN\\$",
         "$AM-AN=\\frac{3(DB-DC)}{2}$",
         "$AB-AC=\\frac{3(DB-DC)}{2}$"
     ],
@@ -22430,7 +22430,7 @@
         "$\\frac{3}{2}$",
         "$\\frac{4}{3}$",
         "$\\frac{5}{4}$",
-        "$\\frac{6}{5}\\\\$",
+        "$\\frac{6}{5}\\$",
         "$\\text{not enough information to solve the problem}$"
     ],
     "answer_names": [
@@ -23097,7 +23097,7 @@
         "$3x$",
         "$5x$",
         "$7x$",
-        "$9x \\$"
+        "$9x $"
     ],
     "answer_names": [
         "A",
@@ -23141,7 +23141,7 @@
         "$5$",
         "$9$",
         "$10$",
-        "$15 \\$"
+        "$15 $"
     ],
     "answer_names": [
         "A",
@@ -23283,7 +23283,7 @@
         "$1$",
         "$64$",
         "$-64$",
-        "$128 \\$"
+        "$128 $"
     ],
     "answer_names": [
         "A",
@@ -27995,7 +27995,7 @@
         "$\\frac{2}{9}\\sin{20^\\circ}$",
         "$\\frac{1}{9}\\cos{40^\\circ}$",
         "$\\frac{1}{18}\\cos{20^\\circ}$",
-        "$\\text{ none of these} \\$"
+        "$\\text{ none of these} $"
     ],
     "answer_names": [
         "A",
@@ -29409,7 +29409,7 @@
     "answer_choices": [
         "$w-y-z$",
         "$w-2y-2z$",
-        "$180-w-y-z\\\\$",
+        "$180-w-y-z\\$",
         "$2w-y-z$",
         "$180-w+y+z$"
     ],
@@ -29520,7 +29520,7 @@
         "$c=-1$",
         "$c>-1$",
         "$c<\\frac{3}{2}$",
-        "$0<c<\\frac{3}{2}\\\\$",
+        "$0<c<\\frac{3}{2}\\$",
         "$-1<c<\\frac{3}{2}$"
     ],
     "answer_names": [
@@ -29542,7 +29542,7 @@
         "$1\\ 2\\ 3\\ 4\\ 5$",
         "$2\\ 4\\ 3\\ 5\\ 1$",
         "$3\\ 2\\ 4\\ 1\\ 5$",
-        "$4\\ 5\\ 2\\ 3\\ 1\\\\$",
+        "$4\\ 5\\ 2\\ 3\\ 1\\$",
         "$5\\ 4\\ 3\\ 2\\ 1$"
     ],
     "answer_names": [
@@ -29651,7 +29651,7 @@
     "answer_choices": [
         "$\\text{Dick, Ann, Carol, Bill}$",
         "$\\text{Dick, Ann, Bill, Carol}$",
-        "$\\text{Dick, Carol, Bill, Ann}\\\\$",
+        "$\\text{Dick, Carol, Bill, Ann}\\$",
         "$\\text{Ann, Dick, Carol, Bill}$",
         "$\\text{Ann, Dick, Bill, Carol}$"
     ],
@@ -29783,7 +29783,7 @@
     "answer_choices": [
         "$1<p\\le 11$",
         "$11<p\\le 21$",
-        "$21< p\\le 31\\\\$",
+        "$21< p\\le 31\\$",
         "$31< p\\le 41$",
         "$41< p\\le 51$"
     ],
@@ -29806,7 +29806,7 @@
         "$0$",
         "$1$",
         "$2$",
-        "$\\text{finitely many but more than 2}\\\\$",
+        "$\\text{finitely many but more than 2}\\$",
         "$\\text{infinitely many}$"
     ],
     "answer_names": [
