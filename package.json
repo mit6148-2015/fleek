@@ -13,6 +13,10 @@
   },
   "author": "I browse on fleek",
   "license": "MIT",
+  "engines": {
+    "node": "0.10.35",
+    "npm": "2.1.18"
+  },
   "dependencies": {
     "bcrypt": "^0.8.0",
     "body-parser": "^1.10.1",
