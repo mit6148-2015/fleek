@@ -9,13 +9,19 @@ problemMeta['amc8'] = function (year, problemNumber) {
 };
 
 
-problemMeta['amc10'] = function () {
+problemMeta['amc10'] = function (year, yearModifier, problemNumber) {
     this.setPattern = 'AMC 10';
+    this.setInstance = String(year) + String(yearModifier);
+    this.setIndex = parseInt(problemNumber);
+    this.response = 'multipleChoice';
 };
 
 
-problemMeta['amc12'] = function () {
+problemMeta['amc12'] = function (year, yearModifier, problemNumber) {
     this.setPattern = 'AMC 12';
+    this.setInstance = String(year) + String(yearModifier);
+    this.setIndex = parseInt(problemNumber);
+    this.response = 'multipleChoice';
 };
 
 
