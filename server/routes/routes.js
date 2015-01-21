@@ -36,7 +36,7 @@ router.get('/logout', function(req, res) {
 router.get('/auth',  passport.authorize(), function(req, res) {
     console.log('Authorization successful');
     res.send('Authorization successful');
-})
+});
 
 
 // provides list of countries
