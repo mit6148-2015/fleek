@@ -7,7 +7,7 @@
 				Username already exists.
 			</div>
 			<div class="control-group form-group" ng-class="{'has-error':signupForm.user.$invalid && signupForm.user.$dirty}">
-				<input autofocus type="email" ng-model="user" class="form-control" name="user" placeholder="email" required>
+				<input focus-me="current=='signup'" type="email" ng-model="user" class="form-control" name="user" placeholder="email" required>
 			</div>
 			<div class="control-group form-group" ng-class="{'has-error':signupForm.pass.$invalid && signupForm.pass.$dirty}">
 				<input type="password" ng-model="pass" ng-minlength="8" class="form-control" name="pass" placeholder="password" required>
