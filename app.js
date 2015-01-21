@@ -11,7 +11,7 @@ var session = require('express-session');
 var configDB = require('./server/config/database.js');
 
 // set root directory
-process.env.PWD = process.cwd() || __dirname;
+process.env.PWD = process.cwd();
 
 // log requests to console
 app.use(morgan('dev'));

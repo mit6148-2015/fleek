@@ -26,6 +26,15 @@ module.exports = function(app, passport) {
         res.send('Logout successful');
     });
 
+    // authorization via Passport
+    app.get('/auth', function(req, res) {
+        // if logged in 
+        // res.send('you're the best!')
+
+        // if not logged in
+        // error
+    })
+
     // provides list of countries
     app.get('/public/assets/countries.json', function(req, res) {
         res.sendFile(path.join(__dirname, '../../public/assets/countries.json'));
