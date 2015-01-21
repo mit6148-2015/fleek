@@ -159,6 +159,19 @@ app.directive('focusMe', function($timeout) {
   };
 });
 
+//refresh mathjax on problem change
+//from http://blog.datacamp.com/mathjax-binding-in-angular-js
+app.directive('mathjax',function(){
+	return {
+		restrict: 'EA',
+		link: function(scope, element, attrs) {
+			scope.$watch(attrs.ngModel, function () {
+				MathJax.Hub.Queue(['Typeset',MathJax.Hub,element.get(0)]);
+            });
+		}
+	};
+});
+
 //nav-bar.html
 app.directive("navBar", function() {
 	return {
