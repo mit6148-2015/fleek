@@ -6,12 +6,12 @@ var Problem = require('../models/problem');
 
 function searchProblems (req, res) {
     queryText = '\"' + req.query.queryText + '\"';
-    setPattern = req.query.contest;
+    setPatterns = req.query.contests;
     startYear = String(req.query.startYear);
     endYear = String(req.query.endYear);
 
     Problem.find({$text: { $search: queryText }})
-    .where('meta.setPattern', setPattern)
+    .where('meta.setPattern').in(setPatterns)
     .where('meta.setInstance').gte(startYear).lte(endYear)
     // .select('statement')
     .exec(function (err, problems) {
