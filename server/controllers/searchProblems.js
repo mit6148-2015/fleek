@@ -10,10 +10,14 @@ function searchProblems (req, res) {
     startYear = String(req.query.startYear);
     endYear = String(req.query.endYear);
 
-    Problem.find({$text: { $search: queryText }})
+    if (queryText)
+        textSearch = {$text: { $search: queryText }};
+    else
+        textSearch = {};
+
+    Problem.find(textSearch)
     .where('meta.setPattern').in(setPatterns)
     .where('meta.setInstance').gte(startYear).lte(endYear)
-    // .select('statement')
     .exec(function (err, problems) {
         if (err)
             console.log(err);
