@@ -147,7 +147,12 @@ app.controller("searchController", function($scope,DataService) {
 		}
 		DataService.search($scope.text,list,$scope.startYear, $scope.endYear)
 		.then (function(data) {
-			$scope.results = data.meta;
+			//generate list of problem metadata
+			var metaresults = [];
+			for (i in data) {
+				metaresults.push(data[i]['meta']);
+			}
+			$scope.results = metaresults;
 		});
 	}
 });
