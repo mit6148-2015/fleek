@@ -2,8 +2,8 @@ var app = angular.module('fleekApp', []);
 
 //page controller - controls what the page displays & authentication state
 app.controller("pageController", function ($scope, AuthService) {
-	$scope.current= "/views/splash.html"; //default page is splash
-	$scope.auth = false; //only used for displaying buttons and stuff
+	$scope.current; //default page is splash
+	$scope.auth; //only used for displaying buttons and stuff
 	$scope.restrictions = { //map pages to restrictions
 		"/views/splash.html": false, 
 		"/views/login.html": false, 
@@ -12,9 +12,10 @@ app.controller("pageController", function ($scope, AuthService) {
 		"/views/search.html": true
 	};
 	//function to set view (accessible from child scopes)
-	$scope.setView = function(page) {
+	$scope.setView = function(page,init) {
+		init = init | false; //set init's default to false
 		//if page is unrestricted, continue to page
-		if (!$scope.restrictions[page]) { 
+		if (!$scope.restrictions[page] && !init) { 
 			console.log(" / unrestricted, continue to " + page);
 			$scope.current = page;
 		}
@@ -26,6 +27,11 @@ app.controller("pageController", function ($scope, AuthService) {
 					console.log(" / authorized, continue to " + page);
 					$scope.current = page;
 					$scope.auth = true;
+				}
+				else if (!$scope.restrictions[page]) {
+					console.log(" / unrestricted, continue to " + page);
+					$scope.current = page;
+					$scope.auth = false;
 				}
 				else {
 					console.log(" / unauthorized, redirect to login");
