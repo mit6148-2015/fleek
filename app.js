@@ -1,6 +1,7 @@
 var express = require('express');
 var app = express();
 var port = process.env.PORT || 5000;
+var routes = require('./server/routes/routes');
 var fs = require('fs');
 var morgan = require('morgan');
 var bodyParser = require('body-parser');
@@ -9,8 +10,7 @@ var mongoose = require('mongoose');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 var session = require('express-session');
-var configDB = require('./server/config/database.js');
-var routes = require('./server/routes/routes');
+var dbConfig = require('./server/config/database.js');
 
 // set root directory
 process.env.PWD = process.cwd();
@@ -35,7 +35,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 // connect to database
-mongoose.connect(configDB.uri);
+mongoose.connect(dbConfig.uri);
 
 // configure Passport
 require('./server/config/passport')(passport); // pass passport for configuration

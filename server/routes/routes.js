@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 var passport = require('passport');
 var path = require('path');
+var searchProblems = require('../controllers/searchProblems');
 
 
 // landing page
@@ -33,10 +34,14 @@ router.get('/logout', function(req, res) {
 
 
 // authorization via Passport
-router.get('/auth',  passport.authorize(), function(req, res) {
+router.get('/auth',  auth, function(req, res) {
     console.log('Authorization successful');
     res.send('Authorization successful');
 });
+
+
+// search database
+router.get('/search', searchProblems(req, res));
 
 
 // provides list of countries
@@ -52,3 +57,12 @@ router.all('*', function(req, res) {
 
 
 module.exports = router;
+
+
+// temporary auth for resting
+var auth = function(req, res, next){ 
+    if (!req.isAuthenticated()) 
+        res.send(401); 
+    else 
+        next(); 
+};
