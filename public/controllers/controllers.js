@@ -1,110 +1,110 @@
 var app = angular.module('fleekApp', []);
 
-//page controller - controls what the page displays & authentication state (need to fix the auth stuff)
-app.controller("pageController", function ($scope, $http, $location) {
-	//default page is splash
-	$scope.current= "splash";
-	$scope.restrictions = {"splash": false, "login": false, "signup": false, "problem": true, "search": true};
-	//default authentication state is false
-	$scope.isAuthenticated = false;
-	// $scope.isAuthenticated = function() {
-	// 	// $http.get('../../auth')
-	// 	// .success(function(data) {
-	// 	// 	console.log(data);
-	// 	// 	return true;
-	// 	// })
-	// 	// .error(function(data) {
-	// 	// 	console.log(data);
-	// 	// 	return false;
-	// 	// })
-	// 	return $scope.isAuthenticated;
-	// };
-	//function to set authentication (accessible from child scopes) - NEEDS TO BE DONE DIFFERENTLY
-	$scope.setAuthentication = function(auth) {
-		$scope.isAuthenticated = auth;
-	}
+//page controller - controls what the page displays & authentication state
+app.controller("pageController", function ($scope, AuthService) {
+	$scope.current= "/views/splash.html"; //default page is splash
+	$scope.auth = false; //only used for displaying buttons and stuff
+	$scope.restrictions = { //map pages to restrictions
+		"/views/splash.html": false, 
+		"/views/login.html": false, 
+		"/views/signup.html": false, 
+		"/views/problem.html": true, 
+		"/views/search.html": true
+	};
 	//function to set view (accessible from child scopes)
 	$scope.setView = function(page) {
-		if (!$scope.isAuthenticated && $scope.restrictions[page]) {
-			$scope.current = "login";
-		}
-		else {
+		//if page is unrestricted, continue to page
+		if (!$scope.restrictions[page]) { 
+			console.log(" / unrestricted, continue to " + page);
 			$scope.current = page;
 		}
+		//if page is restricted, check authorization status
+		else {
+			AuthService.getAuth()
+			.then( function(data) {
+				if (data) {
+					console.log(" / authorized, continue to " + page);
+					$scope.current = page;
+					$scope.auth = true;
+				}
+				else {
+					console.log(" / unauthorized, redirect to login");
+					$scope.current = "/views/login.html";
+					$scope.auth = false;
+				}
+			}, function(error) {
+				console.log(" / unauthorized, redirect to login");
+				$scope.current = "/views/login.html";
+				$scope.auth = false;
+			});
+		}
 	};
-	//function to log out - NEEDS TO BE DONE DIFFERENTLY
+
+	//function to log out
 	$scope.logout = function() {
-		$http.get('../../logout')
-        .success(function(data) {
-            $scope.setAuthentication(false);
-       		$scope.setView('splash');
-            console.log(data);
-        })
+		AuthService.logout()
+		.then( function(data) {
+			if (data) {
+				$scope.auth = false;
+				$scope.setView('/views/splash.html');
+			}
+		});
 	}
 });
 
 //login controller - controls login form
-app.controller("loginController", function($scope,$http) {
+app.controller("loginController", function($scope, AuthService) {
 	//default values
 	$scope.submitted = false;
 	$scope.err = false;
 	//on form submit, send POST to /login with data
     $scope.submit = function(){
     	$scope.submitted = true;
-    	$http.post('../../login', {username: angular.lowercase($scope.user), password: $scope.pass})
-	    	.success(function(data) {
-	    		$scope.setAuthentication(true);
-	    		$scope.setView('search');
-	    		$scope.submitted = false;
-	    		console.log(data);
-	    		$scope.user = "";
-	    		$scope.pass = "";
-	    	})
-	    	.error(function(data) {
-	    		$scope.err = true;
-	    		$scope.submitted = false;
-	    		console.log(data);
-	    		$scope.pass = "";
-	    	})
+    	AuthService.login(angular.lowercase($scope.user), $scope.pass)
+    	.then (function(data) {
+    		if (data) {
+    			$scope.submitted = false;
+    			$scope.setView('/views/search.html');
+    		}
+    		else {
+    			$scope.err = true;
+    			$scope.submitted = false;
+    			$scope.pass = "";
+    		}
+    	});
     }
 });
 
 //signup controller - controls signup form
-app.controller("signupController", function($scope,$http) {
+app.controller("signupController", function($scope,AuthService,$http) {
 	//default values
 	$scope.submitted = false;
 	$scope.err = false;
 	//get country list for form
 	$scope.countries = null;
 	$http.get('../assets/countries.json')
-        .success(function(data) {
-            $scope.countries=data;
-        })
-        .error(function(data) {
-        	$scope.countries=[{"name": "USA"}];
-        	console.log(data);
-        });
+    .success(function(data) {
+        $scope.countries=data;
+    })
+    .error(function(data) {
+    	$scope.countries=[{"name": "USA"}];
+    	console.log("from server: " + data);
+    });
     //on form submit, send POST to /signup with data
     $scope.submit = function(){
     	$scope.submitted = true;
-    	$http.post('../../signup', {username: angular.lowercase($scope.user), password: $scope.pass, gender: $scope.gen, country: $scope.ctry})
-	    	.success(function(data) {
-	    		$scope.setAuthentication(true);
-	    		$scope.submitted = false;
-	    		$scope.setView('search');
-	    		console.log(data);
-	    		$scope.user = "";
-		    	$scope.pass = "";
-		    	$scope.gen = "";
-		    	$scope.ctry = "";
-	    	})
-	    	.error(function(data) {
-	    		$scope.err = true;
-	    		$scope.submitted = false;
-	    		console.log(data);
-	    		$scope.user = "";
-		    	$scope.pass = "";
-	    	})
+    	AuthService.signup(angular.lowercase($scope.user), $scope.pass, $scope.gen, $scope.ctry)
+    	.then (function(data) {
+    		if (data) {
+    			$scope.submitted = false;
+    			$scope.setView('/views/search.html');
+    		}
+    		else {
+    			$scope.err = true;
+    			$scope.submitted = false;
+    			$scope.pass = "";
+    		}
+    	});
     }
 });
 
@@ -143,46 +143,6 @@ app.directive('focusMe', function($timeout) {
 app.directive("navBar", function() {
 	return {
 		restrict: 'E',
-		templateUrl: '../views/nav-bar.html'
-	};
-});
-
-//splash-top.html
-app.directive("splashTop", function() {
-	return {
-		restrict: 'E',
-		templateUrl: '../views/splash-top.html'
-	};
-});
-
-//login.html
-app.directive("login", function() {
-	return {
-		restrict: 'E',
-		templateUrl: '../views/login.html'
-	};
-});
-
-//signup.html
-app.directive("signup", function() {
-	return {
-		restrict: 'E',
-		templateUrl: '../views/signup.html'
-	};
-});
-
-//problem.html
-app.directive("problem", function() {
-	return {
-		restrict: 'E',
-		templateUrl: '../views/problem.html'
-	};
-});
-
-//search.html
-app.directive("search", function() {
-	return {
-		restrict: 'E',
-		templateUrl: '../views/search.html'
+		templateUrl: '/views/nav-bar.html'
 	};
 });
