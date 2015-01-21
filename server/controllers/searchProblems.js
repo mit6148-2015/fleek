@@ -6,7 +6,7 @@ var Problem = require('../models/problem');
 
 function searchProblems (req, res) {
     queryText = '\"' + req.query.queryText + '\"';
-    setPatterns = req.query.contests;
+    setPatterns = [req.query.contests];
     startYear = String(req.query.startYear);
     endYear = String(req.query.endYear);
 
@@ -14,6 +14,10 @@ function searchProblems (req, res) {
         textSearch = {$text: { $search: queryText }};
     else
         textSearch = {};
+
+    // make sure setPatterns is at least length 2
+    setPatterns.push('');
+    setPatterns.push('');
 
     Problem.find(textSearch)
     .where('meta.setPattern').in(setPatterns)
