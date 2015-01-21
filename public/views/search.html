@@ -1,7 +1,7 @@
 <div id="search-container" class="page-fill">
 	<div id="search" class="col-sm-6 col-sm-offset-3" ng-controller="searchController">
 		<h2>fleek</h2>
-		<form name="searchForm" novalidate>
+		<form name="searchForm" class="row" novalidate>
 			<div class="form-group">
 				<div class="input-group">
 					<input focus-me="current=='/views/search.html'" type="text" class="form-control" ng-model="text" placeholder="search"></input>
@@ -12,11 +12,11 @@
 			</div>
 			<div class="form-group">
 				<div class="btn-group">
-					<a href class="btn btn-sm btn-primary btn-multiple" ng-click="amc8 =! amc8" ng-class="{'active':amc8==true}">AMC 8</a>
-					<a href class="btn btn-sm btn-primary btn-multiple" ng-click="amc10 =! amc10" ng-class="{'active':amc10==true}">AMC 10</a>
-					<a href class="btn btn-sm btn-primary btn-multiple" ng-click="amc12 =! amc12" ng-class="{'active':amc12==true}">AMC 12</a>
-					<a href class="btn btn-sm btn-primary btn-multiple" ng-click="aime =! aime" ng-class="{'active':aime==true}">AIME</a>
-					<a href class="btn btn-sm btn-primary btn-multiple" ng-click="usamo =! usamo" ng-class="{'active':usamo==true}">USAMO</a>
+					<a href class="btn btn-sm btn-primary btn-multiple" ng-click="contests['AMC 8'] =! contests['AMC 8']" ng-class="{'active':contests['AMC 8']==true}">AMC 8</a>
+					<a href class="btn btn-sm btn-primary btn-multiple" ng-click="contests['AMC 10'] =! contests['AMC 10']" ng-class="{'active':contests['AMC 10']==true}">AMC 10</a>
+					<a href class="btn btn-sm btn-primary btn-multiple" ng-click="contests['AMC 12'] =! contests['AMC 12']" ng-class="{'active':contests['AMC 12']==true}">AMC 12</a>
+					<a href class="btn btn-sm btn-primary btn-multiple" ng-click="contests['AIME'] =! contests['AIME']" ng-class="{'active':contests['AIME']==true}">AIME</a>
+					<a href class="btn btn-sm btn-primary btn-multiple" ng-click="contests['USAMO'] =! contests['USAMO']" ng-class="{'active':contests['USAMO']==true}">USAMO</a>
 				</div>
 			</div>
 			<div class="form-group">
@@ -29,6 +29,8 @@
 				</div>
 			</div>
 		</form>
-		{{results}}
+		<div class="row">
+			{{results}}
+		</div>
 	</div>
 </div>

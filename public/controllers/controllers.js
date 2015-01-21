@@ -13,7 +13,7 @@ app.controller("pageController", function ($scope, AuthService) {
 	};
 	//function to set view (accessible from child scopes)
 	$scope.setView = function(page,init) {
-		//collapse nav bar
+		//collapse nav bar, not very angular
 		if (!init) {
 			if ($(".navbar-toggle").css("display") == "block" ) {
 				$("#nav-collapse").collapse("hide");
@@ -125,16 +125,20 @@ app.controller("problemController", function($scope) {
 app.controller("searchController", function($scope,DataService) {
 	$scope.minYear = 1950;
 	$scope.maxDate = Date.now();
-	$scope.amc8 = true;
-	$scope.amc10 = true;
-	$scope.amc12 = true;
-	$scope.aime = true;
-	$scope.usamo = true;
+	$scope.contests = {'AMC 8': true, 'AMC 10': true, 'AMC 12': true, 'AIME': true, 'USAMO': true}
 	$scope.startYear = 1950;
 	$scope.endYear = 2015;
-	$scope.results = "res";
+	$scope.results;
 	$scope.submit = function(){
-		DataService.search($scope.text,"USAMO",$scope.startYear, $scope.endYear)
+		var list = []
+		for (var key in $scope.contests) {
+			if ($scope.contests.hasOwnProperty(key)) {
+				if ($scope.contests[key]==true) {
+					list.push(key);
+				}
+			}
+		}
+		DataService.search($scope.text,list,$scope.startYear, $scope.endYear)
 		.then (function(data) {
 			$scope.results = data;
 		});

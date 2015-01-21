@@ -78,8 +78,8 @@ app.factory('DataService', function($http, $q){
 	                    return $q.reject(response.data);
 	            	});
 	        },
-	        search: function(text,contests,syear,eyear) {
-	        	return $http.get('/search', { params: {queryText: text, contest: contests, startYear: syear, endYear: eyear}})
+	        search: function(text,conts,syear,eyear) {
+	        	return $http.get('/search', { params: {queryText: text, contests: conts, startYear: syear, endYear: eyear}})
 	        		.then(function(response) {
 	        			console.log("\tsearch response: " + response.data);
 	        			if (typeof response.data === 'object') {
