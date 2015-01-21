@@ -6,7 +6,7 @@ var Problem = require('../models/problem');
 
 function searchProblems (req, res) {
     queryText = '\"' + req.query.queryText + '\"';
-    setPatterns = [req.query.contests];
+    setPatterns = req.query.contests;
     startYear = String(req.query.startYear);
     endYear = String(req.query.endYear);
 
