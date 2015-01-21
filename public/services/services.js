@@ -81,7 +81,7 @@ app.factory('DataService', function($http, $q){
 	        search: function(text,conts,syear,eyear) {
 	        	return $http.get('/search', { params: {queryText: text, contests: conts, startYear: syear, endYear: eyear}})
 	        		.then(function(response) {
-	        			console.log("\tsearch response: " + response.data);
+	        			console.log("\tsearch response: " + response.data.meta);
 	        			if (typeof response.data === 'object') {
 	        				return response.data;
 	        			}

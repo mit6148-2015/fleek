@@ -126,9 +126,16 @@ app.controller("searchController", function($scope,DataService) {
 	$scope.minYear = 1950;
 	$scope.maxDate = Date.now();
 	$scope.contests = {'AMC 8': true, 'AMC 10': true, 'AMC 12': true, 'AIME': true, 'USAMO': true}
+	$scope.contestList = [];
 	$scope.startYear = 1950;
 	$scope.endYear = 2015;
+	//holds search results
 	$scope.results;
+	//generate list of contests from map
+	for (var key in $scope.contests) {
+		$scope.contestList.push(key);
+	}
+	//on submit, send GET request for search results
 	$scope.submit = function(){
 		var list = []
 		for (var key in $scope.contests) {
