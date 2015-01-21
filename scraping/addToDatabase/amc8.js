@@ -1,6 +1,6 @@
 // setup database
 var mongoose = require('mongoose');
-mongoose.connect('MONGO_DB_PATH');
+mongoose.connect('PATH_TO_DB');
 
 // load object constructors
 var problemMeta = require('../../server/models/prototypes/problemMeta');
