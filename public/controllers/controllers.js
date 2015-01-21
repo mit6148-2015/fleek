@@ -147,7 +147,7 @@ app.controller("searchController", function($scope,DataService) {
 		}
 		DataService.search($scope.text,list,$scope.startYear, $scope.endYear)
 		.then (function(data) {
-			$scope.results = data;
+			$scope.results = data['meta'];
 		});
 	}
 });
