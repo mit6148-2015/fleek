@@ -14,12 +14,12 @@ app.controller("pageController", function ($scope, AuthService) {
 	//function to set view (accessible from child scopes)
 	$scope.setView = function(page,init) {
 		init = init | false; //set init's default to false
-		//if page is unrestricted, continue to page
+		//if page is unrestricted (and it's not the first visit), continue to page
 		if (!$scope.restrictions[page] && !init) { 
 			console.log(" / unrestricted, continue to " + page);
 			$scope.current = page;
 		}
-		//if page is restricted, check authorization status
+		//if page is restricted (or it's the first visit), check authorization status
 		else {
 			AuthService.getAuth()
 			.then( function(data) {
@@ -111,11 +111,11 @@ app.controller("signupController", function($scope,AuthService,DataService) {
 });
 
 //problem view controller - add stuff here later
-app.controller("problemController", function($scope,$http) {
+app.controller("problemController", function($scope) {
 });
 
 //search view controller - add stuff here later
-app.controller("searchController", function($scope,$http) {
+app.controller("searchController", function($scope,DataService) {
 	$scope.minYear = 1950;
 	$scope.maxDate = Date.now();
 	$scope.amc8 = true;
@@ -125,6 +125,13 @@ app.controller("searchController", function($scope,$http) {
 	$scope.usamo = true;
 	$scope.startYear = 1950;
 	$scope.endYear = 2015;
+	$scope.results = "res";
+	$scope.submit = function(){
+		DataService.search($scope.text,"USAMO",$scope.startYear, $scope.endYear)
+		.then (function(data) {
+			$scope.results = data;
+		});
+	}
 });
 
 //focus elements

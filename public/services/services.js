@@ -78,6 +78,20 @@ app.factory('DataService', function($http, $q){
 	                    return $q.reject(response.data);
 	            	});
 	        },
+	        search: function(text,contests,syear,eyear) {
+	        	return $http.get('/search', {queryText: text, contest: contests, startYear: syear, endYear: eyear})
+	        		.then(function(response) {
+	        			console.log("\tsearch response: " + response.data);
+	        			if (typeof response.data === 'object') {
+	        				return response.data;
+	        			}
+	        			else {
+	        				return $q.reject(response.data);
+	        			}
+	        		}, function(response) {
+	        			return $q.reject(response.data);
+	        		});
+	        }
 	    };
 
 });
