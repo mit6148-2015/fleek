@@ -2253,29 +2253,6 @@
 },
 {
     "answer_choices": [
-        "$4$",
-        "$5$",
-        "$6$",
-        "$7$",
-        "$8$"
-    ],
-    "answer_names": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-    ],
-    "source_name": "Art of Problem Solving",
-    "problem_statement": "This test and the matching AMC 12P were developed for the use of a group of Taiwan schools, in early January of 2002.  When Taiwan had taken the contests, the AMC released the questions here as a set of practice questions for the 2002 AMC 10 and AMC 12 contests.",
-    "contest_name": "AMC 10",
-    "year": 2002,
-    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2002&sid=b1293d66838fe140bea88a8d212e30e5",
-    "name_modifier": "P",
-    "problem_number": 1
-},
-{
-    "answer_choices": [
         "$\\frac{1}4$",
         "$\\frac{1}2$",
         "$1$",
@@ -2295,7 +2272,7 @@
     "year": 2002,
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2002&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "P",
-    "problem_number": 2
+    "problem_number": 1
 },
 {
     "answer_choices": [
@@ -2318,7 +2295,7 @@
     "year": 2002,
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2002&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "P",
-    "problem_number": 3
+    "problem_number": 2
 },
 {
     "answer_choices": [
@@ -2341,7 +2318,7 @@
     "year": 2002,
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2002&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "P",
-    "problem_number": 4
+    "problem_number": 3
 },
 {
     "answer_choices": [
@@ -2364,7 +2341,7 @@
     "year": 2002,
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2002&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "P",
-    "problem_number": 5
+    "problem_number": 4
 },
 {
     "answer_choices": [
@@ -2387,7 +2364,7 @@
     "year": 2002,
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2002&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "P",
-    "problem_number": 6
+    "problem_number": 5
 },
 {
     "answer_choices": [
@@ -2410,7 +2387,7 @@
     "year": 2002,
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2002&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "P",
-    "problem_number": 7
+    "problem_number": 6
 },
 {
     "answer_choices": [
@@ -2433,7 +2410,7 @@
     "year": 2002,
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2002&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "P",
-    "problem_number": 8
+    "problem_number": 7
 },
 {
     "answer_choices": [
@@ -2456,7 +2433,7 @@
     "year": 2002,
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2002&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "P",
-    "problem_number": 9
+    "problem_number": 8
 },
 {
     "answer_choices": [
@@ -2479,7 +2456,7 @@
     "year": 2002,
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2002&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "P",
-    "problem_number": 10
+    "problem_number": 9
 },
 {
     "answer_choices": [
@@ -2502,7 +2479,7 @@
     "year": 2002,
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2002&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "P",
-    "problem_number": 11
+    "problem_number": 10
 },
 {
     "answer_choices": [
@@ -2525,7 +2502,7 @@
     "year": 2002,
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2002&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "P",
-    "problem_number": 12
+    "problem_number": 11
 },
 {
     "answer_choices": [
@@ -2548,7 +2525,7 @@
     "year": 2002,
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2002&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "P",
-    "problem_number": 13
+    "problem_number": 12
 },
 {
     "answer_choices": [
@@ -2571,7 +2548,7 @@
     "year": 2002,
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2002&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "P",
-    "problem_number": 14
+    "problem_number": 13
 },
 {
     "answer_choices": [
@@ -2594,7 +2571,7 @@
     "year": 2002,
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2002&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "P",
-    "problem_number": 15
+    "problem_number": 14
 },
 {
     "answer_choices": [
@@ -2617,7 +2594,7 @@
     "year": 2002,
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2002&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "P",
-    "problem_number": 16
+    "problem_number": 15
 },
 {
     "answer_choices": [
@@ -2640,7 +2617,7 @@
     "year": 2002,
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2002&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "P",
-    "problem_number": 17
+    "problem_number": 16
 },
 {
     "answer_choices": [
@@ -2663,7 +2640,7 @@
     "year": 2002,
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2002&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "P",
-    "problem_number": 18
+    "problem_number": 17
 },
 {
     "answer_choices": [
@@ -2686,7 +2663,7 @@
     "year": 2002,
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2002&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "P",
-    "problem_number": 19
+    "problem_number": 18
 },
 {
     "answer_choices": [
@@ -2709,7 +2686,7 @@
     "year": 2002,
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2002&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "P",
-    "problem_number": 20
+    "problem_number": 19
 },
 {
     "answer_choices": [
@@ -2732,7 +2709,7 @@
     "year": 2002,
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2002&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "P",
-    "problem_number": 21
+    "problem_number": 20
 },
 {
     "answer_choices": [
@@ -2755,7 +2732,7 @@
     "year": 2002,
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2002&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "P",
-    "problem_number": 22
+    "problem_number": 21
 },
 {
     "answer_choices": [
@@ -2778,7 +2755,7 @@
     "year": 2002,
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2002&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "P",
-    "problem_number": 23
+    "problem_number": 22
 },
 {
     "answer_choices": [
@@ -2801,7 +2778,7 @@
     "year": 2002,
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2002&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "P",
-    "problem_number": 24
+    "problem_number": 23
 },
 {
     "answer_choices": [
@@ -2824,7 +2801,7 @@
     "year": 2002,
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2002&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "P",
-    "problem_number": 25
+    "problem_number": 24
 },
 {
     "answer_choices": [
@@ -2847,7 +2824,7 @@
     "year": 2002,
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2002&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
-    "problem_number": 1
+    "problem_number": 25
 },
 {
     "answer_choices": [

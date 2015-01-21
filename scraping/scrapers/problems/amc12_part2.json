@@ -10001,28 +10001,6 @@
 },
 {
     "answer_choices": [
-        "$21$",
-        "$22$",
-        "$23$",
-        "$24$",
-        "$25$"
-    ],
-    "answer_names": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-    ],
-    "source_name": "Art of Problem Solving",
-    "problem_statement": "This test and the matching AMC 10P were developed for the use of a group of Taiwan schools, in early January of 2002.  When Taiwan had taken the contests, the AMC released the questions here as a set of practice questions for the 2002 AMC 10 and AMC 12 contests.",
-    "contest": "AMC 12 P",
-    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
-    "year": 2002,
-    "problem_number": 1
-},
-{
-    "answer_choices": [
         "$4^45^56^6$",
         "$4^45^66^5$",
         "$4^55^46^6$",
@@ -10041,7 +10019,7 @@
     "contest": "AMC 12 P",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "year": 2002,
-    "problem_number": 2
+    "problem_number": 1
 },
 {
     "answer_choices": [
@@ -10063,7 +10041,7 @@
     "contest": "AMC 12 P",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "year": 2002,
-    "problem_number": 3
+    "problem_number": 2
 },
 {
     "answer_choices": [
@@ -10085,7 +10063,7 @@
     "contest": "AMC 12 P",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "year": 2002,
-    "problem_number": 4
+    "problem_number": 3
 },
 {
     "answer_choices": [
@@ -10107,7 +10085,7 @@
     "contest": "AMC 12 P",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "year": 2002,
-    "problem_number": 5
+    "problem_number": 4
 },
 {
     "answer_choices": [
@@ -10129,7 +10107,7 @@
     "contest": "AMC 12 P",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "year": 2002,
-    "problem_number": 6
+    "problem_number": 5
 },
 {
     "answer_choices": [
@@ -10151,7 +10129,7 @@
     "contest": "AMC 12 P",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "year": 2002,
-    "problem_number": 7
+    "problem_number": 6
 },
 {
     "answer_choices": [
@@ -10173,7 +10151,7 @@
     "contest": "AMC 12 P",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "year": 2002,
-    "problem_number": 8
+    "problem_number": 7
 },
 {
     "answer_choices": [
@@ -10195,7 +10173,7 @@
     "contest": "AMC 12 P",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "year": 2002,
-    "problem_number": 9
+    "problem_number": 8
 },
 {
     "answer_choices": [
@@ -10217,7 +10195,7 @@
     "contest": "AMC 12 P",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "year": 2002,
-    "problem_number": 10
+    "problem_number": 9
 },
 {
     "answer_choices": [
@@ -10239,7 +10217,7 @@
     "contest": "AMC 12 P",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "year": 2002,
-    "problem_number": 11
+    "problem_number": 10
 },
 {
     "answer_choices": [
@@ -10261,7 +10239,7 @@
     "contest": "AMC 12 P",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "year": 2002,
-    "problem_number": 12
+    "problem_number": 11
 },
 {
     "answer_choices": [
@@ -10283,7 +10261,7 @@
     "contest": "AMC 12 P",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "year": 2002,
-    "problem_number": 13
+    "problem_number": 12
 },
 {
     "answer_choices": [
@@ -10305,7 +10283,7 @@
     "contest": "AMC 12 P",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "year": 2002,
-    "problem_number": 14
+    "problem_number": 13
 },
 {
     "answer_choices": [],
@@ -10321,7 +10299,7 @@
     "contest": "AMC 12 P",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "year": 2002,
-    "problem_number": 15
+    "problem_number": 14
 },
 {
     "answer_choices": [
@@ -10343,7 +10321,7 @@
     "contest": "AMC 12 P",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "year": 2002,
-    "problem_number": 16
+    "problem_number": 15
 },
 {
     "answer_choices": [
@@ -10365,7 +10343,7 @@
     "contest": "AMC 12 P",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "year": 2002,
-    "problem_number": 17
+    "problem_number": 16
 },
 {
     "answer_choices": [],
@@ -10381,7 +10359,7 @@
     "contest": "AMC 12 P",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "year": 2002,
-    "problem_number": 18
+    "problem_number": 17
 },
 {
     "answer_choices": [
@@ -10403,7 +10381,7 @@
     "contest": "AMC 12 P",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "year": 2002,
-    "problem_number": 19
+    "problem_number": 18
 },
 {
     "answer_choices": [
@@ -10425,7 +10403,7 @@
     "contest": "AMC 12 P",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "year": 2002,
-    "problem_number": 20
+    "problem_number": 19
 },
 {
     "answer_choices": [
@@ -10447,7 +10425,7 @@
     "contest": "AMC 12 P",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "year": 2002,
-    "problem_number": 21
+    "problem_number": 20
 },
 {
     "answer_choices": [
@@ -10469,7 +10447,7 @@
     "contest": "AMC 12 P",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "year": 2002,
-    "problem_number": 22
+    "problem_number": 21
 },
 {
     "answer_choices": [
@@ -10491,7 +10469,7 @@
     "contest": "AMC 12 P",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "year": 2002,
-    "problem_number": 23
+    "problem_number": 22
 },
 {
     "answer_choices": [
@@ -10513,7 +10491,7 @@
     "contest": "AMC 12 P",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "year": 2002,
-    "problem_number": 24
+    "problem_number": 23
 },
 {
     "answer_choices": [
@@ -10535,7 +10513,7 @@
     "contest": "AMC 12 P",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "year": 2002,
-    "problem_number": 25
+    "problem_number": 24
 },
 {
     "answer_choices": [
@@ -10557,7 +10535,7 @@
     "contest": "AMC 12 P",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "year": 2002,
-    "problem_number": 26
+    "problem_number": 25
 },
 {
     "answer_choices": [
