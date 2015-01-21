@@ -114,6 +114,29 @@ app.controller("problemController", function($scope,$http) {
 
 //search view controller - add stuff here later
 app.controller("searchController", function($scope,$http) {
+	$scope.minYear = 1950;
+	$scope.maxDate = Date.now();
+	$scope.amc8 = true;
+	$scope.amc10 = true;
+	$scope.amc12 = true;
+	$scope.aime = true;
+	$scope.usamo = true;
+	$scope.startYear = 1950;
+	$scope.endYear = 2015;
+});
+
+//focus elements
+app.directive('focusMe', function($timeout) {
+  return {
+    link: function(scope, element, attrs) {
+      scope.$watch(attrs.focusMe, function(value) {
+        if(value === true) { 
+            element[0].focus();
+            scope[attrs.focusMe] = false;
+        }
+      });
+    }
+  };
 });
 
 //nav-bar.html
