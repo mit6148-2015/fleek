@@ -11,8 +11,8 @@
 				</div>
 			</div>
 			<div class="form-group">
-				<div class="btn-group" ng-repeat="contest in contestList">
-					<a href class="btn btn-sm btn-primary btn-multiple" ng-click="contests[contest] =! contests[contest]" ng-class="{'active':contests[contest]==true}">{{contest}}</a> 
+				<div class="btn-group" role="group" ng-repeat="contest in contestList">
+					<a href class="btn btn-sm btn-primary btn-multiple" role="button" ng-click="contests[contest] =! contests[contest]" ng-class="{'active':contests[contest]==true}">{{contest}}</a> 
 				</div>
 			</div>
 			<div class="form-group">
@@ -37,10 +37,10 @@
 			    	</tr>
 			    </thead>
 				<tr ng-repeat="result in results">
-					<td>{{result.setPattern}}</td>
-					<td>{{result.setInstance}}</td>
-					<td>#{{result.setIndex+1}}</td>
-					<td>{{result.response}}</td>
+					<td>{{result.meta.setPattern}}</td>
+					<td>{{result.meta.setInstance}}</td>
+					<td><a href ng-click="setProb(result.meta.setPattern,result.meta.setInstance,result.meta.setIndex+1,result.meta.response,result.source,result.statement)">#{{result.meta.setIndex+1}}</a></td>
+					<td>{{result.meta.response}}</td>
 				</tr>
 			</table>
 		</div>

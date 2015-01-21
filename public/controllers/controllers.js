@@ -118,11 +118,12 @@ app.controller("signupController", function($scope,AuthService,DataService) {
 });
 
 //problem view controller - add stuff here later
-app.controller("problemController", function($scope) {
+app.controller("problemController", function($scope,ProblemService) {
+	$scope.problem = ProblemService.getProblem();
 });
 
 //search view controller - add stuff here later
-app.controller("searchController", function($scope,DataService) {
+app.controller("searchController", function($scope,DataService,ProblemService) {
 	$scope.minYear = 1950;
 	$scope.maxDate = Date.now();
 	$scope.contests = {'AMC 8': true, 'AMC 10': true, 'AMC 12': true, 'AIME': true, 'USAMO': true}
@@ -134,6 +135,11 @@ app.controller("searchController", function($scope,DataService) {
 	//generate list of contests from map
 	for (var key in $scope.contests) {
 		$scope.contestList.push(key);
+	}
+	//use a service to send information to problem controller
+	$scope.setProb = function(contest,year,number,ansType,sources,statement) {
+		ProblemService.setProblem(contest,year,number,ansType,sources,statement);
+		$scope.setView("/views/problem.html");
 	}
 	//on submit, send GET request for search results
 	$scope.submit = function(){
@@ -148,12 +154,7 @@ app.controller("searchController", function($scope,DataService) {
 		console.log('searching contests ' + list);
 		DataService.search($scope.text,list,$scope.startYear, $scope.endYear)
 		.then (function(data) {
-			//generate list of problem metadata
-			var metaresults = [];
-			for (i in data) {
-				metaresults.push(data[i]['meta']);
-			}
-			$scope.results = metaresults;
+			$scope.results = data;
 		});
 	}
 });

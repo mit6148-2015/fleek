@@ -96,3 +96,27 @@ app.factory('DataService', function($http, $q){
 
 });
 
+app.factory('ProblemService', function(){
+	var Problem = {
+		contest: "AMC 8",
+		year: "2015",
+		number: "1",
+		answerType: "multipleChoice",
+		sources: {name: "Made Up", url: ""},
+		statement: "This is a sample problem"
+	}
+	return {
+		getProblem: function() {
+			return Problem;
+		},
+		setProblem: function(con, yr, num, typ, srcs, stmt) {
+			Problem.contest = con;
+			Problem.year = yr;
+			Problem.number = num;
+			Problem.answerType = typ;
+			Problem.sources = srcs;
+			Problem.statement = stmt;
+			console.log('problem changed');
+		}
+	}
+});
