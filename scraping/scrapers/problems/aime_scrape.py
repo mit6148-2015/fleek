@@ -1,9 +1,10 @@
 from bs4 import BeautifulSoup
 import urllib2
 import xlwt
+import json
 # Using BeautifulSoup and urllib to scrape AIME problems. 
 
-
+out_file = open("aime.json","w")
 # Get the code from a LaTeX URL.
 def getLatex(url):
 	page = urllib2.urlopen(url)  
@@ -22,7 +23,10 @@ def readPagesAIME(year):
 	soup = BeautifulSoup(html_doc)
 	soup.prettify()
 	probNum = 1
-	contest = "AIME"
+	if year < 2000:
+		contest = ""
+	else:
+		contest = "I"
 
 	#Find <span class="res_gen">, and replace all <a> tags with the result of getLatex(href)
 	for tb in soup.find_all("span"):
@@ -39,27 +43,21 @@ def readPagesAIME(year):
 			#print(tb.get_text().strip())
 			print(year)
 			print (probNum)
-			ws.write(currind, 0, contest)
-			ws.write(currind, 1, year)
-			ws.write(currind, 2, probNum)
-			ws.write(currind, 3, tb.get_text().strip())
+			data = {"contest_name":"AIME", "name_modifier":contest,"year":year, "problem_number":probNum, "problem_statement":tb.get_text().strip(), "source_name":"Art of Problem Solving", "source_link": aimelink}
 			probNum = probNum + 1
 			if probNum == 16:
 				probNum = 1
-				contest = "AIME II"
+				contest = "II"
 			currind = currind + 1
+			json.dump(data,out_file, indent=4, separators=(',', ': ')) 
+			out_file.write(",\n")
 
 # Use the main function to get the AIME problems for any year.
 if __name__ == '__main__':
 	currind = 1
-	wb = xlwt.Workbook()
-	ws = wb.add_sheet('AIME Problems')
-	ws.write(0, 0, "Contest Name")
-	ws.write(0, 1, "Year")
-	ws.write(0, 2, "Problem Number")
-	ws.write(0, 3, "Problem")
+	out_file.write("[\n")
  	year = 1983
  	while year < 2015:
 		readPagesAIME(year)
 		year = year + 1
-	wb.save('aime_probs.xls')
+	out_file.write("]\n")
