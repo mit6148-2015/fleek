@@ -4,18 +4,22 @@ mongoose.connect(dbConfig.uri);
 
 var Problem = require('../models/problem');
 
-function searchProblems (text, setPattern, startYear, endYear) {
+function searchProblems (req, res) {
+    queryText = '\"' + req.queryText + '\"';
+    setPattern = req.contest;
+    startYear = String(req.startYear);
+    endYear = String(req.endYear);
 
-    Problem.find().where('meta.setPattern', setPattern).where('meta.setInstance').gte(startYear).lte(endYear).exec(function (err, problems) {
+    Problem.find({$text: { $search: queryText }})
+    .where('meta.setPattern', setPattern)
+    .where('meta.setInstance').gte(startYear).lte(endYear)
+    // .select('statement')
+    .exec(function (err, problems) {
         if (err)
             console.log(err);
 
         res.send(problems);
-    })
+    });
 };
 
-function useless (req, res) {
-    return false;
-}
-
-module.exports = useless;
+module.exports = searchProblems;

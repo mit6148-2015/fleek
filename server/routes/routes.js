@@ -2,7 +2,9 @@ var express = require('express');
 var router = express.Router();
 var passport = require('passport');
 var path = require('path');
+var auth = require('../controllers/authorize');
 var searchProblems = require('../controllers/searchProblems');
+
 
 // landing page
 router.get('/', function(req, res) {
@@ -33,12 +35,7 @@ router.get('/logout', function(req, res) {
 
 
 // authorization via Passport
-router.get('/auth',  function(req, res, next){ 
-    if (!req.isAuthenticated()) 
-        res.send(401); 
-    else 
-        next(); 
-}, function(req, res) {
+router.get('/auth', auth, function(req, res) {
     console.log('Authorization successful');
     res.send('Authorization successful');
 });
@@ -62,3 +59,4 @@ router.all('*', function(req, res) {
 });
 
 module.exports = router;
+
