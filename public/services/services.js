@@ -103,19 +103,21 @@ app.factory('ProblemService', function(){
 		number: "1",
 		answerType: "multipleChoice",
 		sources: {name: "Made Up", url: ""},
-		statement: "This is a sample problem"
+		statement: "This is a sample problem",
+		response: "42"
 	}
 	return {
 		getProblem: function() {
 			return Problem;
 		},
-		setProblem: function(con, yr, num, typ, srcs, stmt) {
+		setProblem: function(con, yr, num, typ, srcs, stmt, ans) {
 			Problem.contest = con;
 			Problem.year = yr;
 			Problem.number = num;
 			Problem.answerType = typ;
 			Problem.sources = srcs;
 			Problem.statement = stmt;
+			Problem.response = ans;
 			console.log('problem changed');
 		}
 	}

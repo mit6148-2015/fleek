@@ -4,11 +4,26 @@
 		<a href ng-click="setView('/views/search.html')">Back to Search</a>
 		<h3>{{problem.contest}}</h3><h4> {{problem.year}}  #{{problem.number}}</h4>
 		<p mathjax> {{problem.statement}}</p>
-		<div class="input-group">
-			<input focus-me="current=='/views/problem.html'" type="text" class="form-control" placeholder="answer"></input>
-			<span class="input-group-btn">
-				<button class="btn btn-primary" type="submit">Go</button>
-			</span>
+		<h5>{{problem.response}}</h5>
+		<form name="intProblemForm" ng-show="problem.answerType == 'integerAnswer'" novalidate>
+			<div class="form-group">
+				<div class="control-group" ng-class="{'has-error':intProblemForm.intResponse.$invalid}">
+					<div class="input-group">
+						<input focus-me="current=='/views/problem.html'" type="number" class="form-control" ng-model="intResponse" name="intResponse" placeholder="answer"></input>
+						<span class="input-group-btn">
+							<button class="btn btn-primary" type="submit" ng-disabled="intProblemForm.$invalid" ng-click="intValidate()">Go</button>
+						</span>
+					</div>
+				</div>
+			</div>
+		</form>
+		<div class="alert alert-success alert-dismissible" role="alert" ng-show="correct">
+			<button type="button" class="close" ng-click="correct = false" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			Correct!
+		</div>
+		<div class="alert alert-warning alert-dismissible" role="alert" ng-show="incorrect">
+			<button type="button" class="close" ng-click="incorrect = false" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			Try again!
 		</div>
 	</div>
 </div>

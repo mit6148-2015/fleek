@@ -120,6 +120,20 @@ app.controller("signupController", function($scope,AuthService,DataService) {
 //problem view controller - add stuff here later
 app.controller("problemController", function($scope,ProblemService) {
 	$scope.problem = ProblemService.getProblem();
+	$scope.correct = false;
+	$scope.incorrect = false;
+	$scope.intValidate = function() {
+		if ($scope.intResponse == parseInt($scope.problem.response.answer)) {
+			$scope.incorrect = false;
+			$scope.correct = true;
+			console.log("answer correct!");
+		}
+		else {
+			$scope.correct = false;
+			$scope.incorrect = true;
+			console.log("answer incorrect");
+		}
+	}
 });
 
 //search view controller - add stuff here later
@@ -137,8 +151,8 @@ app.controller("searchController", function($scope,DataService,ProblemService) {
 		$scope.contestList.push(key);
 	}
 	//use a service to send information to problem controller
-	$scope.setProb = function(contest,year,number,ansType,sources,statement) {
-		ProblemService.setProblem(contest,year,number,ansType,sources,statement);
+	$scope.setProb = function(contest,year,number,ansType,sources,statement,ans) {
+		ProblemService.setProblem(contest,year,number,ansType,sources,statement,ans);
 		$scope.setView("/views/problem.html");
 	}
 	//on submit, send GET request for search results
