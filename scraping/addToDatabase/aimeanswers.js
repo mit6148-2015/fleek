@@ -17,7 +17,7 @@ function doItFor (index, pnum) {
 
     var curdatum = data[index];
     
-    Problem.findOne({ 'meta.setPattern' : 'AIME', 'meta.setInstance' : String(curdatum.year)+String(curdatum.name_modifier), 'meta.setIndex' : pnum }, function (err, problem){
+    Problem.findOne({ 'meta.setPattern' : 'AIME', 'meta.setInstance' : String(curdatum.year)+ " " + String(curdatum.name_modifier), 'meta.setIndex' : pnum }, function (err, problem){
         var number = curdatum.answers[pnum];
 
         console.log(String(number));
