@@ -19,9 +19,11 @@ problemMeta['amc12'] = function () {
 };
 
 
-problemMeta['aime'] = function () {
+problemMeta['aime'] = function (year, yearModifier, problemNumber) {
     this.setPattern = 'AIME';
-
+    this.setInstance = String(year) + String(yearModifier);
+    this.setIndex = parseInt(problemNumber);
+    this.response = 'integerAnswer';
 };
 
 
