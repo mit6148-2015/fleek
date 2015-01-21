@@ -2,7 +2,7 @@
 	<div id="splash" class="col-sm-6 col-sm-offset-3">
 		<h1 class="text-center">fleek</h1>
 		<h3 class="text-center"><em>browse everything on fleek</em></h3>
-		<div class="col-sm-6 col-sm-offset-3">
+		<div class="col-sm-6 col-sm-offset-3" id="splash-buttons">
 			<button ng-hide="auth" id="splash-login" class="btn btn-primary btn-block" ng-click="setView('/views/login.html')">Log In</button>
 			<button ng-hide="auth" id="splash-signup" class="btn btn-primary btn-block" ng-click="setView('/views/signup.html')">Sign Up</button>
 			<button ng-show="auth" id="splash-logout" class="btn btn-primary btn-block" ng-click="logout()">Log Out</button>

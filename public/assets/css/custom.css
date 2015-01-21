@@ -13,9 +13,13 @@ h1 {
 	height: 100%;
 	padding: 0;
 }
-#splash-top{
+#splash{
 	position: relative;
-	top: 20vh;
+	top: 15vh;
+}
+#splash-buttons {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .page-fill {
 	padding-top: 80px;
