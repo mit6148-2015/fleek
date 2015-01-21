@@ -1,23 +1,23 @@
 // setup database
 var mongoose = require('mongoose');
-mongoose.connect('PATH_TO_MONGODB');
+mongoose.connect('MONGO_DB_PATH');
 
 // load object constructors
-var problemMeta = require('../server/models/prototypes/problemMeta');
-var response = require('../server/models/prototypes/response');
+var problemMeta = require('../../server/models/prototypes/problemMeta');
+var response = require('../../server/models/prototypes/response');
 
 // load models
-var Problem = require('../server/models/problem');
+var Problem = require('../../server/models/problem');
 
 // load data from JSON file
 var fs = require('fs');
-var data = JSON.parse(fs.readFileSync('./scrapers/usamo.json', 'utf8'));
+var data = JSON.parse(fs.readFileSync('../scrapers/problems/usamo.json', 'utf8'));
 
 for (var i=0; i<data.length; i++) {
     var curdatum = data[i];
 
     Problem.create({
-        meta: new problemMeta.usamo(curdatum.year, 2),
+        meta: new problemMeta.usamo(curdatum.year, curdatum.problem_number - 1),
         source: {
             name: curdatum.source_name,
             url: curdatum.source_link,
@@ -26,6 +26,4 @@ for (var i=0; i<data.length; i++) {
         response: new response.noResponse()
     });
 
-    console.log('added problem ' + i);
 }
-
