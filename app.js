@@ -35,7 +35,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 // connect to database
-mongoose.connect(dbConfig.uri);
+mongoose.createConnection(dbConfig.uri);
 
 // configure Passport
 require('./server/config/passport')(passport); // pass passport for configuration

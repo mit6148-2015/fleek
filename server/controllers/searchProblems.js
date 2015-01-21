@@ -4,15 +4,9 @@ mongoose.connect(dbConfig.uri);
 
 var Problem = require('../models/problem');
 
-function searchProblem (text, setPattern, startYear, endYear) {
+function searchProblems (text, setPattern, startYear, endYear) {
 
-    Problem
-    .find();
-    .where('meta.setPattern', setPattern)
-    .where('meta.setInstance').gte(startYear).lte(endYear)
-    //.where('statement')
-    //.select()
-    .exec(function (err, problems) {
+    Problem.find().where('meta.setPattern', setPattern).where('meta.setInstance').gte(startYear).lte(endYear).exec(function (err, problems) {
         if (err)
             console.log(err);
 
@@ -20,4 +14,8 @@ function searchProblem (text, setPattern, startYear, endYear) {
     })
 };
 
-module.exports = searchProblem;
+function useless (req, res) {
+    return false;
+}
+
+module.exports = useless;
