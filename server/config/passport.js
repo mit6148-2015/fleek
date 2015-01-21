@@ -30,39 +30,36 @@ function configurePassport(passport) {
         // User.findOne wont fire unless data is sent back
         process.nextTick(function() {
 
-        // check if user with given username already exists
-        User.findOne({ 'username' :  username }, function(err, user) {
+            // check if user with given username already exists
+            User.findOne({ 'username' :  username }, function(err, user) {
 
-            // return any errors first
-            if (err)
-                return done(err);
+                // return any errors first
+                if (err)
+                    return done(err);
 
-            // if user already exists
-            if (user) {
-                return done(null, false);
-            } else {
-                
-                // create new user
-                var newUser = new User();
+                // if user already exists
+                if (user) {
+                    return done(null, false);
+                } else {
+                    
+                    // create new user
+                    var newUser = new User();
 
-                // set user information
-                newUser.username = username;
-                newUser.password = newUser.generateHash(password);
-                newUser.gender = req.body.gender;
-                newUser.country = req.body.country;
+                    // set user information
+                    newUser.username = username;
+                    newUser.password = newUser.generateHash(password);
+                    newUser.gender = req.body.gender;
+                    newUser.country = req.body.country;
 
-                // save user
-                newUser.save(function(err) {
-                    if (err)
-                        throw err;
-                    return done(null, newUser);
-                });
-            }
-
-        });    
-
+                    // save user
+                    newUser.save(function(err) {
+                        if (err)
+                            throw err;
+                        return done(null, newUser);
+                    });
+                }
+            });    
         });
-
     }));
 
 
@@ -92,9 +89,7 @@ function configurePassport(passport) {
             // return successful user
             return done(null, user);
         });
-
     }));
-
 };
 
 module.exports = configurePassport;

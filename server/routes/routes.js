@@ -1,57 +1,54 @@
-module.exports = function(app, passport) {
+var express = require('express');
+var router = express.Router();
+var passport = require('passport');
+var path = require('path');
 
-    var path = require('path');
 
-    // landing page
-    app.get('/', function(req, res) {
-        res.sendFile(path.join(__dirname, '../../public/views/index.html'));
-    });
+// landing page
+router.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname, '../../public/views/index.html'));
+});
 
-    // signup via Passport
-    app.post('/signup', passport.authenticate('local-signup'), function(req, res) {
-        console.log('Signup successful');
-        res.send('Signup successful');
-    });
 
-    // login via Passport
-    app.post('/login', passport.authenticate('local-login'), function(req, res) {
-        console.log('Login successful');
-        res.send('Login successful');
-    });
+// signup via Passport
+router.post('/signup', passport.authenticate('local-signup'), function(req, res) {
+    console.log('Signup successful');
+    res.send('Signup successful');
+});
 
-    // logout via Passport
-    app.get('/logout', function(req, res) {
-        req.logout();
-        console.log('Logout successful');
-        res.send('Logout successful');
-    });
 
-    // authorization via Passport
-    app.get('/auth', function(req, res) {
-        // if logged in 
-        // res.send('you're the best!')
+// login via Passport
+router.post('/login', passport.authenticate('local-login'), function(req, res) {
+    console.log('Login successful');
+    res.send('Login successful');
+});
 
-        // if not logged in
-        // error
-    })
 
-    // provides list of countries
-    app.get('/public/assets/countries.json', function(req, res) {
-        res.sendFile(path.join(__dirname, '../../public/assets/countries.json'));
-    });
+// logout via Passport
+router.get('/logout', function(req, res) {
+    req.logout();
+    console.log('Logout successful');
+    res.send('Logout successful');
+});
 
-    // 404 handling
-    app.all('*', function(req, res) {
-        res.sendFile(path.join(__dirname, '../../public/views/404.html'));
-    });
 
-}
+// authorization via Passport
+router.get('/auth',  passport.authorize(), function(req, res) {
+    console.log('Authorization successful');
+    res.send('Authorization successful');
+})
 
-function isLoggedIn(req, res, next) {
 
-    // if user is authenticated in the session, carry on 
-    if (req.isAuthenticated())
-        return next();
-    // if they aren't redirect them to the home page
-    res.redirect('/');
-}
+// provides list of countries
+router.get('/public/assets/countries.json', function(req, res) {
+    res.sendFile(path.join(__dirname, '../../public/assets/countries.json'));
+});
+
+
+// 404 handling
+router.all('*', function(req, res) {
+    res.sendFile(path.join(__dirname, '../../public/views/404.html'));
+});
+
+
+module.exports = router;
