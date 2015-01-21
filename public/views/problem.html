@@ -4,7 +4,7 @@
 		<a href ng-click="setView('/views/search.html')">Back to Search</a>
 		<h3>{{problem.contest}}</h3><h4> {{problem.year}}  #{{problem.number}}</h4>
 		<p mathjax> {{problem.statement}}</p>
-		<h5>{{problem.response}}</h5>
+		<div style="color: #fff;">{{problem.response}}</div>
 		<form name="intProblemForm" ng-show="problem.answerType == 'integerAnswer'" novalidate>
 			<div class="form-group">
 				<div class="control-group" ng-class="{'has-error':intProblemForm.intResponse.$invalid}">
