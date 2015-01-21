@@ -60,3 +60,25 @@ app.factory('AuthService', function($http, $q){
 	    };
 
 });
+
+app.factory('DataService', function($http, $q){
+	return {
+	        getData: function(path) {
+	            return $http.get(path)
+	                .then(function(response) {
+	                	console.log("\tgetData response ");
+	                    if (typeof response.data === 'object') {
+	                        return response.data;
+	                    } 
+	                    else {
+	                        return $q.reject(response.data);
+	                    }
+
+	                }, function(response) {
+	                    return $q.reject(response.data);
+	            	});
+	        },
+	    };
+
+});
+

@@ -76,20 +76,16 @@ app.controller("loginController", function($scope, AuthService) {
 });
 
 //signup controller - controls signup form
-app.controller("signupController", function($scope,AuthService,$http) {
+app.controller("signupController", function($scope,AuthService,DataService) {
 	//default values
 	$scope.submitted = false;
 	$scope.err = false;
 	//get country list for form
 	$scope.countries = null;
-	$http.get('../assets/countries.json')
-    .success(function(data) {
-        $scope.countries=data;
-    })
-    .error(function(data) {
-    	$scope.countries=[{"name": "USA"}];
-    	console.log("from server: " + data);
-    });
+	DataService.getData('/assets/countries.json')
+	.then (function(data) {
+		$scope.countries = data;
+	});
     //on form submit, send POST to /signup with data
     $scope.submit = function(){
     	$scope.submitted = true;
