@@ -1,11 +1,10 @@
 var app = angular.module('fleekApp', []);
 
-//page controller - controls what the page displays & authentication state (need to fix the auth stuff)
-app.controller("pageController", function ($scope, AuthService, $http) {
-	//default page is splash
-	$scope.current= "/views/splash.html";
-	$scope.auth = false;
-	$scope.restrictions = {
+//page controller - controls what the page displays & authentication state
+app.controller("pageController", function ($scope, AuthService) {
+	$scope.current= "/views/splash.html"; //default page is splash
+	$scope.auth = false; //only used for displaying buttons and stuff
+	$scope.restrictions = { //map pages to restrictions
 		"/views/splash.html": false, 
 		"/views/login.html": false, 
 		"/views/signup.html": false, 
@@ -14,25 +13,27 @@ app.controller("pageController", function ($scope, AuthService, $http) {
 	};
 	//function to set view (accessible from child scopes)
 	$scope.setView = function(page) {
-		if (!$scope.restrictions[page]) {
-			console.log("set view: unrestricted, continue to " + page);
+		//if page is unrestricted, continue to page
+		if (!$scope.restrictions[page]) { 
+			console.log(" / unrestricted, continue to " + page);
 			$scope.current = page;
 		}
+		//if page is restricted, check authorization status
 		else {
 			AuthService.getAuth()
 			.then( function(data) {
 				if (data) {
-					console.log("data: " + data + "set view: authorized, continue to " + page);
+					console.log(" / authorized, continue to " + page);
 					$scope.current = page;
 					$scope.auth = true;
 				}
 				else {
-					console.log("data: " + data + "set view: unauthorized, redirect to login");
+					console.log(" / unauthorized, redirect to login");
 					$scope.current = "/views/login.html";
 					$scope.auth = false;
 				}
 			}, function(error) {
-				console.log("data: " + data + "set view: unauthorized, redirect to login");
+				console.log(" / unauthorized, redirect to login");
 				$scope.current = "/views/login.html";
 				$scope.auth = false;
 			});
@@ -41,40 +42,41 @@ app.controller("pageController", function ($scope, AuthService, $http) {
 
 	//function to log out
 	$scope.logout = function() {
-		$http.get('../../logout')
-        .success(function(data) {
-            console.log("from server: " + data);
-            $scope.auth = false;
-            $scope.setView('/views/splash.html');
-        });
+		AuthService.logout()
+		.then( function(data) {
+			if (data) {
+				$scope.auth = false;
+				$scope.setView('/views/splash.html');
+			}
+		});
 	}
 });
 
 //login controller - controls login form
-app.controller("loginController", function($scope,$http) {
+app.controller("loginController", function($scope, AuthService) {
 	//default values
 	$scope.submitted = false;
 	$scope.err = false;
 	//on form submit, send POST to /login with data
     $scope.submit = function(){
     	$scope.submitted = true;
-    	$http.post('../../login', {username: angular.lowercase($scope.user), password: $scope.pass})
-    	.success(function(data) {
-    		$scope.submitted = false;
-    		console.log("from server: " + data);
-    		$scope.setView('/views/search.html');
-    	})
-    	.error(function(data) {
-    		$scope.err = true;
-    		$scope.submitted = false;
-    		console.log("from server: " + data);
-    		$scope.pass = "";
+    	AuthService.login(angular.lowercase($scope.user), $scope.pass)
+    	.then (function(data) {
+    		if (data) {
+    			$scope.submitted = false;
+    			$scope.setView('/views/search.html');
+    		}
+    		else {
+    			$scope.err = true;
+    			$scope.submitted = false;
+    			$scope.pass = "";
+    		}
     	});
     }
 });
 
 //signup controller - controls signup form
-app.controller("signupController", function($scope,$http) {
+app.controller("signupController", function($scope,AuthService,$http) {
 	//default values
 	$scope.submitted = false;
 	$scope.err = false;
@@ -91,18 +93,17 @@ app.controller("signupController", function($scope,$http) {
     //on form submit, send POST to /signup with data
     $scope.submit = function(){
     	$scope.submitted = true;
-    	$http.post('../../signup', {username: angular.lowercase($scope.user), password: $scope.pass, gender: $scope.gen, country: $scope.ctry})
-    	.success(function(data) {
-    		$scope.submitted = false;
-    		console.log("from server: " + data);
-    		$scope.setView('/views/search.html');
-    	})
-    	.error(function(data) {
-    		$scope.err = true;
-    		$scope.submitted = false;
-    		console.log("from server: " + data);
-    		$scope.user = "";
-	    	$scope.pass = "";
+    	AuthService.signup(angular.lowercase($scope.user), $scope.pass, $scope.gen, $scope.ctry)
+    	.then (function(data) {
+    		if (data) {
+    			$scope.submitted = false;
+    			$scope.setView('/views/search.html');
+    		}
+    		else {
+    			$scope.err = true;
+    			$scope.submitted = false;
+    			$scope.pass = "";
+    		}
     	});
     }
 });
