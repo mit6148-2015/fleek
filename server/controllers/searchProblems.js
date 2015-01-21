@@ -5,11 +5,10 @@ mongoose.connect(dbConfig.uri);
 var Problem = require('../models/problem');
 
 function searchProblems (req, res) {
-    console.log(req.body);
-    queryText = '\"' + req.body.queryText + '\"';
-    setPattern = req.body.contest;
-    startYear = String(req.body.startYear);
-    endYear = String(req.body.endYear);
+    queryText = '\"' + req.query.queryText + '\"';
+    setPattern = req.query.contest;
+    startYear = String(req.query.startYear);
+    endYear = String(req.query.endYear);
 
     Problem.find({$text: { $search: queryText }})
     .where('meta.setPattern', setPattern)
