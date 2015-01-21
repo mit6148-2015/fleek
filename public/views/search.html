@@ -30,7 +30,23 @@
 			</div>
 		</form>
 		<div class="row">
-			{{results}}
+			<p class="text-right">Problems found: {{results.length}}</p>
+			<table id="search-results" class="table" data-height="results.length">
+				<thead>
+			    	<tr>
+			    		<th data-field="contest" data-sortable="true">Contest</th>
+			    		<th data-field="year" data-sortable="true">Year</th>
+			     		<th data-field="number">Problem</th>
+			     		<th data-field="type" data-sortable="true">Type</th>
+			    	</tr>
+			    </thead>
+				<tr ng-repeat="result in results">
+					<td>{{result.setPattern}}</td>
+					<td>{{result.setInstance}}</td>
+					<td>#{{result.setIndex+1}}</td>
+					<td>{{result.response}}</td>
+				</tr>
+			</table>
 		</div>
 	</div>
 </div>
