@@ -13,7 +13,10 @@ app.controller("pageController", function ($scope, AuthService) {
 	};
 	//function to set view (accessible from child scopes)
 	$scope.setView = function(page,init) {
-		init = init | false; //set init's default to false
+		//collapse nav bar
+		$("#nav-collapse").collapse('hide');
+		//set init's default to false
+		init = init | false; 
 		//if page is unrestricted (and it's not the first visit), continue to page
 		if (!$scope.restrictions[page] && !init) { 
 			console.log(" / unrestricted, continue to " + page);
