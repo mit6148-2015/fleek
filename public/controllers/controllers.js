@@ -145,6 +145,7 @@ app.controller("searchController", function($scope,DataService) {
 				}
 			}
 		}
+		console.log('searching contests ' + list);
 		DataService.search($scope.text,list,$scope.startYear, $scope.endYear)
 		.then (function(data) {
 			//generate list of problem metadata

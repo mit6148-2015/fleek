@@ -66,8 +66,8 @@ app.factory('DataService', function($http, $q){
 	        getData: function(path) {
 	            return $http.get(path)
 	                .then(function(response) {
-	                	console.log("\tgetData response ");
 	                    if (typeof response.data === 'object') {
+	                    	console.log("\tgetData response " + response.data.length);
 	                        return response.data;
 	                    } 
 	                    else {
@@ -81,8 +81,8 @@ app.factory('DataService', function($http, $q){
 	        search: function(text,conts,syear,eyear) {
 	        	return $http.get('/search', { params: {queryText: text, contests: conts, startYear: syear, endYear: eyear}})
 	        		.then(function(response) {
-	        			console.log("\tsearch response: " + response.data);
 	        			if (typeof response.data === 'object') {
+							console.log("\tSearch response " + response.data.length);
 	        				return response.data;
 	        			}
 	        			else {
