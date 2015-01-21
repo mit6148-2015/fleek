@@ -410,7 +410,7 @@
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
     "source_link": "http://www.artofproblemsolving.com/Wiki/index.php/2000_AIME_I_Answer_Key",
-    "name_modifier": "",
+    "name_modifier": "I",
     "answers": [
         "008",
         "021",
@@ -434,7 +434,7 @@
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
     "source_link": "http://www.artofproblemsolving.com/Wiki/index.php/2000_AIME_II_Answer_Key",
-    "name_modifier": "",
+    "name_modifier": "II",
     "answers": [
         "007",
         "098",
@@ -458,7 +458,7 @@
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
     "source_link": "http://www.artofproblemsolving.com/Wiki/index.php/2001_AIME_I_Answer_Key",
-    "name_modifier": "",
+    "name_modifier": "I",
     "answers": [
         "630",
         "651",
@@ -482,7 +482,7 @@
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
     "source_link": "http://www.artofproblemsolving.com/Wiki/index.php/2001_AIME_II_Answer_Key",
-    "name_modifier": "",
+    "name_modifier": "II",
     "answers": [
         "816",
         "298",
@@ -506,7 +506,7 @@
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
     "source_link": "http://www.artofproblemsolving.com/Wiki/index.php/2002_AIME_I_Answer_Key",
-    "name_modifier": "",
+    "name_modifier": "I",
     "answers": [
         "059",
         "154",
@@ -530,7 +530,7 @@
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
     "source_link": "http://www.artofproblemsolving.com/Wiki/index.php/2002_AIME_II_Answer_Key",
-    "name_modifier": "",
+    "name_modifier": "II",
     "answers": [
         "009",
         "294",
@@ -554,7 +554,7 @@
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
     "source_link": "http://www.artofproblemsolving.com/Wiki/index.php/2003_AIME_I_Answer_Key",
-    "name_modifier": "",
+    "name_modifier": "I",
     "answers": [
         "839",
         "301",
@@ -578,7 +578,7 @@
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
     "source_link": "http://www.artofproblemsolving.com/Wiki/index.php/2003_AIME_II_Answer_Key",
-    "name_modifier": "",
+    "name_modifier": "II",
     "answers": [
         "336",
         "120",
@@ -602,7 +602,7 @@
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
     "source_link": "http://www.artofproblemsolving.com/Wiki/index.php/2004_AIME_I_Answer_Key",
-    "name_modifier": "",
+    "name_modifier": "I",
     "answers": [
         "217",
         "201",
@@ -626,7 +626,7 @@
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
     "source_link": "http://www.artofproblemsolving.com/Wiki/index.php/2004_AIME_II_Answer_Key",
-    "name_modifier": "",
+    "name_modifier": "II",
     "answers": [
         "592",
         "441",
@@ -650,7 +650,7 @@
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
     "source_link": "http://www.artofproblemsolving.com/Wiki/index.php/2005_AIME_I_Answer_Key",
-    "name_modifier": "",
+    "name_modifier": "I",
     "answers": [
         "942",
         "012",
@@ -674,7 +674,7 @@
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
     "source_link": "http://www.artofproblemsolving.com/Wiki/index.php/2005_AIME_II_Answer_Key",
-    "name_modifier": "",
+    "name_modifier": "II",
     "answers": [
         "013",
         "079",
@@ -698,7 +698,7 @@
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
     "source_link": "http://www.artofproblemsolving.com/Wiki/index.php/2006_AIME_I_Answer_Key",
-    "name_modifier": "",
+    "name_modifier": "I",
     "answers": [
         "084",
         "901",
@@ -722,7 +722,7 @@
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
     "source_link": "http://www.artofproblemsolving.com/Wiki/index.php/2006_AIME_II_Answer_Key",
-    "name_modifier": "",
+    "name_modifier": "II",
     "answers": [
         "046",
         "893",
@@ -746,7 +746,7 @@
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
     "source_link": "http://www.artofproblemsolving.com/Wiki/index.php/2007_AIME_I_Answer_Key",
-    "name_modifier": "",
+    "name_modifier": "I",
     "answers": [
         "083",
         "052",
@@ -770,7 +770,7 @@
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
     "source_link": "http://www.artofproblemsolving.com/Wiki/index.php/2007_AIME_II_Answer_Key",
-    "name_modifier": "",
+    "name_modifier": "II",
     "answers": [
         "372",
         "200",
@@ -794,7 +794,7 @@
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
     "source_link": "http://www.artofproblemsolving.com/Wiki/index.php/2008_AIME_I_Answer_Key",
-    "name_modifier": "",
+    "name_modifier": "I",
     "answers": [
         "252",
         "025",
@@ -818,7 +818,7 @@
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
     "source_link": "http://www.artofproblemsolving.com/Wiki/index.php/2008_AIME_II_Answer_Key",
-    "name_modifier": "",
+    "name_modifier": "II",
     "answers": [
         "100",
         "620",
@@ -842,7 +842,7 @@
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
     "source_link": "http://www.artofproblemsolving.com/Wiki/index.php/2009_AIME_I_Answer_Key",
-    "name_modifier": "",
+    "name_modifier": "I",
     "answers": [
         "840",
         "697",
@@ -866,7 +866,7 @@
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
     "source_link": "http://www.artofproblemsolving.com/Wiki/index.php/2009_AIME_II_Answer_Key",
-    "name_modifier": "",
+    "name_modifier": "II",
     "answers": [
         "114",
         "469",
@@ -890,7 +890,7 @@
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
     "source_link": "http://www.artofproblemsolving.com/Wiki/index.php/2010_AIME_I_Answer_Key",
-    "name_modifier": "",
+    "name_modifier": "I",
     "answers": [
         "107",
         "109",
@@ -914,7 +914,7 @@
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
     "source_link": "http://www.artofproblemsolving.com/Wiki/index.php/2010_AIME_II_Answer_Key",
-    "name_modifier": "",
+    "name_modifier": "II",
     "answers": [
         "640",
         "281",
@@ -938,7 +938,7 @@
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
     "source_link": "http://www.artofproblemsolving.com/Wiki/index.php/2011_AIME_I_Answer_Key",
-    "name_modifier": "",
+    "name_modifier": "I",
     "answers": [
         "085",
         "036",
@@ -962,7 +962,7 @@
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
     "source_link": "http://www.artofproblemsolving.com/Wiki/index.php/2011_AIME_II_Answer_Key",
-    "name_modifier": "",
+    "name_modifier": "II",
     "answers": [
         "037",
         "810",
@@ -986,7 +986,7 @@
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
     "source_link": "http://www.artofproblemsolving.com/Wiki/index.php/2012_AIME_I_Answer_Key",
-    "name_modifier": "",
+    "name_modifier": "I",
     "answers": [
         "040",
         "195",
@@ -1010,7 +1010,7 @@
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
     "source_link": "http://www.artofproblemsolving.com/Wiki/index.php/2012_AIME_II_Answer_Key",
-    "name_modifier": "",
+    "name_modifier": "II",
     "answers": [
         "034",
         "363",
@@ -1034,7 +1034,7 @@
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
     "source_link": "http://www.artofproblemsolving.com/Wiki/index.php/2013_AIME_I_Answer_Key",
-    "name_modifier": "",
+    "name_modifier": "I",
     "answers": [
         "150",
         "200",
@@ -1058,7 +1058,7 @@
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
     "source_link": "http://www.artofproblemsolving.com/Wiki/index.php/2013_AIME_II_Answer_Key",
-    "name_modifier": "",
+    "name_modifier": "II",
     "answers": [
         "275",
         "881",
@@ -1082,7 +1082,7 @@
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
     "source_link": "http://www.artofproblemsolving.com/Wiki/index.php/2014_AIME_I_Answer_Key",
-    "name_modifier": "",
+    "name_modifier": "I",
     "answers": [
         "790",
         "144",
@@ -1106,7 +1106,7 @@
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
     "source_link": "http://www.artofproblemsolving.com/Wiki/index.php/2014_AIME_II_Answer_Key",
-    "name_modifier": "",
+    "name_modifier": "II",
     "answers": [
         "334",
         "076",
