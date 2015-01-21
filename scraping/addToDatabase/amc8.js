@@ -1,6 +1,6 @@
 // setup database
 var mongoose = require('mongoose');
-mongoose.connect('PATH_TO_DB');
+mongoose.connect('mongodb://localhost/fleekdb');
 
 // load object constructors
 var problemMeta = require('../../server/models/prototypes/problemMeta');
