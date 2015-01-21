@@ -42,9 +42,7 @@ router.get('/auth', auth, function(req, res) {
 
 
 // search database
-router.get('/search', function (req, res) {
-    searchProblems(req, res);
-});
+router.get('/search', searchProblems);
 
 
 // provides list of countries
