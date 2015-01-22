@@ -1,6 +1,7 @@
 // setup database
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/fleekdb');
+var dbPath = require('./dbpath.js');
+mongoose.connect(dbPath.uri);
 
 // load object constructors
 var problemMeta = require('../../server/models/prototypes/problemMeta');
@@ -13,8 +14,8 @@ var Problem = require('../../server/models/problem');
 var fs = require('fs');
 var data = JSON.parse(fs.readFileSync('../problems/amc10.json', 'utf8'));
 
-for (var i=0; i<data.length; i++) {
-    var curdatum = data[i];
+function doItFor(index) {
+    var curdatum = data[index];
 
     Problem.create({
         meta: new problemMeta.amc10(curdatum.year, curdatum.name_modifier, curdatum.problem_number - 1),
@@ -26,4 +27,14 @@ for (var i=0; i<data.length; i++) {
         response: new response.multipleChoice(5, curdatum.answer_names, curdatum.answer_choices, 0)
     });
 
+    index++;
+    if (index < data.length) {
+        doItFor(index);
+    } else {
+        mongoose.disconnect();
+        console.log('Done! Added ' + index + ' documents.');
+    }
+
 }
+
+doItFor(0);

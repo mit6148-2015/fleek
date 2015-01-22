@@ -11,7 +11,7 @@ problemMeta['amc8'] = function (year, problemNumber) {
 
 problemMeta['amc10'] = function (year, yearModifier, problemNumber) {
     this.setPattern = 'AMC 10';
-    this.setInstance = String(year) + " " + String(yearModifier);
+    this.setInstance = (String(year) + " " + String(yearModifier)).trim();
     this.setIndex = parseInt(problemNumber);
     this.response = 'multipleChoice';
 };
@@ -19,7 +19,7 @@ problemMeta['amc10'] = function (year, yearModifier, problemNumber) {
 
 problemMeta['amc12'] = function (year, yearModifier, problemNumber) {
     this.setPattern = 'AMC 12';
-    this.setInstance = String(year) + " " + String(yearModifier);
+    this.setInstance = (String(year) + " " + String(yearModifier)).trim();
     this.setIndex = parseInt(problemNumber);
     this.response = 'multipleChoice';
 };
@@ -27,7 +27,7 @@ problemMeta['amc12'] = function (year, yearModifier, problemNumber) {
 
 problemMeta['aime'] = function (year, yearModifier, problemNumber) {
     this.setPattern = 'AIME';
-    this.setInstance = String(year) + " " + String(yearModifier);
+    this.setInstance = (String(year) + " " + String(yearModifier)).trim();
     this.setIndex = parseInt(problemNumber);
     this.response = 'integerAnswer';
 };
