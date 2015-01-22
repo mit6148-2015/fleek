@@ -10,7 +10,7 @@ var response = require('../../server/models/prototypes/response');
 // load models
 var Problem = require('../../server/models/problem');
 
-// load data from JSON file
+// load data from JSOsN file
 var fs = require('fs');
 var data = JSON.parse(fs.readFileSync('../problems/amc8.json', 'utf8'));
 
