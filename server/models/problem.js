@@ -13,7 +13,7 @@ var problemSchema = mongoose.Schema({
     statement: String,
     attachments: {},
     response: {} // response object constructor comes from ./prototypes/problemMeta.js
-}, {minimize: false});
+});
 
 // export model
 module.exports = mongoose.model('Problem', problemSchema);

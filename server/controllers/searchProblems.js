@@ -11,13 +11,14 @@ function searchProblems (req, res) {
     else
         textSearch = {};
 
-    // make sure setPatterns is at least length 2
-    setPatterns.push('');
-    setPatterns.push('');
-
+    // make sure setPatterns is an array
+    if (Object.prototype.toString.call(setPatterns) === "[object String]")
+        setPatterns = [setPatterns];
+    
     Problem.find(textSearch)
     .where('meta.setPattern').in(setPatterns)
-    .where('meta.setInstance').gte(startYear).lte(endYear)
+    .where('meta.setInstance').gte(startYear).lte(parseInt(endYear)+"z")
+    .select('_id meta')
     .exec(function (err, problems) {
         if (err)
             console.log(err);
