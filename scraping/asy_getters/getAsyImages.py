@@ -64,10 +64,13 @@ def getAsy(prob, contest, tagArray):
 def asyToImage(asy, tag):
 	fileName = "asyfiles/"+ tag + ".asy"
 	asyfile = open(fileName,"w")
-	asyfile.write(asy)
+	asy = asy.strip()
+	s = "settings.outformat=\"svg\"\n\n"
+	asyfile.write(s)
+	asyfile.write(asy[5:-6])
 	### WRITE THE IMAGE FILE THING HERE###### call(["ls", "-l"])
 	### get the asy directory, get the asy file from this directly, save to imagefiles/tag.png or tag.whatever
-	os.remove(fileName)
+	#os.remove(fileName)
 
 
 if __name__ == '__main__':
