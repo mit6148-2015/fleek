@@ -18,26 +18,29 @@ def getAll(contest):
 	    	x = data[ind]
 	    	num_runs = 0
 	    	name = x["problem_statement"]
-	    	x["problem_statement"] = getAsy(name, contest)
+	    	probAndTags = getAsy(name, contest, [])
+	    	x["problem_statement"] = probAndTags[0]
+	    	x["image_tags"] = probAndTags[1]
 	    	json.dump(x,out_file, indent=4, separators=(',', ': ')) 
 	    	if ind != len(data) - 1:
 	    		out_file.write(",\n")
 	out_file.write("]\n")
 
-def getAsy(prob, contest):
+def getAsy(prob, contest, tagArray):
 	global imageIndex
 	if "[asy]" not in prob:
-		return prob
+		return (prob,tagArray)
 	else:
 		x = prob.index("[asy]")
 		y = prob.index("[/asy]") + 6
 		tag = contest + "_" + str(imageIndex)
+		tagArray = tagArray + [tag]
 		imageTag = " [img] " + tag + " [/img] "
 		imageIndex = imageIndex + 1
 		asyCode = prob[x:y]
 		asyToImage(asyCode, tag)
 		newProb = prob[:x] + imageTag + prob[y:]
-		return getAsy(newProb, contest)
+		return getAsy(newProb, contest, tagArray)
 
 def asyToImage(asy, tag):
 	fileName = "asyfiles/"+ tag + ".asy"
