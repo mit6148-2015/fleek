@@ -11,7 +11,7 @@ var Problem = require('../../server/models/problem');
 
 // load data from JSON file
 var fs = require('fs');
-var data = JSON.parse(fs.readFileSync('../scrapers/problems/amc10.json', 'utf8'));
+var data = JSON.parse(fs.readFileSync('../problems/amc10.json', 'utf8'));
 
 for (var i=0; i<data.length; i++) {
     var curdatum = data[i];

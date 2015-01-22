@@ -11,7 +11,7 @@ var Problem = require('../../server/models/problem');
 
 // load data from JSON file
 var fs = require('fs');
-var data = JSON.parse(fs.readFileSync('../scrapers/aime_answers.json', 'utf8'));
+var data = JSON.parse(fs.readFileSync('../answers/aime_answers.json', 'utf8'));
 
 function doItFor (index, pnum) {
 
