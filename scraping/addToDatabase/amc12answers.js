@@ -14,6 +14,8 @@ var Problem = require('../../server/models/problem');
 var fs = require('fs');
 var data = JSON.parse(fs.readFileSync('../answers/amc12_answers.json', 'utf8'));
 
+var counter = 0;
+
 function doItFor (index, pnum) {
 
     var curdatum = data[index];
@@ -24,10 +26,10 @@ function doItFor (index, pnum) {
             console.log(err);
 
         if (!problem)
-            console.log("HELP! Can't find a problem... searching for instance " + setInstance);
+            console.log("HELP! Can't find a problem... searching for instance " + setInstance + " index " + pnum);
 
         var letter = curdatum.answers[pnum];
-        var number = 0;
+        var number = -1;
         if (letter == "a") number = 0;
         if (letter == "b") number = 1;
         if (letter == "c") number = 2;
@@ -38,9 +40,11 @@ function doItFor (index, pnum) {
         problem.markModified('response');
         problem.save();
 
+        counter++;
+
         pnum++;
 
-        if (pnum == 25) {
+        if (pnum == curdatum.answers.length) {
             pnum = 0;
             index++;
         }
@@ -49,7 +53,7 @@ function doItFor (index, pnum) {
             doItFor(index, pnum);
         } else {
             mongoose.disconnect();
-            console.log('Done! Added ' + index*25 + ' answers.');
+            console.log('Done! Added ' + counter + ' answers.');
         }
 
     });

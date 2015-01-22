@@ -344,6 +344,106 @@ ahsme_98
 processing of PostScript specials is disabled (Ghostscript not found)
 ahsme_99
 processing of PostScript specials is disabled (Ghostscript not found)
+aime_1
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_10
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_11
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_12
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_13
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_14
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_15
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_16
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_17
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_18
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_19
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_2
+./asyfiles/aime_2.asy: 4.24: no matching variable 'pathpen'
+aime_20
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_21
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_22
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_23
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_24
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_25
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_26
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_27
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_28
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_29
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_3
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_30
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_31
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_32
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_33
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_34
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_35
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_36
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_37
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_38
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 2 PostScript specials ignored. The resulting SVG might look wrong.
+aime_39
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_4
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_40
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_41
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_42
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_43
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_44
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_45
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_46
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_47
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_48
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_49
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_5
+./asyfiles/aime_5.asy: 4.11: no matching variable 'pathpen'
+aime_50
+aime_6
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_7
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_8
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_9
+processing of PostScript specials is disabled (Ghostscript not found)
 amc10_1
 processing of PostScript specials is disabled (Ghostscript not found)
 amc10_10

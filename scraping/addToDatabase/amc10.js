@@ -16,15 +16,21 @@ var data = JSON.parse(fs.readFileSync('../asy_getters/amc10_probs_asy.json', 'ut
 
 function doItFor(index) {
     var curdatum = data[index];
-    var asyAttachments = [];
+    
+    var asyAttachments = {};
+    if (curdatum.image_tags.length>0) {
+        asyAttachments = {svg : []};
 
-    for (var i=0; i<curdatum.image_tags.length; i++) {
-        var tag = curdatum.image_tags[i];
-        asyAttachments.push({tag : tag + ".svg"});
+        for (var i=0; i<curdatum.image_tags.length; i++) {
+            var attObject = {}
+            var tag = curdatum.image_tags[i];
+            attObject[tag] = tag + ".svg";
+            asyAttachments.svg.push(attObject);
+        }
     }
     
     Problem.create({
-        meta: new problemMeta.amc10(curdatum.year, curdatum.name_modifier, curdatum.problem_number - 1),
+        meta: new problemMeta.amc10(curdatum.year, curdatum.name_modifier, curdatum.problem_number),
         source: {
             name: curdatum.source_name,
             url: curdatum.source_link,

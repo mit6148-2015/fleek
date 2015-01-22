@@ -11,9 +11,9 @@ var problemSchema = mongoose.Schema({
     },
     tags: [{type: ObjectId, ref: 'Tag'}],
     statement: String,
-    attachments: [{}],
+    attachments: {},
     response: {} // response object constructor comes from ./prototypes/problemMeta.js
-});
+}, {minimize: false});
 
 // export model
 module.exports = mongoose.model('Problem', problemSchema);

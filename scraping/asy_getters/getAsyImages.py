@@ -81,6 +81,7 @@ if __name__ == '__main__':
 	getAll("amc10")
 	getAll("amc12")
 	getAll("ahsme")
+	getAll("aime")
 	getAll("usamo")
 	getAll("usajmo")
 	getAll("putnam")
