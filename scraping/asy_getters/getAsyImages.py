@@ -4,6 +4,7 @@ import os
 
 imageIndex = 1;
 num_runs = 0
+
 def getAll(contest):
 	print("Rendering " + contest + "...")
 	json_name = contest+"_probs_asy.json"
