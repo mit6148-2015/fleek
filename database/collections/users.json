@@ -1,0 +1,5 @@
+{ "_id" : { "$oid" : "54bd7d9e19a3140300309319" }, "country" : "Canada", "gender" : "Male", "password" : "$2a$08$O2fXh4lelke6yYOpiBKZqeF1.sP0Irw4a7wLMo0QiB0eczReBXEB.", "username" : "vfazel@mit.edu", "__v" : 0 }
+{ "_id" : { "$oid" : "54bd7e9619a314030030931a" }, "country" : "United States", "gender" : "Male", "password" : "$2a$08$DLXX65fY31Rz72e2Uvz4QuGcnrkXk4f8myCZTO3Dw4/aoGogfMRIG", "username" : "akshayr@mit.edu", "__v" : 0 }
+{ "_id" : { "$oid" : "54bed997ee83790300df0ca3" }, "country" : "United States", "gender" : "Female", "password" : "$2a$08$nfF1SppOZb59DuuTjGF58uQqtPYAQwgV/JwGZ1l1G6r3vRVDtkGT6", "username" : "kimberli@mit.edu", "__v" : 0 }
+{ "_id" : { "$oid" : "54bfe82cc8416b0300f8269a" }, "country" : "Niue", "gender" : "Female", "password" : "$2a$08$TDLJVuP4t.MFV/Z.L5Uh4uZ7ID14OUnNkzJMJmhBZdyTiq2.i1omG", "username" : "kimbly@mit.edu", "__v" : 0 }
+{ "_id" : { "$oid" : "54c02cf31b0c310300f90ca8" }, "country" : "United States", "gender" : "Other", "password" : "$2a$08$U86oMkGUdGF4mFJFPc.21uyQEdGYbAyoxy0kIynaphfp.r8k25.B6", "username" : "6.148-staff@mit.edu", "__v" : 0 }
