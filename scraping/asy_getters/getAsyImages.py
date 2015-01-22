@@ -5,6 +5,7 @@ import os
 imageIndex = 1;
 num_runs = 0
 def getAll(contest):
+	print("Rendering " + contest + "...")
 	json_name = contest+"_probs_asy.json"
 	out_file = open(json_name, "w")
 	global imageIndex
@@ -14,7 +15,6 @@ def getAll(contest):
 	    data = json.load(f)
 	    for ind in range(len(data)):
 	    	x = data[ind]
-	    	print(x)
 	    	num_runs = 0
 	    	name = x["problem_statement"]
 	    	x["problem_statement"] = getAsy(name, contest)
@@ -39,18 +39,20 @@ def getAsy(prob, contest):
 		return getAsy(newProb, contest)
 
 def asyToImage(asy, tag):
-	fileName = "imagefiles/"+ tag + ".asy"
+	fileName = "asyfiles/"+ tag + ".asy"
 	asyfile = open(fileName,"w")
 	asyfile.write(asy)
 	### WRITE THE IMAGE FILE THING HERE###### call(["ls", "-l"])
+	### get the asy directory, get the asy file from this directly, save to imagefiles/tag.png or tag.whatever
 	os.remove(fileName)
 
 
 if __name__ == '__main__':
 	getAll("amc8")
 	getAll("amc10")
-	getAll("amc12_part1")
-	getAll("amc12_part2")
+	getAll("amc12")
+	getAll("ahsme")
 	getAll("usamo")
 	getAll("usajmo")
 	getAll("putnam")
+	print("Done!")
