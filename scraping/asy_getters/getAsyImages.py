@@ -6,6 +6,8 @@ imageIndex = 1;
 num_runs = 0
 
 def getAll(contest):
+	global imageIndex
+	imageIndex = 1
 	print("Rendering " + contest + "...")
 	json_name = contest+"_probs_asy.json"
 	out_file = open(json_name, "w")
@@ -65,11 +67,12 @@ def asyToImage(asy, tag):
 	fileName = "asyfiles/"+ tag + ".asy"
 	asyfile = open(fileName,"w")
 	asy = asy.strip()
-	s = "settings.outformat=\"svg\"\n\n"
+	s = "settings.outformat=\"svg\";\nimport olympiad;\n\n"
 	asyfile.write(s)
 	asyfile.write(asy[5:-6])
-	### WRITE THE IMAGE FILE THING HERE###### call(["ls", "-l"])
-	### get the asy directory, get the asy file from this directly, save to imagefiles/tag.png or tag.whatever
+	#shellstring = "/usr/local/bin/asy ./asyfiles/" + tag + ".asy -o ./imagefiles/" + tag + ".svg"
+	#print 'doing ' + tag
+	#call(shellstring, shell=True)
 	#os.remove(fileName)
 
 

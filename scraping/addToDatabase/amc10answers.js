@@ -34,8 +34,6 @@ function doItFor (index, pnum) {
         if (letter == "d") number = 3;
         if (letter == "e") number = 4;
 
-        console.log(problem);
-
         problem.response.correctIndex = number;
         problem.markModified('response');
         problem.save();

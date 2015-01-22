@@ -12,13 +12,20 @@ var Problem = require('../../server/models/problem');
 
 // load data from JSON file
 var fs = require('fs');
-var data = JSON.parse(fs.readFileSync('../answers/amc8_answers.json', 'utf8'));
+var data = JSON.parse(fs.readFileSync('../answers/amc12_answers.json', 'utf8'));
 
 function doItFor (index, pnum) {
 
     var curdatum = data[index];
+    var setInstance = (String(curdatum.year) + " " + String(curdatum.name_modifier)).trim();
     
-    Problem.findOne({ 'meta.setPattern' : 'AMC 8', 'meta.setInstance' : String(curdatum.year), 'meta.setIndex' : pnum }, function (err, problem){
+    Problem.findOne({ 'meta.setPattern' : 'AMC 12', 'meta.setInstance' : setInstance, 'meta.setIndex' : pnum }, function (err, problem){
+        if (err)
+            console.log(err);
+
+        if (!problem)
+            console.log("HELP! Can't find a problem... searching for instance " + setInstance);
+
         var letter = curdatum.answers[pnum];
         var number = 0;
         if (letter == "a") number = 0;
@@ -27,13 +34,10 @@ function doItFor (index, pnum) {
         if (letter == "d") number = 3;
         if (letter == "e") number = 4;
 
-        console.log(String(number) + letter);
-
         problem.response.correctIndex = number;
         problem.markModified('response');
         problem.save();
 
-        // HELLA TRICKY STUFF
         pnum++;
 
         if (pnum == 25) {
@@ -43,6 +47,9 @@ function doItFor (index, pnum) {
 
         if (index < data.length) {
             doItFor(index, pnum);
+        } else {
+            mongoose.disconnect();
+            console.log('Done! Added ' + index*25 + ' answers.');
         }
 
     });
