@@ -1,7 +1,3 @@
-var mongoose = require('mongoose');
-var dbConfig = require('../config/database');
-mongoose.connect(dbConfig.uri);
-
 var Problem = require('../models/problem');
 
 function searchProblems (req, res) {

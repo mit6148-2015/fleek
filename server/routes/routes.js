@@ -2,8 +2,18 @@ var express = require('express');
 var router = express.Router();
 var passport = require('passport');
 var path = require('path');
+
+
+// database
+var mongoose = require('mongoose');
+var dbConfig = require('../config/database');
+mongoose.connect(dbConfig.uri);
+
+
+// controllers
 var auth = require('../controllers/authorize');
 var searchProblems = require('../controllers/searchProblems');
+var problemById = require('../controllers/problemById');
 
 
 // landing page
@@ -42,10 +52,14 @@ router.get('/auth', auth, function(req, res) {
 
 
 // search database
-router.get('/search', searchProblems);
+router.get('/search', auth, searchProblems);
 
 
-// provides list of countries
+// get problem by pid
+router.get('/problem', auth, problemById);
+
+
+// provides list of countries for signup
 router.get('/public/assets/countries.json', function(req, res) {
     res.sendFile(path.join(__dirname, '../../public/assets/countries.json'));
 });

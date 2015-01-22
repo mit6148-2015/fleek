@@ -1,12 +1,8 @@
-var mongoose = require('mongoose');
 var ObjectId = require('mongoose').Types.ObjectId; 
-var dbConfig = require('../config/database');
-mongoose.createConnection(dbConfig.uri);
-
 var Problem = require('../models/problem');
 
 function problemById (req, res) {
-    Problem.findOne( { _id : ObjectId(req.query.pid) },function (err, problems) {
+    Problem.findOne( { _id : ObjectId(req.query.pid) },function (err, problem) {
         if (err)
             console.log(err);
 
