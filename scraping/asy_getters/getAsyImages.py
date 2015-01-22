@@ -21,6 +21,23 @@ def getAll(contest):
 	    	probAndTags = getAsy(name, contest, [])
 	    	x["problem_statement"] = probAndTags[0]
 	    	x["image_tags"] = probAndTags[1]
+	    	newAnswersArray = []
+
+#	    	if "answer_choices" in x:
+#	    		for choice in x["answer_choices"]:
+#	    			print("hi")
+#	    			newChoiceTags = getAsy(choice, "CHOICETESTING", [])
+#	    			newChoice = newChoiceTags[0]
+#	    			newtags = newChoiceTags[1]
+#	    			x["image_tags"] = x["image_tags"] + [newtags]
+#
+#	    			if newChoice != choice:
+#	    				print(contest + " " + choice)
+#
+#	    			newAnswersArray = newAnswersArray + [newChoice]
+#
+#	    		x["answer_choices"] = newAnswersArray
+
 	    	json.dump(x,out_file, indent=4, separators=(',', ': ')) 
 	    	if ind != len(data) - 1:
 	    		out_file.write(",\n")
@@ -31,11 +48,13 @@ def getAsy(prob, contest, tagArray):
 	if "[asy]" not in prob:
 		return (prob,tagArray)
 	else:
+		if contest == "CHOICETESTING":
+			print(prob)
 		x = prob.index("[asy]")
 		y = prob.index("[/asy]") + 6
 		tag = contest + "_" + str(imageIndex)
 		tagArray = tagArray + [tag]
-		imageTag = " [img] " + tag + " [/img] "
+		imageTag = " [svg] " + tag + " [/svg] "
 		imageIndex = imageIndex + 1
 		asyCode = prob[x:y]
 		asyToImage(asyCode, tag)
