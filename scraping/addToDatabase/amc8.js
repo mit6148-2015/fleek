@@ -10,21 +10,44 @@ var response = require('../../server/models/prototypes/response');
 // load models
 var Problem = require('../../server/models/problem');
 
-// load data from JSOsN file
+// load data from JSON file
 var fs = require('fs');
-var data = JSON.parse(fs.readFileSync('../problems/amc8.json', 'utf8'));
+var data = JSON.parse(fs.readFileSync('../asy_getters/amc8_probs_asy.json', 'utf8'));
 
-for (var i=0; i<data.length; i++) {
-    var curdatum = data[i];
+function doItFor(index) {
+    var curdatum = data[index];
+    
+    var asyAttachments = {};
+    if (curdatum.image_tags.length>0) {
+        asyAttachments = {svg : []};
 
+        for (var i=0; i<curdatum.image_tags.length; i++) {
+            var attObject = {}
+            var tag = curdatum.image_tags[i];
+            attObject[tag] = tag + ".svg";
+            asyAttachments.svg.push(attObject);
+        }
+    }
+    
     Problem.create({
-        meta: new problemMeta.amc8(curdatum.year, curdatum.problem_number - 1),
+        meta: new problemMeta.amc8(curdatum.year, curdatum.problem_number),
         source: {
             name: curdatum.source_name,
             url: curdatum.source_link,
         },
         statement: curdatum.problem_statement,
-        response: new response.multipleChoice(5, curdatum.answer_names, curdatum.answer_choices, 0)
+        attachments: asyAttachments,
+        response: new response.multipleChoice(5, curdatum.answer_names, curdatum.answer_choices, -1)
     });
 
+    index++;
+    if (index < data.length) {
+        doItFor(index);
+    } else {
+        mongoose.disconnect();
+        console.log('Done! Added ' + index + ' documents.');
+    }
+
 }
+
+doItFor(0);

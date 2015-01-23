@@ -12,7 +12,7 @@ var Problem = require('../../server/models/problem');
 
 // load data from JSON file
 var fs = require('fs');
-var data = JSON.parse(fs.readFileSync('../asy_getters/usamo_probs_asy.json', 'utf8'));
+var data = JSON.parse(fs.readFileSync('../asy_getters/putnam_probs_asy.json', 'utf8'));
 
 function doItFor(index) {
     var curdatum = data[index];
@@ -30,7 +30,7 @@ function doItFor(index) {
     }
     
     Problem.create({
-        meta: new problemMeta.usamo(curdatum.year, curdatum.problem_number),
+        meta: new problemMeta.putnam(curdatum.year, curdatum.name_modifier, curdatum.problem_number),
         source: {
             name: curdatum.source_name,
             url: curdatum.source_link,
