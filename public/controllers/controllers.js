@@ -1,4 +1,24 @@
-var app = angular.module('fleekApp', []);
+var app = angular.module('fleekApp', ['ngRoute'])
+.config(['$routeProvider', '$locationProvider',
+  function($routeProvider, $locationProvider) {
+    $routeProvider.
+    when('/', {
+        templateUrl: '/views/splash.html'
+    }).
+    when('/login', {
+        templateUrl: '/views/login.html',
+        controller: 'loginController'
+    }).
+    when('/signup', {
+        templateUrl: '/views/signup.html',
+        controller: 'signupController'
+    }).
+    otherwise({
+        redirectTo: '/'
+    });
+
+    $locationProvider.html5Mode(true);
+}]);
 
 //page controller - controls what the page displays & authentication state
 app.controller("pageController", function ($scope, AuthService) {
