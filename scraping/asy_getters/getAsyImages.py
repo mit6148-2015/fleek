@@ -68,6 +68,8 @@ def asyToImage(asy, tag):
 	s = "settings.outformat=\"svg\"\n\n"
 	asyfile.write(s)
 	asyfile.write(asy[5:-6])
+	#shellstring = "asy " + tag 
+	#call(shellstring, shell=True)
 	### WRITE THE IMAGE FILE THING HERE###### call(["ls", "-l"])
 	### get the asy directory, get the asy file from this directly, save to imagefiles/tag.png or tag.whatever
 	#os.remove(fileName)
