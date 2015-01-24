@@ -17,7 +17,7 @@
 			<div class="form-group">
 				<div class="control-group" ng-class="{'has-error':intProblemForm.intResponse.$invalid}">
 					<div class="input-group">
-						<input focus-me="current=='/views/problem.html'" type="number" class="form-control" ng-model="intResponse" name="intResponse" placeholder="answer" ng-disabled="correct"></input>
+						<input autofocus focus-me="current=='/views/problem.html'" type="number" class="form-control" ng-model="intResponse" name="intResponse" placeholder="answer" ng-disabled="correct"></input>
 						<span class="input-group-btn">
 							<button class="btn btn-primary" type="submit" ng-disabled="intProblemForm.$invalid" ng-click="intValidate()">Go</button>
 						</span>
