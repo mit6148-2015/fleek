@@ -3,6 +3,8 @@ var readline = require('readline');
 var stream = require('stream');
 var setMeta = require('../../server/models/prototypes/setMeta.js')
 var Set = require('../../server/models/set.js')
+var mongoose = require('mongoose');
+var ObjectId = mongoose.Types.ObjectId;
 
 // set up streams
 var instream = fs.createReadStream('../collections/problems.json');
@@ -24,7 +26,7 @@ rl.on('line', function(line) {
 });
 
 // run after reading file
-rl.on('close', function() {
+rl.on('close', function() {    
     var contests = [];
     var sets = [];
     for (var i = 0; i<lines.length; i++) {
@@ -34,12 +36,12 @@ rl.on('close', function() {
 
         if (contests.indexOf(contest) == -1) {
             contests.push(contest);
-            set[3][problem.meta.setIndex] = problem._id;
+            set[3][problem.meta.setIndex] = new ObjectId(String(problem._id['$oid']));
             sets.push(set);
         } else {
             index = contests.indexOf(contest);
             sets[index][2]++;
-            sets[index][3][problem.meta.setIndex] = problem._id;
+            sets[index][3][problem.meta.setIndex] = new ObjectId(String(problem._id['$oid']));
         }
     }
 
@@ -47,26 +49,35 @@ rl.on('close', function() {
 });
 
 function makeSets(sets) {
-    for (var i = 0; i < sets.length; i++) {
-        var set = sets[i]; 
+    // setup database
+    var dbPath = require('./dbpath.js');
+    mongoose.connect(dbPath.uri);
+
+    function doItFor(index, mongoose) {
+        var set = sets[index]; 
         var pattern = set[0];
         var metaFunction = setMeta[pattern];
-        var meta = new metaFunction(set[1], set[2]);
-        var problems = set[3];
-        console.log(meta);
-        console.log(problems);        
+        var metaToBeAdded = new metaFunction(set[1], set[2]);
+        var problemsToBeAdded = set[3];
+        
+        Set.create({
+            meta: metaToBeAdded,
+            problems: problemsToBeAdded
+        });
+
+        index++;
+        if (index<sets.length) {
+            doItFor(index, mongoose);
+        } else {
+            closeDatabase(index, mongoose);
+        }        
     }
 
-    // metaFunction = setMeta[set[0]]; 
-    // console.log(metaFunction);
-    // var meta = new metaFunction(set[1], set[2]);
-    // var problems = set[3];
-    // console.log(meta);
-    // console.log(problems);
-    // for (var i = 0; i<sets.length; i++) {
-        
-    // }   
+    doItFor(0, mongoose);
 }
 
-
+function closeDatabase(num, mongoose) {
+    console.log('Done! Added ' + num + ' sets.');
+    mongoose.disconnect();
+}
 

@@ -46,7 +46,7 @@ setMeta['AMC 12'] = function (instance, numProblems) {
     var modifierList = String(instance).split(' ');
     var year = parseInt(modifierList[0]);
     if (year < 2000) {
-        this.name = String(year) + ' AHSME' + modifierList[1]; // 1990 AHSME
+        this.name = String(year) + ' AHSME'; // 1990 AHSME
     } else {
         if (modifierList.length == 2) {
             this.name = String(year) + ' AMC 12' + modifierList[1]; // 2010 AMC 12A
@@ -69,7 +69,7 @@ setMeta['AIME'] = function (instance, numProblems) {
     var modifierList = String(instance).split(' ');
     var year = parseInt(modifierList[0]);
     if (modifierList.length == 2) {
-        this.name = String(year) + ' AIME' + modifierList[1]; // 2010 AIME I
+        this.name = String(year) + ' AIME ' + modifierList[1]; // 2010 AIME I
     } else {
         this.name = String(year) + ' AIME'; // 2000 AIME
     }
