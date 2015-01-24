@@ -70,9 +70,16 @@ def asyToImage(asy, tag):
 	s = "settings.outformat=\"svg\";\nimport olympiad;\n\n"
 	asyfile.write(s)
 	asyfile.write(asy[5:-6])
+<<<<<<< HEAD
+	#shellstring = "asy " + tag 
+	#call(shellstring, shell=True)
+	### WRITE THE IMAGE FILE THING HERE###### call(["ls", "-l"])
+	### get the asy directory, get the asy file from this directly, save to imagefiles/tag.png or tag.whatever
+=======
 	#shellstring = "/usr/local/bin/asy ./asyfiles/" + tag + ".asy -o ./imagefiles/" + tag + ".svg"
 	#print 'doing ' + tag
 	#call(shellstring, shell=True)
+>>>>>>> 98379fa50f15da1e1395460f2d0838117ce1c699
 	#os.remove(fileName)
 
 

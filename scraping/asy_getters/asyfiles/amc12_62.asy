@@ -1,4 +1,0 @@
-settings.outformat="svg";
-import olympiad;
-
-defaultpen(black+0.75bp+fontsize(8pt));size(5cm);path p = scale(.15)*unitcircle;draw((-8,0)--(8.5,0),Arrow(HookHead,1mm));draw((0,-8)--(0,8.5),Arrow(HookHead,1mm));int i,j;for (i=-7;i<8;++i) {for (j=-7;j<8;++j) {if (((-7 <= i) && (i <= -3)) || ((3 <= i) &&  (i<= 7))) { if (((-7 <= j) && (j <= -3)) || ((3 <= j) &&  (j<= 7))) { fill(shift(i,j)*p,black); }}}} draw((-7,-.2)--(-7,.2),black+0.5bp);draw((-3,-.2)--(-3,.2),black+0.5bp);draw((3,-.2)--(3,.2),black+0.5bp);draw((7,-.2)--(7,.2),black+0.5bp);draw((-.2,-7)--(.2,-7),black+0.5bp);draw((-.2,-3)--(.2,-3),black+0.5bp);draw((-.2,3)--(.2,3),black+0.5bp);draw((-.2,7)--(.2,7),black+0.5bp);label("$-7$",(-7,0),S);label("$-3$",(-3,0),S);label("$3$",(3,0),S);label("$7$",(7,0),S);label("$-7$",(0,-7),W);label("$-3$",(0,-3),W);label("$3$",(0,3),W);label("$7$",(0,7),W);

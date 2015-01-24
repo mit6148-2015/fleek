@@ -1,4 +1,0 @@
-settings.outformat="svg";
-import olympiad;
-
-draw((0,0)--(20,0), EndArrow);draw((0,0)--(0,25), EndArrow);draw((0,0)--(5,0)--(5,5)--(0,5)--(0,10)--(10,10)--(10,0)--(15,0)--(15,15)--(0,15)--(0,20)--(10,20),linewidth(2));draw((0,20)--(10,20), EndArrow);draw((3.5,.5)--(4,.5)--(4,2), EndArrow);draw((4,3.5)--(4,4)--(2.5,4), EndArrow);draw((2,5.5)--(1,5.5)--(1,7), EndArrow);draw((1,8)--(1,9)--(2.5,9), EndArrow);draw((8,9.5)--(9,9.5)--(9,8), EndArrow);draw((10.5,2)--(10.5,1)--(12,1), EndArrow);draw((13,.5)--(14,.5)--(14,2), EndArrow);draw((14.5,13)--(14.5,14)--(13,14), EndArrow);draw((2,15.5)--(1,15.5)--(1,17), EndArrow);draw((.5,18)--(.5,19)--(2,19), EndArrow);label("x", (21,0), E);label("y", (0,26), N);label("4", (0,20), W);label("3", (0,15), W);label("2", (0,10), W);label("1", (0,5), W);label("0", (0,0), SW);label("1", (5,0), S);label("2", (10,0), S);label("3", (15,0), S);
