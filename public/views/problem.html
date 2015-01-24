@@ -1,7 +1,7 @@
 <div id="problem-container" class="page-fill">
 	<div id="problem" class="col-sm-6 col-sm-offset-3" ng-controller="problemController">
 		<h2>fleek</h2>
-		<a href ng-click="setView('/views/search.html')">Back to Search</a>
+		<a href="{{previous}}">Back to Search</a>
 		<h3>{{problem.contest}}</h3><h4> {{problem.year}}  #{{problem.number}}</h4>
 		<p mathjax> {{problem.statement}}</p>
 		<div style="color: #fff;">{{problem.response}}</div>

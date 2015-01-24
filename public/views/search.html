@@ -40,7 +40,7 @@
 					<tr ng-repeat="result in results">
 						<td>{{result.meta.setPattern}}</td>
 						<td>{{result.meta.setInstance}}</td>
-						<td><a href ng-click="setProb(result.meta.setPattern,result.meta.setInstance,result.meta.setIndex+1,result.meta.response,result.source,result.statement,result.response)">#{{result.meta.setIndex+1}}</a></td>
+						<td><a href="/problem/{{result._id}}">#{{result.meta.setIndex+1}}</a></td>
 						<td>{{result.meta.response}}</td>
 					</tr>
 				</table>

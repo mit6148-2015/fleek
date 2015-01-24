@@ -16,12 +16,11 @@
 	        <li class="dropdown" >
 	          <a href class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Options <span class="caret"></span></a>
 	          <ul class="dropdown-menu" role="menu">
-	            <li ng-click="setView(current)"><a href>Profile</a></li>
-	            <li ng-click="setView(current)"><a href>Settings</a></li>
+	            <li><a href="/profile/userLoggedIn">Profile</a></li>
 	            <li ng-hide="userLoggedIn"><a href="/login">Log In</a></li>
 	            <li ng-show="userLoggedIn" ng-click="logout()"><a href>Log Out</a></li>
-	            <li ng-click="setView(current)"><a href="https://docs.google.com/spreadsheets/d/1PW5d5G79-YgQf4mwm964JAhy5IkBNCHCIDHaQZ6h6Lc/edit?usp=sharing" target="blank">To Do</a></li>
-	            <li ng-click="setView(current)"><a href="https://docs.google.com/spreadsheets/d/1EkF1iYNpoKUcqpG5VoI-gcLbWxztlgOsTocL1VGDHjg/edit?usp=sharing" target="blank">Bug Report</a></li>
+	            <li><a href="https://docs.google.com/spreadsheets/d/1PW5d5G79-YgQf4mwm964JAhy5IkBNCHCIDHaQZ6h6Lc/edit?usp=sharing" target="blank">To Do</a></li>
+	            <li><a href="https://docs.google.com/spreadsheets/d/1EkF1iYNpoKUcqpG5VoI-gcLbWxztlgOsTocL1VGDHjg/edit?usp=sharing" target="blank">Bug Report</a></li>
 	          </ul>
 	        </li>
 	      </ul>

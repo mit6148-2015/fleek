@@ -76,10 +76,11 @@ app.factory('DataService', function($http, $q){
 
 	                }, function(response) {
 	                    return $q.reject(response.data);
-	            	});
+	            	}
+	            );
 	        },
 	        search: function(text,conts,syear,eyear) {
-	        	return $http.get('/search', { params: {queryText: text, contests: conts, startYear: syear, endYear: eyear}})
+	        	return $http.get('/GETsearch', { params: {queryText: text, contests: conts, startYear: syear, endYear: eyear}})
 	        		.then(function(response) {
 	        			if (typeof response.data === 'object') {
 							console.log("\tSearch response " + response.data.length);
@@ -90,35 +91,51 @@ app.factory('DataService', function($http, $q){
 	        			}
 	        		}, function(response) {
 	        			return $q.reject(response.data);
-	        		});
-	        }
+	        		}
+	        	);
+	        },
+	        getProblem: function(problemId) {
+	        	return $http.get('/GETproblem', { params: {pid: problemId}})
+	        		.then(function(response) {
+	        			if (typeof response.data === 'object') {
+							console.log("\tSearch response " + response.data._id);
+	        				return response.data;
+	        			}
+	        			else {
+	        				return $q.reject(response.data);
+	        			}
+	        		}, function(response) {
+	        			return $q.reject(response.data);
+	        		}
+	        	);
+	        },
 	    };
 
 });
 
-app.factory('ProblemService', function(){
-	var Problem = {
-		contest: "AMC 8",
-		year: "2015",
-		number: "1",
-		answerType: "multipleChoice",
-		sources: {name: "Made Up", url: ""},
-		statement: "This is a sample problem",
-		response: "42"
-	}
-	return {
-		getProblem: function() {
-			return Problem;
-		},
-		setProblem: function(con, yr, num, typ, srcs, stmt, ans) {
-			Problem.contest = con;
-			Problem.year = yr;
-			Problem.number = num;
-			Problem.answerType = typ;
-			Problem.sources = srcs;
-			Problem.statement = stmt;
-			Problem.response = ans;
-			console.log('problem changed');
-		}
-	}
-});
+// app.factory('ProblemService', function(){
+// 	var Problem = {
+// 		contest: "AMC 8",
+// 		year: "2015",
+// 		number: "1",
+// 		answerType: "multipleChoice",
+// 		sources: {name: "Made Up", url: ""},
+// 		statement: "This is a sample problem",
+// 		response: "42"
+// 	}
+// 	return {
+// 		getProblem: function() {
+// 			return Problem;
+// 		},
+// 		setProblem: function(con, yr, num, typ, srcs, stmt, ans) {
+// 			Problem.contest = con;
+// 			Problem.year = yr;
+// 			Problem.number = num;
+// 			Problem.answerType = typ;
+// 			Problem.sources = srcs;
+// 			Problem.statement = stmt;
+// 			Problem.response = ans;
+// 			console.log('problem changed');
+// 		}
+// 	}
+// });

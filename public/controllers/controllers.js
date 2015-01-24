@@ -32,10 +32,24 @@ var app = angular.module('fleekApp', ['ngRoute'])
     //remove # from URL
     $locationProvider.html5Mode(true);
 }])
-.run(function($rootScope, $location, AuthService) {
+.run(function($rootScope, $location, $routeParams, AuthService) {
     //watch for route changes and redirect accordingly
     $rootScope.$on( "$routeChangeStart", function(event, next, current) {
+    	//if there's a previous page, store that in rootScope.previous
+    	if (current){
+	    	$rootScope.previous = current.$$route.originalPath;
+    		$rootScope.previous = $rootScope.previous.replace(":searchQuery",$routeParams.searchQuery);
+    		$rootScope.previous = $rootScope.previous.replace(":problemId",$routeParams.problemId);
+    	}
+    	else {
+	    	//if there isn't a previous page and the current page is a problem, set previous page to /search
+	    	if (next.templateUrl == '/views/problem.html') {
+	    		$rootScope.previous = '/search';
+	    	}
+	    }
+    	//set current variable to template (used in showing/hiding elements)
     	$rootScope.current = next.templateUrl;
+    	//check to see if user is authenticated
     	AuthService.getAuth()
 		.then( function(data) {
 			//if user is logged in
@@ -61,65 +75,8 @@ var app = angular.module('fleekApp', ['ngRoute'])
 //page controller - controls what the page displays & authentication state
 app.controller("pageController", function ($scope, $rootScope, $location, AuthService) {
 	$rootScope.userLoggedIn = null; //only used to display buttons and stuff
-	$rootScope.restrictedTemplates = ['/views/problem.html','/views/search.html'];
-	$rootScope.loginTemplates = ['/views/login.html','/views/signup.html'];
-	// $scope.restrictions = { //map pages to restrictions
-	// 	"/views/splash.html": false, 
-	// 	"/views/login.html": false, 
-	// 	"/views/signup.html": false, 
-	// 	"/views/problem.html": true, 
-	// 	"/views/search.html": true
-	// };
-	// $scope.checkAuth = function() {
-	// 	AuthService.getAuth()
-	// 	.then( function(data) {
-	// 		if (data) {
-	// 			console.log("logged in");
-	// 			$rootScope.userLoggedIn = data;
-	// 		}
-	// 	});
-	// }
-	// //function to set view (accessible from child scopes)
-	// $scope.setView = function(page,init) {
-	// 	//collapse nav bar, not very angular
-	// 	if (!init) {
-	// 		if ($(".navbar-toggle").css("display") == "block" ) {
-	// 			$("#nav-collapse").collapse("hide");
-	// 		}
-	// 	}
-	// 	//set init's default to false
-	// 	init = init | false; 
-	// 	//if page is unrestricted (and it's not the first visit), continue to page
-	// 	if (!$scope.restrictions[page] && !init) { 
-	// 		console.log(" / unrestricted, continue to " + page);
-	// 		$scope.current = page;
-	// 	}
-	// 	//if page is restricted (or it's the first visit), check authorization status
-	// 	else {
-	// 		AuthService.getAuth()
-	// 		.then( function(data) {
-	// 			if (data) {
-	// 				console.log(" / authorized, continue to " + page);
-	// 				$scope.current = page;
-	// 				$scope.auth = true;
-	// 			}
-	// 			else if (!$scope.restrictions[page]) {
-	// 				console.log(" / unrestricted, continue to " + page);
-	// 				$scope.current = page;
-	// 				$scope.auth = false;
-	// 			}
-	// 			else {
-	// 				console.log(" / unauthorized, redirect to login");
-	// 				$scope.current = "/views/login.html";
-	// 				$scope.auth = false;
-	// 			}
-	// 		}, function(error) {
-	// 			console.log(" / unauthorized, redirect to login");
-	// 			$scope.current = "/views/login.html";
-	// 			$scope.auth = false;
-	// 		});
-	// 	}
-	// };
+	$rootScope.restrictedTemplates = ['/views/problem.html','/views/search.html']; //unauthorized users can't see these
+	$rootScope.loginTemplates = ['/views/login.html','/views/signup.html']; //authorized users can't see these
 
 	//function to log out
 	$scope.logout = function() {
@@ -127,7 +84,6 @@ app.controller("pageController", function ($scope, $rootScope, $location, AuthSe
 		.then( function(data) {
 			if (data) {
 				$rootScope.userLoggedIn = null;
-				// $scope.setView('/views/splash.html');
 				$location.path('/');
 			}
 		});
@@ -146,7 +102,6 @@ app.controller("loginController", function($scope, $rootScope, $location, AuthSe
     	.then (function(data) {
     		if (data) {
     			$scope.submitted = false;
-    			$rootScope.userLoggedIn = angular.lowercase($scope.user);
     			$location.path('/search');
     		}
     		else {
@@ -176,7 +131,6 @@ app.controller("signupController", function($scope,$rootScope,$location,AuthServ
     	.then (function(data) {
     		if (data) {
     			$scope.submitted = false;
-    			$rootScope.userLoggedIn = angular.lowercase($scope.user);
     			$location.path('/search');
     		}
     		else {
@@ -189,8 +143,8 @@ app.controller("signupController", function($scope,$rootScope,$location,AuthServ
 });
 
 //problem view controller - add stuff here later
-app.controller("problemController", function($scope,$routeParams,ProblemService) {
-	$scope.problem = ProblemService.getProblem();
+app.controller("problemController", function($scope,$routeParams,DataService) {
+	$scope.problem = DataService.getProblem($routeParams.problemId);
 	$scope.correct = false;
 	$scope.incorrect = false;
 	$scope.intValidate = function() {
@@ -208,8 +162,9 @@ app.controller("problemController", function($scope,$routeParams,ProblemService)
 });
 
 //search view controller - add stuff here later
-app.controller("searchController", function($scope,$routeParams,$location,DataService,ProblemService) {
+app.controller("searchController", function($scope,$routeParams,$location,DataService) {
 	$scope.searchQuery = $routeParams.searchQuery
+	//data for form validation
 	$scope.minYear = 1950;
 	$scope.maxDate = Date.now();
 	$scope.contests = {'AMC 8': true, 'AMC 10': true, 'AMC 12': true, 'AIME': true, 'USAMO': true}
@@ -222,14 +177,13 @@ app.controller("searchController", function($scope,$routeParams,$location,DataSe
 	for (var key in $scope.contests) {
 		$scope.contestList.push(key);
 	}
-	//use a service to send information to problem controller
-	$scope.setProb = function(contest,year,number,ansType,sources,statement,ans) {
-		ProblemService.setProblem(contest,year,number,ansType,sources,statement,ans);
-		$scope.setView("/views/problem.html");
-	}
-	//on submit, send GET request for search results
+	// //use a service to send information to problem controller
+	// $scope.setProb = function(contest,year,number,ansType,sources,statement,ans) {
+	// 	ProblemService.setProblem(contest,year,number,ansType,sources,statement,ans);
+	// 	$scope.setView("/views/problem.html");
+	// }
+	//on page load, send GET request for search results
 	$scope.search = function(){
-		$routeParams.searchQuery = $scope.searchQuery;
 		var list = []
 		for (var key in $scope.contests) {
 			if ($scope.contests.hasOwnProperty(key)) {
@@ -245,6 +199,7 @@ app.controller("searchController", function($scope,$routeParams,$location,DataSe
 		});
 	}
 	$scope.search();
+	//on submit, redirect to new path
 	$scope.submit = function() {
 		$location.path('/search/'+$scope.searchQuery);
 	}
