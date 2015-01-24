@@ -154,7 +154,7 @@ app.controller("problemController", function($scope,$routeParams,DataService) {
 			}
 		}
 		//attempt to load mathjax?
-		MathJax.Hub.Queue(['Typeset',MathJax.Hub]);
+		MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
 	});
 	//validate integer responses
 	$scope.intValidate = function() {
