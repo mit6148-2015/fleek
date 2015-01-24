@@ -3,9 +3,9 @@
 		<h1 class="text-center">fleek</h1>
 		<h3 class="text-center"><em>solve everything on fleek</em></h3>
 		<div class="col-sm-6 col-sm-offset-3" id="splash-buttons">
-			<a href="/login" ng-hide="auth" id="splash-login" class="btn btn-primary btn-block">Log In</a>
-			<a href="/signup" ng-hide="auth" id="splash-signup" class="btn btn-primary btn-block">Sign Up</a>
-			<a ng-show="auth" id="splash-logout" class="btn btn-primary btn-block" ng-click="logout()">Log Out</a>
+			<a href="/login" ng-hide="userLoggedIn" id="splash-login" class="btn btn-primary btn-block">Log In</a>
+			<a href="/signup" ng-hide="userLoggedIn" id="splash-signup" class="btn btn-primary btn-block">Sign Up</a>
+			<a ng-show="userLoggedIn" id="splash-logout" class="btn btn-primary btn-block" ng-click="logout()">Log Out</a>
 		</div>
 	</div>
 </div>

@@ -1,92 +1,141 @@
 var app = angular.module('fleekApp', ['ngRoute'])
+//routing definitions
 .config(['$routeProvider', '$locationProvider',
-  function($routeProvider, $locationProvider) {
-    $routeProvider.
-    when('/', {
-        templateUrl: '/views/splash.html'
-    }).
-    when('/login', {
-        templateUrl: '/views/login.html',
-        controller: 'loginController'
-    }).
-    when('/signup', {
-        templateUrl: '/views/signup.html',
-        controller: 'signupController'
-    }).
-    otherwise({
-        redirectTo: '/'
-    });
-
+	function($routeProvider, $locationProvider) {
+	    $routeProvider
+		.when('/', {
+	        templateUrl: '/views/splash.html'
+	    })
+	    .when('/login', {
+	        templateUrl: '/views/login.html',
+	        controller: 'loginController'
+	    })
+	    .when('/signup', {
+	        templateUrl: '/views/signup.html',
+	        controller: 'signupController'
+	    })
+	    .when('/search', {
+	        templateUrl: '/views/search.html',
+	        controller: 'searchController'
+	    })
+	    .when('/search/:searchQuery', {
+	        templateUrl: '/views/search.html',
+	        controller: 'searchController'
+	    })
+	    .when('/problem/:problemId', {
+	        templateUrl: '/views/problem.html',
+	        controller: 'problemController'
+	    })
+	    .otherwise({
+	        redirectTo: '/'
+	    });
+    //remove # from URL
     $locationProvider.html5Mode(true);
-}]);
+}])
+.run(function($rootScope, $location, AuthService) {
+    //watch for route changes and redirect accordingly
+    $rootScope.$on( "$routeChangeStart", function(event, next, current) {
+    	$rootScope.current = next.templateUrl;
+    	AuthService.getAuth()
+		.then( function(data) {
+			//if user is logged in
+			if (data) {
+				$rootScope.userLoggedIn = data;
+				//if the user is trying to access signup or login, redirect to root page
+				if ($rootScope.loginTemplates.indexOf(next.templateUrl) >= 0) {
+					$location.path("/");
+				}
+			}
+			//if user is not logged in
+			else {
+				//if the user is trying to access search or problem, redirect to login page
+				if ($rootScope.restrictedTemplates.indexOf(next.templateUrl) >= 0) {
+					$location.path( "/login" );
+				}
+			}
+			console.log('logged in user: '+ $rootScope.userLoggedIn + ', current template: ' + $rootScope.current);
+		});
+	});
+});
 
 //page controller - controls what the page displays & authentication state
-app.controller("pageController", function ($scope, AuthService) {
-	$scope.current; //default page is splash
-	$scope.auth; //only used for displaying buttons and stuff
-	$scope.restrictions = { //map pages to restrictions
-		"/views/splash.html": false, 
-		"/views/login.html": false, 
-		"/views/signup.html": false, 
-		"/views/problem.html": true, 
-		"/views/search.html": true
-	};
-	//function to set view (accessible from child scopes)
-	$scope.setView = function(page,init) {
-		//collapse nav bar, not very angular
-		if (!init) {
-			if ($(".navbar-toggle").css("display") == "block" ) {
-				$("#nav-collapse").collapse("hide");
-			}
-		}
-		//set init's default to false
-		init = init | false; 
-		//if page is unrestricted (and it's not the first visit), continue to page
-		if (!$scope.restrictions[page] && !init) { 
-			console.log(" / unrestricted, continue to " + page);
-			$scope.current = page;
-		}
-		//if page is restricted (or it's the first visit), check authorization status
-		else {
-			AuthService.getAuth()
-			.then( function(data) {
-				if (data) {
-					console.log(" / authorized, continue to " + page);
-					$scope.current = page;
-					$scope.auth = true;
-				}
-				else if (!$scope.restrictions[page]) {
-					console.log(" / unrestricted, continue to " + page);
-					$scope.current = page;
-					$scope.auth = false;
-				}
-				else {
-					console.log(" / unauthorized, redirect to login");
-					$scope.current = "/views/login.html";
-					$scope.auth = false;
-				}
-			}, function(error) {
-				console.log(" / unauthorized, redirect to login");
-				$scope.current = "/views/login.html";
-				$scope.auth = false;
-			});
-		}
-	};
+app.controller("pageController", function ($scope, $rootScope, $location, AuthService) {
+	$rootScope.userLoggedIn = null; //only used to display buttons and stuff
+	$rootScope.restrictedTemplates = ['/views/problem.html','/views/search.html'];
+	$rootScope.loginTemplates = ['/views/login.html','/views/signup.html'];
+	// $scope.restrictions = { //map pages to restrictions
+	// 	"/views/splash.html": false, 
+	// 	"/views/login.html": false, 
+	// 	"/views/signup.html": false, 
+	// 	"/views/problem.html": true, 
+	// 	"/views/search.html": true
+	// };
+	// $scope.checkAuth = function() {
+	// 	AuthService.getAuth()
+	// 	.then( function(data) {
+	// 		if (data) {
+	// 			console.log("logged in");
+	// 			$rootScope.userLoggedIn = data;
+	// 		}
+	// 	});
+	// }
+	// //function to set view (accessible from child scopes)
+	// $scope.setView = function(page,init) {
+	// 	//collapse nav bar, not very angular
+	// 	if (!init) {
+	// 		if ($(".navbar-toggle").css("display") == "block" ) {
+	// 			$("#nav-collapse").collapse("hide");
+	// 		}
+	// 	}
+	// 	//set init's default to false
+	// 	init = init | false; 
+	// 	//if page is unrestricted (and it's not the first visit), continue to page
+	// 	if (!$scope.restrictions[page] && !init) { 
+	// 		console.log(" / unrestricted, continue to " + page);
+	// 		$scope.current = page;
+	// 	}
+	// 	//if page is restricted (or it's the first visit), check authorization status
+	// 	else {
+	// 		AuthService.getAuth()
+	// 		.then( function(data) {
+	// 			if (data) {
+	// 				console.log(" / authorized, continue to " + page);
+	// 				$scope.current = page;
+	// 				$scope.auth = true;
+	// 			}
+	// 			else if (!$scope.restrictions[page]) {
+	// 				console.log(" / unrestricted, continue to " + page);
+	// 				$scope.current = page;
+	// 				$scope.auth = false;
+	// 			}
+	// 			else {
+	// 				console.log(" / unauthorized, redirect to login");
+	// 				$scope.current = "/views/login.html";
+	// 				$scope.auth = false;
+	// 			}
+	// 		}, function(error) {
+	// 			console.log(" / unauthorized, redirect to login");
+	// 			$scope.current = "/views/login.html";
+	// 			$scope.auth = false;
+	// 		});
+	// 	}
+	// };
 
 	//function to log out
 	$scope.logout = function() {
 		AuthService.logout()
 		.then( function(data) {
 			if (data) {
-				$scope.auth = false;
-				$scope.setView('/views/splash.html');
+				$rootScope.userLoggedIn = null;
+				// $scope.setView('/views/splash.html');
+				$location.path('/');
 			}
 		});
 	}
 });
 
 //login controller - controls login form
-app.controller("loginController", function($scope, AuthService) {
+app.controller("loginController", function($scope, $rootScope, $location, AuthService) {
 	//default values
 	$scope.submitted = false;
 	$scope.err = false;
@@ -97,7 +146,8 @@ app.controller("loginController", function($scope, AuthService) {
     	.then (function(data) {
     		if (data) {
     			$scope.submitted = false;
-    			$scope.setView('/views/search.html');
+    			$rootScope.userLoggedIn = angular.lowercase($scope.user);
+    			$location.path('/search');
     		}
     		else {
     			$scope.err = true;
@@ -109,7 +159,7 @@ app.controller("loginController", function($scope, AuthService) {
 });
 
 //signup controller - controls signup form
-app.controller("signupController", function($scope,AuthService,DataService) {
+app.controller("signupController", function($scope,$rootScope,$location,AuthService,DataService) {
 	//default values
 	$scope.submitted = false;
 	$scope.err = false;
@@ -126,7 +176,8 @@ app.controller("signupController", function($scope,AuthService,DataService) {
     	.then (function(data) {
     		if (data) {
     			$scope.submitted = false;
-    			$scope.setView('/views/search.html');
+    			$rootScope.userLoggedIn = angular.lowercase($scope.user);
+    			$location.path('/search');
     		}
     		else {
     			$scope.err = true;
@@ -138,7 +189,7 @@ app.controller("signupController", function($scope,AuthService,DataService) {
 });
 
 //problem view controller - add stuff here later
-app.controller("problemController", function($scope,ProblemService) {
+app.controller("problemController", function($scope,$routeParams,ProblemService) {
 	$scope.problem = ProblemService.getProblem();
 	$scope.correct = false;
 	$scope.incorrect = false;
@@ -157,7 +208,8 @@ app.controller("problemController", function($scope,ProblemService) {
 });
 
 //search view controller - add stuff here later
-app.controller("searchController", function($scope,DataService,ProblemService) {
+app.controller("searchController", function($scope,$routeParams,$location,DataService,ProblemService) {
+	$scope.searchQuery = $routeParams.searchQuery
 	$scope.minYear = 1950;
 	$scope.maxDate = Date.now();
 	$scope.contests = {'AMC 8': true, 'AMC 10': true, 'AMC 12': true, 'AIME': true, 'USAMO': true}
@@ -176,7 +228,8 @@ app.controller("searchController", function($scope,DataService,ProblemService) {
 		$scope.setView("/views/problem.html");
 	}
 	//on submit, send GET request for search results
-	$scope.submit = function(){
+	$scope.search = function(){
+		$routeParams.searchQuery = $scope.searchQuery;
 		var list = []
 		for (var key in $scope.contests) {
 			if ($scope.contests.hasOwnProperty(key)) {
@@ -186,10 +239,14 @@ app.controller("searchController", function($scope,DataService,ProblemService) {
 			}
 		}
 		console.log('searching contests ' + list);
-		DataService.search($scope.text,list,$scope.startYear, $scope.endYear)
+		DataService.search($scope.searchQuery,list,$scope.startYear, $scope.endYear)
 		.then (function(data) {
 			$scope.results = data;
 		});
+	}
+	$scope.search();
+	$scope.submit = function() {
+		$location.path('/search/'+$scope.searchQuery);
 	}
 });
 

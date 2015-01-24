@@ -4,15 +4,15 @@ app.factory('AuthService', function($http, $q){
 	            return $http.get('/auth')
 	                .then(function(response) {
 	                	console.log("\tgetAuth response: " + response.data);
-	                    if (response.data === 'Authorization successful') {
-	                        return true;
+	                    if (typeof response.data === 'string') {
+	                        return response.data;
 	                    } 
 	                    else {
-	                        return false;
+	                        return null;
 	                    }
 
 	                }, function(response) {
-	                    return false;
+	                    return null;
 	            	});
 	        },
 	        login: function(user,pass) {
