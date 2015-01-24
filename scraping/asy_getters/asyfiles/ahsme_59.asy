@@ -1,0 +1,4 @@
+settings.outformat="svg";
+import olympiad;
+
+//size(100);//localsize(200);real r1=2;pairO=(0,0),D=(.5,.5*sqrt(3)),C=(D.x+.5*3,D.y),B,B_prime=endpoint(arc(D, 3, 0,-2));B=B_prime;pathc1=circle(O, r1);pair C=midpoint(D--B_prime);path arc2=arc(B_prime, 6/2, 158.25,250);draw(c1);draw(O--D);draw(D--C);draw(C--B_prime);pair A=beginpoint(arc2);draw(B_prime--A);//dot(O^^D^^C^^A);//dot(B_prime);label("\scriptsize{$O$}",O,.6dir(D--O));label("\scriptsize{$C$}",C,.5dir(-55));label("\scriptsize{$D$}", D,.2NW);//label("\scriptsize{$B$}",B,S);label("\scriptsize{$B$}", B_prime, .5*dir(D--B_prime));label("\scriptsize{$A$}",A,.5dir(NE));label("\tiny{2}", O--D, .45*LeftSide);label("\tiny{3}", D--C, .45*LeftSide);label("\tiny{6}", B_prime--A, .45*RightSide);label("\tiny{3}", waypoint(C--B_prime,.1), .45*N);//Credit to Klaus-Anton for the diagram

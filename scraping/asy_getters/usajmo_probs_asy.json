@@ -1,0 +1,271 @@
+[
+{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "USAJMO",
+    "problem_statement": "A permutation of the set of positive integers $ [n] ={1, 2, . . . , n} $ is a sequence $ (a_1 , a_2 ,\\ldots, a_n ) $ such that each element of $ [n] $ appears precisely one time as a term of the sequence. For example, $ (3, 5, 1, 2, 4) $ is a permutation of $ [5] $. Let $ P (n) $ be the number of permutations of $ [n] $ for which $ ka_k $ is a perfect square for all $ 1\\leq k\\leq n $. Find with proof the smallest $ n $ such that $ P (n) $ is a multiple of 2010.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=176&year=2010&sid=ebdeeb3829122e94d65c321e5afb4f0d",
+    "image_tags": [],
+    "year": 2010,
+    "problem_number": 1
+},
+{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "USAJMO",
+    "problem_statement": "Let $ n > 1 $ be an integer. Find, with proof, all sequences $ x_1 , x_2 ,\\ldots , x_{n-1} $ of positive integers with the following three properties: (a). $ x_1 < x_2 <\\cdots < x_{n-1} $ ; (b). $ x_i+x_{n-i}= 2n $ for all $ i = 1, 2,\\ldots , n-1 $; (c). given any two indices $ i $ and $ j $ (not necessarily distinct) for which $ x_i+x_j < 2n $, there is an index $ k $ such that $ x_i+x_j = x_k $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=176&year=2010&sid=ebdeeb3829122e94d65c321e5afb4f0d",
+    "image_tags": [],
+    "year": 2010,
+    "problem_number": 2
+},
+{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "USAJMO",
+    "problem_statement": "Let $ AXYZB $ be a convex pentagon inscribed in a semicircle of diameter $ AB $. Denote by$ P $, $ Q $, $ R $, $ S $ the feet of the perpendiculars from $ Y $ onto lines $ AX $, $ BX $, $ AZ $, $ BZ $, respectively.  Prove that the acute angle formed by lines $ PQ $ and $ RS $ is half the size of $ \\angle XOZ $, where $ O $ is the midpoint of segment $ AB $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=176&year=2010&sid=ebdeeb3829122e94d65c321e5afb4f0d",
+    "image_tags": [],
+    "year": 2010,
+    "problem_number": 3
+},
+{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "USAJMO",
+    "problem_statement": "A triangle is called a parabolic triangle if its vertices lie on a parabola $ y = x^2 $. Prove that for every nonnegative integer $ n $, there is an odd number $ m $ and a parabolic triangle with vertices at three distinct points with integer coordinates with area $ (2^nm)^2 $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=176&year=2010&sid=ebdeeb3829122e94d65c321e5afb4f0d",
+    "image_tags": [],
+    "year": 2010,
+    "problem_number": 4
+},
+{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "USAJMO",
+    "problem_statement": "Two permutations $ a_1,a_2,\\dots,a_{2010} $ and $ b_1,b_2,\\dots,b_{2010} $ of the numbers $ 1,2,\\dots,2010 $ are said to intersect if $ a_k=b_k $ for some value of $ k $ in the range $ 1\\le k\\le 2010 $.  Show that there exist $ 1006 $ permutations of the numbers $ 1,2,\\dots,2010 $ such that any other such permutation is guaranteed to intersect at least one of these $ 1006 $ permutations.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=176&year=2010&sid=ebdeeb3829122e94d65c321e5afb4f0d",
+    "image_tags": [],
+    "year": 2010,
+    "problem_number": 5
+},
+{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "USAJMO",
+    "problem_statement": "Let $ ABC $ be a triangle with $ \\angle A = 90^{\\circ} $. Points $ D $ and $ E $ lie on sides $ AC $ and $ AB $, respectively, such that $ \\angle ABD =\\angle DBC $ and $ \\angle ACE =\\angle ECB $. Segments $ BD $ and $ CE $ meet at $ I $. Determine whether or not it is possible for segments $ AB $, $ AC $, $ BI $, $ ID $, $ CI $, $ IE $ to all have integer lengths.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=176&year=2010&sid=ebdeeb3829122e94d65c321e5afb4f0d",
+    "image_tags": [],
+    "year": 2010,
+    "problem_number": 6
+},
+{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "USAJMO",
+    "problem_statement": "Find, with proof, all positive integers $ n $ for which $ 2^n+12^n+2011^n $ is a perfect square.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=176&year=2011&sid=ebdeeb3829122e94d65c321e5afb4f0d",
+    "image_tags": [],
+    "year": 2011,
+    "problem_number": 1
+},
+{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "USAJMO",
+    "problem_statement": "Let $ a, b, c $ be positive real numbers such that $ a^2+b^2+c^2+(a+b+c)^2\\leq4 $.  Prove that\\[ \\frac{ab+1}{(a+b)^2}+\\frac{bc+1}{(b+c)^2}+\\frac{ca+1}{(c+a)^2}\\geq 3. \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=176&year=2011&sid=ebdeeb3829122e94d65c321e5afb4f0d",
+    "image_tags": [],
+    "year": 2011,
+    "problem_number": 2
+},
+{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "USAJMO",
+    "problem_statement": "For a point $ P = (a,a^2) $ in the coordinate plane, let $ l(P) $ denote the line passing through $ P $ with slope $ 2a $. Consider the set of triangles with vertices of the form $ P_1 = (a_1, a_1^2), P_2 = (a_2, a_2^2), P_3 = (a_3, a_3^2) $, such that the intersection of the lines $ l(P_1), l(P_2), l(P_3) $ form an equilateral triangle $ \\triangle $. Find the locus of the center of $ \\triangle $ as $ P_1P_2P_3 $ ranges over all such triangles.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=176&year=2011&sid=ebdeeb3829122e94d65c321e5afb4f0d",
+    "image_tags": [],
+    "year": 2011,
+    "problem_number": 3
+},
+{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "USAJMO",
+    "problem_statement": "A word is defined as any finite string of letters. A word is a palindrome if it reads the same backwards and forwards. Let a sequence of words $ W_0, W_1, W_2,... $ be defined as follows: $ W_0 = a, W_1 = b $, and for $ n\\ge 2 $, $ W_n $ is the word formed by writing $ W_{n-2} $ followed by $ W_{n-1} $. Prove that for any $ n\\ge 1 $, the word formed by writing $ W_1, W_2, W_3,..., W_n $ in succession is a palindrome.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=176&year=2011&sid=ebdeeb3829122e94d65c321e5afb4f0d",
+    "image_tags": [],
+    "year": 2011,
+    "problem_number": 4
+},
+{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "USAJMO",
+    "problem_statement": "Points $ A,B,C,D,E $ lie on a circle $ \\omega $ and point $ P $ lies outside the circle. The given points are such that (i) lines $ PB $ and $ PD $ are tangent to $ \\omega $, (ii) $ P, A, C $ are collinear, and (iii) $ DE\\parallel AC $. Prove that $ BE $ bisects $ AC $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=176&year=2011&sid=ebdeeb3829122e94d65c321e5afb4f0d",
+    "image_tags": [],
+    "year": 2011,
+    "problem_number": 5
+},
+{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "USAJMO",
+    "problem_statement": "Consider the assertion that for each positive integer $ n\\geq2 $, the remainder upon dividing $ 2^{2^n} $ by $ 2^n-1 $ is a power of $ 4 $.  Either prove the assertion or find (with proof) a counterexample.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=176&year=2011&sid=ebdeeb3829122e94d65c321e5afb4f0d",
+    "image_tags": [],
+    "year": 2011,
+    "problem_number": 6
+},
+{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "USAJMO",
+    "problem_statement": "Given a triangle $ ABC $, let $ P $ and $ Q $ be points on segments $ \\overline{AB} $ and $ \\overline{AC} $, respectively, such that $ AP=AQ $. Let $ S $ and $ R $ be distinct points on segment $ \\overline{BC} $ such that $ S $ lies between $ B $ and $ R $, $ \\angle BPS=\\angle PRS $, and $ \\angle CQR=\\angle QSR $. Prove that $ P,Q,R,S $ are concyclic (in other words, these four points lie on a circle).",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=176&year=2012&sid=ebdeeb3829122e94d65c321e5afb4f0d",
+    "image_tags": [],
+    "year": 2012,
+    "problem_number": 1
+},
+{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "USAJMO",
+    "problem_statement": "Find all integers $ n\\geq 3 $ such that among any $ n $ positive real numbers $ a_1, a_2,\\hdots, a_n $ with $ \\text{max}(a_1,a_2,\\hdots,a_n)\\leq n\\cdot\\text{min}(a_1,a_2,\\hdots,a_n) $, there exist three that are the side lengths of an acute triangle.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=176&year=2012&sid=ebdeeb3829122e94d65c321e5afb4f0d",
+    "image_tags": [],
+    "year": 2012,
+    "problem_number": 2
+},
+{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "USAJMO",
+    "problem_statement": "Let $ a,b,c $ be positive real numbers. Prove that $ \\frac{a^3+3b^3}{5a+b}+\\frac{b^3+3c^3}{5b+c}+\\frac{c^3+3a^3}{5c+a}\\geq\\frac{2}{3}(a^2+b^2+c^2) $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=176&year=2012&sid=ebdeeb3829122e94d65c321e5afb4f0d",
+    "image_tags": [],
+    "year": 2012,
+    "problem_number": 3
+},
+{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "USAJMO",
+    "problem_statement": "Let $ \\alpha $ be an irrational number with $ 0<\\alpha < 1 $, and draw a circle in the plane whose circumference has length $ 1 $. Given any integer $ n\\ge 3 $, define a sequence of points $ P_1, P_2,\\ldots , P_n $ as follows. First select any point $ P_1 $ on the circle, and for $ 2\\le k\\le n $ define $ P_k $ as the point on the circle for which the length of arc $ P_{k-1}P_k $ is $ \\alpha $, and when travelling counterclockwise around the circle from $ P_{k-1} $ to $ P_k $. Suppose that $ P_a $ and $ P_b $ are the nearest adjacent points on either side of $ P_n $. Prove that $ a+b\\le n $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=176&year=2012&sid=ebdeeb3829122e94d65c321e5afb4f0d",
+    "image_tags": [],
+    "year": 2012,
+    "problem_number": 4
+},
+{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "USAJMO",
+    "problem_statement": "For distinct positive integers $ a, b<2012 $, define $ f(a, b) $ to be the number of integers $ k $ with $ 1\\le k<2012 $ such that the remainder when $ ak $ divided by $ 2012 $ is greater than that of $ bk $ divided by $ 2012 $. Let $ S $ be the minimum value of $ f(a, b) $, where $ a $ and $ b $ range over all pairs of distinct positive integers less than $ 2012 $. Determine $ S $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=176&year=2012&sid=ebdeeb3829122e94d65c321e5afb4f0d",
+    "image_tags": [],
+    "year": 2012,
+    "problem_number": 5
+},
+{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "USAJMO",
+    "problem_statement": "Let $ P $ be a point in the plane of $ \\triangle ABC $, and $ \\gamma $ a line passing through $ P $. Let $ A', B', C' $ be the points where the reflections of lines $ PA, PB, PC $ with respect to $ \\gamma $ intersect lines $ BC, AC, AB $ respectively. Prove that $ A', B', C' $ are collinear.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=176&year=2012&sid=ebdeeb3829122e94d65c321e5afb4f0d",
+    "image_tags": [],
+    "year": 2012,
+    "problem_number": 6
+},
+{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "USAJMO",
+    "problem_statement": "Are there integers $ a $ and $ b $ such that $ a^5b+3 $ and $ ab^5+3 $ are both perfect cubes of integers?",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=176&year=2013&sid=ebdeeb3829122e94d65c321e5afb4f0d",
+    "image_tags": [],
+    "year": 2013,
+    "problem_number": 1
+},
+{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "USAJMO",
+    "problem_statement": "Each cell of an $ m\\times n $ board is filled with some nonnegative integer.  Two numbers in the filling are said to be adjacent if their cells share a common side.  (Note that two numbers in cells that share only a corner are not adjacent).  The filling is called a garden if it satisfies the following two conditions:(i) The difference between any two adjacent numbers is either 0 or $ 1 $.(ii) If a number is less than or equal to all of its adjacent numbers, then it is equal to 0.Determine the number of distinct gardens in terms of $ m $ and $ n $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=176&year=2013&sid=ebdeeb3829122e94d65c321e5afb4f0d",
+    "image_tags": [],
+    "year": 2013,
+    "problem_number": 2
+},
+{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "USAJMO",
+    "problem_statement": "In triangle $ ABC $, points $ P $, $ Q $, $ R $ lie on sides $ BC $, $ CA $, $ AB $ respectively.  Let $ \\omega_A $, $ \\omega_B $, $ \\omega_C $ denote the circumcircles of triangles $ AQR $, $ BRP $, $ CPQ $, respectively.  Given the fact that segment $ AP $ intersects $ \\omega_A $, $ \\omega_B $, $ \\omega_C $ again at $ X $, $ Y $, $ Z $, respectively, prove that $ YX/XZ=BP/PC $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=176&year=2013&sid=ebdeeb3829122e94d65c321e5afb4f0d",
+    "image_tags": [],
+    "year": 2013,
+    "problem_number": 3
+},
+{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "USAJMO",
+    "problem_statement": "Let $ f(n) $ be the number of ways to write $ n $ as a sum of powers of $ 2 $, where we keep track of the order of the summation.  For example, $ f(4)=6 $ because $ 4 $ can be written as $ 4 $, $ 2+2 $, $ 2+1+1 $, $ 1+2+1 $, $ 1+1+2 $, and $ 1+1+1+1 $.  Find the smallest $ n $ greater than $ 2013 $ for which $ f(n) $ is odd.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=176&year=2013&sid=ebdeeb3829122e94d65c321e5afb4f0d",
+    "image_tags": [],
+    "year": 2013,
+    "problem_number": 4
+},
+{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "USAJMO",
+    "problem_statement": "Quadrilateral $ XABY $ is inscribed in the semicircle $ \\omega $ with diameter $ XY $.  Segments $ AY $ and $ BX $ meet at $ P $.  Point $ Z $ is the foot of the perpendicular from $ P $ to line $ XY $.  Point $ C $ lies on $ \\omega $ such that line $ XC $ is perpendicular to line $ AZ $.  Let $ Q $ be the intersection of segments $ AY $ and $ XC $.  Prove that \\[ \\frac{BY}{XP}+\\frac{CY}{XQ}=\\frac{AY}{AX}. \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=176&year=2013&sid=ebdeeb3829122e94d65c321e5afb4f0d",
+    "image_tags": [],
+    "year": 2013,
+    "problem_number": 5
+},
+{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "USAJMO",
+    "problem_statement": "Find all real numbers $ x,y,z\\geq 1 $ satisfying \\[ \\min(\\sqrt{x+xyz},\\sqrt{y+xyz},\\sqrt{z+xyz})=\\sqrt{x-1}+\\sqrt{y-1}+\\sqrt{z-1}. \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=176&year=2013&sid=ebdeeb3829122e94d65c321e5afb4f0d",
+    "image_tags": [],
+    "year": 2013,
+    "problem_number": 6
+},
+{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "USAJMO",
+    "problem_statement": "Let $ a $, $ b $, $ c $ be real numbers greater than or equal to $ 1 $. Prove that\\[ \\min\\left(\\frac{10a^2-5a+1}{b^2-5b+10},\\frac{10b^2-5b+1}{c^2-5c+10},\\frac{10c^2-5c+1}{a^2-5a+10}\\right )\\leq abc. \\]",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=176&year=2014&sid=ebdeeb3829122e94d65c321e5afb4f0d",
+    "image_tags": [],
+    "year": 2014,
+    "problem_number": 1
+},
+{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "USAJMO",
+    "problem_statement": "Let $ \\triangle{ABC} $ be a non-equilateral, acute triangle with $ \\angle A=60\\textdegrees $, and let $ O $ and $ H $ denote the circumcenter and orthocenter of $ \\triangle{ABC} $, respectively.(a) Prove that line $ OH $ intersects both segments $ AB $ and $ AC $.(b) Line $ OH $ intersects segments $ AB $ and $ AC $ at $ P $ and $ Q $, respectively. Denote by $ s $ and $ t $ the respective areas of triangle $ APQ $ and quadrilateral $ BPQC $. Determine the range of possible values for $ s/t $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=176&year=2014&sid=ebdeeb3829122e94d65c321e5afb4f0d",
+    "image_tags": [],
+    "year": 2014,
+    "problem_number": 2
+},
+{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "USAJMO",
+    "problem_statement": "Let $ \\mathbb{Z} $ be the set of integers. Find all functions $ f :\\mathbb{Z}\\rightarrow\\mathbb{Z} $ such that \\[ xf(2f(y)-x)+y^2f(2x-f(y))=\\frac{f(x)^2}{x}+f(yf(y)) \\] for all $ x, y\\in\\mathbb{Z} $ with $ x\\neq 0 $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=176&year=2014&sid=ebdeeb3829122e94d65c321e5afb4f0d",
+    "image_tags": [],
+    "year": 2014,
+    "problem_number": 3
+},
+{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "USAJMO",
+    "problem_statement": "Let $ b\\geq 2 $ be an integer, and let $ s_b(n) $ denote the sum of the digits of $ n $ when it is written in base $ b $.  Show that there are infinitely many positive integers that cannot be represented in the form $ n+s_b(n) $, where $ n $ is a positive integer.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=176&year=2014&sid=ebdeeb3829122e94d65c321e5afb4f0d",
+    "image_tags": [],
+    "year": 2014,
+    "problem_number": 4
+},
+{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "USAJMO",
+    "problem_statement": "Let $ k $ be a positive integer. Two players $ A $ and $ B $ play a game on an infinite grid of regular hexagons. Initially all the grid cells are empty. Then the players alternately take turns with $ A $ moving first. In his move, $ A $ may choose two adjacent hexagons in the grid which are empty and place a counter in both of them. In his move, $ B $ may choose any counter on the board and remove it. If at any time there are $ k $ consecutive grid cells in a line all of which contain a counter, $ A $ wins. Find the minimum value of $ k $ for which $ A $ cannot win in a finite number of moves, or prove that no such minimum value exists.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=176&year=2014&sid=ebdeeb3829122e94d65c321e5afb4f0d",
+    "image_tags": [],
+    "year": 2014,
+    "problem_number": 5
+},
+{
+    "source_name": "Art of Problem Solving",
+    "contest_name": "USAJMO",
+    "problem_statement": "Let $ ABC $ be a triangle with incenter $ I $, incircle $ \\gamma $ and circumcircle $ \\Gamma $.  Let $ M,N,P $ be the midpoints of sides $ \\overline{BC} $, $ \\overline{CA} $, $ \\overline{AB} $ and let $ E,F $ be the tangency points of $ \\gamma $ with $ \\overline{CA} $ and $ \\overline{AB} $, respectively.  Let $ U,V $ be the intersections of line $ EF $ with line $ MN $ and line $ MP $, respectively, and let $ X $ be the midpoint of arc $ BAC $ of $ \\Gamma $.(a) Prove that $ I $ lies on ray $ CV $.(b) Prove that line $ XI $ bisects $ \\overline{UV} $.",
+    "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=176&year=2014&sid=ebdeeb3829122e94d65c321e5afb4f0d",
+    "image_tags": [],
+    "year": 2014,
+    "problem_number": 6
+}]
