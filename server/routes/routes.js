@@ -35,7 +35,6 @@ router.post('/signup', passport.authenticate('local-signup'), function(req, res)
 
 // display signup page (handled client side)
 router.get('/signup',function(req, res) {
-    console.log('hi');
     res.sendFile(pathToIndex);
 });
 
