@@ -6,5 +6,10 @@ MathJax.Hub.Config({
       displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
       processEscapes: true
     },
-    "HTML-CSS": { availableFonts: ["TeX"] }
+    skipStartupTypeset: true,
+    messageStyle: "none",
+    "HTML-CSS": {
+        showMathMenu: false
+    }
   });
+MathJax.Hub.Configured();

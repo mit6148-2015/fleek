@@ -42,6 +42,11 @@ var app = angular.module('fleekApp', ['ngRoute'])
     $rootScope.$on( "$routeChangeStart", function(event, next, current) {
     	//set current variable to template (used in showing/hiding elements)
     	$rootScope.current = next.templateUrl;
+
+    	if (next.templateUrl == "/views/problem.html") {
+    		//attempt to load mathjax?
+			MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    	}
     	//check to see if user is authenticated
     	AuthService.getAuth()
 		.then( function(data) {
@@ -148,13 +153,10 @@ app.controller("problemController", function($scope,$routeParams,DataService) {
 		$scope.problem = data;
 		//if the problem is multiple choice, populate choices dictionary
 		if ($scope.problem.meta.response == "multipleChoice") {
-			console.log($scope.problem.response.numChoices);
 			for (i = 0; i < $scope.problem.response.numChoices; i++) {
 				$scope.choices[$scope.problem.response.keys[i]] = $scope.problem.response.choices[i];
 			}
 		}
-		//attempt to load mathjax?
-		MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
 	});
 	//validate integer responses
 	$scope.intValidate = function() {
@@ -244,14 +246,35 @@ app.directive('focusMe', function($timeout) {
 });
 
 //refresh mathjax on problem change
-//from http://blog.datacamp.com/mathjax-binding-in-angular-js
-app.directive('mathjax',function(){
-	return {
-		restrict: 'EA',
-		link: function(scope, element, attrs) {
-			scope.$watch(attrs.ngModel, function () {
-				MathJax.Hub.Queue(['Typeset',MathJax.Hub,element.get(0)]);
+//http://stackoverflow.com/questions/16087146/getting-mathjax-to-update-after-changes-to-angularjs-model
+app.directive("mathjaxBind", function() {
+    return {
+        restrict: "A",
+        scope:{
+            text: "@mathjaxBind"
+        },
+        controller: ["$scope", "$element", "$attrs", function($scope, $element, $attrs) {
+            $scope.$watch('text', function(value) {
+                var $script = angular.element("<script type='math/tex'>")
+                    .html(value == undefined ? "" : value);
+                $element.html("");
+                $element.append($script);
+                MathJax.Hub.Queue(["Reprocess", MathJax.Hub, $element[0]]);
             });
+        }]
+    };
+});
+app.directive('dynamic', function ($compile) {
+	return {
+		restrict: 'A',
+		replace: true,
+		link: function (scope, ele, attrs) {
+			scope.$watch(attrs.dynamic, function(html) {
+				html = html.replace(/\$\$([^$]+)\$\$/g, "<span class=\"blue\" mathjax-bind=\"$1\"></span>");
+				html = html.replace(/\$([^$]+)\$/g, "<span class=\"red\" mathjax-bind=\"$1\"></span>");                
+				ele.html(html);
+				$compile(ele.contents())(scope);
+			});
 		}
 	};
 });
