@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"is",
+				"isAuthenticated"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
 				"connected",
 				"connectedUUIDs"
 			],
@@ -147,6 +155,46 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "public/services/services.js",
+			"settings":
+			{
+				"buffer_size": 3745,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/controllers/controllers.js",
+			"settings":
+			{
+				"buffer_size": 5890,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/views/search.html",
+			"settings":
+			{
+				"buffer_size": 2407,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/views/problem.html",
+			"settings":
+			{
+				"buffer_size": 1520,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/views/index.html",
+			"settings":
+			{
+				"buffer_size": 1925,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -172,7 +220,42 @@
 	},
 	"file_history":
 	[
+		"/Users/kimberli/Desktop/Inbox – kimberlizhong@gmail.com.html",
+		"/Users/kimberli/Documents/fleek/server/models/prototypes/response.js",
+		"/Users/kimberli/Documents/fleek/public/views/nav-bar.html",
+		"/Users/kimberli/Documents/fleek/public/views/splash.html",
+		"/Users/kimberli/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/kimberli/Documents/fleek/public/views/login.html",
 		"/Users/kimberli/Documents/fleek/public/views/index.html",
+		"/Users/kimberli/Documents/fleek/server/controllers/searchProblems.js",
+		"/Users/kimberli/Documents/fleek/server/models/problem.js",
+		"/Users/kimberli/Documents/fleek/scraping/addToDatabase/usamo.js",
+		"/Users/kimberli/Documents/fleek/scraping/addToDatabase/amc8answers.js",
+		"/Users/kimberli/Documents/fleek/scraping/addToDatabase/amc8.js",
+		"/Users/kimberli/Documents/fleek/scraping/addToDatabase/aimeanswers.js",
+		"/Users/kimberli/Documents/fleek/scraping/addToDatabase/aime.js",
+		"/Users/kimberli/Documents/fleek/public/config/mathjax-config.js",
+		"/Users/kimberli/Documents/fleek/public/views/signup.html",
+		"/Users/kimberli/Documents/fleek/public/services/services.js",
+		"/Users/kimberli/Documents/fleek/public/controllers/controllers.js",
+		"/Users/kimberli/Documents/fleek/public/assets/css/custom.css",
+		"/Users/kimberli/Documents/fleek/public/assets/js/main.js",
+		"/Users/kimberli/Documents/fleek/public/views/problem.html",
+		"/Users/kimberli/Documents/fleek/public/views/search.html",
+		"/Users/kimberli/Documents/fleek/public/assets/css/bootstrap.min.css",
+		"/Users/kimberli/Documents/fleek/public/assets/css/bootstrap.css",
+		"/Users/kimberli/Documents/fleek/package.json",
+		"/Users/kimberli/Documents/fleek/public/assets/countries.json",
+		"/Users/kimberli/Documents/fleek/app.js",
+		"/Users/kimberli/Documents/fleek/server/routes/routes.js",
+		"/Users/kimberli/Documents/fleek/public/assets/js/bootstrap.min.js",
+		"/Users/kimberli/Documents/fleek/public/assets/css/bootstrap-theme.css",
+		"/Users/kimberli/Documents/fleek/public/views/404.html",
+		"/Users/kimberli/Documents/fleek/public/assets/css/main.css",
+		"/Users/kimberli/Documents/fleek/public/assets/js/vendor/modernizr-2.6.2.min.js",
+		"/Users/kimberli/Documents/fleek/public/assets/css/style.css",
+		"/Users/kimberli/Documents/fleek/public/humans.txt",
+		"/Users/kimberli/Documents/fleek/public/robots.txt",
 		"/Users/kimberli/Documents/fxdgr/collabserver/sqlalchemy/docs/sqlalchemy.md",
 		"/Users/kimberli/Documents/fxdgr/collabserver/server/static/js/TileController.js",
 		"/Users/kimberli/Documents/fxdgr/collabserver/server/static/js/Tile.js",
@@ -257,7 +340,6 @@
 		"/Users/kimberli/Google Drive/College/14-15 Academic/6.01/designLab10/parkingBrain.py",
 		"/Users/kimberli/Google Drive/College/14-15 Academic/6.01/swLab10/localizeBrain.py",
 		"/Users/kimberli/Google Drive/College/14-15 Academic/6.01/hw10/catskeyboards.py",
-		"/Users/kimberli/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/kimberli/Desktop/slurp.keys",
 		"/Users/kimberli/Desktop/slurp.keys.xml",
 		"/Users/kimberli/Google Drive/College/14-15 Academic/6.01/hw08/circuit.py",
@@ -265,41 +347,7 @@
 		"/Users/kimberli/Google Drive/College/14-15 Academic/6.01/swLab09/dist.py",
 		"/Users/kimberli/Google Drive/College/14-15 Academic/6.01/hw09/hall.py",
 		"/Users/kimberli/Google Drive/College/14-15 Academic/6.01/hw09/distributions.py",
-		"/Users/kimberli/Google Drive/College/14-15 Academic/6.01/hw09/alphas.py",
-		"/Users/kimberli/Desktop/php-snapchat-master/src/snapchat_agent.php",
-		"/Users/kimberli/Desktop/php-snapchat-master/test.php",
-		"/Users/kimberli/Desktop/test.php",
-		"/Users/kimberli/Google Drive/College/14-15 Academic/6.01/hw09/circuit.py",
-		"/Users/kimberli/Google Drive/College/14-15 Academic/6.01/hw09/opamp.py",
-		"/Users/kimberli/Google Drive/College/14-15 Academic/6.01/hw09/temp.py",
-		"/Users/kimberli/Google Drive/College/14-15 Academic/6.01/hw09/thevenin.py",
-		"/Users/kimberli/Google Drive/College/14-15 Academic/6.01/designLab08/wallFollowLightBrain.py",
-		"/Users/kimberli/Google Drive/College/14-15 Academic/6.01/designLab04/wallFollowerBrain.py",
-		"/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/soar/outputs/pioneer.py",
-		"/Users/kimberli/Desktop/txt",
-		"/Users/kimberli/Google Drive/College/14-15 Academic/6.01/designLab05/potInputBrain.py",
-		"/Users/kimberli/Google Drive/College/14-15 Academic/6.01/hw04/optimization/optimize.py",
-		"/Users/kimberli/Google Drive/College/14-15 Academic/6.01/hw04/optimization/rl.py",
-		"/Users/kimberli/Google Drive/College/14-15 Academic/6.01/hw04/hw.py",
-		"/Users/kimberli/Google Drive/College/14-15 Academic/6.01/swLab03/sf.py",
-		"/Users/kimberli/Google Drive/College/14-15 Academic/6.01/designLab04/wallFollowerModel.py",
-		"/Users/kimberli/Google Drive/College/14-15 Academic/6.01/swLab04/wallFollowerAngleModel.py",
-		"/Users/kimberli/Google Drive/College/14-15 Academic/6.01/hw03/hw2.py",
-		"/Users/kimberli/Google Drive/College/14-15 Academic/6.01/swLab04/wallFollowerAngleBrain.py",
-		"/Users/kimberli/Google Drive/College/14-15 Academic/6.01/hw03/hw.py",
-		"/Users/kimberli/Google Drive/College/14-15 Academic/6.01/designLab03/wallFollowerBrain.py",
-		"/Users/kimberli/Google Drive/College/14-15 Academic/6.01/designLab02/sm.py",
-		"/Users/kimberli/Google Drive/College/14-15 Academic/6.01/designLab03/wallFollowerModel.py",
-		"/Users/kimberli/Desktop/designLab02/sm.py",
-		"/Users/kimberli/Documents/personal_site/index.html",
-		"/Users/kimberli/Documents/personal_site/assets/css/style.css",
-		"/Users/kimberli/Desktop/designLab02/wallFinderModel.py",
-		"/Users/kimberli/Desktop/ribosome_data.py",
-		"/Users/kimberli/Desktop/601.py",
-		"/Users/kimberli/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
-		"/Users/kimberli/Documents/test.py",
-		"/Users/kimberli/Documents/personal_site/java.html",
-		"/Users/kimberli/Documents/personal_site/assets/js/script.js"
+		"/Users/kimberli/Google Drive/College/14-15 Academic/6.01/hw09/alphas.py"
 	],
 	"find":
 	{
@@ -317,6 +365,31 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			" class=\"dropdown_ele\"",
+			"collapse",
+			"data-toggle=\"collapse\" data-target=\"#nav-collapse\"",
+			"isAuthenticated()",
+			"authcheck",
+			"auth",
+			"/assets",
+			"authen",
+			"font-family",
+			"font-face",
+			"url",
+			"dropdown-menu",
+			": ",
+			", ",
+			"'",
+			"code",
+			"name",
+			"@media",
+			"font-face",
+			"font-family",
+			"font",
+			"open sans",
+			"#",
+			"navbar",
+			"navbar-right",
 			"print",
 			"obj['page",
 			"obj['session",
@@ -405,6 +478,15 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
+			"auth",
+			"",
+			"font-url",
+			":",
+			",",
+			"\"",
+			"\"code\"",
+			"\"name\"",
 			"WebSocketChatHandler",
 			"WebSocketChatHandler.M.",
 			"_obj",
@@ -424,8 +506,144 @@
 	"groups":
 	[
 		{
+			"selected": 4,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "public/services/services.js",
+					"settings":
+					{
+						"buffer_size": 3745,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3692,
+								3692
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1264.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/controllers/controllers.js",
+					"settings":
+					{
+						"buffer_size": 5890,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3836,
+								3836
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1652.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/views/search.html",
+					"settings":
+					{
+						"buffer_size": 2407,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1008,
+								917
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/views/problem.html",
+					"settings":
+					{
+						"buffer_size": 1520,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								392,
+								392
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "public/views/index.html",
+					"settings":
+					{
+						"buffer_size": 1925,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								898,
+								898
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -435,7 +653,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 33.0
 	},
 	"layout":
 	{
@@ -489,6 +707,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 231.0,
 	"status_bar_visible": true
 }
