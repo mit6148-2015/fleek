@@ -12,7 +12,7 @@ var Problem = require('../../server/models/problem');
 
 // load data from JSON file
 var fs = require('fs');
-var data = JSON.parse(fs.readFileSync('../asy_getters/aime_probs_asy.json', 'utf8'));
+var data = JSON.parse(fs.readFileSync('../../scraping/asy_getters/usajmo_probs_asy.json', 'utf8'));
 
 function doItFor(index) {
     var curdatum = data[index];
@@ -30,14 +30,14 @@ function doItFor(index) {
     }
     
     Problem.create({
-        meta: new problemMeta.aime(curdatum.year, curdatum.name_modifier, curdatum.problem_number),
+        meta: new problemMeta.usajmo(curdatum.year, curdatum.problem_number),
         source: {
             name: curdatum.source_name,
             url: curdatum.source_link,
         },
         statement: curdatum.problem_statement,
         attachments: asyAttachments,
-        response: new response.integerAnswer(-1)
+        response: new response.noResponse()
     });
 
     index++;
@@ -45,7 +45,7 @@ function doItFor(index) {
         doItFor(index);
     } else {
         mongoose.disconnect();
-        console.log('Done! Added ' + index + ' documents.');
+        console.log('Added ' + index + ' documents for USAJMO.');
     }
 
 }

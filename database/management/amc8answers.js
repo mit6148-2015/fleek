@@ -12,7 +12,7 @@ var Problem = require('../../server/models/problem');
 
 // load data from JSON file
 var fs = require('fs');
-var data = JSON.parse(fs.readFileSync('../answers/amc10_answers.json', 'utf8'));
+var data = JSON.parse(fs.readFileSync('../../scraping/answers/amc8_answers.json', 'utf8'));
 
 var counter = 0;
 
@@ -21,7 +21,7 @@ function doItFor (index, pnum) {
     var curdatum = data[index];
     var setInstance = (String(curdatum.year) + " " + String(curdatum.name_modifier)).trim();
     
-    Problem.findOne({ 'meta.setPattern' : 'AMC 10', 'meta.setInstance' : setInstance, 'meta.setIndex' : pnum }, function (err, problem){
+    Problem.findOne({ 'meta.setPattern' : 'AMC 8', 'meta.setInstance' : setInstance, 'meta.setIndex' : pnum }, function (err, problem){
         if (err)
             console.log(err);
 
@@ -53,7 +53,7 @@ function doItFor (index, pnum) {
             doItFor(index, pnum);
         } else {
             mongoose.disconnect();
-            console.log('Done! Added ' + counter + ' answers.');
+            console.log('Added ' + counter + ' answers for AMC 8.');
         }
 
     });
