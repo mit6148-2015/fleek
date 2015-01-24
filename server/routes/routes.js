@@ -48,13 +48,13 @@ router.post('/login', passport.authenticate('local-login'), function(req, res) {
 
 
 // display login page (handled client side)
-router.get('/login',function(req, res) {
+router.get('/login', function(req, res) {
     res.sendFile(pathToIndex);
 });
 
 
 // logout via Passport
-router.get('/logout', function(req, res) {
+router.get('/logout', auth, function(req, res) {
     req.logout();
     console.log('Logout successful');
     res.send('Logout successful');
@@ -65,7 +65,7 @@ router.get('/logout', function(req, res) {
 // authorization via Passport
 router.get('/auth', auth, function(req, res) {
     console.log('Authorization successful');
-    res.send('Authorization successful');
+    res.send(req.user.username);
 });
 
 
