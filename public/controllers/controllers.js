@@ -40,19 +40,6 @@ var app = angular.module('fleekApp', ['ngRoute'])
 .run(function($rootScope, $location, $routeParams, AuthService) {
     //watch for route changes and redirect accordingly
     $rootScope.$on( "$routeChangeStart", function(event, next, current) {
-    	//if there's a previous page, store that in rootScope.previous
-    	if (current){
-	    	$rootScope.previous = current.$$route.originalPath;
-    		$rootScope.previous = $rootScope.previous.replace(":searchQuery",$routeParams.searchQuery);
-    		$rootScope.previous = $rootScope.previous.replace(":problemId",$routeParams.problemId);
-    	}
-    	else {
-	    	//if there isn't a previous page and the current page is a problem, set previous page to /search
-	    	if (next.templateUrl == '/views/problem.html') {
-	    		$rootScope.previous = '/search';
-	    		// MathJax.Hub.Queue(['Typeset',MathJax.Hub]);
-	    	}
-	    }
     	//set current variable to template (used in showing/hiding elements)
     	$rootScope.current = next.templateUrl;
     	//check to see if user is authenticated
@@ -83,6 +70,7 @@ app.controller("pageController", function ($scope, $rootScope, $location, AuthSe
 	$rootScope.userLoggedIn = null; //only used to display buttons and stuff
 	$rootScope.restrictedTemplates = ['/views/problem.html','/views/search.html']; //unauthorized users can't see these
 	$rootScope.loginTemplates = ['/views/login.html','/views/signup.html']; //authorized users can't see these
+	$rootScope.previousSearch = null;
 
 	//function to log out
 	$scope.logout = function() {
@@ -151,14 +139,39 @@ app.controller("signupController", function($scope,$rootScope,$location,AuthServ
 //problem view controller - add stuff here later
 app.controller("problemController", function($scope,$routeParams,DataService) {
 	$scope.problem = null;
+	$scope.choices = {};
+	$scope.correct = false;
+	$scope.incorrect = false;
+	//send a GET request for the problem data
 	DataService.getProblem($routeParams.problemId)
 	.then (function(data) {
 		$scope.problem = data;
+		//if the problem is multiple choice, populate choices dictionary
+		if ($scope.problem.meta.response == "multipleChoice") {
+			console.log($scope.problem.response.numChoices);
+			for (i = 0; i < $scope.problem.response.numChoices; i++) {
+				$scope.choices[$scope.problem.response.keys[i]] = $scope.problem.response.choices[i];
+			}
+		}
+		//attempt to load mathjax?
+		MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
 	});
-	$scope.correct = false;
-	$scope.incorrect = false;
+	//validate integer responses
 	$scope.intValidate = function() {
 		if ($scope.intResponse == parseInt($scope.problem.response.answer)) {
+			$scope.incorrect = false;
+			$scope.correct = true;
+			console.log("answer correct!");
+		}
+		else {
+			$scope.correct = false;
+			$scope.incorrect = true;
+			console.log("answer incorrect");
+		}
+	}
+	//validate multiple choice responses
+	$scope.multiValidate = function(choice) {
+		if (choice == $scope.problem.response.correctIndex) {
 			$scope.incorrect = false;
 			$scope.correct = true;
 			console.log("answer correct!");
@@ -172,8 +185,10 @@ app.controller("problemController", function($scope,$routeParams,DataService) {
 });
 
 //search view controller - add stuff here later
-app.controller("searchController", function($scope,$routeParams,$location,DataService) {
-	$scope.searchQuery = $routeParams.searchQuery
+app.controller("searchController", function($scope,$rootScope,$routeParams,$location,DataService) {
+	$scope.searchQuery = $routeParams.searchQuery;
+	$rootScope.searchHistory = $scope.searchQuery;
+	$scope.predicate = 'meta.setPattern';
 	//data for form validation
 	$scope.minYear = 1950;
 	$scope.maxDate = Date.now();

@@ -1,0 +1,1365 @@
+$ ./makeSVG.sh 
+ahsme_1
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_10
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_100
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_101
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_102
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_103
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_104
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_105
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_106
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_107
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_108
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_109
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_11
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_110
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_111
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_112
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_113
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_114
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_115
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_116
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_117
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_118
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_119
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_12
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_120
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_121
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_122
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_123
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_124
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_125
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_126
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_127
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_128
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_129
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_13
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_130
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_131
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_132
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_133
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_134
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_135
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_136
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_137
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_138
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_139
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_14
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_140
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_141
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_142
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_143
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_144
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_145
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_146
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_147
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_148
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_149
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_15
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_150
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_151
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_152
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_153
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_154
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_155
+./asyfiles/ahsme_155.asy: 4.12: no matching variable 'pathpen'
+ahsme_156
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_157
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_158
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_159
+./asyfiles/ahsme_159.asy: 4.1: no matching variable 'pathpen'
+ahsme_16
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_160
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_161
+ahsme_162
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_163
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_164
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_165
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_166
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_167
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_168
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_169
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_17
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_170
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_171
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_172
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_18
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_19
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_2
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_20
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_21
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_22
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_23
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_24
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_25
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_26
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_27
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_28
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_29
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_3
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_30
+./asyfiles/ahsme_30.asy: 4.215: no matching variable 'MP'
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_31
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_32
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_33
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_34
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_35
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_36
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_37
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_38
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_39
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_4
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_40
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_41
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_42
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_43
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_44
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_45
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_46
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_47
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_48
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_49
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_5
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_50
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_51
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_52
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_53
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_54
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_55
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_56
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_57
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_58
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_59
+ahsme_6
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_60
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_61
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_62
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_63
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_64
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_65
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_66
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_67
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_68
+ahsme_69
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_7
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_70
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_71
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_72
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_73
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_74
+ahsme_75
+ahsme_76
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_77
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_78
+./asyfiles/ahsme_78.asy: 4.278: warning: implicit scaling may be unintentional
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_79
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_8
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_80
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_81
+./asyfiles/ahsme_81.asy: 4.434: cannot call
+'transform rotate(real angle, pair z=<default>)'
+with parameter '(guide)'
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_82
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_83
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_84
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_85
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_86
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_87
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 1 PostScript special ignored. The resulting SVG might look wrong.
+ahsme_88
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_89
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_9
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_90
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_91
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_92
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_93
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_94
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_95
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_96
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_97
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_98
+processing of PostScript specials is disabled (Ghostscript not found)
+ahsme_99
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_1
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_10
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_11
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_12
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_13
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_14
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_15
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_16
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_17
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_18
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_19
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_2
+./asyfiles/aime_2.asy: 4.24: no matching variable 'pathpen'
+aime_20
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_21
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_22
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_23
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_24
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_25
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_26
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_27
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_28
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_29
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_3
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_30
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_31
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_32
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_33
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_34
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_35
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_36
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_37
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_38
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 2 PostScript specials ignored. The resulting SVG might look wrong.
+aime_39
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_4
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_40
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_41
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_42
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_43
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_44
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_45
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_46
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_47
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_48
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_49
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_5
+./asyfiles/aime_5.asy: 4.11: no matching variable 'pathpen'
+aime_50
+aime_6
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_7
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_8
+processing of PostScript specials is disabled (Ghostscript not found)
+aime_9
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_1
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_10
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_100
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_101
+amc10_11
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_12
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_13
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_14
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_15
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_16
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_17
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_18
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_19
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_2
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_20
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 4 PostScript specials ignored. The resulting SVG might look wrong.
+amc10_21
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_22
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_23
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_24
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_25
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_26
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_27
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_28
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_29
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_3
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_30
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_31
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_32
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_33
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_34
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_35
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_36
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_37
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_38
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_39
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_4
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_40
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_41
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_42
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_43
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_44
+./asyfiles/amc10_44.asy: 4.38: no matching variable 'D'
+amc10_45
+./asyfiles/amc10_45.asy: 4.12: no matching variable 'pointpen'
+amc10_46
+./asyfiles/amc10_46.asy: 4.57: no matching variable 'D'
+amc10_47
+./asyfiles/amc10_47.asy: 4.28: no matching variable 'pointpen'
+amc10_48
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_49
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_5
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_50
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_51
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_52
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_53
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_54
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_55
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_56
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_57
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_58
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_59
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_6
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_60
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_61
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_62
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_63
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_64
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 1 PostScript special ignored. The resulting SVG might look wrong.
+amc10_65
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_66
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_67
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_68
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_69
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_7
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_70
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_71
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_72
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_73
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_74
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_75
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 4 PostScript specials ignored. The resulting SVG might look wrong.
+amc10_76
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_77
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_78
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_79
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_8
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_80
+./asyfiles/amc10_80.asy: 4.1: no matching variable 'pathpen'
+amc10_81
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_82
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_83
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_84
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_85
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_86
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_87
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_88
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_89
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_9
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_90
+./asyfiles/amc10_90.asy: 4.14: no matching variable 'pathpen'
+amc10_91
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_92
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_93
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_94
+amc10_95
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_96
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_97
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_98
+processing of PostScript specials is disabled (Ghostscript not found)
+amc10_99
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_1
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_10
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_11
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_12
+amc12_13
+amc12_14
+amc12_15
+amc12_16
+amc12_17
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_18
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_19
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_2
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_20
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_21
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_22
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 4 PostScript specials ignored. The resulting SVG might look wrong.
+amc12_23
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_24
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_25
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_26
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_27
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_28
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_29
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_3
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_30
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_31
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_32
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_33
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_34
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_35
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_36
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_37
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_38
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_39
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_4
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_40
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 1 PostScript special ignored. The resulting SVG might look wrong.
+amc12_41
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_42
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_43
+./asyfiles/amc12_43.asy: 4.12: no matching variable 'pointpen'
+amc12_44
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_45
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_46
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_47
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_48
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_49
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_5
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 1 PostScript special ignored. The resulting SVG might look wrong.
+amc12_50
+./asyfiles/amc12_50.asy: 4.1: no matching variable 'pointpen'
+amc12_51
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_52
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_53
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_54
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_55
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_56
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_57
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_58
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_59
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_6
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_60
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_61
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 4 PostScript specials ignored. The resulting SVG might look wrong.
+amc12_62
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_63
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_64
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_65
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_66
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_67
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_68
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_69
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_7
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_70
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_71
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_72
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_73
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 1 PostScript special ignored. The resulting SVG might look wrong.
+amc12_74
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_75
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_76
+amc12_77
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_8
+processing of PostScript specials is disabled (Ghostscript not found)
+amc12_9
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_1
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_10
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 8 PostScript specials ignored. The resulting SVG might look wrong.
+amc8_100
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_101
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_102
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 4 PostScript specials ignored. The resulting SVG might look wrong.
+amc8_103
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_104
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_105
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_106
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_107
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_108
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 2 PostScript specials ignored. The resulting SVG might look wrong.
+amc8_109
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_11
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_110
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_111
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_112
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_113
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_114
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_115
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_116
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_117
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_118
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_119
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_12
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_120
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_121
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_122
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_123
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_124
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_125
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_126
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_127
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_128
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_129
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 10 PostScript specials ignored. The resulting SVG might look wrong.
+amc8_13
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_130
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 2 PostScript specials ignored. The resulting SVG might look wrong.
+amc8_131
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 54 PostScript specials ignored. The resulting SVG might look wrong.
+amc8_132
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 54 PostScript specials ignored. The resulting SVG might look wrong.
+amc8_133
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 54 PostScript specials ignored. The resulting SVG might look wrong.
+amc8_134
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_135
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_136
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 14 PostScript specials ignored. The resulting SVG might look wrong.
+amc8_137
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 12 PostScript specials ignored. The resulting SVG might look wrong.
+amc8_138
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_139
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_14
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_140
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_141
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_142
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_143
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_144
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_145
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_146
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_147
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_148
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_149
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_15
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_150
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_151
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_152
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_153
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 1 PostScript special ignored. The resulting SVG might look wrong.
+amc8_154
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_155
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 2 PostScript specials ignored. The resulting SVG might look wrong.
+amc8_156
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_157
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_158
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_159
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_16
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_160
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_161
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_162
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_163
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_164
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_165
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 2 PostScript specials ignored. The resulting SVG might look wrong.
+amc8_166
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 2 PostScript specials ignored. The resulting SVG might look wrong.
+amc8_167
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 2 PostScript specials ignored. The resulting SVG might look wrong.
+amc8_168
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 2 PostScript specials ignored. The resulting SVG might look wrong.
+amc8_169
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 2 PostScript specials ignored. The resulting SVG might look wrong.
+amc8_17
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_170
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_171
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_172
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_173
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_174
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_175
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 2 PostScript specials ignored. The resulting SVG might look wrong.
+amc8_176
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 2 PostScript specials ignored. The resulting SVG might look wrong.
+amc8_177
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 2 PostScript specials ignored. The resulting SVG might look wrong.
+amc8_178
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 2 PostScript specials ignored. The resulting SVG might look wrong.
+amc8_179
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 2 PostScript specials ignored. The resulting SVG might look wrong.
+amc8_18
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_180
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_181
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_182
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_183
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_184
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_185
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 14 PostScript specials ignored. The resulting SVG might look wrong.
+amc8_186
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_187
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_188
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_189
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_19
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_190
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_191
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_192
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_193
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_194
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_195
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_196
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_197
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_198
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_199
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_2
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_20
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_200
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_201
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_202
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 10 PostScript specials ignored. The resulting SVG might look wrong.
+amc8_203
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_204
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_205
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_206
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_207
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_208
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_209
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_21
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_210
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_211
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_212
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_213
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_214
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_215
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_216
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_217
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_218
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 1 PostScript special ignored. The resulting SVG might look wrong.
+amc8_219
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_22
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_220
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_221
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_222
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_223
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_224
+./asyfiles/amc8_224.asy: 4.80: call of function 'Ticks(Label, real, real)' is ambiguous
+amc8_225
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_226
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_227
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 4 PostScript specials ignored. The resulting SVG might look wrong.
+amc8_228
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_229
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_23
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_230
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_231
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_232
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_233
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_234
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 1 PostScript special ignored. The resulting SVG might look wrong.
+amc8_235
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 1 PostScript special ignored. The resulting SVG might look wrong.
+amc8_236
+./asyfiles/amc8_236.asy: 4.42: no matching variable 'pathpen'
+amc8_237
+/usr/local/share/asymptote/plain_strings.asy: 124.36: invalid cast from string "2pt"
+amc8_238
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_239
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_24
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_240
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_241
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_242
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_243
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_244
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_245
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_246
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_247
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_248
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_249
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_25
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_250
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_251
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_252
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_253
+amc8_254
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_255
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_256
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_257
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_258
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_259
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_26
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_260
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_261
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_262
+./asyfiles/amc8_262.asy: 4.13: no matching variable 'pathpen'
+amc8_27
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_28
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_29
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_3
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_30
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_31
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_32
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_33
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_34
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_35
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_36
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_37
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_38
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 2 PostScript specials ignored. The resulting SVG might look wrong.
+amc8_39
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_4
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_40
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_41
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_42
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_43
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_44
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_45
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_46
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_47
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_48
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_49
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_5
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_50
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_51
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_52
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_53
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_54
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_55
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_56
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_57
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_58
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_59
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_6
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_60
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_61
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_62
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_63
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_64
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_65
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_66
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_67
+processing of PostScript specials is disabled (Ghostscript not found)
+WARNING: 16 PostScript specials ignored. The resulting SVG might look wrong.
+amc8_68
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_69
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_7
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_70
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_71
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_72
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_73
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_74
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_75
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_76
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_77
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_78
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_79
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_8
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_80
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_81
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_82
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_83
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_84
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_85
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_86
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_87
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_88
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_89
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_9
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_90
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_91
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_92
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_93
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_94
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_95
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_96
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_97
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_98
+processing of PostScript specials is disabled (Ghostscript not found)
+amc8_99
+processing of PostScript specials is disabled (Ghostscript not found)
+putnam_1
+processing of PostScript specials is disabled (Ghostscript not found)
+putnam_2
+./asyfiles/putnam_2.asy: 4.485: call of function 'Ticks(Label, int Step, int Size, <overloaded>)' is ambiguous
+./asyfiles/putnam_2.asy: 4.513: use of variable 'NoZero' is ambiguous
+usamo_1
+processing of PostScript specials is disabled (Ghostscript not found)
+usamo_2
+usamo_3
+./asyfiles/usamo_3.asy: 4.12: no matching variable 'pathpen'

@@ -6,13 +6,11 @@ function searchProblems (req, res) {
     startYear = String(req.query.startYear);
     endYear = String(req.query.endYear);
 
-    if (queryText) {
+    if (req.query.queryText=="undefined") {
         textSearch = {$text: { $search: queryText }};
-        console.log('nah');
     }
     else {
         textSearch = {};
-        console.log('ayy');
     }
 
     // make sure setPatterns is an array

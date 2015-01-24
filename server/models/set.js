@@ -3,7 +3,7 @@ var ObjectId = mongoose.Schema.Types.ObjectId;
 
 // define schema for set model
 var setSchema = mongoose.Schema({
-    meta: {}, // source, contest, etc... will come from ./prototypes/set-meta.js as object or schema
+    meta: {}, // metadata object constructor comes from ./prototypes/setMeta.js
     problems: [{type: ObjectId, ref: 'Problem'}]
 });
 
