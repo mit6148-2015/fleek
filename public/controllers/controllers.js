@@ -188,6 +188,7 @@ app.controller("problemController", function($scope,$routeParams,DataService) {
 app.controller("searchController", function($scope,$rootScope,$routeParams,$location,DataService) {
 	$scope.searchQuery = $routeParams.searchQuery;
 	$rootScope.searchHistory = $scope.searchQuery;
+	$scope.predicate = 'meta.setPattern';
 	//data for form validation
 	$scope.minYear = 1950;
 	$scope.maxDate = Date.now();
