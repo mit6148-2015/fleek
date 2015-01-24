@@ -26,12 +26,17 @@ var app = angular.module('fleekApp', ['ngRoute'])
 	        templateUrl: '/views/problem.html',
 	        controller: 'problemController'
 	    })
+	    .when('/profile/:userId', {
+	        templateUrl: '/views/profile.html',
+	        controller: 'profileController'
+	    })
 	    .otherwise({
 	        redirectTo: '/'
 	    });
     //remove # from URL
     $locationProvider.html5Mode(true);
 }])
+
 .run(function($rootScope, $location, $routeParams, AuthService) {
     //watch for route changes and redirect accordingly
     $rootScope.$on( "$routeChangeStart", function(event, next, current) {
@@ -45,6 +50,7 @@ var app = angular.module('fleekApp', ['ngRoute'])
 	    	//if there isn't a previous page and the current page is a problem, set previous page to /search
 	    	if (next.templateUrl == '/views/problem.html') {
 	    		$rootScope.previous = '/search';
+	    		// MathJax.Hub.Queue(['Typeset',MathJax.Hub]);
 	    	}
 	    }
     	//set current variable to template (used in showing/hiding elements)
@@ -67,7 +73,7 @@ var app = angular.module('fleekApp', ['ngRoute'])
 					$location.path( "/login" );
 				}
 			}
-			console.log('logged in user: '+ $rootScope.userLoggedIn + ', current template: ' + $rootScope.current);
+			// console.log('logged in user: '+ $rootScope.userLoggedIn + ', current template: ' + $rootScope.current);
 		});
 	});
 });
@@ -144,7 +150,11 @@ app.controller("signupController", function($scope,$rootScope,$location,AuthServ
 
 //problem view controller - add stuff here later
 app.controller("problemController", function($scope,$routeParams,DataService) {
-	$scope.problem = DataService.getProblem($routeParams.problemId);
+	$scope.problem = null;
+	DataService.getProblem($routeParams.problemId)
+	.then (function(data) {
+		$scope.problem = data;
+	});
 	$scope.correct = false;
 	$scope.incorrect = false;
 	$scope.intValidate = function() {
@@ -177,11 +187,6 @@ app.controller("searchController", function($scope,$routeParams,$location,DataSe
 	for (var key in $scope.contests) {
 		$scope.contestList.push(key);
 	}
-	// //use a service to send information to problem controller
-	// $scope.setProb = function(contest,year,number,ansType,sources,statement,ans) {
-	// 	ProblemService.setProblem(contest,year,number,ansType,sources,statement,ans);
-	// 	$scope.setView("/views/problem.html");
-	// }
 	//on page load, send GET request for search results
 	$scope.search = function(){
 		var list = []
@@ -203,6 +208,10 @@ app.controller("searchController", function($scope,$routeParams,$location,DataSe
 	$scope.submit = function() {
 		$location.path('/search/'+$scope.searchQuery);
 	}
+});
+
+//profile view controller - add stuff here later
+app.controller("profileController", function($scope,$routeParams,$location) {
 });
 
 //focus elements
