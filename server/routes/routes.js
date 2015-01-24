@@ -70,15 +70,23 @@ router.get('/auth', auth, function(req, res) {
 
 
 // search database
-router.get('/search', auth, searchProblems, function(req, res) {
+router.get('/search/*', auth, function(req, res) {
     res.sendFile(pathToIndex);
 });
+
+
+// to be fixed
+router.get('/GETsearch', auth, searchProblems);
 
 
 // get problem by pid
-router.get('/problem', auth, problemById, function(req, res) {
+router.get('/problem/*', auth, function(req, res) {
     res.sendFile(pathToIndex);
 });
+
+
+// to be fixed
+router.get('/GETproblem', auth, problemById);
 
 
 // provides list of countries for signup
