@@ -53,7 +53,7 @@ def readPagesAIME(year):
 			out_file.write(",\n")
 
 # Use the main function to get the AIME problems for any year.
-if __name__ == '__main__':
+s
 	currind = 1
 	out_file.write("[\n")
  	year = 1983
