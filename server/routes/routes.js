@@ -29,10 +29,23 @@ router.post('/signup', passport.authenticate('local-signup'), function(req, res)
 });
 
 
+// display signup page (handled client side)
+router.get('/signup',function(req, res) {
+    res.sendFile('../../public/views/index.html');
+});
+
+
 // login via Passport
 router.post('/login', passport.authenticate('local-login'), function(req, res) {
     console.log('Login successful');
     res.send('Login successful');
+    res.sendFile('../../public/views/index.html');
+});
+
+
+// display login page (handled client side)
+router.get('/login',function(req, res) {
+    res.sendFile('../../public/views/index.html');
 });
 
 
@@ -41,6 +54,7 @@ router.get('/logout', function(req, res) {
     req.logout();
     console.log('Logout successful');
     res.send('Logout successful');
+    res.sendFile('../../public/views/index.html');
 });
 
 
@@ -52,11 +66,15 @@ router.get('/auth', auth, function(req, res) {
 
 
 // search database
-router.get('/search', auth, searchProblems);
+router.get('/search', auth, searchProblems, function(req, res) {
+    res.sendFile('../../public/views/index.html');
+});
 
 
 // get problem by pid
-router.get('/problem', auth, problemById);
+router.get('/problem', auth, problemById, function(req, res) {
+    res.sendFile('../../public/views/index.html');
+});
 
 
 // provides list of countries for signup
