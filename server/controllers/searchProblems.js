@@ -1,17 +1,18 @@
 var Problem = require('../models/problem');
 
 function searchProblems (req, res) {
-    queryText = '\"' + req.query.queryText + '\"';
+    queryText = req.query.queryText;
     setPatterns = req.query.contests;
     startYear = String(req.query.startYear);
     endYear = String(req.query.endYear);
 
-    if (req.query.queryText=="undefined") {
-        textSearch = {$text: { $search: queryText }};
-    }
-    else {
-        textSearch = {};
-    }
+    // if (req.query.queryText==="undefined") {
+    //     textSearch = {};
+    // }
+    // else {
+    //     textSearch = {$text: { $search: queryText }};
+    // }
+    textSearch = {$text: { $search: queryText }};
 
     // make sure setPatterns is an array
     if (Object.prototype.toString.call(setPatterns) === "[object String]")
