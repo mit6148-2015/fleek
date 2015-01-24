@@ -2,7 +2,7 @@ setMeta = {};
 
 
 // should all follow this format:
-// setMeta['setPattern'] = function (instance, numProblems) {}
+// setMeta['pattern'] = function (instance, numProblems) {}
 
 
 setMeta['AMC 8'] = function (instance, numProblems) {
@@ -13,7 +13,7 @@ setMeta['AMC 8'] = function (instance, numProblems) {
         this.name = String(year) + ' AMC 8'; // 2000 AMC 8
     }
     this.pattern = 'AMC 8';
-    this.instance = String(setInstance);
+    this.instance = String(instance);
     this.numProblems = parseInt(numProblems);
     this.keys = [];
     for(var num = 1; num <= numProblems; num++) {
@@ -24,7 +24,7 @@ setMeta['AMC 8'] = function (instance, numProblems) {
 
 
 setMeta['AMC 10'] = function (instance, numProblems) {
-    var modifierList = instance.split(' ');
+    var modifierList = String(instance).split(' ');
     var year = parseInt(modifierList[0]);
     if (modifierList.length == 2) {
         this.name = String(year) + ' AMC 10' + modifierList[1]; // 2010 AMC 10A
@@ -43,7 +43,7 @@ setMeta['AMC 10'] = function (instance, numProblems) {
 
 
 setMeta['AMC 12'] = function (instance, numProblems) {
-    var modifierList = instance.split(' ');
+    var modifierList = String(instance).split(' ');
     var year = parseInt(modifierList[0]);
     if (year < 2000) {
         this.name = String(year) + ' AHSME' + modifierList[1]; // 1990 AHSME
@@ -54,9 +54,8 @@ setMeta['AMC 12'] = function (instance, numProblems) {
             this.name = String(year) + ' AMC 12'; // 2000 AMC 12
         }
     }
-    this.name = 'AMC 12' + ' ' + String(year);
-    this.pattern = 'AMC 8';
-    this.instance = String(setInstance);
+    this.pattern = 'AMC 10';
+    this.instance = String(instance);
     this.numProblems = parseInt(numProblems);
     this.keys = [];
     for(var num = 1; num <= numProblems; num++) {
@@ -66,8 +65,8 @@ setMeta['AMC 12'] = function (instance, numProblems) {
 };
 
 
-setMeta['AIME'] = function (year, setInstance, numProblems) {
-    var modifierList = instance.split(' ');
+setMeta['AIME'] = function (instance, numProblems) {
+    var modifierList = String(instance).split(' ');
     var year = parseInt(modifierList[0]);
     if (modifierList.length == 2) {
         this.name = String(year) + ' AIME' + modifierList[1]; // 2010 AIME I
@@ -85,7 +84,8 @@ setMeta['AIME'] = function (year, setInstance, numProblems) {
 };
 
 
-setMeta['USAMO'] = function (year, instance, numProblems) {
+setMeta['USAMO'] = function (instance, numProblems) {
+    var year = parseInt(instance);
     this.name = String(year) + ' USAMO'; // 2010 USAMO
     this.pattern = 'USAMO';
     this.instance = String(instance);
@@ -98,7 +98,8 @@ setMeta['USAMO'] = function (year, instance, numProblems) {
 };
 
 
-setMeta['USAJMO'] = function (year, instance, numProblems) {
+setMeta['USAJMO'] = function (instance, numProblems) {
+    var year = parseInt(instance);
     this.name = String(year) + ' USAJMO'; // 2010 USAJMO
     this.pattern = 'USAJMO';
     this.instance = String(instance);
@@ -111,7 +112,8 @@ setMeta['USAJMO'] = function (year, instance, numProblems) {
 };
 
 
-setMeta['Putnam'] = function (year, instance, numProblems) {
+setMeta['Putnam'] = function (instance, numProblems) {
+    var year = parseInt(instance);
     this.name = String(year) + ' Putnam'; // 2010 Putnam
     this.pattern = 'Putnam';
     this.instance = String(instance);

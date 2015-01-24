@@ -1,0 +1,2 @@
+{ "_id" : { "$oid" : "54c304f3d561ed6175f970d4" }, "tag" : "tags" }
+{ "_id" : { "$oid" : "54c3050fd561ed6175f970d5" }, "tag" : "tag2", "parentTag" : { "$oid" : "54c304f3d561ed6175f970d4" } }

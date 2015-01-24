@@ -53,9 +53,9 @@ problemMeta['putnam'] = function (year, portion, problemNumber) {
     this.setPattern = 'Putnam';
     this.setInstance = String(year);
     if (portion === 'B') {
-        this.setIndex = parseInt(problemNumber)+5;
+        this.setIndex = parseInt(problemNumber) + 5;
     } else { // portion is A, or missing
-        this.setIndex = parseInt(problemNumber)-1;
+        this.setIndex = parseInt(problemNumber) - 1;
     }
     this.response = 'noResponse';
 };
