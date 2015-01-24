@@ -16,9 +16,13 @@ var searchProblems = require('../controllers/searchProblems');
 var problemById = require('../controllers/problemById');
 
 
+// important paths
+var pathToIndex = path.join(__dirname, '../../public/views/index.html')
+
+
 // landing page
 router.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, '../../public/views/index.html'));
+    res.sendFile(pathToIndex);
 });
 
 
@@ -31,7 +35,8 @@ router.post('/signup', passport.authenticate('local-signup'), function(req, res)
 
 // display signup page (handled client side)
 router.get('/signup',function(req, res) {
-    res.sendFile('../../public/views/index.html');
+    console.log('hi');
+    res.sendFile(pathToIndex);
 });
 
 
@@ -39,13 +44,13 @@ router.get('/signup',function(req, res) {
 router.post('/login', passport.authenticate('local-login'), function(req, res) {
     console.log('Login successful');
     res.send('Login successful');
-    res.sendFile('../../public/views/index.html');
+    res.sendFile(pathToIndex);
 });
 
 
 // display login page (handled client side)
 router.get('/login',function(req, res) {
-    res.sendFile('../../public/views/index.html');
+    res.sendFile(pathToIndex);
 });
 
 
@@ -54,7 +59,7 @@ router.get('/logout', function(req, res) {
     req.logout();
     console.log('Logout successful');
     res.send('Logout successful');
-    res.sendFile('../../public/views/index.html');
+    res.sendFile(pathToIndex);
 });
 
 
@@ -67,13 +72,13 @@ router.get('/auth', auth, function(req, res) {
 
 // search database
 router.get('/search', auth, searchProblems, function(req, res) {
-    res.sendFile('../../public/views/index.html');
+    res.sendFile(pathToIndex);
 });
 
 
 // get problem by pid
 router.get('/problem', auth, problemById, function(req, res) {
-    res.sendFile('../../public/views/index.html');
+    res.sendFile(pathToIndex);
 });
 
 
