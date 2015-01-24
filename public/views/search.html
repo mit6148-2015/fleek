@@ -1,7 +1,7 @@
 <div id="search-container" class="page-fill">
 	<div id="search" class="col-sm-6 col-sm-offset-3">
 		<h2>fleek</h2>
-		<form name="searchForm" class="row" novalidate>
+		<form name="searchForm" novalidate>
 			<div class="form-group">
 				<div class="input-group">
 					<input focus-me="current=='/views/search.html'" type="text" class="form-control" ng-model="searchQuery" placeholder="search"></input>
@@ -25,7 +25,7 @@
 				</div>
 			</div>
 		</form>
-		<div class="row">
+		<div>
 			<p class="text-right">Problems found: {{results.length}}</p>
 			<div class="table-responsive">
 				<table id="search-results" class="table">

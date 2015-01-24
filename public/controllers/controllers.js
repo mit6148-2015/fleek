@@ -42,11 +42,6 @@ var app = angular.module('fleekApp', ['ngRoute'])
     $rootScope.$on( "$routeChangeStart", function(event, next, current) {
     	//set current variable to template (used in showing/hiding elements)
     	$rootScope.current = next.templateUrl;
-
-    	if (next.templateUrl == "/views/problem.html") {
-    		//attempt to load mathjax?
-			MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
-    	}
     	//check to see if user is authenticated
     	AuthService.getAuth()
 		.then( function(data) {
