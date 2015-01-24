@@ -1,0 +1,151 @@
+
+    {
+        "math": [
+            "algebra",
+            "geometry",
+            "combinatorics",
+            "number theory",
+            "proofs",
+            "arithmetic",
+            "logic"
+        ],
+        "algebra": [
+            "functions",
+            "exponents",
+            "logarithms",
+            "trigonometry",
+            "equations",
+            "polynomials",
+            "bases",
+            "arithmetic sequences",
+            "geometric series",
+            "coordinates"
+        ],
+        "bases": [
+            "binary"
+        ],
+        "equations": [
+            "quadratic",
+            "proportions",
+            "linear equations",
+            "diophantine equations",
+            "recursion"
+        ],
+        "recursion": [
+            "fibnoacci numbers"
+        ],
+        "trigonometry": [
+            "sine",
+            "cosine",
+            "tangent",
+            "trigonmetric identites",
+            "law of cosines",
+            "law of sines"
+        ],
+        "trigonometric identities": [
+            "trigonometry addition formula",
+            "double angle formula"
+        ],
+        "functions": [
+            "cubics",
+            "quartics",
+            "quadratic",
+            "domain",
+            "range",
+            "floor function",
+            "ceiling function"
+        ],
+        "polynomials": [
+            "cubics",
+            "quartics",
+            "quadratic",
+            "roots",
+            "vieta's formulas",
+            "factoring",
+            "binomial theorem"
+        ],
+        "geometry": [
+            "2D geometry",
+            "3D Geometry",
+            "analytic geometry",
+            "area",
+            "perimeter",
+            "angles",
+            "congruence",
+            "geometric probability"
+        ],
+        "combinatorics": [
+            "counting",
+            "probability"
+        ],
+        "probability": [
+            "geometric probability"
+        ],
+        "counting": [
+            "permutations",
+            "combinations",
+            "complementary counting",
+            "constructive counting",
+            "casework counting",
+            "PIE",
+            "Venn Diagrams"
+        ],
+        "3D Geometry": [
+            "cubes",
+            "pyramids",
+            "cones",
+            "prisms",
+            "spheres"
+        ],
+        "2D geometry": [
+            "polygons",
+            "circles"
+        ],
+        "polygons": [
+            "triangles",
+            "quadrilaterals",
+            "pentagons",
+            "hexagons",
+            "octagons"
+        ],
+        "triangle": [
+            "triangle centers",
+            "similar triangles",
+            "pythagorean theorem"
+        ],
+        "quadrilaterals": [
+            "cyclic quadrilaterals",
+            "squares",
+            "rhombus",
+            "kite"
+        ],
+        "circle": [
+            "arcs",
+            "chords",
+            "power of a point",
+            "sectors",
+            "incircle",
+            "circumcircle"
+        ],
+        "number theory": [
+            "prime numbers",
+            "modular arithmetic",
+            "divisors",
+            "factors",
+            "bases",
+            "diophantine equations",
+            "binomial theorem"
+        ],
+        "factors": [
+            "greatest common divisor",
+            "number of divisors"
+        ],
+        "modular arithmetic": [
+            "remainders",
+            "chinese remainder theorem"
+        ],
+        "proofs": [
+            "induction",
+            "proof by contradiction"
+        ]
+    }

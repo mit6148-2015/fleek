@@ -1,10 +1,10 @@
 <div id="search-container" class="page-fill">
-	<div id="search" class="col-sm-6 col-sm-offset-3" ng-controller="searchController">
+	<div id="search" class="col-sm-6 col-sm-offset-3">
 		<h2>fleek</h2>
 		<form name="searchForm" class="row" novalidate>
 			<div class="form-group">
 				<div class="input-group">
-					<input focus-me="current=='/views/search.html'" type="text" class="form-control" ng-model="text" placeholder="search"></input>
+					<input focus-me="current=='/views/search.html'" type="text" class="form-control" ng-model="searchQuery" placeholder="search"></input>
 					<span class="input-group-btn">
 						<button class="btn btn-primary" type="submit" ng-disabled="searchForm.$invalid" ng-click="submit()">Go</button>
 					</span>
@@ -40,7 +40,7 @@
 					<tr ng-repeat="result in results">
 						<td>{{result.meta.setPattern}}</td>
 						<td>{{result.meta.setInstance}}</td>
-						<td><a href ng-click="setProb(result.meta.setPattern,result.meta.setInstance,result.meta.setIndex+1,result.meta.response,result.source,result.statement,result.response)">#{{result.meta.setIndex+1}}</a></td>
+						<td><a href="/problem/{{result._id}}">#{{result.meta.setIndex+1}}</a></td>
 						<td>{{result.meta.response}}</td>
 					</tr>
 				</table>

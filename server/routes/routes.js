@@ -14,12 +14,11 @@ mongoose.connect(dbConfig.uri);
 var auth = require('../controllers/authorize');
 var searchProblems = require('../controllers/searchProblems');
 var problemById = require('../controllers/problemById');
+var returnIndex = require('../controllers/returnIndex');
 
 
 // landing page
-router.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, '../../public/views/index.html'));
-});
+router.get('/', returnIndex);
 
 
 // signup via Passport
@@ -29,6 +28,10 @@ router.post('/signup', passport.authenticate('local-signup'), function(req, res)
 });
 
 
+// handled client-side
+router.get('/signup', returnIndex);
+
+
 // login via Passport
 router.post('/login', passport.authenticate('local-login'), function(req, res) {
     console.log('Login successful');
@@ -36,8 +39,12 @@ router.post('/login', passport.authenticate('local-login'), function(req, res) {
 });
 
 
+// handled client-side
+router.get('/login', returnIndex);
+
+
 // logout via Passport
-router.get('/logout', function(req, res) {
+router.get('/logout', auth, function(req, res) {
     req.logout();
     console.log('Logout successful');
     res.send('Logout successful');
@@ -47,16 +54,26 @@ router.get('/logout', function(req, res) {
 // authorization via Passport
 router.get('/auth', auth, function(req, res) {
     console.log('Authorization successful');
-    res.send('Authorization successful');
+    res.send(req.user.username);
 });
 
 
-// search database
-router.get('/search', auth, searchProblems);
+// handled client-side
+router.get('/search', returnIndex);
+router.get('/search/*', returnIndex);
 
 
-// get problem by pid
-router.get('/problem', auth, problemById);
+// to be fixed
+router.get('/GETsearch', auth, searchProblems);
+
+
+// handled client-side
+router.get('/problem', returnIndex);
+router.get('/problem/*', returnIndex);
+
+
+// to be fixed
+router.get('/GETproblem', auth, problemById);
 
 
 // provides list of countries for signup

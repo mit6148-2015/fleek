@@ -4,7 +4,7 @@ var ObjectId = mongoose.Schema.Types.ObjectId;
 // define schema for team model
 var teamSchema = mongoose.Schema({
     name: String,
-    memberIds: [{type: ObjectId, ref: 'User'}]
+    members: [{type: ObjectId, ref: 'User'}]
 });
 
 // export model

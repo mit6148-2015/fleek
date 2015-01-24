@@ -5,8 +5,11 @@ var ObjectId = mongoose.Schema.Types.ObjectId;
 // define schema for tag model
 var tagSchema = mongoose.Schema({
     tag: String,
-    parentTagId: {type: ObjectId, ref: 'Tag'}
+    parentTags: [{type: ObjectId, ref: 'Tag'}]
 });
+
+/*
+functions to be rewritten with new parentTagId
 
 
 // checks for cylce in parent-child relations of tags (should never be allowed to exist)
@@ -137,7 +140,7 @@ tagSchema.methods.descendants = function() {
 
     return descendantTags;
 }
-
+*/
 
 // export model
 module.exports = mongoose.model('Tag', tagSchema);

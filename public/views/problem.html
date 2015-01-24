@@ -1,15 +1,15 @@
 <div id="problem-container" class="page-fill">
-	<div id="problem" class="col-sm-6 col-sm-offset-3" ng-controller="problemController">
+	<div id="problem" class="col-sm-6 col-sm-offset-3">
 		<h2>fleek</h2>
-		<a href ng-click="setView('/views/search.html')">Back to Search</a>
-		<h3>{{problem.contest}}</h3><h4> {{problem.year}}  #{{problem.number}}</h4>
+		<a href="{{previous}}">Back to Search</a>
+		<h3>{{problem.meta.setPattern}}</h3><h4> {{problem.meta.setInstance}}  #{{problem.meta.setIndex+1}}</h4>
 		<p mathjax> {{problem.statement}}</p>
 		<div style="color: #fff;">{{problem.response}}</div>
-		<form name="intProblemForm" ng-show="problem.answerType == 'integerAnswer'" novalidate>
+		<form name="intProblemForm" ng-show="problem.meta.response == 'integerAnswer'" novalidate>
 			<div class="form-group">
 				<div class="control-group" ng-class="{'has-error':intProblemForm.intResponse.$invalid}">
 					<div class="input-group">
-						<input focus-me="current=='/views/problem.html'" type="number" class="form-control" ng-model="intResponse" name="intResponse" placeholder="answer"></input>
+						<input focus-me="current=='/views/problem.html'" type="number" class="form-control" ng-model="intResponse" name="intResponse" placeholder="answer" ng-disabled="correct"></input>
 						<span class="input-group-btn">
 							<button class="btn btn-primary" type="submit" ng-disabled="intProblemForm.$invalid" ng-click="intValidate()">Go</button>
 						</span>

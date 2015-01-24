@@ -6,10 +6,14 @@ function searchProblems (req, res) {
     startYear = String(req.query.startYear);
     endYear = String(req.query.endYear);
 
-    if (queryText)
+    if (queryText) {
         textSearch = {$text: { $search: queryText }};
-    else
+        console.log('nah');
+    }
+    else {
         textSearch = {};
+        console.log('ayy');
+    }
 
     // make sure setPatterns is an array
     if (Object.prototype.toString.call(setPatterns) === "[object String]")
