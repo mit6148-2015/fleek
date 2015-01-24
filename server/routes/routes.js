@@ -47,6 +47,7 @@ router.get('/login', returnIndex);
 router.get('/logout', auth, function(req, res) {
     req.logout();
     console.log('Logout successful');
+    res.send('Logout successful');
 });
 
 
