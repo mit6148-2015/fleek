@@ -3,7 +3,7 @@
 		<h2>fleek</h2>
 		<a href="{{previous}}">Back to Search</a>
 		<h3>{{problem.meta.setPattern}}</h3><h4> {{problem.meta.setInstance}}  #{{problem.meta.setIndex+1}}</h4>
-		<p mathjax> {{problem.statement}}</p>
+		<p> {{problem.statement}}</p>
 		<div style="color: #fff;">{{problem.response}}</div>
 		<form name="intProblemForm" ng-show="problem.meta.response == 'integerAnswer'" novalidate>
 			<div class="form-group">
@@ -17,6 +17,9 @@
 				</div>
 			</div>
 		</form>
+		<div ng-repeat="(key,answer) in choices" ng-show="problem.meta.response == 'multipleChoice'">
+			<button class="btn btn-primary answer-choice" ng-click="multiValidate($index)" ng-disabled="correct">{{key}}</button> {{answer}}
+		</div>
 		<div class="alert alert-success alert-dismissible" role="alert" ng-show="correct">
 			<button type="button" class="close" ng-click="correct = false" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 			Correct!
