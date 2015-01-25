@@ -15,7 +15,7 @@ function reportProblem(req, res) {
 
             fs.close(fid);
         })
-    }
+    });
 }
 
 module.exports = reportProblem;
