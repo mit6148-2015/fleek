@@ -16,6 +16,9 @@ angular.module('fleekApp').controller("searchController", function($scope,$rootS
 	for (var key in $scope.contests) {
 		$scope.contestList.push(key);
 	}
+	$scope.goTo = function(pid) {
+		$location.path('/problem/'+pid);
+	}
 	//on page load, send GET request for search results
 	$scope.search = function(){
 		var list = []
