@@ -20,6 +20,8 @@ var queryUsers = require('../controllers/queryUsers');
 var queryProblems = require('../controllers/queryProblems');
 var querySets = require('../controllers/querySets');
 
+var reportProblem = require('../controllers/reportProblem');
+
 
 
 /***** PAGES (HANDLED CLIENT SIDE) *****/
@@ -80,6 +82,7 @@ router.get('/auth', auth, function(req, res) {
 });
 
 
+
 /***** DATABASE INTERACTION *****/
 
 // database retrieval
@@ -93,17 +96,7 @@ router.get('/db/query/problems', auth, queryProblems); // check searchProblems.j
 router.get('/db/query/sets', auth, queryProblems); // check searchProblems.js for I/O
 
 // receiving information
-// router.post('/post/userstats', auth, userStats);
-// router.post('/post/bugreport', auth, bugReport);
-
-
-
-/***** SERVING STATIC CONTENT *****/
-
-// provides list of countries for signup
-router.get('/public/assets/countries.json', function(req, res) {
-    res.sendFile(path.join(__dirname, '../../public/assets/countries.json'));
-});
+router.post('/report', auth, reportProblem); // pass problem ID as 'id', responds with same id after storing
 
 
 
