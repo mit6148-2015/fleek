@@ -51,3 +51,6 @@ input::-webkit-inner-spin-button {
 	width: 35px;
 	margin-bottom: 5px;
 }
+.navbar-brand {
+	font-size: 200%;
+}
