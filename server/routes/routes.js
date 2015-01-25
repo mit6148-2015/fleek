@@ -10,11 +10,11 @@ mongoose.connect(dbConfig.uri);
 
 // controllers
 var returnIndex = require('../controllers/returnIndex');
-var auth = require('../controllers/authorize');
+var auth = require('../controllers/auth');
 var userById = require('../controllers/userById');
 var problemById = require('../controllers/problemById');
 var setById = require('../controllers/setById');
-var searchProblems = require('../controllers/searchProblems');
+var queryProblems = require('../controllers/queryProblems');
 
 
 
@@ -24,17 +24,28 @@ var searchProblems = require('../controllers/searchProblems');
 // landing page
 router.get('/', returnIndex);
 
-// signup view (handled client-side)
+// signup page
 router.get('/signup', returnIndex);
 
-// login view (handled client-side)
+// login page
 router.get('/login', returnIndex);
 
-// single problem view (handled client-side)
+// about page
+router.get('/about', returnIndex);
+
+// view profile
+router.get('/profile', returnIndex);
+router.get('/profile/*', returnIndex);
+
+// view single problem
 router.get('/problem', returnIndex);
 router.get('/problem/*', returnIndex);
 
-// problem search view (handled client-side)
+// view single set
+router.get('/set', returnIndex);
+router.get('/set/*', returnIndex);
+
+// problem search
 router.get('/search', returnIndex);
 router.get('/search/*', returnIndex);
 
@@ -77,7 +88,7 @@ router.get('/db/problem', auth, problemById); // pass ID as 'id' parameter, resp
 router.get('/db/set', auth, setById); // pass ID as 'id' parameter, responds with set object
 
 // handles problem querying
-router.get('/db/query/problems', auth, searchProblems); // check searchProblems.js for I/O
+router.get('/db/query/problems', auth, queryProblems); // check searchProblems.js for I/O
 
 
 

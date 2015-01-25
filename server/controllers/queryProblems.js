@@ -1,6 +1,14 @@
 var Problem = require('../models/problem');
 
-function searchProblems (req, res) {
+function queryProblems (req, res) {
+
+/*
+    res.send(req.query.test1);
+    console.log(req.query.test2);
+*/
+
+
+    
     queryText = req.query.queryText;
     setPatterns = req.query.contests;
     startYear = String(req.query.startYear);
@@ -28,6 +36,7 @@ function searchProblems (req, res) {
 
         res.send(problems);
     });
+    
 };
 
-module.exports = searchProblems;
+module.exports = queryProblems;
