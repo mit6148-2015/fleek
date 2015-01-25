@@ -12,6 +12,7 @@ node ./aimeanswers.js
 node ./usajmo.js
 node ./usamo.js
 node ./putnam.js
+node ./scibowl.js
 echo 'Filling sets collection...'
 node ./addSetsFromProblems.js
 echo 'Done!'

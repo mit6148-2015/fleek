@@ -124,13 +124,10 @@ setMeta['Putnam'] = function (instance, numProblems) {
 
 
 setMeta['Science Bowl'] = function (instance, numProblems) {
-    var year = parseInt(instance);
-    this.name = String(year) + ' Putnam'; // 2010 Putnam
-    this.pattern = 'Putnam';
+    this.name = 'Science Bowl: ' + String(instance);
+    this.pattern = 'Science Bowl';
     this.instance = String(instance);
     this.numProblems = parseInt(numProblems);
-    this.keys = ['A1','A2','A3','A4','A5','A6','B1','B2','B3','B4','B5','B6'];
-    this.response = 'noResponse';
 };
 
 
