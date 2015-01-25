@@ -32,7 +32,7 @@ def getSciBowl(fileNum, setNum, roundNum):
 			answer = q.answer.get_text()
 		set_name = "NSB Sample Set " + str(setNum)
 		round_num = "Round " + str(roundNum)
-		data = {"contest_name":"National Science Bowl", "set_name":set_name, "round":round_num, "question_type":qtype, "question_level":level,"problem_number":num, "problem_statement":question, "choice_names":choice_names, "choices":choices, "answer": answer, "source_name":"National Science Bowl", "source_link":"http://science.energy.gov/wdts/nsb/high-school/high-school-regionals/hs-rules-forms-resources/sample-science-bowl-questions/"}
+		data = {"contest_name":"National Science Bowl", "subject":subject, "set_name":set_name, "round":round_num, "question_type":qtype, "question_level":level,"problem_number":num, "problem_statement":question, "choice_names":choice_names, "choices":choices, "answer": answer, "source_name":"National Science Bowl", "source_link":"http://science.energy.gov/wdts/nsb/high-school/high-school-regionals/hs-rules-forms-resources/sample-science-bowl-questions/"}
 		json.dump(data,out_file, indent=4, separators=(',', ': ')) 
 		out_file.write(",\n")
 
