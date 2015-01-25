@@ -47,7 +47,7 @@ if __name__ == '__main__':
 	x = 201
 	while x < 218:
 		print("Doing Set 2 Round " + str(x-200)+"...")
-		getSciBowl(x,1,x-200)
+		getSciBowl(x,2,x-200)
 		x = x + 1
 	out_file.write("]\n")
 	
