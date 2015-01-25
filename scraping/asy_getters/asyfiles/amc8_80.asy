@@ -1,4 +1,5 @@
 settings.outformat="svg";
 import olympiad;
+unitsize(15);
 
 unitsize(12);for(int i = 1; i <= 7; ++i){draw((0,i)--(19,i),dotted);draw((-0.5,i)--(0.5,i));}for(int i = 0; i <= 5; ++i){draw((3*i+2,0)--(3*i+2,-0.5));}fill((1,0)--(1,2)--(3,2)--(3,0)--cycle,white);fill((4,0)--(4,1)--(6,1)--(6,0)--cycle,white);fill((7,0)--(7,2)--(9,2)--(9,0)--cycle,white);fill((10,0)--(10,2)--(12,2)--(12,0)--cycle,white);fill((13,0)--(13,6)--(15,6)--(15,0)--cycle,white);draw((0,9)--(0,0)--(19,0));draw((1,0)--(1,2)--(3,2)--(3,0));draw((4,0)--(4,1)--(6,1)--(6,0));draw((7,0)--(7,2)--(9,2)--(9,0));draw((10,0)--(10,2)--(12,2)--(12,0));draw((13,0)--(13,6)--(15,6)--(15,0));label("$1$",(2,-0.5),S);label("$2$",(5,-0.5),S);label("$3$",(8,-0.5),S);label("$4$",(11,-0.5),S);label("$5$",(14,-0.5),S);label("$6$",(17,-0.5),S);label("$2$",(-0.5,2),W);label("$4$",(-0.5,4),W);label("$6$",(-0.5,6),W);label("$\textbf{Number of Children}$",(9,-1.5),S);label("$\textbf{in the Family}$",(9,-2.5),S);label("$\textbf{Number}$",(-1.5,6),W);label("$\textbf{of}$",(-3,5),W);label("$\textbf{Families}$",(-1.5,4),W);

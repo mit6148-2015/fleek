@@ -67,7 +67,7 @@ def asyToImage(asy, tag):
 	fileName = "asyfiles/"+ tag + ".asy"
 	asyfile = open(fileName,"w")
 	asy = asy.strip()
-	s = "settings.outformat=\"svg\";\nimport olympiad;\n\n"
+	s = "settings.outformat=\"svg\";\nimport olympiad;\nunitsize(15);\n\n"
 	asyfile.write(s)
 	asyfile.write(asy[5:-6])
 	#shellstring = "/usr/local/bin/asy ./asyfiles/" + tag + ".asy -o ./imagefiles/" + tag + ".svg"

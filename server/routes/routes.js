@@ -41,11 +41,9 @@ router.get('/profile', returnIndex);
 router.get('/profile/*', returnIndex);
 
 // view single problem
-router.get('/problem', returnIndex);
 router.get('/problem/*', returnIndex);
 
 // view single set
-router.get('/set', returnIndex);
 router.get('/set/*', returnIndex);
 
 // problem search
