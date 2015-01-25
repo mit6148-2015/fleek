@@ -13,6 +13,10 @@ node ./usajmo.js
 node ./usamo.js
 node ./putnam.js
 node ./scibowl.js
+echo 'Exporting problems JSON...'
+mongoexport --db fleekdb --collection problems --out ../collections/problems.json
 echo 'Filling sets collection...'
 node ./addSetsFromProblems.js
+echo 'Exporting sets JSON...'
+mongoexport --db fleekdb --collection sets --out ../collections/sets.json
 echo 'Done!'
