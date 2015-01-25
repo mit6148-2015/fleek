@@ -56,7 +56,7 @@ def getAsy(prob, contest, tagArray):
 		y = prob.index("[/asy]") + 6
 		tag = contest + "_" + str(imageIndex)
 		tagArray = tagArray + [tag]
-		imageTag = " [svg] " + tag + " [/svg] "
+		imageTag = " <img src=\"/assets/img/" + tag + ".svg\" class=\"problem-img\"> "
 		imageIndex = imageIndex + 1
 		asyCode = prob[x:y]
 		asyToImage(asyCode, tag)

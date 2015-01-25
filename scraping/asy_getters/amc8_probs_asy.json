@@ -77,7 +77,7 @@
         "$74$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The area of polygon $ ABCDEF $, in square units, is\n\n [svg] amc8_1 [/svg] ",
+    "problem_statement": "The area of polygon $ ABCDEF $, in square units, is\n\n <img src=\"/assets/img/amc8_1.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1985&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -102,7 +102,7 @@
         "$\\frac{9}{10}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] amc8_2 [/svg] \n\nThe bar graph shows the grades in a mathematics class for the last grading period.  If A, B, C, and D are satisfactory grades, what fraction of the grades shown in the graph are satisfactory?",
+    "problem_statement": " <img src=\"/assets/img/amc8_2.svg\" class=\"problem-img\"> \n\nThe bar graph shows the grades in a mathematics class for the last grading period.  If A, B, C, and D are satisfactory grades, what fraction of the grades shown in the graph are satisfactory?",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1985&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -150,7 +150,7 @@
         "$38$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] amc8_3 [/svg] \n\nA \"stair-step\" figure is made up of alternating black and white squares in each row.  Rows $ 1 $ through $ 4 $ are shown.  All rows begin and end with a white square.  The number of black squares in the $ 37 $th row is",
+    "problem_statement": " <img src=\"/assets/img/amc8_3.svg\" class=\"problem-img\"> \n\nA \"stair-step\" figure is made up of alternating black and white squares in each row.  Rows $ 1 $ through $ 4 $ are shown.  All rows begin and end with a white square.  The number of black squares in the $ 37 $th row is",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1985&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -244,7 +244,7 @@
         "$\\text{Y}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] amc8_4 [/svg] \n\nA piece of paper containing six joined squares labeled as shown in the diagram is folded along the edges of the squares to form a cube.  The label of the face opposite the face labeled $ \\text{X} $ is:",
+    "problem_statement": " <img src=\"/assets/img/amc8_4.svg\" class=\"problem-img\"> \n\nA piece of paper containing six joined squares labeled as shown in the diagram is folded along the edges of the squares to form a cube.  The label of the face opposite the face labeled $ \\text{X} $ is:",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1985&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -545,7 +545,7 @@
         "$40$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] amc8_5 [/svg] \n\nIn a magic triangle, each of the six whole numbers $ 10-15 $ is placed in one of the circles so that the sum, $ S $, of the three numbers on each side of the triangle is the same.  The largest possible value for $ S $ is",
+    "problem_statement": " <img src=\"/assets/img/amc8_5.svg\" class=\"problem-img\"> \n\nIn a magic triangle, each of the six whole numbers $ 10-15 $ is placed in one of the circles so that the sum, $ S $, of the three numbers on each side of the triangle is the same.  The largest possible value for $ S $ is",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1985&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -570,7 +570,7 @@
         "$\\text{Q}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] amc8_6 [/svg] \n\nFive cards are lying on a table as shown.  Each card has a letter on one side and a whole number on the other side.  Jane said, \"If a vowel is on one side of any card, then an even number is on the other side.\"  Mary showed Jane was wrong by turning over one card.  Which card did Mary turn over?",
+    "problem_statement": " <img src=\"/assets/img/amc8_6.svg\" class=\"problem-img\"> \n\nFive cards are lying on a table as shown.  Each card has a letter on one side and a whole number on the other side.  Jane said, \"If a vowel is on one side of any card, then an even number is on the other side.\"  Mary showed Jane was wrong by turning over one card.  Which card did Mary turn over?",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1985&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -767,7 +767,7 @@
         "$6$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] amc8_7 [/svg] \n\nUsing only the paths and the directions shown, how many different routes are there from $ M $ to $ N $?",
+    "problem_statement": " <img src=\"/assets/img/amc8_7.svg\" class=\"problem-img\"> \n\nUsing only the paths and the directions shown, how many different routes are there from $ M $ to $ N $?",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1986&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -838,7 +838,7 @@
         "$50\\%$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] amc8_8 [/svg] \n\nThe table displays the grade distribution of the $ 30 $ students in a mathematics class on the last two tests.  For example, exactly one student received a \"D\" on Test 1 and a \"C\" on Test 2.  What percent of the students received the same grade on both tests?",
+    "problem_statement": " <img src=\"/assets/img/amc8_8.svg\" class=\"problem-img\"> \n\nThe table displays the grade distribution of the $ 30 $ students in a mathematics class on the last two tests.  For example, exactly one student received a \"D\" on Test 1 and a \"C\" on Test 2.  What percent of the students received the same grade on both tests?",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1986&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -863,7 +863,7 @@
         "$\\text{cannot be determined from the information given}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] amc8_9 [/svg] \n\nGiven that all angles shown are marked, the perimeter of the polygon shown is",
+    "problem_statement": " <img src=\"/assets/img/amc8_9.svg\" class=\"problem-img\"> \n\nGiven that all angles shown are marked, the perimeter of the polygon shown is",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1986&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -934,7 +934,7 @@
         "$4.5$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] amc8_10 [/svg] \n\nA bar graph shows the number of hamburgers sold by a fast food chain each season.  However, the bar indicating the number sold during the winter is covered by a smudge.  If exactly $ 25\\% $ of the chain's hamburgers are sold in the fall, how many million hamburgers are sold in the winter?",
+    "problem_statement": " <img src=\"/assets/img/amc8_10.svg\" class=\"problem-img\"> \n\nA bar graph shows the number of hamburgers sold by a fast food chain each season.  However, the bar indicating the number sold during the winter is covered by a smudge.  If exactly $ 25\\% $ of the chain's hamburgers are sold in the fall, how many million hamburgers are sold in the winter?",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1986&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -1051,7 +1051,7 @@
         "$6$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] amc8_11 [/svg] \n\nSuppose one of the eight lettered identical squares is included with the four squares in the T-shaped figure outlined.  How many of the resulting figures can be folded into a topless cubical box?",
+    "problem_statement": " <img src=\"/assets/img/amc8_11.svg\" class=\"problem-img\"> \n\nSuppose one of the eight lettered identical squares is included with the four squares in the T-shaped figure outlined.  How many of the resulting figures can be folded into a topless cubical box?",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1986&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -1099,7 +1099,7 @@
         "$\\text{cannot be determined from the information given}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] amc8_12 [/svg] \n\nThe large circle has diameter $ \\overline{AC} $.  The two small circles have their centers on $ \\overline{AC} $ and just touch at $ O $, the center of the large circle.  If each small circle has radius $ 1 $, what is the value of the ratio of the area of the shaded region to the area of one of the small circles?",
+    "problem_statement": " <img src=\"/assets/img/amc8_12.svg\" class=\"problem-img\"> \n\nThe large circle has diameter $ \\overline{AC} $.  The two small circles have their centers on $ \\overline{AC} $ and just touch at $ O $, the center of the large circle.  If each small circle has radius $ 1 $, what is the value of the ratio of the area of the shaded region to the area of one of the small circles?",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1986&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -1256,7 +1256,7 @@
         "$\\text{4.22 m}^2$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The area of the rectangular region is  [svg] amc8_13 [/svg] ",
+    "problem_statement": "The area of the rectangular region is  <img src=\"/assets/img/amc8_13.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1987&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -1304,7 +1304,7 @@
         "$24$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The large cube shown is made up of $ 27 $ identical sized smaller cubes.  For each face of the large cube, the opposite face is shaded the same way.  The total number of smaller cubes that must have at least one face shaded is  [svg] amc8_14 [/svg] ",
+    "problem_statement": "The large cube shown is made up of $ 27 $ identical sized smaller cubes.  For each face of the large cube, the opposite face is shaded the same way.  The total number of smaller cubes that must have at least one face shaded is  <img src=\"/assets/img/amc8_14.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1987&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -1421,7 +1421,7 @@
         "$\\frac{1}3$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "What fraction of the large $ 12 $ by $ 18 $ rectangular region is shaded? [svg] amc8_15 [/svg] ",
+    "problem_statement": "What fraction of the large $ 12 $ by $ 18 $ rectangular region is shaded? <img src=\"/assets/img/amc8_15.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1987&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -1653,7 +1653,7 @@
         "$8\\text{ and }9$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "$ \\text{ABCD} $ is a rectangle, $ \\text{D} $ is the center of the circle, and $ \\text{B} $ is on the circle.  If $ \\text{AD}=4 $ and $ \\text{CD}=3 $, then the area of the shaded region is between [svg] amc8_16 [/svg] ",
+    "problem_statement": "$ \\text{ABCD} $ is a rectangle, $ \\text{D} $ is the center of the circle, and $ \\text{B} $ is on the circle.  If $ \\text{AD}=4 $ and $ \\text{CD}=3 $, then the area of the shaded region is between <img src=\"/assets/img/amc8_16.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1987&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -1747,7 +1747,7 @@
         "$10.6$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The diagram shows part of a scale of a measuring device. The arrow indicates an approximate reading of  [svg] amc8_17 [/svg] ",
+    "problem_statement": "The diagram shows part of a scale of a measuring device. The arrow indicates an approximate reading of  <img src=\"/assets/img/amc8_17.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1988&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -1818,7 +1818,7 @@
         "$11$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The figure consists of alternating light and dark squares. The number of dark squares exceeds the number of light squares by  [svg] amc8_18 [/svg] ",
+    "problem_statement": "The figure consists of alternating light and dark squares. The number of dark squares exceeds the number of light squares by  <img src=\"/assets/img/amc8_18.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1988&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -1843,7 +1843,7 @@
         "$120^\\circ$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "If $ \\angle\\text{CBD} $ is a right angle, then this protractor indicates that the measure of $ \\angle\\text{ABC} $ is approximately  [svg] amc8_19 [/svg] ",
+    "problem_statement": "If $ \\angle\\text{CBD} $ is a right angle, then this protractor indicates that the measure of $ \\angle\\text{ABC} $ is approximately  <img src=\"/assets/img/amc8_19.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1988&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -1937,7 +1937,7 @@
         "$5$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "An isosceles triangle is a triangle with two sides of equal length. How many of the five triangles on the square grid below are isosceles?  [svg] amc8_20 [/svg] ",
+    "problem_statement": "An isosceles triangle is a triangle with two sides of equal length. How many of the five triangles on the square grid below are isosceles?  <img src=\"/assets/img/amc8_20.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1988&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -2100,7 +2100,7 @@
         "$6$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] amc8_21 [/svg] Placing no more than one $ x $ in each small square, what is the greatest number of $ x $'s that can be put on the grid shown without getting three $ x $'s in a row vertically, horizontally, or diagonally?",
+    "problem_statement": " <img src=\"/assets/img/amc8_21.svg\" class=\"problem-img\"> Placing no more than one $ x $ in each small square, what is the greatest number of $ x $'s that can be put on the grid shown without getting three $ x $'s in a row vertically, horizontally, or diagonally?",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1988&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -2125,7 +2125,7 @@
         "$\\text{unable to be determined from the information given}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The shaded region formed by the two intersecting perpendicular rectangles, in square units, is  [svg] amc8_22 [/svg] ",
+    "problem_statement": "The shaded region formed by the two intersecting perpendicular rectangles, in square units, is  <img src=\"/assets/img/amc8_22.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1988&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -2196,7 +2196,7 @@
         "$262$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The glass gauge on a cylindrical coffee maker shows that there are 45 cups left when the coffee maker is $ 36\\% $ full. How many cups of coffee does it hold when it is full?  [svg] amc8_23 [/svg] ",
+    "problem_statement": "The glass gauge on a cylindrical coffee maker shows that there are 45 cups left when the coffee maker is $ 36\\% $ full. How many cups of coffee does it hold when it is full?  <img src=\"/assets/img/amc8_23.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1988&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -2284,7 +2284,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] amc8_24 [/svg] The square in the first diagram \"rolls\" clockwise around the fixed regular hexagon until it reaches the bottom. In which position will the solid triangle be in diagram $ 4 $?",
+    "problem_statement": " <img src=\"/assets/img/amc8_24.svg\" class=\"problem-img\"> The square in the first diagram \"rolls\" clockwise around the fixed regular hexagon until it reaches the bottom. In which position will the solid triangle be in diagram $ 4 $?",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1988&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -2447,7 +2447,7 @@
         "$16$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "If the markings on the number line are equally spaced, what is the number $ \\text{y} $? [svg] amc8_25 [/svg] ",
+    "problem_statement": "If the markings on the number line are equally spaced, what is the number $ \\text{y} $? <img src=\"/assets/img/amc8_25.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1989&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -2650,7 +2650,7 @@
         "$80$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The area of the shaded region $ \\text{BEDC} $ in parallelogram $ \\text{ABCD} $ is [svg] amc8_26 [/svg] ",
+    "problem_statement": "The area of the shaded region $ \\text{BEDC} $ in parallelogram $ \\text{ABCD} $ is <img src=\"/assets/img/amc8_26.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1989&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -2744,7 +2744,7 @@
         "$5.5$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The graph below shows the total accumulated dollars (in millions) spent by the Surf City government during $ 1988 $.  For example, about $ .5 $ million had been spent by the beginning of February and approximately $ 2 $ million by the end of April.  Approximately how many millions of dollars were spent during the summer months of June, July, and August? [svg] amc8_27 [/svg] ",
+    "problem_statement": "The graph below shows the total accumulated dollars (in millions) spent by the Surf City government during $ 1988 $.  For example, about $ .5 $ million had been spent by the beginning of February and approximately $ 2 $ million by the end of April.  Approximately how many millions of dollars were spent during the summer months of June, July, and August? <img src=\"/assets/img/amc8_27.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1989&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -2769,7 +2769,7 @@
         "$15$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The figure may be folded along the lines shown to form a number cube.  Three number faces come together at each corner of the cube.  What is the largest sum of three numbers whose faces come together at a corner? [svg] amc8_28 [/svg] ",
+    "problem_statement": "The figure may be folded along the lines shown to form a number cube.  Three number faces come together at each corner of the cube.  What is the largest sum of three numbers whose faces come together at a corner? <img src=\"/assets/img/amc8_28.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1989&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -2840,7 +2840,7 @@
         "$42$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "An artist has $ 14 $ cubes, each with an edge of $ 1 $ meter.  She stands them on the ground to form a sculpture as shown.  She then paints the exposed surface of the sculpture.  How many square meters does she paint? [svg] amc8_29 [/svg] ",
+    "problem_statement": "An artist has $ 14 $ cubes, each with an edge of $ 1 $ meter.  She stands them on the ground to form a sculpture as shown.  She then paints the exposed surface of the sculpture.  How many square meters does she paint? <img src=\"/assets/img/amc8_29.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1989&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -2865,7 +2865,7 @@
         "$\\frac{5}{6}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Suppose a square piece of paper is folded in half vertically.  The folded paper is then cut in half along the dashed line.  Three rectangles are formed-a large one and two small ones.  What is the ratio of the perimeter of one of the small rectangles to the perimeter of the large rectangle? [svg] amc8_30 [/svg] ",
+    "problem_statement": "Suppose a square piece of paper is folded in half vertically.  The folded paper is then cut in half along the dashed line.  Three rectangles are formed-a large one and two small ones.  What is the ratio of the perimeter of one of the small rectangles to the perimeter of the large rectangle? <img src=\"/assets/img/amc8_30.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1989&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -2890,7 +2890,7 @@
         "$\\frac{5}{7}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Every time these two wheels are spun, two numbers are selected by the pointers.  What is the probability that the sum of the two selected numbers is even? [svg] amc8_31 [/svg] ",
+    "problem_statement": "Every time these two wheels are spun, two numbers are selected by the pointers.  What is the probability that the sum of the two selected numbers is even? <img src=\"/assets/img/amc8_31.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1989&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -2915,7 +2915,7 @@
         "$1245$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "What is the smallest sum of two $ 3 $-digit numbers that can be obtained by placing each of the six digits $ 4,5,6,7,8,9 $ in one of the six boxes in this addition problem? [svg] amc8_32 [/svg] ",
+    "problem_statement": "What is the smallest sum of two $ 3 $-digit numbers that can be obtained by placing each of the six digits $ 4,5,6,7,8,9 $ in one of the six boxes in this addition problem? <img src=\"/assets/img/amc8_32.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1990&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -2963,7 +2963,7 @@
         "$\\frac{1}{2}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "What fraction of the square is shaded? [svg] amc8_33 [/svg] ",
+    "problem_statement": "What fraction of the square is shaded? <img src=\"/assets/img/amc8_33.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1990&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -3126,7 +3126,7 @@
         "$\\text{T}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "On this monthly calendar, the date behind one of the letters is added to the date behind $ C $. If this sum equals the sum of the dates behind $ A $ and $ B $, then the letter is [svg] amc8_34 [/svg] ",
+    "problem_statement": "On this monthly calendar, the date behind one of the letters is added to the date behind $ C $. If this sum equals the sum of the dates behind $ A $ and $ B $, then the letter is <img src=\"/assets/img/amc8_34.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1990&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -3151,7 +3151,7 @@
         "$81$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The numbers on the faces of this cube are consecutive whole numbers. The sums of the two numbers on each of the three pairs of opposite faces are equal. The sum of the six numbers on this cube is [svg] amc8_35 [/svg] ",
+    "problem_statement": "The numbers on the faces of this cube are consecutive whole numbers. The sums of the two numbers on each of the three pairs of opposite faces are equal. The sum of the six numbers on this cube is <img src=\"/assets/img/amc8_35.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1990&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -3245,7 +3245,7 @@
         "$\\text{50 cm}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The area of this figure is $ 100\\text{ cm}^{2} $. Its perimeter is [svg] amc8_36 [/svg] ",
+    "problem_statement": "The area of this figure is $ 100\\text{ cm}^{2} $. Its perimeter is <img src=\"/assets/img/amc8_36.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1990&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -3316,7 +3316,7 @@
         "$48$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Each corner of a rectangular prism is cut off. Two (of the eight) cuts are shown. How many edges does the new figure have? [svg] amc8_37 [/svg] Assume that the planes cutting the prism do not intersect anywhere in or on the prism.",
+    "problem_statement": "Each corner of a rectangular prism is cut off. Two (of the eight) cuts are shown. How many edges does the new figure have? <img src=\"/assets/img/amc8_37.svg\" class=\"problem-img\"> Assume that the planes cutting the prism do not intersect anywhere in or on the prism.",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1990&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -3433,7 +3433,7 @@
         "$\\text{last (11-12)}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The graph relates the distance traveled [in miles] to the time elapsed [in hours] on a trip taken by an experimental airplane. During which hour was the average speed of this airplane the largest? [svg] amc8_38 [/svg] ",
+    "problem_statement": "The graph relates the distance traveled [in miles] to the time elapsed [in hours] on a trip taken by an experimental airplane. During which hour was the average speed of this airplane the largest? <img src=\"/assets/img/amc8_38.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1990&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -3458,7 +3458,7 @@
         "$5$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Three $ \\Delta $'s and a $ \\diamondsuit $ will balance nine $ \\bullet $'s. One $ \\Delta $ will balance a $ \\diamondsuit $ and a $ \\bullet $. [svg] amc8_39 [/svg] How many $ \\bullet $'s will balance the two $ \\diamondsuit $'s in this balance? [svg] amc8_40 [/svg] ",
+    "problem_statement": "Three $ \\Delta $'s and a $ \\diamondsuit $ will balance nine $ \\bullet $'s. One $ \\Delta $ will balance a $ \\diamondsuit $ and a $ \\bullet $. <img src=\"/assets/img/amc8_39.svg\" class=\"problem-img\"> How many $ \\bullet $'s will balance the two $ \\diamondsuit $'s in this balance? <img src=\"/assets/img/amc8_40.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1990&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -3484,7 +3484,7 @@
         "$18$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "How many different patterns can be made by shading exactly two of the nine squares? Patterns that can be matched by flips and/or turns are not considered different. For example, the patterns shown below are not considered different. [svg] amc8_41 [/svg] ",
+    "problem_statement": "How many different patterns can be made by shading exactly two of the nine squares? Patterns that can be matched by flips and/or turns are not considered different. For example, the patterns shown below are not considered different. <img src=\"/assets/img/amc8_41.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1990&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -3589,7 +3589,7 @@
         "$6\\times 3$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A \"domino\" is made up of two small squares: [svg] amc8_42 [/svg] Which of the \"checkerboards\" illustrated below CANNOT be covered exactly and completely by a whole number of non-overlapping dominoes? [svg] amc8_43 [/svg] ",
+    "problem_statement": "A \"domino\" is made up of two small squares: <img src=\"/assets/img/amc8_42.svg\" class=\"problem-img\"> Which of the \"checkerboards\" illustrated below CANNOT be covered exactly and completely by a whole number of non-overlapping dominoes? <img src=\"/assets/img/amc8_43.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1991&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -3701,7 +3701,7 @@
         "$18$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The area in square units of the region enclosed by parallelogram $ ABCD $ is [svg] amc8_44 [/svg] ",
+    "problem_statement": "The area in square units of the region enclosed by parallelogram $ ABCD $ is <img src=\"/assets/img/amc8_44.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1991&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -3818,7 +3818,7 @@
         "$2\\text{ more}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "All six sides of a rectangular solid were rectangles.  A one-foot cube was cut out of the rectangular solid as shown.  The total number of square feet in the surface of the new solid is how many more or less than that of the original solid? [svg] amc8_45 [/svg] ",
+    "problem_statement": "All six sides of a rectangular solid were rectangles.  A one-foot cube was cut out of the rectangular solid as shown.  The total number of square feet in the surface of the new solid is how many more or less than that of the original solid? <img src=\"/assets/img/amc8_45.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1991&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -3843,7 +3843,7 @@
         "$16$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The $ 16 $ squares on a piece of paper are numbered as shown in the diagram.  While lying on a table, the paper is folded in half four times in the following sequence:fold the top half over the bottom halffold the bottom half over the top halffold the right half over the left halffold the left half over the right half.Which numbered square is on top after step $ 4 $? [svg] amc8_46 [/svg] ",
+    "problem_statement": "The $ 16 $ squares on a piece of paper are numbered as shown in the diagram.  While lying on a table, the paper is folded in half four times in the following sequence:fold the top half over the bottom halffold the bottom half over the top halffold the right half over the left halffold the left half over the right half.Which numbered square is on top after step $ 4 $? <img src=\"/assets/img/amc8_46.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1991&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -3891,7 +3891,7 @@
         "$50\\%$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The vertical axis indicates the number of employees, but the scale was accidentally omitted from this graph.  What percent of the employees at the Gauss company have worked there for $ 5 $ years or more? [svg] amc8_47 [/svg] ",
+    "problem_statement": "The vertical axis indicates the number of employees, but the scale was accidentally omitted from this graph.  What percent of the employees at the Gauss company have worked there for $ 5 $ years or more? <img src=\"/assets/img/amc8_47.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1991&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -3939,7 +3939,7 @@
         "$9$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the addition problem, each digit has been replaced by a letter.  If different letters represent different digits then $ C= $ [svg] amc8_48 [/svg] ",
+    "problem_statement": "In the addition problem, each digit has been replaced by a letter.  If different letters represent different digits then $ C= $ <img src=\"/assets/img/amc8_48.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1991&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -3987,7 +3987,7 @@
         "$1$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Each spinner is divided into $ 3 $ equal parts.  The results obtained from spinning the two spinners are multiplied.  What is the probability that this product is an even number? [svg] amc8_49 [/svg] ",
+    "problem_statement": "Each spinner is divided into $ 3 $ equal parts.  The results obtained from spinning the two spinners are multiplied.  What is the probability that this product is an even number? <img src=\"/assets/img/amc8_49.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1991&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -4058,7 +4058,7 @@
         "$\\frac{81}{256}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "An equilateral triangle is originally painted black.  Each time the triangle is changed, the middle fourth of each black triangle turns white.  After five changes, what fractional part of the original area of the black triangle remains black? [svg] amc8_50 [/svg] ",
+    "problem_statement": "An equilateral triangle is originally painted black.  Each time the triangle is changed, the middle fourth of each black triangle turns white.  After five changes, what fractional part of the original area of the black triangle remains black? <img src=\"/assets/img/amc8_50.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1991&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -4175,7 +4175,7 @@
         "$5$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A circle of diameter $ 1 $ is removed from a $ 2\\times 3 $ rectangle, as shown.  Which whole number is closest to the area of the shaded region? [svg] amc8_51 [/svg] ",
+    "problem_statement": "A circle of diameter $ 1 $ is removed from a $ 2\\times 3 $ rectangle, as shown.  Which whole number is closest to the area of the shaded region? <img src=\"/assets/img/amc8_51.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1992&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -4200,7 +4200,7 @@
         "$2$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Suppose that  [svg] amc8_52 [/svg] means $ a+b-c $.For example,  [svg] amc8_53 [/svg] is $ 5+4-6 = 3 $.Then the sum  [svg] amc8_54 [/svg] is",
+    "problem_statement": "Suppose that  <img src=\"/assets/img/amc8_52.svg\" class=\"problem-img\"> means $ a+b-c $.For example,  <img src=\"/assets/img/amc8_53.svg\" class=\"problem-img\"> is $ 5+4-6 = 3 $.Then the sum  <img src=\"/assets/img/amc8_54.svg\" class=\"problem-img\"> is",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1992&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -4273,7 +4273,7 @@
         "$360$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The population of a small town is $ 480 $.  The graph indicates the number of females and males in the town, but the vertical scale-values are omitted.  How many males live in the town? [svg] amc8_55 [/svg] ",
+    "problem_statement": "The population of a small town is $ 480 $.  The graph indicates the number of females and males in the town, but the vertical scale-values are omitted.  How many males live in the town? <img src=\"/assets/img/amc8_55.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1992&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -4298,7 +4298,7 @@
         "$64$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "An isosceles right triangle with legs of length $ 8 $ is partitioned into $ 16 $ congruent triangles as shown.  The shaded area is [svg] amc8_56 [/svg] ",
+    "problem_statement": "An isosceles right triangle with legs of length $ 8 $ is partitioned into $ 16 $ congruent triangles as shown.  The shaded area is <img src=\"/assets/img/amc8_56.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1992&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -4323,7 +4323,7 @@
         "$42\\%$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The bar graph shows the results of a survey on color preferences.  What percent preferred blue? [svg] amc8_57 [/svg] ",
+    "problem_statement": "The bar graph shows the results of a survey on color preferences.  What percent preferred blue? <img src=\"/assets/img/amc8_57.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1992&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -4440,7 +4440,7 @@
         "$\\text{E}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] amc8_58 [/svg] Which cylinder has twice the volume of the cylinder shown above? [svg] amc8_59 [/svg] $ \\text{(E)}\\ \\text{None of the above} $",
+    "problem_statement": " <img src=\"/assets/img/amc8_58.svg\" class=\"problem-img\"> Which cylinder has twice the volume of the cylinder shown above? <img src=\"/assets/img/amc8_59.svg\" class=\"problem-img\"> $ \\text{(E)}\\ \\text{None of the above} $",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1992&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -4466,7 +4466,7 @@
         "$7$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The sides of a triangle have lengths $ 6.5 $, $ 10 $, and $ s $, where $ s $ is a whole number.  What is the smallest possible value of $ s $? [svg] amc8_60 [/svg] ",
+    "problem_statement": "The sides of a triangle have lengths $ 6.5 $, $ 10 $, and $ s $, where $ s $ is a whole number.  What is the smallest possible value of $ s $? <img src=\"/assets/img/amc8_60.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1992&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -4554,7 +4554,7 @@
         "$\\text{May}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Northside's Drum and Bugle Corps raised money for a trip.  The drummers and bugle players kept separate sales records.  According to the double bar graph, in what month did one group's sales exceed the other's by the greatest percent? [svg] amc8_61 [/svg] ",
+    "problem_statement": "Northside's Drum and Bugle Corps raised money for a trip.  The drummers and bugle players kept separate sales records.  According to the double bar graph, in what month did one group's sales exceed the other's by the greatest percent? <img src=\"/assets/img/amc8_61.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1992&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -4579,7 +4579,7 @@
         "$20$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Eight $ 1\\times 1 $ square tiles are arranged as shown so their outside edges form a polygon with a perimeter of $ 14 $ units.  Two additional tiles of the same size are added to the figure so that at least one side of each tile is shared with a side of one of the squares in the original figure.  Which of the following could be the perimeter of the new figure? [svg] amc8_62 [/svg] ",
+    "problem_statement": "Eight $ 1\\times 1 $ square tiles are arranged as shown so their outside edges form a polygon with a perimeter of $ 14 $ units.  Two additional tiles of the same size are added to the figure so that at least one side of each tile is shared with a side of one of the squares in the original figure.  Which of the following could be the perimeter of the new figure? <img src=\"/assets/img/amc8_62.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1992&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -4627,7 +4627,7 @@
         "$27$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Four circles of radius $ 3 $ are arranged as shown.  Their centers are the vertices of a square.  The area of the shaded region is closest to [svg] amc8_63 [/svg] ",
+    "problem_statement": "Four circles of radius $ 3 $ are arranged as shown.  Their centers are the vertices of a square.  The area of the shaded region is closest to <img src=\"/assets/img/amc8_63.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1992&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -4761,7 +4761,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Which one of the following bar graphs could represent the data from the circle graph? [svg] amc8_64 [/svg] ",
+    "problem_statement": "Which one of the following bar graphs could represent the data from the circle graph? <img src=\"/assets/img/amc8_64.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1993&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -4878,7 +4878,7 @@
         "$\\text{June}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "This line graph represents the price of a trading card during the first $ 6 $ months of $ 1993 $. [svg] amc8_65 [/svg] The greatest monthly drop in price occurred during",
+    "problem_statement": "This line graph represents the price of a trading card during the first $ 6 $ months of $ 1993 $. <img src=\"/assets/img/amc8_65.svg\" class=\"problem-img\"> The greatest monthly drop in price occurred during",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1993&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -4903,7 +4903,7 @@
         "$80$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Consider this histogram of the scores for $ 81 $ students taking a test: [svg] amc8_66 [/svg] The median is in the interval labeled",
+    "problem_statement": "Consider this histogram of the scores for $ 81 $ students taking a test: <img src=\"/assets/img/amc8_66.svg\" class=\"problem-img\"> The median is in the interval labeled",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1993&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -4951,7 +4951,7 @@
         "$38$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The word \"'''HELP'''\" in block letters is painted in black with strokes $ 1 $ unit wide on a $ 5 $ by $ 15 $ rectangular white sign with dimensions as shown.  The area of the white portion of the sign, in square units, is [svg] amc8_67 [/svg] ",
+    "problem_statement": "The word \"'''HELP'''\" in block letters is painted in black with strokes $ 1 $ unit wide on a $ 5 $ by $ 15 $ rectangular white sign with dimensions as shown.  The area of the white portion of the sign, in square units, is <img src=\"/assets/img/amc8_67.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1993&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -5045,7 +5045,7 @@
         "$1000$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Square corners, $ 5 $ units on a side, are removed from a $ 20 $ unit by $ 30 $ unit rectangular sheet of cardboard.  The sides are then folded to form an open box.  The surface area, in square units, of the interior of the box is [svg] amc8_68 [/svg] ",
+    "problem_statement": "Square corners, $ 5 $ units on a side, are removed from a $ 20 $ unit by $ 30 $ unit rectangular sheet of cardboard.  The sides are then folded to form an open box.  The surface area, in square units, of the interior of the box is <img src=\"/assets/img/amc8_68.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1993&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -5070,7 +5070,7 @@
         "$340$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The rectangle shown has length $ AC=32 $, width $ AE=20 $, and $ B $ and $ F $ are midpoints of $ \\overline{AC} $ and $ \\overline{AE} $, respectively.  The area of quadrilateral $ ABDF $ is [svg] amc8_69 [/svg] ",
+    "problem_statement": "The rectangle shown has length $ AC=32 $, width $ AE=20 $, and $ B $ and $ F $ are midpoints of $ \\overline{AC} $ and $ \\overline{AE} $, respectively.  The area of quadrilateral $ ABDF $ is <img src=\"/assets/img/amc8_69.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1993&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -5319,7 +5319,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Which of the following represents the result when the figure shown below is rotated clockwise $ 120^\\circ $ about its center? [svg] amc8_70 [/svg] ",
+    "problem_statement": "Which of the following represents the result when the figure shown below is rotated clockwise $ 120^\\circ $ about its center? <img src=\"/assets/img/amc8_70.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1994&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -5390,7 +5390,7 @@
         "$80^\\circ$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "If $ \\angle A = 60^\\circ $, $ \\angle E = 40^\\circ $ and $ \\angle C = 30^\\circ $, then $ \\angle BDC = $ [svg] amc8_71 [/svg] ",
+    "problem_statement": "If $ \\angle A = 60^\\circ $, $ \\angle E = 40^\\circ $ and $ \\angle C = 30^\\circ $, then $ \\angle BDC = $ <img src=\"/assets/img/amc8_71.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1994&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -5570,7 +5570,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "If this path is to continue in the same pattern: [svg] amc8_72 [/svg] then which sequence of arrows goes from point $ 425 $ to point $ 427 $?",
+    "problem_statement": "If this path is to continue in the same pattern: <img src=\"/assets/img/amc8_72.svg\" class=\"problem-img\"> then which sequence of arrows goes from point $ 425 $ to point $ 427 $?",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1994&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -5658,7 +5658,7 @@
         "$64$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Around the outside of a $ 4 $ by $ 4 $ square, construct four semicircles (as shown in the figure) with the four sides of the square as their diameters.  Another square, $ ABCD $, has its sides parallel to the corresponding sides of the original square, and each side of $ ABCD $ is tangent to one of the semicircles.  The area of the square $ ABCD $ is [svg] amc8_73 [/svg] ",
+    "problem_statement": "Around the outside of a $ 4 $ by $ 4 $ square, construct four semicircles (as shown in the figure) with the four sides of the square as their diameters.  Another square, $ ABCD $, has its sides parallel to the corresponding sides of the original square, and each side of $ ABCD $ is tangent to one of the semicircles.  The area of the square $ ABCD $ is <img src=\"/assets/img/amc8_73.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1994&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -5729,7 +5729,7 @@
         "$\\frac{4}{9}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The two wheels shown below are spun and the two resulting numbers are added.  The probability that the sum is even is [svg] amc8_74 [/svg] ",
+    "problem_statement": "The two wheels shown below are spun and the two resulting numbers are added.  The probability that the sum is even is <img src=\"/assets/img/amc8_74.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1994&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -5938,7 +5938,7 @@
         "$18$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Figures $ I $, $ II $, and $ III $ are squares.  The perimeter of $ I $ is $ 12 $ and the perimeter of $ II $ is $ 24 $.  The perimeter of $ III $ is [svg] amc8_75 [/svg] $ \\text{(A)}\\ 9\\qquad\\text{(B)}\\ 18\\qquad\\text{(C)}\\ 36\\qquad\\text{(D)}\\ 72\\qquad\\text{(D)}\\ 81 $",
+    "problem_statement": "Figures $ I $, $ II $, and $ III $ are squares.  The perimeter of $ I $ is $ 12 $ and the perimeter of $ II $ is $ 24 $.  The perimeter of $ III $ is <img src=\"/assets/img/amc8_75.svg\" class=\"problem-img\"> $ \\text{(A)}\\ 9\\qquad\\text{(B)}\\ 18\\qquad\\text{(C)}\\ 36\\qquad\\text{(D)}\\ 72\\qquad\\text{(D)}\\ 81 $",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1995&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -6009,7 +6009,7 @@
         "$128$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Three congruent circles with centers $ P $, $ Q $, and $ R $ are tangent to the sides of rectangle $ ABCD $ as shown.  The circle centered at $ Q $ has diameter $ 4 $ and passes through points $ P $ and $ R $.  The area of the rectangle is [svg] amc8_76 [/svg] ",
+    "problem_statement": "Three congruent circles with centers $ P $, $ Q $, and $ R $ are tangent to the sides of rectangle $ ABCD $ as shown.  The circle centered at $ Q $ has diameter $ 4 $ and passes through points $ P $ and $ R $.  The area of the rectangle is <img src=\"/assets/img/amc8_76.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1995&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -6057,7 +6057,7 @@
         "$E$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Jane can walk any distance in half the time it takes Hector to walk the same distance.  They set off in opposite directions around the outside of the 18-block area as shown.  When they meet for the first time, they will be closest to [svg] amc8_77 [/svg] ",
+    "problem_statement": "Jane can walk any distance in half the time it takes Hector to walk the same distance.  They set off in opposite directions around the outside of the 18-block area as shown.  When they meet for the first time, they will be closest to <img src=\"/assets/img/amc8_77.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1995&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -6105,7 +6105,7 @@
         "$95^\\circ$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the figure, $ \\angle A $, $ \\angle B $, and $ \\angle C $ are right angles.  If $ \\angle AEB = 40^\\circ $ and $ \\angle BED =\\angle BDE $, then $ \\angle CDE = $ [svg] amc8_78 [/svg] ",
+    "problem_statement": "In the figure, $ \\angle A $, $ \\angle B $, and $ \\angle C $ are right angles.  If $ \\angle AEB = 40^\\circ $ and $ \\angle BED =\\angle BDE $, then $ \\angle CDE = $ <img src=\"/assets/img/amc8_78.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1995&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -6222,7 +6222,7 @@
         "$75$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The area of each of the four congruent L-shaped regions of this 100-inch by 100-inch square is 3/16 of the total area.  How many inches long is the side of the center square? [svg] amc8_79 [/svg] ",
+    "problem_statement": "The area of each of the four congruent L-shaped regions of this 100-inch by 100-inch square is 3/16 of the total area.  How many inches long is the side of the center square? <img src=\"/assets/img/amc8_79.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1995&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -6247,7 +6247,7 @@
         "$5$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The graph shows the distribution of the number of children in the families of the students in Ms. Jordan's English class.  The median number of children in the family for this distribution is [svg] amc8_80 [/svg] ",
+    "problem_statement": "The graph shows the distribution of the number of children in the families of the students in Ms. Jordan's English class.  The median number of children in the family for this distribution is <img src=\"/assets/img/amc8_80.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1995&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -6295,7 +6295,7 @@
         "$8$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A plastic snap-together cube has a protruding snap on one side and receptacle holes on the other five sides as shown.  What is the smallest number of these cubes that can be snapped together so that only receptacle holes are showing? [svg] amc8_81 [/svg] ",
+    "problem_statement": "A plastic snap-together cube has a protruding snap on one side and receptacle holes on the other five sides as shown.  What is the smallest number of these cubes that can be snapped together so that only receptacle holes are showing? <img src=\"/assets/img/amc8_81.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1995&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -6366,7 +6366,7 @@
         "$10$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In parallelogram $ ABCD $, $ \\overline{DE} $ is the altitude to the base $ \\overline{AB} $ and $ \\overline{DF} $ is the altitude to the base $ \\overline{BC} $. ['''Note:''' ''Both pictures represent the same parallelogram.'']  If $ DC=12 $, $ EB=4 $, and $ DE=6 $, then $ DF= $ [svg] amc8_82 [/svg] ",
+    "problem_statement": "In parallelogram $ ABCD $, $ \\overline{DE} $ is the altitude to the base $ \\overline{AB} $ and $ \\overline{DF} $ is the altitude to the base $ \\overline{BC} $. ['''Note:''' ''Both pictures represent the same parallelogram.'']  If $ DC=12 $, $ EB=4 $, and $ DE=6 $, then $ DF= $ <img src=\"/assets/img/amc8_82.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1995&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -6506,7 +6506,7 @@
         "$\\frac{S+T}{R}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The letters $ P $, $ Q $, $ R $, $ S $, and $ T $ represent numbers located on the number line as shown. [svg] amc8_83 [/svg] Which of the following expressions represents a negative number?",
+    "problem_statement": "The letters $ P $, $ Q $, $ R $, $ S $, and $ T $ represent numbers located on the number line as shown. <img src=\"/assets/img/amc8_83.svg\" class=\"problem-img\"> Which of the following expressions represents a negative number?",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1996&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -6715,7 +6715,7 @@
         "$35$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Six different digits from the set\\[ \\{ 1,2,3,4,5,6,7,8,9\\} \\]are placed in the squares in the figure shown so that the sum of the entries in the vertical column is 23 and the sum of the entries in the horizontal row is 12.The sum of the six digits used is [svg] amc8_84 [/svg] ",
+    "problem_statement": "Six different digits from the set\\[ \\{ 1,2,3,4,5,6,7,8,9\\} \\]are placed in the squares in the figure shown so that the sum of the entries in the vertical column is 23 and the sum of the entries in the horizontal row is 12.The sum of the six digits used is <img src=\"/assets/img/amc8_84.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1996&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -6786,7 +6786,7 @@
         "$(4,0)$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Figure $ OPQR $ is a square.  Point $ O $ is the origin, and point $ Q $ has coordinates $ (2,2) $.  What are the coordinates for $ T $ so that the area of triangle $ PQT $ equals the area of square $ OPQR $? [svg] amc8_85 [/svg] NOT TO SCALE",
+    "problem_statement": "Figure $ OPQR $ is a square.  Point $ O $ is the origin, and point $ Q $ has coordinates $ (2,2) $.  What are the coordinates for $ T $ so that the area of triangle $ PQT $ equals the area of square $ OPQR $? <img src=\"/assets/img/amc8_85.svg\" class=\"problem-img\"> NOT TO SCALE",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1996&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -6834,7 +6834,7 @@
         "$34\\%$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The pie charts below indicate the percent of students who prefer golf, bowling, or tennis at East Junior High School and West Middle School.  The total number of students at East is $ 2000 $ and at West, $ 2500 $.  In the two schools combined, the percent of students who prefer tennis is [svg] amc8_86 [/svg] ",
+    "problem_statement": "The pie charts below indicate the percent of students who prefer golf, bowling, or tennis at East Junior High School and West Middle School.  The total number of students at East is $ 2000 $ and at West, $ 2500 $.  In the two schools combined, the percent of students who prefer tennis is <img src=\"/assets/img/amc8_86.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1996&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -6905,7 +6905,7 @@
         "$5/4$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The horizontal and vertical distances between adjacent points equal $ 1 $ unit.  The area of triangle $ ABC $ is [svg] amc8_87 [/svg] ",
+    "problem_statement": "The horizontal and vertical distances between adjacent points equal $ 1 $ unit.  The area of triangle $ ABC $ is <img src=\"/assets/img/amc8_87.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1996&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -6953,7 +6953,7 @@
         "$125^\\circ$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The measure of angle $ ABC $ is $ 50^\\circ $, $ \\overline{AD} $ bisects angle $ BAC $, and $ \\overline{DC} $ bisects angle $ BCA $.  The measure of angle $ ADC $ is [svg] amc8_88 [/svg] ",
+    "problem_statement": "The measure of angle $ ABC $ is $ 50^\\circ $, $ \\overline{AD} $ bisects angle $ BAC $, and $ \\overline{DC} $ bisects angle $ BCA $.  The measure of angle $ ADC $ is <img src=\"/assets/img/amc8_88.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1996&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -7208,7 +7208,7 @@
         "$\\frac{5}{6}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "What fraction of this square region is shaded?  Stripes are equal in width, and the figure is drawn to scale. [svg] amc8_89 [/svg] ",
+    "problem_statement": "What fraction of this square region is shaded?  Stripes are equal in width, and the figure is drawn to scale. <img src=\"/assets/img/amc8_89.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1997&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -7256,7 +7256,7 @@
         "$40^\\circ$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "$ \\angle 1+\\angle 2 = 180^\\circ $$ \\angle 3 =\\angle 4 $Find $ \\angle 4. $ [svg] amc8_90 [/svg] ",
+    "problem_statement": "$ \\angle 1+\\angle 2 = 180^\\circ $$ \\angle 3 =\\angle 4 $Find $ \\angle 4. $ <img src=\"/assets/img/amc8_90.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1997&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -7327,7 +7327,7 @@
         "$\\frac{7}{9}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Each side of the large square in the figure is trisected (divided into three equal parts).  The corners of an inscribed square are at these trisection points, as shown.  The ratio of the area of the inscribed square to the area of the large square is [svg] amc8_91 [/svg] ",
+    "problem_statement": "Each side of the large square in the figure is trisected (divided into three equal parts).  The corners of an inscribed square are at these trisection points, as shown.  The ratio of the area of the inscribed square to the area of the large square is <img src=\"/assets/img/amc8_91.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1997&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -7375,7 +7375,7 @@
         "$16$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A cube has eight vertices (corners) and twelve edges.  A segment, such as $ x $, which joins two vertices not joined by an edge is called a diagonal.  Segment $ y $ is also a diagonal.  How many diagonals does a cube have? [svg] amc8_92 [/svg] ",
+    "problem_statement": "A cube has eight vertices (corners) and twelve edges.  A segment, such as $ x $, which joins two vertices not joined by an edge is called a diagonal.  Segment $ y $ is also a diagonal.  How many diagonals does a cube have? <img src=\"/assets/img/amc8_92.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1997&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -7469,7 +7469,7 @@
         "$72\\text{ sq.cm}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Each corner cube is removed from this $ 3\\text{ cm}\\times 3\\text{ cm}\\times 3\\text{ cm} $ cube.  The surface area of the remaining figure is [svg] amc8_93 [/svg] ",
+    "problem_statement": "Each corner cube is removed from this $ 3\\text{ cm}\\times 3\\text{ cm}\\times 3\\text{ cm} $ cube.  The surface area of the remaining figure is <img src=\"/assets/img/amc8_93.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1997&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -7540,7 +7540,7 @@
         "$5:2$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Diameter $ ACE $ is divided at $ C $ in the ratio $ 2:3 $.  The two semicircles, $ ABC $ and $ CDE $, divide the circular region into an upper (shaded) region and a lower region.  The ratio of the area of the upper region to that of the lower region is [svg] amc8_94 [/svg] ",
+    "problem_statement": "Diameter $ ACE $ is divided at $ C $ in the ratio $ 2:3 $.  The two semicircles, $ ABC $ and $ CDE $, divide the circular region into an upper (shaded) region and a lower region.  The ratio of the area of the upper region to that of the lower region is <img src=\"/assets/img/amc8_94.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1997&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -7657,7 +7657,7 @@
         "$5$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "How many triangles are in this figure? (Some triangles may overlap other triangles.) [svg] amc8_95 [/svg] ",
+    "problem_statement": "How many triangles are in this figure? (Some triangles may overlap other triangles.) <img src=\"/assets/img/amc8_95.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1998&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -7705,7 +7705,7 @@
         "$9$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Dots are spaced one unit apart, horizontally and vertically. The number of square units enclosed by the polygon is [svg] amc8_96 [/svg] ",
+    "problem_statement": "Dots are spaced one unit apart, horizontally and vertically. The number of square units enclosed by the polygon is <img src=\"/assets/img/amc8_96.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1998&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -7868,7 +7868,7 @@
         "$\\frac{1}{16}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "What is the ratio of the area of the shaded square to the area of the large square? (The figure is drawn to scale) [svg] amc8_97 [/svg] ",
+    "problem_statement": "What is the ratio of the area of the shaded square to the area of the large square? (The figure is drawn to scale) <img src=\"/assets/img/amc8_97.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1998&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -7979,7 +7979,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "As indicated by the diagram below, a rectangular piece of paper is folded bottom to top, then left to right, and finally, a hole is punched at X. What does the paper look like when unfolded? [svg] amc8_98 [/svg] ",
+    "problem_statement": "As indicated by the diagram below, a rectangular piece of paper is folded bottom to top, then left to right, and finally, a hole is punched at X. What does the paper look like when unfolded? <img src=\"/assets/img/amc8_98.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1998&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -8027,7 +8027,7 @@
         "$36$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Let $ PQRS $ be a square piece of paper. $ P $ is folded onto $ R $ and then $ Q $ is folded onto $ S $. The area of the resulting figure is 9 square inches. Find the perimeter of square $ PQRS $. [svg] amc8_99 [/svg] ",
+    "problem_statement": "Let $ PQRS $ be a square piece of paper. $ P $ is folded onto $ R $ and then $ Q $ is folded onto $ S $. The area of the resulting figure is 9 square inches. Find the perimeter of square $ PQRS $. <img src=\"/assets/img/amc8_99.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1998&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -8098,7 +8098,7 @@
         "$\\frac{11}{45}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "If the pattern in the diagram continues, what fraction of the interior would be shaded in the eighth triangle? [svg] amc8_100 [/svg] ",
+    "problem_statement": "If the pattern in the diagram continues, what fraction of the interior would be shaded in the eighth triangle? <img src=\"/assets/img/amc8_100.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1998&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -8123,7 +8123,7 @@
         "$120$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A rectangular board of 8 columns has squared numbered beginning in the upper left corner and moving left to right so row one is numbered 1 through 8, row two is 9 through 16, and so on.  A student shades square 1, then skips one square and shades square 3, skips two squares and shades square 6, skips 3 squares and shades square 10, and continues in this way until there is at least one shaded square in each column.  What is the number of the shaded square that first achieves this result? [svg] amc8_101 [/svg] ",
+    "problem_statement": "A rectangular board of 8 columns has squared numbered beginning in the upper left corner and moving left to right so row one is numbered 1 through 8, row two is 9 through 16, and so on.  A student shades square 1, then skips one square and shades square 3, skips two squares and shades square 6, skips 3 squares and shades square 10, and continues in this way until there is at least one shaded square in each column.  What is the number of the shaded square that first achieves this result? <img src=\"/assets/img/amc8_101.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1998&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -8240,7 +8240,7 @@
         "$35$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The diagram shows the miles traveled by bikers Alberto and Bjorn. After four hours, about how many more miles has Alberto biked than Bjorn?  [svg] amc8_102 [/svg] ",
+    "problem_statement": "The diagram shows the miles traveled by bikers Alberto and Bjorn. After four hours, about how many more miles has Alberto biked than Bjorn?  <img src=\"/assets/img/amc8_102.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1999&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -8334,7 +8334,7 @@
         "$\\text{Y}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Six squares are colored, front and back, (R = red, B = blue, O = orange, Y = yellow, G = green, and W = white). They are hinged together as shown, then folded to form a cube. The face opposite the white face is  [svg] amc8_103 [/svg] ",
+    "problem_statement": "Six squares are colored, front and back, (R = red, B = blue, O = orange, Y = yellow, G = green, and W = white). They are hinged together as shown, then folded to form a cube. The face opposite the white face is  <img src=\"/assets/img/amc8_103.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1999&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -8359,7 +8359,7 @@
         "$1450$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Three flower beds overlap as shown. Bed A has 500 plants, bed B has 450 plants, and bed C has 350 plants. Beds A and B share 50 plants, while beds A and C share 100. The total number of plants is  [svg] amc8_104 [/svg] ",
+    "problem_statement": "Three flower beds overlap as shown. Bed A has 500 plants, bed B has 450 plants, and bed C has 350 plants. Beds A and B share 50 plants, while beds A and C share 100. The total number of plants is  <img src=\"/assets/img/amc8_104.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1999&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -8407,7 +8407,7 @@
         "$30$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Each of the five numbers 1, 4, 7, 10, and 13 is placed in one of the five squares so that the sum of the three numbers in the horizontal row equals the sum of the three numbers in the vertical column. The largest possible value for the horizontal or vertical sum is  [svg] amc8_105 [/svg] ",
+    "problem_statement": "Each of the five numbers 1, 4, 7, 10, and 13 is placed in one of the five squares so that the sum of the three numbers in the horizontal row equals the sum of the three numbers in the vertical column. The largest possible value for the horizontal or vertical sum is  <img src=\"/assets/img/amc8_105.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1999&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -8478,7 +8478,7 @@
         "$48$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In trapezoid $ ABCD $ , the sides $ AB $ and $ CD $  are equal. The perimeter of $ ABCD $ is  [svg] amc8_106 [/svg] ",
+    "problem_statement": "In trapezoid $ ABCD $ , the sides $ AB $ and $ CD $  are equal. The perimeter of $ ABCD $ is  <img src=\"/assets/img/amc8_106.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1999&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -8612,7 +8612,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Figure 1 is called a \"stack map.\" The numbers tell how many cubes are stacked in each position. Fig. 2 shows these cubes, and Fig. 3 shows the view of the stacked cubes as seen from the front. Which of the following is the front view for the stack map in Fig. 4?  [svg] amc8_107 [/svg] ",
+    "problem_statement": "Figure 1 is called a \"stack map.\" The numbers tell how many cubes are stacked in each position. Fig. 2 shows these cubes, and Fig. 3 shows the view of the stacked cubes as seen from the front. Which of the following is the front view for the stack map in Fig. 4?  <img src=\"/assets/img/amc8_107.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1999&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -8637,7 +8637,7 @@
         "$45$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The degree measure of angle $ A $  is  [svg] amc8_108 [/svg] ",
+    "problem_statement": "The degree measure of angle $ A $  is  <img src=\"/assets/img/amc8_108.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1999&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -8685,7 +8685,7 @@
         "$\\sqrt{15}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Square $ ABCD $  has sides of length 3. Segments $ CM $  and $ CN $ divide the square's area into three equal parts. How long is segment $ CM $ ?  [svg] amc8_109 [/svg] ",
+    "problem_statement": "Square $ ABCD $  has sides of length 3. Segments $ CM $  and $ CN $ divide the square's area into three equal parts. How long is segment $ CM $ ?  <img src=\"/assets/img/amc8_109.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1999&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -8733,7 +8733,7 @@
         "$10$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Points $ B $,$ D $ , and $ J $ are midpoints of the sides of right triangle $ ACG $ . Points $ K $, $ E $, $ I $ are midpoints of the sides of triangle , etc. If the dividing and shading process is done 100 times (the first three are shown) and $ AC=CG=6 $, then the total area of the shaded triangles is nearest  [svg] amc8_110 [/svg] ",
+    "problem_statement": "Points $ B $,$ D $ , and $ J $ are midpoints of the sides of right triangle $ ACG $ . Points $ K $, $ E $, $ I $ are midpoints of the sides of triangle , etc. If the dividing and shading process is done 100 times (the first three are shown) and $ AC=CG=6 $, then the total area of the shaded triangles is nearest  <img src=\"/assets/img/amc8_110.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=1999&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -8867,7 +8867,7 @@
         "$15$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Figure $ ABCD $ is a square. Inside this square three smaller squares are drawn with the side lengths as labeled. The area of the shaded L-shaped region is [svg] amc8_111 [/svg] ",
+    "problem_statement": "Figure $ ABCD $ is a square. Inside this square three smaller squares are drawn with the side lengths as labeled. The area of the shaded L-shaped region is <img src=\"/assets/img/amc8_111.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2000&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -8915,7 +8915,7 @@
         "$53$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Three dice with faces numbered 1 through 6 are stacked as shown. Seven of the eighteen faces are visible, leaving eleven faces hidden (back, bottom, between). The total number of dots NOT visible in this view is [svg] amc8_112 [/svg] ",
+    "problem_statement": "Three dice with faces numbered 1 through 6 are stacked as shown. Seven of the eighteen faces are visible, leaving eleven faces hidden (back, bottom, between). The total number of dots NOT visible in this view is <img src=\"/assets/img/amc8_112.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2000&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -8940,7 +8940,7 @@
         "$8$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Three-digit powers of 2 and 5 are used in this ''cross-number'' puzzle. What is the only possible digit for the outlined square?\\[ \\begin{tabular}{lcl}\\textbf{ACROSS}& &\\textbf{DOWN}\\\\ \\textbf{2}. 2^m & &\\textbf{1}. 5^n\\end{tabular} \\] [svg] amc8_113 [/svg] ",
+    "problem_statement": "Three-digit powers of 2 and 5 are used in this ''cross-number'' puzzle. What is the only possible digit for the outlined square?\\[ \\begin{tabular}{lcl}\\textbf{ACROSS}& &\\textbf{DOWN}\\\\ \\textbf{2}. 2^m & &\\textbf{1}. 5^n\\end{tabular} \\] <img src=\"/assets/img/amc8_113.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2000&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -9011,7 +9011,7 @@
         "$356$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A block wall $ 100 $ feet long and $ 7 $ feet high will be constructed using blocks that are $ 1 $ foot high and either $ 2 $ feet long or $ 1 $ foot long (no blocks may be cut). The vertical joins in the blocks must be staggered as shown, and the wall must be even on the ends. What is the smallest number of blocks needed to build this wall? [svg] amc8_114 [/svg] ",
+    "problem_statement": "A block wall $ 100 $ feet long and $ 7 $ feet high will be constructed using blocks that are $ 1 $ foot high and either $ 2 $ feet long or $ 1 $ foot long (no blocks may be cut). The vertical joins in the blocks must be staggered as shown, and the wall must be even on the ends. What is the smallest number of blocks needed to build this wall? <img src=\"/assets/img/amc8_114.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2000&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -9036,7 +9036,7 @@
         "$108^\\circ$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In triangle $ CAT $, we have $ \\angle ACT =\\angle ATC $ and $ \\angle CAT = 36^\\circ $. If $ \\overline{TR} $ bisects $ \\angle ATC $, then $ \\angle CRT = $ [svg] amc8_115 [/svg] ",
+    "problem_statement": "In triangle $ CAT $, we have $ \\angle ACT =\\angle ATC $ and $ \\angle CAT = 36^\\circ $. If $ \\overline{TR} $ bisects $ \\angle ATC $, then $ \\angle CRT = $ <img src=\"/assets/img/amc8_115.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2000&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -9084,7 +9084,7 @@
         "$21$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Triangles $ ABC $, $ ADE $, and $ EFG $ are all equilateral. Points $ D $ and $ G $ are midpoints of $ \\overline{AC} $ and $ \\overline{AE} $, respectively. If $ AB = 4 $, what is the perimeter of figure $ ABCDEFG $? [svg] amc8_116 [/svg] ",
+    "problem_statement": "Triangles $ ABC $, $ ADE $, and $ EFG $ are all equilateral. Points $ D $ and $ G $ are midpoints of $ \\overline{AC} $ and $ \\overline{AE} $, respectively. If $ AB = 4 $, what is the perimeter of figure $ ABCDEFG $? <img src=\"/assets/img/amc8_116.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2000&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -9155,7 +9155,7 @@
         "$\\frac{2}{3}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Consider these two geoboard quadrilaterals. Which of the following statements is true? [svg] amc8_117 [/svg] $ \\text{(A)}\\ \\text{The area of quadrilateral I is more than the area of quadrilateral II.} $$ \\text{(B)}\\ \\text{The area of quadrilateral I is less than the area of quadrilateral II.} $$ \\text{(C)}\\ \\text{The quadrilaterals have the same area and the same perimeter.} $$ \\text{(D)}\\ \\text{The quadrilaterals have the same area, but the perimeter of I is more than the perimeter of II.} $$ \\text{(E)}\\ \\text{The quadrilaterals have the same area, but the perimeter of I is less than the perimeter of II.} $",
+    "problem_statement": "Consider these two geoboard quadrilaterals. Which of the following statements is true? <img src=\"/assets/img/amc8_117.svg\" class=\"problem-img\"> $ \\text{(A)}\\ \\text{The area of quadrilateral I is more than the area of quadrilateral II.} $$ \\text{(B)}\\ \\text{The area of quadrilateral I is less than the area of quadrilateral II.} $$ \\text{(C)}\\ \\text{The quadrilaterals have the same area and the same perimeter.} $$ \\text{(D)}\\ \\text{The quadrilaterals have the same area, but the perimeter of I is more than the perimeter of II.} $$ \\text{(E)}\\ \\text{The quadrilaterals have the same area, but the perimeter of I is less than the perimeter of II.} $",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2000&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -9180,7 +9180,7 @@
         "$25\\pi$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Three circular arcs of radius $ 5 $ units bound the region shown. Arcs $ AB $ and $ AD $ are quarter-circles, and arc $ BCD $ is a semicircle. What is the area, in square units, of the region? [svg] amc8_118 [/svg] ",
+    "problem_statement": "Three circular arcs of radius $ 5 $ units bound the region shown. Arcs $ AB $ and $ AD $ are quarter-circles, and arc $ BCD $ is a semicircle. What is the area, in square units, of the region? <img src=\"/assets/img/amc8_118.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2000&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -9251,7 +9251,7 @@
         "$25$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A cube has edge length $ 2 $. Suppose that we glue a cube of edge length $ 1 $ on top of the big cube so that one of its faces rests entirely on the top face of the larger cube. The percent increase in the surface area (sides, top, and bottom) from the original cube to the new solid formed is closest to [svg] amc8_119 [/svg] ",
+    "problem_statement": "A cube has edge length $ 2 $. Suppose that we glue a cube of edge length $ 1 $ on top of the big cube so that one of its faces rests entirely on the top face of the larger cube. The percent increase in the surface area (sides, top, and bottom) from the original cube to the new solid formed is closest to <img src=\"/assets/img/amc8_119.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2000&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -9299,7 +9299,7 @@
         "$90^\\circ$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "If $ \\angle A = 20^\\circ $ and $ \\angle AFG =\\angle AGF $, then $ \\angle B+\\angle D = $ [svg] amc8_120 [/svg] ",
+    "problem_statement": "If $ \\angle A = 20^\\circ $ and $ \\angle AFG =\\angle AGF $, then $ \\angle B+\\angle D = $ <img src=\"/assets/img/amc8_120.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2000&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -9324,7 +9324,7 @@
         "$40$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The area of rectangle $ ABCD $ is $ 72 $. If point $ A $ and the midpoints of $ \\overline{BC} $ and $ \\overline{CD} $ are joined to form a triangle, the area of that triangle is [svg] amc8_121 [/svg] ",
+    "problem_statement": "The area of rectangle $ ABCD $ is $ 72 $. If point $ A $ and the midpoints of $ \\overline{BC} $ and $ \\overline{CD} $ are joined to form a triangle, the area of that triangle is <img src=\"/assets/img/amc8_121.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2000&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -9487,7 +9487,7 @@
         "$25$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Problems 7, 8 and 9 are about these kites.To promote her school's annual Kite Olympics, Genevieve makes a small kite and a large kite for a bulletin board display. The kites look like the one in the diagram. For her small kite Genevieve draws the kite on a one-inch grid. For the large kite she triples both the height and width of the entire grid. [svg] amc8_122 [/svg] What is the number of square inches in the area of the small kite?",
+    "problem_statement": "Problems 7, 8 and 9 are about these kites.To promote her school's annual Kite Olympics, Genevieve makes a small kite and a large kite for a bulletin board display. The kites look like the one in the diagram. For her small kite Genevieve draws the kite on a one-inch grid. For the large kite she triples both the height and width of the entire grid. <img src=\"/assets/img/amc8_122.svg\" class=\"problem-img\"> What is the number of square inches in the area of the small kite?",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2001&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -9512,7 +9512,7 @@
         "$39$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Problems 7, 8 and 9 are about these kites. [svg] amc8_123 [/svg] Genevieve puts bracing on her large kite in the form of a cross connecting opposite corners of the kite. How many inches of bracing material does she need?",
+    "problem_statement": "Problems 7, 8 and 9 are about these kites. <img src=\"/assets/img/amc8_123.svg\" class=\"problem-img\"> Genevieve puts bracing on her large kite in the form of a cross connecting opposite corners of the kite. How many inches of bracing material does she need?",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2001&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -9537,7 +9537,7 @@
         "$264$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Problems 7, 8 and 9 are about these kites. [svg] amc8_124 [/svg] The large kite is covered with gold foil. The foil is cut from a rectangular piece that just covers the entire grid. How many square inches of waste material are cut off from the four corners?",
+    "problem_statement": "Problems 7, 8 and 9 are about these kites. <img src=\"/assets/img/amc8_124.svg\" class=\"problem-img\"> The large kite is covered with gold foil. The foil is cut from a rectangular piece that just covers the entire grid. How many square inches of waste material are cut off from the four corners?",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2001&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -9585,7 +9585,7 @@
         "$24$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Points $ A, B, C $ and $ D $ have these coordinates: $ A(3,2), B(3,-2), C(-3,-2) $ and $ D(-3, 0) $. The area of quadrilateral $ ABCD $ is  [svg] amc8_125 [/svg] ",
+    "problem_statement": "Points $ A, B, C $ and $ D $ have these coordinates: $ A(3,2), B(3,-2), C(-3,-2) $ and $ D(-3, 0) $. The area of quadrilateral $ ABCD $ is  <img src=\"/assets/img/amc8_125.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2001&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -9702,7 +9702,7 @@
         "$\\frac{5}{6}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A square piece of paper, 4 inches on a side, is folded in half vertically. Both layers are then cut in half parallel to the fold. Three new rectangles are formed, a large one and two small ones. What is the ratio of the perimeter of one of the small rectangles to the perimeter of the large rectangle?  [svg] amc8_126 [/svg] ",
+    "problem_statement": "A square piece of paper, 4 inches on a side, is folded in half vertically. Both layers are then cut in half parallel to the fold. Three new rectangles are formed, a large one and two small ones. What is the ratio of the perimeter of one of the small rectangles to the perimeter of the large rectangle?  <img src=\"/assets/img/amc8_126.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2001&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -9859,7 +9859,7 @@
         "$20$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Points $ R, S $ and $ T $ are vertices of an equilateral triangle, and points $ X, Y $ and $ Z $ are midpoints of its sides. How many noncongruent triangles can be drawn using any three of these six points as vertices?  [svg] amc8_127 [/svg] ",
+    "problem_statement": "Points $ R, S $ and $ T $ are vertices of an equilateral triangle, and points $ X, Y $ and $ Z $ are midpoints of its sides. How many noncongruent triangles can be drawn using any three of these six points as vertices?  <img src=\"/assets/img/amc8_127.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2001&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -9884,7 +9884,7 @@
         "$9$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Each half of this figure is composed of 3 red triangles, 5 blue triangles and 8 white triangles. When the upper half is folded down over the centerline, 2 pairs of red triangles coincide, as do 3 pairs of blue triangles. There are 2 red-white pairs. How many white pairs coincide?  [svg] amc8_128 [/svg] ",
+    "problem_statement": "Each half of this figure is composed of 3 red triangles, 5 blue triangles and 8 white triangles. When the upper half is folded down over the centerline, 2 pairs of red triangles coincide, as do 3 pairs of blue triangles. There are 2 red-white pairs. How many white pairs coincide?  <img src=\"/assets/img/amc8_128.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2001&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -10047,7 +10047,7 @@
         "$\\text{E}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A birdbath is designed to overflow so that it will be self-cleaning. Water flows in at the rate of 20 milliliters per minute and drains at the rate of 18 milliliters per minute. One of these graphs shows the volume of water in the birdbath during the filling time and continuing into the overflow time. Which one is it? [svg] amc8_129 [/svg] ",
+    "problem_statement": "A birdbath is designed to overflow so that it will be self-cleaning. Water flows in at the rate of 20 milliliters per minute and drains at the rate of 18 milliliters per minute. One of these graphs shows the volume of water in the birdbath during the filling time and continuing into the overflow time. Which one is it? <img src=\"/assets/img/amc8_129.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -10072,7 +10072,7 @@
         "$20$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The students in Mrs. Sawyer's class were asked to do a taste test of five kinds of candy. Each student chose one kind of candy. A bar graph of their preferences is shown. What percent of her class chose candy E? [svg] amc8_130 [/svg] ",
+    "problem_statement": "The students in Mrs. Sawyer's class were asked to do a taste test of five kinds of candy. Each student chose one kind of candy. A bar graph of their preferences is shown. What percent of her class chose candy E? <img src=\"/assets/img/amc8_130.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -10097,7 +10097,7 @@
         "$42$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "$ \\textbf{Juan's Old Stamping Grounds} $Juan organizes the stamps in his collection by country and by the decade in which they were issued.  The prices he paid for them at a stamp shop were: Brazil and France, 6 cents each, Peru 4 cents each, and Spain 5 cents each.  (Brazil and Peru are South American countries and France and Spain are in Europe.) [svg] amc8_131 [/svg] How many of his European stamps were issued in the '80s?",
+    "problem_statement": "$ \\textbf{Juan's Old Stamping Grounds} $Juan organizes the stamps in his collection by country and by the decade in which they were issued.  The prices he paid for them at a stamp shop were: Brazil and France, 6 cents each, Peru 4 cents each, and Spain 5 cents each.  (Brazil and Peru are South American countries and France and Spain are in Europe.) <img src=\"/assets/img/amc8_131.svg\" class=\"problem-img\"> How many of his European stamps were issued in the '80s?",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -10122,7 +10122,7 @@
         "$\\textdollar 2.64$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "$ \\textbf{Juan's Old Stamping Grounds} $Juan organizes the stamps in his collection by country and by the decade in which they were issued.  The prices he paid for them at a stamp shop were: Brazil and France, 6 cents each, Peru 4 cents each, and Spain 5 cents each.  (Brazil and Peru are South American countries and France and Spain are in Europe.) [svg] amc8_132 [/svg] In dollars and cents, how much did his South American stampes issued before the '70s cost him?",
+    "problem_statement": "$ \\textbf{Juan's Old Stamping Grounds} $Juan organizes the stamps in his collection by country and by the decade in which they were issued.  The prices he paid for them at a stamp shop were: Brazil and France, 6 cents each, Peru 4 cents each, and Spain 5 cents each.  (Brazil and Peru are South American countries and France and Spain are in Europe.) <img src=\"/assets/img/amc8_132.svg\" class=\"problem-img\"> In dollars and cents, how much did his South American stampes issued before the '70s cost him?",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -10147,7 +10147,7 @@
         "$5.5\\text{ cents}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "$ \\textbf{Juan's Old Stamping Grounds} $Juan organizes the stamps in his collection by country and by the decade in which they were issued.  The prices he paid for them at a stamp shop were: Brazil and France, 6 cents each, Peru 4 cents each, and Spain 5 cents each.  (Brazil and Peru are South American countries and France and Spain are in Europe.) [svg] amc8_133 [/svg] The average price of his '70s stamps is closest to",
+    "problem_statement": "$ \\textbf{Juan's Old Stamping Grounds} $Juan organizes the stamps in his collection by country and by the decade in which they were issued.  The prices he paid for them at a stamp shop were: Brazil and France, 6 cents each, Peru 4 cents each, and Spain 5 cents each.  (Brazil and Peru are South American countries and France and Spain are in Europe.) <img src=\"/assets/img/amc8_133.svg\" class=\"problem-img\"> The average price of his '70s stamps is closest to",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -10172,7 +10172,7 @@
         "$15$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A sequence of squares is made of identical square tiles. The edge of each square is one tile length longer than the edge of the previous square. The first three squares are shown. How many more tiles does the seventh square require than the sixth? [svg] amc8_134 [/svg] ",
+    "problem_statement": "A sequence of squares is made of identical square tiles. The edge of each square is one tile length longer than the edge of the previous square. The first three squares are shown. How many more tiles does the seventh square require than the sixth? <img src=\"/assets/img/amc8_134.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -10266,7 +10266,7 @@
         "$\\text{E}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Which of the following polygons has the largest area? [svg] amc8_135 [/svg] ",
+    "problem_statement": "Which of the following polygons has the largest area? <img src=\"/assets/img/amc8_135.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -10291,7 +10291,7 @@
         "$\\text{E}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Right isosceles triangles are constructed on the sides of a 3-4-5 right triangle, as shown.  A capital letter represents the area of each triangle.  Which one of the following is true? [svg] amc8_136 [/svg] $ \\textbf{(A)}\\ X+Z=W+Y\\qquad\\textbf{(B)}\\ W+X=Z\\qquad\\textbf{(C)}\\ 3X+4Y=5Z\\qquad $$ \\textbf{(D)}\\ X+W=\\frac{1}{2}(Y+Z)\\qquad\\textbf{(E)}\\ X+Y=Z $",
+    "problem_statement": "Right isosceles triangles are constructed on the sides of a 3-4-5 right triangle, as shown.  A capital letter represents the area of each triangle.  Which one of the following is true? <img src=\"/assets/img/amc8_136.svg\" class=\"problem-img\"> $ \\textbf{(A)}\\ X+Z=W+Y\\qquad\\textbf{(B)}\\ W+X=Z\\qquad\\textbf{(C)}\\ 3X+4Y=5Z\\qquad $$ \\textbf{(D)}\\ X+W=\\frac{1}{2}(Y+Z)\\qquad\\textbf{(E)}\\ X+Y=Z $",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -10385,7 +10385,7 @@
         "$3\\frac{1}2$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The area of triangle $ XYZ $ is 8 square inches.  Points $ A $ and $ B $ are midpoints of congruent segments $ \\overline{XY} $ and $ \\overline{XZ} $.  Altitude $ \\overline{XC} $ bisects $ \\overline{YZ} $.  What is the area (in square inches) of the shaded region? [svg] amc8_137 [/svg] ",
+    "problem_statement": "The area of triangle $ XYZ $ is 8 square inches.  Points $ A $ and $ B $ are midpoints of congruent segments $ \\overline{XY} $ and $ \\overline{XZ} $.  Altitude $ \\overline{XC} $ bisects $ \\overline{YZ} $.  What is the area (in square inches) of the shaded region? <img src=\"/assets/img/amc8_137.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -10433,7 +10433,7 @@
         "$36$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Six cubes, each an inch on an edge, are fastened together, as shown.  Find the total surface area in square inches.  Include the top, bottom and sides. [svg] amc8_138 [/svg] ",
+    "problem_statement": "Six cubes, each an inch on an edge, are fastened together, as shown.  Find the total surface area in square inches.  Include the top, bottom and sides. <img src=\"/assets/img/amc8_138.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -10458,7 +10458,7 @@
         "$\\frac{5}8$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A portion of a corner of a tiled floor is shown.  If the entire floor is tiled in this way and each of the four corners  looks like this one, then what fraction of the tiled floor is made of darker tiles? [svg] amc8_139 [/svg] ",
+    "problem_statement": "A portion of a corner of a tiled floor is shown.  If the entire floor is tiled in this way and each of the four corners  looks like this one, then what fraction of the tiled floor is made of darker tiles? <img src=\"/assets/img/amc8_139.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2002&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -10644,7 +10644,7 @@
         "$1800$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Given the areas of the three squares in the figure, what is the area of the interior triangle? [svg] amc8_140 [/svg] ",
+    "problem_statement": "Given the areas of the three squares in the figure, what is the area of the interior triangle? <img src=\"/assets/img/amc8_140.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2003&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -10692,7 +10692,7 @@
         "$\\text{There is a tie for fewest.}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "$ \\textbf{Bake Sale} $Four friends, Art, Roger, Paul and Trisha, bake cookies, and all cookies have the same thickness. The shapes of the cookies differ, as shown.$ \\circ $ Art's cookies are trapezoids:  [svg] amc8_141 [/svg] $ \\circ $ Roger's cookies are rectangles:  [svg] amc8_142 [/svg] $ \\circ $ Paul's cookies are parallelograms:  [svg] amc8_143 [/svg] $ \\circ $ Trisha's cookies are triangles:  [svg] amc8_144 [/svg] Each friend uses the same amount of dough, and Art makes exactly 12 cookies. Who gets the fewest cookies from one batch of cookie dough?",
+    "problem_statement": "$ \\textbf{Bake Sale} $Four friends, Art, Roger, Paul and Trisha, bake cookies, and all cookies have the same thickness. The shapes of the cookies differ, as shown.$ \\circ $ Art's cookies are trapezoids:  <img src=\"/assets/img/amc8_141.svg\" class=\"problem-img\"> $ \\circ $ Roger's cookies are rectangles:  <img src=\"/assets/img/amc8_142.svg\" class=\"problem-img\"> $ \\circ $ Paul's cookies are parallelograms:  <img src=\"/assets/img/amc8_143.svg\" class=\"problem-img\"> $ \\circ $ Trisha's cookies are triangles:  <img src=\"/assets/img/amc8_144.svg\" class=\"problem-img\"> Each friend uses the same amount of dough, and Art makes exactly 12 cookies. Who gets the fewest cookies from one batch of cookie dough?",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2003&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -10720,7 +10720,7 @@
         "$90$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "$ \\textbf{Bake Sale} $Four friends, Art, Roger, Paul and Trisha, bake cookies, and all cookies have the same thickness. The shapes of the cookies differ, as shown.$ \\circ $ Art's cookies are trapezoids:  [svg] amc8_145 [/svg] $ \\circ $ Roger's cookies are rectangles:  [svg] amc8_146 [/svg] $ \\circ $ Paul's cookies are parallelograms:  [svg] amc8_147 [/svg] $ \\circ $ Trisha's cookies are triangles:  [svg] amc8_148 [/svg] Each friend uses the same amount of dough, and Art makes exactly 12 cookies. Art's cookies sell for 60 cents each. To earn the same amount from a single batch, how much should one of Roger's cookies cost in cents?",
+    "problem_statement": "$ \\textbf{Bake Sale} $Four friends, Art, Roger, Paul and Trisha, bake cookies, and all cookies have the same thickness. The shapes of the cookies differ, as shown.$ \\circ $ Art's cookies are trapezoids:  <img src=\"/assets/img/amc8_145.svg\" class=\"problem-img\"> $ \\circ $ Roger's cookies are rectangles:  <img src=\"/assets/img/amc8_146.svg\" class=\"problem-img\"> $ \\circ $ Paul's cookies are parallelograms:  <img src=\"/assets/img/amc8_147.svg\" class=\"problem-img\"> $ \\circ $ Trisha's cookies are triangles:  <img src=\"/assets/img/amc8_148.svg\" class=\"problem-img\"> Each friend uses the same amount of dough, and Art makes exactly 12 cookies. Art's cookies sell for 60 cents each. To earn the same amount from a single batch, how much should one of Roger's cookies cost in cents?",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2003&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -10748,7 +10748,7 @@
         "$24$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "$ \\textbf{Bake Sale} $Four friends, Art, Roger, Paul and Trisha, bake cookies, and all cookies have the same thickness. The shapes of the cookies differ, as shown.$ \\circ $ Art's cookies are trapezoids:  [svg] amc8_149 [/svg] $ \\circ $ Roger's cookies are rectangles:  [svg] amc8_150 [/svg] $ \\circ $ Paul's cookies are parallelograms:  [svg] amc8_151 [/svg] $ \\circ $ Trisha's cookies are triangles:  [svg] amc8_152 [/svg] Each friend uses the same amount of dough, and Art makes exactly 12 cookies. How many cookies will be in one batch of Trisha's cookies?",
+    "problem_statement": "$ \\textbf{Bake Sale} $Four friends, Art, Roger, Paul and Trisha, bake cookies, and all cookies have the same thickness. The shapes of the cookies differ, as shown.$ \\circ $ Art's cookies are trapezoids:  <img src=\"/assets/img/amc8_149.svg\" class=\"problem-img\"> $ \\circ $ Roger's cookies are rectangles:  <img src=\"/assets/img/amc8_150.svg\" class=\"problem-img\"> $ \\circ $ Paul's cookies are parallelograms:  <img src=\"/assets/img/amc8_151.svg\" class=\"problem-img\"> $ \\circ $ Trisha's cookies are triangles:  <img src=\"/assets/img/amc8_152.svg\" class=\"problem-img\"> Each friend uses the same amount of dough, and Art makes exactly 12 cookies. How many cookies will be in one batch of Trisha's cookies?",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2003&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -10822,7 +10822,7 @@
         "$12$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Fourteen white cubes are put together to form the figure on the right. The complete surface of the figure, including the bottom, is painted red. The figure is then separated into individual cubes. How many of the individual cubes have exactly four red faces? [svg] amc8_153 [/svg] ",
+    "problem_statement": "Fourteen white cubes are put together to form the figure on the right. The complete surface of the figure, including the bottom, is painted red. The figure is then separated into individual cubes. How many of the individual cubes have exactly four red faces? <img src=\"/assets/img/amc8_153.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2003&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -10870,7 +10870,7 @@
         "$7$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A figure is constructed from unit cubes. Each cube shares at least one face with another cube. What is the minimum number of cubes needed to build a figure with the front and side views shown? [svg] amc8_154 [/svg] ",
+    "problem_statement": "A figure is constructed from unit cubes. Each cube shares at least one face with another cube. What is the minimum number of cubes needed to build a figure with the front and side views shown? <img src=\"/assets/img/amc8_154.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2003&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -10941,7 +10941,7 @@
         "$7$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Each of the twenty dots on the graph below represents one of Sarah's classmates.  Classmates who are friends are connected with a line segment.  For her birthday party, Sarah is inviting only the following:  all of her friends and all of those classmates who are friends with at least one of her friends.  How many classmates will not be invited to Sarah's party? [svg] amc8_155 [/svg] ",
+    "problem_statement": "Each of the twenty dots on the graph below represents one of Sarah's classmates.  Classmates who are friends are connected with a line segment.  For her birthday party, Sarah is inviting only the following:  all of her friends and all of those classmates who are friends with at least one of her friends.  How many classmates will not be invited to Sarah's party? <img src=\"/assets/img/amc8_155.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2003&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -11012,7 +11012,7 @@
         "$20$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The area of trapezoid $ ABCD $ is $ 164\\text{cm}^2 $.  The altitude is $ 8\\text{cm} $, $ AB $ is $ 10\\text{cm} $, and $ CD $ is $ 17\\text{cm} $.  What is $ BC $, in centimeters? [svg] amc8_156 [/svg] ",
+    "problem_statement": "The area of trapezoid $ ABCD $ is $ 164\\text{cm}^2 $.  The altitude is $ 8\\text{cm} $, $ AB $ is $ 10\\text{cm} $, and $ CD $ is $ 17\\text{cm} $.  What is $ BC $, in centimeters? <img src=\"/assets/img/amc8_156.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2003&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -11037,7 +11037,7 @@
         "$\\text{all are equal}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The following figures are composed of squares and circles. Which figure has a shaded region with largest area? [svg] amc8_157 [/svg] ",
+    "problem_statement": "The following figures are composed of squares and circles. Which figure has a shaded region with largest area? <img src=\"/assets/img/amc8_157.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2003&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -11062,7 +11062,7 @@
         "$\\text{all are equal}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the pattern below, the cat (denoted as a large circle in the figures below) moves clockwise through the four squares  and the mouse (denoted as a dot in the figures below) moves counterclockwise through the eight exterior segments of the four squares. [svg] amc8_158 [/svg] If the pattern is continued, where would the cat and mouse be after the 247th move?$ \\textbf{(A)} $ [svg] amc8_159 [/svg] $ \\textbf{(B)} $ [svg] amc8_160 [/svg] $ \\textbf{(C)} $ [svg] amc8_161 [/svg] $ \\textbf{(D)} $ [svg] amc8_162 [/svg] $ \\textbf{(E)} $ [svg] amc8_163 [/svg] ",
+    "problem_statement": "In the pattern below, the cat (denoted as a large circle in the figures below) moves clockwise through the four squares  and the mouse (denoted as a dot in the figures below) moves counterclockwise through the eight exterior segments of the four squares. <img src=\"/assets/img/amc8_158.svg\" class=\"problem-img\"> If the pattern is continued, where would the cat and mouse be after the 247th move?$ \\textbf{(A)} $ <img src=\"/assets/img/amc8_159.svg\" class=\"problem-img\"> $ \\textbf{(B)} $ <img src=\"/assets/img/amc8_160.svg\" class=\"problem-img\"> $ \\textbf{(C)} $ <img src=\"/assets/img/amc8_161.svg\" class=\"problem-img\"> $ \\textbf{(D)} $ <img src=\"/assets/img/amc8_162.svg\" class=\"problem-img\"> $ \\textbf{(E)} $ <img src=\"/assets/img/amc8_163.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2003&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -11092,7 +11092,7 @@
         "$\\text{all are equal}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A ship travels from point A to point B along a semicircular path, centered at Island X. Then it travels along a straight path from B to C. Which of these graphs best shows the ship's distance from Island X as it moves along its course? [svg] amc8_164 [/svg] $ \\textbf{(A)} $ [svg] amc8_165 [/svg] $ \\textbf{(B)} $ [svg] amc8_166 [/svg] $ \\textbf{(C)} $ [svg] amc8_167 [/svg] $ \\textbf{(D)} $ [svg] amc8_168 [/svg] $ \\textbf{(E)} $ [svg] amc8_169 [/svg] ",
+    "problem_statement": "A ship travels from point A to point B along a semicircular path, centered at Island X. Then it travels along a straight path from B to C. Which of these graphs best shows the ship's distance from Island X as it moves along its course? <img src=\"/assets/img/amc8_164.svg\" class=\"problem-img\"> $ \\textbf{(A)} $ <img src=\"/assets/img/amc8_165.svg\" class=\"problem-img\"> $ \\textbf{(B)} $ <img src=\"/assets/img/amc8_166.svg\" class=\"problem-img\"> $ \\textbf{(C)} $ <img src=\"/assets/img/amc8_167.svg\" class=\"problem-img\"> $ \\textbf{(D)} $ <img src=\"/assets/img/amc8_168.svg\" class=\"problem-img\"> $ \\textbf{(E)} $ <img src=\"/assets/img/amc8_169.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2003&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -11122,7 +11122,7 @@
         "$\\frac{27}{2}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the figure, the area of square WXYZ is $ 25\\text{cm}^2 $. The four smaller squares have sides 1 cm long, either parallel to or coinciding with the sides of the large square. In $ \\Delta ABC $, $ AB = AC $, and when $ \\Delta ABC $ is folded over side BC, point A coincides with O, the center of square WXYZ. What is the area of $ \\Delta ABC $, in square centimeters? [svg] amc8_170 [/svg] ",
+    "problem_statement": "In the figure, the area of square WXYZ is $ 25\\text{cm}^2 $. The four smaller squares have sides 1 cm long, either parallel to or coinciding with the sides of the large square. In $ \\Delta ABC $, $ AB = AC $, and when $ \\Delta ABC $ is folded over side BC, point A coincides with O, the center of square WXYZ. What is the area of $ \\Delta ABC $, in square centimeters? <img src=\"/assets/img/amc8_170.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2003&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -11446,7 +11446,7 @@
         "$41$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "What is the area enclosed by the geoboard quadrilateral below? [svg] amc8_171 [/svg] ",
+    "problem_statement": "What is the area enclosed by the geoboard quadrilateral below? <img src=\"/assets/img/amc8_171.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2004&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -11471,7 +11471,7 @@
         "$18$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Thirteen black and six white hexagonal tiles were used to create the figure below. If a new figure is created by attaching a border of white tiles with the same size and shape as the others, what will be the difference between the total number of white tiles and the total number of black tiles in the new figure? [svg] amc8_172 [/svg] ",
+    "problem_statement": "Thirteen black and six white hexagonal tiles were used to create the figure below. If a new figure is created by attaching a border of white tiles with the same size and shape as the others, what will be the difference between the total number of white tiles and the total number of black tiles in the new figure? <img src=\"/assets/img/amc8_172.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2004&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -11611,7 +11611,7 @@
         "$\\frac{3}{4}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Spinners A and B are spun. On each spinner, the arrow is equally likely to land on each number. What is the probability that the product of the two spinners' numbers is even? [svg] amc8_173 [/svg] ",
+    "problem_statement": "Spinners A and B are spun. On each spinner, the arrow is equally likely to land on each number. What is the probability that the product of the two spinners' numbers is even? <img src=\"/assets/img/amc8_173.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2004&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -11659,7 +11659,7 @@
         "$\\frac{3}{5}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Tess runs counterclockwise around rectangular block JKLM. She lives at corner J. Which graph could represent her straight-line distance from home? [svg] amc8_174 [/svg] $ \\textbf{(A)} $ [svg] amc8_175 [/svg] $ \\textbf{(B)} $ [svg] amc8_176 [/svg] $ \\textbf{(C)} $ [svg] amc8_177 [/svg] $ \\textbf{(D)} $ [svg] amc8_178 [/svg] $ \\textbf{(E)} $ [svg] amc8_179 [/svg] ",
+    "problem_statement": "Tess runs counterclockwise around rectangular block JKLM. She lives at corner J. Which graph could represent her straight-line distance from home? <img src=\"/assets/img/amc8_174.svg\" class=\"problem-img\"> $ \\textbf{(A)} $ <img src=\"/assets/img/amc8_175.svg\" class=\"problem-img\"> $ \\textbf{(B)} $ <img src=\"/assets/img/amc8_176.svg\" class=\"problem-img\"> $ \\textbf{(C)} $ <img src=\"/assets/img/amc8_177.svg\" class=\"problem-img\"> $ \\textbf{(D)} $ <img src=\"/assets/img/amc8_178.svg\" class=\"problem-img\"> $ \\textbf{(E)} $ <img src=\"/assets/img/amc8_179.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2004&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -11689,7 +11689,7 @@
         "$8.1$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the figure, $ ABCD $ is a rectangle and $ EFGH $ is a parallelogram. Using the measurements given in the figure, what is the length $ d $ of the segment that is perpendicular to $ HE $ and $ FG $? [svg] amc8_180 [/svg] ",
+    "problem_statement": "In the figure, $ ABCD $ is a rectangle and $ EFGH $ is a parallelogram. Using the measurements given in the figure, what is the length $ d $ of the segment that is perpendicular to $ HE $ and $ FG $? <img src=\"/assets/img/amc8_180.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2004&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -11714,7 +11714,7 @@
         "$32-2\\pi$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Two $ 4\\times 4 $ squares intersect at right angles, bisecting their intersecting sides, as shown. The circle's diameter is the segment between the two points of intersection. What is the area of the shaded region created by removing the circle from the squares? [svg] amc8_181 [/svg] ",
+    "problem_statement": "Two $ 4\\times 4 $ squares intersect at right angles, bisecting their intersecting sides, as shown. The circle's diameter is the segment between the two points of intersection. What is the area of the shaded region created by removing the circle from the squares? <img src=\"/assets/img/amc8_181.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2004&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -11785,7 +11785,7 @@
         "$5$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "What is the minimum number of small squares that must be colored black so that a line of symmetry lies on the diagonal $ \\overline{BD} $ of square $ ABCD $? [svg] amc8_182 [/svg] ",
+    "problem_statement": "What is the minimum number of small squares that must be colored black so that a line of symmetry lies on the diagonal $ \\overline{BD} $ of square $ ABCD $? <img src=\"/assets/img/amc8_182.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2005&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -11925,7 +11925,7 @@
         "$18.5$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In quadrilateral $ ABCD $, sides $ \\overline{AB} $ and $ \\overline{BC} $ both have length 10, sides $ \\overline{CD} $ and $ \\overline{DA} $ both have length 17, and the measure of angle $ ADC $ is $ 60^\\circ $. What is the length of diagonal $ \\overline{AC} $? [svg] amc8_183 [/svg] ",
+    "problem_statement": "In quadrilateral $ ABCD $, sides $ \\overline{AB} $ and $ \\overline{BC} $ both have length 10, sides $ \\overline{CD} $ and $ \\overline{DA} $ both have length 17, and the measure of angle $ ADC $ is $ 60^\\circ $. What is the length of diagonal $ \\overline{AC} $? <img src=\"/assets/img/amc8_183.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2005&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -12019,7 +12019,7 @@
         "$11$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The area of polygon $ ABCDEF $ is 52 with $ AB=8 $, $ BC=9 $ and $ FA=5 $. What is $ DE+EF $? [svg] amc8_184 [/svg] ",
+    "problem_statement": "The area of polygon $ ABCDEF $ is 52 with $ AB=8 $, $ BC=9 $ and $ FA=5 $. What is $ DE+EF $? <img src=\"/assets/img/amc8_184.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2005&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -12113,7 +12113,7 @@
         "$\\text{Evelyn}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The results of a cross-country team's training run are graphed below. Which student has the greatest average speed? [svg] amc8_185 [/svg] ",
+    "problem_statement": "The results of a cross-country team's training run are graphed below. Which student has the greatest average speed? <img src=\"/assets/img/amc8_185.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2005&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -12161,7 +12161,7 @@
         "$204$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "What is the perimeter of trapezoid $ ABCD $? [svg] amc8_186 [/svg] ",
+    "problem_statement": "What is the perimeter of trapezoid $ ABCD $? <img src=\"/assets/img/amc8_186.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2005&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -12209,7 +12209,7 @@
         "$24$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "How many distinct triangles can be drawn using three of the dots below as vertices? [svg] amc8_187 [/svg] ",
+    "problem_statement": "How many distinct triangles can be drawn using three of the dots below as vertices? <img src=\"/assets/img/amc8_187.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2005&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -12257,7 +12257,7 @@
         "$4\\pi$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Isosceles right triangle $ ABC $ encloses a semicircle of area $ 2\\pi $. The circle has its center $ O $ on hypotenuse $ \\overline{AB} $ and is tangent to sides $ \\overline{AC} $ and $ \\overline{BC} $. What is the area of triangle $ ABC $? [svg] amc8_188 [/svg] ",
+    "problem_statement": "Isosceles right triangle $ ABC $ encloses a semicircle of area $ 2\\pi $. The circle has its center $ O $ on hypotenuse $ \\overline{AB} $ and is tangent to sides $ \\overline{AC} $ and $ \\overline{BC} $. What is the area of triangle $ ABC $? <img src=\"/assets/img/amc8_188.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2005&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -12305,7 +12305,7 @@
         "$\\sqrt{\\pi}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A square with side length 2 and a circle share the same center. The total area of the regions that are inside the circle and outside the square is equal to the total area of the regions that are outside the circle and inside the square. What is the radius of the circle? [svg] amc8_189 [/svg] ",
+    "problem_statement": "A square with side length 2 and a circle share the same center. The total area of the regions that are inside the circle and outside the square is equal to the total area of the regions that are outside the circle and inside the square. What is the radius of the circle? <img src=\"/assets/img/amc8_189.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2005&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -12399,7 +12399,7 @@
         "$\\text{northwest}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Initially, a spinner points west. Chenille moves it clockwise $ 2\\frac{1}{4} $ revolutions and then counterclockwise $ 3\\frac{3}{4} $ revolutions. In what direction does the spinner point after the two moves?\n\n [svg] amc8_190 [/svg] ",
+    "problem_statement": "Initially, a spinner points west. Chenille moves it clockwise $ 2\\frac{1}{4} $ revolutions and then counterclockwise $ 3\\frac{3}{4} $ revolutions. In what direction does the spinner point after the two moves?\n\n <img src=\"/assets/img/amc8_190.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2006&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -12424,7 +12424,7 @@
         "$40$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Points $ A, B, C $ and $ D $ are midpoints of the sides of the larger square. If the larger square has area 60, what is the area of the smaller square?\n\n [svg] amc8_191 [/svg] ",
+    "problem_statement": "Points $ A, B, C $ and $ D $ are midpoints of the sides of the larger square. If the larger square has area 60, what is the area of the smaller square?\n\n <img src=\"/assets/img/amc8_191.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2006&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -12449,7 +12449,7 @@
         "$24$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The letter T is formed by placing two $ 2\\times 4 $ inch rectangles next to each other, as shown. What is the perimeter of the T, in inches?\n\n [svg] amc8_192 [/svg] ",
+    "problem_statement": "The letter T is formed by placing two $ 2\\times 4 $ inch rectangles next to each other, as shown. What is the perimeter of the T, in inches?\n\n <img src=\"/assets/img/amc8_192.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2006&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -12543,7 +12543,7 @@
         "$2006$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Jorge's teacher asks him to plot all the ordered pairs $ (w, l) $ of positive integers for which $ w $ is the width and $ l $ is the length of a rectangle with area 12. What should his graph look like?$ \\textbf{(A)} $ [svg] amc8_193 [/svg] $ \\textbf{(B)} $ [svg] amc8_194 [/svg] $ \\textbf{(C)} $ [svg] amc8_195 [/svg] $ \\textbf{(D)} $ [svg] amc8_196 [/svg] $ \\textbf{(E)} $ [svg] amc8_197 [/svg] ",
+    "problem_statement": "Jorge's teacher asks him to plot all the ordered pairs $ (w, l) $ of positive integers for which $ w $ is the width and $ l $ is the length of a rectangle with area 12. What should his graph look like?$ \\textbf{(A)} $ <img src=\"/assets/img/amc8_193.svg\" class=\"problem-img\"> $ \\textbf{(B)} $ <img src=\"/assets/img/amc8_194.svg\" class=\"problem-img\"> $ \\textbf{(C)} $ <img src=\"/assets/img/amc8_195.svg\" class=\"problem-img\"> $ \\textbf{(D)} $ <img src=\"/assets/img/amc8_196.svg\" class=\"problem-img\"> $ \\textbf{(E)} $ <img src=\"/assets/img/amc8_197.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2006&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -12710,7 +12710,7 @@
         "$\\frac{3}{4}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Jeff rotates spinners $ P $, $ Q $ and $ R $ and adds the resulting numbers. What is the probability that his sum is an odd number?\n\n [svg] amc8_198 [/svg] ",
+    "problem_statement": "Jeff rotates spinners $ P $, $ Q $ and $ R $ and adds the resulting numbers. What is the probability that his sum is an odd number?\n\n <img src=\"/assets/img/amc8_198.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2006&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -12758,7 +12758,7 @@
         "$6$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Triangle $ ABC $ is an isosceles triangle with $ \\overline{AB}=\\overline{BC} $. Point $ D $ is the midpoint of both $ \\overline{BC} $ and $ \\overline{AE} $, and $ \\overline{CE} $ is 11 units long. Triangle $ ABD $ is congruent to triangle $ ECD $. What is the length of $ \\overline{BD} $?\n\n [svg] amc8_199 [/svg] ",
+    "problem_statement": "Triangle $ ABC $ is an isosceles triangle with $ \\overline{AB}=\\overline{BC} $. Point $ D $ is the midpoint of both $ \\overline{BC} $ and $ \\overline{AE} $, and $ \\overline{CE} $ is 11 units long. Triangle $ ABD $ is congruent to triangle $ ECD $. What is the length of $ \\overline{BD} $?\n\n <img src=\"/assets/img/amc8_199.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2006&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -12829,7 +12829,7 @@
         "$35$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Three different one-digit positive integers are placed in the bottom row of cells. Numbers in adjacent cells are added and the sum is placed in the cell above them. In the second row, continue the same process to obtain a number in the top cell. What is the difference between the largest and smallest numbers possible in the top cell? [svg] amc8_200 [/svg] ",
+    "problem_statement": "Three different one-digit positive integers are placed in the bottom row of cells. Numbers in adjacent cells are added and the sum is placed in the cell above them. In the second row, continue the same process to obtain a number in the top cell. What is the difference between the largest and smallest numbers possible in the top cell? <img src=\"/assets/img/amc8_200.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2006&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -12900,7 +12900,7 @@
         "$17$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Barry wrote 6 different numbers, one on each side of 3 cards, and laid the cards on a table, as shown. The sums of the two numbers on each of the three cards are equal. The three numbers on the hidden sides are prime numbers. What is the average of the hidden prime numbers?\n\n [svg] amc8_201 [/svg] ",
+    "problem_statement": "Barry wrote 6 different numbers, one on each side of 3 cards, and laid the cards on a table, as shown. The sums of the two numbers on each of the three cards are equal. The three numbers on the hidden sides are prime numbers. What is the average of the hidden prime numbers?\n\n <img src=\"/assets/img/amc8_201.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2006&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -12948,7 +12948,7 @@
         "$\\:\\frac{5}2$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Six-hundred fifty students were surveyed about their pasta preferences. The choices were lasagna, manicotti, ravioli and spaghetti. The results of the survey are displayed in the bar graph. What is the ratio of the number of students who preferred spaghetti to the number of students who preferred manicotti? [svg] amc8_202 [/svg] ",
+    "problem_statement": "Six-hundred fifty students were surveyed about their pasta preferences. The choices were lasagna, manicotti, ravioli and spaghetti. The results of the survey are displayed in the bar graph. What is the ratio of the number of students who preferred spaghetti to the number of students who preferred manicotti? <img src=\"/assets/img/amc8_202.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2007&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -13088,7 +13088,7 @@
         "$\\: 18$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In trapezoid $ ABCD $, $ AD $ is perpendicular to $ DC $, $ AD=AB=3 $, and $ DC=6 $. In addition, E is on $ DC $, and $ BE $ is parallel to $ AD $. Find the area of $ \\Delta BEC $. [svg] amc8_203 [/svg] ",
+    "problem_statement": "In trapezoid $ ABCD $, $ AD $ is perpendicular to $ DC $, $ AD=AB=3 $, and $ DC=6 $. In addition, E is on $ DC $, and $ BE $ is parallel to $ AD $. Find the area of $ \\Delta BEC $. <img src=\"/assets/img/amc8_203.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2007&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -13159,7 +13159,7 @@
         "$\\text{ cannot be determined}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Tiles I, II, III and IV are translated so one tile coincides with each of the rectangles $ A, B, C $ and $ D $. In the final arrangement, the two numbers on any side common to two adjacent tiles must be the same. Which of the tiles is translated to Rectangle $ C $? [svg] amc8_204 [/svg] ",
+    "problem_statement": "Tiles I, II, III and IV are translated so one tile coincides with each of the rectangles $ A, B, C $ and $ D $. In the final arrangement, the two numbers on any side common to two adjacent tiles must be the same. Which of the tiles is translated to Rectangle $ C $? <img src=\"/assets/img/amc8_204.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2007&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -13184,7 +13184,7 @@
         "$\\: 3:1$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A unit hexagon is composed of a regular haxagon of side length 1 and its equilateral triangular extensions, as shown in the diagram. What is the ratio of the area of the extensions to the area of the original hexagon? [svg] amc8_205 [/svg] ",
+    "problem_statement": "A unit hexagon is composed of a regular haxagon of side length 1 and its equilateral triangular extensions, as shown in the diagram. What is the ratio of the area of the extensions to the area of the original hexagon? <img src=\"/assets/img/amc8_205.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2007&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -13209,7 +13209,7 @@
         "$\\: 1510$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Sets A and B, shown in the venn diagram, have the same number of elements. Thier union has 2007 elements and their intersection has 1001 elements. Find the number of elements in A. [svg] amc8_206 [/svg] ",
+    "problem_statement": "Sets A and B, shown in the venn diagram, have the same number of elements. Thier union has 2007 elements and their intersection has 1001 elements. Find the number of elements in A. <img src=\"/assets/img/amc8_206.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2007&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -13280,7 +13280,7 @@
         "$\\frac{b}{c}=a$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Amanda Reckonwith draws five circles with radii 1, 2, 3, 4 and 5. Then for each circle she plots the point (C; A), where C is its circumference and A is its area. Which of the following could be her graph?$ \\textbf{(A)} $ [svg] amc8_207 [/svg] $ \\textbf{(B)} $ [svg] amc8_208 [/svg] $ \\textbf{(C)} $ [svg] amc8_209 [/svg] $ \\textbf{(D)} $ [svg] amc8_210 [/svg] $ \\textbf{(E)} $ [svg] amc8_211 [/svg] ",
+    "problem_statement": "Amanda Reckonwith draws five circles with radii 1, 2, 3, 4 and 5. Then for each circle she plots the point (C; A), where C is its circumference and A is its area. Which of the following could be her graph?$ \\textbf{(A)} $ <img src=\"/assets/img/amc8_207.svg\" class=\"problem-img\"> $ \\textbf{(B)} $ <img src=\"/assets/img/amc8_208.svg\" class=\"problem-img\"> $ \\textbf{(C)} $ <img src=\"/assets/img/amc8_209.svg\" class=\"problem-img\"> $ \\textbf{(D)} $ <img src=\"/assets/img/amc8_210.svg\" class=\"problem-img\"> $ \\textbf{(E)} $ <img src=\"/assets/img/amc8_211.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2007&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -13447,7 +13447,7 @@
         "$\\: 12$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "What is the area of the shaded pinwheel shown in the $ 5\\times 5 $ grid? [svg] amc8_212 [/svg] ",
+    "problem_statement": "What is the area of the shaded pinwheel shown in the $ 5\\times 5 $ grid? <img src=\"/assets/img/amc8_212.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2007&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -13495,7 +13495,7 @@
         "$\\:\\frac{19}{36}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "On the dart board shown in the figure, the outer circle has radius 6 and the inner circle has radius 3. Three radii divide each circle into the three congruent regions, with point values shown. The probability that a dart will hit a given region is proportional to to the area of the region. What two darts hit this board, the score is the sum of the point values in the regions. What is the probability that the score is odd? [svg] amc8_213 [/svg] ",
+    "problem_statement": "On the dart board shown in the figure, the outer circle has radius 6 and the inner circle has radius 3. Three radii divide each circle into the three congruent regions, with point values shown. The probability that a dart will hit a given region is proportional to to the area of the region. What two darts hit this board, the score is the sum of the point values in the regions. What is the probability that the score is odd? <img src=\"/assets/img/amc8_213.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2007&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -13589,7 +13589,7 @@
         "$7$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the figure, the outer equilateral triangle has area $ 16 $, the inner equilateral triangle has area $ 1 $, and the three trapezoids are congruent. What is the area of one of the trapezoids? [svg] amc8_214 [/svg] ",
+    "problem_statement": "In the figure, the outer equilateral triangle has area $ 16 $, the inner equilateral triangle has area $ 1 $, and the three trapezoids are congruent. What is the area of one of the trapezoids? <img src=\"/assets/img/amc8_214.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2008&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -13637,7 +13637,7 @@
         "$1:1$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the figure, what is the ratio of the area of the gray squares to the area of the white squares? [svg] amc8_215 [/svg] ",
+    "problem_statement": "In the figure, what is the ratio of the area of the gray squares to the area of the white squares? <img src=\"/assets/img/amc8_215.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2008&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -13685,7 +13685,7 @@
         "$85$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Candy sales from the Boosters Club from January through April are shown. What were the average sales per month in dollars? [svg] amc8_216 [/svg] ",
+    "problem_statement": "Candy sales from the Boosters Club from January through April are shown. What were the average sales per month in dollars? <img src=\"/assets/img/amc8_216.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2008&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -13825,7 +13825,7 @@
         "$6$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Three $ \\text{A's} $, three $ \\text{B's} $, and three $ \\text{C's} $ are placed in the nine spaces so that each row and column contain one of each letter. If $ \\text{A} $ is placed in the upper left corner, how many arrangements are possible? [svg] amc8_217 [/svg] ",
+    "problem_statement": "Three $ \\text{A's} $, three $ \\text{B's} $, and three $ \\text{C's} $ are placed in the nine spaces so that each row and column contain one of each letter. If $ \\text{A} $ is placed in the upper left corner, how many arrangements are possible? <img src=\"/assets/img/amc8_217.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2008&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -13873,7 +13873,7 @@
         "$\\: 6 : 25$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A shape is created by joining seven unit cubes, as shown. What is the ratio of the volume in cubic units to the surface area in square units? [svg] amc8_218 [/svg] ",
+    "problem_statement": "A shape is created by joining seven unit cubes, as shown. What is the ratio of the volume in cubic units to the surface area in square units? <img src=\"/assets/img/amc8_218.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2008&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -13921,7 +13921,7 @@
         "$20\\pi+40$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Two circles that share the same center have radii $ 10 $ meters and $ 20 $ meters. An aardvark runs along the path shown, starting at $ A $ and ending at $ K $. How many meters does the aardvark run? [svg] amc8_219 [/svg] ",
+    "problem_statement": "Two circles that share the same center have radii $ 10 $ meters and $ 20 $ meters. An aardvark runs along the path shown, starting at $ A $ and ending at $ K $. How many meters does the aardvark run? <img src=\"/assets/img/amc8_219.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2008&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -13946,7 +13946,7 @@
         "$\\frac{4}{7}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Eight points are spaced around at intervals of one unit around a $ 2\\times 2 $ square, as shown. Two of the $ 8 $ points are chosen at random. What is the probability that the two points are one unit apart? [svg] amc8_220 [/svg] ",
+    "problem_statement": "Eight points are spaced around at intervals of one unit around a $ 2\\times 2 $ square, as shown. Two of the $ 8 $ points are chosen at random. What is the probability that the two points are one unit apart? <img src=\"/assets/img/amc8_220.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2008&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -13994,7 +13994,7 @@
         "$603$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Jerry cuts a wedge from a $ 6 $-cm cylinder of bologna as shown by the dashed curve. Which answer choice is closest to the volume of his wedge in cubic centimeters? [svg] amc8_221 [/svg] ",
+    "problem_statement": "Jerry cuts a wedge from a $ 6 $-cm cylinder of bologna as shown by the dashed curve. Which answer choice is closest to the volume of his wedge in cubic centimeters? <img src=\"/assets/img/amc8_221.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2008&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -14042,7 +14042,7 @@
         "$\\frac{7}{20}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In square $ ABCE $, $ AF=2FE $ and $ CD=2DE $. What is the ratio of the area of $ \\triangle BFD $ to the area of square $ ABCE $? [svg] amc8_222 [/svg] ",
+    "problem_statement": "In square $ ABCE $, $ AF=2FE $ and $ CD=2DE $. What is the ratio of the area of $ \\triangle BFD $ to the area of square $ ABCE $? <img src=\"/assets/img/amc8_222.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2008&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -14090,7 +14090,7 @@
         "$48$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Margie's winning art design is shown. The smallest circle has radius 2 inches, with each successive circle's radius increasing by 2 inches. Approximately what percent of the design is black? [svg] amc8_223 [/svg] ",
+    "problem_statement": "Margie's winning art design is shown. The smallest circle has radius 2 inches, with each successive circle's radius increasing by 2 inches. Approximately what percent of the design is black? <img src=\"/assets/img/amc8_223.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2008&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -14161,7 +14161,7 @@
         "$7$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The graph shows the constant rate at which Suzanna rides her bike.  If she rides a total of a half an hour at the same speed, how many miles would she have ridden?  [svg] amc8_224 [/svg] ",
+    "problem_statement": "The graph shows the constant rate at which Suzanna rides her bike.  If she rides a total of a half an hour at the same speed, how many miles would she have ridden?  <img src=\"/assets/img/amc8_224.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2009&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -14186,7 +14186,7 @@
         "$$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The five pieces shown below can be arranged to form four of the five figures shown in the choices. Which figure cannot be formed? [svg] amc8_225 [/svg]  [svg] amc8_226 [/svg] ",
+    "problem_statement": "The five pieces shown below can be arranged to form four of the five figures shown in the choices. Which figure cannot be formed? <img src=\"/assets/img/amc8_225.svg\" class=\"problem-img\">  <img src=\"/assets/img/amc8_226.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2009&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -14258,7 +14258,7 @@
         "$9$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The triangular plot of ACD lies between Aspen Road, Brown Road and a railroad.  Main Street runs east and west, and the railroad runs north and south. The numbers in the diagram indicate distances in miles.  The width of the railroad track can be ignored.  How many square miles are in the plot of land ACD? [svg] amc8_227 [/svg] ",
+    "problem_statement": "The triangular plot of ACD lies between Aspen Road, Brown Road and a railroad.  Main Street runs east and west, and the railroad runs north and south. The numbers in the diagram indicate distances in miles.  The width of the railroad track can be ignored.  How many square miles are in the plot of land ACD? <img src=\"/assets/img/amc8_227.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2009&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -14306,7 +14306,7 @@
         "$29$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Construct a square on one side of an equilateral triangle. One on non-adjacent side of the square, construct a regular pentagon, as shown. One a non-adjacent side of the pentagon, construct a hexagon. Continue to construct regular polygons in the same way, until you construct an octagon. How many sides does the resulting polygon have? [svg] amc8_228 [/svg] ",
+    "problem_statement": "Construct a square on one side of an equilateral triangle. One on non-adjacent side of the square, construct a regular pentagon, as shown. One a non-adjacent side of the pentagon, construct a hexagon. Continue to construct regular polygons in the same way, until you construct an octagon. How many sides does the resulting polygon have? <img src=\"/assets/img/amc8_228.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2009&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -14331,7 +14331,7 @@
         "$\\frac{49}{64}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "On a checkerboard composed of 64 unit squares, what is the probability that a randomly chosen unit square does  not   touch the outer edge of the board? [svg] amc8_229 [/svg] ",
+    "problem_statement": "On a checkerboard composed of 64 unit squares, what is the probability that a randomly chosen unit square does  not   touch the outer edge of the board? <img src=\"/assets/img/amc8_229.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2009&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -14379,7 +14379,7 @@
         "$\\frac{5}{6}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The two spinners shown are spun once and each lands on one of the numbered sectors. What is the probability that the sum of the numbers in the two sectors is prime?\n [svg] amc8_230 [/svg] \n [svg] amc8_231 [/svg] ",
+    "problem_statement": "The two spinners shown are spun once and each lands on one of the numbered sectors. What is the probability that the sum of the numbers in the two sectors is prime?\n <img src=\"/assets/img/amc8_230.svg\" class=\"problem-img\"> \n <img src=\"/assets/img/amc8_231.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2009&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -14520,7 +14520,7 @@
         "$126$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The diagram represents a $ 7 $-foot-by-$ 7 $-foot floor that is tiled with $ 1 $-square-foot black tiles and white tiles. Notice that the corners have white tiles. If a $ 15 $-foot-by-$ 15 $-foot floor is to be tiled in the same manner, how many white tiles will be needed?\n [svg] amc8_232 [/svg] ",
+    "problem_statement": "The diagram represents a $ 7 $-foot-by-$ 7 $-foot floor that is tiled with $ 1 $-square-foot black tiles and white tiles. Notice that the corners have white tiles. If a $ 15 $-foot-by-$ 15 $-foot floor is to be tiled in the same manner, how many white tiles will be needed?\n <img src=\"/assets/img/amc8_232.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2009&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -14568,7 +14568,7 @@
         "$9$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "How many non-congruent triangles have vertices at three of the eight points in the array shown below?\n [svg] amc8_233 [/svg] ",
+    "problem_statement": "How many non-congruent triangles have vertices at three of the eight points in the array shown below?\n <img src=\"/assets/img/amc8_233.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2009&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -14685,7 +14685,7 @@
         "$\\:11$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A one-cubic-foot cube is cut into four pieces by three cuts parallel to the top face of the cube. The first cub is $ \\tfrac12 $ foot from the top face. The second cut is $ \\tfrac13 $ foot below the first cut, and the third cut is $ \\tfrac1{17} $ foot below the second cut. From the top to the bottom the pieces are labeled A, B, C, and D. The pieces are then glued together end to end as shown in the second diagram. What is the total surface area of this solid in square feet? [svg] amc8_234 [/svg]  [svg] amc8_235 [/svg] ",
+    "problem_statement": "A one-cubic-foot cube is cut into four pieces by three cuts parallel to the top face of the cube. The first cub is $ \\tfrac12 $ foot from the top face. The second cut is $ \\tfrac13 $ foot below the first cut, and the third cut is $ \\tfrac1{17} $ foot below the second cut. From the top to the bottom the pieces are labeled A, B, C, and D. The pieces are then glued together end to end as shown in the second diagram. What is the total surface area of this solid in square feet? <img src=\"/assets/img/amc8_234.svg\" class=\"problem-img\">  <img src=\"/assets/img/amc8_235.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2009&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -14757,7 +14757,7 @@
         "$100$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The graph shows the price of five gallons of gasoline during the first ten months of the year. By what percent is the highest price more than the lowest price? [svg] amc8_236 [/svg] ",
+    "problem_statement": "The graph shows the price of five gallons of gasoline during the first ten months of the year. By what percent is the highest price more than the lowest price? <img src=\"/assets/img/amc8_236.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2010&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -15081,7 +15081,7 @@
         "$\\frac{3}{4}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The diagram shows an octagon consisting of $ 10 $ unit squares. The portion below $ \\overline{PQ} $ is a unit square and a triangle with base $ 5 $. If $ \\overline{PQ} $ bisects the area of the octagon, what is the ratio $ \\frac{XQ}{QY} $? [svg] amc8_237 [/svg] ",
+    "problem_statement": "The diagram shows an octagon consisting of $ 10 $ unit squares. The portion below $ \\overline{PQ} $ is a unit square and a triangle with base $ 5 $. If $ \\overline{PQ} $ bisects the area of the octagon, what is the ratio $ \\frac{XQ}{QY} $? <img src=\"/assets/img/amc8_237.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2010&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -15106,7 +15106,7 @@
         "$30 :\\pi$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A decorative window is made up of a rectangle with semicircles at either end. The ratio of $ AD $ to $ AB $ is $ 3:2 $. And $ AB $ is 30 inches. What is the ratio of the area of the rectangle to the combined area of the semicircle.  [svg] amc8_238 [/svg] ",
+    "problem_statement": "A decorative window is made up of a rectangle with semicircles at either end. The ratio of $ AD $ to $ AB $ is $ 3:2 $. And $ AB $ is 30 inches. What is the ratio of the area of the rectangle to the combined area of the semicircle.  <img src=\"/assets/img/amc8_238.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2010&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -15131,7 +15131,7 @@
         "$100\\pi$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The two circles pictured have the same center $ C $. Chord $ \\overline{AD} $ is tangent to the inner circle at $ B $, $ AC $ is $ 10 $, and chord $ \\overline{AD} $ has length $ 16 $. What is the area between the two circles? [svg] amc8_239 [/svg] ",
+    "problem_statement": "The two circles pictured have the same center $ C $. Chord $ \\overline{AD} $ is tangent to the inner circle at $ B $, $ AC $ is $ 10 $, and chord $ \\overline{AD} $ has length $ 16 $. What is the area between the two circles? <img src=\"/assets/img/amc8_239.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2010&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -15225,7 +15225,7 @@
         "$\\frac{\\sqrt 2}{2}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Semicircles $ POQ $ and $ ROS $ pass through the center of circle $ O $. What is the ratio of the combined areas of the two semicircles to the area of circle $ O $? [svg] amc8_240 [/svg] ",
+    "problem_statement": "Semicircles $ POQ $ and $ ROS $ pass through the center of circle $ O $. What is the ratio of the combined areas of the two semicircles to the area of circle $ O $? <img src=\"/assets/img/amc8_240.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2010&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -15342,7 +15342,7 @@
         "$\\36:17$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Extend the square pattern of $ 8 $ black and $ 17 $ white square tiles by attaching a border of black tiles around the square. What is the ratio of black tiles to white tiles in the extended pattern? [svg] amc8_241 [/svg] ",
+    "problem_statement": "Extend the square pattern of $ 8 $ black and $ 17 $ white square tiles by attaching a border of black tiles around the square. What is the ratio of black tiles to white tiles in the extended pattern? <img src=\"/assets/img/amc8_241.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2011&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -15424,7 +15424,7 @@
         "$37\\frac{1}{2}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Each of the following four large congruent squares is subdivided into combinations of congruent triangles or rectangles and is partially bolded. What percent of the total area is partially bolded? [svg] amc8_242 [/svg] ",
+    "problem_statement": "Each of the following four large congruent squares is subdivided into combinations of congruent triangles or rectangles and is partially bolded. What percent of the total area is partially bolded? <img src=\"/assets/img/amc8_242.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2011&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -15472,7 +15472,7 @@
         "$5$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Carmen takes a long bike ride on a hilly highway. The graph indicates the miles traveled during the time of her ride. What is Carmen's average speed for her entire ride in miles per hour? [svg] amc8_243 [/svg] ",
+    "problem_statement": "Carmen takes a long bike ride on a hilly highway. The graph indicates the miles traveled during the time of her ride. What is Carmen's average speed for her entire ride in miles per hour? <img src=\"/assets/img/amc8_243.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2011&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -15520,7 +15520,7 @@
         "$12$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The graph shows the number of minutes studied by both Asha (black bar) and Sasha (grey bar) in one week. On the average, how many more minutes per day did Sasha study than Asha? [svg] amc8_244 [/svg] ",
+    "problem_statement": "The graph shows the number of minutes studied by both Asha (black bar) and Sasha (grey bar) in one week. On the average, how many more minutes per day did Sasha study than Asha? <img src=\"/assets/img/amc8_244.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2011&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -15568,7 +15568,7 @@
         "$25$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Two congruent squares, $ ABCD $ and $ PQRS $, have side length $ 15 $. They overlap to form the $ 15 $ by $ 25 $ rectangle $ AQRD $ shown. What percent of the area of rectangle $ AQRD $ is shaded? [svg] amc8_245 [/svg] ",
+    "problem_statement": "Two congruent squares, $ ABCD $ and $ PQRS $, have side length $ 15 $. They overlap to form the $ 15 $ by $ 25 $ rectangle $ AQRD $ shown. What percent of the area of rectangle $ AQRD $ is shaded? <img src=\"/assets/img/amc8_245.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2011&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -15708,7 +15708,7 @@
         "$12$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "How many rectangles are in this figure? [svg] amc8_246 [/svg] ",
+    "problem_statement": "How many rectangles are in this figure? <img src=\"/assets/img/amc8_246.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2011&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -15733,7 +15733,7 @@
         "$800$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Quadrilateral $ ABCD $ is a trapezoid, $ AD = 15 $, $ AB = 50 $, $ BC = 20 $, and the altitude is $ 12 $. What is the area of the trapeziod? [svg] amc8_247 [/svg] ",
+    "problem_statement": "Quadrilateral $ ABCD $ is a trapezoid, $ AD = 15 $, $ AB = 50 $, $ BC = 20 $, and the altitude is $ 12 $. What is the area of the trapeziod? <img src=\"/assets/img/amc8_247.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2011&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -15850,7 +15850,7 @@
         "$\\frac{5}{2}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A circle with radius $ 1 $ is inscribed in a square and circumscribed about another square as shown. Which fraction is closest to the ratio of the circle's shaded area to the area between the two squares? [svg] amc8_248 [/svg] ",
+    "problem_statement": "A circle with radius $ 1 $ is inscribed in a square and circumscribed about another square as shown. Which fraction is closest to the ratio of the circle's shaded area to the area between the two squares? <img src=\"/assets/img/amc8_248.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2011&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -15967,7 +15967,7 @@
         "$\\hspace{.05in}5$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the diagram, all angles are right angles and the lengths of the sides are given in centimeters. Note the diagram is not drawn to scale. What is $ X $, in centimeters? [svg] amc8_249 [/svg] ",
+    "problem_statement": "In the diagram, all angles are right angles and the lengths of the sides are given in centimeters. Note the diagram is not drawn to scale. What is $ X $, in centimeters? <img src=\"/assets/img/amc8_249.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2012&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -16406,7 +16406,7 @@
         "$\\hspace{.05in}\\frac{3}\\pi$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A circle of radius 2 is cut into four congruent arcs. The four arcs are joined to form the star figure shown. What is the ratio of the area of the star figure to the area of the original circle? [svg] amc8_250 [/svg] ",
+    "problem_statement": "A circle of radius 2 is cut into four congruent arcs. The four arcs are joined to form the star figure shown. What is the ratio of the area of the star figure to the area of the original circle? <img src=\"/assets/img/amc8_250.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2012&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -16431,7 +16431,7 @@
         "$\\hspace{.05in}4$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A square with area 4 is inscribed in a square with area 5, with one vertex of the smaller square on each side of the larger square. A vertex of the smaller square divides a side of the larger square into two segments, one of length $ a $, and the other of length $ b $. What is the value of $ ab $ ? [svg] amc8_251 [/svg] ",
+    "problem_statement": "A square with area 4 is inscribed in a square with area 5, with one vertex of the smaller square on each side of the larger square. A vertex of the smaller square divides a side of the larger square into two segments, one of length $ a $, and the other of length $ b $. What is the value of $ ab $ ? <img src=\"/assets/img/amc8_251.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2012&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -16571,7 +16571,7 @@
         "$6$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The number in each box below is the product of the numbers in the two boxes that touch it in the row above. For example, $ 30 = 6\\times5 $. What is the missing number in the top row? [svg] amc8_252 [/svg] ",
+    "problem_statement": "The number in each box below is the product of the numbers in the two boxes that touch it in the row above. For example, $ 30 = 6\\times5 $. What is the missing number in the top row? <img src=\"/assets/img/amc8_252.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2013&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -16849,7 +16849,7 @@
         "$600$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Isabella uses one-foot cubical blocks to build a rectangular fort that is 12 feet long, 10 feet wide, and 5 feet high. The floor and the four walls are all one foot thick. How many blocks does the fort contain? [svg] amc8_253 [/svg] ",
+    "problem_statement": "Isabella uses one-foot cubical blocks to build a rectangular fort that is 12 feet long, 10 feet wide, and 5 feet high. The floor and the four walls are all one foot thick. How many blocks does the fort contain? <img src=\"/assets/img/amc8_253.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2013&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -16943,7 +16943,7 @@
         "$3932$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Toothpicks are used to make a grid that is 60 toothpicks long and 32 toothpicks wide. How many toothpicks are used altogether? [svg] amc8_254 [/svg] ",
+    "problem_statement": "Toothpicks are used to make a grid that is 60 toothpicks long and 32 toothpicks wide. How many toothpicks are used altogether? <img src=\"/assets/img/amc8_254.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2013&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -16968,7 +16968,7 @@
         "$9$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Angle $ ABC $ of $ \\triangle ABC $ is a right angle. The sides of $ \\triangle ABC $ are the diameters of semicircles as shown. The area of the semicircle on $ \\overline{AB} $ equals $ 8\\pi $, and the arc of the semicircle on $ \\overline{AC} $ has length $ 8.5\\pi $. What is the radius of the semicircle on $ \\overline{BC} $? [svg] amc8_255 [/svg] ",
+    "problem_statement": "Angle $ ABC $ of $ \\triangle ABC $ is a right angle. The sides of $ \\triangle ABC $ are the diameters of semicircles as shown. The area of the semicircle on $ \\overline{AB} $ equals $ 8\\pi $, and the arc of the semicircle on $ \\overline{AC} $ has length $ 8.5\\pi $. What is the radius of the semicircle on $ \\overline{BC} $? <img src=\"/assets/img/amc8_255.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2013&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -16993,7 +16993,7 @@
         "$\\frac{5}{12}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Squares $ ABCD $, $ EFGH $, and $ GHIJ $ are equal in area. Points $ C $ and $ D $ are the midpoints of sides $ IH $ ad $ HE $, respectively. What is the ratio of the area of the shaded pentagon $ AJICB $ to the sum of the areas of the three squares? [svg] amc8_256 [/svg] ",
+    "problem_statement": "Squares $ ABCD $, $ EFGH $, and $ GHIJ $ are equal in area. Points $ C $ and $ D $ are the midpoints of sides $ IH $ ad $ HE $, respectively. What is the ratio of the area of the shaded pentagon $ AJICB $ to the sum of the areas of the three squares? <img src=\"/assets/img/amc8_256.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2013&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -17018,7 +17018,7 @@
         "$500\\pi$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A ball with diameter 4 inches starts at point A to roll along the track shown. The track is comprised of 3 semicircular arcs whose radii are $ R_1 = 100 $ inches, $ R_2 = 60 $ inches, and $ R_3 = 80 $ inches, respectively. The ball always remains in contact with the track and does not slip. What is the distance the center of the ball travels over the course from A to B? [svg] amc8_257 [/svg] ",
+    "problem_statement": "A ball with diameter 4 inches starts at point A to roll along the track shown. The track is comprised of 3 semicircular arcs whose radii are $ R_1 = 100 $ inches, $ R_2 = 60 $ inches, and $ R_3 = 80 $ inches, respectively. The ball always remains in contact with the track and does not slip. What is the distance the center of the ball travels over the course from A to B? <img src=\"/assets/img/amc8_257.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2013&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -17227,7 +17227,7 @@
         "$150$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In $ \\bigtriangleup ABC $, $ D $ is a point on side $ \\overline{AC} $ such that $ BD=DC $ and $ \\angle BCD $ measures $ 70^\\circ $. What is the degree measure of $ \\angle ADB $? [svg] amc8_258 [/svg] ",
+    "problem_statement": "In $ \\bigtriangleup ABC $, $ D $ is a point on side $ \\overline{AC} $ such that $ BD=DC $ and $ \\angle BCD $ measures $ 70^\\circ $. What is the degree measure of $ \\angle ADB $? <img src=\"/assets/img/amc8_258.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2014&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -17344,7 +17344,7 @@
         "$16$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Rectangle $ ABCD $ and right triangle $ DCE $ have the same area. They are joined to form a trapezoid, as shown. What is $ DE $? [svg] amc8_259 [/svg] ",
+    "problem_statement": "Rectangle $ ABCD $ and right triangle $ DCE $ have the same area. They are joined to form a trapezoid, as shown. What is $ DE $? <img src=\"/assets/img/amc8_259.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2014&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -17369,7 +17369,7 @@
         "$150$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The circumference of the circle with center $ O $ is divided into 12 equal arcs, marked the letters $ A $ through $ L $ as seen below. What is the number of degrees in the sum of the angles $ x $ and $ y $? [svg] amc8_260 [/svg] ",
+    "problem_statement": "The circumference of the circle with center $ O $ is divided into 12 equal arcs, marked the letters $ A $ through $ L $ as seen below. What is the number of degrees in the sum of the angles $ x $ and $ y $? <img src=\"/assets/img/amc8_260.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2014&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -17486,7 +17486,7 @@
         "$5.5$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Rectangle $ ABCD $ has sides $ CD=3 $ and $ DA=5 $. A circle of radius $ 1 $ is centered at $ A $, a circle of radius $ 2 $ is centered at $ B $, and a circle of radius $ 3 $ is centered at $ C $. Which of the following is closest to the area of the region inside the rectangle but outside all three circles? [svg] amc8_261 [/svg] ",
+    "problem_statement": "Rectangle $ ABCD $ has sides $ CD=3 $ and $ DA=5 $. A circle of radius $ 1 $ is centered at $ A $, a circle of radius $ 2 $ is centered at $ B $, and a circle of radius $ 3 $ is centered at $ C $. Which of the following is closest to the area of the region inside the rectangle but outside all three circles? <img src=\"/assets/img/amc8_261.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2014&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -17603,7 +17603,7 @@
         "$\\frac{2\\pi}{3}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A straight one-mile stretch of highway, $ 40 $ feet wide, is closed. Robert rides his bike on a path composed of semicircles as shown. If he rides at $ 5 $ miles per hour, how many hours will it take to cover the one-mile stretch?Note: $ 1 $ mile= $ 5280 $ feet [svg] amc8_262 [/svg] ",
+    "problem_statement": "A straight one-mile stretch of highway, $ 40 $ feet wide, is closed. Robert rides his bike on a path composed of semicircles as shown. If he rides at $ 5 $ miles per hour, how many hours will it take to cover the one-mile stretch?Note: $ 1 $ mile= $ 5280 $ feet <img src=\"/assets/img/amc8_262.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 8",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=42&year=2014&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [

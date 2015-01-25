@@ -32,7 +32,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "A machine-shop cutting tool has the shape of a notched circle, as shown.  The radius of the circle is $ \\sqrt{50} $ cm, the length of $ AB $ is 6 cm, and that of $ BC $ is 2 cm.  The angle $ ABC $ is a right angle.  Find the square of the distance (in centimeters) from $ B $ to the center of the circle. [svg] aime_1 [/svg] ",
+    "problem_statement": "A machine-shop cutting tool has the shape of a notched circle, as shown.  The radius of the circle is $ \\sqrt{50} $ cm, the length of $ AB $ is 6 cm, and that of $ BC $ is 2 cm.  The angle $ ABC $ is a right angle.  Find the square of the distance (in centimeters) from $ B $ to the center of the circle. <img src=\"/assets/img/aime_1.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=1983&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "",
     "image_tags": [
@@ -104,7 +104,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "The solid shown has a square base of side length $ s $.  The upper edge is parallel to the base and has length $ 2s $.  All other edges have length $ s $.  Given that $ s = 6\\sqrt{2} $, what is the volume of the solid? [svg] aime_2 [/svg] ",
+    "problem_statement": "The solid shown has a square base of side length $ s $.  The upper edge is parallel to the base and has length $ 2s $.  All other edges have length $ s $.  Given that $ s = 6\\sqrt{2} $, what is the volume of the solid? <img src=\"/assets/img/aime_2.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=1983&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "",
     "image_tags": [
@@ -136,7 +136,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "In the adjoining figure, two circles of radii 6 and 8 are drawn with their centers 12 units apart.  At $ P $, one of the points of intersection, a line is drawn in such a way that the chords $ QP $ and $ PR $ have equal length.  Find the square of the length of $ QP $. [svg] aime_3 [/svg] ",
+    "problem_statement": "In the adjoining figure, two circles of radii 6 and 8 are drawn with their centers 12 units apart.  At $ P $, one of the points of intersection, a line is drawn in such a way that the chords $ QP $ and $ PR $ have equal length.  Find the square of the length of $ QP $. <img src=\"/assets/img/aime_3.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=1983&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "",
     "image_tags": [
@@ -148,7 +148,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "The adjoining figure shows two intersecting chords in a circle, with $ B $ on minor arc $ AD $.  Suppose that the radius of the circle is 5, that $ BC = 6 $, and that $ AD $ is bisected by $ BC $.  Suppose further that $ AD $ is the only chord starting at $ A $ which is bisected by $ BC $.  It follows that the sine of the minor arc $ AB $ is a rational number.  If this fraction is expressed as a fraction $ m/n $ in lowest terms, what is the product $ mn $? [svg] aime_4 [/svg] ",
+    "problem_statement": "The adjoining figure shows two intersecting chords in a circle, with $ B $ on minor arc $ AD $.  Suppose that the radius of the circle is 5, that $ BC = 6 $, and that $ AD $ is bisected by $ BC $.  Suppose further that $ AD $ is the only chord starting at $ A $ which is bisected by $ BC $.  It follows that the sine of the minor arc $ AB $ is a rational number.  If this fraction is expressed as a fraction $ m/n $ in lowest terms, what is the product $ mn $? <img src=\"/assets/img/aime_4.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=1983&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "",
     "image_tags": [
@@ -180,7 +180,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "A point $ P $ is chosen in the interior of $ \\triangle ABC $ so that when lines are drawn through $ P $ parallel to the sides of $ \\triangle ABC $, the resulting smaller triangles, $ t_1 $, $ t_2 $, and $ t_3 $ in the figure, have areas 4, 9, and 49, respectively. Find the area of $ \\triangle ABC $. [svg] aime_5 [/svg] ",
+    "problem_statement": "A point $ P $ is chosen in the interior of $ \\triangle ABC $ so that when lines are drawn through $ P $ parallel to the sides of $ \\triangle ABC $, the resulting smaller triangles, $ t_1 $, $ t_2 $, and $ t_3 $ in the figure, have areas 4, 9, and 49, respectively. Find the area of $ \\triangle ABC $. <img src=\"/assets/img/aime_5.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=1984&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "",
     "image_tags": [
@@ -342,7 +342,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "A small square is constructed inside a square of area 1 by dividing each side of the unit square into $ n $ equal parts, and then connecting the vertices to the division points closest to the opposite vertices.  Find the value of $ n $ if the the area of the small square is exactly 1/1985. [svg] aime_6 [/svg] ",
+    "problem_statement": "A small square is constructed inside a square of area 1 by dividing each side of the unit square into $ n $ equal parts, and then connecting the vertices to the division points closest to the opposite vertices.  Find the value of $ n $ if the the area of the small square is exactly 1/1985. <img src=\"/assets/img/aime_6.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=1985&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "",
     "image_tags": [
@@ -364,7 +364,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "As shown in the figure, triangle $ ABC $ is divided into six smaller triangles by lines drawn from the vertices through a common interior point.  The areas of four of these triangles are as indicated.  Find the area of triangle $ ABC $. [svg] aime_7 [/svg] ",
+    "problem_statement": "As shown in the figure, triangle $ ABC $ is divided into six smaller triangles by lines drawn from the vertices through a common interior point.  The areas of four of these triangles are as indicated.  Find the area of triangle $ ABC $. <img src=\"/assets/img/aime_7.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=1985&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "",
     "image_tags": [
@@ -456,7 +456,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "Three 12 cm $ \\times $ 12 cm squares are each cut into two pieces $ A $ and $ B $, as shown in the first figure below, by joining the midpoints of two adjacent sides.  These six pieces are then attached to a regular hexagon, as shown in the second figure, so as to fold into a polyhedron.  What is the volume (in $ \\text{cm}^3 $) of this polyhedron? [svg] aime_8 [/svg] ",
+    "problem_statement": "Three 12 cm $ \\times $ 12 cm squares are each cut into two pieces $ A $ and $ B $, as shown in the first figure below, by joining the midpoints of two adjacent sides.  These six pieces are then attached to a regular hexagon, as shown in the second figure, so as to fold into a polyhedron.  What is the volume (in $ \\text{cm}^3 $) of this polyhedron? <img src=\"/assets/img/aime_8.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=1985&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "",
     "image_tags": [
@@ -668,7 +668,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "Rectangle $ ABCD $ is divided into four parts of equal area by five segments as shown in the figure, where $ XY = YB+BC+CZ = ZW = WD+DA+AX $, and $ PQ $ is parallel to $ AB $.  Find the length of $ AB $ (in cm) if $ BC = 19 $ cm and $ PQ = 87 $ cm. [svg] aime_9 [/svg] ",
+    "problem_statement": "Rectangle $ ABCD $ is divided into four parts of equal area by five segments as shown in the figure, where $ XY = YB+BC+CZ = ZW = WD+DA+AX $, and $ PQ $ is parallel to $ AB $.  Find the length of $ AB $ (in cm) if $ BC = 19 $ cm and $ PQ = 87 $ cm. <img src=\"/assets/img/aime_9.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=1987&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "",
     "image_tags": [
@@ -700,7 +700,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "Triangle $ ABC $ has right angle at $ B $, and contains a point $ P $ for which $ PA = 10 $, $ PB = 6 $, and $ \\angle APB =\\angle BPC =\\angle CPA $.  Find $ PC $. [svg] aime_10 [/svg] ",
+    "problem_statement": "Triangle $ ABC $ has right angle at $ B $, and contains a point $ P $ for which $ PA = 10 $, $ PB = 6 $, and $ \\angle APB =\\angle BPC =\\angle CPA $.  Find $ PC $. <img src=\"/assets/img/aime_10.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=1987&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "",
     "image_tags": [
@@ -762,7 +762,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "Squares $ S_1 $ and $ S_2 $ are inscribed in right triangle $ ABC $, as shown in the figures below.  Find $ AC+CB $ if area$ (S_1) = 441 $ and area$ (S_2) = 440 $. [svg] aime_11 [/svg] ",
+    "problem_statement": "Squares $ S_1 $ and $ S_2 $ are inscribed in right triangle $ ABC $, as shown in the figures below.  Find $ AC+CB $ if area$ (S_1) = 441 $ and area$ (S_2) = 440 $. <img src=\"/assets/img/aime_11.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=1987&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "",
     "image_tags": [
@@ -774,7 +774,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "One commercially available ten-button lock may be opened by depressing -- in any order -- the correct five buttons.  The sample shown below has $ \\{1, 2, 3, 6, 9\\} $ as its combination.  Suppose that these locks are redesigned so that sets of as many as nine buttons or as few as one button could serve as combinations.  How many additional combinations would this allow? [svg] aime_12 [/svg] ",
+    "problem_statement": "One commercially available ten-button lock may be opened by depressing -- in any order -- the correct five buttons.  The sample shown below has $ \\{1, 2, 3, 6, 9\\} $ as its combination.  Suppose that these locks are redesigned so that sets of as many as nine buttons or as few as one button could serve as combinations.  How many additional combinations would this allow? <img src=\"/assets/img/aime_12.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=1988&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "",
     "image_tags": [
@@ -826,7 +826,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "It is possible to place positive integers into the vacant twenty-one squares of the $ 5\\times 5 $ square shown below so that the numbers in each row and column form arithmetic sequences.  Find the number that must occupy the vacant square marked by the asterisk (*). [svg] aime_13 [/svg] ",
+    "problem_statement": "It is possible to place positive integers into the vacant twenty-one squares of the $ 5\\times 5 $ square shown below so that the numbers in each row and column form arithmetic sequences.  Find the number that must occupy the vacant square marked by the asterisk (*). <img src=\"/assets/img/aime_13.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=1988&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "",
     "image_tags": [
@@ -888,7 +888,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "Let $ P $ be an interior point of triangle $ ABC $ and extend lines from the vertices through $ P $ to the opposite sides.  Let $ a $, $ b $, $ c $, and $ d $ denote the lengths of the segments indicated in the figure.  Find the product $ abc $ if $ a+b+c = 43 $ and $ d = 3 $. [svg] aime_14 [/svg] ",
+    "problem_statement": "Let $ P $ be an interior point of triangle $ ABC $ and extend lines from the vertices through $ P $ to the opposite sides.  Let $ a $, $ b $, $ c $, and $ d $ denote the lengths of the segments indicated in the figure.  Find the product $ abc $ if $ a+b+c = 43 $ and $ d = 3 $. <img src=\"/assets/img/aime_14.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=1988&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "",
     "image_tags": [
@@ -980,7 +980,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "Two skaters, Allie and Billie, are at points $ A $ and $ B $, respectively, on a flat, frozen lake. The distance between $ A $ and $ B $ is $ 100 $ meters. Allie leaves $ A $ and skates at a speed of $ 8 $ meters per second on a straight line that makes a $ 60^\\circ $ angle with $ AB $. At the same time Allie leaves $ A $, Billie leaves $ B $ at a speed of $ 7 $ meters per second and follows the straight path that produces the earliest possible meeting of the two skaters, given their speeds. How many meters does Allie skate before meeting Billie? [svg] aime_15 [/svg] ",
+    "problem_statement": "Two skaters, Allie and Billie, are at points $ A $ and $ B $, respectively, on a flat, frozen lake. The distance between $ A $ and $ B $ is $ 100 $ meters. Allie leaves $ A $ and skates at a speed of $ 8 $ meters per second on a straight line that makes a $ 60^\\circ $ angle with $ AB $. At the same time Allie leaves $ A $, Billie leaves $ B $ at a speed of $ 7 $ meters per second and follows the straight path that produces the earliest possible meeting of the two skaters, given their speeds. How many meters does Allie skate before meeting Billie? <img src=\"/assets/img/aime_15.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=1989&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "",
     "image_tags": [
@@ -1042,7 +1042,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "Let $ ABCD $ be a tetrahedron with $ AB=41 $, $ AC=7 $, $ AD=18 $, $ BC=36 $, $ BD=27 $, and $ CD=13 $, as shown in the figure. Let $ d $ be the distance between the midpoints of edges $ AB $ and $ CD $. Find $ d^{2} $. [svg] aime_16 [/svg] ",
+    "problem_statement": "Let $ ABCD $ be a tetrahedron with $ AB=41 $, $ AC=7 $, $ AD=18 $, $ BC=36 $, $ BD=27 $, and $ CD=13 $, as shown in the figure. Let $ d $ be the distance between the midpoints of edges $ AB $ and $ CD $. Find $ d^{2} $. <img src=\"/assets/img/aime_16.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=1989&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "",
     "image_tags": [
@@ -1074,7 +1074,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "Point $ P $ is inside $ \\triangle ABC $. Line segments $ APD $, $ BPE $, and $ CPF $ are drawn with $ D $ on $ BC $, $ E $ on $ AC $, and $ F $ on $ AB $ (see the figure at right). Given that $ AP=6 $, $ BP=9 $, $ PD=6 $, $ PE=3 $, and $ CF=20 $, find the area of $ \\triangle ABC $. [svg] aime_17 [/svg] ",
+    "problem_statement": "Point $ P $ is inside $ \\triangle ABC $. Line segments $ APD $, $ BPE $, and $ CPF $ are drawn with $ D $ on $ BC $, $ E $ on $ AC $, and $ F $ on $ AB $ (see the figure at right). Given that $ AP=6 $, $ BP=9 $, $ PD=6 $, $ PE=3 $, and $ CF=20 $, find the area of $ \\triangle ABC $. <img src=\"/assets/img/aime_17.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=1989&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "",
     "image_tags": [
@@ -1216,7 +1216,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "The rectangle $ ABCD $ below has dimensions $ AB = 12\\sqrt{3} $ and $ BC = 13\\sqrt{3} $.  Diagonals $ \\overline{AC} $ and $ \\overline{BD} $ intersect at $ P $.  If triangle $ ABP $ is cut out and removed, edges $ \\overline{AP} $ and $ \\overline{BP} $ are joined, and the figure is then creased along segments $ \\overline{CP} $ and $ \\overline{DP} $, we obtain a triangular pyramid, all four of whose faces are isosceles triangles.  Find the volume of this pyramid. [svg] aime_18 [/svg] ",
+    "problem_statement": "The rectangle $ ABCD $ below has dimensions $ AB = 12\\sqrt{3} $ and $ BC = 13\\sqrt{3} $.  Diagonals $ \\overline{AC} $ and $ \\overline{BD} $ intersect at $ P $.  If triangle $ ABP $ is cut out and removed, edges $ \\overline{AP} $ and $ \\overline{BP} $ are joined, and the figure is then creased along segments $ \\overline{CP} $ and $ \\overline{DP} $, we obtain a triangular pyramid, all four of whose faces are isosceles triangles.  Find the volume of this pyramid. <img src=\"/assets/img/aime_18.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=1990&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "",
     "image_tags": [
@@ -1338,7 +1338,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "Twelve congruent disks are placed on a circle $ C $ of radius 1 in such a way that the twelve disks cover $ C $, no two of the disks overlap, and so that each of the twelve disks is tangent to its two neighbors. The resulting arrangement of disks is shown in the figure below.  The sum of the areas of the twelve disks can be written in the from $ \\pi(a-b\\sqrt{c}) $, where $ a,b,c $ are positive integers and $ c $ is not divisible by the square of any prime. Find $ a+b+c $. [svg] aime_19 [/svg] ",
+    "problem_statement": "Twelve congruent disks are placed on a circle $ C $ of radius 1 in such a way that the twelve disks cover $ C $, no two of the disks overlap, and so that each of the twelve disks is tangent to its two neighbors. The resulting arrangement of disks is shown in the figure below.  The sum of the areas of the twelve disks can be written in the from $ \\pi(a-b\\sqrt{c}) $, where $ a,b,c $ are positive integers and $ c $ is not divisible by the square of any prime. Find $ a+b+c $. <img src=\"/assets/img/aime_19.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=1991&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "",
     "image_tags": [
@@ -1500,7 +1500,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "In a game of Chomp, two players alternately take bites from a 5-by-7 grid of unit squares. To take a bite, a player chooses one of the remaining squares, then removes (\"eats'') all squares in the quadrant defined by the left edge (extended upward) and the lower edge (extended rightward) of the chosen square. For example, the bite determined by the shaded square in the diagram would remove the shaded square and the four squares marked by $ \\times. $ (The squares with two or more dotted edges have been removed form the original board in previous moves.)  [svg] aime_20 [/svg] The object of the game is to make one's opponent take the last bite. The diagram shows one of the many subsets of the set of 35 unit squares that can occur during the game of Chomp. How many different subsets are there in all? Include the full board and empty board in your count.",
+    "problem_statement": "In a game of Chomp, two players alternately take bites from a 5-by-7 grid of unit squares. To take a bite, a player chooses one of the remaining squares, then removes (\"eats'') all squares in the quadrant defined by the left edge (extended upward) and the lower edge (extended rightward) of the chosen square. For example, the bite determined by the shaded square in the diagram would remove the shaded square and the four squares marked by $ \\times. $ (The squares with two or more dotted edges have been removed form the original board in previous moves.)  <img src=\"/assets/img/aime_20.svg\" class=\"problem-img\"> The object of the game is to make one's opponent take the last bite. The diagram shows one of the many subsets of the set of 35 unit squares that can occur during the game of Chomp. How many different subsets are there in all? Include the full board and empty board in your count.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=1992&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "",
     "image_tags": [
@@ -1622,7 +1622,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "Two thousand points are given on a circle.  Label one of the points 1.  From this point, count 2 points in the clockwise direction and label this point 2.  From the point labeled 2, count 3 points in the clockwise direction and label this point 3.  (See figure.)  Continue this process until the labels $ 1, 2, 3,\\dots, 1993 $ are all used.  Some of the points on the circle will have more than one label and some points will not have a label.  What is the smallest integer that labels the same point as 1993? [svg] aime_21 [/svg] ",
+    "problem_statement": "Two thousand points are given on a circle.  Label one of the points 1.  From this point, count 2 points in the clockwise direction and label this point 2.  From the point labeled 2, count 3 points in the clockwise direction and label this point 3.  (See figure.)  Continue this process until the labels $ 1, 2, 3,\\dots, 1993 $ are all used.  Some of the points on the circle will have more than one label and some points will not have a label.  What is the smallest integer that labels the same point as 1993? <img src=\"/assets/img/aime_21.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=1993&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "",
     "image_tags": [
@@ -1824,7 +1824,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "A beam of light strikes $ \\overline{BC} $ at point $ C $ with angle of incidence $ \\alpha=19.94^\\circ $ and reflects with an equal angle of reflection as shown.  The light beam continues its path, reflecting off line segments $ \\overline{AB} $ and $ \\overline{BC} $ according to the rule: angle of incidence equals angle of reflection.  Given that $ \\beta=\\alpha/10=1.994^\\circ $ and $ AB=AC, $ determine the number of times the light beam will bounce off the two line segments.  Include the first reflection at $ C $ in your count. [svg] aime_22 [/svg] ",
+    "problem_statement": "A beam of light strikes $ \\overline{BC} $ at point $ C $ with angle of incidence $ \\alpha=19.94^\\circ $ and reflects with an equal angle of reflection as shown.  The light beam continues its path, reflecting off line segments $ \\overline{AB} $ and $ \\overline{BC} $ according to the rule: angle of incidence equals angle of reflection.  Given that $ \\beta=\\alpha/10=1.994^\\circ $ and $ AB=AC, $ determine the number of times the light beam will bounce off the two line segments.  Include the first reflection at $ C $ in your count. <img src=\"/assets/img/aime_22.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=1994&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "",
     "image_tags": [
@@ -1846,7 +1846,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "Square $ S_{1} $ is $ 1\\times 1. $  For $ i\\ge 1, $ the lengths of the sides of square $ S_{i+1} $ are half the lengths of the sides of square $ S_{i}, $ two adjacent sides of square $ S_{i} $ are perpendicular bisectors of two adjacent sides of square $ S_{i+1}, $ and the other two sides of square $ S_{i+1}, $ are the perpendicular bisectors of two adjacent sides of square $ S_{i+2}. $  The total area enclosed by at least one of $ S_{1}, S_{2}, S_{3}, S_{4}, S_{5} $ can be written in the form $ m/n, $ where $ m $ and $ n $ are relatively prime positive integers.  Find $ m-n. $ [svg] aime_23 [/svg] ",
+    "problem_statement": "Square $ S_{1} $ is $ 1\\times 1. $  For $ i\\ge 1, $ the lengths of the sides of square $ S_{i+1} $ are half the lengths of the sides of square $ S_{i}, $ two adjacent sides of square $ S_{i} $ are perpendicular bisectors of two adjacent sides of square $ S_{i+1}, $ and the other two sides of square $ S_{i+1}, $ are the perpendicular bisectors of two adjacent sides of square $ S_{i+2}. $  The total area enclosed by at least one of $ S_{1}, S_{2}, S_{3}, S_{4}, S_{5} $ can be written in the form $ m/n, $ where $ m $ and $ n $ are relatively prime positive integers.  Find $ m-n. $ <img src=\"/assets/img/aime_23.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=1995&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "",
     "image_tags": [
@@ -1928,7 +1928,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "Triangle $ ABC $ is isosceles, with $ AB=AC $ and altitude $ AM=11. $  Suppose that there is a point $ D $ on $ \\overline{AM} $ with $ AD=10 $ and $ \\angle BDC=3\\angle BAC. $  Then the perimeter of $ \\triangle ABC $ may be written in the form $ a+\\sqrt{b}, $ where $ a $ and $ b $ are integers.  Find $ a+b. $ [svg] aime_24 [/svg] ",
+    "problem_statement": "Triangle $ ABC $ is isosceles, with $ AB=AC $ and altitude $ AM=11. $  Suppose that there is a point $ D $ on $ \\overline{AM} $ with $ AD=10 $ and $ \\angle BDC=3\\angle BAC. $  Then the perimeter of $ \\triangle ABC $ may be written in the form $ a+\\sqrt{b}, $ where $ a $ and $ b $ are integers.  Find $ a+b. $ <img src=\"/assets/img/aime_24.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=1995&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "",
     "image_tags": [
@@ -2000,7 +2000,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "In a magic square, the sum of the three entries in any row, column, or diagonal is the same value.  The figure shows four of the entries of a magic square.  Find $ x. $ [svg] aime_25 [/svg] ",
+    "problem_statement": "In a magic square, the sum of the three entries in any row, column, or diagonal is the same value.  The figure shows four of the entries of a magic square.  Find $ x. $ <img src=\"/assets/img/aime_25.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=1996&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "",
     "image_tags": [
@@ -2482,7 +2482,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "The two squares shown share the same center $ O $ and have sides of length 1. The length of $ \\overline{AB} $ is $ 43/99 $ and the area of octagon $ ABCDEFGH $ is $ m/n, $ where $ m $ and $ n $ are relatively prime positive integers.  Find $ m+n. $ [svg] aime_26 [/svg] ",
+    "problem_statement": "The two squares shown share the same center $ O $ and have sides of length 1. The length of $ \\overline{AB} $ is $ 43/99 $ and the area of octagon $ ABCDEFGH $ is $ m/n, $ where $ m $ and $ n $ are relatively prime positive integers.  Find $ m+n. $ <img src=\"/assets/img/aime_26.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=1999&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "",
     "image_tags": [
@@ -2634,7 +2634,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "The diagram shows a rectangle that has been dissected into nine non-overlapping squares. Given that the width and the height of the rectangle are relatively prime positive integers, find the perimeter of the rectangle. [svg] aime_27 [/svg] ",
+    "problem_statement": "The diagram shows a rectangle that has been dissected into nine non-overlapping squares. Given that the width and the height of the rectangle are relatively prime positive integers, find the perimeter of the rectangle. <img src=\"/assets/img/aime_27.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=2000&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "I",
     "image_tags": [
@@ -3216,7 +3216,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "The diagram shows twenty congruent circles arranged in three rows and enclosed in a rectangle.  The circles are tangent to one another and to the sides of the rectangle as shown in the diagram.  The ratio of the longer dimension of the rectangle to the shorter dimension can be written as $ \\frac{1}{2}\\left(\\sqrt{p}-q\\right), $ where $ p $ and $ q $ are positive integers.  Find $ p+q. $ [svg] aime_28 [/svg] ",
+    "problem_statement": "The diagram shows twenty congruent circles arranged in three rows and enclosed in a rectangle.  The circles are tangent to one another and to the sides of the rectangle as shown in the diagram.  The ratio of the longer dimension of the rectangle to the shorter dimension can be written as $ \\frac{1}{2}\\left(\\sqrt{p}-q\\right), $ where $ p $ and $ q $ are positive integers.  Find $ p+q. $ <img src=\"/assets/img/aime_28.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=2002&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "I",
     "image_tags": [
@@ -3298,7 +3298,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "In the diagram below, angle $ ABC $ is a right angle.  Point $ D $ is on $ \\overline{BC} $, and $ \\overline{AD} $ bisects angle $ CAB $.  Points $ E $ and $ F $ are on $ \\overline{AB} $ and $ \\overline{AC} $, respectively, so that $ AE=3 $ and $ AF=10. $  Given that $ EB=9 $ and $ FC=27 $, find the integer closest to the area of quadrilateral $ DCFG. $ [svg] aime_29 [/svg] ",
+    "problem_statement": "In the diagram below, angle $ ABC $ is a right angle.  Point $ D $ is on $ \\overline{BC} $, and $ \\overline{AD} $ bisects angle $ CAB $.  Points $ E $ and $ F $ are on $ \\overline{AB} $ and $ \\overline{AC} $, respectively, so that $ AE=3 $ and $ AF=10. $  Given that $ EB=9 $ and $ FC=27 $, find the integer closest to the area of quadrilateral $ DCFG. $ <img src=\"/assets/img/aime_29.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=2002&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "I",
     "image_tags": [
@@ -3390,7 +3390,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "Patio blocks that are hexagons $ 1 $ unit on a side are used to outline a garden by placing the blocks edge to edge with $ n $ on each side. The diagram indicates the path of blocks around the garden when $ n=5. $ [svg] aime_30 [/svg] If $ n=202, $ then the area of the garden enclosed by the path, not including the path itself, is $ m(\\sqrt{3}/2) $ square units, where $ m $ is a positive integer. Find the remainder when $ m $ is divided by $ 1000. $",
+    "problem_statement": "Patio blocks that are hexagons $ 1 $ unit on a side are used to outline a garden by placing the blocks edge to edge with $ n $ on each side. The diagram indicates the path of blocks around the garden when $ n=5. $ <img src=\"/assets/img/aime_30.svg\" class=\"problem-img\"> If $ n=202, $ then the area of the garden enclosed by the path, not including the path itself, is $ m(\\sqrt{3}/2) $ square units, where $ m $ is a positive integer. Find the remainder when $ m $ is divided by $ 1000. $",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=2002&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "II",
     "image_tags": [
@@ -4022,7 +4022,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "$ ABCD $ is a rectangular sheet of paper that has been folded so that corner $ B $ is matched with point $ B' $ on edge $ AD $. The crease is $ EF $, where $ E $ is on $ AB $ and $ F $is on $ CD $. The dimensions $ AE=8 $, $ BE=17 $, and $ CF=3 $ are given. The perimeter of rectangle $ ABCD $ is $ m/n $, where $ m $ and $ n $ are relatively prime positive integers. Find $ m+n $. [svg] aime_31 [/svg] ",
+    "problem_statement": "$ ABCD $ is a rectangular sheet of paper that has been folded so that corner $ B $ is matched with point $ B' $ on edge $ AD $. The crease is $ EF $, where $ E $ is on $ AB $ and $ F $is on $ CD $. The dimensions $ AE=8 $, $ BE=17 $, and $ CF=3 $ are given. The perimeter of rectangle $ ABCD $ is $ m/n $, where $ m $ and $ n $ are relatively prime positive integers. Find $ m+n $. <img src=\"/assets/img/aime_31.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=2004&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "II",
     "image_tags": [
@@ -4474,7 +4474,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "An angle is drawn on a set of equally spaced parallel lines as shown.  The ratio of the area of shaded region $ \\mathcal{C} $ to the area of shaded region $ \\mathcal{B} $ is $ 11/5 $.  Find the ratio of shaded region $ \\mathcal{D} $ to the area of shaded region $ \\mathcal{A} $. [svg] aime_32 [/svg] ",
+    "problem_statement": "An angle is drawn on a set of equally spaced parallel lines as shown.  The ratio of the area of shaded region $ \\mathcal{C} $ to the area of shaded region $ \\mathcal{B} $ is $ 11/5 $.  Find the ratio of shaded region $ \\mathcal{D} $ to the area of shaded region $ \\mathcal{A} $. <img src=\"/assets/img/aime_32.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=2006&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "I",
     "image_tags": [
@@ -4486,7 +4486,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "Hexagon $ ABCDEF $ is divided into four rhombuses, $ \\mathcal{P, Q, R, S,} $ and $ \\mathcal{T,} $ as shown.  Rhombuses $ \\mathcal{P, Q, R,} $ and $ \\mathcal{S} $ are congruent, and each has area $ \\sqrt{2006} $.  Let $ K $ be the area of rhombus $ \\mathcal{T} $.  Given that $ K $ is a positive integer, find the number of possible values for $ K $. [svg] aime_33 [/svg] ",
+    "problem_statement": "Hexagon $ ABCDEF $ is divided into four rhombuses, $ \\mathcal{P, Q, R, S,} $ and $ \\mathcal{T,} $ as shown.  Rhombuses $ \\mathcal{P, Q, R,} $ and $ \\mathcal{S} $ are congruent, and each has area $ \\sqrt{2006} $.  Let $ K $ be the area of rhombus $ \\mathcal{T} $.  Given that $ K $ is a positive integer, find the number of possible values for $ K $. <img src=\"/assets/img/aime_33.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=2006&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "I",
     "image_tags": [
@@ -4508,7 +4508,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "Eight circles of diameter 1 are packed in the first quadrant of the coordinte plane as shown.  Let region $ \\mathcal{R} $ be the union of the eight circular regions.  Line $ l, $ with slope 3, divides $ \\mathcal{R} $ into two regions of equal area.  Line $ l $'s equation can be expressed in the form $ ax=by+c, $ where $ a, b, $ and $ c $ are positive integers whose greatest common divisor is 1.  Find $ a^2+b^2+c^2. $ [svg] aime_34 [/svg] ",
+    "problem_statement": "Eight circles of diameter 1 are packed in the first quadrant of the coordinte plane as shown.  Let region $ \\mathcal{R} $ be the union of the eight circular regions.  Line $ l, $ with slope 3, divides $ \\mathcal{R} $ into two regions of equal area.  Line $ l $'s equation can be expressed in the form $ ax=by+c, $ where $ a, b, $ and $ c $ are positive integers whose greatest common divisor is 1.  Find $ a^2+b^2+c^2. $ <img src=\"/assets/img/aime_34.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=2006&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "I",
     "image_tags": [
@@ -4810,7 +4810,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "In the $ 6\\times4 $ grid shown, $ 12 $ of the $ 24 $ squares are to be shaded so that there are two shaded squares in each row and three shaded squares in each column.  Let $ N $ be the number of shadings with this property.  Find the remainder when $ N $ is divided by $ 1000 $. [svg] aime_35 [/svg] ",
+    "problem_statement": "In the $ 6\\times4 $ grid shown, $ 12 $ of the $ 24 $ squares are to be shaded so that there are two shaded squares in each row and three shaded squares in each column.  Let $ N $ be the number of shadings with this property.  Find the remainder when $ N $ is divided by $ 1000 $. <img src=\"/assets/img/aime_35.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=2007&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "I",
     "image_tags": [
@@ -4892,7 +4892,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "Square $ ABCD $ has side length $ 13 $, and points $ E $ and $ F $ are exterior to the square such that $ BE=DF=5 $ and $ AE=CF=12 $. Find $ EF^{2} $. [svg] aime_36 [/svg] ",
+    "problem_statement": "Square $ ABCD $ has side length $ 13 $, and points $ E $ and $ F $ are exterior to the square such that $ BE=DF=5 $ and $ AE=CF=12 $. Find $ EF^{2} $. <img src=\"/assets/img/aime_36.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=2007&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "II",
     "image_tags": [
@@ -4994,7 +4994,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "A triangular array of squares has one square in the first row, two in the second, and in general, $ k $ squares in the $ k $th row for $ 1\\leq k\\leq 11. $ With the exception of the bottom row, each square rests on two squares in the row immediately below (illustrated in given diagram). In each square of the eleventh row, a 0 or a $ 1 $ is placed. Numbers are then placed into the other squares, with the entry for each square being the sum of the entries in the two squares below it. For how many initial distributions of 0's and $ 1 $'s in the bottom row is the number in the top square a multiple of $ 3 $? [svg] aime_37 [/svg] ",
+    "problem_statement": "A triangular array of squares has one square in the first row, two in the second, and in general, $ k $ squares in the $ k $th row for $ 1\\leq k\\leq 11. $ With the exception of the bottom row, each square rests on two squares in the row immediately below (illustrated in given diagram). In each square of the eleventh row, a 0 or a $ 1 $ is placed. Numbers are then placed into the other squares, with the entry for each square being the sum of the entries in the two squares below it. For how many initial distributions of 0's and $ 1 $'s in the bottom row is the number in the top square a multiple of $ 3 $? <img src=\"/assets/img/aime_37.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=2007&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "II",
     "image_tags": [
@@ -5076,7 +5076,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "A triangular array of numbers has a first row consisting of the odd integers $ 1,3,5,\\ldots,99 $ in increasing order.  Each row below the first has one fewer entry than the row above it, and the bottom row has a single entry.  Each entry in any row after the top row equals the sum of the two entries diagonally above it in the row immediately above it.  How many entries in the array are multiples of $ 67 $? [svg] aime_38 [/svg] ",
+    "problem_statement": "A triangular array of numbers has a first row consisting of the odd integers $ 1,3,5,\\ldots,99 $ in increasing order.  Each row below the first has one fewer entry than the row above it, and the bottom row has a single entry.  Each entry in any row after the top row equals the sum of the two entries diagonally above it in the row immediately above it.  How many entries in the array are multiples of $ 67 $? <img src=\"/assets/img/aime_38.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=2008&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "I",
     "image_tags": [
@@ -5168,7 +5168,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "A square piece of paper has sides of length $ 100 $. From each corner a wedge is cut in the following manner: at each corner, the two cuts for the wedge each start at distance $ \\sqrt{17} $ from the corner, and they meet on the diagonal at an angle of $ 60^\\circ $ (see the figure below). The paper is then folded up along the lines joining the vertices of adjacent cuts. When the two edges of a cut meet, they are taped together. The result is a paper tray whose sides are not at right angles to the base. The height of the tray, that is, the perpendicular distance between the plane of the base and the plane formed by the upper edges, can be written in the form $ \\sqrt [n]{m} $, where $ m $ and $ n $ are positive integers, $ m < 1000 $, and $ m $ is not divisible by the $ n $th power of any prime. Find $ m+n $.\n\n [svg] aime_39 [/svg] ",
+    "problem_statement": "A square piece of paper has sides of length $ 100 $. From each corner a wedge is cut in the following manner: at each corner, the two cuts for the wedge each start at distance $ \\sqrt{17} $ from the corner, and they meet on the diagonal at an angle of $ 60^\\circ $ (see the figure below). The paper is then folded up along the lines joining the vertices of adjacent cuts. When the two edges of a cut meet, they are taped together. The result is a paper tray whose sides are not at right angles to the base. The height of the tray, that is, the perpendicular distance between the plane of the base and the plane formed by the upper edges, can be written in the form $ \\sqrt [n]{m} $, where $ m $ and $ n $ are positive integers, $ m < 1000 $, and $ m $ is not divisible by the $ n $th power of any prime. Find $ m+n $.\n\n <img src=\"/assets/img/aime_39.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=2008&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "I",
     "image_tags": [
@@ -5270,7 +5270,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "The diagram below shows a $ 4\\times4 $ rectangular array of points, each of which is $ 1 $ unit away from its nearest neighbors.\n [svg] aime_40 [/svg] Define a growing path to be a sequence of distinct points of the array with the property that the distance between consecutive points of the sequence is strictly increasing. Let $ m $ be the maximum possible number of points in a growing path, and let $ r $ be the number of growing paths consisting of exactly $ m $ points. Find $ mr $.",
+    "problem_statement": "The diagram below shows a $ 4\\times4 $ rectangular array of points, each of which is $ 1 $ unit away from its nearest neighbors.\n <img src=\"/assets/img/aime_40.svg\" class=\"problem-img\"> Define a growing path to be a sequence of distinct points of the array with the property that the distance between consecutive points of the sequence is strictly increasing. Let $ m $ be the maximum possible number of points in a growing path, and let $ r $ be the number of growing paths consisting of exactly $ m $ points. Find $ mr $.",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=2008&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "II",
     "image_tags": [
@@ -5522,7 +5522,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "Equilateral triangle $ T $ is inscribed in circle $ A $, which has radius $ 10 $. Circle $ B $ with radius $ 3 $ is internally tangent to circle $ A $ at one vertex of $ T $. Circles $ C $ and $ D $, both with radius $ 2 $, are internally tangent to circle $ A $ at the other two vertices of $ T $. Circles $ B $, $ C $, and $ D $ are all externally tangent to circle $ E $, which has radius $ \\frac{m}{n} $, where $ m $ and $ n $ are relatively prime positive integers. Find $ m+n $.\n [svg] aime_41 [/svg] ",
+    "problem_statement": "Equilateral triangle $ T $ is inscribed in circle $ A $, which has radius $ 10 $. Circle $ B $ with radius $ 3 $ is internally tangent to circle $ A $ at one vertex of $ T $. Circles $ C $ and $ D $, both with radius $ 2 $, are internally tangent to circle $ A $ at the other two vertices of $ T $. Circles $ B $, $ C $, and $ D $ are all externally tangent to circle $ E $, which has radius $ \\frac{m}{n} $, where $ m $ and $ n $ are relatively prime positive integers. Find $ m+n $.\n <img src=\"/assets/img/aime_41.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=2009&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "II",
     "image_tags": [
@@ -6004,7 +6004,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "In triangle $ ABC $, $ BC = 23 $, $ CA = 27 $, and $ AB = 30 $.  Points $ V $ and $ W $ are on $ \\overline{AC} $ with $ V $ on $ \\overline{AW} $, points $ X $ and $ Y $ are on $ \\overline{BC} $ with $ X $ on $ \\overline{CY} $, and points $ Z $ and $ U $ are on $ \\overline{AB} $ with $ Z $ on $ \\overline{BU} $.  In addition, the points are positioned so that $ \\overline{UV}\\parallel\\overline{BC} $, $ \\overline{WX}\\parallel\\overline{AB} $, and $ \\overline{YZ}\\parallel\\overline{CA} $.  Right angle folds are then made along $ \\overline{UV} $, $ \\overline{WX} $, and $ \\overline{YZ} $.  The resulting figure is placed on a level floor to make a table with triangular legs.  Let $ h $ be the maximum possible height of a table constructed from triangle $ ABC $ whose top is parallel to the floor.  Then $ h $ can be written in the form $ \\frac{k\\sqrt{m}}{n} $, where $ k $ and $ n $ are relatively prime positive integers and $ m $ is a positive integer that is not divisible by the square of any prime.  Find $ k+m+n $. [svg] aime_42 [/svg] ",
+    "problem_statement": "In triangle $ ABC $, $ BC = 23 $, $ CA = 27 $, and $ AB = 30 $.  Points $ V $ and $ W $ are on $ \\overline{AC} $ with $ V $ on $ \\overline{AW} $, points $ X $ and $ Y $ are on $ \\overline{BC} $ with $ X $ on $ \\overline{CY} $, and points $ Z $ and $ U $ are on $ \\overline{AB} $ with $ Z $ on $ \\overline{BU} $.  In addition, the points are positioned so that $ \\overline{UV}\\parallel\\overline{BC} $, $ \\overline{WX}\\parallel\\overline{AB} $, and $ \\overline{YZ}\\parallel\\overline{CA} $.  Right angle folds are then made along $ \\overline{UV} $, $ \\overline{WX} $, and $ \\overline{YZ} $.  The resulting figure is placed on a level floor to make a table with triangular legs.  Let $ h $ be the maximum possible height of a table constructed from triangle $ ABC $ whose top is parallel to the floor.  Then $ h $ can be written in the form $ \\frac{k\\sqrt{m}}{n} $, where $ k $ and $ n $ are relatively prime positive integers and $ m $ is a positive integer that is not divisible by the square of any prime.  Find $ k+m+n $. <img src=\"/assets/img/aime_42.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=2011&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "I",
     "image_tags": [
@@ -6296,7 +6296,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "At each of the sixteen circles in the network below stands a student. A total of 3360 coins are distributed among the sixteen students. All at once, all students give away all their coins by passing an equal number of coins to each of their neighbors in the network. After the trade, all students have the same number of coins as they started with. Find the number of coins the student standing at the center circle had originally. [svg] aime_43 [/svg] ",
+    "problem_statement": "At each of the sixteen circles in the network below stands a student. A total of 3360 coins are distributed among the sixteen students. All at once, all students give away all their coins by passing an equal number of coins to each of their neighbors in the network. After the trade, all students have the same number of coins as they started with. Find the number of coins the student standing at the center circle had originally. <img src=\"/assets/img/aime_43.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=2012&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "I",
     "image_tags": [
@@ -6308,7 +6308,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "Cube $ ABCDEFGH $, labeled as shown below, has edge length $ 1 $ and is cut by a plane passing through vertex $ D $ and the midpoints $ M $ and $ N $ of $ \\overline{AB} $ and $ \\overline{CG} $ respectively. The plane divides the cube into two solids. The volume of the larger of the two solids can be written in the form $ \\frac{p}{q} $, where $ p $ and $ q $ are relatively prime positive integers. Find $ p+q $. [svg] aime_44 [/svg] ",
+    "problem_statement": "Cube $ ABCDEFGH $, labeled as shown below, has edge length $ 1 $ and is cut by a plane passing through vertex $ D $ and the midpoints $ M $ and $ N $ of $ \\overline{AB} $ and $ \\overline{CG} $ respectively. The plane divides the cube into two solids. The volume of the larger of the two solids can be written in the form $ \\frac{p}{q} $, where $ p $ and $ q $ are relatively prime positive integers. Find $ p+q $. <img src=\"/assets/img/aime_44.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=2012&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "I",
     "image_tags": [
@@ -6430,7 +6430,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "In the accompanying figure, the outer square has side length 40. A second square S' of side length 15 is constructed inside S with the same center as S and with sides parallel to those of S. From each midpoint of a side of S, segments are drawn to the two closest vertices of S'. The result is a four-pointed starlike figure inscribed in S. The star figure is cut out and then folded to form a pyramid with base S'. Find the volume of this pyramid. [svg] aime_45 [/svg] ",
+    "problem_statement": "In the accompanying figure, the outer square has side length 40. A second square S' of side length 15 is constructed inside S with the same center as S and with sides parallel to those of S. From each midpoint of a side of S, segments are drawn to the two closest vertices of S'. The result is a four-pointed starlike figure inscribed in S. The star figure is cut out and then folded to form a pyramid with base S'. Find the volume of this pyramid. <img src=\"/assets/img/aime_45.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=2012&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "II",
     "image_tags": [
@@ -6572,7 +6572,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "In the array of $ 13 $ squares shown below, $ 8 $ squares are colored red, and the remaining $ 5 $ squares are colored blue. If one of all possible such colorings is chosen at random, the probability that the chosen colored array appears the same when rotated $ 90^{\\circ} $ around the central square is $ \\tfrac{1}{n} $, where $ n $ is a positive integer. Find $ n $. [svg] aime_46 [/svg] ",
+    "problem_statement": "In the array of $ 13 $ squares shown below, $ 8 $ squares are colored red, and the remaining $ 5 $ squares are colored blue. If one of all possible such colorings is chosen at random, the probability that the chosen colored array appears the same when rotated $ 90^{\\circ} $ around the central square is $ \\tfrac{1}{n} $, where $ n $ is a positive integer. Find $ n $. <img src=\"/assets/img/aime_46.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=2013&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "I",
     "image_tags": [
@@ -6624,7 +6624,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "A paper equilateral triangle $ ABC $ has side length $ 12 $. The paper triangle is folded so that vertex $ A $ touches a point on side $ \\overline{BC} $ a distance $ 9 $ from point $ B $. The length of the line segment along which the triangle is folded can be written as $ \\frac{m\\sqrt{p}}{n} $, where $ m $, $ n $, and $ p $ are positive integers, $ m $ and $ n $ are relatively prime, and $ p $ is not divisible by the square of any prime. Find $ m+n+p $.  [svg] aime_47 [/svg] ",
+    "problem_statement": "A paper equilateral triangle $ ABC $ has side length $ 12 $. The paper triangle is folded so that vertex $ A $ touches a point on side $ \\overline{BC} $ a distance $ 9 $ from point $ B $. The length of the line segment along which the triangle is folded can be written as $ \\frac{m\\sqrt{p}}{n} $, where $ m $, $ n $, and $ p $ are positive integers, $ m $ and $ n $ are relatively prime, and $ p $ is not divisible by the square of any prime. Find $ m+n+p $.  <img src=\"/assets/img/aime_47.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=2013&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "I",
     "image_tags": [
@@ -6846,7 +6846,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "The $ 8 $ eyelets for the lace of a sneaker all lie on a rectangle, four equally spaced on each of the longer sides. The rectangle has a width of $ 50 $ mm and a length of $ 80 $ mm. There is one eyelet at each vertex of the rectangle. The lace itself must pass between the vertex eyelets along a width side of the rectangle and then crisscross between successive eyelets until it reaches the two eyelets at the other width side of the rectrangle as shown. After passing through these final eyelets, each of the ends of the lace must extend at least $ 200 $ mm farther to allow a knot to be tied. Find the minimum length of the lace in millimeters. [svg] aime_48 [/svg] ",
+    "problem_statement": "The $ 8 $ eyelets for the lace of a sneaker all lie on a rectangle, four equally spaced on each of the longer sides. The rectangle has a width of $ 50 $ mm and a length of $ 80 $ mm. There is one eyelet at each vertex of the rectangle. The lace itself must pass between the vertex eyelets along a width side of the rectangle and then crisscross between successive eyelets until it reaches the two eyelets at the other width side of the rectrangle as shown. After passing through these final eyelets, each of the ends of the lace must extend at least $ 200 $ mm farther to allow a knot to be tied. Find the minimum length of the lace in millimeters. <img src=\"/assets/img/aime_48.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=2014&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "I",
     "image_tags": [
@@ -6968,7 +6968,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "On square $ ABCD, $ points $ E,F,G, $ and $ H $ lie on sides $ \\overline{AB},\\overline{BC},\\overline{CD}, $ and $ \\overline{DA}, $ respectively, so that $ \\overline{EG}\\perp\\overline{FH} $ and $ EG=FH = 34. $ Segments $ \\overline{EG} $ and $ \\overline{FH} $ intersect at a point $ P, $ and the areas of the quadrilaterals $ AEPH, BFPE, CGPF, $ and $ DHPG $ are in the ratio $ 269:275:405:411. $ Find the area of square $ ABCD $.  [svg] aime_49 [/svg] ",
+    "problem_statement": "On square $ ABCD, $ points $ E,F,G, $ and $ H $ lie on sides $ \\overline{AB},\\overline{BC},\\overline{CD}, $ and $ \\overline{DA}, $ respectively, so that $ \\overline{EG}\\perp\\overline{FH} $ and $ EG=FH = 34. $ Segments $ \\overline{EG} $ and $ \\overline{FH} $ intersect at a point $ P, $ and the areas of the quadrilaterals $ AEPH, BFPE, CGPF, $ and $ DHPG $ are in the ratio $ 269:275:405:411. $ Find the area of square $ ABCD $.  <img src=\"/assets/img/aime_49.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=2014&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "I",
     "image_tags": [
@@ -7020,7 +7020,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "AIME",
-    "problem_statement": "A rectangle has sides of length $ a $ and $ 36 $. A hinge is installed at each vertex of the rectangle and at the midpoint of each side of length $ 36 $. The sides of length $ a $ can be pressed toward each other keeping those two sides parallel so the rectangle becomes a convex hexagon as shown. When the figure is a hexagon with the sides of length $ a $ parallel and separated by a distance of $ 24, $ the hexagon has the same area as the original rectangle. Find $ a^2 $.  [svg] aime_50 [/svg] ",
+    "problem_statement": "A rectangle has sides of length $ a $ and $ 36 $. A hinge is installed at each vertex of the rectangle and at the midpoint of each side of length $ 36 $. The sides of length $ a $ can be pressed toward each other keeping those two sides parallel so the rectangle becomes a convex hexagon as shown. When the figure is a hexagon with the sides of length $ a $ parallel and separated by a distance of $ 24, $ the hexagon has the same area as the original rectangle. Find $ a^2 $.  <img src=\"/assets/img/aime_50.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=45&year=2014&sid=9d841f03e3a3ee43394bcea3566dedde",
     "name_modifier": "II",
     "image_tags": [

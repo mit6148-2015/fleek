@@ -2615,7 +2615,7 @@
         "$\\text{none of these}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the figure, it is given that angle $ C = 90^{\\circ},\\overline{AD}=\\overline{DB}, DE\\perp AB,\\overline{AB}= 20 $, and $ \\overline{AC}= 12 $. The area of quadrilateral $ ADEC $ is:\n [svg] ahsme_1 [/svg] ",
+    "problem_statement": "In the figure, it is given that angle $ C = 90^{\\circ},\\overline{AD}=\\overline{DB}, DE\\perp AB,\\overline{AB}= 20 $, and $ \\overline{AC}= 12 $. The area of quadrilateral $ ADEC $ is:\n <img src=\"/assets/img/ahsme_1.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1952&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -3126,7 +3126,7 @@
         "$\\text{none of these}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the figure, $ \\overline{CD},\\overline{AE} $ and $ \\overline{BF} $ are one-third of their respective sides. It follows that $ \\overline{AN_2}:\\overline{N_2N_1}:\\overline{N_1D}= 3: 3: 1 $, and similarly for lines $ BE $ and $ CF. $ Then the area of triangle $ N_1N_2N_3 $ is:\n [svg] ahsme_2 [/svg] ",
+    "problem_statement": "In the figure, $ \\overline{CD},\\overline{AE} $ and $ \\overline{BF} $ are one-third of their respective sides. It follows that $ \\overline{AN_2}:\\overline{N_2N_1}:\\overline{N_1D}= 3: 3: 1 $, and similarly for lines $ BE $ and $ CF. $ Then the area of triangle $ N_1N_2N_3 $ is:\n <img src=\"/assets/img/ahsme_2.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1952&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -4956,7 +4956,7 @@
         "$\\sqrt{h^2+d^2}-h$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the right triangle shown the sum of the distances $ BM $ and $ MA $ is equal to the sum of the distances $ BC $ and $ CA $.  If $ MB = x $, $ CB = h $, and $ CA = d $, then $ x $ equals:\n [svg] ahsme_3 [/svg] ",
+    "problem_statement": "In the right triangle shown the sum of the distances $ BM $ and $ MA $ is equal to the sum of the distances $ BC $ and $ CA $.  If $ MB = x $, $ CB = h $, and $ CA = d $, then $ x $ equals:\n <img src=\"/assets/img/ahsme_3.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1954&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -4998,7 +4998,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Given triangle $ PQR $ with $ \\overline{RS} $ bisecting $ \\angle R $, $ PQ $ extended to $ D $ and $ \\angle n $ a right angle, then:\n [svg] ahsme_4 [/svg] $ \\textbf{(A)}\\ \\angle m =\\frac{1}{2}(\\angle p-\\angle q)\\qquad\\textbf{(B)}\\ \\angle m =\\frac{1}{2}(\\angle p+\\angle q) $\n$ \\textbf{(C)}\\ \\angle d =\\frac{1}{2}(\\angle q+\\angle p)\\qquad\\textbf{(D)}\\ \\angle d =\\frac{1}{2}\\angle m\\qquad\\textbf{(E)}\\ \\text{none of these is correct} $",
+    "problem_statement": "Given triangle $ PQR $ with $ \\overline{RS} $ bisecting $ \\angle R $, $ PQ $ extended to $ D $ and $ \\angle n $ a right angle, then:\n <img src=\"/assets/img/ahsme_4.svg\" class=\"problem-img\"> $ \\textbf{(A)}\\ \\angle m =\\frac{1}{2}(\\angle p-\\angle q)\\qquad\\textbf{(B)}\\ \\angle m =\\frac{1}{2}(\\angle p+\\angle q) $\n$ \\textbf{(C)}\\ \\angle d =\\frac{1}{2}(\\angle q+\\angle p)\\qquad\\textbf{(D)}\\ \\angle d =\\frac{1}{2}\\angle m\\qquad\\textbf{(E)}\\ \\text{none of these is correct} $",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1954&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -5207,7 +5207,7 @@
         "$\\frac{1}{16}\"$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the diagram, if points $ A $, $ B $ and $ C $ are points of tangency, then $ x $ equals:\n [svg] ahsme_5 [/svg] ",
+    "problem_statement": "In the diagram, if points $ A $, $ B $ and $ C $ are points of tangency, then $ x $ equals:\n <img src=\"/assets/img/ahsme_5.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1954&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -5902,7 +5902,7 @@
         "$a+b$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the figure, $ PA $ is tangent to semicircle $ SAR $; $ PB $ is tangent to semicircle $ RBT $; $ SRT $ is a straight line; the arcs are indicated in the figure.  Angle $ APB $ is measured by:\n [svg] ahsme_6 [/svg] ",
+    "problem_statement": "In the figure, $ PA $ is tangent to semicircle $ SAR $; $ PB $ is tangent to semicircle $ RBT $; $ SRT $ is a straight line; the arcs are indicated in the figure.  Angle $ APB $ is measured by:\n <img src=\"/assets/img/ahsme_6.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1955&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -6213,7 +6213,7 @@
         "$x=2y\\text{ or }x=3y\\text{, depending upon the length of }AB$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In circle $ O $ chord $ AB $ is produced so that $ BC $ equals a radius of the circle.  $ CO $ is drawn and extended to $ D $.  $ AO $ is drawn.  Which of the following expresses the relationship between $ x $ and $ y $? [svg] ahsme_7 [/svg] ",
+    "problem_statement": "In circle $ O $ chord $ AB $ is produced so that $ BC $ equals a radius of the circle.  $ CO $ is drawn and extended to $ D $.  $ AO $ is drawn.  Which of the following expresses the relationship between $ x $ and $ y $? <img src=\"/assets/img/ahsme_7.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1955&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -6863,7 +6863,7 @@
         "$20^{\\circ}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the figure $ \\overline{AB}=\\overline{AC} $, angle $ BAD = 30^{\\circ} $, and $ \\overline{AE}=\\overline{AD} $.\n [svg] ahsme_8 [/svg] Then angle $ CDE $ equals:",
+    "problem_statement": "In the figure $ \\overline{AB}=\\overline{AC} $, angle $ BAD = 30^{\\circ} $, and $ \\overline{AE}=\\overline{AD} $.\n <img src=\"/assets/img/ahsme_8.svg\" class=\"problem-img\"> Then angle $ CDE $ equals:",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1956&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -7805,7 +7805,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Circle $ O $ has diameters $ AB $ and $ CD $ perpendicular to each other. $ AM $ is any chord intersecting $ CD $ at $ P $. Then $ AP\\cdot AM $ is equal to:\n [svg] ahsme_9 [/svg] $ \\textbf{(A)}\\ AO\\cdot OB\\qquad\\textbf{(B)}\\ AO\\cdot AB\\qquad\\textbf{(C)}\\ CP\\cdot CD\\qquad\\textbf{(D)}\\ CP\\cdot PD\\qquad $\n$ \\textbf{(E)}\\ CO\\cdot OP $",
+    "problem_statement": "Circle $ O $ has diameters $ AB $ and $ CD $ perpendicular to each other. $ AM $ is any chord intersecting $ CD $ at $ P $. Then $ AP\\cdot AM $ is equal to:\n <img src=\"/assets/img/ahsme_9.svg\" class=\"problem-img\"> $ \\textbf{(A)}\\ AO\\cdot OB\\qquad\\textbf{(B)}\\ AO\\cdot AB\\qquad\\textbf{(C)}\\ CP\\cdot CD\\qquad\\textbf{(D)}\\ CP\\cdot PD\\qquad $\n$ \\textbf{(E)}\\ CO\\cdot OP $",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1957&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -8238,7 +8238,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In right triangle $ ABC $, $ BC = 5 $, $ AC = 12 $, and $ AM = x $; $ \\overline{MN}\\perp\\overline{AC} $, $ \\overline{NP}\\perp\\overline{BC} $; $ N $ is on $ AB $. If $ y = MN+NP $, one-half the perimeter of rectangle $ MCPN $, then:\n [svg] ahsme_10 [/svg] $ \\textbf{(A)}\\ y =\\frac{1}{2}(5+12)\\qquad\\textbf{(B)}\\ y =\\frac{5x}{12}+\\frac{12}{5}\\qquad\\textbf{(C)}\\ y =\\frac{144-7x}{12}\\qquad $\n$ \\textbf{(D)}\\ y = 12\\qquad\\qquad\\quad\\,\\,\\textbf{(E)}\\ y =\\frac{5x}{12}+6 $",
+    "problem_statement": "In right triangle $ ABC $, $ BC = 5 $, $ AC = 12 $, and $ AM = x $; $ \\overline{MN}\\perp\\overline{AC} $, $ \\overline{NP}\\perp\\overline{BC} $; $ N $ is on $ AB $. If $ y = MN+NP $, one-half the perimeter of rectangle $ MCPN $, then:\n <img src=\"/assets/img/ahsme_10.svg\" class=\"problem-img\"> $ \\textbf{(A)}\\ y =\\frac{1}{2}(5+12)\\qquad\\textbf{(B)}\\ y =\\frac{5x}{12}+\\frac{12}{5}\\qquad\\textbf{(C)}\\ y =\\frac{144-7x}{12}\\qquad $\n$ \\textbf{(D)}\\ y = 12\\qquad\\qquad\\quad\\,\\,\\textbf{(E)}\\ y =\\frac{5x}{12}+6 $",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1957&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -8401,7 +8401,7 @@
         "$15^\\circ$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In triangle $ ABC $, $ AC = CD $ and $ \\angle CAB-\\angle ABC = 30^\\circ $. Then $ \\angle BAD $ is:\n [svg] ahsme_11 [/svg] ",
+    "problem_statement": "In triangle $ ABC $, $ AC = CD $ and $ \\angle CAB-\\angle ABC = 30^\\circ $. Then $ \\angle BAD $ is:\n <img src=\"/assets/img/ahsme_11.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1957&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -8472,7 +8472,7 @@
         "$r\\sqrt{3}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In circle $ O $, the midpoint of radius $ OX $ is $ Q $; at $ Q $, $ \\overline{AB}\\perp\\overline{XY} $. The semi-circle with $ \\overline{AB} $ as diameter intersects $ \\overline{XY} $ in $ M $. Line $ \\overline{AM} $ intersects circle $ O $ in $ C $, and line $ \\overline{BM} $ intersects circle $ O $ in $ D $. Line $ \\overline{AD} $ is drawn. Then, if the radius of circle $ O $ is $ r $, $ AD $ is:\n [svg] ahsme_12 [/svg] ",
+    "problem_statement": "In circle $ O $, the midpoint of radius $ OX $ is $ Q $; at $ Q $, $ \\overline{AB}\\perp\\overline{XY} $. The semi-circle with $ \\overline{AB} $ as diameter intersects $ \\overline{XY} $ in $ M $. Line $ \\overline{AM} $ intersects circle $ O $ in $ C $, and line $ \\overline{BM} $ intersects circle $ O $ in $ D $. Line $ \\overline{AD} $ is drawn. Then, if the radius of circle $ O $ is $ r $, $ AD $ is:\n <img src=\"/assets/img/ahsme_12.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1957&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -8491,7 +8491,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Let $ ABC $ be an equilateral triangle inscribed in circle $ O $. $ M $ is a point on arc $ BC $. Lines $ \\overline{AM} $, $ \\overline{BM} $, and $ \\overline{CM} $ are drawn. Then $ AM $ is:\n [svg] ahsme_13 [/svg] $ \\textbf{(A)}\\ \\text{equal to }{BM+CM}\\qquad\\textbf{(B)}\\ \\text{less than }{BM+CM}\\qquad\\textbf{(C)}\\ \\text{greater than }{BM+CM}\\qquad $\n$ \\textbf{(D)}\\ \\text{equal, less than, or greater than }{BM+CM}\\text{, depending upon the position of }{{M}\\qquad $\n$ \\textbf{(E)}\\ \\text{none of these} $",
+    "problem_statement": "Let $ ABC $ be an equilateral triangle inscribed in circle $ O $. $ M $ is a point on arc $ BC $. Lines $ \\overline{AM} $, $ \\overline{BM} $, and $ \\overline{CM} $ are drawn. Then $ AM $ is:\n <img src=\"/assets/img/ahsme_13.svg\" class=\"problem-img\"> $ \\textbf{(A)}\\ \\text{equal to }{BM+CM}\\qquad\\textbf{(B)}\\ \\text{less than }{BM+CM}\\qquad\\textbf{(C)}\\ \\text{greater than }{BM+CM}\\qquad $\n$ \\textbf{(D)}\\ \\text{equal, less than, or greater than }{BM+CM}\\text{, depending upon the position of }{{M}\\qquad $\n$ \\textbf{(E)}\\ \\text{none of these} $",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1957&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -8516,7 +8516,7 @@
         "$6: 1$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The parallel sides of a trapezoid are $ 3 $ and $ 9 $. The non-parallel sides are $ 4 $ and $ 6 $. A line parallel to the bases divides the trapezoid into two trapezoids of equal perimeters. The ratio in which each of the non-parallel sides is divided is:\n [svg] ahsme_14 [/svg] ",
+    "problem_statement": "The parallel sides of a trapezoid are $ 3 $ and $ 9 $. The non-parallel sides are $ 4 $ and $ 6 $. A line parallel to the bases divides the trapezoid into two trapezoids of equal perimeters. The ratio in which each of the non-parallel sides is divided is:\n <img src=\"/assets/img/ahsme_14.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1957&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -9024,7 +9024,7 @@
         "$2 : 1$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the accompanying figure $ \\overline{CE} $ and $ \\overline{DE} $ are equal chords of a circle with center $ O $. Arc $ AB $ is a quarter-circle. Then the ratio of the area of triangle $ CED $ to the area of triangle $ AOB $ is:\n [svg] ahsme_15 [/svg] ",
+    "problem_statement": "In the accompanying figure $ \\overline{CE} $ and $ \\overline{DE} $ are equal chords of a circle with center $ O $. Arc $ AB $ is a quarter-circle. Then the ratio of the area of triangle $ CED $ to the area of triangle $ AOB $ is:\n <img src=\"/assets/img/ahsme_15.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1958&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -9210,7 +9210,7 @@
         "$x+y+n = a+b+m$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In a general triangle $ ADE $ (as shown) lines $ \\overline{EB} $ and $ \\overline{EC} $ are drawn. Which of the following angle relations is true?\n [svg] ahsme_16 [/svg] ",
+    "problem_statement": "In a general triangle $ ADE $ (as shown) lines $ \\overline{EB} $ and $ \\overline{EC} $ are drawn. Which of the following angle relations is true?\n <img src=\"/assets/img/ahsme_16.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1958&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -9626,7 +9626,7 @@
         "$EF$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "$ ABCD $ is a rectangle (see the accompanying diagram) with $ P $ any point on $ \\overline{AB} $. $ \\overline{PS}\\perp\\overline{BD} $ and $ \\overline{PR}\\perp\\overline{AC} $. $ \\overline{AF}\\perp\\overline{BD} $ and $ \\overline{PQ}\\perp\\overline{AF} $. Then $ PR+PS $ is equal to:\n [svg] ahsme_17 [/svg] ",
+    "problem_statement": "$ ABCD $ is a rectangle (see the accompanying diagram) with $ P $ any point on $ \\overline{AB} $. $ \\overline{PS}\\perp\\overline{BD} $ and $ \\overline{PR}\\perp\\overline{AC} $. $ \\overline{AF}\\perp\\overline{BD} $ and $ \\overline{PQ}\\perp\\overline{AF} $. Then $ PR+PS $ is equal to:\n <img src=\"/assets/img/ahsme_17.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1958&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -9697,7 +9697,7 @@
         "$12a-34$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In this diagram a scheme is indicated for associating all the points of segment $ \\overline{AB} $ with those of segment $ \\overline{A'B'} $, and reciprocally. To described this association scheme analytically, let $ x $ be the distance from a point $ P $ on $ \\overline{AB} $ to $ D $ and let $ y $ be the distance from the associated point $ P' $ of $ \\overline{A'B'} $ to $ D' $. Then for any pair of associated points, if $ x = a,\\, x+y $ equals:\n [svg] ahsme_18 [/svg] ",
+    "problem_statement": "In this diagram a scheme is indicated for associating all the points of segment $ \\overline{AB} $ with those of segment $ \\overline{A'B'} $, and reciprocally. To described this association scheme analytically, let $ x $ be the distance from a point $ P $ on $ \\overline{AB} $ to $ D $ and let $ y $ be the distance from the associated point $ P' $ of $ \\overline{A'B'} $ to $ D' $. Then for any pair of associated points, if $ x = a,\\, x+y $ equals:\n <img src=\"/assets/img/ahsme_18.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1958&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -11417,7 +11417,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In this figure the center of the circle is $ O $. $ AB\\perp BC $, $ ADOE $ is a straight line, $ AP = AD $, and $ AB $ has a length twice the radius. Then: [svg] ahsme_19 [/svg] $ \\textbf{(A)}AP^2 = PB\\times AB\\qquad $$ \\textbf{(B)}\\ AP\\times DO = PB\\times AD\\qquad $$ \\textbf{(C)}\\ AB^2 = AD\\times DE\\qquad $$ \\textbf{(D)}\\ AB\\times AD = OB\\times AO\\qquad $$ \\textbf{(E)}\\ \\text{none of these} $",
+    "problem_statement": "In this figure the center of the circle is $ O $. $ AB\\perp BC $, $ ADOE $ is a straight line, $ AP = AD $, and $ AB $ has a length twice the radius. Then: <img src=\"/assets/img/ahsme_19.svg\" class=\"problem-img\"> $ \\textbf{(A)}AP^2 = PB\\times AB\\qquad $$ \\textbf{(B)}\\ AP\\times DO = PB\\times AD\\qquad $$ \\textbf{(C)}\\ AB^2 = AD\\times DE\\qquad $$ \\textbf{(D)}\\ AB\\times AD = OB\\times AO\\qquad $$ \\textbf{(E)}\\ \\text{none of these} $",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1960&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -11539,7 +11539,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In this diagram $ AB $ and $ AC $ are the equal sides of an isosceles triangle $ ABC $, in which is inscribed equilateral triangle $ DEF $. Designate angle $ BFD $ by $ a $, angle $ ADE $ by $ b $, and angle $ FEC $ by $ c $. Then: [svg] ahsme_20 [/svg] $ \\textbf{(A)}\\ b=\\frac{a+c}{2}\\qquad\\textbf{(B)}\\ b=\\frac{a-c}{2}\\qquad $$ \\textbf{(C)}\\ a=\\frac{b-c}{2}\\qquad\\textbf{(D)}\\ a=\\frac{b+c}{2}\\qquad $$ \\textbf{(E)}\\ \\text{none of these} $",
+    "problem_statement": "In this diagram $ AB $ and $ AC $ are the equal sides of an isosceles triangle $ ABC $, in which is inscribed equilateral triangle $ DEF $. Designate angle $ BFD $ by $ a $, angle $ ADE $ by $ b $, and angle $ FEC $ by $ c $. Then: <img src=\"/assets/img/ahsme_20.svg\" class=\"problem-img\"> $ \\textbf{(A)}\\ b=\\frac{a+c}{2}\\qquad\\textbf{(B)}\\ b=\\frac{a-c}{2}\\qquad $$ \\textbf{(C)}\\ a=\\frac{b-c}{2}\\qquad\\textbf{(D)}\\ a=\\frac{b+c}{2}\\qquad $$ \\textbf{(E)}\\ \\text{none of these} $",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1960&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -13781,7 +13781,7 @@
         "$FMC$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Chord $ EF $ is the perpendicular bisector of chord $ BC $, intersecting it in $ M $. Between $ B $ and $ M $ point $ U $ is taken, and $ EU $ extended meets the circle in $ A $. Then, for any selection of $ U $, as described, triangle $ EUM $ is similar to triangle: [svg] ahsme_21 [/svg] ",
+    "problem_statement": "Chord $ EF $ is the perpendicular bisector of chord $ BC $, intersecting it in $ M $. Between $ B $ and $ M $ point $ U $ is taken, and $ EU $ extended meets the circle in $ A $. Then, for any selection of $ U $, as described, triangle $ EUM $ is similar to triangle: <img src=\"/assets/img/ahsme_21.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1963&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -13938,7 +13938,7 @@
         "$20$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Point $ F $ is taken in side $ AD $ of square $ ABCD $. At $ C $ a perpendicular is drawn to $ CF $, meeting $ AB $ extended at $ E $. The area of $ ABCD $ is $ 256 $ square inches and the area of triangle $ CEF $ is $ 200 $ square inches. Then the number of inches in $ BE $ is: [svg] ahsme_22 [/svg] ",
+    "problem_statement": "Point $ F $ is taken in side $ AD $ of square $ ABCD $. At $ C $ a perpendicular is drawn to $ CF $, meeting $ AB $ extended at $ E $. The area of $ ABCD $ is $ 256 $ square inches and the area of triangle $ CEF $ is $ 200 $ square inches. Then the number of inches in $ BE $ is: <img src=\"/assets/img/ahsme_22.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1963&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -14215,7 +14215,7 @@
         "$16$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Point $ F $ is taken on the extension of side $ AD $ of parallelogram $ ABCD $.  $ BF $ intersects diagonal $ AC $ at $ E $ and side $ DC $ at $ G $. If $ EF = 32 $ and $ GF = 24 $, then $ BE $ equals: [svg] ahsme_23 [/svg] ",
+    "problem_statement": "Point $ F $ is taken on the extension of side $ AD $ of parallelogram $ ABCD $.  $ BF $ intersects diagonal $ AC $ at $ E $ and side $ DC $ at $ G $. If $ EF = 32 $ and $ GF = 24 $, then $ BE $ equals: <img src=\"/assets/img/ahsme_23.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1963&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -14240,7 +14240,7 @@
         "$\\frac{5}{2}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In triangle $ ABC $ lines $ CE $ and $ AD $ are drawn so that $ \\frac{CD}{DB}=\\frac{3}{1} $ and $ \\frac{AE}{EB}=\\frac{3}{2} $. Let $ r=\\frac{CP}{PE} $ where $ P $ is the intersection point of $ CE $ and $ AD $. Then $ r $ equals: [svg] ahsme_24 [/svg] ",
+    "problem_statement": "In triangle $ ABC $ lines $ CE $ and $ AD $ are drawn so that $ \\frac{CD}{DB}=\\frac{3}{1} $ and $ \\frac{AE}{EB}=\\frac{3}{2} $. Let $ r=\\frac{CP}{PE} $ where $ P $ is the intersection point of $ CE $ and $ AD $. Then $ r $ equals: <img src=\"/assets/img/ahsme_24.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1963&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -14908,7 +14908,7 @@
         "$6\\frac{1}{4}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In this figure $ \\angle RFS =\\angle FDR $, $ FD = 4 $ inches, $ DR = 6 $ inches, $ FR = 5 $ inches, $ FS = 7\\frac{1}{2} $ inches. The length of $ RS $, in inches, is: [svg] ahsme_25 [/svg] ",
+    "problem_statement": "In this figure $ \\angle RFS =\\angle FDR $, $ FD = 4 $ inches, $ DR = 6 $ inches, $ FR = 5 $ inches, $ FS = 7\\frac{1}{2} $ inches. The length of $ RS $, in inches, is: <img src=\"/assets/img/ahsme_25.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1964&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -14990,7 +14990,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "$ P $ is a point interior to rectangle $ ABCD $ and such that $ PA=3 $ inches, $ PD=4 $ inches, and $ PC=5 $ inches. Then $ PB $, in inches, equals: [svg] ahsme_26 [/svg] ",
+    "problem_statement": "$ P $ is a point interior to rectangle $ ABCD $ and such that $ PA=3 $ inches, $ PD=4 $ inches, and $ PC=5 $ inches. Then $ PB $, in inches, equals: <img src=\"/assets/img/ahsme_26.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1964&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -15043,7 +15043,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In this figure the radius of the circle is equal to the altitude of the equilateral triangle $ ABC $. The circle is made to roll along the side $ AB $, remaining tangent to it at a variable point $ T $ and intersecting lines $ AC $ and $ BC $ in variable points $ M $ and $ N $, respectively. Let $ n $ be the number of degrees in arc $ MTN $. Then $ n $, for all permissible positions of the circle:$ \\textbf{(A) }\\text{varies from }30^{\\circ}\\text{ to }90^{\\circ} $$ \\textbf{(B) }\\text{varies from }30^{\\circ}\\text{ to }60^{\\circ} $$ \\textbf{(C) }\\text{varies from }60^{\\circ}\\text{ to }90^{\\circ} $$ \\textbf{(D) }\\text{remains constant at }30^{\\circ} $$ \\textbf{(E) }\\text{remains constant at }60^{\\circ} $ [svg] ahsme_27 [/svg] ",
+    "problem_statement": "In this figure the radius of the circle is equal to the altitude of the equilateral triangle $ ABC $. The circle is made to roll along the side $ AB $, remaining tangent to it at a variable point $ T $ and intersecting lines $ AC $ and $ BC $ in variable points $ M $ and $ N $, respectively. Let $ n $ be the number of degrees in arc $ MTN $. Then $ n $, for all permissible positions of the circle:$ \\textbf{(A) }\\text{varies from }30^{\\circ}\\text{ to }90^{\\circ} $$ \\textbf{(B) }\\text{varies from }30^{\\circ}\\text{ to }60^{\\circ} $$ \\textbf{(C) }\\text{varies from }60^{\\circ}\\text{ to }90^{\\circ} $$ \\textbf{(D) }\\text{remains constant at }30^{\\circ} $$ \\textbf{(E) }\\text{remains constant at }60^{\\circ} $ <img src=\"/assets/img/ahsme_27.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1964&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -15102,7 +15102,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The magnitudes of the sides of triangle $ ABC $ are $ a $, $ b $, and $ c $, as shown, with $ c\\le b\\le a $. Through interior point $ P $ and the vertices $ A $, $ B $, $ C $, lines are drawn meeting the opposite sides in $ A' $, $ B' $, $ C' $, respectively. Let $ s=AA'+BB'+CC' $. Then, for all positions of point $ P $, $ s $ is less than: $ a+b+c $ [svg] ahsme_28 [/svg] ",
+    "problem_statement": "The magnitudes of the sides of triangle $ ABC $ are $ a $, $ b $, and $ c $, as shown, with $ c\\le b\\le a $. Through interior point $ P $ and the vertices $ A $, $ B $, $ C $, lines are drawn meeting the opposite sides in $ A' $, $ B' $, $ C' $, respectively. Let $ s=AA'+BB'+CC' $. Then, for all positions of point $ P $, $ s $ is less than: $ a+b+c $ <img src=\"/assets/img/ahsme_28.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1964&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -16688,7 +16688,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Triangle $ ABC $ is inscribed in a circle with center $ O' $.  A circle with center $ O $ is inscribed in triangle $ ABC $.  $ AO $ is drawn, and extended to intersect the larger circle in $ D $.  Then, we must have: [svg] ahsme_29 [/svg] ",
+    "problem_statement": "Triangle $ ABC $ is inscribed in a circle with center $ O' $.  A circle with center $ O $ is inscribed in triangle $ ABC $.  $ AO $ is drawn, and extended to intersect the larger circle in $ D $.  Then, we must have: <img src=\"/assets/img/ahsme_29.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1966&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -17608,7 +17608,7 @@
         "$\\sqrt{2}:6$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] ahsme_30 [/svg] In this diagram semi-circles are constructed on diameters $ \\overline{AB} $, $ \\overline{AC} $, and $ \\overline{CB} $, so that they are mutually tangent.  If $ \\overline{CD}\\bot\\overline{AB} $, then the ratio of the shaded area to the area of a circle with $ \\overline{CD} $ as radius is:",
+    "problem_statement": " <img src=\"/assets/img/ahsme_30.svg\" class=\"problem-img\"> In this diagram semi-circles are constructed on diameters $ \\overline{AB} $, $ \\overline{AC} $, and $ \\overline{CB} $, so that they are mutually tangent.  If $ \\overline{CD}\\bot\\overline{AB} $, then the ratio of the shaded area to the area of a circle with $ \\overline{CD} $ as radius is:",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1967&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -18478,7 +18478,7 @@
         "$87\\frac{1}{2}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In this diagram, not drawn to scale, figures $ \\text{I} $ and $ \\text{III} $ are equilateral triangular regions with respective areas of $ 32\\sqrt{3} $ and $ 8\\sqrt{3} $ square inches. Figure $ \\text{II} $ is a square region with area $ 32 $ sq. in. Let the length of segment $ AD $ be decreased by $ 12\\frac{1}{2}\\% $ of itself, while the lengths of $ AB $ and $ CD $ remain unchanged. The percent decrease in the area of the square is: [svg] ahsme_31 [/svg] ",
+    "problem_statement": "In this diagram, not drawn to scale, figures $ \\text{I} $ and $ \\text{III} $ are equilateral triangular regions with respective areas of $ 32\\sqrt{3} $ and $ 8\\sqrt{3} $ square inches. Figure $ \\text{II} $ is a square region with area $ 32 $ sq. in. Let the length of segment $ AD $ be decreased by $ 12\\frac{1}{2}\\% $ of itself, while the lengths of $ AB $ and $ CD $ remain unchanged. The percent decrease in the area of the square is: <img src=\"/assets/img/ahsme_31.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1968&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -18566,7 +18566,7 @@
         "$\\frac{1}{\\sqrt{2}}+1$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In this diagram the center of the circle is $ O $, the radius is $ a $ inches, chord $ EF $ is parallel to chord $ CD, O, G, H, J $ are collinear, and $ G $ is the midpoint of $ CD $. Let $ K $ (sq. in.) represent the area of trapezoid $ CDFE $ and let $ R $ (sq. in.) represent the area of rectangle $ ELMF $. Then, as $ CD $ and $ EF $ are translated upward so that $ OG $ increases toward the value $ a $, while $ JH $ always equals $ HG $, the ratio $ K:R $ become arbitrarily close to: [svg] ahsme_32 [/svg] ",
+    "problem_statement": "In this diagram the center of the circle is $ O $, the radius is $ a $ inches, chord $ EF $ is parallel to chord $ CD, O, G, H, J $ are collinear, and $ G $ is the midpoint of $ CD $. Let $ K $ (sq. in.) represent the area of trapezoid $ CDFE $ and let $ R $ (sq. in.) represent the area of rectangle $ ELMF $. Then, as $ CD $ and $ EF $ are translated upward so that $ OG $ increases toward the value $ a $, while $ JH $ always equals $ HG $, the ratio $ K:R $ become arbitrarily close to: <img src=\"/assets/img/ahsme_32.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1968&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -19112,7 +19112,7 @@
         "$15\\tfrac34$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] ahsme_33 [/svg] A parabolic arch has a height of $ 16 $ inches and a span of $ 40 $ inches.  The height, in inches, of the arch at a point $ 5 $ inches from the center of $ M $ is:",
+    "problem_statement": " <img src=\"/assets/img/ahsme_33.svg\" class=\"problem-img\"> A parabolic arch has a height of $ 16 $ inches and a span of $ 40 $ inches.  The height, in inches, of the arch at a point $ 5 $ inches from the center of $ M $ is:",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1969&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -19217,7 +19217,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Let $ OABC $ be a unit square in the $ xy $-plane with $ O(0,0),A(1,0),B(1,1) $ and $ C(0,1) $.  Let $ u=x^2-y^2 $ and $ v=2xy $ be a transformation of the $ xy $-plane into the $ uv $-plane.  The transform (or image) of the square is: [svg] ahsme_34 [/svg]  [svg] ahsme_35 [/svg]  [svg] ahsme_36 [/svg]  [svg] ahsme_37 [/svg]  [svg] ahsme_38 [/svg] ",
+    "problem_statement": "Let $ OABC $ be a unit square in the $ xy $-plane with $ O(0,0),A(1,0),B(1,1) $ and $ C(0,1) $.  Let $ u=x^2-y^2 $ and $ v=2xy $ be a transformation of the $ xy $-plane into the $ uv $-plane.  The transform (or image) of the square is: <img src=\"/assets/img/ahsme_34.svg\" class=\"problem-img\">  <img src=\"/assets/img/ahsme_35.svg\" class=\"problem-img\">  <img src=\"/assets/img/ahsme_36.svg\" class=\"problem-img\">  <img src=\"/assets/img/ahsme_37.svg\" class=\"problem-img\">  <img src=\"/assets/img/ahsme_38.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1969&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -19945,7 +19945,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the accompanying figure, segments $ AB $ and $ CD $ are parallel, the measure of angle $ D $ is twice the measure of angle $ B $, and the measures of segments $ AB $ and $ CD $ are $ a $ and $ b $ respectively. Then the measure of $ AB $ is equal to [svg] ahsme_39 [/svg] ",
+    "problem_statement": "In the accompanying figure, segments $ AB $ and $ CD $ are parallel, the measure of angle $ D $ is twice the measure of angle $ B $, and the measures of segments $ AB $ and $ CD $ are $ a $ and $ b $ respectively. Then the measure of $ AB $ is equal to <img src=\"/assets/img/ahsme_39.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1970&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -20165,7 +20165,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Points $ A,B,Q,D, $ and $ C $ lie on the circle shown and the measures of arcs $ \\widehat{BQ} $ and $ \\widehat{QD} $ are $ 42^\\circ $ and $ 38^\\circ $ respectively. The sum of the measures of angles $ P $ and $ Q $ is [svg] ahsme_40 [/svg] ",
+    "problem_statement": "Points $ A,B,Q,D, $ and $ C $ lie on the circle shown and the measures of arcs $ \\widehat{BQ} $ and $ \\widehat{QD} $ are $ 42^\\circ $ and $ 38^\\circ $ respectively. The sum of the measures of angles $ P $ and $ Q $ is <img src=\"/assets/img/ahsme_40.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1971&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -20592,7 +20592,7 @@
         "$\\text{None of these}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] ahsme_41 [/svg] Pascal's triangle is an array of positive integers(See figure), in which the first row is $ 1 $, the second row is two $ 1 $'s, each row begins and ends with $ 1 $, and the $ k^\\text{th} $ number in any row when it is not $ 1 $, is the sum of the $ k^\\text{th} $ and $ (k-1)^\\text{th} $ numbers in the immediately preceding row. The quotient of the number of numbers in the first $ n $ rows which are not $ 1 $'s and the number of $ 1 $'s is",
+    "problem_statement": " <img src=\"/assets/img/ahsme_41.svg\" class=\"problem-img\"> Pascal's triangle is an array of positive integers(See figure), in which the first row is $ 1 $, the second row is two $ 1 $'s, each row begins and ends with $ 1 $, and the $ k^\\text{th} $ number in any row when it is not $ 1 $, is the sum of the $ k^\\text{th} $ and $ (k-1)^\\text{th} $ numbers in the immediately preceding row. The quotient of the number of numbers in the first $ n $ rows which are not $ 1 $'s and the number of $ 1 $'s is",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1971&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -20640,7 +20640,7 @@
         "$3:8$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] ahsme_42 [/svg] In triangle $ ABC $, point $ F $ divides side $ AC $ in the ratio $ 1:2 $. Let $ E $ be the point of intersection of side $ BC $ and $ AG $ where $ G $ is the midpoints of $ BF $. The point $ E $ divides side $ BC $ in the ratio",
+    "problem_statement": " <img src=\"/assets/img/ahsme_42.svg\" class=\"problem-img\"> In triangle $ ABC $, point $ F $ divides side $ AC $ in the ratio $ 1:2 $. Let $ E $ be the point of intersection of side $ BC $ and $ AG $ where $ G $ is the midpoints of $ BF $. The point $ E $ divides side $ BC $ in the ratio",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1971&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -20757,7 +20757,7 @@
         "$2\\sqrt{3}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] ahsme_43 [/svg] Quadrilateral $ ABCD $ is inscribed in a circle with side $ AD $, a diameter of length $ 4 $. If sides $ AB $ and $ BC $ each have length $ 1 $, then side $ CD $ has length",
+    "problem_statement": " <img src=\"/assets/img/ahsme_43.svg\" class=\"problem-img\"> Quadrilateral $ ABCD $ is inscribed in a circle with side $ AD $, a diameter of length $ 4 $. If sides $ AB $ and $ BC $ each have length $ 1 $, then side $ CD $ has length",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1971&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -21120,7 +21120,7 @@
         "$5:21$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] ahsme_44 [/svg] Inside square $ ABCD $ (See figure) with sides of length $ 12 $ inches, segment $ AE $ is drawn where $ E $ is the point on $ DC $ which is $ 5 $ inches from $ D $. The perpendicular bisector of $ AE $ is drawn and intersects $ AE $, $ AD $, and $ BC $ at points $ M $, $ P $, and $ Q $ respectively. The ratio of segment $ PM $ to $ MQ $ is",
+    "problem_statement": " <img src=\"/assets/img/ahsme_44.svg\" class=\"problem-img\"> Inside square $ ABCD $ (See figure) with sides of length $ 12 $ inches, segment $ AE $ is drawn where $ E $ is the point on $ DC $ which is $ 5 $ inches from $ D $. The perpendicular bisector of $ AE $ is drawn and intersects $ AE $, $ AD $, and $ BC $ at points $ M $, $ P $, and $ Q $ respectively. The ratio of segment $ PM $ to $ MQ $ is",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1972&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -21306,7 +21306,7 @@
         "$6$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] ahsme_45 [/svg] If the sum of the measures in degrees of angles $ A,~B,~C,~D,~E $ and $ F $ in the figure above is $ 90n $, then $ n $ is equal to",
+    "problem_statement": " <img src=\"/assets/img/ahsme_45.svg\" class=\"problem-img\"> If the sum of the measures in degrees of angles $ A,~B,~C,~D,~E $ and $ F $ in the figure above is $ 90n $, then $ n $ is equal to",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1972&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -21354,7 +21354,7 @@
         "$\\text{None of these}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] ahsme_46 [/svg] The radius of the smallest circle containing the symmetric figure composed of the $ 3 $ unit squares shown above is",
+    "problem_statement": " <img src=\"/assets/img/ahsme_46.svg\" class=\"problem-img\"> The radius of the smallest circle containing the symmetric figure composed of the $ 3 $ unit squares shown above is",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1972&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -21425,7 +21425,7 @@
         "$2x+1$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] ahsme_47 [/svg] In the circle above, $ M $ is the midpoint of arc $ CAB $ and segment $ MP $ is perpendicular to chord $ AB $ at $ P $. If the measure of chord $ AC $ is $ x $ and that of segment $ AP $ is $ (x+1) $, then segment $ PB $ has measure equal to",
+    "problem_statement": " <img src=\"/assets/img/ahsme_47.svg\" class=\"problem-img\"> In the circle above, $ M $ is the midpoint of arc $ CAB $ and segment $ MP $ is perpendicular to chord $ AB $ at $ P $. If the measure of chord $ AC $ is $ x $ and that of segment $ AP $ is $ (x+1) $, then segment $ PB $ has measure equal to",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1972&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -21513,7 +21513,7 @@
         "$\\text{None of these}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] ahsme_48 [/svg] A rectangular piece of paper $ 6 $ inches wide is folded as in the diagram so that one corner touches the opposite side. The length in inches of the crease $ L $ in terms of angle $ \\theta $ is",
+    "problem_statement": " <img src=\"/assets/img/ahsme_48.svg\" class=\"problem-img\"> A rectangular piece of paper $ 6 $ inches wide is folded as in the diagram so that one corner touches the opposite side. The length in inches of the crease $ L $ in terms of angle $ \\theta $ is",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1972&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -21561,7 +21561,7 @@
         "$6\\sqrt{2}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] ahsme_49 [/svg] Chords $ AB $ and $ CD $ in the circle above intersect at $ E $ and are perpendicular to each other. If segments $ AE $, $ EB $, and $ ED $ have measures $ 2 $, $ 3 $, and $ 6 $ respectively, then the length of the diameter of the circle is",
+    "problem_statement": " <img src=\"/assets/img/ahsme_49.svg\" class=\"problem-img\"> Chords $ AB $ and $ CD $ in the circle above intersect at $ E $ and are perpendicular to each other. If segments $ AE $, $ EB $, and $ ED $ have measures $ 2 $, $ 3 $, and $ 6 $ respectively, then the length of the diameter of the circle is",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1972&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -21632,7 +21632,7 @@
         "$15\\pi$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] ahsme_50 [/svg] Equilateral triangle $ ABP $ (see figure) with side $ AB $ of length $ 2 $ inches is placed inside square $ AXYZ $ with side of length $ 4 $ inches so that $ B $ is on side $ AX $. The triangle is rotated clockwise about $ B $, then $ P $, and so on along the sides of the square until $ P $ returns to its original position. The length of the path in inches traversed by vertex $ P $ is equal to",
+    "problem_statement": " <img src=\"/assets/img/ahsme_50.svg\" class=\"problem-img\"> Equilateral triangle $ ABP $ (see figure) with side $ AB $ of length $ 2 $ inches is placed inside square $ AXYZ $ with side of length $ 4 $ inches so that $ B $ is on side $ AX $. The triangle is rotated clockwise about $ B $, then $ P $, and so on along the sides of the square until $ P $ returns to its original position. The length of the path in inches traversed by vertex $ P $ is equal to",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1972&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -21881,7 +21881,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A circle with a circumscribed and an inscribed square centered at the origin $ O $ of a rectangular coordinate system with positive $ x $ and $ y $ axes $ OX $ and $ OY $ is shown in each figure $ I $ to $ IV $ below. [svg] ahsme_51 [/svg] The inequalities\\[ |x|+|y|\\leq\\sqrt{2(x^2+y^2)}\\leq 2\\mbox{Max}(|x|, |y|) \\]are represented geometrically* by the figure numbered*An inequality of the form $ f(x, y)\\leq g(x, y) $, for all $ x $ and $ y $ is represented geometrically by a figure showing the containment\\[ \\{\\mbox{The set of points }(x, y)\\mbox{ such that }g(x, y)\\leq a\\}\\subset\\\\ \\{\\mbox{The set of points }(x, y)\\mbox{ such that }f(x, y)\\leq a\\} \\]for a typical real number $ a $.",
+    "problem_statement": "A circle with a circumscribed and an inscribed square centered at the origin $ O $ of a rectangular coordinate system with positive $ x $ and $ y $ axes $ OX $ and $ OY $ is shown in each figure $ I $ to $ IV $ below. <img src=\"/assets/img/ahsme_51.svg\" class=\"problem-img\"> The inequalities\\[ |x|+|y|\\leq\\sqrt{2(x^2+y^2)}\\leq 2\\mbox{Max}(|x|, |y|) \\]are represented geometrically* by the figure numbered*An inequality of the form $ f(x, y)\\leq g(x, y) $, for all $ x $ and $ y $ is represented geometrically by a figure showing the containment\\[ \\{\\mbox{The set of points }(x, y)\\mbox{ such that }g(x, y)\\leq a\\}\\subset\\\\ \\{\\mbox{The set of points }(x, y)\\mbox{ such that }f(x, y)\\leq a\\} \\]for a typical real number $ a $.",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1973&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -22405,7 +22405,7 @@
         "$\\textbf{I, II}\\ \\text{and}\\textbf{III}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the unit circle shown in the figure, chords $ PQ $ and $ MN $ are parallel to the unit radius $ OR $ of the circle with center at $ O $. Chords $ MP $, $ PQ $, and $ NR $ are each $ s $ units long and chord $ MN $ is $ d $ units long.  [svg] ahsme_52 [/svg] Of the three equations\\[ \\textbf{I.}\\ d-s=1,\\qquad\\textbf{II.}\\ ds=1,\\qquad\\textbf{III.}\\ d^2-s^2=\\sqrt{5} \\]those which are necessarily true are",
+    "problem_statement": "In the unit circle shown in the figure, chords $ PQ $ and $ MN $ are parallel to the unit radius $ OR $ of the circle with center at $ O $. Chords $ MP $, $ PQ $, and $ NR $ are each $ s $ units long and chord $ MN $ is $ d $ units long.  <img src=\"/assets/img/ahsme_52.svg\" class=\"problem-img\"> Of the three equations\\[ \\textbf{I.}\\ d-s=1,\\qquad\\textbf{II.}\\ ds=1,\\qquad\\textbf{III.}\\ d^2-s^2=\\sqrt{5} \\]those which are necessarily true are",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1973&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -22814,7 +22814,7 @@
         "$4-2\\sqrt{3}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the adjoining figure $ ABCD $ is a square and $ CMN $ is an equilateral triangle. If the area of $ ABCD $ is one square inch, then the area of $ CMN $ in square inches is [svg] ahsme_53 [/svg] ",
+    "problem_statement": "In the adjoining figure $ ABCD $ is a square and $ CMN $ is an equilateral triangle. If the area of $ ABCD $ is one square inch, then the area of $ CMN $ in square inches is <img src=\"/assets/img/ahsme_53.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1974&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -22902,7 +22902,7 @@
         "$\\text{not determinable from the given information}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the adjoining figure $ TP $ and $ T'Q $ are parallel tangents to a circle of radius $ r $, with $ T $ and $ T' $ the points of tangency. $ PT''Q $ is a third tangent with $ T'' $ as point of tangency. If $ TP=4 $ and $ T'Q=9 $ then $ r $ is\n\n [svg] ahsme_54 [/svg] ",
+    "problem_statement": "In the adjoining figure $ TP $ and $ T'Q $ are parallel tangents to a circle of radius $ r $, with $ T $ and $ T' $ the points of tangency. $ PT''Q $ is a third tangent with $ T'' $ as point of tangency. If $ TP=4 $ and $ T'Q=9 $ then $ r $ is\n\n <img src=\"/assets/img/ahsme_54.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1974&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -22950,7 +22950,7 @@
         "$2k$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In parallelogram $ ABCD $ of the accompanying diagram, line $ DP $ is drawn bisecting $ BC $ at $ N $ and meeting $ AB $ (extended) at $ P $. From vertex $ C $, line $ CQ $ is drawn bisecting side $ AD $ at $ M $ and meeting $ AB $ (extended) at $ Q $. Lines $ DP $ and $ CQ $ meet at $ O $. If the area of parallelogram $ ABCD $ is $ k $, then the area of the triangle $ QPO $ is equal to [svg] ahsme_55 [/svg] ",
+    "problem_statement": "In parallelogram $ ABCD $ of the accompanying diagram, line $ DP $ is drawn bisecting $ BC $ at $ N $ and meeting $ AB $ (extended) at $ P $. From vertex $ C $, line $ CQ $ is drawn bisecting side $ AD $ at $ M $ and meeting $ AB $ (extended) at $ Q $. Lines $ DP $ and $ CQ $ meet at $ O $. If the area of parallelogram $ ABCD $ is $ k $, then the area of the triangle $ QPO $ is equal to <img src=\"/assets/img/ahsme_55.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1974&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -23455,7 +23455,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the adjoining figure triangle $ ABC $ is such that $ AB = 4 $ and $ AC = 8 $.  If $ M $ is the midpoint of $ BC $ and $ AM = 3 $, what is the length of $ BC $?$ \\textbf{(A)}\\ 2\\sqrt{26}\\qquad\\textbf{(B)}\\ 2\\sqrt{31}\\qquad\\textbf{(C)}\\ 9\\qquad\\textbf{(D)}\\ 4+2\\sqrt{13}\\qquad $$ \\textbf{(E)}\\ \\text{not enough information given to solve the problem} $  [svg] ahsme_56 [/svg] ",
+    "problem_statement": "In the adjoining figure triangle $ ABC $ is such that $ AB = 4 $ and $ AC = 8 $.  If $ M $ is the midpoint of $ BC $ and $ AM = 3 $, what is the length of $ BC $?$ \\textbf{(A)}\\ 2\\sqrt{26}\\qquad\\textbf{(B)}\\ 2\\sqrt{31}\\qquad\\textbf{(C)}\\ 9\\qquad\\textbf{(D)}\\ 4+2\\sqrt{13}\\qquad $$ \\textbf{(E)}\\ \\text{not enough information given to solve the problem} $  <img src=\"/assets/img/ahsme_56.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1975&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -23514,7 +23514,7 @@
         "$\\frac{(\\sqrt{3}-1)}{2}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the adjoining figure $ AB $ and $ BC $ are adjacent sides of square $ ABCD $; $ M $ is the midpoint of $ AB $; $ N $ is the midpoint of $ BC $; and $ AN $ and $ CM $ intersect at $ O $. The ratio of the area of $ AOCD $ to the area of $ ABCD $ is [svg] ahsme_57 [/svg] ",
+    "problem_statement": "In the adjoining figure $ AB $ and $ BC $ are adjacent sides of square $ ABCD $; $ M $ is the midpoint of $ AB $; $ N $ is the midpoint of $ BC $; and $ AN $ and $ CM $ intersect at $ O $. The ratio of the area of $ AOCD $ to the area of $ ABCD $ is <img src=\"/assets/img/ahsme_57.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1975&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -23631,7 +23631,7 @@
         "$\\text{not enough information to solve the problem}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In triangle $ ABC $ shown in the adjoining figure, $ M $ is the midpoint of side $ BC $, $ AB=12 $ and $ AC=16 $. Points $ E $ and $ F $ are taken on $ AC $ and $ AB $, respectively, and lines $ EF $ and $ AM $ intersect at $ G $. If $ AE=2AF $ then $ \\frac{EG}{GF} $ equals [svg] ahsme_58 [/svg] ",
+    "problem_statement": "In triangle $ ABC $ shown in the adjoining figure, $ M $ is the midpoint of side $ BC $, $ AB=12 $ and $ AC=16 $. Points $ E $ and $ F $ are taken on $ AC $ and $ AB $, respectively, and lines $ EF $ and $ AM $ intersect at $ G $. If $ AE=2AF $ then $ \\frac{EG}{GF} $ equals <img src=\"/assets/img/ahsme_58.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1975&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -24063,7 +24063,7 @@
         "$\\sqrt{22}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] ahsme_59 [/svg] In the adjoining figure, $ AB $ is tangent at $ A $ to the circle with center $ O $; point $ D $ is interior to the circle; and $ DB $ intersects the circle at $ C $. If $ BC=DC=3 $, $ OD=2 $, and $ AB=6 $, then the radius of the circle is",
+    "problem_statement": " <img src=\"/assets/img/ahsme_59.svg\" class=\"problem-img\"> In the adjoining figure, $ AB $ is tangent at $ A $ to the circle with center $ O $; point $ D $ is interior to the circle; and $ DB $ intersects the circle at $ C $. If $ BC=DC=3 $, $ OD=2 $, and $ AB=6 $, then the radius of the circle is",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1976&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -24185,7 +24185,7 @@
         "$\\text{not an integer}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] ahsme_60 [/svg] In the adjoining figure, circle $ \\mathit{K} $ has diameter $ \\mathit{AB} $; cirlce $ \\mathit{L} $ is tangent to circle $ \\mathit{K} $ and to $ \\mathit{AB} $ at the center of circle $ \\mathit{K} $; and circle $ \\mathit{M} $ tangent to circle $ \\mathit{K} $, to circle $ \\mathit{L} $ and $ \\mathit{AB} $. The ratio of the area of circle $ \\mathit{K} $ to the area of circle $ \\mathit{M} $ is",
+    "problem_statement": " <img src=\"/assets/img/ahsme_60.svg\" class=\"problem-img\"> In the adjoining figure, circle $ \\mathit{K} $ has diameter $ \\mathit{AB} $; cirlce $ \\mathit{L} $ is tangent to circle $ \\mathit{K} $ and to $ \\mathit{AB} $ at the center of circle $ \\mathit{K} $; and circle $ \\mathit{M} $ tangent to circle $ \\mathit{K} $, to circle $ \\mathit{L} $ and $ \\mathit{AB} $. The ratio of the area of circle $ \\mathit{K} $ to the area of circle $ \\mathit{M} $ is",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1976&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -24221,7 +24221,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] ahsme_61 [/svg] In the adjoining figure, every point of circle $ \\mathit{O'} $ is exterior to circle $ \\mathit{O} $. Let $ \\mathit{P} $ and $ \\mathit{Q} $ be the points of intersection of an internal common tangent with the two external common tangents. Then the length of $ PQ $ is$ \\textbf{(A) }\\text{the average of the lengths of the internal and external common tangents}\\qquad $$ \\textbf{(B) }\\text{equal to the length of an external common tangent if and only if circles }\\mathit{O}\\text{ and }\\mathit{O'}\\text{ have equal radii}\\qquad $$ \\textbf{(C) }\\text{always equal to the length of an external common tangent}\\qquad $$ \\textbf{(D) }\\text{greater than the length of an external common tangent}\\qquad $$ \\textbf{(E) }\\text{the geometric mean of the lengths of the internal and external common tangents} $",
+    "problem_statement": " <img src=\"/assets/img/ahsme_61.svg\" class=\"problem-img\"> In the adjoining figure, every point of circle $ \\mathit{O'} $ is exterior to circle $ \\mathit{O} $. Let $ \\mathit{P} $ and $ \\mathit{Q} $ be the points of intersection of an internal common tangent with the two external common tangents. Then the length of $ PQ $ is$ \\textbf{(A) }\\text{the average of the lengths of the internal and external common tangents}\\qquad $$ \\textbf{(B) }\\text{equal to the length of an external common tangent if and only if circles }\\mathit{O}\\text{ and }\\mathit{O'}\\text{ have equal radii}\\qquad $$ \\textbf{(C) }\\text{always equal to the length of an external common tangent}\\qquad $$ \\textbf{(D) }\\text{greater than the length of an external common tangent}\\qquad $$ \\textbf{(E) }\\text{the geometric mean of the lengths of the internal and external common tangents} $",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1976&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -24407,7 +24407,7 @@
         "$\\text{none of these}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] ahsme_62 [/svg] In triangle $ ABC $, $ AB=AC $ and $ \\measuredangle A=80^\\circ $. If points $ D $, $ E $, and $ F $ lie on sides $ BC $, $ AC $ and $ AB $, respectively, and $ CE=CD $ and $ BF=BD $, then $ \\measuredangle EDF $ equals",
+    "problem_statement": " <img src=\"/assets/img/ahsme_62.svg\" class=\"problem-img\"> In triangle $ ABC $, $ AB=AC $ and $ \\measuredangle A=80^\\circ $. If points $ D $, $ E $, and $ F $ lie on sides $ BC $, $ AC $ and $ AB $, respectively, and $ CE=CD $ and $ BF=BD $, then $ \\measuredangle EDF $ equals",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1977&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -24512,7 +24512,7 @@
         "$30^\\circ$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] ahsme_63 [/svg] In the adjoining figure $ \\measuredangle E=40^\\circ $ and arc $ AB $, arc $ BC $, and arc $ CD $ all have equal length. Find the measure of $ \\measuredangle ACD $.",
+    "problem_statement": " <img src=\"/assets/img/ahsme_63.svg\" class=\"problem-img\"> In the adjoining figure $ \\measuredangle E=40^\\circ $ and arc $ AB $, arc $ BC $, and arc $ CD $ all have equal length. Find the measure of $ \\measuredangle ACD $.",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1977&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -24640,7 +24640,7 @@
         "$45$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] ahsme_64 [/svg] Each of the three circles in the adjoining figure is externally tangent to the other two, and each side of the triangle is tangent to two of the circles. If each circle has radius three, then the perimeter of the triangle is",
+    "problem_statement": " <img src=\"/assets/img/ahsme_64.svg\" class=\"problem-img\"> Each of the three circles in the adjoining figure is externally tangent to the other two, and each side of the triangle is tangent to two of the circles. If each circle has radius three, then the perimeter of the triangle is",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1977&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -24933,7 +24933,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] ahsme_65 [/svg] If $ a,b, $ and $ d $ are the lengths of a side, a shortest diagonal and a longest diagonal, respectively, of a regular nonagon (see adjoining figure), then$ \\textbf{(A) }d=a+b\\qquad\\textbf{(B) }d^2=a^2+b^2\\qquad\\textbf{(C) }d^2=a^2+ab+b^2\\qquad $$ \\textbf{(D) }b=\\frac{a+d}{2}\\qquad\\textbf{(E) }b^2=ad $",
+    "problem_statement": " <img src=\"/assets/img/ahsme_65.svg\" class=\"problem-img\"> If $ a,b, $ and $ d $ are the lengths of a side, a shortest diagonal and a longest diagonal, respectively, of a regular nonagon (see adjoining figure), then$ \\textbf{(A) }d=a+b\\qquad\\textbf{(B) }d^2=a^2+b^2\\qquad\\textbf{(C) }d^2=a^2+ab+b^2\\qquad $$ \\textbf{(D) }b=\\frac{a+d}{2}\\qquad\\textbf{(E) }b^2=ad $",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1977&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -25417,7 +25417,7 @@
         "$4$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The following four statements, and only these are found on a card: [svg] ahsme_66 [/svg] (Assume each statement is either true or false.) Among them the number of false statements is exactly",
+    "problem_statement": "The following four statements, and only these are found on a card: <img src=\"/assets/img/ahsme_66.svg\" class=\"problem-img\"> (Assume each statement is either true or false.) Among them the number of false statements is exactly",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1978&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -25436,7 +25436,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] ahsme_67 [/svg] Vertex $ E $ of equilateral triangle $ ABE $ is in the interior of square $ ABCD $, and $ F $ is the point of intersection of diagonal $ BD $ and line segment $ AE $. If length $ AB $ is $ \\sqrt{1+\\sqrt{3}} $ then the area of $ \\triangle ABF $ is$ \\textbf{(A) }1\\qquad\\textbf{(B) }\\frac{\\sqrt{2}}{2}\\qquad\\textbf{(C) }\\frac{\\sqrt{3}}{2} $$ \\qquad\\textbf{(D) }4-2\\sqrt{3}\\qquad\\textbf{(E) }\\frac{1}{2}+\\frac{\\sqrt{3}}{4} $",
+    "problem_statement": " <img src=\"/assets/img/ahsme_67.svg\" class=\"problem-img\"> Vertex $ E $ of equilateral triangle $ ABE $ is in the interior of square $ ABCD $, and $ F $ is the point of intersection of diagonal $ BD $ and line segment $ AE $. If length $ AB $ is $ \\sqrt{1+\\sqrt{3}} $ then the area of $ \\triangle ABF $ is$ \\textbf{(A) }1\\qquad\\textbf{(B) }\\frac{\\sqrt{2}}{2}\\qquad\\textbf{(C) }\\frac{\\sqrt{3}}{2} $$ \\qquad\\textbf{(D) }4-2\\sqrt{3}\\qquad\\textbf{(E) }\\frac{1}{2}+\\frac{\\sqrt{3}}{4} $",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1978&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -25501,7 +25501,7 @@
         "$3\\sqrt{3}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] ahsme_68 [/svg] In $ \\triangle ABC $, $ AB = 10~ AC = 8 $ and $ BC = 6 $. Circle $ P $ is the circle with smallest radius which passes through $ C $ and is tangent to $ AB $. Let $ Q $ and $ R $ be the points of intersection, distinct from $ C $ , of circle $ P $ with sides $ AC $ and $ BC $, respectively. The length of segment $ QR $ is",
+    "problem_statement": " <img src=\"/assets/img/ahsme_68.svg\" class=\"problem-img\"> In $ \\triangle ABC $, $ AB = 10~ AC = 8 $ and $ BC = 6 $. Circle $ P $ is the circle with smallest radius which passes through $ C $ and is tangent to $ AB $. Let $ Q $ and $ R $ be the points of intersection, distinct from $ C $ , of circle $ P $ with sides $ AC $ and $ BC $, respectively. The length of segment $ QR $ is",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1978&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -25549,7 +25549,7 @@
         "$120^\\circ$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] ahsme_69 [/svg] If $ \\triangle A_1A_2A_3 $ is equilateral and $ A_{n+3} $ is the midpoint of line segment $ A_nA_{n+1} $ for all positive integers $ n $, then the measure of $ \\measuredangle A_{44}A_{45}A_{43} $ equals",
+    "problem_statement": " <img src=\"/assets/img/ahsme_69.svg\" class=\"problem-img\"> If $ \\triangle A_1A_2A_3 $ is equilateral and $ A_{n+3} $ is the midpoint of line segment $ A_nA_{n+1} $ for all positive integers $ n $, then the measure of $ \\measuredangle A_{44}A_{45}A_{43} $ equals",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1978&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -25620,7 +25620,7 @@
         "$24$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] ahsme_70 [/svg] If rectangle $ ABCD $ has area $ 72 $ square meters and $ E $ and $ G $ are the midpoints of sides $ AD $ and $ CD $, respectively, then the area of rectangle $ DEFG $ in square meters is",
+    "problem_statement": " <img src=\"/assets/img/ahsme_70.svg\" class=\"problem-img\"> If rectangle $ ABCD $ has area $ 72 $ square meters and $ E $ and $ G $ are the midpoints of sides $ AD $ and $ CD $, respectively, then the area of rectangle $ DEFG $ in square meters is",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1979&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -25668,7 +25668,7 @@
         "$25$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] ahsme_71 [/svg] In the adjoining figure, $ ABCD $ is a square, $ ABE $ is an equilateral triangle and point $ E $ is outside square $ ABCD $. What is the measure of $ \\measuredangle AED $ in degrees?",
+    "problem_statement": " <img src=\"/assets/img/ahsme_71.svg\" class=\"problem-img\"> In the adjoining figure, $ ABCD $ is a square, $ ABE $ is an equilateral triangle and point $ E $ is outside square $ ABCD $. What is the measure of $ \\measuredangle AED $ in degrees?",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1979&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -25871,7 +25871,7 @@
         "$30^\\circ$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] ahsme_72 [/svg] In the adjoining figure, $ CD $ is the diameter of a semi-circle with center $ O $. Point $ A $ lies on the extension of $ DC $ past $ C $; point $ E $ lies on the semi-circle, and $ B $ is the point of intersection (distinct from $ E $ ) of line segment $ AE $ with the semi-circle. If length $ AB $ equals length $ OD $, and the measure of $ \\measuredangle EOD $ is $ 45^\\circ $, then themeasure of $ \\measuredangle BAO $ is",
+    "problem_statement": " <img src=\"/assets/img/ahsme_72.svg\" class=\"problem-img\"> In the adjoining figure, $ CD $ is the diameter of a semi-circle with center $ O $. Point $ A $ lies on the extension of $ DC $ past $ C $; point $ E $ lies on the semi-circle, and $ B $ is the point of intersection (distinct from $ E $ ) of line segment $ AE $ with the semi-circle. If length $ AB $ equals length $ OD $, and the measure of $ \\measuredangle EOD $ is $ 45^\\circ $, then themeasure of $ \\measuredangle BAO $ is",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1979&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -25976,7 +25976,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] ahsme_73 [/svg] Points $ A , B, C $, and $ D $ are distinct and lie, in the given order, on a straight line. Line segments $ AB, AC $, and $ AD $ have lengths $ x, y $, and $ z $ , respectively. If line segments $ AB $ and $ CD $ may be rotated about points $ B $ and $ C $, respectively, so that points $ A $ and $ D $ coincide, to form a triangle with positive area, then which of the following three inequalities must be satisfied?$ \\textbf{I. }x<\\frac{z}{2}\\qquad\\textbf{II. }y<x+\\frac{z}{2}\\qquad\\textbf{III. }y<\\frac{z}{2} $$ \\textbf{(A) }\\textbf{I. }\\text{only}\\qquad\\textbf{(B) }\\textbf{II. }\\text{only}\\qquad $$ \\textbf{(C) }\\textbf{I. }\\text{and }\\textbf{II. }\\text{only}\\qquad\\textbf{(D) }\\textbf{II. }\\text{and }\\textbf{III. }\\text{only}\\qquad\\textbf{(E) }\\textbf{I. },\\textbf{II. },\\text{and }\\textbf{III. } $",
+    "problem_statement": " <img src=\"/assets/img/ahsme_73.svg\" class=\"problem-img\"> Points $ A , B, C $, and $ D $ are distinct and lie, in the given order, on a straight line. Line segments $ AB, AC $, and $ AD $ have lengths $ x, y $, and $ z $ , respectively. If line segments $ AB $ and $ CD $ may be rotated about points $ B $ and $ C $, respectively, so that points $ A $ and $ D $ coincide, to form a triangle with positive area, then which of the following three inequalities must be satisfied?$ \\textbf{I. }x<\\frac{z}{2}\\qquad\\textbf{II. }y<x+\\frac{z}{2}\\qquad\\textbf{III. }y<\\frac{z}{2} $$ \\textbf{(A) }\\textbf{I. }\\text{only}\\qquad\\textbf{(B) }\\textbf{II. }\\text{only}\\qquad $$ \\textbf{(C) }\\textbf{I. }\\text{and }\\textbf{II. }\\text{only}\\qquad\\textbf{(D) }\\textbf{II. }\\text{and }\\textbf{III. }\\text{only}\\qquad\\textbf{(E) }\\textbf{I. },\\textbf{II. },\\text{and }\\textbf{III. } $",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1979&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -26110,7 +26110,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The edges of a regular tetrahedron with vertices $ A ,~ B,~ C $, and $ D $ each have length one. Find the least possible distance between a pair of points $ P $ and $ Q $, where $ P $ is on edge $ AB $ and $ Q $ is on edge $ CD $. [svg] ahsme_74 [/svg] ",
+    "problem_statement": "The edges of a regular tetrahedron with vertices $ A ,~ B,~ C $, and $ D $ each have length one. Find the least possible distance between a pair of points $ P $ and $ Q $, where $ P $ is on edge $ AB $ and $ Q $ is on edge $ CD $. <img src=\"/assets/img/ahsme_74.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1979&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -26221,7 +26221,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] ahsme_75 [/svg] Circles with centers $ A ,~ B, $ and $ C $ each have radius $ r $, where $ 1 < r < 2 $. The distance between each pair of centers is $ 2 $. If $ B' $ is the point of intersection of circle $ A $ and circle $ C $ which is outside circle $ B $, and if $ C' $ is the point of intersection of circle $ A $ and circle $ B $ which is outside circle $ C $, then length $ B'C' $ equals$ \\textbf{(A) }3r-2\\qquad\\textbf{(B) }r^2\\qquad\\textbf{(C) }r+\\sqrt{3(r-1)}\\qquad $$ \\textbf{(D) }1+\\sqrt{3(r^2-1)}\\qquad\\textbf{(E) }\\text{none of these} $",
+    "problem_statement": " <img src=\"/assets/img/ahsme_75.svg\" class=\"problem-img\"> Circles with centers $ A ,~ B, $ and $ C $ each have radius $ r $, where $ 1 < r < 2 $. The distance between each pair of centers is $ 2 $. If $ B' $ is the point of intersection of circle $ A $ and circle $ C $ which is outside circle $ B $, and if $ C' $ is the point of intersection of circle $ A $ and circle $ B $ which is outside circle $ C $, then length $ B'C' $ equals$ \\textbf{(A) }3r-2\\qquad\\textbf{(B) }r^2\\qquad\\textbf{(C) }r+\\sqrt{3(r-1)}\\qquad $$ \\textbf{(D) }1+\\sqrt{3(r^2-1)}\\qquad\\textbf{(E) }\\text{none of these} $",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1979&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -26269,7 +26269,7 @@
         "$\\frac{1}{8}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] ahsme_76 [/svg] In $ \\triangle ABC $, $ E $ is the midpoint of side $ BC $ and $ D $ is on side $ AC $. If the length of $ AC $ is $ 1 $ and $ \\measuedangle BAC = 60^\\circ $, $ \\measuredangle ABC = 100^\\circ $, $ \\measuredangle ACB = 20^\\circ $ and $ \\measuredangle DEC = 80^\\circ $, then the area of $ \\triangle ABC $ plus twice the area of $ \\triangle CDE $ equals",
+    "problem_statement": " <img src=\"/assets/img/ahsme_76.svg\" class=\"problem-img\"> In $ \\triangle ABC $, $ E $ is the midpoint of side $ BC $ and $ D $ is on side $ AC $. If the length of $ AC $ is $ 1 $ and $ \\measuedangle BAC = 60^\\circ $, $ \\measuredangle ABC = 100^\\circ $, $ \\measuredangle ACB = 20^\\circ $ and $ \\measuredangle DEC = 80^\\circ $, then the area of $ \\triangle ABC $ plus twice the area of $ \\triangle CDE $ equals",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1979&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -26357,7 +26357,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the adjoining figure, CDE is an equilateral triangle and ABCD and DEFG are squares. The measure of $ \\angle GDA $ is [svg] ahsme_77 [/svg] ",
+    "problem_statement": "In the adjoining figure, CDE is an equilateral triangle and ABCD and DEFG are squares. The measure of $ \\angle GDA $ is <img src=\"/assets/img/ahsme_77.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1980&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -26382,7 +26382,7 @@
         "$\\frac{2}3$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "If $ AB $ and $ CD $ are perpendicular diameters of circle $ Q $, $ P $ in $ \\overline{AQ} $, and $ \\measuredangle QPC = 60^\\circ $, then the length of $ PQ $ divided by the length of $ AQ $ is  [svg] ahsme_78 [/svg] ",
+    "problem_statement": "If $ AB $ and $ CD $ are perpendicular diameters of circle $ Q $, $ P $ in $ \\overline{AQ} $, and $ \\measuredangle QPC = 60^\\circ $, then the length of $ PQ $ divided by the length of $ AQ $ is  <img src=\"/assets/img/ahsme_78.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1980&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -26430,7 +26430,7 @@
         "$48$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Sides $ AB,BC,CD $ and $ DA $ of convex polygon $ ABCD $ have lengths 3,4,12, and 13, respectively, and $ \\measuredangle CBA $ is a right angle. The area of the quadrilateral is [svg] ahsme_79 [/svg] ",
+    "problem_statement": "Sides $ AB,BC,CD $ and $ DA $ of convex polygon $ ABCD $ have lengths 3,4,12, and 13, respectively, and $ \\measuredangle CBA $ is a right angle. The area of the quadrilateral is <img src=\"/assets/img/ahsme_79.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1980&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -26748,7 +26748,7 @@
         "$\\text{none of these}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In triangle $ ABC $, $ \\measuredangle CBA=72^\\circ $, $ E $ is the midpoint of side $ AC $, and $ D $ is a point on side $ BC $ such that $ 2BD=DC $; $ AD $ and $ BE $ intersect at $ F $. The ratio of the area of triangle $ BDF $ to the area of quadrilateral $ FDCE $ is [svg] ahsme_80 [/svg] ",
+    "problem_statement": "In triangle $ ABC $, $ \\measuredangle CBA=72^\\circ $, $ E $ is the midpoint of side $ AC $, and $ D $ is a point on side $ BC $ such that $ 2BD=DC $; $ AD $ and $ BE $ intersect at $ F $. The ratio of the area of triangle $ BDF $ to the area of quadrilateral $ FDCE $ is <img src=\"/assets/img/ahsme_80.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1980&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -27376,7 +27376,7 @@
         "$\\frac{5}{2}-\\frac{1}{2}\\sin\\left(\\frac{1}{2}\\theta\\right)$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In $ \\triangle ABC $, $ M $ is the midpoint of side $ BC $, $ AN $ bisects $ \\angle BAC $, and $ BN\\perp AN $. If sides $ AB $ and $ AC $ have lengths 14 and 19, respectively, then find $ MN $. [svg] ahsme_81 [/svg] ",
+    "problem_statement": "In $ \\triangle ABC $, $ M $ is the midpoint of side $ BC $, $ AN $ bisects $ \\angle BAC $, and $ BN\\perp AN $. If sides $ AB $ and $ AC $ have lengths 14 and 19, respectively, then find $ MN $. <img src=\"/assets/img/ahsme_81.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1981&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -27470,7 +27470,7 @@
         "$9$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] ahsme_82 [/svg] \n\nEquilateral $ \\triangle ABC $ is inscribed in a circle. A second circle is tangent internally to the circumcircle at $ T $ and tangent to sides $ AB $ and $ AC $ at points $ P $ and $ Q $. If side $ BC $ has length $ 12 $, then segment $ PQ $ has length",
+    "problem_statement": " <img src=\"/assets/img/ahsme_82.svg\" class=\"problem-img\"> \n\nEquilateral $ \\triangle ABC $ is inscribed in a circle. A second circle is tangent internally to the circumcircle at $ T $ and tangent to sides $ AB $ and $ AC $ at points $ P $ and $ Q $. If side $ BC $ has length $ 12 $, then segment $ PQ $ has length",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1981&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -27518,7 +27518,7 @@
         "$\\text{not uniquely determined by the given information}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": " [svg] ahsme_83 [/svg] \n\nIn triangle $ ABC $ in the adjoining figure, $ AD $ and $ AE $ trisect $ \\angle BAC $. The lengths of $ BD $, $ DE $ and $ EC $ are $ 2 $, $ 3 $, and $ 6 $, respectively. The length of the shortest side of $ \\triangle ABC $ is",
+    "problem_statement": " <img src=\"/assets/img/ahsme_83.svg\" class=\"problem-img\"> \n\nIn triangle $ ABC $ in the adjoining figure, $ AD $ and $ AE $ trisect $ \\angle BAC $. The lengths of $ BD $, $ DE $ and $ EC $ are $ 2 $, $ 3 $, and $ 6 $, respectively. The length of the shortest side of $ \\triangle ABC $ is",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1981&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -27560,7 +27560,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the adjoining figure triangle $ ABC $ is inscribed in a circle. Point $ D $ lies on $ \\stackrel{\\frown}{AC} $ with $ \\stackrel{\\frown}{DC}= 30^\\circ $, and point $ G $ lies on $ \\stackrel{\\frown}{BA} $ with $ \\stackrel{\\frown}{BG}\\, >\\,\\stackrel{\\frown}{GA} $. Side $ AB $ and side $ AC $ each have length equal to the length of chord $ DG $, and $ \\angle CAB = 30^\\circ $. Chord $ DG $ intersects sides $ AC $ and $ AB $ at $ E $ and $ F $, respectively. The ratio of the area of $ \\triangle AFE $ to the area of $ \\triangle ABC $ is\n [svg] ahsme_84 [/svg] $ \\textbf{(A)}\\ \\frac{2-\\sqrt{3}}{3}\\qquad\\textbf{(B)}\\ \\frac{2\\sqrt{3}-3}{3}\\qquad\\textbf{(C)}\\ 7\\sqrt{3}-12\\qquad\\textbf{(D)}\\ 3\\sqrt{3}-5\\qquad $\n$ \\textbf{(E)}\\ \\frac{9-5\\sqrt{3}}{3} $",
+    "problem_statement": "In the adjoining figure triangle $ ABC $ is inscribed in a circle. Point $ D $ lies on $ \\stackrel{\\frown}{AC} $ with $ \\stackrel{\\frown}{DC}= 30^\\circ $, and point $ G $ lies on $ \\stackrel{\\frown}{BA} $ with $ \\stackrel{\\frown}{BG}\\, >\\,\\stackrel{\\frown}{GA} $. Side $ AB $ and side $ AC $ each have length equal to the length of chord $ DG $, and $ \\angle CAB = 30^\\circ $. Chord $ DG $ intersects sides $ AC $ and $ AB $ at $ E $ and $ F $, respectively. The ratio of the area of $ \\triangle AFE $ to the area of $ \\triangle ABC $ is\n <img src=\"/assets/img/ahsme_84.svg\" class=\"problem-img\"> $ \\textbf{(A)}\\ \\frac{2-\\sqrt{3}}{3}\\qquad\\textbf{(B)}\\ \\frac{2\\sqrt{3}-3}{3}\\qquad\\textbf{(C)}\\ 7\\sqrt{3}-12\\qquad\\textbf{(D)}\\ 3\\sqrt{3}-5\\qquad $\n$ \\textbf{(E)}\\ \\frac{9-5\\sqrt{3}}{3} $",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1981&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -27849,7 +27849,7 @@
         "$42$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the adjoining diagram, $ BO $ bisects $ \\angle CBA $, $ CO $ bisects $ \\angle ACB $, and $ MN $ is parallel to $ BC $. If $ AB=12 $, $ BC=24 $, and $ AC=18 $, then the perimeter of $ \\triangle AMN $ is [svg] ahsme_85 [/svg] ",
+    "problem_statement": "In the adjoining diagram, $ BO $ bisects $ \\angle CBA $, $ CO $ bisects $ \\angle ACB $, and $ MN $ is parallel to $ BC $. If $ AB=12 $, $ BC=24 $, and $ AC=18 $, then the perimeter of $ \\triangle AMN $ is <img src=\"/assets/img/ahsme_85.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1982&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -27943,7 +27943,7 @@
         "$\\text{none of these}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the adjoining figure, points $ B $ and $ C $ lie on line segment $ AD $, and $ AB $, $ BC $, and $ CD $ are diameters of circle $ O $, $ N $, and $ P $, respectively. Circles $ O $, $ N $, and $ P $ all have radius $ 15 $ and the line $ AG $ is tangent to circle $ P $ at $ G $. If $ AG $ intersects circle $ N $ at points $ E $ and $ F $, then chord $ EF $ has length [svg] ahsme_86 [/svg] ",
+    "problem_statement": "In the adjoining figure, points $ B $ and $ C $ lie on line segment $ AD $, and $ AB $, $ BC $, and $ CD $ are diameters of circle $ O $, $ N $, and $ P $, respectively. Circles $ O $, $ N $, and $ P $ all have radius $ 15 $ and the line $ AG $ is tangent to circle $ P $ at $ G $. If $ AG $ intersects circle $ N $ at points $ E $ and $ F $, then chord $ EF $ has length <img src=\"/assets/img/ahsme_86.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1982&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -28037,7 +28037,7 @@
         "$\\frac{\\sqrt{6}-\\sqrt{2}}{4}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the adjoining figure of a rectangular solid, $ \\angle DHG=45^\\circ $ and $ \\angle FHB=60^\\circ $. Find the cosine of $ \\angle BHD $. [svg] ahsme_87 [/svg] ",
+    "problem_statement": "In the adjoining figure of a rectangular solid, $ \\angle DHG=45^\\circ $ and $ \\angle FHB=60^\\circ $. Find the cosine of $ \\angle BHD $. <img src=\"/assets/img/ahsme_87.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1982&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -28108,7 +28108,7 @@
         "$\\frac{1}{2}s\\sqrt6$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the adjoining figure, the triangle $ ABC $ is a right triangle with $ \\angle BCA=90^\\circ $. Median $ CM $ is perpendicular to median $ BN $, and side $ BC=s $. The length of $ BN $ is [svg] ahsme_88 [/svg] ",
+    "problem_statement": "In the adjoining figure, the triangle $ ABC $ is a right triangle with $ \\angle BCA=90^\\circ $. Median $ CM $ is perpendicular to median $ BN $, and side $ BC=s $. The length of $ BN $ is <img src=\"/assets/img/ahsme_88.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1982&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -28179,7 +28179,7 @@
         "$13$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the adjoining figure, the circle meets the sides of an equilateral triangle at six points. If $ AG=2 $, $ GF=13 $, $ FC=1 $, and $ HJ=7 $, then $ DE $ equals  [svg] ahsme_89 [/svg] ",
+    "problem_statement": "In the adjoining figure, the circle meets the sides of an equilateral triangle at six points. If $ AG=2 $, $ GF=13 $, $ FC=1 $, and $ HJ=7 $, then $ DE $ equals  <img src=\"/assets/img/ahsme_89.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1982&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -28204,7 +28204,7 @@
         "$\\frac{3}{4}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The adjacent map is part of a city: the small rectangles are rocks, and the paths in between are streets. Each morning, a student walks from intersection A to intersection B, always walking along streets shown, and always going east or south. For variety, at each intersection where he has a choice, he chooses with probability $ \\frac{1}{2} $ whether to go east or south. Find the probability that through any given morning, he goes through $ C $.  [svg] ahsme_90 [/svg] ",
+    "problem_statement": "The adjacent map is part of a city: the small rectangles are rocks, and the paths in between are streets. Each morning, a student walks from intersection A to intersection B, always walking along streets shown, and always going east or south. For variety, at each intersection where he has a choice, he chooses with probability $ \\frac{1}{2} $ whether to go east or south. Find the probability that through any given morning, he goes through $ C $.  <img src=\"/assets/img/ahsme_90.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1982&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -28850,7 +28850,7 @@
         "$14$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the adjoining figure the five circles are tangent to one another consecutively and to the lines $ L_1 $ and $ L_2 $ ($ L_1 $ is the line that is above the circles and $ L_2 $ is the line that goes under the circles). If the radius of the largest circle is 18 and that of the smallest one is 8, then the radius of the middle circle is [svg] ahsme_91 [/svg] ",
+    "problem_statement": "In the adjoining figure the five circles are tangent to one another consecutively and to the lines $ L_1 $ and $ L_2 $ ($ L_1 $ is the line that is above the circles and $ L_2 $ is the line that goes under the circles). If the radius of the largest circle is 18 and that of the smallest one is 8, then the radius of the middle circle is <img src=\"/assets/img/ahsme_91.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1983&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -28967,7 +28967,7 @@
         "$\\text{not uniquely determined}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Triangle $ \\triangle ABC $ in the figure has area $ 10 $.  Points $ D $, $ E $ and $ F $, all distinct from $ A $, $ B $ and $ C $, are on sides $ AB $, $ BC $ and $ CA $ respectively, and $ AD = 2 $, $ DB = 3 $.  If triangle $ \\triangle ABE $ and quadrilateral $ DBEF $ have equal areas, then that area is [svg] ahsme_92 [/svg] ",
+    "problem_statement": "Triangle $ \\triangle ABC $ in the figure has area $ 10 $.  Points $ D $, $ E $ and $ F $, all distinct from $ A $, $ B $ and $ C $, are on sides $ AB $, $ BC $ and $ CA $ respectively, and $ AD = 2 $, $ DB = 3 $.  If triangle $ \\triangle ABE $ and quadrilateral $ DBEF $ have equal areas, then that area is <img src=\"/assets/img/ahsme_92.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1983&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -29015,7 +29015,7 @@
         "$30^{\\circ}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Distinct points $ A $ and $ B $ are on a semicircle with diameter $ MN $ and center $ C $.  The point $ P $ is on $ CN $ and $ \\angle CAP =\\angle CBP = 10^{\\circ} $.  If $ \\stackrel{\\frown}{MA}= 40^{\\circ} $, then $ \\stackrel{\\frown}{BN} $ equals [svg] ahsme_93 [/svg] ",
+    "problem_statement": "Distinct points $ A $ and $ B $ are on a semicircle with diameter $ MN $ and center $ C $.  The point $ P $ is on $ CN $ and $ \\angle CAP =\\angle CBP = 10^{\\circ} $.  If $ \\stackrel{\\frown}{MA}= 40^{\\circ} $, then $ \\stackrel{\\frown}{BN} $ equals <img src=\"/assets/img/ahsme_93.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1983&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -29091,7 +29091,7 @@
         "$\\; 9$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A rectangle intersects a circle as shown: $ AB=4 $, $ BC=5 $, and $ DE=3 $. Then $ EF $ equals: [svg] ahsme_94 [/svg] ",
+    "problem_statement": "A rectangle intersects a circle as shown: $ AB=4 $, $ BC=5 $, and $ DE=3 $. Then $ EF $ equals: <img src=\"/assets/img/ahsme_94.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1984&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -29587,7 +29587,7 @@
         "$\\frac{5}3\\pi+2$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In an arcade game, the \"monster\" is the shaded sector of a circle of radius $ 1 $ cm, as shown in the figure.  The missing piece (the mouth) has central angle $ 60^{\\circ} $.  What is the perimeter of the monster in cm? [svg] ahsme_95 [/svg] ",
+    "problem_statement": "In an arcade game, the \"monster\" is the shaded sector of a circle of radius $ 1 $ cm, as shown in the figure.  The missing piece (the mouth) has central angle $ 60^{\\circ} $.  What is the perimeter of the monster in cm? <img src=\"/assets/img/ahsme_95.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1985&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -29612,7 +29612,7 @@
         "$\\frac{24}{5}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In right $ \\triangle ABC $ with legs $ 5 $ and $ 12 $, arcs of circles are drawn, one with center $ A $ and radius $ 12 $, the other with center $ B $ and radius $ 5 $.  They intersect the hypotenuse at $ M $ and $ N $.  Then, $ MN $ has length: [svg] ahsme_96 [/svg] ",
+    "problem_statement": "In right $ \\triangle ABC $ with legs $ 5 $ and $ 12 $, arcs of circles are drawn, one with center $ A $ and radius $ 12 $, the other with center $ B $ and radius $ 5 $.  They intersect the hypotenuse at $ M $ and $ N $.  Then, $ MN $ has length: <img src=\"/assets/img/ahsme_96.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1985&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -29746,7 +29746,7 @@
         "$\\text{ fifth}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The odd positive integers $ 1,3,5,7,\\cdots, $ are arranged into in five columns continuing with the pattern shown on the right.  Counting from the left, the column in which $ 1985 $ appears in is the [svg] ahsme_97 [/svg] ",
+    "problem_statement": "The odd positive integers $ 1,3,5,7,\\cdots, $ are arranged into in five columns continuing with the pattern shown on the right.  Counting from the left, the column in which $ 1985 $ appears in is the <img src=\"/assets/img/ahsme_97.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1985&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -29834,7 +29834,7 @@
         "$6$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Pegs are put in a board $ 1 $ unit apart both horizontally and vertically.  A reubber band is stretched over $ 4 $ pegs as shown in the figure, forming a quadrilateral.  Its area in square units is [svg] ahsme_98 [/svg] ",
+    "problem_statement": "Pegs are put in a board $ 1 $ unit apart both horizontally and vertically.  A reubber band is stretched over $ 4 $ pegs as shown in the figure, forming a quadrilateral.  Its area in square units is <img src=\"/assets/img/ahsme_98.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1985&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -29922,7 +29922,7 @@
         "$4.5$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Diagonal $ DB $ of rectangle $ ABCD $ is divided into $ 3 $ segments of length $ 1 $ by parallel lines $ L $ and $ L' $ that pass through $ A $ and $ C $ and are perpendicular to $ DB $.  The area of $ ABCD $, rounded to the nearest tenth, is [svg] ahsme_99 [/svg] ",
+    "problem_statement": "Diagonal $ DB $ of rectangle $ ABCD $ is divided into $ 3 $ segments of length $ 1 $ by parallel lines $ L $ and $ L' $ that pass through $ A $ and $ C $ and are perpendicular to $ DB $.  The area of $ ABCD $, rounded to the nearest tenth, is <img src=\"/assets/img/ahsme_99.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1985&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -30033,7 +30033,7 @@
         "$\\text{none of the above}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In a circle with center $ O $, $ AD $ is a diameter, $ ABC $ is a chord, $ BO = 5 $, and $ \\angle ABO =\\stackrel{\\frown}{CD}= 60^{\\circ} $.  Then the length of $ BC $ is: [svg] ahsme_100 [/svg] ",
+    "problem_statement": "In a circle with center $ O $, $ AD $ is a diameter, $ ABC $ is a chord, $ BO = 5 $, and $ \\angle ABO =\\stackrel{\\frown}{CD}= 60^{\\circ} $.  Then the length of $ BC $ is: <img src=\"/assets/img/ahsme_100.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1985&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -30167,7 +30167,7 @@
         "$\\text{not uniquely determined}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In $ \\triangle ABC $, we have $ \\angle C = 3\\angle A $, $ a = 27 $, and $ c = 48 $.  What is $ b $? [svg] ahsme_101 [/svg] ",
+    "problem_statement": "In $ \\triangle ABC $, we have $ \\angle C = 3\\angle A $, $ a = 27 $, and $ c = 48 $.  What is $ b $? <img src=\"/assets/img/ahsme_101.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1985&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -30468,7 +30468,7 @@
         "$8$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In $ \\triangle ABC $, $ AB = 13 $, $ BC = 14 $ and $ CA = 15 $.  Also, $ M $ is the midpoint of side $ AB $ and $ H $ is the foot of the altitude from $ A $ to $ BC $.  The length of $ HM $ is [svg] ahsme_102 [/svg] ",
+    "problem_statement": "In $ \\triangle ABC $, $ AB = 13 $, $ BC = 14 $ and $ CA = 15 $.  Also, $ M $ is the midpoint of side $ AB $ and $ H $ is the foot of the altitude from $ A $ to $ BC $.  The length of $ HM $ is <img src=\"/assets/img/ahsme_102.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1986&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -30579,7 +30579,7 @@
         "$11$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In $ \\triangle ABC $, $ AB = 8 $, $ BC = 7 $, $ CA = 6 $ and side $ BC $ is extended, as shown in the figure, to a point $ P $ so that $ \\triangle PAB $ is similar to $ \\triangle PCA $.  The length of $ PC $ is [svg] ahsme_103 [/svg] ",
+    "problem_statement": "In $ \\triangle ABC $, $ AB = 8 $, $ BC = 7 $, $ CA = 6 $ and side $ BC $ is extended, as shown in the figure, to a point $ P $ so that $ \\triangle PAB $ is similar to $ \\triangle PCA $.  The length of $ PC $ is <img src=\"/assets/img/ahsme_103.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1986&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -30696,7 +30696,7 @@
         "$\\tan\\frac{\\theta}{2}=\\theta$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the configuration below, $ \\theta $ is measured in radians, $ C $ is the center of the circle, $ BCD $ and $ ACE $ are line segments and $ AB $ is tangent to the circle at $ A $. [svg] ahsme_104 [/svg] A necessary and sufficient condition for the equality of the two shaded areas, given $ 0 <\\theta <\\frac{\\pi}{2} $, is",
+    "problem_statement": "In the configuration below, $ \\theta $ is measured in radians, $ C $ is the center of the circle, $ BCD $ and $ ACE $ are line segments and $ AB $ is tangent to the circle at $ A $. <img src=\"/assets/img/ahsme_104.svg\" class=\"problem-img\"> A necessary and sufficient condition for the equality of the two shaded areas, given $ 0 <\\theta <\\frac{\\pi}{2} $, is",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1986&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -30836,7 +30836,7 @@
         "$1-\\sin\\ \\alpha$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the adjoining figure, $ AB $ is a diameter of the circle, $ CD $ is a chord parallel to $ AB $, and $ AC $ intersects $ BD $ at $ E $, with $ \\angle AED =\\alpha $.  The ratio of the area of $ \\triangle CDE $ to that of $ \\triangle ABE $ is [svg] ahsme_105 [/svg] ",
+    "problem_statement": "In the adjoining figure, $ AB $ is a diameter of the circle, $ CD $ is a chord parallel to $ AB $, and $ AC $ intersects $ BD $ at $ E $, with $ \\angle AED =\\alpha $.  The ratio of the area of $ \\triangle CDE $ to that of $ \\triangle ABE $ is <img src=\"/assets/img/ahsme_105.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1986&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -30953,7 +30953,7 @@
         "$8$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A triangular corner with side lengths $ DB=EB=1 $ is cut from equilateral triangle $ ABC $ of side length $ 3 $. The perimeter of the remaining quadrilateral is [svg] ahsme_106 [/svg] ",
+    "problem_statement": "A triangular corner with side lengths $ DB=EB=1 $ is cut from equilateral triangle $ ABC $ of side length $ 3 $. The perimeter of the remaining quadrilateral is <img src=\"/assets/img/ahsme_106.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1987&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -31047,7 +31047,7 @@
         "$180-w+y+z$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the $ \\triangle ABC $ shown, $ D $ is some interior point, and $ x, y, z, w $ are the measures of angles in degrees. Solve for $ x $ in terms of $ y, z $ and $ w $. [svg] ahsme_107 [/svg] ",
+    "problem_statement": "In the $ \\triangle ABC $ shown, $ D $ is some interior point, and $ x, y, z, w $ are the measures of angles in degrees. Solve for $ x $ in terms of $ y, z $ and $ w $. <img src=\"/assets/img/ahsme_107.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1987&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -31095,7 +31095,7 @@
         "$17$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the figure the sum of the distances $ AD $ and $ BD $ is [svg] ahsme_108 [/svg] ",
+    "problem_statement": "In the figure the sum of the distances $ AD $ and $ BD $ is <img src=\"/assets/img/ahsme_108.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1987&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -31235,7 +31235,7 @@
         "$\\text{none of these}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "$ ABCD $ is a square and $ M $ and $ N $ are the midpoints of $ BC $ and $ CD $ respectively. Then $ \\sin\\theta= $ [svg] ahsme_109 [/svg] ",
+    "problem_statement": "$ ABCD $ is a square and $ M $ and $ N $ are the midpoints of $ BC $ and $ CD $ respectively. Then $ \\sin\\theta= $ <img src=\"/assets/img/ahsme_109.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1987&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -31398,7 +31398,7 @@
         "$484$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "There are two natural ways to inscribe a square in a given isosceles right triangle. If it is done as in Figure 1 below, then one finds that the area of the square is $ 441\\text{cm}^2 $. What is the area (in $ \\text{cm}^2 $) of the square inscribed in the same $ \\triangle ABC $ as shown in Figure 2 below? [svg] ahsme_110 [/svg] ",
+    "problem_statement": "There are two natural ways to inscribe a square in a given isosceles right triangle. If it is done as in Figure 1 below, then one finds that the area of the square is $ 441\\text{cm}^2 $. What is the area (in $ \\text{cm}^2 $) of the square inscribed in the same $ \\triangle ABC $ as shown in Figure 2 below? <img src=\"/assets/img/ahsme_110.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1987&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -31607,7 +31607,7 @@
         "$\\frac{1}{\\sqrt[4]{12}}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the figure, $ \\triangle ABC $ has $ \\angle A =45^{\\circ} $ and $ \\angle B =30^{\\circ} $. A line $ DE $, with $ D $ on $ AB $ and $ \\angle ADE =60^{\\circ} $, divides $ \\triangle ABC $ into two pieces of equal area. (Note: the figure may not be accurate; perhaps $ E $ is on $ CB $ instead of $ AC $.) The ratio $ \\frac{AD}{AB} $ is [svg] ahsme_111 [/svg] ",
+    "problem_statement": "In the figure, $ \\triangle ABC $ has $ \\angle A =45^{\\circ} $ and $ \\angle B =30^{\\circ} $. A line $ DE $, with $ D $ on $ AB $ and $ \\angle ADE =60^{\\circ} $, divides $ \\triangle ABC $ into two pieces of equal area. (Note: the figure may not be accurate; perhaps $ E $ is on $ CB $ instead of $ AC $.) The ratio $ \\frac{AD}{AB} $ is <img src=\"/assets/img/ahsme_111.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1987&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -31678,7 +31678,7 @@
         "$100$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Four rectangular paper strips of length $ 10 $ and width $ 1 $ are put flat on a table and overlap perpendicularly as shown. How much area of the table is covered? [svg] ahsme_112 [/svg] ",
+    "problem_statement": "Four rectangular paper strips of length $ 10 $ and width $ 1 $ are put flat on a table and overlap perpendicularly as shown. How much area of the table is covered? <img src=\"/assets/img/ahsme_112.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1988&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -31818,7 +31818,7 @@
         "$15$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "An $ 8'\\text{ X }10' $ table sits in the corner of a square room, as in Figure 1 below.  The owners desire to move the table to the position shown in Figure 2.  The side of the room is $ S $ feet.  What is the smallest integer value of $ S $ for which the table can be moved as desired without tilting it or taking it apart? [svg] ahsme_113 [/svg] ",
+    "problem_statement": "An $ 8'\\text{ X }10' $ table sits in the corner of a square room, as in Figure 1 below.  The owners desire to move the table to the position shown in Figure 2.  The side of the room is $ S $ feet.  What is the smallest integer value of $ S $ for which the table can be moved as desired without tilting it or taking it apart? <img src=\"/assets/img/ahsme_113.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1988&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -31981,7 +31981,7 @@
         "$\\frac{9+8\\sqrt{3}}{36}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "$ ABC $ and $ A'B'C' $ are equilateral triangles with parallel sides and the same center, as in the figure.  The distance between side $ BC $ and side $ B'C' $ is $ \\frac{1}{6} $ the altitude of $ \\triangle ABC $.  The ratio of the area of $ \\triangle A'B'C' $ to the area of $ \\triangle ABC $ is [svg] ahsme_114 [/svg] ",
+    "problem_statement": "$ ABC $ and $ A'B'C' $ are equilateral triangles with parallel sides and the same center, as in the figure.  The distance between side $ BC $ and side $ B'C' $ is $ \\frac{1}{6} $ the altitude of $ \\triangle ABC $.  The ratio of the area of $ \\triangle A'B'C' $ to the area of $ \\triangle ABC $ is <img src=\"/assets/img/ahsme_114.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1988&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -32075,7 +32075,7 @@
         "$5$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In one of the adjoining figures a square of side $ 2 $ is dissected into four pieces so that $ E $ and $ F $ are the midpoints of opposite sides and $ AG $ is perpendicular to $ BF $.  These four pieces can then be reassembled into a rectangle as shown in the second figure.  The ratio of height to base, $ XY $ / $ YZ $, in this rectangle is [svg] ahsme_115 [/svg] ",
+    "problem_statement": "In one of the adjoining figures a square of side $ 2 $ is dissected into four pieces so that $ E $ and $ F $ are the midpoints of opposite sides and $ AG $ is perpendicular to $ BF $.  These four pieces can then be reassembled into a rectangle as shown in the second figure.  The ratio of height to base, $ XY $ / $ YZ $, in this rectangle is <img src=\"/assets/img/ahsme_115.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1988&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -32238,7 +32238,7 @@
         "$AB=11, CD=5$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the figure, $ AB\\perp BC $, $ BC\\perp CD $, and $ BC $ is tangent to the circle with center $ O $ and diameter $ AD $.  In which one of the following cases is the area of $ ABCD $ an integer? [svg] ahsme_116 [/svg] ",
+    "problem_statement": "In the figure, $ AB\\perp BC $, $ BC\\perp CD $, and $ BC $ is tangent to the circle with center $ O $ and diameter $ AD $.  In which one of the following cases is the area of $ ABCD $ an integer? <img src=\"/assets/img/ahsme_116.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1988&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -32372,7 +32372,7 @@
         "$96$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A square is cut into three rectangles along two lines parallel to a side, as shown. If the perimeter of each of the three rectangles is 24, then the area of the original square is [svg] ahsme_117 [/svg] ",
+    "problem_statement": "A square is cut into three rectangles along two lines parallel to a side, as shown. If the perimeter of each of the three rectangles is 24, then the area of the original square is <img src=\"/assets/img/ahsme_117.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1989&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -32397,7 +32397,7 @@
         "$4.25$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the figure, $ ABCD $ is an isosceles trapezoid with side lengths $ AD = BC = 5, AB = 4, $ and $ DC = 10 $. The point $ C $ is on $ \\overline{DF} $ and $ B $ is the midpoint of hypotenuse $ \\overline{DE} $ in the right triangle $ DEF $. Then $ CF = $ [svg] ahsme_118 [/svg] ",
+    "problem_statement": "In the figure, $ ABCD $ is an isosceles trapezoid with side lengths $ AD = BC = 5, AB = 4, $ and $ DC = 10 $. The point $ C $ is on $ \\overline{DF} $ and $ B $ is the midpoint of hypotenuse $ \\overline{DE} $ in the right triangle $ DEF $. Then $ CF = $ <img src=\"/assets/img/ahsme_118.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1989&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -32422,7 +32422,7 @@
         "$430$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Toothpicks of equal length are used to build a rectangular grid as shown. If the grid is 20 toothpicks high and 10 toothpicks wide, then the number of toothpicks used is [svg] ahsme_119 [/svg] ",
+    "problem_statement": "Toothpicks of equal length are used to build a rectangular grid as shown. If the grid is 20 toothpicks high and 10 toothpicks wide, then the number of toothpicks used is <img src=\"/assets/img/ahsme_119.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1989&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -32470,7 +32470,7 @@
         "$45^\\circ$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In $ \\triangle ABC,\\angle A = 100^\\circ,\\angle B = 50^\\circ,\\angle C = 30^\\circ,\\overline{AH} $ is an altitude, and $ \\overline{BM} $ is a median. Then $ \\angle MHC = $ [svg] ahsme_120 [/svg] ",
+    "problem_statement": "In $ \\triangle ABC,\\angle A = 100^\\circ,\\angle B = 50^\\circ,\\angle C = 30^\\circ,\\overline{AH} $ is an altitude, and $ \\overline{BM} $ is a median. Then $ \\angle MHC = $ <img src=\"/assets/img/ahsme_120.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1989&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -32610,7 +32610,7 @@
         "$\\frac{1}{(1-\\cos\\alpha)^2}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Two strips of width 1 overlap at an angle of $ \\alpha $ as shown. The area of the overlap (shown shaded) is [svg] ahsme_121 [/svg] ",
+    "problem_statement": "Two strips of width 1 overlap at an angle of $ \\alpha $ as shown. The area of the overlap (shown shaded) is <img src=\"/assets/img/ahsme_121.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1989&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -32658,7 +32658,7 @@
         "$19:8$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In $ \\triangle ABC $, $ AB = 5, BC = 7, AC = 9 $ and $ D $ is on $ \\overline{AC} $ with $ BD = 5 $. Find the ratio of $ AD: DC $. [svg] ahsme_122 [/svg] ",
+    "problem_statement": "In $ \\triangle ABC $, $ AB = 5, BC = 7, AC = 9 $ and $ D $ is on $ \\overline{AC} $ with $ BD = 5 $. Find the ratio of $ AD: DC $. <img src=\"/assets/img/ahsme_122.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1989&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -32798,7 +32798,7 @@
         "$6$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A square flag has a red cross of uniform width with a blue square in the center on a white background as shown. (The cross is symmetric with respect to each of the diagonals of the square.) If the entire cross (both the red arms and the blue center) takes up $ 36\\% $ of the area of the flag, what percent of the area of the flag is blue? [svg] ahsme_123 [/svg] ",
+    "problem_statement": "A square flag has a red cross of uniform width with a blue square in the center on a white background as shown. (The cross is symmetric with respect to each of the diagonals of the square.) If the entire cross (both the red arms and the blue center) takes up $ 36\\% $ of the area of the flag, what percent of the area of the flag is blue? <img src=\"/assets/img/ahsme_123.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1989&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -32846,7 +32846,7 @@
         "$(45,36)$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A particle moves through the first quadrant as follows. During the first minute it moves from the origin to $ (1,0) $. Thereafter, it continues to follow the directions indicated in the figure, going back and forth between the positive $ x $ and $ y $ axes, moving one unit of distance parallel to an axis in each minute. At which point will the particle be after exactly $ 1989 $ minutes? [svg] ahsme_124 [/svg] ",
+    "problem_statement": "A particle moves through the first quadrant as follows. During the first minute it moves from the origin to $ (1,0) $. Thereafter, it continues to follow the directions indicated in the figure, going back and forth between the positive $ x $ and $ y $ axes, moving one unit of distance parallel to an axis in each minute. At which point will the particle be after exactly $ 1989 $ minutes? <img src=\"/assets/img/ahsme_124.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1989&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -33095,7 +33095,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Let $ ABCD $ be a parallelogram with $ \\angle ABC=120^\\circ $, $ AB=16 $ and $ BC=10 $.  Extend $ \\overline{CD} $ through $ D $ to $ E $ so that $ DE=4 $.  If $ \\overline{BE} $ intersects $ \\overline{AD} $ at $ F $, then $ FD $ is closest to [svg] ahsme_125 [/svg] ",
+    "problem_statement": "Let $ ABCD $ be a parallelogram with $ \\angle ABC=120^\\circ $, $ AB=16 $ and $ BC=10 $.  Extend $ \\overline{CD} $ through $ D $ to $ E $ so that $ DE=4 $.  If $ \\overline{BE} $ intersects $ \\overline{AD} $ at $ F $, then $ FD $ is closest to <img src=\"/assets/img/ahsme_125.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1990&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -33327,7 +33327,7 @@
         "$\\frac{7}{15}\\pi$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "An acute isosceles triangle, $ ABC $ is inscribed in a circle. Through $ B $ and $ C $, tangents to the circle are drawn, meeting at point $ D $. If $ \\angle ABC=\\angle ACB=2\\angle D $ and $ x $ is the radian measure of $ \\angle A $, then $ x= $ [svg] ahsme_126 [/svg] ",
+    "problem_statement": "An acute isosceles triangle, $ ABC $ is inscribed in a circle. Through $ B $ and $ C $, tangents to the circle are drawn, meeting at point $ D $. If $ \\angle ABC=\\angle ACB=2\\angle D $ and $ x $ is the radian measure of $ \\angle A $, then $ x= $ <img src=\"/assets/img/ahsme_126.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1990&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -33467,7 +33467,7 @@
         "$5$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "$ ABCD $ is a quadrilateral with right angles at $ A $ and $ C $. Points $ E $ and $ F $ are on $ AC $, and $ DE $ and $ BF $ are perpendicular to $ AC $. If $ AE=3 $, $ DE=5 $, and $ CE=7 $, then $ BF= $ [svg] ahsme_127 [/svg] ",
+    "problem_statement": "$ ABCD $ is a quadrilateral with right angles at $ A $ and $ C $. Points $ E $ and $ F $ are on $ AC $, and $ DE $ and $ BF $ are perpendicular to $ AC $. If $ AE=3 $, $ DE=5 $, and $ CE=7 $, then $ BF= $ <img src=\"/assets/img/ahsme_127.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1990&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -33607,7 +33607,7 @@
         "$\\text{not uniquely determined from the given information}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Ten people form a circle. Each picks a number and tells it to the two neighbors adjacent to him in the circle. Then each person computes and announces the average of the numbers of his two neighbors. The figure shows the average announced by each person (not the original number the person picked). The number picked by the person who announced the average $ 6 $ was [svg] ahsme_128 [/svg] ",
+    "problem_statement": "Ten people form a circle. Each picks a number and tells it to the two neighbors adjacent to him in the circle. Then each person computes and announces the average of the numbers of his two neighbors. The figure shows the average announced by each person (not the original number the person picked). The number picked by the person who announced the average $ 6 $ was <img src=\"/assets/img/ahsme_128.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1990&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -33810,7 +33810,7 @@
         "$300$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the arrow-shaped polygon [see figure], the angles at vertices $ A $, $ C $, $ D $, $ E $ and $ F $ are right angles, $ BC = FG = 5 $, $ CD = FE = 20 $, $ DE = 10 $, and $ AB = AG $.  The area of the polygon is closest to [svg] ahsme_129 [/svg] ",
+    "problem_statement": "In the arrow-shaped polygon [see figure], the angles at vertices $ A $, $ C $, $ D $, $ E $ and $ F $ are right angles, $ BC = FG = 5 $, $ CD = FE = 20 $, $ DE = 10 $, and $ AB = AG $.  The area of the polygon is closest to <img src=\"/assets/img/ahsme_129.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1991&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -34134,7 +34134,7 @@
         "$256$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Triangle $ ABC $ has a right angle at $ C $, $ AC = 3 $ and $ BC = 4 $.  Triangle $ ABD $ has a right angle at $ A $ and $ AD = 12 $.  Points $ C $ and $ D $ are on opposite sides of $ \\overline{AB} $.  The line through $ D $ parallel to $ \\overline{AC} $ meets $ \\overline{CB} $ extended at $ E $.  If $ \\frac{DE}{DB}=\\frac{m}{n} $, where $ m $ and $ n $ are relatively prime positive integers, then $ m+n = $ [svg] ahsme_130 [/svg] ",
+    "problem_statement": "Triangle $ ABC $ has a right angle at $ C $, $ AC = 3 $ and $ BC = 4 $.  Triangle $ ABD $ has a right angle at $ A $ and $ AD = 12 $.  Points $ C $ and $ D $ are on opposite sides of $ \\overline{AB} $.  The line through $ D $ parallel to $ \\overline{AC} $ meets $ \\overline{CB} $ extended at $ E $.  If $ \\frac{DE}{DB}=\\frac{m}{n} $, where $ m $ and $ n $ are relatively prime positive integers, then $ m+n = $ <img src=\"/assets/img/ahsme_130.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1991&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -34205,7 +34205,7 @@
         "$4\\pi$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Two circles are externally tangent.  Lines $ \\overline{PAB} $ and $ \\overline{PA'B'} $ are common tangents with $ A $ and $ A' $ on the smaller circle and $ B $ and $ B' $ on the larger circle.  If $ PA = AB = 4 $, then the area of the smaller circle is [svg] ahsme_131 [/svg] ",
+    "problem_statement": "Two circles are externally tangent.  Lines $ \\overline{PAB} $ and $ \\overline{PA'B'} $ are common tangents with $ A $ and $ A' $ on the smaller circle and $ B $ and $ B' $ on the larger circle.  If $ PA = AB = 4 $, then the area of the smaller circle is <img src=\"/assets/img/ahsme_131.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1991&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -34230,7 +34230,7 @@
         "$\\frac{3}{5}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "If $ ABCD $ is a $ 2\\ X\\ 2 $ square, $ E $ is the midpoint of $ \\overline{AB} $, $ F $ is the midpoint of $ \\overline{BC} $, $ \\overline{AF} $ and $ \\overline{DE} $ intersect at $ I $, and $ \\overline{BD} $ and $ \\overline{AF} $ intersect at $ H $, then the area of quadrilateral $ BEIH $ is [svg] ahsme_132 [/svg] ",
+    "problem_statement": "If $ ABCD $ is a $ 2\\ X\\ 2 $ square, $ E $ is the midpoint of $ \\overline{AB} $, $ F $ is the midpoint of $ \\overline{BC} $, $ \\overline{AF} $ and $ \\overline{DE} $ intersect at $ I $, and $ \\overline{BD} $ and $ \\overline{AF} $ intersect at $ H $, then the area of quadrilateral $ BEIH $ is <img src=\"/assets/img/ahsme_132.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1991&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -34364,7 +34364,7 @@
         "$\\sqrt{3}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Equilateral triangle $ ABC $ has been creased and folded so that vertex $ A $ now rests at $ A' $ on $ \\overline{BC} $ as shown.  If $ BA' = 1 $ and $ A'C = 2 $ then the length of crease $ \\overline{PQ} $ is [svg] ahsme_133 [/svg] ",
+    "problem_statement": "Equilateral triangle $ ABC $ has been creased and folded so that vertex $ A $ now rests at $ A' $ on $ \\overline{BC} $ as shown.  If $ BA' = 1 $ and $ A'C = 2 $ then the length of crease $ \\overline{PQ} $ is <img src=\"/assets/img/ahsme_133.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1991&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -34567,7 +34567,7 @@
         "$2601$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A square floor is tiled with congruent square tiles.  The tiles on the two diagonals of the floor are black.  The rest of the tiles are white.  If there are 101 black tiles, then the total number of tiles is [svg] ahsme_134 [/svg] ",
+    "problem_statement": "A square floor is tiled with congruent square tiles.  The tiles on the two diagonals of the floor are black.  The rest of the tiles are white.  If there are 101 black tiles, then the total number of tiles is <img src=\"/assets/img/ahsme_134.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1992&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -34592,7 +34592,7 @@
         "$12\\sqrt{3}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Five equilateral triangles, each with side $ 2\\sqrt{3} $, are arranged so they are all on the same side of a line containing one side of each.  Along this line, the midpoint of the base of one triangle is a vertex of the next.  The area of the region of the plane that is covered by the union of the five triangular regions is [svg] ahsme_135 [/svg] ",
+    "problem_statement": "Five equilateral triangles, each with side $ 2\\sqrt{3} $, are arranged so they are all on the same side of a line containing one side of each.  Along this line, the midpoint of the base of one triangle is a vertex of the next.  The area of the region of the plane that is covered by the union of the five triangular regions is <img src=\"/assets/img/ahsme_135.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1992&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -34640,7 +34640,7 @@
         "$26$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The ratio of the radii of two concentric circles is $ 1:3 $.  If $ \\overline{AC} $ is a diameter of the larger circle, $ \\overline{BC} $ is a chord of the larger circle that is tangent to the smaller circle, and $ AB = 12 $, then the radius of the larger circle is [svg] ahsme_136 [/svg] ",
+    "problem_statement": "The ratio of the radii of two concentric circles is $ 1:3 $.  If $ \\overline{AC} $ is a diameter of the larger circle, $ \\overline{BC} $ is a chord of the larger circle that is tangent to the smaller circle, and $ AB = 12 $, then the radius of the larger circle is <img src=\"/assets/img/ahsme_136.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1992&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -34843,7 +34843,7 @@
         "$60$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Part of an \"$ n $-pointed regular star\" is shown.  It is a simple closed polygon in which all $ 2n $ edges are congruent, angles $ A_{1} $, $ A_{2} $, $ \\ldots $, $ A_{n} $ are congruent and angles $ B_{1} $, $ B_{2} $, $ \\ldots $, $ B_{n} $ are congruent.  If the acute angle at $ A_{1} $ is $ 10^{\\circ} $ less than the acute angle at $ B_{1} $, then $ n = $ [svg] ahsme_137 [/svg] ",
+    "problem_statement": "Part of an \"$ n $-pointed regular star\" is shown.  It is a simple closed polygon in which all $ 2n $ edges are congruent, angles $ A_{1} $, $ A_{2} $, $ \\ldots $, $ A_{n} $ are congruent and angles $ B_{1} $, $ B_{2} $, $ \\ldots $, $ B_{n} $ are congruent.  If the acute angle at $ A_{1} $ is $ 10^{\\circ} $ less than the acute angle at $ B_{1} $, then $ n = $ <img src=\"/assets/img/ahsme_137.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1992&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -34983,7 +34983,7 @@
         "$(3-2\\sqrt{2})\\pi$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Semicircle $ \\stackrel{\\frown}{AB} $ has center $ C $ and radius $ 1 $.  Point $ D $ is on $ \\stackrel{\\frown}{AB} $ and $ \\overline{CD}\\perp\\overline{AB} $.  Extend $ \\overline{BD} $ and $ \\overline{AD} $ to $ E $ and $ F $, respectively, so that circular arcs $ \\stackrel{\\frown}{AE} $ and $ \\stackrel{\\frown}{BF} $ have $ B $ and $ A $ as their respective centers.  Circular arc $ \\stackrel{\\frown}{EF} $ has center $ D $.  The area of the shaded \"smile\", $ AEFBDA $, is [svg] ahsme_138 [/svg] ",
+    "problem_statement": "Semicircle $ \\stackrel{\\frown}{AB} $ has center $ C $ and radius $ 1 $.  Point $ D $ is on $ \\stackrel{\\frown}{AB} $ and $ \\overline{CD}\\perp\\overline{AB} $.  Extend $ \\overline{BD} $ and $ \\overline{AD} $ to $ E $ and $ F $, respectively, so that circular arcs $ \\stackrel{\\frown}{AE} $ and $ \\stackrel{\\frown}{BF} $ have $ B $ and $ A $ as their respective centers.  Circular arc $ \\stackrel{\\frown}{EF} $ has center $ D $.  The area of the shaded \"smile\", $ AEFBDA $, is <img src=\"/assets/img/ahsme_138.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1992&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -35123,7 +35123,7 @@
         "$70^{\\circ}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In $ \\triangle ABC $, $ \\angle A=55^{\\circ} $, $ \\angle C=75^{\\circ} $, $ D $ is on side $ \\overline{AB} $ and $ E $ is on side $ \\overline{BC} $. If $ DB=BE $, then $ \\angle BED= $ [svg] ahsme_139 [/svg] ",
+    "problem_statement": "In $ \\triangle ABC $, $ \\angle A=55^{\\circ} $, $ \\angle C=75^{\\circ} $, $ D $ is on side $ \\overline{AB} $ and $ E $ is on side $ \\overline{BC} $. If $ DB=BE $, then $ \\angle BED= $ <img src=\"/assets/img/ahsme_139.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1993&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -35401,7 +35401,7 @@
         "$12\\sqrt{5}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The convex pentagon $ ABCDE $ has $ \\angle A=\\angle B=120^{\\circ} $, $ EA=AB=BC=2 $ and $ CD=DE=4 $. What is the area of $ ABCDE $? [svg] ahsme_140 [/svg] ",
+    "problem_statement": "The convex pentagon $ ABCDE $ has $ \\angle A=\\angle B=120^{\\circ} $, $ EA=AB=BC=2 $ and $ CD=DE=4 $. What is the area of $ ABCDE $? <img src=\"/assets/img/ahsme_140.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1993&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -35472,7 +35472,7 @@
         "$2$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Amy painted a dart board over a square clock face using the \"hour positions\" as boundaries. [See figure.] If $ t $ is the area of one of the eight triangular regions such as that between $ 12 $ o'clock and $ 1 $ o'clock, and $ q $ is the area of one of the four corner quadrilaterals such as that between $ 1 $ o'clock and $ 2 $ o'clock, then $ \\frac{q}{t}= $ [svg] ahsme_141 [/svg] ",
+    "problem_statement": "Amy painted a dart board over a square clock face using the \"hour positions\" as boundaries. [See figure.] If $ t $ is the area of one of the eight triangular regions such as that between $ 12 $ o'clock and $ 1 $ o'clock, and $ q $ is the area of one of the four corner quadrilaterals such as that between $ 1 $ o'clock and $ 2 $ o'clock, then $ \\frac{q}{t}= $ <img src=\"/assets/img/ahsme_141.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1993&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -35589,7 +35589,7 @@
         "$144$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Twenty cubical blocks are arranged as shown. First, $ 10 $ are arranged in a triangular pattern; then a layer of $ 6 $, arranged in a triangular pattern, is centered on the $ 10 $; then a layer of $ 3 $, arranged in a triangular pattern, is centered on the $ 6 $; and finally one block is centered on top of the third layer. The blocks in the bottom layer are numbered $ 1 $ through $ 10 $ in some order. Each block in layers $ 2, 3 $ and $ 4 $ is assigned the number which is the sum of the numbers assigned to the three blocks on which it rests. Find the smallest possible number which could be assigned to the top block. [svg] ahsme_142 [/svg] ",
+    "problem_statement": "Twenty cubical blocks are arranged as shown. First, $ 10 $ are arranged in a triangular pattern; then a layer of $ 6 $, arranged in a triangular pattern, is centered on the $ 10 $; then a layer of $ 3 $, arranged in a triangular pattern, is centered on the $ 6 $; and finally one block is centered on top of the third layer. The blocks in the bottom layer are numbered $ 1 $ through $ 10 $ in some order. Each block in layers $ 2, 3 $ and $ 4 $ is assigned the number which is the sum of the numbers assigned to the three blocks on which it rests. Find the smallest possible number which could be assigned to the top block. <img src=\"/assets/img/ahsme_142.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1993&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -35614,7 +35614,7 @@
         "$\\sin 6^{\\circ}\\sin 12^{\\circ}\\sec 18^{\\circ}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Points $ A, B, C $ and $ D $ are on a circle of diameter $ 1 $, and $ X $ is on diameter $ \\overline{AD} $. If $ BX=CX $ and $ 3\\angle BAC=\\angle BXC=36^{\\circ} $, then $ AX= $ [svg] ahsme_143 [/svg] ",
+    "problem_statement": "Points $ A, B, C $ and $ D $ are on a circle of diameter $ 1 $, and $ X $ is on diameter $ \\overline{AD} $. If $ BX=CX $ and $ 3\\angle BAC=\\angle BXC=36^{\\circ} $, then $ AX= $ <img src=\"/assets/img/ahsme_143.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1993&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -35662,7 +35662,7 @@
         "$\\text{more than 15 such triangles}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Let $ S $ be the set of points on the rays forming the sides of a $ 120^{\\circ} $ angle, and let $ P $ be a fixed point inside the angle on the angle bisector. Consider all distinct equilateral triangles $ PQR $ with $ Q $ and $ R $ in $ S $. (Points $ Q $ and $ R $ may be on the same ray, and switching the names of $ Q $ and $ R $ does not create a distinct triangle.) There are [svg] ahsme_144 [/svg] ",
+    "problem_statement": "Let $ S $ be the set of points on the rays forming the sides of a $ 120^{\\circ} $ angle, and let $ P $ be a fixed point inside the angle on the angle bisector. Consider all distinct equilateral triangles $ PQR $ with $ Q $ and $ R $ in $ S $. (Points $ Q $ and $ R $ may be on the same ray, and switching the names of $ Q $ and $ R $ does not create a distinct triangle.) There are <img src=\"/assets/img/ahsme_144.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1993&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -35710,7 +35710,7 @@
         "$17$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The sides of $ \\triangle ABC $ have lengths $ 6, 8 $ and $ 10 $. A circle with center $ P $ and radius $ 1 $ rolls around the inside of $ \\triangle ABC $, always remaining tangent to at least one side of the triangle. When $ P $ first returns to its original position, through what distance has $ P $ traveled? [svg] ahsme_145 [/svg] ",
+    "problem_statement": "The sides of $ \\triangle ABC $ have lengths $ 6, 8 $ and $ 10 $. A circle with center $ P $ and radius $ 1 $ rolls around the inside of $ \\triangle ABC $, always remaining tangent to at least one side of the triangle. When $ P $ first returns to its original position, through what distance has $ P $ traveled? <img src=\"/assets/img/ahsme_145.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1993&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -35827,7 +35827,7 @@
         "$25$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A large rectangle is partitioned into four rectangles by two segments parallel to its sides. The areas of three of the resulting rectangles are shown. What is the area of the fourth rectangle? [svg] ahsme_146 [/svg] ",
+    "problem_statement": "A large rectangle is partitioned into four rectangles by two segments parallel to its sides. The areas of three of the resulting rectangles are shown. What is the area of the fourth rectangle? <img src=\"/assets/img/ahsme_146.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1994&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -35938,7 +35938,7 @@
         "$175$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Squares $ ABCD $ and $ EFGH $ are congruent, $ AB=10 $, and $ G $ is the center of square $ ABCD $. The area of the region in the plane covered by these squares is [svg] ahsme_147 [/svg] ",
+    "problem_statement": "Squares $ ABCD $ and $ EFGH $ are congruent, $ AB=10 $, and $ G $ is the center of square $ ABCD $. The area of the region in the plane covered by these squares is <img src=\"/assets/img/ahsme_147.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1994&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -35963,7 +35963,7 @@
         "$196$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the polygon shown, each side is perpendicular to its adjacent sides, and all 28 of the sides are congruent. The perimeter of the polygon is $ 56 $. The area of the region bounded by the polygon is [svg] ahsme_148 [/svg] ",
+    "problem_statement": "In the polygon shown, each side is perpendicular to its adjacent sides, and all 28 of the sides are congruent. The perimeter of the polygon is $ 56 $. The area of the region bounded by the polygon is <img src=\"/assets/img/ahsme_148.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1994&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -36080,7 +36080,7 @@
         "$72^{\\circ}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In triangle $ ABC $, $ AB=AC $. If there is a point $ P $ strictly between $ A $ and $ B $ such that $ AP=PC=CB $, then $ \\angle A = $ [svg] ahsme_149 [/svg] ",
+    "problem_statement": "In triangle $ ABC $, $ AB=AC $. If there is a point $ P $ strictly between $ A $ and $ B $ such that $ AP=PC=CB $, then $ \\angle A = $ <img src=\"/assets/img/ahsme_149.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1994&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -36197,7 +36197,7 @@
         "$18$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Triangle $ ABC $ is inscribed in a circle, and $ \\angle B =\\angle C = 4\\angle A $. If $ B $ and $ C $ are adjacent vertices of a regular polygon of $ n $ sides inscribed in this circle, then $ n= $ [svg] ahsme_150 [/svg] ",
+    "problem_statement": "Triangle $ ABC $ is inscribed in a circle, and $ \\angle B =\\angle C = 4\\angle A $. If $ B $ and $ C $ are adjacent vertices of a regular polygon of $ n $ sides inscribed in this circle, then $ n= $ <img src=\"/assets/img/ahsme_150.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1994&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -36314,7 +36314,7 @@
         "$\\frac{7}{9}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the $ xy $-plane, consider the L-shaped region bounded by horizontal and vertical segments with vertices at $ (0,0), (0,3), (3,3), (3,1), (5,1) $ and $ (5,0) $. The slope of the line through the origin that divides the area of this region exactly in half is [svg] ahsme_151 [/svg] ",
+    "problem_statement": "In the $ xy $-plane, consider the L-shaped region bounded by horizontal and vertical segments with vertices at $ (0,0), (0,3), (3,3), (3,1), (5,1) $ and $ (5,0) $. The slope of the line through the origin that divides the area of this region exactly in half is <img src=\"/assets/img/ahsme_151.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1994&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -36385,7 +36385,7 @@
         "$26$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A regular polygon of $ m $ sides is exactly enclosed (no overlaps, no gaps) by $ m $ regular polygons of $ n $ sides each. (Shown here for $ m=4, n=8 $.) If $ m=10 $, what is the value of $ n $? [svg] ahsme_152 [/svg] ",
+    "problem_statement": "A regular polygon of $ m $ sides is exactly enclosed (no overlaps, no gaps) by $ m $ regular polygons of $ n $ sides each. (Shown here for $ m=4, n=8 $.) If $ m=10 $, what is the value of $ n $? <img src=\"/assets/img/ahsme_152.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1994&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -36456,7 +36456,7 @@
         "$2\\sec{\\frac{1}{2}}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Points $ A, B $ and $ C $ on a circle of radius $ r $ are situated so that $ AB=AC, AB>r $, and the length of minor arc $ BC $ is $ r $. If angles are measured in radians, then $ AB/BC= $ [svg] ahsme_153 [/svg] ",
+    "problem_statement": "Points $ A, B $ and $ C $ on a circle of radius $ r $ are situated so that $ AB=AC, AB>r $, and the length of minor arc $ BC $ is $ r $. If angles are measured in radians, then $ AB/BC= $ <img src=\"/assets/img/ahsme_153.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1994&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -36619,7 +36619,7 @@
         "$\\; E$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The figure shown can be folded into the shape of a cube. In the resulting cube, which of the lettered faces is opposite the face marked $ x $? [svg] ahsme_154 [/svg] ",
+    "problem_statement": "The figure shown can be folded into the shape of a cube. In the resulting cube, which of the lettered faces is opposite the face marked $ x $? <img src=\"/assets/img/ahsme_154.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1995&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -36667,7 +36667,7 @@
         "$\\; 8$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In $ \\triangle ABC $, $ \\angle C = 90^\\circ, AC = 6 $ and $ BC = 8 $. Points $ D $ and $ E $ are on $ \\overline{AB} $ and $ \\overline{BC} $, respectively, and $ \\angle BED = 90^\\circ $. If $ DE = 4 $, then $ BD = $ [svg] ahsme_155 [/svg] ",
+    "problem_statement": "In $ \\triangle ABC $, $ \\angle C = 90^\\circ, AC = 6 $ and $ BC = 8 $. Points $ D $ and $ E $ are on $ \\overline{AB} $ and $ \\overline{BC} $, respectively, and $ \\angle BED = 90^\\circ $. If $ DE = 4 $, then $ BD = $ <img src=\"/assets/img/ahsme_155.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1995&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -36692,7 +36692,7 @@
         "$18$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Consider the figure consisting of a square, its diagonals, and the segments joining the midpoints of opposite sides. The total number of triangles of any size in the figure is [svg] ahsme_156 [/svg] ",
+    "problem_statement": "Consider the figure consisting of a square, its diagonals, and the segments joining the midpoints of opposite sides. The total number of triangles of any size in the figure is <img src=\"/assets/img/ahsme_156.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1995&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -36832,7 +36832,7 @@
         "$5$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Five points on a circle are numbered 1,2,3,4, and 5 in clockwise order. A bug jumps in a clockwise direction from one point to another around the circle; if it is on an odd-numbered point, it moves one point, and if it is on an even-numbered point, it moves two points. If the bug begins on point 5, after 1995 jumps it will be on point [svg] ahsme_157 [/svg] ",
+    "problem_statement": "Five points on a circle are numbered 1,2,3,4, and 5 in clockwise order. A bug jumps in a clockwise direction from one point to another around the circle; if it is on an odd-numbered point, it moves one point, and if it is on an even-numbered point, it moves two points. If the bug begins on point 5, after 1995 jumps it will be on point <img src=\"/assets/img/ahsme_157.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1995&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -36874,7 +36874,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Given regular pentagon $ ABCDE $, a circle can be drawn that is tangent to $ \\overline{DC} $ at $ D $ and to $ \\overline{AB} $ at $ A $. The number of degrees in minor arc $ AD $ is [svg] ahsme_158 [/svg] ",
+    "problem_statement": "Given regular pentagon $ ABCDE $, a circle can be drawn that is tangent to $ \\overline{DC} $ at $ D $ and to $ \\overline{AB} $ at $ A $. The number of degrees in minor arc $ AD $ is <img src=\"/assets/img/ahsme_158.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1995&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -36922,7 +36922,7 @@
         "$\\frac{1}{2}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Equilateral triangle $ DEF $ is inscribed in equilateral triangle $ ABC $ such that $ \\overline{DE}\\perp\\overline{BC} $. The ratio of the area of $ \\triangle DEF $ to the area of $ \\triangle ABC $ is [svg] ahsme_159 [/svg] ",
+    "problem_statement": "Equilateral triangle $ DEF $ is inscribed in equilateral triangle $ ABC $ such that $ \\overline{DE}\\perp\\overline{BC} $. The ratio of the area of $ \\triangle DEF $ to the area of $ \\triangle ABC $ is <img src=\"/assets/img/ahsme_159.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1995&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -37085,7 +37085,7 @@
         "$25\\pi$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the figure, $ \\overline{AB} $ and $ \\overline{CD} $ are diameters of the circle with center $ O $, $ \\overline{AB}\\perp\\overline{CD} $, and chord $ \\overline{DF} $ intersects $ \\overline{AB} $ at $ E $. If $ DE = 6 $ and $ EF = 2 $, then the area of the circle is  [svg] ahsme_160 [/svg] ",
+    "problem_statement": "In the figure, $ \\overline{AB} $ and $ \\overline{CD} $ are diameters of the circle with center $ O $, $ \\overline{AB}\\perp\\overline{CD} $, and chord $ \\overline{DF} $ intersects $ \\overline{AB} $ at $ E $. If $ DE = 6 $ and $ EF = 2 $, then the area of the circle is  <img src=\"/assets/img/ahsme_160.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1995&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -37133,7 +37133,7 @@
         "$184$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Two parallel chords in a circle have lengths $ 10 $ and $ 14 $, and the distance between them is $ 6 $. The chord parallel to these chords and midway between them is of length $ \\sqrt{a} $ where $ a $ is [svg] ahsme_161 [/svg] ",
+    "problem_statement": "Two parallel chords in a circle have lengths $ 10 $ and $ 14 $, and the distance between them is $ 6 $. The chord parallel to these chords and midway between them is of length $ \\sqrt{a} $ where $ a $ is <img src=\"/assets/img/ahsme_161.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1995&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -37181,7 +37181,7 @@
         "$20$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A large cube is formed by stacking $ 27 $ unit cubes. A plane is perpendicular to one of the internal diagonals of the large cube and bisects that diagonal. The number of unit cubes that the plane intersects is [svg] ahsme_162 [/svg] ",
+    "problem_statement": "A large cube is formed by stacking $ 27 $ unit cubes. A plane is perpendicular to one of the internal diagonals of the large cube and bisects that diagonal. The number of unit cubes that the plane intersects is <img src=\"/assets/img/ahsme_162.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1995&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -37528,7 +37528,7 @@
         "$2n/m$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Two opposite sides of a rectangle are each divided into $ n $ congruent segments, and the endpoints of one segment are joined to the center to form triangle $ A $. The other sides are each divided into $ m $ congruent segments, and the endpoints of one of these segments are joined to the center to form triangle $ B $. [See figure for $ n = 5, m = 7 $.] What is the ratio of the area of triangle $ A $ to the area of triangle $ B $? [svg] ahsme_163 [/svg] ",
+    "problem_statement": "Two opposite sides of a rectangle are each divided into $ n $ congruent segments, and the endpoints of one segment are joined to the center to form triangle $ A $. The other sides are each divided into $ m $ congruent segments, and the endpoints of one of these segments are joined to the center to form triangle $ B $. [See figure for $ n = 5, m = 7 $.] What is the ratio of the area of triangle $ A $ to the area of triangle $ B $? <img src=\"/assets/img/ahsme_163.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1996&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -37921,7 +37921,7 @@
         "$50$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The adjacent sides of the decagon shown meet at right angles. What is its perimeter?\n [svg] ahsme_164 [/svg] ",
+    "problem_statement": "The adjacent sides of the decagon shown meet at right angles. What is its perimeter?\n <img src=\"/assets/img/ahsme_164.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1997&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -37992,7 +37992,7 @@
         "$86$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A rectangle with perimeter $ 176 $ is divided into five congruent rectangles as shown in the diagram. What is the perimeter of one of the five congruent rectangles? \n [svg] ahsme_165 [/svg] ",
+    "problem_statement": "A rectangle with perimeter $ 176 $ is divided into five congruent rectangles as shown in the diagram. What is the perimeter of one of the five congruent rectangles? \n <img src=\"/assets/img/ahsme_165.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1997&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -38316,7 +38316,7 @@
         "$2.41$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A circle with center $ O $ is tangent to the coordinate axes and to the hypotenuse of the $ 30^\\circ $-$ 60^\\circ $-$ 90^\\circ $ triangle $ ABC $ as shown, where $ AB = 1 $. To the nearest hundredth, what is the radius of the circle?\n [svg] ahsme_166 [/svg] ",
+    "problem_statement": "A circle with center $ O $ is tangent to the coordinate axes and to the hypotenuse of the $ 30^\\circ $-$ 60^\\circ $-$ 90^\\circ $ triangle $ ABC $ as shown, where $ AB = 1 $. To the nearest hundredth, what is the radius of the circle?\n <img src=\"/assets/img/ahsme_166.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1997&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -38404,7 +38404,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the figure, polygons $ A $, $ E $, and $ F $ are isosceles right triangles; $ B $, $ C $, and $ D $ are squares with sides of length $ 1 $; and $ G $ is an equilateral triangle. The figure can be folded along its edges to form a polyhedron having the polygons as faces. The volume of this polyhedron is \n\n\n [svg] ahsme_167 [/svg] ",
+    "problem_statement": "In the figure, polygons $ A $, $ E $, and $ F $ are isosceles right triangles; $ B $, $ C $, and $ D $ are squares with sides of length $ 1 $; and $ G $ is an equilateral triangle. The figure can be folded along its edges to form a polyhedron having the polygons as faces. The volume of this polyhedron is \n\n\n <img src=\"/assets/img/ahsme_167.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1997&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -38469,7 +38469,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Triangle $ ABC $ and point $ P $ in the same plane are given. Point $ P $ is equidistant from $ A $ and $ B $, angle $ APB $ is twice angle $ ACB $, and $ \\overline{AC} $ intersects $ \\overline{BP} $ at point $ D $. If $ PB = 3 $ and $ PD = 2 $, then $ AD\\cdot CD = $\n\n\n [svg] ahsme_168 [/svg] ",
+    "problem_statement": "Triangle $ ABC $ and point $ P $ in the same plane are given. Point $ P $ is equidistant from $ A $ and $ B $, angle $ APB $ is twice angle $ ACB $, and $ \\overline{AC} $ intersects $ \\overline{BP} $ at point $ D $. If $ PB = 3 $ and $ PD = 2 $, then $ AD\\cdot CD = $\n\n\n <img src=\"/assets/img/ahsme_168.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1997&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -38747,7 +38747,7 @@
         "$\\frac{7}{8}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A square $ ABCD $ with sides of length 1 is divided into two congruent trapezoids and a pentagon, which have equal areas, by joining the center of the square with points $ E,F,G $ where $ E $ is the midpoint of $ BC $, $ F,G $ are on $ AB $ and $ CD $, respectively, and they're positioned that $ AF < FB, DG < GC $ and $ F $ is the directly opposite of $ G $. If $ FB = x $, the length of the longer parallel side of each trapezoid, find the value of $ x $.\n [svg] ahsme_169 [/svg] ",
+    "problem_statement": "A square $ ABCD $ with sides of length 1 is divided into two congruent trapezoids and a pentagon, which have equal areas, by joining the center of the square with points $ E,F,G $ where $ E $ is the midpoint of $ BC $, $ F,G $ are on $ AB $ and $ CD $, respectively, and they're positioned that $ AF < FB, DG < GC $ and $ F $ is the directly opposite of $ G $. If $ FB = x $, the length of the longer parallel side of each trapezoid, find the value of $ x $.\n <img src=\"/assets/img/ahsme_169.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1998&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -38795,7 +38795,7 @@
         "$196$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A large square is divided into a small square surrounded by four congruent rectangles as shown. The perimeter of each of the congruent rectangles is 14. What is the area of the large square?\n [svg] ahsme_170 [/svg] ",
+    "problem_statement": "A large square is divided into a small square surrounded by four congruent rectangles as shown. The perimeter of each of the congruent rectangles is 14. What is the area of the large square?\n <img src=\"/assets/img/ahsme_170.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1998&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -38929,7 +38929,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The figure shown is the union of a circle and two semicircles of diameters of $ a $ and $ b $, all of whose centers are collinear. The ratio of the area of the shaded region to that of the unshaded region is\n\n\n [svg] ahsme_171 [/svg] ",
+    "problem_statement": "The figure shown is the union of a circle and two semicircles of diameters of $ a $ and $ b $, all of whose centers are collinear. The ratio of the area of the shaded region to that of the unshaded region is\n\n\n <img src=\"/assets/img/ahsme_171.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1998&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [
@@ -39666,7 +39666,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Consider all triangles $ ABC $ satisfying the following conditions: $ AB = AC $, $ D $ is a point on $ \\overline{AC} $ for which $ \\overline{BD}\\perp\\overline{AC} $, $ AD $ and $ CD $ are integers, and $ BD^2 = 57 $. Among all such triangles, the smallest possible value of $ AC $ is\n\n\n [svg] ahsme_172 [/svg] ",
+    "problem_statement": "Consider all triangles $ ABC $ satisfying the following conditions: $ AB = AC $, $ D $ is a point on $ \\overline{AC} $ for which $ \\overline{BD}\\perp\\overline{AC} $, $ AD $ and $ CD $ are integers, and $ BD^2 = 57 $. Among all such triangles, the smallest possible value of $ AC $ is\n\n\n <img src=\"/assets/img/ahsme_172.svg\" class=\"problem-img\"> ",
     "contest": "AHSME",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=44&year=1999&sid=e3d9995d6d30e45efdacb5c7c523b3ce",
     "image_tags": [

@@ -362,7 +362,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "Putnam",
-    "problem_statement": "A rectangle, $ HOMF $, has sides $ HO=11 $ and $ OM=5 $. A triangle $ \\Delta ABC $ has $ H $ as orthocentre,  $ O $ as circumcentre, $ M $ be the midpoint of $ BC $, $ F $ is the feet of altitude from $ A $. What is the length of $ BC $ ? [svg] putnam_1 [/svg] ",
+    "problem_statement": "A rectangle, $ HOMF $, has sides $ HO=11 $ and $ OM=5 $. A triangle $ \\Delta ABC $ has $ H $ as orthocentre,  $ O $ as circumcentre, $ M $ be the midpoint of $ BC $, $ F $ is the feet of altitude from $ A $. What is the length of $ BC $ ? <img src=\"/assets/img/putnam_1.svg\" class=\"problem-img\"> ",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1997&sid=a5ed14cdf428267d6f5c296a3d8f583e",
     "name_modifier": "A",
     "image_tags": [
@@ -474,7 +474,7 @@
 {
     "source_name": "Art of Problem Solving",
     "contest_name": "Putnam",
-    "problem_statement": "The dissection of the $ 3-4-5 $ triangle shown below has diameter $ 5/2 $.  [svg] putnam_2 [/svg] Find the least diameter of this triangle into four parts. (The diameter of a dissection is the least upper bound of the distances between pairs of points belonging to the same part.)",
+    "problem_statement": "The dissection of the $ 3-4-5 $ triangle shown below has diameter $ 5/2 $.  <img src=\"/assets/img/putnam_2.svg\" class=\"problem-img\"> Find the least diameter of this triangle into four parts. (The diameter of a dissection is the least upper bound of the distances between pairs of points belonging to the same part.)",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=2&cid=23&year=1997&sid=a5ed14cdf428267d6f5c296a3d8f583e",
     "name_modifier": "B",
     "image_tags": [

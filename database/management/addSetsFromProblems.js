@@ -77,7 +77,7 @@ function makeSets(sets) {
 }
 
 function closeDatabase(num, mongoose) {
-    console.log('Done! Added ' + num + ' sets.');
+    console.log('Added ' + num + ' sets.');
     mongoose.disconnect();
 }
 

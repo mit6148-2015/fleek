@@ -104,7 +104,7 @@
         "$4$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Points $ M $ and $ N $ are the midpoints of sides $ PA $ and $ PB $ of $ \\triangle PAB $. As $ P $ moves along a line that is parallel to side $ AB $, how many of the four quantities listed below change?$ \\mathrm{(A)}\\ \\text{the length of the segment}MN $$ \\mathrm{(B)}\\ \\text{the perimeter of }\\triangle PAB $$ \\mathrm{(C)}\\ \\text{ the area of }\\triangle PAB $$ \\mathrm{(D)}\\ \\text{ the area of trapezoid}ABNM $ [svg] amc10_1 [/svg] ",
+    "problem_statement": "Points $ M $ and $ N $ are the midpoints of sides $ PA $ and $ PB $ of $ \\triangle PAB $. As $ P $ moves along a line that is parallel to side $ AB $, how many of the four quantities listed below change?$ \\mathrm{(A)}\\ \\text{the length of the segment}MN $$ \\mathrm{(B)}\\ \\text{the perimeter of }\\triangle PAB $$ \\mathrm{(C)}\\ \\text{ the area of }\\triangle PAB $$ \\mathrm{(D)}\\ \\text{ the area of trapezoid}ABNM $ <img src=\"/assets/img/amc10_1.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2000&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "",
@@ -154,7 +154,7 @@
         "$2+\\frac{5\\sqrt3}{3}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In rectangle $ ABCD $, $ AD = 1 $, $ P $ is on $ \\overline{AB} $, and $ \\overline{DB} $ and $ \\overline{DP} $ trisect $ \\angle ADC $. What is the perimeter of $ \\triangle BDP $?\n [svg] amc10_2 [/svg] ",
+    "problem_statement": "In rectangle $ ABCD $, $ AD = 1 $, $ P $ is on $ \\overline{AB} $, and $ \\overline{DB} $ and $ \\overline{DP} $ trisect $ \\angle ADC $. What is the perimeter of $ \\triangle BDP $?\n <img src=\"/assets/img/amc10_2.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2000&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "",
@@ -270,7 +270,7 @@
         "$40801$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Figures 0, $ 1 $, $ 2 $, and $ 3 $ consist of $ 1 $, $ 5 $, $ 13 $, and $ 25 $ nonoverlapping squares, respectively. If the pattern were continued, how many nonoverlapping squares would there be in figure $ 100 $? [svg] amc10_3 [/svg] ",
+    "problem_statement": "Figures 0, $ 1 $, $ 2 $, and $ 3 $ consist of $ 1 $, $ 5 $, $ 13 $, and $ 25 $ nonoverlapping squares, respectively. If the pattern were continued, how many nonoverlapping squares would there be in figure $ 100 $? <img src=\"/assets/img/amc10_3.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2000&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "",
@@ -296,7 +296,7 @@
         "$15!$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "There are $ 5 $ yellow pegs, $ 4 $ red pegs, $ 3 $ green pegs, $ 2 $ blue pegs, and $ 1 $ orange peg on a triangular peg board. In how many ways can the pegs be placed so that no (horizontal) row or (vertical) column contains two pegs of the same color? [svg] amc10_4 [/svg] ",
+    "problem_statement": "There are $ 5 $ yellow pegs, $ 4 $ red pegs, $ 3 $ green pegs, $ 2 $ blue pegs, and $ 1 $ orange peg on a triangular peg board. In how many ways can the pegs be placed so that no (horizontal) row or (vertical) column contains two pegs of the same color? <img src=\"/assets/img/amc10_4.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2000&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "",
@@ -370,7 +370,7 @@
         "$\\frac{5\\sqrt{65}}{9}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The diagram show $ 28 $ lattice points, each one unit from its nearest neighbors. Segment $ AB $ meets segment $ CD $ at $ E $. Find the length of segment $ AE $. [svg] amc10_5 [/svg] ",
+    "problem_statement": "The diagram show $ 28 $ lattice points, each one unit from its nearest neighbors. Segment $ AB $ meets segment $ CD $ at $ E $. Find the length of segment $ AE $. <img src=\"/assets/img/amc10_5.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2000&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "",
@@ -696,7 +696,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "How many of the twelve pentominoes pictured below have at least one line of symettry?\n\n\n [svg] amc10_6 [/svg] ",
+    "problem_statement": "How many of the twelve pentominoes pictured below have at least one line of symettry?\n\n\n <img src=\"/assets/img/amc10_6.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2001&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "",
@@ -836,7 +836,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Consider the dark square in an array of unit squares, part of which is shown. The \ufb01rst ring of squares around this center square contains $ 8 $ unit squares. The second ring contains $ 16 $ unit squares. If we continue this process, the number of unit squares in the $ 100^\\text{th} $ ring is\n\n\n\n [svg] amc10_7 [/svg] ",
+    "problem_statement": "Consider the dark square in an array of unit squares, part of which is shown. The \ufb01rst ring of squares around this center square contains $ 8 $ unit squares. The second ring contains $ 16 $ unit squares. If we continue this process, the number of unit squares in the $ 100^\\text{th} $ ring is\n\n\n\n <img src=\"/assets/img/amc10_7.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2001&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "",
@@ -976,7 +976,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Which of the cones listed below can be formed from a $ 252^\\circ $ sector of a circle of radius $ 10 $ by aligning the two straight sides?\n\n [svg] amc10_8 [/svg] \n$ \\textbf{(A)} $ A cone with slant height of $ 10 $ and radius $ 6 $\n$ \\textbf{(B)} $ A cone with height of $ 10 $ and radius $ 6 $\n$ \\textbf{(C)} $ A cone with slant height of $ 10 $ and radius $ 7 $\n$ \\textbf{(D)} $ A cone with height of $ 10 $ and radius $ 7 $\n$ \\textbf{(E)} $ A cone with slant height of $ 10 $ and radius $ 8 $",
+    "problem_statement": "Which of the cones listed below can be formed from a $ 252^\\circ $ sector of a circle of radius $ 10 $ by aligning the two straight sides?\n\n <img src=\"/assets/img/amc10_8.svg\" class=\"problem-img\"> \n$ \\textbf{(A)} $ A cone with slant height of $ 10 $ and radius $ 6 $\n$ \\textbf{(B)} $ A cone with height of $ 10 $ and radius $ 6 $\n$ \\textbf{(C)} $ A cone with slant height of $ 10 $ and radius $ 7 $\n$ \\textbf{(D)} $ A cone with height of $ 10 $ and radius $ 7 $\n$ \\textbf{(E)} $ A cone with slant height of $ 10 $ and radius $ 8 $",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2001&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "",
@@ -996,7 +996,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The plane is tiled by congruent squares and congruent pentagons as indicated. The percent of the plane that is enclosed by the pentagons is closest to\n\n\n\n [svg] amc10_9 [/svg] ",
+    "problem_statement": "The plane is tiled by congruent squares and congruent pentagons as indicated. The percent of the plane that is enclosed by the pentagons is closest to\n\n\n\n <img src=\"/assets/img/amc10_9.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2001&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "",
@@ -1082,7 +1082,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the magic square shown, the sums of the numbers in each row, column, and diagonal are the same. Five of these numbers are represented by $ v $, $ w $, $ x $, $ y $, and $ z $. Find $ y+z $.\n\n\n\n [svg] amc10_10 [/svg] ",
+    "problem_statement": "In the magic square shown, the sums of the numbers in each row, column, and diagonal are the same. Five of these numbers are represented by $ v $, $ w $, $ x $, $ y $, and $ z $. Find $ y+z $.\n\n\n\n <img src=\"/assets/img/amc10_10.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2001&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "",
@@ -1276,7 +1276,7 @@
         "$3.5\\pi$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Each of the small circles in the figure has radius one. The innermost circle is tangent to the six circles that surround it, and each of those circles is tangent to the large circle and to its small-circle neighbors. Find the area of the shaded region.\n [svg] amc10_11 [/svg] ",
+    "problem_statement": "Each of the small circles in the figure has radius one. The innermost circle is tangent to the six circles that surround it, and each of those circles is tangent to the large circle and to its small-circle neighbors. Find the area of the shaded region.\n <img src=\"/assets/img/amc10_11.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2002&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -1350,7 +1350,7 @@
         "$2R = W$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Betsy designed a flag using blue triangles, small white squares, and a red center square, as shown. Let $ B $ be the total area of the blue triangles, $ W $ the total area of the white squares, and $ R $ the area of the red square. Which of the following is correct?\n\n [svg] amc10_12 [/svg] ",
+    "problem_statement": "Betsy designed a flag using blue triangles, small white squares, and a red center square, as shown. Let $ B $ be the total area of the blue triangles, $ W $ the total area of the white squares, and $ R $ the area of the red square. Which of the following is correct?\n\n <img src=\"/assets/img/amc10_12.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2002&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -1760,7 +1760,7 @@
         "$260$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In trapezoid $ ABCD $ with bases $ AB $ and $ CD $, we have $ AB=52 $, $ BC=12 $, $ CD=39 $, and $ DA=5 $. The area of $ ABCD $ is [svg] amc10_13 [/svg] ",
+    "problem_statement": "In trapezoid $ ABCD $ with bases $ AB $ and $ CD $, we have $ AB=52 $, $ BC=12 $, $ CD=39 $, and $ DA=5 $. The area of $ ABCD $ is <img src=\"/assets/img/amc10_13.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2002&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -1882,7 +1882,7 @@
         "$12\\pi$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Circles of radius $ 2 $ and $ 3 $ are externally tangent and are circumscribed by a third circle, as shown in the figure. Find the area of the shaded region.\n\n [svg] amc10_14 [/svg] ",
+    "problem_statement": "Circles of radius $ 2 $ and $ 3 $ are externally tangent and are circumscribed by a third circle, as shown in the figure. Find the area of the shaded region.\n\n <img src=\"/assets/img/amc10_14.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2002&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -2604,7 +2604,7 @@
         "$6$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The polygon enclosed by the solid lines in the \ufb01gure consists of $ 4 $ congruent squares joined edge-to-edge. One more congruent square is attached to an edge at one of the nine positions indicated. How many of the nine resulting polygons can be folded to form a cube with one face missing?\n\n [svg] amc10_15 [/svg] ",
+    "problem_statement": "The polygon enclosed by the solid lines in the \ufb01gure consists of $ 4 $ congruent squares joined edge-to-edge. One more congruent square is attached to an edge at one of the nine positions indicated. How many of the nine resulting polygons can be folded to form a cube with one face missing?\n\n <img src=\"/assets/img/amc10_15.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2003&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -2816,7 +2816,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A semicircle of diameter $ 1 $ sits at the top of a semicircle of diameter $ 2 $, as shown. The shaded area inside the smaller semicircle and outside the larger semicircle is called a lune. Determine the area of this lune.\n [svg] amc10_16 [/svg] $ \\textbf{(A)}\\ \\frac{1}{6}\\pi-\\frac{\\sqrt{3}}{4}\\qquad\\textbf{(B)}\\ \\frac{\\sqrt{3}}{4}-\\frac{1}{12}\\pi\\qquad\\textbf{(C)}\\ \\frac{\\sqrt{3}}{4}-\\frac{1}{24}\\pi\\qquad\\textbf{(D)}\\ \\frac{\\sqrt{3}}{4}+\\frac{1}{24}\\pi $\n$ \\textbf{(E)}\\ \\frac{\\sqrt{3}}{4}+\\frac{1}{12}\\pi $",
+    "problem_statement": "A semicircle of diameter $ 1 $ sits at the top of a semicircle of diameter $ 2 $, as shown. The shaded area inside the smaller semicircle and outside the larger semicircle is called a lune. Determine the area of this lune.\n <img src=\"/assets/img/amc10_16.svg\" class=\"problem-img\"> $ \\textbf{(A)}\\ \\frac{1}{6}\\pi-\\frac{\\sqrt{3}}{4}\\qquad\\textbf{(B)}\\ \\frac{\\sqrt{3}}{4}-\\frac{1}{12}\\pi\\qquad\\textbf{(C)}\\ \\frac{\\sqrt{3}}{4}-\\frac{1}{24}\\pi\\qquad\\textbf{(D)}\\ \\frac{\\sqrt{3}}{4}+\\frac{1}{24}\\pi $\n$ \\textbf{(E)}\\ \\frac{\\sqrt{3}}{4}+\\frac{1}{12}\\pi $",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2003&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -2890,7 +2890,7 @@
         "$30$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In rectangle $ ABCD $, we have $ AB=8 $, $ BC=9 $, $ H $ is on $ \\overline{BC} $ with $ BH=6 $, $ E $ is on $ \\overline{AD} $ with $ DE=4 $, line $ EC $ intersects line $ AH $ at $ G $, and $ F $ is on line $ AD $ with $ \\overline{GF}\\perp\\overline{AF} $. Find the length $ GF $.\n [svg] amc10_17 [/svg] ",
+    "problem_statement": "In rectangle $ ABCD $, we have $ AB=8 $, $ BC=9 $, $ H $ is on $ \\overline{BC} $ with $ BH=6 $, $ E $ is on $ \\overline{AD} $ with $ DE=4 $, line $ EC $ intersects line $ AH $ at $ G $, and $ F $ is on line $ AD $ with $ \\overline{GF}\\perp\\overline{AF} $. Find the length $ GF $.\n <img src=\"/assets/img/amc10_17.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2003&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -2916,7 +2916,7 @@
         "$6,\\!021,\\!018$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A large equilateral triangle is constructed by using toothpicks to create rows of small equilateral triangles. For example, in the \ufb01gure we have $ 3 $ rows of small congruent equilateral triangles, with $ 5 $ small triangles in the base row. How many toothpicks would be needed to construct a large equilateral triangle if the base row of the triangle consists of $ 2003 $ small equilateral triangles? \n [svg] amc10_18 [/svg] ",
+    "problem_statement": "A large equilateral triangle is constructed by using toothpicks to create rows of small equilateral triangles. For example, in the \ufb01gure we have $ 3 $ rows of small congruent equilateral triangles, with $ 5 $ small triangles in the base row. How many toothpicks would be needed to construct a large equilateral triangle if the base row of the triangle consists of $ 2003 $ small equilateral triangles? \n <img src=\"/assets/img/amc10_18.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2003&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -3062,7 +3062,7 @@
         "$156$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Rose fills each of the rectangular regions of her rectangular flower bed with a different type of flower. The lengths, in feet, of the rectangular regions in her flower bed are as shown in the \ufb01gure. She plants one flower per square foot in each region. Asters cost $ \\$ $1 each, begonias $ \\$ $1.50 each, cannas $ \\$ $2 each, dahlias $ \\$ $2.50 each, and Easter lilies $ \\$ $3 each. What is the least possible cost, in dollars, for her garden? \n [svg] amc10_19 [/svg] ",
+    "problem_statement": "Rose fills each of the rectangular regions of her rectangular flower bed with a different type of flower. The lengths, in feet, of the rectangular regions in her flower bed are as shown in the \ufb01gure. She plants one flower per square foot in each region. Asters cost $ \\$ $1 each, begonias $ \\$ $1.50 each, cannas $ \\$ $2 each, dahlias $ \\$ $2.50 each, and Easter lilies $ \\$ $3 each. What is the least possible cost, in dollars, for her garden? \n <img src=\"/assets/img/amc10_19.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2003&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -3112,7 +3112,7 @@
         "$22$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Many television screens are rectangles that are measured by the length of their diagonals. The ratio of the horizontal length to the height in a standard television screen is $ 4 : 3 $. The horizontal length of a \u201c$ 27 $-inch\u201d television screen is closest, in inches, to which of the following?\n [svg] amc10_20 [/svg] ",
+    "problem_statement": "Many television screens are rectangles that are measured by the length of their diagonals. The ratio of the horizontal length to the height in a standard television screen is $ 4 : 3 $. The horizontal length of a \u201c$ 27 $-inch\u201d television screen is closest, in inches, to which of the following?\n <img src=\"/assets/img/amc10_20.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2003&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -3414,7 +3414,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Three semicircles of radius $ 1 $ are constructed on diameter $ AB $ of a semicircle of radius $ 2 $. The centers of the small semicircles divide $ \\overline{AB} $ into four line segments of equal length, as shown. What is the area of the shaded region that lies within the large semicircle but outside the smaller semicircles?\n [svg] amc10_21 [/svg] $ \\textbf{(A)}\\ \\pi-\\sqrt3\\qquad\\textbf{(B)}\\ \\pi-\\sqrt2\\qquad\\textbf{(C)}\\ \\frac{\\pi+\\sqrt2}{2}\\qquad\\textbf{(D)}\\ \\frac{\\pi+\\sqrt3}{2} $\n$ \\textbf{(E)}\\ \\frac{7}{6}\\pi-\\frac{\\sqrt3}{2} $",
+    "problem_statement": "Three semicircles of radius $ 1 $ are constructed on diameter $ AB $ of a semicircle of radius $ 2 $. The centers of the small semicircles divide $ \\overline{AB} $ into four line segments of equal length, as shown. What is the area of the shaded region that lies within the large semicircle but outside the smaller semicircles?\n <img src=\"/assets/img/amc10_21.svg\" class=\"problem-img\"> $ \\textbf{(A)}\\ \\pi-\\sqrt3\\qquad\\textbf{(B)}\\ \\pi-\\sqrt2\\qquad\\textbf{(C)}\\ \\frac{\\pi+\\sqrt2}{2}\\qquad\\textbf{(D)}\\ \\frac{\\pi+\\sqrt3}{2} $\n$ \\textbf{(E)}\\ \\frac{7}{6}\\pi-\\frac{\\sqrt3}{2} $",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2003&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -3440,7 +3440,7 @@
         "$15$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In rectangle $ ABCD $, $ AB=5 $ and $ BC=3 $. Points $ F $ and $ G $ are on $ \\overline{CD} $ so that $ DF=1 $ and $ GC=2 $. Lines $ AF $ and $ BG $ intersect at $ E $. Find the area of $ \\triangle{AEB} $.\n [svg] amc10_22 [/svg] ",
+    "problem_statement": "In rectangle $ ABCD $, $ AB=5 $ and $ BC=3 $. Points $ F $ and $ G $ are on $ \\overline{CD} $ so that $ DF=1 $ and $ GC=2 $. Lines $ AF $ and $ BG $ intersect at $ E $. Find the area of $ \\triangle{AEB} $.\n <img src=\"/assets/img/amc10_22.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2003&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -3514,7 +3514,7 @@
         "$\\frac{1+\\sqrt2}{4}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A regular octagon $ ABCDEFGH $ has an area of one square unit. What is the area of the rectangle $ ABEF $?\n [svg] amc10_23 [/svg] ",
+    "problem_statement": "A regular octagon $ ABCDEFGH $ has an area of one square unit. What is the area of the rectangle $ ABEF $?\n <img src=\"/assets/img/amc10_23.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2003&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -3684,7 +3684,7 @@
         "$\\frac{2}{7}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A set of three points is randomly chosen from the grid shown. Each three point set has the same probability of being chosen. What is the probability that the points lie on the same straight line?\n [svg] amc10_24 [/svg] ",
+    "problem_statement": "A set of three points is randomly chosen from the grid shown. Each three point set has the same probability of being chosen. What is the probability that the points lie on the same straight line?\n <img src=\"/assets/img/amc10_24.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2004&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -3782,7 +3782,7 @@
         "$9$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the figure, $ \\angle EAB $ and $ \\angle ABC $ are right angles. $ AB = 4, BC = 6, AE = 8 $, and $ \\overline{AC} $ and $ \\overline{BE} $ intersect at $ D $. What is the difference between the areas of $ \\triangle ADE $ and $ \\triangle BDC $?\n [svg] amc10_25 [/svg] ",
+    "problem_statement": "In the figure, $ \\angle EAB $ and $ \\angle ABC $ are right angles. $ AB = 4, BC = 6, AE = 8 $, and $ \\overline{AC} $ and $ \\overline{BE} $ intersect at $ D $. What is the difference between the areas of $ \\triangle ADE $ and $ \\triangle BDC $?\n <img src=\"/assets/img/amc10_25.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2004&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -3952,7 +3952,7 @@
         "$20$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The $ 5\\times 5 $ grid shown contains a collection of squares with sizes from $ 1\\times 1 $ to $ 5\\times 5 $. How many of these squares contain the black center square?\n [svg] amc10_26 [/svg] ",
+    "problem_statement": "The $ 5\\times 5 $ grid shown contains a collection of squares with sizes from $ 1\\times 1 $ to $ 5\\times 5 $. How many of these squares contain the black center square?\n <img src=\"/assets/img/amc10_26.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2004&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -4026,7 +4026,7 @@
         "$\\; 480$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A white cylindrical silo has a diameter of 30 feet and a height of 80 feet. A red stripe with a horizontal width of 3 feet is painted on the silo, as shown, making two complete revolutions around it. What is the area of the stripe in square feet? [svg] amc10_27 [/svg] ",
+    "problem_statement": "A white cylindrical silo has a diameter of 30 feet and a height of 80 feet. A red stripe with a horizontal width of 3 feet is painted on the silo, as shown, making two complete revolutions around it. What is the area of the stripe in square feet? <img src=\"/assets/img/amc10_27.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2004&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -4052,7 +4052,7 @@
         "$\\; 1+\\sqrt3$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Points $ E $ and $ F $ are located on square $ ABCD $ so that $ \\Delta BEF $ is equilateral. What is the ratio of the area of $ \\Delta DEF $ to that of $ \\Delta ABE $? [svg] amc10_28 [/svg] ",
+    "problem_statement": "Points $ E $ and $ F $ are located on square $ ABCD $ so that $ \\Delta BEF $ is equilateral. What is the ratio of the area of $ \\Delta DEF $ to that of $ \\Delta ABE $? <img src=\"/assets/img/amc10_28.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2004&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -4078,7 +4078,7 @@
         "$\\frac{\\pi}{4}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Two distinct lines pass through the center of three concentric circles of radii $ 3 $, $ 2 $, and $ 1 $. The area of the shaded region in the diagram is $ 8/13 $ of the area of the unshaded region. What is the radian measure of the acute angle formed by the two lines? (Note: $ \\pi $ radians is $ 180 $ degrees.) [svg] amc10_29 [/svg] ",
+    "problem_statement": "Two distinct lines pass through the center of three concentric circles of radii $ 3 $, $ 2 $, and $ 1 $. The area of the shaded region in the diagram is $ 8/13 $ of the area of the unshaded region. What is the radian measure of the acute angle formed by the two lines? (Note: $ \\pi $ radians is $ 180 $ degrees.) <img src=\"/assets/img/amc10_29.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2004&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -4104,7 +4104,7 @@
         "$5-\\sqrt5$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Square $ ABCD $ has side length 2. A semicircle with diameter $ AB $ is constructed inside the square, and the tangent to the semicircle from $ C $ intersects side $ AD $ at $ E $. What is the length of $ CE $? [svg] amc10_30 [/svg] ",
+    "problem_statement": "Square $ ABCD $ has side length 2. A semicircle with diameter $ AB $ is constructed inside the square, and the tangent to the semicircle from $ C $ intersects side $ AD $ at $ E $. What is the length of $ CE $? <img src=\"/assets/img/amc10_30.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2004&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -4130,7 +4130,7 @@
         "$\\;\\frac{1+\\sqrt3}{3}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Circles $ A $, $ B $, and $ C $ are externally tangent to each other and internally tangent to circle $ D $. Circles $ B $ and $ C $ are congruent. Circle $ A $ has radius 1 and passes through the center of $ D $. What is the radius of circle $ B $? [svg] amc10_31 [/svg] ",
+    "problem_statement": "Circles $ A $, $ B $, and $ C $ are externally tangent to each other and internally tangent to circle $ D $. Circles $ B $ and $ C $ are congruent. Circle $ A $ has radius 1 and passes through the center of $ D $. What is the radius of circle $ B $? <img src=\"/assets/img/amc10_31.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2004&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -4456,7 +4456,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "An annulus is the region between two concentric circles. The concentric circles in the \ufb01gure have radii $ b $ and $ c $, with $ b > c $. Let $ \\overline{OX} $ be a radius of the larger circle, let $ \\overline{XZ} $ be tangent to the smaller circle at $ Z $, and let $ \\overline{OY} $ be the radius of the larger circle that contains $ Z $. Let $ a = XZ $, $ d = YZ $, and $ e = XY $. What is the area of the annulus?\n\n\n [svg] amc10_32 [/svg] ",
+    "problem_statement": "An annulus is the region between two concentric circles. The concentric circles in the \ufb01gure have radii $ b $ and $ c $, with $ b > c $. Let $ \\overline{OX} $ be a radius of the larger circle, let $ \\overline{XZ} $ be tangent to the smaller circle at $ Z $, and let $ \\overline{OY} $ be the radius of the larger circle that contains $ Z $. Let $ a = XZ $, $ d = YZ $, and $ e = XY $. What is the area of the annulus?\n\n\n <img src=\"/assets/img/amc10_32.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2004&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -4554,7 +4554,7 @@
         "$\\frac{3+\\sqrt{3}}{2}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Three circles of radius $ 1 $ are externally tangent to each other and internally tangent to a larger circle. What is the radius of the large circle?\n\n [svg] amc10_33 [/svg] ",
+    "problem_statement": "Three circles of radius $ 1 $ are externally tangent to each other and internally tangent to a larger circle. What is the radius of the large circle?\n\n <img src=\"/assets/img/amc10_33.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2004&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -4652,7 +4652,7 @@
         "$\\frac{5}{12}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In $ \\triangle ABC $ points $ D $ and $ E $ lie on $ \\overline{BC} $ and $ \\overline{AC} $, respectively. If $ \\overline{AD} $ and $ \\overline{BE} $ intersect at $ T $ so that $ AT/DT = 3 $ and $ BT/ET = 4 $, what is $ CD/BD $?\n [svg] amc10_34 [/svg] ",
+    "problem_statement": "In $ \\triangle ABC $ points $ D $ and $ E $ lie on $ \\overline{BC} $ and $ \\overline{AC} $, respectively. If $ \\overline{AD} $ and $ \\overline{BE} $ intersect at $ T $ so that $ AT/DT = 3 $ and $ BT/ET = 4 $, what is $ CD/BD $?\n <img src=\"/assets/img/amc10_34.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2004&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -4768,7 +4768,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A circle of radius $ 1 $ is internally tangent to two circles of radius $ 2 $ at points $ A $ and $ B $, where $ AB $ is a diameter of the smaller circle. What is the area of the region, shaded in the gure, that is outside the smaller circle and inside each of the two larger circles?\n [svg] amc10_35 [/svg] $ \\textbf{(A)}\\ \\frac{5}{3}\\pi-3\\sqrt{2}\\qquad\\textbf{(B)}\\ \\frac{5}{3}\\pi-2\\sqrt{3}\\qquad\\textbf{(C)}\\ \\frac{8}{3}\\pi-3\\sqrt{3}\\qquad\\textbf{(D)}\\ \\frac{8}{3}\\pi-3\\sqrt{2} $\n$ \\textbf{(E)}\\ \\frac{8}{3}\\pi-2\\sqrt{3} $",
+    "problem_statement": "A circle of radius $ 1 $ is internally tangent to two circles of radius $ 2 $ at points $ A $ and $ B $, where $ AB $ is a diameter of the smaller circle. What is the area of the region, shaded in the gure, that is outside the smaller circle and inside each of the two larger circles?\n <img src=\"/assets/img/amc10_35.svg\" class=\"problem-img\"> $ \\textbf{(A)}\\ \\frac{5}{3}\\pi-3\\sqrt{2}\\qquad\\textbf{(B)}\\ \\frac{5}{3}\\pi-2\\sqrt{3}\\qquad\\textbf{(C)}\\ \\frac{8}{3}\\pi-3\\sqrt{3}\\qquad\\textbf{(D)}\\ \\frac{8}{3}\\pi-3\\sqrt{2} $\n$ \\textbf{(E)}\\ \\frac{8}{3}\\pi-2\\sqrt{3} $",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2004&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -4962,7 +4962,7 @@
         "$42$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Square $ EFGH $ is inside the square $ ABCD $ so that each side of $ EFGH $ can be extended to pass through a vertex of $ ABCD $. Square $ ABCD $ has side length $ \\sqrt{50} $ and $ BE = 1 $. What is the area of the inner square $ EFGH $? [svg] amc10_36 [/svg] ",
+    "problem_statement": "Square $ EFGH $ is inside the square $ ABCD $ so that each side of $ EFGH $ can be extended to pass through a vertex of $ ABCD $. Square $ ABCD $ has side length $ \\sqrt{50} $ and $ BE = 1 $. What is the area of the inner square $ EFGH $? <img src=\"/assets/img/amc10_36.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2005&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -5060,7 +5060,7 @@
         "$\\frac{2}3\\pi+\\frac{\\sqrt3}{2}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The \ufb01gure shown is called a trefoil and is constructed by drawing circular sectors about sides of the congruent equilateral triangles. What is the area of a trefoil whose horizontal base has length $ 2 $?\n [svg] amc10_37 [/svg] ",
+    "problem_statement": "The \ufb01gure shown is called a trefoil and is constructed by drawing circular sectors about sides of the congruent equilateral triangles. What is the area of a trefoil whose horizontal base has length $ 2 $?\n <img src=\"/assets/img/amc10_37.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2005&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -5182,7 +5182,7 @@
         "$13$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the five-sided star shown, the letters $ A,B,C,D, $ and $ E $ are replaced by the numbers $ 3,5,6,7, $ and $ 9 $, although not necessarily in this order.  The sums of the numbers at the ends of the line segments $ \\overline{AB} $,$ \\overline{BC} $,$ \\overline{CD} $,$ \\overline{DE} $, and $ \\overline{EA} $ form an arithmetic sequence, although not necessarily in this order.  What is the middle term of the arithmetic sequence? [svg] amc10_38 [/svg] ",
+    "problem_statement": "In the five-sided star shown, the letters $ A,B,C,D, $ and $ E $ are replaced by the numbers $ 3,5,6,7, $ and $ 9 $, although not necessarily in this order.  The sums of the numbers at the ends of the line segments $ \\overline{AB} $,$ \\overline{BC} $,$ \\overline{CD} $,$ \\overline{DE} $, and $ \\overline{EA} $ form an arithmetic sequence, although not necessarily in this order.  What is the middle term of the arithmetic sequence? <img src=\"/assets/img/amc10_38.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2005&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -5232,7 +5232,7 @@
         "$2$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Three one-inch squares are palced with their bases on a line. The center square is lifted out and rotated $ 45^\\circ $, as shown. Then it is centered and lowered into its original location until it touches both of the adjoining squares. How many inches is the point $ B $ from the line on which the bases of the original squares were placed?\n [svg] amc10_39 [/svg] ",
+    "problem_statement": "Three one-inch squares are palced with their bases on a line. The center square is lifted out and rotated $ 45^\\circ $, as shown. Then it is centered and lowered into its original location until it touches both of the adjoining squares. How many inches is the point $ B $ from the line on which the bases of the original squares were placed?\n <img src=\"/assets/img/amc10_39.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2005&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -5330,7 +5330,7 @@
         "$\\frac{2}{3}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Let $ \\overline{AB} $ be a diameter of a circle and $ C $ be a point on $ \\overline{AB} $ with $ 2\\cdot AC = BC $. Let $ D $ and $ E $ be points on the circle such that $ \\overline{DC}\\perp\\overline{AB} $ and $ \\overline{DE} $ is a second diameter. What is the ratio of the area of $ \\triangle DCE $ to the area of $ \\triangle ABD $?\n [svg] amc10_40 [/svg] ",
+    "problem_statement": "Let $ \\overline{AB} $ be a diameter of a circle and $ C $ be a point on $ \\overline{AB} $ with $ 2\\cdot AC = BC $. Let $ D $ and $ E $ be points on the circle such that $ \\overline{DC}\\perp\\overline{AB} $ and $ \\overline{DE} $ is a second diameter. What is the ratio of the area of $ \\triangle DCE $ to the area of $ \\triangle ABD $?\n <img src=\"/assets/img/amc10_40.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2005&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -5572,7 +5572,7 @@
         "$80+10\\pi$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "An $ 8 $-foot by $ 10 $-foot floor is tiled with square tiles of size $ 1 $ foot by $ 1 $ foot. Each tile has a pattern consisting of four white quarter circles of radius $ 1/2 $ foot centered at each corner of the tile. The remaining portion of the tile is shaded. How many square feet of the floor are shaded? [svg] amc10_41 [/svg] ",
+    "problem_statement": "An $ 8 $-foot by $ 10 $-foot floor is tiled with square tiles of size $ 1 $ foot by $ 1 $ foot. Each tile has a pattern consisting of four white quarter circles of radius $ 1/2 $ foot centered at each corner of the tile. The remaining portion of the tile is shaded. How many square feet of the floor are shaded? <img src=\"/assets/img/amc10_41.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2005&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -5718,7 +5718,7 @@
         "$\\sqrt{2}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Equilateral $ \\triangle ABC $ has side length $ 2 $, $ M $ is the midpoint of $ \\overline{AC} $, and $ C $ is the midpoint of $ \\overline{BD} $. What is the area of $ \\triangle CDM $?\n [svg] amc10_42 [/svg] ",
+    "problem_statement": "Equilateral $ \\triangle ABC $ has side length $ 2 $, $ M $ is the midpoint of $ \\overline{AC} $, and $ C $ is the midpoint of $ \\overline{BD} $. What is the area of $ \\triangle CDM $?\n <img src=\"/assets/img/amc10_42.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2005&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -6152,7 +6152,7 @@
         "$10$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The $ 8\\times 18 $ rectangle $ ABCD $ is cut into two congruent hexagons, as shown, in such a way that the two hexagons can be repositioned without overlap to form a square. What is $ y $? [svg] amc10_43 [/svg] ",
+    "problem_statement": "The $ 8\\times 18 $ rectangle $ ABCD $ is cut into two congruent hexagons, as shown, in such a way that the two hexagons can be repositioned without overlap to form a square. What is $ y $? <img src=\"/assets/img/amc10_43.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2006&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -6274,7 +6274,7 @@
         "$\\text{ II, by }10\\pi$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Rolly wishes to secure his dog with an 8-foot rope to a square shed that is 16 feet on each side. His preliminary drawings are shown. Which of these arrangements gives the dog the greater area to roam, and by how many square feet? [svg] amc10_44 [/svg] ",
+    "problem_statement": "Rolly wishes to secure his dog with an 8-foot rope to a square shed that is 16 feet on each side. His preliminary drawings are shown. Which of these arrangements gives the dog the greater area to roam, and by how many square feet? <img src=\"/assets/img/amc10_44.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2006&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -6324,7 +6324,7 @@
         "$210$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A number of linked rings, each 1 cm thick, are hanging on a peg. The top ring has an outside diameter of 20 cm. The outside diameter of each of the outer rings is 1 cm less than that of the ring above it. The bottom ring has an outside diameter of 3 cm. What is the distance, in cm, from the top of the top ring to the bottom of the bottom ring? [svg] amc10_45 [/svg] ",
+    "problem_statement": "A number of linked rings, each 1 cm thick, are hanging on a peg. The top ring has an outside diameter of 20 cm. The outside diameter of each of the outer rings is 1 cm less than that of the ring above it. The bottom ring has an outside diameter of 3 cm. What is the distance, in cm, from the top of the top ring to the bottom of the bottom ring? <img src=\"/assets/img/amc10_45.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2006&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -6374,7 +6374,7 @@
         "$24$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A circle of radius 1 is tangent to a circle of radius 2.  The sides of $ \\triangle ABC $ are tangent to the circles as shown, and the sides $ \\overline{AB} $ and $ \\overline{AC} $ are congruent.  What is the area of $ \\triangle ABC $? [svg] amc10_46 [/svg] ",
+    "problem_statement": "A circle of radius 1 is tangent to a circle of radius 2.  The sides of $ \\triangle ABC $ are tangent to the circles as shown, and the sides $ \\overline{AB} $ and $ \\overline{AC} $ are congruent.  What is the area of $ \\triangle ABC $? <img src=\"/assets/img/amc10_46.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2006&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -6400,7 +6400,7 @@
         "$\\frac{2\\sqrt{3}}{3}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In rectangle $ ADEH $, points $ B $ and $ C $ trisect $ \\overline{AD} $, and points $ G $ and $ F $ trisect $ \\overline{HE} $.  In addition, $ AH = AC = 2. $  What is the area of quadrilateral $ WXYZ $ shown in the figure? [svg] amc10_47 [/svg] ",
+    "problem_statement": "In rectangle $ ADEH $, points $ B $ and $ C $ trisect $ \\overline{AD} $, and points $ G $ and $ F $ trisect $ \\overline{HE} $.  In addition, $ AH = AC = 2. $  What is the area of quadrilateral $ WXYZ $ shown in the figure? <img src=\"/assets/img/amc10_47.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2006&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -6546,7 +6546,7 @@
         "$\\frac{55}{3}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Circles with centers $ A $ and $ B $ have radii 3 and 8, respectively. A common internal tangent intersects the circles at $ C $ and $ D $, respectively. Lines $ AB $ and $ CD $ intersect at $ E $, and $ AE = 5 $. What is $ CD $?\n [svg] amc10_48 [/svg] ",
+    "problem_statement": "Circles with centers $ A $ and $ B $ have radii 3 and 8, respectively. A common internal tangent intersects the circles at $ C $ and $ D $, respectively. Lines $ AB $ and $ CD $ intersect at $ E $, and $ AE = 5 $. What is $ CD $?\n <img src=\"/assets/img/amc10_48.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2006&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -6740,7 +6740,7 @@
         "$\\frac{16}{\\pi}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A region is bounded by semicircular arcs constructed on the side of a square whose sides measure $ 2/\\pi $, as shown. What is the perimeter of this region?  [svg] amc10_49 [/svg] ",
+    "problem_statement": "A region is bounded by semicircular arcs constructed on the side of a square whose sides measure $ 2/\\pi $, as shown. What is the perimeter of this region?  <img src=\"/assets/img/amc10_49.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2006&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -6790,7 +6790,7 @@
         "$50\\pi$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A square of area $ 40 $ is inscribed in a semicircle as shown. What is the area of the semicircle?  [svg] amc10_50 [/svg] ",
+    "problem_statement": "A square of area $ 40 $ is inscribed in a semicircle as shown. What is the area of the semicircle?  <img src=\"/assets/img/amc10_50.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2006&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -6960,7 +6960,7 @@
         "$6\\sqrt{3}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Rhombus $ ABCD $ is similar to rhombus $ BFDE $.  The area of rhombus $ ABCD $ is 24, and $ \\angle BAD = 60^\\circ $.  What is the area of rhombus $ BFDE $? [svg] amc10_51 [/svg] ",
+    "problem_statement": "Rhombus $ ABCD $ is similar to rhombus $ BFDE $.  The area of rhombus $ ABCD $ is 24, and $ \\angle BAD = 60^\\circ $.  What is the area of rhombus $ BFDE $? <img src=\"/assets/img/amc10_51.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2006&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -7058,7 +7058,7 @@
         "$\\frac{\\pi}{3}-1+\\sqrt{3}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A circle of radius 2 is centered at $ O $. Square $ OABC $ has side length 1. Sides $ \\overline{AB} $ and $ \\overline{CB} $ are extended past $ b $ to meet the circle at $ D $ and $ E $, respectively. What is the area of the shaded region in the figure, which is bounded by $ \\overline{BD} $, $ \\overline{BE} $, and the minor arc connecting $ D $ and $ E $? [svg] amc10_52 [/svg] ",
+    "problem_statement": "A circle of radius 2 is centered at $ O $. Square $ OABC $ has side length 1. Sides $ \\overline{AB} $ and $ \\overline{CB} $ are extended past $ b $ to meet the circle at $ D $ and $ E $, respectively. What is the area of the shaded region in the figure, which is bounded by $ \\overline{BD} $, $ \\overline{BE} $, and the minor arc connecting $ D $ and $ E $? <img src=\"/assets/img/amc10_52.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2006&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -7156,7 +7156,7 @@
         "$\\frac{55}{3}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A triangle is partitioned into three triangles and a quadrilateral by drawing two lines from vertices to their opposite sides. The areas of the three triangles are 3, 7, and 7, as shown. What is the area of the shaded quadrilateral?  [svg] amc10_53 [/svg] ",
+    "problem_statement": "A triangle is partitioned into three triangles and a quadrilateral by drawing two lines from vertices to their opposite sides. The areas of the three triangles are 3, 7, and 7, as shown. What is the area of the shaded quadrilateral?  <img src=\"/assets/img/amc10_53.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2006&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -7182,7 +7182,7 @@
         "$32\\sqrt{2}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Circles with centers $ O $ and $ P $ have radii 2 and 4, respectively, and are externally tangent.  Points $ A $ and $ B $ are on the circle centered at $ O $, and points $ C $ and $ D $ are on the circle centered at $ P $, such that $ \\overline{AD} $ and $ \\overline{BC} $ are common external tangents to the circles.  What is the area of hexagon $ AOBCPD $? [svg] amc10_54 [/svg] ",
+    "problem_statement": "Circles with centers $ O $ and $ P $ have radii 2 and 4, respectively, and are externally tangent.  Points $ A $ and $ B $ are on the circle centered at $ O $, and points $ C $ and $ D $ are on the circle centered at $ P $, such that $ \\overline{AD} $ and $ \\overline{BC} $ are common external tangents to the circles.  What is the area of hexagon $ AOBCPD $? <img src=\"/assets/img/amc10_54.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2006&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -7568,7 +7568,7 @@
         "$36+16\\sqrt{2}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Four circles of radius $ 1 $ are each tangent to two sides of a square and externally tangent to a circle of radius $ 2 $, as shown. What is the area of the square?\n [svg] amc10_55 [/svg] ",
+    "problem_statement": "Four circles of radius $ 1 $ are each tangent to two sides of a square and externally tangent to a circle of radius $ 2 $, as shown. What is the area of the square?\n <img src=\"/assets/img/amc10_55.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2007&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -7642,7 +7642,7 @@
         "$\\frac{62}{3}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Consider the $ 12 $-sided polygon $ ABCDEFGHIJKL $, as shown. Each of its sides has length $ 4 $, and each two consecutive sides form a right angle. Suppose that $ \\overline{AG} $ and $ \\overline{CH} $ meet at $ M $. What is the area of quadrilateral $ ABCM $?\n [svg] amc10_56 [/svg] ",
+    "problem_statement": "Consider the $ 12 $-sided polygon $ ABCDEFGHIJKL $, as shown. Each of its sides has length $ 4 $, and each two consecutive sides form a right angle. Suppose that $ \\overline{AG} $ and $ \\overline{CH} $ meet at $ M $. What is the area of quadrilateral $ ABCM $?\n <img src=\"/assets/img/amc10_56.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2007&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -7668,7 +7668,7 @@
         "$3\\sqrt{2}+2$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A paint brush is swept along both diagonals of a square to produce the symmetric painted area, as shown. Half the area of the square is painted. What is the ratio of the side length of the square to the brush width?\n [svg] amc10_57 [/svg] ",
+    "problem_statement": "A paint brush is swept along both diagonals of a square to produce the symmetric painted area, as shown. Half the area of the square is painted. What is the ratio of the side length of the square to the brush width?\n <img src=\"/assets/img/amc10_57.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2007&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -7784,7 +7784,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Circles centered at $ A $ and $ B $ each have radius $ 2 $, as shown. Point $ O $ is the midpoint of $ \\overline{AB} $, and $ OA = 2\\sqrt{2} $. Segments $ OC $ and $ OD $ are tangent to the circles centered at $ A $ and $ B $, respectively, and $ EF $ is a common tangent. What is the area of the shaded region $ ECODF $?\n [svg] amc10_58 [/svg] $ \\textbf{(A)}\\ \\frac{8\\sqrt{2}}{3}\\qquad\\textbf{(B)}\\ 8\\sqrt{2}-4-\\pi\\qquad\\textbf{(C)}\\ 4\\sqrt{2} $\n$ \\textbf{(D)}\\ 4\\sqrt{2}+\\frac{\\pi}{8}\\qquad\\textbf{(E)}\\ 8\\sqrt{2}-2-\\frac{\\pi}{2} $",
+    "problem_statement": "Circles centered at $ A $ and $ B $ each have radius $ 2 $, as shown. Point $ O $ is the midpoint of $ \\overline{AB} $, and $ OA = 2\\sqrt{2} $. Segments $ OC $ and $ OD $ are tangent to the circles centered at $ A $ and $ B $, respectively, and $ EF $ is a common tangent. What is the area of the shaded region $ ECODF $?\n <img src=\"/assets/img/amc10_58.svg\" class=\"problem-img\"> $ \\textbf{(A)}\\ \\frac{8\\sqrt{2}}{3}\\qquad\\textbf{(B)}\\ 8\\sqrt{2}-4-\\pi\\qquad\\textbf{(C)}\\ 4\\sqrt{2} $\n$ \\textbf{(D)}\\ 4\\sqrt{2}+\\frac{\\pi}{8}\\qquad\\textbf{(E)}\\ 8\\sqrt{2}-2-\\frac{\\pi}{2} $",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2007&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -7906,7 +7906,7 @@
         "$60$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The point $ O $ is the center of the circle circumscribed about $ \\triangle ABC $, with $ \\angle BOC = 120^\\circ $ and $ \\angle AOB = 140^\\circ $, as shown. What is the degree measure of $ \\angle ABC $?\n [svg] amc10_59 [/svg] ",
+    "problem_statement": "The point $ O $ is the center of the circle circumscribed about $ \\triangle ABC $, with $ \\angle BOC = 120^\\circ $ and $ \\angle AOB = 140^\\circ $, as shown. What is the degree measure of $ \\angle ABC $?\n <img src=\"/assets/img/amc10_59.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2007&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -8244,7 +8244,7 @@
         "$2+\\sqrt{2}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A circle of radius $ 1 $ is surrounded by $ 4 $ circles of radius $ r $ as shown. What is $ r $?\n [svg] amc10_60 [/svg] ",
+    "problem_statement": "A circle of radius $ 1 $ is surrounded by $ 4 $ circles of radius $ r $ as shown. What is $ r $?\n <img src=\"/assets/img/amc10_60.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2007&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -8270,7 +8270,7 @@
         "$\\frac{2}{3}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The wheel shown is spun twice, and the randomly determined numbers opposite the pointer are recorded. The first number is divided by $ 4 $, and the second number is divided by $ 5 $. The first remainder designates a column, and the second remainder designates a row on the checkerboard shown. What is the probability that the pair of numbers designates a shaded square?\n [svg] amc10_61 [/svg] ",
+    "problem_statement": "The wheel shown is spun twice, and the randomly determined numbers opposite the pointer are recorded. The first number is divided by $ 4 $, and the second number is divided by $ 5 $. The first remainder designates a column, and the second remainder designates a row on the checkerboard shown. What is the probability that the pair of numbers designates a shaded square?\n <img src=\"/assets/img/amc10_61.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2007&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -8320,7 +8320,7 @@
         "$2$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Right $ \\triangle ABC $ has $ AB = 3 $, $ BC = 4 $, and $ AC = 5 $. Square $ XYZW $ is inscribed in $ \\triangle ABC $ with $ X $ and $ Y $ on $ \\overline{AC} $, $ W $ on $ \\overline{AB} $, and $ Z $ on $ \\overline{BC} $. What is the side length of the square?\n\n [svg] amc10_62 [/svg] ",
+    "problem_statement": "Right $ \\triangle ABC $ has $ AB = 3 $, $ BC = 4 $, and $ AC = 5 $. Square $ XYZW $ is inscribed in $ \\triangle ABC $ with $ X $ and $ Y $ on $ \\overline{AC} $, $ W $ on $ \\overline{AB} $, and $ Z $ on $ \\overline{BC} $. What is the side length of the square?\n\n <img src=\"/assets/img/amc10_62.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2007&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -8736,7 +8736,7 @@
         "$3$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Older television screens have an aspect ratio of $ 4: 3 $. That is, the ratio of the width to the height is $ 4: 3 $. The aspect ratio of many movies is not $ 4: 3 $, so they are sometimes shown on a television screen by 'letterboxing' - darkening strips of equal height at the top and bottom of the screen, as shown. Suppose a movie has an aspect ratio of $ 2: 1 $ and is shown on an older television screen with a $ 27 $-inch diagonal. What is the height, in inches, of each darkened strip?\n [svg] amc10_63 [/svg] ",
+    "problem_statement": "Older television screens have an aspect ratio of $ 4: 3 $. That is, the ratio of the width to the height is $ 4: 3 $. The aspect ratio of many movies is not $ 4: 3 $, so they are sometimes shown on a television screen by 'letterboxing' - darkening strips of equal height at the top and bottom of the screen, as shown. Suppose a movie has an aspect ratio of $ 2: 1 $ and is shown on an older television screen with a $ 27 $-inch diagonal. What is the height, in inches, of each darkened strip?\n <img src=\"/assets/img/amc10_63.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2008&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -8906,7 +8906,7 @@
         "$\\sqrt3$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A cube with side length $ 1 $ is sliced by a plane that passes through two diagonally opposite vertices $ A $ and $ C $ and the midpoints $ B $ and $ D $ of two opposite edges not containing $ A $ and $ C $, ac shown. What is the area of quadrilateral $ ABCD $?\n [svg] amc10_64 [/svg] ",
+    "problem_statement": "A cube with side length $ 1 $ is sliced by a plane that passes through two diagonally opposite vertices $ A $ and $ C $ and the midpoints $ B $ and $ D $ of two opposite edges not containing $ A $ and $ C $, ac shown. What is the area of quadrilateral $ ABCD $?\n <img src=\"/assets/img/amc10_64.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2008&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -9004,7 +9004,7 @@
         "$\\frac{5+2\\sqrt{3}}{2}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A round table has radius $ 4 $. Six rectangular place mats are placed on the table. Each place mat has width $ 1 $ and length $ x $ as shown. They are positioned so that each mat has two corners on the edge of the table, these two corners being end points of the same side of length $ x $. Further, the mats are positioned so that the inner corners each touch an inner corner of an adjacent mat. What is $ x $?\n [svg] amc10_65 [/svg] ",
+    "problem_statement": "A round table has radius $ 4 $. Six rectangular place mats are placed on the table. Each place mat has width $ 1 $ and length $ x $ as shown. They are positioned so that each mat has two corners on the edge of the table, these two corners being end points of the same side of length $ x $. Further, the mats are positioned so that the inner corners each touch an inner corner of an adjacent mat. What is $ x $?\n <img src=\"/assets/img/amc10_65.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2008&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -9750,7 +9750,7 @@
         "$\\frac{3}{\\pi}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A circle of radius $ 2 $ is inscribed in a semicircle, as shown. The area inside the semicircle but outside the circle is shaded. What fraction of the semicircle's area is shaded?\n [svg] amc10_66 [/svg] ",
+    "problem_statement": "A circle of radius $ 2 $ is inscribed in a semicircle, as shown. The area inside the semicircle but outside the circle is shaded. What fraction of the semicircle's area is shaded?\n <img src=\"/assets/img/amc10_66.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2009&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -9848,7 +9848,7 @@
         "$42$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Triangle $ ABC $ has a right angle at $ B $. Point $ D $ is the foot of the altitude from $ B $, $ AD=3 $, and $ DC=4 $. What is the area of $ \\triangle{ABC} $?\n [svg] amc10_67 [/svg] ",
+    "problem_statement": "Triangle $ ABC $ has a right angle at $ B $. Point $ D $ is the foot of the altitude from $ B $, $ AD=3 $, and $ DC=4 $. What is the area of $ \\triangle{ABC} $?\n <img src=\"/assets/img/amc10_67.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2009&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -9898,7 +9898,7 @@
         "$15$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In quadrilateral $ ABCD $, $ AB = 5 $, $ BC = 17 $, $ CD = 5 $, $ DA = 9 $, and $ BD $ is an integer. What is $ BD $?\n [svg] amc10_68 [/svg] ",
+    "problem_statement": "In quadrilateral $ ABCD $, $ AB = 5 $, $ BC = 17 $, $ CD = 5 $, $ DA = 9 $, and $ BD $ is an integer. What is $ BD $?\n <img src=\"/assets/img/amc10_68.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2009&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -9948,7 +9948,7 @@
         "$4$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Four congruent rectangles are placed as shown. The area of the outer square is $ 4 $ times that of the inner square. What is the ratio of the length of the longer side of each rectangle to the length of its shorter side?\n [svg] amc10_69 [/svg] ",
+    "problem_statement": "Four congruent rectangles are placed as shown. The area of the outer square is $ 4 $ times that of the inner square. What is the ratio of the length of the longer side of each rectangle to the length of its shorter side?\n <img src=\"/assets/img/amc10_69.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2009&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -9974,7 +9974,7 @@
         "$761$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The figures $ F_1 $, $ F_2 $, $ F_3 $, and $ F_4 $ shown are the first in a sequence of figures. For $ n\\ge3 $, $ F_n $ is constructed from $ F_{n-1} $ by surrounding it with a square and placing one more diamond on each side of the new square than $ F_{n-1} $ had on each side of its outside square. For example, figure $ F_3 $ has $ 13 $ diamonds. How many diamonds are there in figure $ F_{20} $?\n [svg] amc10_70 [/svg] ",
+    "problem_statement": "The figures $ F_1 $, $ F_2 $, $ F_3 $, and $ F_4 $ shown are the first in a sequence of figures. For $ n\\ge3 $, $ F_n $ is constructed from $ F_{n-1} $ by surrounding it with a square and placing one more diamond on each side of the new square than $ F_{n-1} $ had on each side of its outside square. For example, figure $ F_3 $ has $ 13 $ diamonds. How many diamonds are there in figure $ F_{20} $?\n <img src=\"/assets/img/amc10_70.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2009&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -10114,7 +10114,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Many Gothic cathedrals have windows with portions containing a ring of congruent circles that are circumscribed by a larger circle, In the figure shown, the number of smaller circles is four. What is the ratio of the sum of the areas of the four smaller circles to the area of the larger circle?\n [svg] amc10_71 [/svg] $ \\textbf{(A)}\\ 3-2\\sqrt2\\qquad\\textbf{(B)}\\ 2-\\sqrt2\\qquad\\textbf{(C)}\\ 4(3-2\\sqrt2)\\qquad\\textbf{(D)}\\ \\frac{1}2(3-\\sqrt2) $\n$ \\textbf{(E)}\\ 2\\sqrt2-2 $",
+    "problem_statement": "Many Gothic cathedrals have windows with portions containing a ring of congruent circles that are circumscribed by a larger circle, In the figure shown, the number of smaller circles is four. What is the ratio of the sum of the areas of the four smaller circles to the area of the larger circle?\n <img src=\"/assets/img/amc10_71.svg\" class=\"problem-img\"> $ \\textbf{(A)}\\ 3-2\\sqrt2\\qquad\\textbf{(B)}\\ 2-\\sqrt2\\qquad\\textbf{(C)}\\ 4(3-2\\sqrt2)\\qquad\\textbf{(D)}\\ \\frac{1}2(3-\\sqrt2) $\n$ \\textbf{(E)}\\ 2\\sqrt2-2 $",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2009&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -10308,7 +10308,7 @@
         "$\\frac{1}3$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A rectangular yard contains two flower beds in the shape of congruent isosceles right triangles. THe remainder of the yard has a trapezoidal shape, as shown. The parallel sides of the trapezoid have lengths $ 15 $ and $ 25 $ meters. What fraction of the yard is occupied by the flower beds?\n [svg] amc10_72 [/svg] ",
+    "problem_statement": "A rectangular yard contains two flower beds in the shape of congruent isosceles right triangles. THe remainder of the yard has a trapezoidal shape, as shown. The parallel sides of the trapezoid have lengths $ 15 $ and $ 25 $ meters. What fraction of the yard is occupied by the flower beds?\n <img src=\"/assets/img/amc10_72.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2009&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -10430,7 +10430,7 @@
         "$62.5$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Segment $ BD $ and $ AE $ intersect at $ C $, as shown, $ AB=BC=CD=CE $, and $ \\angle A=\\frac{5}2\\angle B $. What is the degree measure of $ \\angle D $?\n [svg] amc10_73 [/svg] ",
+    "problem_statement": "Segment $ BD $ and $ AE $ intersect at $ C $, as shown, $ AB=BC=CD=CE $, and $ \\angle A=\\frac{5}2\\angle B $. What is the degree measure of $ \\angle D $?\n <img src=\"/assets/img/amc10_73.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2009&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -10528,7 +10528,7 @@
         "$\\overline{EA}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "As shown below, convex pentagon $ ABCDE $ has sides $ AB = 3 $, $ BC = 4 $, $ CD = 6 $, $ DE = 3 $, and $ EA = 7 $. The pentagon is originally positioned in the plane with vertex $ A $ at the origin and vertex $ B $ on the positive $ x $-axis. The pentagon is then rolled clockwise to the right along the $ x $-axis. Which side will touch the point $ x = 2009 $ on the $ x $-axis?\n [svg] amc10_74 [/svg] ",
+    "problem_statement": "As shown below, convex pentagon $ ABCDE $ has sides $ AB = 3 $, $ BC = 4 $, $ CD = 6 $, $ DE = 3 $, and $ EA = 7 $. The pentagon is originally positioned in the plane with vertex $ A $ at the origin and vertex $ B $ on the positive $ x $-axis. The pentagon is then rolled clockwise to the right along the $ x $-axis. Which side will touch the point $ x = 2009 $ on the $ x $-axis?\n <img src=\"/assets/img/amc10_74.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2009&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -10620,7 +10620,7 @@
         "$\\frac{4}5$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Five unit squares are arranged in the coordinate plane as shown, with the lower left corner at the origin. The slanted line, extending from $ (a,0) $ to $ (3,3) $, divides the entire region into two regions of equal area. What is $ a $?\n [svg] amc10_75 [/svg] ",
+    "problem_statement": "Five unit squares are arranged in the coordinate plane as shown, with the lower left corner at the origin. The slanted line, extending from $ (a,0) $ to $ (3,3) $, divides the entire region into two regions of equal area. What is $ a $?\n <img src=\"/assets/img/amc10_75.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2009&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -10688,7 +10688,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Triangle $ ABC $ has a right angle at $ B $, $ AB = 1 $, and $ BC = 2 $. The bisector of $ \\angle BAC $ meets $ \\overline{BC} $ at $ D $. What is $ BD $?\n [svg] amc10_76 [/svg] $ \\textbf{(A)}\\ \\frac{\\sqrt3-1}{2}\\qquad\\textbf{(B)}\\ \\frac{\\sqrt5-1}{2}\\qquad\\textbf{(C)}\\ \\frac{\\sqrt5+1}{2}\\qquad\\textbf{(D)}\\ \\frac{\\sqrt6+\\sqrt2}{2} $\n$ \\textbf{(E)}\\ 2\\sqrt3-1 $",
+    "problem_statement": "Triangle $ ABC $ has a right angle at $ B $, $ AB = 1 $, and $ BC = 2 $. The bisector of $ \\angle BAC $ meets $ \\overline{BC} $ at $ D $. What is $ BD $?\n <img src=\"/assets/img/amc10_76.svg\" class=\"problem-img\"> $ \\textbf{(A)}\\ \\frac{\\sqrt3-1}{2}\\qquad\\textbf{(B)}\\ \\frac{\\sqrt5-1}{2}\\qquad\\textbf{(C)}\\ \\frac{\\sqrt5+1}{2}\\qquad\\textbf{(D)}\\ \\frac{\\sqrt6+\\sqrt2}{2} $\n$ \\textbf{(E)}\\ 2\\sqrt3-1 $",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2009&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -10738,7 +10738,7 @@
         "$10+5\\sqrt5$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A cubical cake with edge length $ 2 $ inches is iced on the sides and the top. It is cut vertically into three pieces as shown in this top view, where $ M $ is the midpoint of a top edge. The piece whose top is triangle $ B $ contains $ c $ cubic inches of cake and $ s $ square inches of icing. What is $ c+s $?\n [svg] amc10_77 [/svg] ",
+    "problem_statement": "A cubical cake with edge length $ 2 $ inches is iced on the sides and the top. It is cut vertically into three pieces as shown in this top view, where $ M $ is the midpoint of a top edge. The piece whose top is triangle $ B $ contains $ c $ cubic inches of cake and $ s $ square inches of icing. What is $ c+s $?\n <img src=\"/assets/img/amc10_77.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2009&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -10788,7 +10788,7 @@
         "$108$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The keystone arch is an ancient architectural feature. It is composed of congruent isosceles trapezoids fitted together along the non-parallel sides, as shown. The bottom sides of the two end trapezoids are horizontal. In an arch made with $ 9 $ trapezoids, let $ x $ be the angle measure in degrees of the larger interior angle of the trapezoid. What is $ x $?\n [svg] amc10_78 [/svg] ",
+    "problem_statement": "The keystone arch is an ancient architectural feature. It is composed of congruent isosceles trapezoids fitted together along the non-parallel sides, as shown. The bottom sides of the two end trapezoids are horizontal. In an arch made with $ 9 $ trapezoids, let $ x $ be the angle measure in degrees of the larger interior angle of the trapezoid. What is $ x $?\n <img src=\"/assets/img/amc10_78.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2009&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -10862,7 +10862,7 @@
         "$3$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Four identical squares and one rectangle are placed together to form one large square as shown. The length of the rectangle is how many times as large as its width?\n [svg] amc10_79 [/svg] ",
+    "problem_statement": "Four identical squares and one rectangle are placed together to form one large square as shown. The length of the rectangle is how many times as large as its width?\n <img src=\"/assets/img/amc10_79.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2010&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -12436,7 +12436,7 @@
         "$1+\\frac{\\pi}{2}}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Circles $ A, B, $ and $ C $ each have radius 1. Circles $ A $ and $ B $ share one point of tangency. Circle $ C $ has a point of tangency with the midpoint of $ \\overline{AB} $. What is the area inside Circle $ C $ but outside circle $ A $ and circle $ B $ ? [svg] amc10_80 [/svg] ",
+    "problem_statement": "Circles $ A, B, $ and $ C $ each have radius 1. Circles $ A $ and $ B $ share one point of tangency. Circle $ C $ has a point of tangency with the midpoint of $ \\overline{AB} $. What is the area inside Circle $ C $ but outside circle $ A $ and circle $ B $ ? <img src=\"/assets/img/amc10_80.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2011&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -12816,7 +12816,7 @@
         "$\\frac{5}{2}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The area of $ \\triangle EBD $ is one third of the area of $ 3-4-5 $ $ \\triangle ABC $. Segment $ DE $ is perpendicular to segment $ AB $. What is $ BD $? [svg] amc10_81 [/svg] ",
+    "problem_statement": "The area of $ \\triangle EBD $ is one third of the area of $ 3-4-5 $ $ \\triangle ABC $. Segment $ DE $ is perpendicular to segment $ AB $. What is $ BD $? <img src=\"/assets/img/amc10_81.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2011&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -12986,7 +12986,7 @@
         "$2-\\sqrt{2}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A dart board is a regular octagon divided into regions as shown. Suppose that a dart thrown at the board is equally likely to land anywhere on the board. What is probability that the dart lands within the center square? [svg] amc10_82 [/svg] ",
+    "problem_statement": "A dart board is a regular octagon divided into regions as shown. Suppose that a dart thrown at the board is equally likely to land anywhere on the board. What is probability that the dart lands within the center square? <img src=\"/assets/img/amc10_82.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2011&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -13012,7 +13012,7 @@
         "$140$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In the given circle, the diameter $ \\overline{EB} $ is parallel to $ \\overline{DC} $, and $ \\overline{AB} $ is parallel to $ \\overline{ED} $. The angles $ AEB $ and $ ABE $ are in the ratio $ 4:5 $. What is the degree measure of angle $ BCD $?  [svg] amc10_83 [/svg] ",
+    "problem_statement": "In the given circle, the diameter $ \\overline{EB} $ is parallel to $ \\overline{DC} $, and $ \\overline{AB} $ is parallel to $ \\overline{ED} $. The angles $ AEB $ and $ ABE $ are in the ratio $ 4:5 $. What is the degree measure of angle $ BCD $?  <img src=\"/assets/img/amc10_83.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2011&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -13566,7 +13566,7 @@
         "$\\frac{\\sqrt2}{4}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Three unit squares and two line segments connecting two pairs of vertices are shown. What is the area of $ \\triangle ABC $? [svg] amc10_84 [/svg] ",
+    "problem_statement": "Three unit squares and two line segments connecting two pairs of vertices are shown. What is the area of $ \\triangle ABC $? <img src=\"/assets/img/amc10_84.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2012&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -13640,7 +13640,7 @@
         "$\\pi+6\\sqrt3$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The closed curve in the figure is made up of $ 9 $ congruent circular arcs each of length $ \\frac{2\\pi}{3} $, where each of the centers of the corresponding circles is among the vertices of a regular hexagon of side $ 2 $. What is the area enclosed by the curve?  [svg] amc10_85 [/svg] ",
+    "problem_statement": "The closed curve in the figure is made up of $ 9 $ congruent circular arcs each of length $ \\frac{2\\pi}{3} $, where each of the centers of the corresponding circles is among the vertices of a regular hexagon of side $ 2 $. What is the area enclosed by the curve?  <img src=\"/assets/img/amc10_85.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2012&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -13858,7 +13858,7 @@
         "$200$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A circle of radius $ 5 $ is inscribed in a rectangle as shown. The ratio of the the length of the rectangle to its width is $ 2\\ :\\ 1 $. What is the area of the rectangle? [svg] amc10_86 [/svg] ",
+    "problem_statement": "A circle of radius $ 5 $ is inscribed in a rectangle as shown. The ratio of the the length of the rectangle to its width is $ 2\\ :\\ 1 $. What is the area of the rectangle? <img src=\"/assets/img/amc10_86.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2012&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -14196,7 +14196,7 @@
         "$13\\pi$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Three circles with radius $ 2 $ are mutually tangent. What is the total area of the circles and the region bounded by them, as shown in the figure?  [svg] amc10_87 [/svg] ",
+    "problem_statement": "Three circles with radius $ 2 $ are mutually tangent. What is the total area of the circles and the region bounded by them, as shown in the figure?  <img src=\"/assets/img/amc10_87.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2012&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -14414,7 +14414,7 @@
         "$2400$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A bug travels from $ A $ to $ B $ along the segments in the hexagonal lattice pictured below. The segments marked with an arrow can be traveled only in the direction of the arrow, and the bug never travels the same segment more than once. How many different paths are there? [svg] amc10_88 [/svg] ",
+    "problem_statement": "A bug travels from $ A $ to $ B $ along the segments in the hexagonal lattice pictured below. The segments marked with an arrow can be traveled only in the direction of the arrow, and the bug never travels the same segment more than once. How many different paths are there? <img src=\"/assets/img/amc10_88.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2012&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -14698,7 +14698,7 @@
         "$72$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In $ \\triangle ABC $, $ AB=AC=28 $ and $ BC=20 $.  Points $ D,E, $ and $ F $ are on sides $ \\overline{AB} $, $ \\overline{BC} $, and $ \\overline{AC} $, respectively, such that $ \\overline{DE} $ and $ \\overline{EF} $ are parallel to $ \\overline{AC} $ and $ \\overline{AB} $, respectively.  What is the perimeter of parallelogram $ ADEF $? [svg] amc10_89 [/svg] ",
+    "problem_statement": "In $ \\triangle ABC $, $ AB=AC=28 $ and $ BC=20 $.  Points $ D,E, $ and $ F $ are on sides $ \\overline{AB} $, $ \\overline{BC} $, and $ \\overline{AC} $, respectively, such that $ \\overline{DE} $ and $ \\overline{EF} $ are parallel to $ \\overline{AC} $ and $ \\overline{AB} $, respectively.  What is the perimeter of parallelogram $ ADEF $? <img src=\"/assets/img/amc10_89.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2013&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -15384,7 +15384,7 @@
         "$15$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In $ \\triangle ABC $, medians $ \\overline{AD} $ and $ \\overline{CE} $ intersect at $ P $, $ PE=1.5 $, $ PD=2 $, and $ DE=2.5 $. What is the area of $ AEDC? $  [svg] amc10_90 [/svg] ",
+    "problem_statement": "In $ \\triangle ABC $, medians $ \\overline{AD} $ and $ \\overline{CE} $ intersect at $ P $, $ PE=1.5 $, $ PD=2 $, and $ DE=2.5 $. What is the area of $ AEDC? $  <img src=\"/assets/img/amc10_90.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2013&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -15500,7 +15500,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "The regular octagon $ ABCDEFGH $ has its center at $ J $.  Each of the vertices and the center are to be associated with one of the digits $ 1 $ through $ 9 $, with each digit used once, in such a way that the sums of the numbers on the lines $ AJE $, $ BJF $, $ CJG $, and $ DJH $ are equal.  In how many ways can this be done? [svg] amc10_91 [/svg] ",
+    "problem_statement": "The regular octagon $ ABCDEFGH $ has its center at $ J $.  Each of the vertices and the center are to be associated with one of the digits $ 1 $ through $ 9 $, with each digit used once, in such a way that the sums of the numbers on the lines $ AJE $, $ BJF $, $ CJG $, and $ DJH $ are equal.  In how many ways can this be done? <img src=\"/assets/img/amc10_91.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2013&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -15844,7 +15844,7 @@
         "$108\\sqrt{3}-9\\pi$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A regular hexagon has side length 6. Congruent arcs with radius 3 are drawn with the center at each of the vertices, creating circular sectors as shown. The region inside the hexagon but outside the sectors is shaded as shown What is the area of the shaded region? [svg] amc10_92 [/svg] ",
+    "problem_statement": "A regular hexagon has side length 6. Congruent arcs with radius 3 are drawn with the center at each of the vertices, creating circular sectors as shown. The region inside the hexagon but outside the sectors is shaded as shown What is the area of the shaded region? <img src=\"/assets/img/amc10_92.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2014&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -15870,7 +15870,7 @@
         "$6$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Equilateral $ \\triangle ABC $ has side length $ 1 $, and squares $ ABDE $, $ BCHI $, $ CAFG $ lie outside the triangle. What is the area of hexagon $ DEFGHI $? [svg] amc10_93 [/svg] ",
+    "problem_statement": "Equilateral $ \\triangle ABC $ has side length $ 1 $, and squares $ ABDE $, $ BCHI $, $ CAFG $ lie outside the triangle. What is the area of hexagon $ DEFGHI $? <img src=\"/assets/img/amc10_93.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2014&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -15944,7 +15944,7 @@
         "$\\frac{1}6$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In rectangle $ ABCD $, $ AB=1 $, $ BC=2 $, and points $ E $, $ F $, and $ G $ are midpoints of $ \\overline{BC} $, $ \\overline{CD} $, and $ \\overline{AD} $, respectively. Point $ H $ is the midpoint of $ \\overline{GE} $. What is the area of the shaded region? [svg] amc10_94 [/svg] ",
+    "problem_statement": "In rectangle $ ABCD $, $ AB=1 $, $ BC=2 $, and points $ E $, $ F $, and $ G $ are midpoints of $ \\overline{BC} $, $ \\overline{CD} $, and $ \\overline{AD} $, respectively. Point $ H $ is the midpoint of $ \\overline{GE} $. What is the area of the shaded region? <img src=\"/assets/img/amc10_94.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2014&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -16012,7 +16012,7 @@
 {
     "answer_choices": [],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Four cubes with edge lengths $ 1 $, $ 2 $, $ 3 $, and $ 4 $ are stacked as shown. What is the length of the portion of $ \\overline{XY} $ contained in the cube with edge length $ 3 $? [svg] amc10_95 [/svg] ",
+    "problem_statement": "Four cubes with edge lengths $ 1 $, $ 2 $, $ 3 $, and $ 4 $ are stacked as shown. What is the length of the portion of $ \\overline{XY} $ contained in the cube with edge length $ 3 $? <img src=\"/assets/img/amc10_95.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2014&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -16110,7 +16110,7 @@
         "$4:5$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A rectangular piece of paper whose length is $ \\sqrt3 $ times the width has area $ A $. The paper is divided into three sections along the opposite lengths, and then a dotted line is drawn from the first divider to the second divider on the opposite side as shown. The paper is then folded flat along this dotted line to create a new shape with area $ B $. What is the ratio $ B:A $? [svg] amc10_96 [/svg] ",
+    "problem_statement": "A rectangular piece of paper whose length is $ \\sqrt3 $ times the width has area $ A $. The paper is divided into three sections along the opposite lengths, and then a dotted line is drawn from the first divider to the second divider on the opposite side as shown. The paper is then folded flat along this dotted line to create a new shape with area $ B $. What is the ratio $ B:A $? <img src=\"/assets/img/amc10_96.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2014&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "A",
@@ -16280,7 +16280,7 @@
         "$34$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Doug constructs a square window using $ 8 $ equal-size panes of glass, as shown. The ratio of the height to width for each pane is $ 5:2 $, and the borders around and between the panes are $ 2 $ inches wide. In inches, what is the side length o the square window? [svg] amc10_97 [/svg] ",
+    "problem_statement": "Doug constructs a square window using $ 8 $ equal-size panes of glass, as shown. The ratio of the height to width for each pane is $ 5:2 $, and the borders around and between the panes are $ 2 $ inches wide. In inches, what is the side length o the square window? <img src=\"/assets/img/amc10_97.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2014&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -16474,7 +16474,7 @@
         "$3+2\\sqrt{3}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Six regular hexagons surround a regular hexagon of side length $ 1 $ as shown. What is the area of $ \\triangle ABC $? [svg] amc10_98 [/svg] ",
+    "problem_statement": "Six regular hexagons surround a regular hexagon of side length $ 1 $ as shown. What is the area of $ \\triangle ABC $? <img src=\"/assets/img/amc10_98.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2014&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -16524,7 +16524,7 @@
         "$\\frac{\\sqrt{2}}{4}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "In rectangle $ ABCD $, $ DC = 2CB $ and points $ E $ and $ F $ lie on $ \\overline{AB} $ so that $ \\overline{ED} $ and $ \\overline{FD} $ trisect $ \\angle ADC $ as shown. What is the ratio of the area of $ \\triangle DEF $ to the area of rectangle $ ABCD $? [svg] amc10_99 [/svg] ",
+    "problem_statement": "In rectangle $ ABCD $, $ DC = 2CB $ and points $ E $ and $ F $ lie on $ \\overline{AB} $ so that $ \\overline{ED} $ and $ \\overline{FD} $ trisect $ \\angle ADC $ as shown. What is the ratio of the area of $ \\triangle DEF $ to the area of rectangle $ ABCD $? <img src=\"/assets/img/amc10_99.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2014&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -16694,7 +16694,7 @@
         "$\\frac{\\sqrt5}{3}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "Eight semicircles line the inside of a square with side length 2 as shown. What is the radius of the circle tangent to all of these semicircles? [svg] amc10_100 [/svg] ",
+    "problem_statement": "Eight semicircles line the inside of a square with side length 2 as shown. What is the radius of the circle tangent to all of these semicircles? <img src=\"/assets/img/amc10_100.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2014&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
@@ -16720,7 +16720,7 @@
         "$\\frac{3+\\sqrt{5}}{2}$"
     ],
     "source_name": "Art of Problem Solving",
-    "problem_statement": "A sphere is inscribed in a truncated right circular cone as shown. The volume of the truncated cone is twice that of the sphere. What is the ratio of the radius of the bottom base of the truncated cone to the radius of the top base of the truncated cone? [svg] amc10_101 [/svg] ",
+    "problem_statement": "A sphere is inscribed in a truncated right circular cone as shown. The volume of the truncated cone is twice that of the sphere. What is the ratio of the radius of the bottom base of the truncated cone to the radius of the top base of the truncated cone? <img src=\"/assets/img/amc10_101.svg\" class=\"problem-img\"> ",
     "contest_name": "AMC 10",
     "source_link": "http://www.artofproblemsolving.com/Forum/resources.php?c=182&cid=43&year=2014&sid=b1293d66838fe140bea88a8d212e30e5",
     "name_modifier": "B",
