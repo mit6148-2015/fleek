@@ -36,10 +36,26 @@
 					<table id="search-results" class="table">
 						<thead>
 					    	<tr>
-					    		<th><a href ng-click="predicate = 'meta.setPattern'; reverse = !reverse">Contest</a></th>
-					    		<th><a href ng-click="predicate = 'meta.setInstance'; reverse = !reverse">Year</a></th>
-					     		<th><a href ng-click="predicate = 'meta.setIndex'; reverse = !reverse">Problem</a></th>
-					     		<th><a href ng-click="predicate = 'meta.response'; reverse = !reverse">Type</a></th>
+					    		<th>
+					    			<a href ng-click="predicate = 'meta.setPattern'; reverse = !reverse">Contest</a>
+					    			<img class="sort-arrow" ng-show="predicate == 'meta.setPattern' && reverse == false" src="/assets/img/icons/up-arrow.svg">
+					    			<img class="sort-arrow" ng-show="predicate == 'meta.setPattern' && reverse == true" src="/assets/img/icons/down-arrow.svg">
+					    		</th>
+					    		<th>
+					    			<a href ng-click="predicate = 'meta.setInstance'; reverse = !reverse">Year</a>
+					    			<img class="sort-arrow" ng-show="predicate == 'meta.setInstance' && reverse == false" src="/assets/img/icons/up-arrow.svg">
+					    			<img class="sort-arrow" ng-show="predicate == 'meta.setInstance' && reverse == true" src="/assets/img/icons/down-arrow.svg">
+					    		</th>
+					     		<th>
+					     			<a href ng-click="predicate = 'meta.setIndex'; reverse = !reverse">Problem</a>
+					     			<img class="sort-arrow" ng-show="predicate == 'meta.setIndex' && reverse == false" src="/assets/img/icons/up-arrow.svg">
+					     			<img class="sort-arrow" ng-show="predicate == 'meta.setIndex' && reverse == true" src="/assets/img/icons/down-arrow.svg">
+					     		</th>
+					     		<th>
+					     			<a href ng-click="predicate = 'meta.response'; reverse = !reverse">Type</a>
+					     			<img class="sort-arrow" ng-show="predicate == 'meta.response' && reverse == false" src="/assets/img/icons/up-arrow.svg">
+					     			<img class="sort-arrow" ng-show="predicate == 'meta.response' && reverse == true" src="/assets/img/icons/down-arrow.svg">
+					     		</th>
 					    	</tr>
 					    </thead>
 						<tr ng-repeat="result in results | orderBy:predicate:reverse">

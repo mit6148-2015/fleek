@@ -61,3 +61,6 @@ input::-webkit-inner-spin-button {
 	display: block;
 	margin: 14px auto;
 }
+.sort-arrow {
+	height: 14px;
+}
