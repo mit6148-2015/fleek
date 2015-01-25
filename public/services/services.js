@@ -80,7 +80,7 @@ app.factory('DataService', function($http, $q){
 	            );
 	        },
 	        search: function(text,conts,syear,eyear) {
-	        	return $http.get('/GETsearch', { params: {queryText: text, contests: conts, startYear: syear, endYear: eyear}})
+	        	return $http.get('/db/query/problems', { params: {queryText: text, contests: conts, startYear: syear, endYear: eyear}})
 	        		.then(function(response) {
 	        			if (typeof response.data === 'object') {
 							console.log("\tSearch response " + response.data.length);
@@ -95,7 +95,7 @@ app.factory('DataService', function($http, $q){
 	        	);
 	        },
 	        getProblem: function(problemId) {
-	        	return $http.get('/GETproblem', { params: {pid: problemId}})
+	        	return $http.get('/db/problem', { params: {id: problemId}})
 	        		.then(function(response) {
 	        			if (typeof response.data === 'object') {
 							console.log("\tSearch response " + response.data._id);
