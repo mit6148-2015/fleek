@@ -37,7 +37,7 @@ var app = angular.module('fleekApp', ['ngRoute'])
     $locationProvider.html5Mode(true);
 }])
 
-.run(function($rootScope, $location, $routeParams, AuthService) {
+.run(function($route, $rootScope, $location, $routeParams, AuthService) {
     //watch for route changes and redirect accordingly
     $rootScope.$on( "$routeChangeStart", function(event, next, current) {
     	//set current variable to template (used in showing/hiding elements)
@@ -57,7 +57,7 @@ var app = angular.module('fleekApp', ['ngRoute'])
 			else {
 				//if the user is trying to access search or problem, redirect to login page
 				if ($rootScope.restrictedTemplates.indexOf(next.templateUrl) >= 0) {
-					$location.path( "/login" );
+					$location.path("/login");
 				}
 			}
 			// console.log('logged in user: '+ $rootScope.userLoggedIn + ', current template: ' + $rootScope.current);
@@ -224,7 +224,8 @@ app.controller("searchController", function($scope,$rootScope,$routeParams,$loca
 	$scope.search();
 	//on submit, redirect to new path
 	$scope.submit = function() {
-		$location.path('/search/'+$scope.searchQuery);
+		$location.path('/search/'+$scope.searchQuery,false);
+		$scope.search();
 	}
 });
 
