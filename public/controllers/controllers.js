@@ -195,7 +195,7 @@ app.controller("searchController", function($scope,$rootScope,$routeParams,$loca
 	//data for form validation
 	$scope.minYear = 1950;
 	$scope.maxDate = Date.now();
-	$scope.contests = {'AMC 8': true, 'AMC 10': true, 'AMC 12': true, 'AIME': true, 'USAMO': true}
+	$scope.contests = {'AMC 8': true, 'AMC 10': true, 'AMC 12': true, 'AIME': true, 'USAMO': true, 'USAJMO': true, 'Putnam': true, 'Science Bowl': true};
 	$scope.contestList = [];
 	$scope.startYear = 1950;
 	$scope.endYear = 2015;
@@ -271,10 +271,12 @@ app.directive('dynamic', function ($compile) {
 		replace: true,
 		link: function (scope, ele, attrs) {
 			scope.$watch(attrs.dynamic, function(html) {
-				html = html.replace(/\$\$([^$]+)\$\$/g, "<span class=\"blue\" mathjax-bind=\"$1\"></span>");
-				html = html.replace(/\$([^$]+)\$/g, "<span class=\"red\" mathjax-bind=\"$1\"></span>");                
-				ele.html(html);
-				$compile(ele.contents())(scope);
+				if (html != null) {
+					html = html.replace(/\$\$([^$]+)\$\$/g, "<span class=\"blue\" mathjax-bind=\"$1\"></span>");
+					html = html.replace(/\$([^$]+)\$/g, "<span class=\"red\" mathjax-bind=\"$1\"></span>");                
+					ele.html(html);
+					$compile(ele.contents())(scope);
+				}
 			});
 		}
 	};
