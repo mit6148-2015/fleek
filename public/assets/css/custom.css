@@ -22,7 +22,7 @@ h1 {
 	margin-bottom: 20px;
 }
 .page-fill {
-	padding-top: 80px;
+	padding-top: 40px;
 	height: 100%;
 	width: 100%;
 }
@@ -53,4 +53,10 @@ input::-webkit-inner-spin-button {
 }
 .navbar-brand {
 	font-size: 200%;
+}
+.problem-img {
+	min-width: 150px;
+	min-height: 150px;
+	display: block;
+	margin: 14px auto;
 }
