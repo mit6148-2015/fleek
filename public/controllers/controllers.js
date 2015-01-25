@@ -84,6 +84,12 @@ app.controller("pageController", function ($scope, $rootScope, $location, AuthSe
 	}
 });
 
+//nav bar controller - controls navbar collapse
+app.controller("navBarController", function ($scope) {
+	$scope.isCollapsed = true;
+});
+
+
 //login controller - controls login form
 app.controller("loginController", function($scope, $rootScope, $location, AuthService) {
 	//default values
@@ -278,6 +284,7 @@ app.directive('dynamic', function ($compile) {
 app.directive("navBar", function() {
 	return {
 		restrict: 'E',
-		templateUrl: '/views/nav-bar.html'
+		templateUrl: '/views/nav-bar.html',
+		controller: 'navBarController'
 	};
 });
