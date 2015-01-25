@@ -11,11 +11,14 @@ mongoose.connect(dbConfig.uri);
 // controllers
 var returnIndex = require('../controllers/returnIndex');
 var auth = require('../controllers/auth');
+
 var userById = require('../controllers/userById');
 var problemById = require('../controllers/problemById');
 var setById = require('../controllers/setById');
-var queryProblems = require('../controllers/queryProblems');
 
+var queryUsers = require('../controllers/queryUsers');
+var queryProblems = require('../controllers/queryProblems');
+var querySets = require('../controllers/querySets');
 
 
 
@@ -79,7 +82,6 @@ router.get('/auth', auth, function(req, res) {
 });
 
 
-
 /***** DATABASE INTERACTION *****/
 
 // database retrieval
@@ -87,8 +89,14 @@ router.get('/db/user', auth, userById); // pass ID as 'id' parameter, responds w
 router.get('/db/problem', auth, problemById); // pass ID as 'id' parameter, responds with problem object
 router.get('/db/set', auth, setById); // pass ID as 'id' parameter, responds with set object
 
-// handles problem querying
+// database querying
+router.get('/db/query/users', auth, queryProblems); // check searchProblems.js for I/O
 router.get('/db/query/problems', auth, queryProblems); // check searchProblems.js for I/O
+router.get('/db/query/sets', auth, queryProblems); // check searchProblems.js for I/O
+
+// receiving information
+// router.post('/post/userstats', auth, userStats);
+// router.post('/post/bugreport', auth, bugReport);
 
 
 

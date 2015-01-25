@@ -2,13 +2,6 @@ var Problem = require('../models/problem');
 
 function queryProblems (req, res) {
 
-/*
-    res.send(req.query.test1);
-    console.log(req.query.test2);
-*/
-
-
-    
     queryText = req.query.queryText;
     setPatterns = req.query.contests;
     startYear = String(req.query.startYear);

@@ -12,7 +12,7 @@ var problemSchema = mongoose.Schema({
     tags: [{type: ObjectId, ref: 'Tag'}],
     statement: String,
     attachments: {},
-    response: {} // response object constructor comes from ./prototypes/problemMeta.js
+    response: {} // response object constructor comes from ./prototypes/response.js
 });
 
 // export model
