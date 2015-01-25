@@ -30,6 +30,17 @@ var app = angular.module('fleekApp', ['ngRoute'])
 	        templateUrl: '/views/profile.html',
 	        controller: 'profileController'
 	    })
+	    .when('/set', {
+	        templateUrl: '/views/setlist.html',
+	        controller: 'setlistController'
+	    })
+	    .when('/set/:userId', {
+	        templateUrl: '/views/set.html',
+	        controller: 'setController'
+	    })
+	    .when('/about', {
+	        templateUrl: '/views/about.html'
+	    })
 	    .otherwise({
 	        redirectTo: '/'
 	    });

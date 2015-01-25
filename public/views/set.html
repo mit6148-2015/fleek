@@ -1,0 +1,32 @@
+<div id="set-container" class="page-fill">
+	<div id="set" class="col-sm-6 col-sm-offset-3">
+		<h2>fleek</h2>
+		<a href="/set">Back to Set List</a>
+		<h3>{{problem.meta.setPattern}}</h3><h4> {{problem.meta.setInstance}}  #{{problem.meta.setIndex+1}}</h4>
+		<div dynamic="problem.statement"> </div>
+		<div style="color: #fff;">{{problem.response}}</div>
+		<div class="alert alert-success alert-dismissible" role="alert" ng-show="correct">
+			<button type="button" class="close" ng-click="correct = false" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			Correct!
+		</div>
+		<div class="alert alert-warning alert-dismissible" role="alert" ng-show="incorrect">
+			<button type="button" class="close" ng-click="incorrect = false" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			Try again!
+		</div>
+		<form name="intProblemForm" ng-show="problem.meta.response == 'integerAnswer'" novalidate>
+			<div class="form-group">
+				<div class="control-group" ng-class="{'has-error':intProblemForm.intResponse.$invalid}">
+					<div class="input-group">
+						<input autofocus focus-me="current=='/views/problem.html'" type="number" class="form-control" ng-model="intResponse" name="intResponse" placeholder="answer" ng-disabled="correct"></input>
+						<span class="input-group-btn">
+							<button class="btn btn-primary" type="submit" ng-disabled="intProblemForm.$invalid" ng-click="intValidate()">Go</button>
+						</span>
+					</div>
+				</div>
+			</div>
+		</form>
+		<div ng-repeat="(key,answer) in choices" ng-show="problem.meta.response == 'multipleChoice'">
+			<button class="btn btn-primary answer-choice" ng-click="multiValidate($index)" ng-disabled="correct">{{key}}</button> <span dynamic="answer"></span>
+		</div>
+	</div>
+</div>

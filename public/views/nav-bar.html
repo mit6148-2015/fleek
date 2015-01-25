@@ -13,6 +13,7 @@
 	    <div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
 	      <ul class="nav navbar-nav navbar-right">
 	      	<li><a href="/search" ng-show="userLoggedIn" ng-click="isCollapsed = !isCollapsed">Search</a></li>
+	      	<li><a href="/set" ng-show="userLoggedIn" ng-click="isCollapsed = !isCollapsed">Sets</a></li>
 	      	<li><a href="/profile/{{userLoggedIn}}" ng-show="userLoggedIn" ng-click="isCollapsed = !isCollapsed">Profile</a></li>
 	      	<li ng-hide="userLoggedIn"><a href="/login" ng-click="isCollapsed = !isCollapsed">Log In</a></li>
 	      	<li ng-show="userLoggedIn" ng-click="logout()"><a href ng-click="isCollapsed = !isCollapsed">Log Out</a></li>
