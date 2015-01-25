@@ -1,0 +1,33 @@
+<div id="setlist-container" class="page-fill">
+	<div id="setlist" class="col-sm-6 col-sm-offset-3">
+		<h2>fleek</h2>
+		<form name="setlistForm" novalidate>
+			<div class="form-group">
+				<div class="input-group">
+					<input focus-me="current=='/views/setlist.html'" type="text" class="form-control" ng-model="searchQuery" placeholder="search"></input>
+					<span class="input-group-btn">
+						<button class="btn btn-primary" type="submit" ng-disabled="searchForm.$invalid" ng-click="submit()">Go</button>
+					</span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="form-group">
+					<div class="btn-group" role="group" ng-repeat="contest in contestList">
+						<a href class="btn btn-sm btn-primary btn-multiple" role="button" ng-click="contests[contest] =! contests[contest]" ng-class="{'active':contests[contest]==true}">{{contest}}</a> 
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="form-group col-sm-8 col-sm-offset-2">
+					<div class="col-sm-5 control-group" ng-class="{'has-error':searchForm.startYear.$invalid}">
+						<input type="number" class="form-control" ng-model="startYear" name="startYear" min="{{minYear}}" max="{{maxDate | date:'yyyy'}}"></input>
+					</div>
+					<div class="text-center col-sm-2">to</div>
+					<div class="col-sm-5 control-group" ng-class="{'has-error':searchForm.endYear.$invalid}">
+						<input type="number" class="form-control" ng-model="endYear" name="endYear" min="{{minYear}}" max="{{maxDate | date:'yyyy'}}"></input>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
