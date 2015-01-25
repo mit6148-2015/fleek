@@ -3,12 +3,19 @@ var pathToOutput = '../../public/assets/reportedProblems.txt'
 
 function reportProblem(req, res) {
     var problemId = String(req.body.id);
-    fs.appendFile(pathToOutput, problemId, function(err) {
+    fs.open(pathToOutput, 'a', function(err, fid) {
         if (err)
             console.log(err);
 
-        res.send(problemId);
-    })
+        fs.appendFile(fid, problemId, function(err) {
+            if (err)
+                console.log(err);
+
+            res.send(problemId);
+
+            fs.close(fid);
+        })
+    }
 }
 
 module.exports = reportProblem;
