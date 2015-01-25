@@ -4,6 +4,7 @@ angular.module('fleekApp').controller("problemController", function($scope,$rout
 	$scope.choices = {};
 	$scope.correct = false;
 	$scope.incorrect = false;
+	$scope.reported = false;
 	//send a GET request for the problem data
 	DataService.getProblem($routeParams.problemId)
 	.then (function(data) {
@@ -40,5 +41,11 @@ angular.module('fleekApp').controller("problemController", function($scope,$rout
 			$scope.incorrect = true;
 			console.log("answer incorrect");
 		}
+	}
+	$scope.report = function() {
+		DataService.reportProblem($scope.problem._id)
+		.then (function(data) {
+			$scope.reported = true;
+		});
 	}
 });

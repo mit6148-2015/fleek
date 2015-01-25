@@ -2,7 +2,8 @@
 	<div id="problem" class="col-sm-6 col-sm-offset-3">
 		<h2>fleek</h2>
 		<a href="/search/{{searchHistory}}">Back to Search</a>
-		<h3>{{problem.meta.setPattern}}</h3><h4> {{problem.meta.setInstance}}  #{{problem.meta.setIndex+1}}</h4>
+		<h3>{{problem.meta.setPattern}}</h3>
+		<h4> {{problem.meta.setInstance}}  #{{problem.meta.setIndex+1}} <button ng-disabled="reported" class="btn btn-xs btn-danger" ng-click="report()">Report</button> </h4>
 		<div dynamic="problem.statement"> </div>
 		<div style="color: #fff;">{{problem.response}}</div>
 		<div class="alert alert-success alert-dismissible" role="alert" ng-show="correct">

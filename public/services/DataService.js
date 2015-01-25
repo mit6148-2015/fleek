@@ -46,6 +46,20 @@ angular.module('fleekApp').factory('DataService', function($http, $q){
 	        		}
 	        	);
 	        },
+	        reportProblem: function(problemId) {
+	        	return $http.post('/report', { params: {id: problemId}})
+	        		.then(function(response) {
+	        			if (typeof response.data === 'string') {
+							console.log("\tProblem reported " + response.data);
+	        				return response.data;
+	        			}
+	        			else {
+	        				return $q.reject(response.data);
+	        			}
+	        		}, function(response) {
+	        			return $q.reject(response.data);
+	        		}
+	        	);
+	        },
 	    };
-
 });
