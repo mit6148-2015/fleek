@@ -115,10 +115,10 @@
     "problem_number": "4",
     "question_level": "bonus",
     "set_name": "NSB Sample Set 1",
-    "problem_statement": "Divide the following and give your answer in scientific notation: 8\u00d710<sup>7</sup> / (4\u00d710<sup>4</sup>)<sup>(1/2)</sup>",
+    "problem_statement": "Divide the following and give your answer in scientific notation: 8&#215;10<sup>7</sup> / (4&#215;10<sup>4</sup>)<sup>(1/2)</sup>",
     "choices": [],
     "question_type": "short_answer",
-    "answer": "4 \u00d7 10<sup>5</sup>",
+    "answer": "4 &#215; 10<sup>5</sup>",
     "round": "Round 1"
 },
 {
@@ -1791,10 +1791,10 @@
     "problem_number": "4",
     "question_level": "toss_up",
     "set_name": "NSB Sample Set 1",
-    "problem_statement": "Simplify the following, giving your answer in proper scientific notation: (6.0 \u00d7 10<sup>12</sup>)(2.0 \u00d7 10<sup>10</sup>)<sup>2</sup>",
+    "problem_statement": "Simplify the following, giving your answer in proper scientific notation: (6.0 &#215; 10<sup>12</sup>)(2.0 &#215; 10<sup>10</sup>)<sup>2</sup>",
     "choices": [],
     "question_type": "short_answer",
-    "answer": "2.4 \u00d7 10<sup>33</sup>",
+    "answer": "2.4 &#215; 10<sup>33</sup>",
     "round": "Round 3"
 },
 {
@@ -2730,7 +2730,7 @@
     "problem_statement": "1 bar equals how many Pascals?",
     "choices": [],
     "question_type": "short_answer",
-    "answer": "100,000 (ACCEPT: 1 \u00d7 10<sup>5</sup> or 10<sup>5</sup>)",
+    "answer": "100,000 (ACCEPT: 1 &#215; 10<sup>5</sup> or 10<sup>5</sup>)",
     "round": "Round 4"
 },
 {
@@ -3644,7 +3644,7 @@
     "problem_statement": "Convert 0.001 grams per cubic millimeter into kilograms per cubic meter:",
     "choices": [],
     "question_type": "short_answer",
-    "answer": "1,000 (ACCEPT: 1 \u00d7 10<sup>3</sup>)",
+    "answer": "1,000 (ACCEPT: 1 &#215; 10<sup>3</sup>)",
     "round": "Round 5"
 },
 {
@@ -3816,7 +3816,7 @@
     "problem_statement": "If a wave has a frequency of 500 hertz, what is its period, in seconds?",
     "choices": [],
     "question_type": "short_answer",
-    "answer": "0.002 (ACCEPT: 2 \u00d7 10<sup>\u20133</sup>)",
+    "answer": "0.002 (ACCEPT: 2 &#215; 10<sup>\u20133</sup>)",
     "round": "Round 5"
 },
 {
@@ -8244,7 +8244,7 @@
     "problem_statement": "ntains 50 micrograms of an enzyme. What is the enzyme concentration in parts per million?",
     "choices": [],
     "question_type": "short_answer",
-    "answer": "2,000 (ACCEPT: 2 \u00d7 10<sup>3</sup>)",
+    "answer": "2,000 (ACCEPT: 2 &#215; 10<sup>3</sup>)",
     "round": "Round 10"
 },
 {
@@ -9543,10 +9543,10 @@
     "problem_number": "15",
     "question_level": "bonus",
     "set_name": "NSB Sample Set 1",
-    "problem_statement": "A 4.0 gram sample of calcium chloride contains 6.0 \u00d7 10<sup>22</sup> cations. Giving your answer in scientific notation to the nearest whole number, determine the number of anions in 2 grams of CaCl<sub>2</sub>. Assume the atomic mass of calcium is 40 and chloride is 35.",
+    "problem_statement": "A 4.0 gram sample of calcium chloride contains 6.0 &#215; 10<sup>22</sup> cations. Giving your answer in scientific notation to the nearest whole number, determine the number of anions in 2 grams of CaCl<sub>2</sub>. Assume the atomic mass of calcium is 40 and chloride is 35.",
     "choices": [],
     "question_type": "short_answer",
-    "answer": "6 \u00d7 10<sup>22</sup>",
+    "answer": "6 &#215; 10<sup>22</sup>",
     "round": "Round 11"
 },
 {
@@ -9853,7 +9853,7 @@
     "problem_number": "25",
     "question_level": "bonus",
     "set_name": "NSB Sample Set 1",
-    "problem_statement": "Solve the following equation for x: 2<sup>7</sup> \u00d7 2<sup>(x^2 \u2212 2)</sup> = 2<sup>21</sup>",
+    "problem_statement": "Solve the following equation for x: 2<sup>7</sup> &#215; 2<sup>(x^2 \u2212 2)</sup> = 2<sup>21</sup>",
     "choices": [],
     "question_type": "short_answer",
     "answer": "4 OR \u20134 (ACCEPT: x = &#177;4 )",
@@ -9938,7 +9938,7 @@
     "choices": [
         "diluting a buffer with water can change the pH of the water",
         "metal cations can act as weak acids in water solutions",
-        "an acid whose K<sub>a</sub> = 6 \u00d7 10<sup>-10</sup> is weaker than an acid whose K<sub>a</sub> = 5.8 \u00d7 10<sup>-4</sup>",
+        "an acid whose K<sub>a</sub> = 6 &#215; 10<sup>-10</sup> is weaker than an acid whose K<sub>a</sub> = 5.8 &#215; 10<sup>-4</sup>",
         "an acid whose pK<sub>a</sub> is 3.0 is stronger than an acid whose pK<sub>a</sub> is 7.0"
     ],
     "question_type": "multiple_choice",
@@ -11482,7 +11482,7 @@
     "problem_statement": "Consider a satellite that is a uniform sphere rotating about its axis. What is its moment of inertia, giving your answer in scientific notation and in kilogram meters squared, if it has a mass of 10,000 kilograms and a diameter of 200 meters?",
     "choices": [],
     "question_type": "short_answer",
-    "answer": "4 \u00d7 10<sup>7</sup>",
+    "answer": "4 &#215; 10<sup>7</sup>",
     "round": "Round 13"
 },
 {
@@ -11766,7 +11766,7 @@
     "problem_number": "1",
     "question_level": "bonus",
     "set_name": "NSB Sample Set 1",
-    "problem_statement": "Which of the following is closest to the pK<sub>a</sub> of an acid whose K<sub>a</sub> = 5.0 \u00d7 10<sub>-4</sub>:",
+    "problem_statement": "Which of the following is closest to the pK<sub>a</sub> of an acid whose K<sub>a</sub> = 5.0 &#215; 10<sub>-4</sub>:",
     "choices": [
         "2.3 ",
         "3.3 ",
@@ -12686,7 +12686,7 @@
     "problem_statement": "Consider a hypothetical reaction, A + B \u2192 C + D. At zero time, the concentration of A = 1 molar, after 30 seconds A = 0.5 molar, and after 50 seconds A = 0.3 molar. Calculate the average rate of disappearance of A over the time interval 30 seconds to 50 seconds, in molarity per second:",
     "choices": [],
     "question_type": "short_answer",
-    "answer": "1 \u00d7 10<sup>-2</sup> (ACCEPT: 0.01)",
+    "answer": "1 &#215; 10<sup>-2</sup> (ACCEPT: 0.01)",
     "round": "Round 14"
 },
 {
@@ -14231,10 +14231,10 @@
     "problem_number": "16",
     "question_level": "bonus",
     "set_name": "NSB Sample Set 1",
-    "problem_statement": "Consider the following equilibrium reaction, PCl<sub>5(gas)<sub> &#8594; PCl<sub>3(gas)<sub> + Cl<sub>2(gas)<sub>. If a 1-liter flask contains 0.02 moles of PCl<sub>3<sub> and 0.02 moles of Cl<sub>2<sub> at equilibrium, how many moles of PCl<sub>5<sub> are in the flask. Assume the equilibrium constant is 5 \u00d7 10<sup>-2<sup>.",
+    "problem_statement": "Consider the following equilibrium reaction, PCl<sub>5(gas)<sub> &#8594; PCl<sub>3(gas)<sub> + Cl<sub>2(gas)<sub>. If a 1-liter flask contains 0.02 moles of PCl<sub>3<sub> and 0.02 moles of Cl<sub>2<sub> at equilibrium, how many moles of PCl<sub>5<sub> are in the flask. Assume the equilibrium constant is 5 &#215; 10<sup>-2<sup>.",
     "choices": [],
     "question_type": "short_answer",
-    "answer": "8 \u00d7 10<sup>-3<sup> (ACCEPT: 0.008)",
+    "answer": "8 &#215; 10<sup>-3<sup> (ACCEPT: 0.008)",
     "round": "Round 16"
 },
 {
@@ -14495,10 +14495,10 @@
     "problem_number": "24",
     "question_level": "bonus",
     "set_name": "NSB Sample Set 1",
-    "problem_statement": "Assuming the universal gravitational constant is 6.67 \u00d7 10<sup>-11<sup> newton-meters squared per kilogram squared, what is the gravitational attraction, in newtons, between two, 10-kilogram perfectly uniform spheres separated by a center-to-center distance of 10 meters?",
+    "problem_statement": "Assuming the universal gravitational constant is 6.67 &#215; 10<sup>-11<sup> newton-meters squared per kilogram squared, what is the gravitational attraction, in newtons, between two, 10-kilogram perfectly uniform spheres separated by a center-to-center distance of 10 meters?",
     "choices": [],
     "question_type": "short_answer",
-    "answer": "6.67 \u00d7 10<sup>-11<sup>",
+    "answer": "6.67 &#215; 10<sup>-11<sup>",
     "round": "Round 16"
 },
 {

@@ -61,4 +61,14 @@ problemMeta['putnam'] = function (year, portion, problemNumber) {
 };
 
 
+problemMeta['scibowl'] = function (setInstance, setIndex, responseType, subject, questionType) {
+    this.setPattern = 'Science Bowl';
+    this.setInstance = setInstance;
+    this.setIndex = setIndex;
+    this.response = responseType; // shortAnswer/multipleChoice
+    this.subject = subject; // e.g. Biology
+    this.questionType = questionType; // Toss Up/Bonus
+};
+
+
 module.exports = problemMeta;
