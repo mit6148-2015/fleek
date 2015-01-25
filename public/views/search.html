@@ -33,7 +33,7 @@
 			<div class="col-md-12">
 				<p class="text-right">Problems found: {{results.length}}</p>
 				<div class="table-responsive">
-					<table id="search-results" class="table">
+					<table id="search-results" class="table table-hover">
 						<thead>
 					    	<tr>
 					    		<th>
@@ -58,10 +58,10 @@
 					     		</th>
 					    	</tr>
 					    </thead>
-						<tr ng-repeat="result in results | orderBy:predicate:reverse">
+						<tr ng-repeat="result in results | orderBy:predicate:reverse" ng-click="goTo(result._id)">
 							<td>{{result.meta.setPattern}}</td>
 							<td>{{result.meta.setInstance}}</td>
-							<td><a href="/problem/{{result._id}}">#{{result.meta.setIndex+1}}</a></td>
+							<td>#{{result.meta.setIndex+1}}</td>
 							<td>{{result.meta.response}}</td>
 						</tr>
 					</table>

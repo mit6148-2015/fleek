@@ -7,7 +7,7 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a href="/" class="navbar-brand">fleek</a>
+	      <a href="/" class="navbar-brand"><img class="nav-logo" src="/assets/img/icons/logo-alt.png"></a>
 	    </div>
 
 	    <div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
@@ -16,9 +16,9 @@
 	      	<li><a href="/set" ng-show="userLoggedIn" ng-click="isCollapsed = !isCollapsed">Sets</a></li>
 	      	<li><a href="/profile/{{userLoggedIn}}" ng-show="userLoggedIn" ng-click="isCollapsed = !isCollapsed">Profile</a></li>
 	      	<li ng-hide="userLoggedIn"><a href="/login" ng-click="isCollapsed = !isCollapsed">Log In</a></li>
+	      	<li ng-hide="userLoggedIn"><a href="/signup" ng-click="isCollapsed = !isCollapsed">Sign Up</a></li>
 	      	<li ng-show="userLoggedIn" ng-click="logout()"><a href ng-click="isCollapsed = !isCollapsed">Log Out</a></li>
-	      	<li><a href="https://docs.google.com/spreadsheets/d/1PW5d5G79-YgQf4mwm964JAhy5IkBNCHCIDHaQZ6h6Lc/edit?usp=sharing" target="blank" ng-click="isCollapsed = !isCollapsed">To Do</a></li>
-	      	<li><a href="https://docs.google.com/spreadsheets/d/1EkF1iYNpoKUcqpG5VoI-gcLbWxztlgOsTocL1VGDHjg/edit?usp=sharing" target="blank" ng-click="isCollapsed = !isCollapsed">Bug Report</a></li>
+	      	<li><a href="/about" ng-click="isCollapsed = !isCollapsed">About</a></li>
 	      </ul>
 	    </div>
 	</div>
