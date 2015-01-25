@@ -16,6 +16,7 @@
 	      	<li><a href="/set" ng-show="userLoggedIn" ng-click="isCollapsed = !isCollapsed">Sets</a></li>
 	      	<li><a href="/profile/{{userLoggedIn}}" ng-show="userLoggedIn" ng-click="isCollapsed = !isCollapsed">Profile</a></li>
 	      	<li ng-hide="userLoggedIn"><a href="/login" ng-click="isCollapsed = !isCollapsed">Log In</a></li>
+	      	<li ng-hide="userLoggedIn"><a href="/signup" ng-click="isCollapsed = !isCollapsed">Sign Up</a></li>
 	      	<li ng-show="userLoggedIn" ng-click="logout()"><a href ng-click="isCollapsed = !isCollapsed">Log Out</a></li>
 	      	<li><a href="/about" ng-click="isCollapsed = !isCollapsed">About</a></li>
 	      </ul>
