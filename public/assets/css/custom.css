@@ -64,3 +64,7 @@ input::-webkit-inner-spin-button {
 .sort-arrow {
 	height: 14px;
 }
+.team-image {
+	width: 100%;
+	margin-bottom: 10px;
+}
