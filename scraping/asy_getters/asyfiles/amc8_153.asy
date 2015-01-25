@@ -1,4 +1,5 @@
 settings.outformat="svg";
 import olympiad;
+unitsize(15);
 
 import three;defaultpen(linewidth(0.8));real r=0.5;currentprojection=orthographic(3/4,8/15,7/15);draw(unitcube, white, thick(), nolight);draw(shift(1,0,0)*unitcube, white, thick(), nolight);draw(shift(2,0,0)*unitcube, white, thick(), nolight);draw(shift(0,0,1)*unitcube, white, thick(), nolight);draw(shift(2,0,1)*unitcube, white, thick(), nolight);draw(shift(0,1,0)*unitcube, white, thick(), nolight);draw(shift(2,1,0)*unitcube, white, thick(), nolight);draw(shift(0,2,0)*unitcube, white, thick(), nolight);draw(shift(2,2,0)*unitcube, white, thick(), nolight);draw(shift(0,3,0)*unitcube, white, thick(), nolight);draw(shift(0,3,1)*unitcube, white, thick(), nolight);draw(shift(1,3,0)*unitcube, white, thick(), nolight);draw(shift(2,3,0)*unitcube, white, thick(), nolight);draw(shift(2,3,1)*unitcube, white, thick(), nolight);
