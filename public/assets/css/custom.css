@@ -1,6 +1,7 @@
 body {
 	height: 100vh;
 }
+/*navbar styling*/
 .navbar {
 	margin-bottom: 0;
 }
@@ -12,6 +13,10 @@ body {
 .nav-logo:hover {
 	opacity: 0.6;
 }
+.navbar-brand {
+	font-size: 200%;
+}
+/*page styling*/
 #page-content {
 	width: 100%;
 	height: 100%;
@@ -51,13 +56,12 @@ input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+/*set multiple choice styling*/
 .answer-choice {
 	width: 35px;
 	margin-bottom: 5px;
 }
-.navbar-brand {
-	font-size: 200%;
-}
+/*set embedded asy img size and display them in their own rows*/
 .problem-img {
 	min-width: 150px;
 	min-height: 150px;
@@ -65,13 +69,16 @@ input::-webkit-inner-spin-button {
 	display: block;
 	margin: 14px auto;
 }
+/*style table header sort arrows*/
 .sort-arrow {
 	height: 14px;
 }
+/*style team image on about page*/
 .team-image {
 	width: 100%;
 	margin-bottom: 10px;
 }
+/*set pointer over search result rows to indicate a link*/
 #search-results tr {
 	cursor: pointer;
 }
