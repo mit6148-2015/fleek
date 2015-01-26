@@ -111,7 +111,7 @@ router.get('/db/list/sets', listSets); // gets list of sets
 // stats
 router.post('/stats/solved', auth, solvedProblem); // pass problem ID as 'id'
 router.post('/stats/attempted', auth, attemptedProblem); // pass problem ID as 'id'
-router.get('/stats/bycountry', auth, countryStats); // get country statistics
+router.get('/stats/bycountry', countryStats); // get country statistics
 
 // tags
 router.post('/tag/tagproblem', auth, tagProblem); // pass problem and tag IDs, tags problem
