@@ -8,7 +8,7 @@ var userSchema = mongoose.Schema({
     password: String,
     gender: String,
     country: String,
-    stats {
+    stats: {
         solvedCount: Number,
         solvedProblems: [{type: ObjectId, ref: 'Problem'}],
         attemptedCount: Number,
