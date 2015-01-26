@@ -17,7 +17,7 @@ angular.module('fleekApp').factory('DataService', function($http, $q){
 	            );
 	        },
 	        search: function(text,conts,syear,eyear) {
-	        	return $http.get('/db/query/problems', { params: {queryText: text, contests: conts, startYear: syear, endYear: eyear}})
+	        	return $http.get('/db/query/problems', { params: {q: text, contests: conts, startYear: syear, endYear: eyear}})
 	        		.then(function(response) {
 	        			if (typeof response.data === 'object') {
 							console.log("\tSearch response " + response.data.length);
