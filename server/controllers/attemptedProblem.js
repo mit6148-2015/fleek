@@ -32,12 +32,9 @@ function attemptedProblem(req, res) {
             if (err)
                 console.log(err);
 
-            console.log('here reached');
-            console.log(problem);
             if (problem) {
                 problem.stats.attemptedCount++;
                 problem.save();
-                console.log(problem + ' saved');
             }
         });        
     }

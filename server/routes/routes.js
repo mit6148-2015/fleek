@@ -11,6 +11,7 @@ mongoose.connect(dbConfig.uri);
 // controllers
 var returnIndex = require('../controllers/returnIndex');
 var auth = require('../controllers/auth');
+var currentUser = require('../controllers/currentUser');
 var userById = require('../controllers/userById');
 var problemById = require('../controllers/problemById');
 var setById = require('../controllers/setById');
@@ -90,6 +91,7 @@ router.get('/auth', auth, function(req, res) {
 /***** DATABASE INTERACTION *****/
 
 // database retrieval
+router.get('/db/curuser', auth, currentUser); // responds with current user object
 router.get('/db/user', auth, userById); // pass user ID as 'id' parameter, responds with user object
 router.get('/db/problem', auth, problemById); // pass problem ID as 'id' parameter, responds with problem object
 router.get('/db/set', auth, setById); // pass set ID as 'id' parameter, responds with set object
