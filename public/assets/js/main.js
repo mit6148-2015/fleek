@@ -963,8 +963,7 @@ var latlong = {};
 		}
 
 		 // build map
-		setTimeout(function() {
-			console.log("amcharts ready");
+		AmCharts.ready(function () {
 			map = new AmCharts.AmMap();
 			map.zoomOnDoubleClick = false;
 			map.pathToImages = "images/";
@@ -1010,4 +1009,4 @@ var latlong = {};
 			map.dataProvider = dataProvider;
 
 			map.write("map-container");
-		},1000);
+		});
