@@ -16,7 +16,7 @@ function listTags (req, res) {
         function addIndex(index) {
             tag = tags[index];
 
-            tags.push({text: tag.tagText});
+            taglist.push({text: tag.tagText});
 
             index++;
             if (index < tags.length) {
