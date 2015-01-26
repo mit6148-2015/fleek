@@ -9,6 +9,8 @@ function countryStats(req, res) {
         if (users.length > 0) {
             var stats = {};
             doForIndex(0);
+        } else {
+            res.send({});
         }
 
         function doForIndex(index) {
