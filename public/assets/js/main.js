@@ -938,7 +938,6 @@ var latlong = {};
 		
 		for (var i = 0; i<userCountries.length; i++) {
 			data = userCountries[i];
-			console.log(data.country);
 			mapData[String(data.country)].value++;
 		}
 		
@@ -964,11 +963,13 @@ var latlong = {};
 
 		 // build map
 		var loadmap = function () {
+			console.log("loading map");
 			map = new AmCharts.AmMap();
 			map.zoomOnDoubleClick = false;
 			map.pathToImages = "images/";
 			map.zoomControl.zoomControlEnabled = false;
 			map.zoomControl.panControlEnabled = false;
+			map.dragMap = false;
 			map.areasSettings = {
 				unlistedAreasColor: "black",
 				unlistedAreasAlpha: 0.2
