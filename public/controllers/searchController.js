@@ -26,7 +26,7 @@ angular.module('fleekApp').controller("searchController", function($scope,$rootS
 	$scope.loadItems = function(query) {
 		matchingTags = [];
 		for (i = 0; i < $scope.tagList.length; i++) {
-			if ($scope.tagList[i]['text'].indexOf(query) > -1) {
+			if ($scope.tagList[i]['text'].indexOf(angular.lowercase(query)) > -1) {
 				matchingTags.push($scope.tagList[i]);
 			}
 		}
@@ -40,6 +40,7 @@ angular.module('fleekApp').controller("searchController", function($scope,$rootS
 	//on page load, send GET request for search results
 	$scope.search = function(){
 		var list = []
+		var tagsQuery = []
 		for (var key in $scope.contests) {
 			if ($scope.contests.hasOwnProperty(key)) {
 				if ($scope.contests[key]==true) {
@@ -47,9 +48,13 @@ angular.module('fleekApp').controller("searchController", function($scope,$rootS
 				}
 			}
 		}
+		for (var key in $scope.tags) {
+			tagsQuery.push($scope.tags[key]['text']);
+		}
+		console.log(tagsQuery);
 		if ($scope.searchQuery != null) {
 			console.log('searching contests ' + list);
-			DataService.search($scope.searchQuery,list,$scope.startYear, $scope.endYear)
+			DataService.search($scope.searchQuery,tagsQuery,list,$scope.startYear, $scope.endYear)
 			.then (function(data) {
 				$scope.results = data;
 			});
