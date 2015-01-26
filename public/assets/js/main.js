@@ -918,35 +918,13 @@ var latlong = {};
 		        "value": 0
 		    }
 		};
-
-	/* LOOK HERE: This is where we would be getting data from the table of users instead. */
-	var userCountries = [
-		{"user":"akshay", "country":"China"},
-		{"user":"akshay", "country":"China"},
-		{"user":"akshay", "country":"India"},
-		{"user":"akshay", "country":"India"},
-		{"user":"akshay", "country":"Germany"},
-		{"user":"akshay", "country":"Germany"},
-		{"user":"akshay", "country":"India"},
-		{"user":"akshay", "country":"France"},
-		{"user":"akshay", "country":"China"},
-		{"user":"akshay", "country":"China"},
-		{"user":"akshay", "country":"China"}
-		];
-
-		console.log("hey!");
-		
-		for (var i = 0; i<userCountries.length; i++) {
-			data = userCountries[i];
-			mapData[String(data.country)].value++;
-		}
 		
 
 		var map;
 		var minBulletSize = 3;
 		var maxBulletSize = 70;
-		var min = Infinity;
-		var max = -Infinity;
+		var min = 0;
+		var max = 50;
 
 		AmCharts.theme = AmCharts.themes.light;
 
