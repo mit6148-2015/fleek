@@ -13,13 +13,14 @@ function queryProblems (req, res) {
     // else {
     //     textSearch = {$text: { $search: queryText }};
     // }
-    textSearch = {$text: { $search: queryText }};
+    var conditions = {$text: { $search: queryText }};
 
+    
     // make sure setPatterns is an array
     if (Object.prototype.toString.call(setPatterns) === "[object String]")
         setPatterns = [setPatterns];
     
-    Problem.find(textSearch)
+    Problem.find(conditions)
     .where('meta.setPattern').in(setPatterns)
     .where('meta.setInstance').gte(startYear).lte(parseInt(endYear)+"z")
     .select('_id meta')
@@ -29,6 +30,10 @@ function queryProblems (req, res) {
 
         res.send(problems);
     });
+
+    console.log(setPatterns);
+
+
     
 };
 

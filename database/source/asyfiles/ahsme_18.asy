@@ -1,0 +1,5 @@
+settings.outformat="svg";
+import olympiad;
+unitsize(15);
+
+defaultpen(linewidth(.8pt));unitsize(.8cm);pair D= (0,9);pair E = origin;pair A = (3,9);pair P = (3.6,9);pair B = (4,9);pair F = (1,0);pair G = (2.6,0);pair H = (5,0);dot((0,0));dot((1,0));dot((2,0));dot((3,0));dot((4,0));dot((5,0));dot((0,9));dot((1,9));dot((2,9));dot((3,9));dot((4,9));dot((5,9));draw((D+(0,0.5))--(0,-0.5));draw(A--H);draw(P--G);draw(B--F);draw(F--H);draw(A--B);label("$D$",D,NW);label("$D'$",E,NW);label("0",(0,0),SE);label("1",(1,0),SE);label("2",(2,0),SE);label("3",(3,0),SE);label("4",(4,0),SE);label("5",(5,0),SE);label("0",(0,9),SE);label("1",(1,9),SE);label("2",(2,9),SE);label("3",(3,9),SW);label("4",(4,9),SE);label("5",(5,9),SE);label("$B'$",F,NW);label("$P'$",G,S);label("$A'$",H,NE);label("$A$",A,NW);label("$P$",P,N);label("$B$",B,NE);

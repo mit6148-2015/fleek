@@ -50,8 +50,7 @@ rl.on('close', function() {
 
 function makeSets(sets) {
     // setup database
-    var dbPath = require('./dbpath.js');
-    mongoose.connect(dbPath.uri);
+    mongoose.connect(mongodb://localhost/fleekdb);
 
     function doItFor(index, mongoose) {
         var set = sets[index]; 

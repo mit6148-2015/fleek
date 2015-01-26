@@ -1,0 +1,5 @@
+settings.outformat="svg";
+import olympiad;
+unitsize(15);
+
+//Choice Dsize(100);defaultpen(linewidth(0.7)+fontsize(8));real end=4.5;draw((-end,0)--(end,0), EndArrow(5));draw((0,-end)--(0,end), EndArrow(5));real ticks=0.2, four=3.7, r=0.1;draw((1,ticks)--(1,-ticks)^^(-1,ticks)--(-1,-ticks)^^(four,ticks)--(four,-ticks)^^(-four,ticks)--(-four,-ticks));label("$x$", (4,0), N);label("$y$", (0,4), W);label("$-4$", (-4,-ticks), S);label("$-1$", (-1,-ticks), S);label("$1$", (1,-ticks), S);label("$4$", (4,-ticks), S);real f(real x) {return  0.015625 x^5-0.244792 x^3+0.416667 x+0.6875;}real g(real x) {return 0.0284722 x^6-0.340278 x^4+0.874306 x^2-1.5625;}real z=3.14;draw(graph(f,-z, z), heavygray);draw(graph(g,-z, z), black);clip((-end-r,-end-r)--(-end-r, end+r)--(end+r,end+r)--(end+r, -end-r)--cycle);label("$\textbf{(D)}$", (-5,4.5));
