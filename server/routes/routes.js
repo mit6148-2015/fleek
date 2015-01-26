@@ -22,6 +22,7 @@ var queryProblems = require('../controllers/queryProblems');
 var querySets = require('../controllers/querySets');
 
 var solvedProblem = require('../controllers/solvedProblem');
+var attemptedProblem = require('../controllers/attemptedProblem');
 var reportProblem = require('../controllers/reportProblem');
 var countryStats = require('../controllers/countryStats')
 
@@ -105,6 +106,7 @@ router.get('/db/query/sets', auth, querySets); // check querySets.js for I/O
 
 // stats
 router.post('/stats/solved', auth, solvedProblem); // pass problem ID as 'id'
+router.post('/stats/attempted', auth, attemptedProblem); // pass problem ID as 'id'
 router.get('/stats/bycountry', countryStats); // get country statistics
 
 // problem reporting

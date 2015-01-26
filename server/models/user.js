@@ -9,7 +9,9 @@ var userSchema = mongoose.Schema({
     gender: String,
     country: String,
     solvedCount: Number,
-    solvedProblems: [{type: ObjectId, ref: 'Problem'}]
+    solvedProblems: [{type: ObjectId, ref: 'Problem'}],
+    attemptedCount: Number,
+    attemptedProblems: [{type: ObjectId, ref: 'Problem'}]
 });
 
 // generating a hash

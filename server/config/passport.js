@@ -52,6 +52,8 @@ function configurePassport(passport) {
                     newUser.country = req.body.country;
                     newUser.solvedCount = 0;
                     newUser.solvedProblems = [];
+                    newUser.attemptedCount = 0;
+                    newUser.attemptedProblems = [];
 
                     // save user
                     newUser.save(function(err) {

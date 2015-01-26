@@ -1,7 +1,7 @@
 var ObjectId = require('mongoose').Types.ObjectId; 
 var User = require('../models/user');
 
-function solvedProblem(req, res) {
+function attemptedProblem(req, res) {
 
     if(req.user){
         userId = req.user.id;
@@ -11,13 +11,13 @@ function solvedProblem(req, res) {
             if (err)
                 console.log(err);
 
-            if (user.solvedProblems.indexOf(problemObjectId) == -1) {
-                user.solvedProblems.push(problemObjectId);
-                user.solvedCount = user.solvedProblems.length;
+            if (user.attemptedProblem.indexOf(problemObjectId) == -1) {
+                user.attemptedProblem.push(problemObjectId);
+                user.attemptedCount = user.attemptedProblem.length;
                 user.save();
-                res.send('Problem solve recorded');
+                res.send('Problem attempt recorded');
             } else {
-                res.send('Problem already solved');
+                res.send('Problem already attempted');
             }
         });
 
@@ -26,4 +26,4 @@ function solvedProblem(req, res) {
 
 }
 
-module.exports = solvedProblem;
+module.exports = attemptedProblem;
