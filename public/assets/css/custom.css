@@ -1,6 +1,10 @@
-body {
-	height: 100vh;
+html {
+	background-color: #efefef;
 }
+
+/*body {
+	height: 100% !important;
+}*/
 /*navbar styling*/
 .navbar {
 	margin-bottom: 0;
@@ -15,6 +19,14 @@ body {
 }
 .navbar-brand {
 	font-size: 200%;
+}
+.icon-bar {
+	background-color: #fff !important;
+}
+.navbar-toggle:active,
+.navbar-toggle:focus,
+.navbar-toggle:hover {
+	background-color: #277D8A !important;
 }
 /*page styling*/
 #page-content {
