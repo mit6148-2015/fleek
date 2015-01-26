@@ -1,7 +1,7 @@
 { "_id" : { "$oid" : "54c5da64b49f8669cc0b337d" }, "tagText" : "diophantine equation", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33bc" }, { "$oid" : "54c5da64b49f8669cc0b33bd" } ], "__v" : 0 }
 { "_id" : { "$oid" : "54c5da64b49f8669cc0b337e" }, "tagText" : "proof by contradiction", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33c1" } ], "__v" : 0 }
 { "_id" : { "$oid" : "54c5da64b49f8669cc0b337f" }, "tagText" : "kite", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33ab" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b3380" }, "tagText" : "vieta's formula", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33ad" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c5da64b49f8669cc0b3380" }, "tagText" : "Vieta's formula", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33ad" } ], "__v" : 0 }
 { "_id" : { "$oid" : "54c5da64b49f8669cc0b3381" }, "tagText" : "roots", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33ad" } ], "__v" : 0 }
 { "_id" : { "$oid" : "54c5da64b49f8669cc0b3382" }, "tagText" : "prime number", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33bd" } ], "__v" : 0 }
 { "_id" : { "$oid" : "54c5da64b49f8669cc0b3383" }, "tagText" : "power of a point", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b3389" } ], "__v" : 0 }
@@ -41,7 +41,7 @@
 { "_id" : { "$oid" : "54c5da64b49f8669cc0b33a5" }, "tagText" : "2D geometry", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33a2" } ], "__v" : 0 }
 { "_id" : { "$oid" : "54c5da64b49f8669cc0b33a6" }, "tagText" : "hexagon", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33cb" } ], "__v" : 0 }
 { "_id" : { "$oid" : "54c5da64b49f8669cc0b33a7" }, "tagText" : "similar triangles", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b338d" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33a8" }, "tagText" : "Venn Diagram", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33c8" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33a8" }, "tagText" : "Venn diagram", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33c8" } ], "__v" : 0 }
 { "_id" : { "$oid" : "54c5da64b49f8669cc0b33a9" }, "tagText" : "modular arithmetic", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33bd" } ], "__v" : 0 }
 { "_id" : { "$oid" : "54c5da64b49f8669cc0b33aa" }, "tagText" : "probability", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33b2" } ], "__v" : 0 }
 { "_id" : { "$oid" : "54c5da64b49f8669cc0b33ab" }, "tagText" : "quadrilateral", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33cb" } ], "__v" : 0 }

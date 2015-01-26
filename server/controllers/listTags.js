@@ -1,7 +1,9 @@
 var Tag = require('../models/tag');
 
 function listTags (req, res) {
-    Tag.find({}, function (err, tags) {
+    Tag.find({})
+    .sort({ tagText: 'asc'})
+    .exec(function (err, tags) {
         if (err)
             console.log(err);
 
