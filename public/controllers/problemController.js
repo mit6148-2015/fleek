@@ -46,6 +46,18 @@ angular.module('fleekApp').controller("problemController", function($scope,$rout
 			// console.log("answer incorrect");
 		}
 	}
+	//validate short answer responses
+	$scope.shortValidate = function(response) {
+		$scope.answered = true;
+		if (response) {
+			DataService.sendProblemResult("/stats/solved",$scope.problem._id);
+			// console.log("answer correct!");
+		}
+		else {
+			DataService.sendProblemResult("/stats/attempted",$scope.problem._id);
+			// console.log("answer incorrect");
+		}
+	}
 	$scope.report = function() {
 		DataService.reportProblem($scope.problem._id)
 		.then (function(data) {
