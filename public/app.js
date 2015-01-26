@@ -4,7 +4,8 @@ angular.module('fleekApp', ['ngRoute','ngAnimate'])
 	function($routeProvider, $locationProvider) {
 	    $routeProvider
 		.when('/', {
-	        templateUrl: '/views/splash.html'
+	        templateUrl: '/views/splash.html',
+	        controller: 'splashController'
 	    })
 	    .when('/login', {
 	        templateUrl: '/views/login.html',
