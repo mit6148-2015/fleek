@@ -29,11 +29,13 @@ angular.module('fleekApp').controller("searchController", function($scope,$rootS
 				}
 			}
 		}
-		console.log('searching contests ' + list);
-		DataService.search($scope.searchQuery,list,$scope.startYear, $scope.endYear)
-		.then (function(data) {
-			$scope.results = data;
-		});
+		if ($scope.searchQuery != null) {
+			console.log('searching contests ' + list);
+			DataService.search($scope.searchQuery,list,$scope.startYear, $scope.endYear)
+			.then (function(data) {
+				$scope.results = data;
+			});
+		}
 	}
 	$scope.search();
 	//on submit, redirect to new path
