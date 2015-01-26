@@ -1,4 +1,4 @@
-angular.module('fleekApp', ['ngRoute'])
+angular.module('fleekApp', ['ngRoute','ngAnimate'])
 //routing definitions
 .config(['$routeProvider', '$locationProvider',
 	function($routeProvider, $locationProvider) {
