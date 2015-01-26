@@ -14,7 +14,7 @@ function listTags (req, res) {
         }
 
         function addIndex(index) {
-            tag = tags[index];
+            var tag = tags[index];
 
             taglist.push({text: tag.tagText});
 

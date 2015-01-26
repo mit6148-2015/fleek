@@ -24,6 +24,7 @@ var tagProblem = require('../controllers/tagProblem')
 var reportProblem = require('../controllers/reportProblem');
 var countryStats = require('../controllers/countryStats')
 var listTags = require('../controllers/listTags');
+var listSets = require('../controllers/listSets');
 
 
 
@@ -101,6 +102,7 @@ router.get('/db/query/sets', auth, querySets); // check querySets.js for I/O
 
 // database
 router.get('/db/list/tags', auth, listTags); // gets list of tags
+router.get('/db/list/sets', listSets); // gets list of sets
 
 
 
@@ -109,7 +111,7 @@ router.get('/db/list/tags', auth, listTags); // gets list of tags
 // stats
 router.post('/stats/solved', auth, solvedProblem); // pass problem ID as 'id'
 router.post('/stats/attempted', auth, attemptedProblem); // pass problem ID as 'id'
-router.get('/stats/bycountry', countryStats); // get country statistics
+router.get('/stats/bycountry', auth, countryStats); // get country statistics
 
 // tags
 router.post('/tag/tagproblem', auth, tagProblem); // pass problem and tag IDs, tags problem
