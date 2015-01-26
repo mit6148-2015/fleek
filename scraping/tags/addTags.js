@@ -40,9 +40,7 @@ rl.on('close', function() {
 });
 
 function addTags(tags, tagos) {
-    // setup database
-    var dbPath = require('./dbpath.js');
-    mongoose.connect(dbPath.uri);
+    mongoose.connect('mongodb://localhost/fleekdb');
 
     function doItFor(index, mongoose) {
         var tagtext = tags[index]; 
@@ -50,14 +48,17 @@ function addTags(tags, tagos) {
         Tag.create({
             tagText: tagtext,
             parentTags: []
-        });
+        }, function(err, createdTag){
+            if (err)
+                console.log(err);
 
-        index++;
-        if (index<tags.length) {
-            doItFor(index, mongoose);
-        } else {
-            getIdList(tags, tagos, mongoose);
-        }        
+            index++;
+            if (index<tags.length) {
+                doItFor(index, mongoose);
+            } else {
+                getIdList(tags, tagos, mongoose);
+            }   
+        });     
     }
 
     doItFor(0, mongoose);
@@ -72,6 +73,7 @@ function getIdList(tags, tagos, mongoose) {
         Tag.findOne({'tagText': tagtext}, function (err, tag) {
             if (err)
                 console.log(err);
+            
             if (tag) {
                 var key = tag.tagText;
                 idlist[key] = tag._id.toString();
@@ -94,23 +96,27 @@ function addParents(tags, tagos, idlist, mongoose) {
 
     function doItFor(index, mongoose) {
         var tago = tagos[index]; 
-        console.log(tago);
-        addThisParent(tago, 0);
-
+        if (tago.parentTags.length > 0) {
+            addThisParent(tago, 0);    
+        } else {
+            moveOn();
+        }
+        
         function addThisParent(tago, parentIndex) {
-            
-            if (tago.parentTags.length > 0) {
-                parentoid = new ObjectId(idlist[tago.parentTags[parentIndex]]);
+            tagoid = idlist[tago.tag];
+            parentoid = new ObjectId(idlist[tago.parentTags[parentIndex]]);
 
-                Tag.findByIdAndUpdate(idlist[tago.tag], { $push: {parentTags : parentoid}});
-            }
+            Tag.findByIdAndUpdate(tagoid, { $push: {parentTags : parentoid}}, function (err, foundTag) {
+                if (err)
+                    console.log(err);
 
-            parentIndex++;
-            if (parentIndex < tago.parentTags.length) {
-                addThisParent(tago, parentIndex);
-            } else {
-                moveOn();
-            }
+                parentIndex++;
+                if (parentIndex < tago.parentTags.length) {
+                    addThisParent(tago, parentIndex);
+                } else {
+                    moveOn();
+                }
+            });
         }
 
         function moveOn() {
