@@ -999,7 +999,7 @@ var latlong = {};
 					type: "circle",
 					width: size,
 					height: size,
-					color: "#16a085",
+					color: "#FFC53C",
 					longitude: latlong[id].longitude,
 					latitude: latlong[id].latitude,
 					title: i,

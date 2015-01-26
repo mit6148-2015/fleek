@@ -6,7 +6,7 @@
 				<button type="button" class="close" ng-click="err = false" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 				Incorrect username/password combination.
 			</div>
-			<div class="form-group">
+			<div class="control-group form-group" ng-class="{'has-error':loginForm.user.$invalid && loginForm.user.$dirty}">
 				<input autofocus focus-me="current=='/views/login.html'" type="email" ng-model="user" class="form-control" name="user" placeholder="email" required>
 			</div>
 			<div class="form-group">
