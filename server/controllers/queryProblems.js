@@ -4,6 +4,7 @@ function queryProblems (req, res) {
 
     // get conditions
     var queryText = String(req.query.q);
+    var tags = req.query.tags;
     var startYear = String(req.query.startYear);
     var endYear = String(req.query.endYear);
     var setPatterns = req.query.setPatterns;

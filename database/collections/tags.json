@@ -6,7 +6,6 @@
 { "_id" : { "$oid" : "54c5da64b49f8669cc0b3382" }, "tagText" : "prime number", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33bd" } ], "__v" : 0 }
 { "_id" : { "$oid" : "54c5da64b49f8669cc0b3383" }, "tagText" : "power of a point", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b3389" } ], "__v" : 0 }
 { "_id" : { "$oid" : "54c5da64b49f8669cc0b3384" }, "tagText" : "proportion", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33bc" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b3385" }, "tagText" : "PIE", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33c8" } ], "__v" : 0 }
 { "_id" : { "$oid" : "54c5da64b49f8669cc0b3386" }, "tagText" : "coordinates", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33a1" } ], "__v" : 0 }
 { "_id" : { "$oid" : "54c5da64b49f8669cc0b3387" }, "tagText" : "bases", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33a1" }, { "$oid" : "54c5da64b49f8669cc0b33bd" } ], "__v" : 0 }
 { "_id" : { "$oid" : "54c5da64b49f8669cc0b3388" }, "tagText" : "factor", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33bd" } ], "__v" : 0 }
@@ -41,7 +40,6 @@
 { "_id" : { "$oid" : "54c5da64b49f8669cc0b33a5" }, "tagText" : "2D geometry", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33a2" } ], "__v" : 0 }
 { "_id" : { "$oid" : "54c5da64b49f8669cc0b33a6" }, "tagText" : "hexagon", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33cb" } ], "__v" : 0 }
 { "_id" : { "$oid" : "54c5da64b49f8669cc0b33a7" }, "tagText" : "similar triangles", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b338d" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33a8" }, "tagText" : "Venn diagram", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33c8" } ], "__v" : 0 }
 { "_id" : { "$oid" : "54c5da64b49f8669cc0b33a9" }, "tagText" : "modular arithmetic", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33bd" } ], "__v" : 0 }
 { "_id" : { "$oid" : "54c5da64b49f8669cc0b33aa" }, "tagText" : "probability", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33b2" } ], "__v" : 0 }
 { "_id" : { "$oid" : "54c5da64b49f8669cc0b33ab" }, "tagText" : "quadrilateral", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33cb" } ], "__v" : 0 }
