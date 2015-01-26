@@ -36,11 +36,15 @@ html {
 	background-color: #efefef;
 }
 #splash-container {
+	margin: 0;
+}
+#splash-content {
+	margin: 0;
 }
 #map-container {
 	padding-top: 60px;
 	position: absolute;
-	width: 100%;
+	width: calc(100% - 30px);
 	height: 50vh;
 }
 #splash{
@@ -49,7 +53,7 @@ html {
 	background-color: #fff;
 	top: 60px;
 	padding: 10px;
-	border-radius: 20px;
+	border-radius: 0;
 	box-shadow: 0 0 20px #222;
 }
 #splash-logo {
@@ -137,6 +141,7 @@ input::-webkit-inner-spin-button {
 @media only screen and (min-width: 992px) {
 	#splash{
 		top: 20vh;
+		border-radius: 20px;
 	}
 	#map-container {
 		height: 100vh;
