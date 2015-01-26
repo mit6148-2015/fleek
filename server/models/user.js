@@ -1,13 +1,15 @@
 var mongoose = require('mongoose');
 var bcrypt = require('bcrypt');
+var ObjectId = mongoose.Schema.Types.ObjectId;
 
 // define schema for user model
 var userSchema = mongoose.Schema({
     username: String,
     password: String,
     gender: String,
-    country: String
-    // will add: list of problems attempted
+    country: String,
+    solvedCount: Number,
+    solvedProblems: [{type: ObjectId, ref: 'Problem'}]
 });
 
 // generating a hash

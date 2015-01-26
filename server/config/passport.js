@@ -50,6 +50,8 @@ function configurePassport(passport) {
                     newUser.password = newUser.generateHash(password);
                     newUser.gender = req.body.gender;
                     newUser.country = req.body.country;
+                    newUser.solvedCount = 0;
+                    newUser.solvedProblems = [];
 
                     // save user
                     newUser.save(function(err) {

@@ -21,6 +21,7 @@ var queryUsers = require('../controllers/queryUsers');
 var queryProblems = require('../controllers/queryProblems');
 var querySets = require('../controllers/querySets');
 
+var solvedProblem = require('../controllers/solvedProblem');
 var reportProblem = require('../controllers/reportProblem');
 
 
@@ -101,6 +102,9 @@ router.get('/db/query/sets', auth, querySets); // check querySets.js for I/O
 
 /***** RECEIVING INFORMATION *****/
 
+// stats
+router.post('/stats/solved', auth, solvedProblem); // pass problem ID as 'id'
+
 // problem reporting
 router.post('/report', auth, reportProblem); // pass problem ID as 'id', responds with same id after storing
 
@@ -109,7 +113,7 @@ router.post('/report', auth, reportProblem); // pass problem ID as 'id', respond
 /***** ERROR HANDLING *****/
 
 // 404
-router.all('*', function(req, res) {
+router.all('*', function (req, res) {
     res.sendFile(path.join(__dirname, '../../public/views/404.html'));
 });
 
