@@ -9,6 +9,10 @@ var problemSchema = mongoose.Schema({
         url: String,
         citation: String
     },
+    stats: {
+        solvedCount: Number,
+        attemptedCount: Number
+    },
     tags: [{type: ObjectId, ref: 'Tag'}],
     statement: String,
     attachments: {},
