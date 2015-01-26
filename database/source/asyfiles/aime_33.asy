@@ -1,0 +1,5 @@
+settings.outformat="svg";
+import olympiad;
+unitsize(15);
+
+size(150);defaultpen(linewidth(0.7)+fontsize(10));draw(rotate(45)*polygon(4));pair F=(1+sqrt(2))*dir(180), C=(1+sqrt(2))*dir(0), A=F+sqrt(2)*dir(45), E=F+sqrt(2)*dir(-45), B=C+sqrt(2)*dir(180-45), D=C+sqrt(2)*dir(45-180);draw(F--(-1,0)^^C--(1,0)^^A--B--C--D--E--F--cycle);pair point=origin;label("$A$", A, dir(point--A));label("$B$", B, dir(point--B));label("$C$", C, dir(point--C));label("$D$", D, dir(point--D));label("$E$", E, dir(point--E));label("$F$", F, dir(point--F));label("$\mathcal{P}$", intersectionpoint( A--(-1,0), F--(0,1) ));label("$\mathcal{S}$", intersectionpoint( E--(-1,0), F--(0,-1) ));label("$\mathcal{R}$", intersectionpoint( D--(1,0), C--(0,-1) ));label("$\mathcal{Q}$", intersectionpoint( B--(1,0), C--(0,1) ));label("$\mathcal{T}$", point);dot(A^^B^^C^^D^^E^^F);

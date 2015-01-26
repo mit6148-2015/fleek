@@ -1,0 +1,5 @@
+settings.outformat="svg";
+import olympiad;
+unitsize(15);
+
+/* AMC8 2003 #18 Problem */pair a=(102,256), b=(68,131), c=(162,101), d=(134,150);pair e=(269,105), f=(359,104), g=(303,12), h=(579,211);pair i=(534, 342), j=(442,432), k=(374,484), l=(278,501);pair m=(282,411), n=(147,451), o=(103,437), p=(31,373);pair q=(419,175), r=(462,209), s=(477,288), t=(443,358);pair oval=(282,303);draw(l--m--n--cycle);draw(p--oval);draw(o--oval);draw(b--d--oval);draw(c--d--e--oval);draw(e--f--g--h--i--j--oval);draw(k--oval);draw(q--oval);draw(s--oval);draw(r--s--t--oval);dot(a); dot(b); dot(c); dot(d); dot(e); dot(f); dot(g); dot(h);dot(i); dot(j); dot(k); dot(l); dot(m); dot(n); dot(o); dot(p);dot(q); dot(r); dot(s); dot(t);filldraw(yscale(.5)*Circle((282,606),80),white,black);label(scale(0.75)*"Sarah", oval);

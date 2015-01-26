@@ -5,30 +5,30 @@
             "geometry",
             "combinatorics",
             "number theory",
-            "proofs",
+            "proof",
             "arithmetic",
             "logic"
         ],
         "algebra": [
-            "functions",
-            "exponents",
-            "logarithms",
+            "function",
+            "exponent",
+            "logarithm",
             "trigonometry",
-            "equations",
-            "polynomials",
+            "equation",
+            "polynomial",
             "bases",
-            "arithmetic sequences",
+            "arithmetic sequence",
             "geometric series",
             "coordinates"
         ],
         "bases": [
             "binary"
         ],
-        "equations": [
+        "equation": [
             "quadratic",
-            "proportions",
-            "linear equations",
-            "diophantine equations",
+            "proportion",
+            "linear equation",
+            "diophantine equation",
             "recursion"
         ],
         "recursion": [
@@ -38,39 +38,39 @@
             "sine",
             "cosine",
             "tangent",
-            "trigonmetric identites",
+            "trigonometric identity",
             "law of cosines",
             "law of sines"
         ],
-        "trigonometric identities": [
+        "trigonometric identity": [
             "trigonometry addition formula",
             "double angle formula"
         ],
-        "functions": [
-            "cubics",
-            "quartics",
+        "function": [
+            "cubic",
+            "quartic",
             "quadratic",
             "domain",
             "range",
             "floor function",
             "ceiling function"
         ],
-        "polynomials": [
-            "cubics",
-            "quartics",
+        "polynomial": [
+            "cubic",
+            "quartic",
             "quadratic",
             "roots",
-            "vieta's formulas",
+            "vieta's formula",
             "factoring",
             "binomial theorem"
         ],
         "geometry": [
             "2D geometry",
-            "3D Geometry",
+            "3D geometry",
             "analytic geometry",
             "area",
             "perimeter",
-            "angles",
+            "angle",
             "congruence",
             "geometric probability"
         ],
@@ -88,33 +88,33 @@
             "constructive counting",
             "casework counting",
             "PIE",
-            "Venn Diagrams"
+            "Venn Diagram"
         ],
-        "3D Geometry": [
-            "cubes",
-            "pyramids",
-            "cones",
-            "prisms",
-            "spheres"
+        "3D geometry": [
+            "cube",
+            "pyramid",
+            "cone",
+            "prism",
+            "sphere"
         ],
         "2D geometry": [
-            "polygons",
-            "circles"
+            "polygon",
+            "circle"
         ],
-        "polygons": [
-            "triangles",
-            "quadrilaterals",
-            "pentagons",
-            "hexagons",
-            "octagons"
+        "polygon": [
+            "triangle",
+            "quadrilateral",
+            "pentagon",
+            "hexagon",
+            "octagon"
         ],
         "triangle": [
-            "triangle centers",
+            "triangle center",
             "similar triangles",
             "pythagorean theorem"
         ],
-        "quadrilaterals": [
-            "cyclic quadrilaterals",
+        "quadrilateral": [
+            "cyclic quadrilateral",
             "squares",
             "rhombus",
             "kite"
@@ -128,23 +128,23 @@
             "circumcircle"
         ],
         "number theory": [
-            "prime numbers",
+            "prime number",
             "modular arithmetic",
-            "divisors",
-            "factors",
+            "divisor",
+            "factor",
             "bases",
-            "diophantine equations",
+            "diophantine equation",
             "binomial theorem"
         ],
-        "factors": [
+        "factor": [
             "greatest common divisor",
             "number of divisors"
         ],
         "modular arithmetic": [
-            "remainders",
+            "remainder",
             "chinese remainder theorem"
         ],
-        "proofs": [
+        "proof": [
             "induction",
             "proof by contradiction"
         ]

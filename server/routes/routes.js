@@ -91,9 +91,9 @@ router.get('/db/problem', auth, problemById); // pass ID as 'id' parameter, resp
 router.get('/db/set', auth, setById); // pass ID as 'id' parameter, responds with set object
 
 // database querying
-router.get('/db/query/users', auth, queryProblems); // check searchProblems.js for I/O
-router.get('/db/query/problems', auth, queryProblems); // check searchProblems.js for I/O
-router.get('/db/query/sets', auth, queryProblems); // check searchProblems.js for I/O
+router.get('/db/query/users', auth, queryUsers); // check queryUsers.js for I/O
+router.get('/db/query/problems', auth, queryProblems); // check queryProblems.js for I/O
+router.get('/db/query/sets', auth, querySets); // check querySets.js for I/O
 
 // receiving information
 router.post('/report', auth, reportProblem); // pass problem ID as 'id', responds with same id after storing

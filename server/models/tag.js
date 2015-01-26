@@ -4,7 +4,7 @@ var ObjectId = mongoose.Schema.Types.ObjectId;
 
 // define schema for tag model
 var tagSchema = mongoose.Schema({
-    tag: String,
+    tagText: String,
     parentTags: [{type: ObjectId, ref: 'Tag'}]
 });
 
