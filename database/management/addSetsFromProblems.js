@@ -1,3 +1,13 @@
+/*
+INSTRUCTIONS:
+1. add problems to mongo db
+2. export problems to problems.json
+3. run this, which uses problems.json to add sets to mongo db
+4. export sets to sets.json
+the the jsons should correct (and mongo as well, although it's okay to reimport everything)
+*/
+
+
 var fs = require('fs');
 var readline = require('readline');
 var stream = require('stream');
@@ -50,7 +60,8 @@ rl.on('close', function() {
 
 function makeSets(sets) {
     // setup database
-    mongoose.connect(mongodb://localhost/fleekdb);
+    var dbPath = require('./dbpath.js');
+    mongoose.connect(dbPath.uri);
 
     function doItFor(index, mongoose) {
         var set = sets[index]; 
