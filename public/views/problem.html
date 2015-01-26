@@ -1,11 +1,14 @@
 <div id="problem-container" class="page-fill">
 	<div id="problem" class="col-sm-6 col-sm-offset-3">
 		<h2>fleek</h2>
-		<a href="/search/{{searchHistory}}">Back to Search</a>
-		<h3>{{problem.meta.setPattern}}</h3>
+		<a href="/search/{{searchHistory}}">Back to Search</a> 
+		<div class="pull-right">
+			Source: <a href="{{problem.source.url}}" target="blank">{{problem.source.name}}</a>
+		</div>
+		<h3>{{problem.meta.setPattern}} </h3>
 		<h4> {{problem.meta.setInstance}}  #{{problem.meta.setIndex+1}} <button ng-disabled="reported" class="btn btn-xs btn-danger pull-right" ng-click="report()">Report</button> </h4>
 		<div dynamic="problem.statement"> </div>
-		<div style="color: #fff;">{{problem.response}}</div>
+		<div style="color: #fff;">{{problem.meta.response}} {{problem.response}}</div>
 		<div class="alert alert-success alert-dismissible" role="alert" ng-show="correct">
 			<button type="button" class="close" ng-click="correct = false" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 			Correct!

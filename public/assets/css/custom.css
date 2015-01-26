@@ -114,7 +114,7 @@ input::-webkit-inner-spin-button {
 #search-results tr {
 	cursor: pointer;
 }
-
+/*media queries for splash page map size*/
 @media only screen and (min-width: 480px) {
 	#map-container {
 		height: 50vh;
