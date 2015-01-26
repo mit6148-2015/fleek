@@ -2,39 +2,40 @@ var Problem = require('../models/problem');
 
 function queryProblems (req, res) {
 
-    queryText = req.query.queryText;
-    setPatterns = req.query.contests;
-    startYear = String(req.query.startYear);
-    endYear = String(req.query.endYear);
-
-    // if (req.query.queryText==="undefined") {
-    //     textSearch = {};
-    // }
-    // else {
-    //     textSearch = {$text: { $search: queryText }};
-    // }
-    var conditions = {$text: { $search: queryText }};
-
-    
-    // make sure setPatterns is an array
+    // get conditions
+    var queryText = String(req.query.queryText);
+    var startYear = String(req.query.startYear);
+    var endYear = String(req.query.endYear);
+    var setPatterns = req.query.contests;
     if (Object.prototype.toString.call(setPatterns) === "[object String]")
-        setPatterns = [setPatterns];
-    
-    Problem.find(conditions)
-    .where('meta.setPattern').in(setPatterns)
-    .where('meta.setInstance').gte(startYear).lte(parseInt(endYear)+"z")
-    .select('_id meta')
-    .exec(function (err, problems) {
+        setPatterns = [setPatterns]; // make sure setPatterns is an array
+
+    // uses year condition only if instance is between these years
+    var FIRSTYEAR = "1900";
+    var LASTYEAR = "2100";
+
+    // start query
+    var query = Problem.find();
+
+    // query conditions
+    if (queryText !== "undefined")
+        query.where({$text: { $search: queryText }});
+    query.where('meta.setPattern').in(setPatterns)
+    query.or([{'meta.setInstance': {$gte: startYear, $lte: endYear + 'z'}},
+        {'meta.setInstance': {$lte: FIRSTYEAR}},
+        {'meta.setInstance': {$gte: LASTYEAR}}]); // in year range, or instance doesn't indicate year
+
+    // only return _id and meta fields
+    query.select('_id meta');
+
+    // respond to request with list of found problems
+    query.exec(function (err, problems) {
         if (err)
             console.log(err);
 
         res.send(problems);
     });
 
-    console.log(setPatterns);
-
-
-    
-};
+}
 
 module.exports = queryProblems;
