@@ -1,4 +1,4 @@
-angular.module('fleekApp', ['ngRoute','ngAnimate'])
+angular.module('fleekApp', ['ngRoute','ngTagsInput'])
 //routing definitions
 .config(['$routeProvider', '$locationProvider',
 	function($routeProvider, $locationProvider) {
