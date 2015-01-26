@@ -6,7 +6,7 @@ function countryStats(req, res) {
         if (err)
             console.log(err);
 
-        if (users.length) 
+        if (users.length > 0) 
             var stats = {};
             doForIndex(0);
 
