@@ -20,7 +20,6 @@ var tagById = require('../controllers/tagById');
 var queryUsers = require('../controllers/queryUsers');
 var queryProblems = require('../controllers/queryProblems');
 var querySets = require('../controllers/querySets');
-var queryTags = require('../controllers/queryTags');
 
 var reportProblem = require('../controllers/reportProblem');
 
@@ -97,7 +96,6 @@ router.get('/db/tag', auth, setById); // pass tag ID as 'id' parameter, responds
 router.get('/db/query/users', auth, queryUsers); // check queryUsers.js for I/O
 router.get('/db/query/problems', auth, queryProblems); // check queryProblems.js for I/O
 router.get('/db/query/sets', auth, querySets); // check querySets.js for I/O
-router.get('/db/query/tags', auth, queryTags); // check queryTags.js for I/O
 
 
 

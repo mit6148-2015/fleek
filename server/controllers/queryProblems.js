@@ -3,12 +3,14 @@ var Problem = require('../models/problem');
 function queryProblems (req, res) {
 
     // get conditions
-    var queryText = String(req.query.queryText);
+    var queryText = String(req.query.q);
     var startYear = String(req.query.startYear);
     var endYear = String(req.query.endYear);
-    var setPatterns = req.query.contests;
+    var setPatterns = req.query.setPatterns;
     if (Object.prototype.toString.call(setPatterns) === "[object String]")
         setPatterns = [setPatterns]; // make sure setPatterns is an array
+
+    console.log(queryText);
 
     // uses year condition only if instance is between these years
     var FIRSTYEAR = "1900";
@@ -18,12 +20,11 @@ function queryProblems (req, res) {
     var query = Problem.find();
 
     // query conditions
-    if (queryText !== "undefined")
-        query.where({$text: { $search: queryText }});
-    query.where('meta.setPattern').in(setPatterns)
+    query.where({$text: { $search: queryText }});
     query.or([{'meta.setInstance': {$gte: startYear, $lte: endYear + 'z'}},
         {'meta.setInstance': {$lte: FIRSTYEAR}},
         {'meta.setInstance': {$gte: LASTYEAR}}]); // in year range, or instance doesn't indicate year
+    query.where('meta.setPattern').in(setPatterns);
 
     // only return _id and meta fields
     query.select('_id meta');
