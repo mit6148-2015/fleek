@@ -23,6 +23,7 @@ var attemptedProblem = require('../controllers/attemptedProblem');
 var tagProblem = require('../controllers/tagProblem')
 var reportProblem = require('../controllers/reportProblem');
 var countryStats = require('../controllers/countryStats')
+var listTags = require('../controllers/listTags');
 
 
 
@@ -97,6 +98,9 @@ router.get('/db/tag', auth, setById); // pass tag ID as 'id' parameter, responds
 router.get('/db/query/users', auth, queryUsers); // check queryUsers.js for I/O
 router.get('/db/query/problems', auth, queryProblems); // check queryProblems.js for I/O
 router.get('/db/query/sets', auth, querySets); // check querySets.js for I/O
+
+// database
+router.get('/db/list/tags', auth, listTags); // gets list of tags
 
 
 
