@@ -57,7 +57,7 @@ angular.module('fleekApp').controller("searchController", function($scope,$rootS
     	if (tagsQuery.length < 1) {
     		tagsQuery = " ";
     	}
-		console.log('searching tags ' + tagsQuery + ' & contests ' + list);
+		console.log('searching text "'+$scope.searchQuery+'" & tags "' + tagsQuery + '" & contests "' + list+'"');
 		DataService.search($scope.searchQuery,tagsQuery,list,$scope.startYear, $scope.endYear)
 		.then (function(data) {
 			$scope.results = data;
