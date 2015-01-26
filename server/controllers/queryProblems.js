@@ -10,8 +10,6 @@ function queryProblems (req, res) {
     if (Object.prototype.toString.call(setPatterns) === "[object String]")
         setPatterns = [setPatterns]; // make sure setPatterns is an array
 
-    console.log(queryText);
-
     // uses year condition only if instance is between these years
     var FIRSTYEAR = "1900";
     var LASTYEAR = "2100";
