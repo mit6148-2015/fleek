@@ -59,7 +59,7 @@ angular.module('fleekApp').factory('DataService', function($http, $q){
 	        			return $q.reject(response.data);
 	        		}
 	        	);
-	        }
+	        },
 	        reportProblem: function(problemId) {
 	        	return $http.post('/report', { params: {id: problemId}})
 	        		.then(function(response) {
