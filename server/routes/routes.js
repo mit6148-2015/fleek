@@ -15,10 +15,12 @@ var auth = require('../controllers/auth');
 var userById = require('../controllers/userById');
 var problemById = require('../controllers/problemById');
 var setById = require('../controllers/setById');
+var tagById = require('../controllers/tagById');
 
 var queryUsers = require('../controllers/queryUsers');
 var queryProblems = require('../controllers/queryProblems');
 var querySets = require('../controllers/querySets');
+var queryTags = require('../controllers/queryTags');
 
 var reportProblem = require('../controllers/reportProblem');
 
@@ -86,16 +88,22 @@ router.get('/auth', auth, function(req, res) {
 /***** DATABASE INTERACTION *****/
 
 // database retrieval
-router.get('/db/user', auth, userById); // pass ID as 'id' parameter, responds with user object
-router.get('/db/problem', auth, problemById); // pass ID as 'id' parameter, responds with problem object
-router.get('/db/set', auth, setById); // pass ID as 'id' parameter, responds with set object
+router.get('/db/user', auth, userById); // pass user ID as 'id' parameter, responds with user object
+router.get('/db/problem', auth, problemById); // pass problem ID as 'id' parameter, responds with problem object
+router.get('/db/set', auth, setById); // pass set ID as 'id' parameter, responds with set object
+router.get('/db/tag', auth, setById); // pass tag ID as 'id' parameter, responds with tag object
 
 // database querying
 router.get('/db/query/users', auth, queryUsers); // check queryUsers.js for I/O
 router.get('/db/query/problems', auth, queryProblems); // check queryProblems.js for I/O
 router.get('/db/query/sets', auth, querySets); // check querySets.js for I/O
+router.get('/db/query/tags', auth, queryTags); // check queryTags.js for I/O
 
-// receiving information
+
+
+/***** RECEIVING INFORMATION *****/
+
+// problem reporting
 router.post('/report', auth, reportProblem); // pass problem ID as 'id', responds with same id after storing
 
 
