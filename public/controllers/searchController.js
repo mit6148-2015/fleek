@@ -51,13 +51,17 @@ angular.module('fleekApp').controller("searchController", function($scope,$rootS
 		for (var key in $scope.tags) {
 			tagsQuery.push($scope.tags[key]['text']);
 		}
-		if ($scope.searchQuery != null) {
-			console.log('searching tags ' + tagsQuery + ' & contests ' + list);
-			DataService.search($scope.searchQuery,tagsQuery,list,$scope.startYear, $scope.endYear)
-			.then (function(data) {
-				$scope.results = data;
-			});
-		}
+		if ($scope.searchQuery == null) {
+    		$scope.searchQuery = " ";
+    	}
+    	if (tagsQuery.length < 1) {
+    		tagsQuery = " ";
+    	}
+		console.log('searching tags ' + tagsQuery + ' & contests ' + list);
+		DataService.search($scope.searchQuery,tagsQuery,list,$scope.startYear, $scope.endYear)
+		.then (function(data) {
+			$scope.results = data;
+		});
 	}
 	$scope.search();
 	//on submit, redirect to new path
