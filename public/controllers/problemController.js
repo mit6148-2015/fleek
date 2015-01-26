@@ -21,6 +21,7 @@ angular.module('fleekApp').controller("problemController", function($scope,$rout
 		if ($scope.intResponse == parseInt($scope.problem.response.answer)) {
 			$scope.incorrect = false;
 			$scope.correct = true;
+			DataService.sendSuccess($scope.problem._id);
 			console.log("answer correct!");
 		}
 		else {
@@ -34,6 +35,7 @@ angular.module('fleekApp').controller("problemController", function($scope,$rout
 		if (choice == $scope.problem.response.correctIndex) {
 			$scope.incorrect = false;
 			$scope.correct = true;
+			DataService.sendSuccess($scope.problem._id);
 			console.log("answer correct!");
 		}
 		else {
