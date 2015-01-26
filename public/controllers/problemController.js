@@ -22,12 +22,12 @@ angular.module('fleekApp').controller("problemController", function($scope,$rout
 			$scope.incorrect = false;
 			$scope.correct = true;
 			DataService.sendSuccess($scope.problem._id);
-			console.log("answer correct!");
+			// console.log("answer correct!");
 		}
 		else {
 			$scope.correct = false;
 			$scope.incorrect = true;
-			console.log("answer incorrect");
+			// console.log("answer incorrect");
 		}
 	}
 	//validate multiple choice responses
@@ -36,12 +36,12 @@ angular.module('fleekApp').controller("problemController", function($scope,$rout
 			$scope.incorrect = false;
 			$scope.correct = true;
 			DataService.sendSuccess($scope.problem._id);
-			console.log("answer correct!");
+			// console.log("answer correct!");
 		}
 		else {
 			$scope.correct = false;
 			$scope.incorrect = true;
-			console.log("answer incorrect");
+			// console.log("answer incorrect");
 		}
 	}
 	$scope.report = function() {

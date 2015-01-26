@@ -50,6 +50,7 @@ angular.module('fleekApp').factory('DataService', function($http, $q){
 	        	return $http.post('/stats/solved', { params: {id: problemId}})
 	        		.then(function(response) {
 	        			if (typeof response.data === 'string') {
+	        				console.log(response.data);
 	        				return response.data;
 	        			}
 	        			else {
