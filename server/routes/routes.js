@@ -11,18 +11,16 @@ mongoose.connect(dbConfig.uri);
 // controllers
 var returnIndex = require('../controllers/returnIndex');
 var auth = require('../controllers/auth');
-
 var userById = require('../controllers/userById');
 var problemById = require('../controllers/problemById');
 var setById = require('../controllers/setById');
 var tagById = require('../controllers/tagById');
-
 var queryUsers = require('../controllers/queryUsers');
 var queryProblems = require('../controllers/queryProblems');
 var querySets = require('../controllers/querySets');
-
 var solvedProblem = require('../controllers/solvedProblem');
 var attemptedProblem = require('../controllers/attemptedProblem');
+var tagProblem = require('../controllers/tagProblem')
 var reportProblem = require('../controllers/reportProblem');
 var countryStats = require('../controllers/countryStats')
 
@@ -108,6 +106,9 @@ router.get('/db/query/sets', auth, querySets); // check querySets.js for I/O
 router.post('/stats/solved', auth, solvedProblem); // pass problem ID as 'id'
 router.post('/stats/attempted', auth, attemptedProblem); // pass problem ID as 'id'
 router.get('/stats/bycountry', countryStats); // get country statistics
+
+// tags
+router.post('/tag/tagproblem', auth, tagProblem); // pass problem and tag IDs, tags problem
 
 // problem reporting
 router.post('/report', auth, reportProblem); // pass problem ID as 'id', responds with same id after storing
