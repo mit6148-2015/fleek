@@ -8,15 +8,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="shortcut icon" href="/assets/img/icons/favicon.ico">
-        <link rel="icon" type="image/png" href="/assets/img/icons/favicon-192x192.png" sizes="192x192">
         <link rel="icon" type="image/png" href="/assets/img/icons/favicon-160x160.png" sizes="160x160">
         <link rel="icon" type="image/png" href="/assets/img/icons/favicon-96x96.png" sizes="96x96">
         <link rel="icon" type="image/png" href="/assets/img/icons/favicon-16x16.png" sizes="16x16">
         <link rel="icon" type="image/png" href="/assets/img/icons/favicon-32x32.png" sizes="32x32">
-
-        <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/assets/css/custom.css">
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
 
         <script src="/assets/js/vendor/jquery-1.10.2.min.js"></script>
         <script src="/assets/js/vendor/angular.min.js"></script>
@@ -34,10 +29,14 @@
         <script src="/controllers/profileController.js"></script>
         <script src="/services/AuthService.js"></script>
         <script src="/services/DataService.js"></script>
+        <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/assets/css/custom.css">
+        <link rel="stylesheet" href="/assets/css/ammap.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
     </head>
     <body ng-controller="pageController">
       <nav-bar></nav-bar>
-      <div id="page-content" class="row fill">
+      <div id="page-content" class="fill">
         <div ng-view></div>
       </div>
 

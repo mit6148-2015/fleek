@@ -22,9 +22,25 @@ body {
 	height: 100%;
 	padding: 0;
 }
+#map-container {
+	padding-top: 60px;
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+}
 #splash{
 	position: relative;
-	top: 15vh;
+	z-index: 999;
+	background-color: #fff;
+	top: 60px;
+	padding: 10px;
+	border-radius: 20px;
+	box-shadow: 0 0 20px #222;
+}
+#splash-logo {
+	width: 150px;
+	display: block;
+	margin: 10px auto;
 }
 #splash-buttons {
 	margin-top: 20px;
@@ -34,6 +50,7 @@ body {
 	padding-top: 60px;
 	height: 100%;
 	width: 100%;
+	min-height: 100vh;
 }
 /*remove accessibility outline on focus*/
 .btn {
@@ -81,4 +98,11 @@ input::-webkit-inner-spin-button {
 /*set pointer over search result rows to indicate a link*/
 #search-results tr {
 	cursor: pointer;
+}
+
+@media (min-width: 768px) {
+	#splash{
+		top: 20vh;
+	}
+	
 }
