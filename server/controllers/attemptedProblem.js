@@ -11,9 +11,9 @@ function attemptedProblem(req, res) {
             if (err)
                 console.log(err);
 
-            if (user.attemptedProblem.indexOf(problemObjectId) == -1) {
-                user.attemptedProblem.push(problemObjectId);
-                user.attemptedCount = user.attemptedProblem.length;
+            if (user.stats.attemptedProblem.indexOf(problemObjectId) == -1) {
+                user.stats.attemptedProblem.push(problemObjectId);
+                user.stats.attemptedCount = user.stats.attemptedProblem.length;
                 user.save();
                 res.send('Problem attempt recorded');
             } else {

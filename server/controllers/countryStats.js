@@ -12,7 +12,7 @@ function countryStats(req, res) {
 
         function doForIndex(index) {
             var country = users[index].country;
-            var count = users[index].solvedCount;
+            var count = users[index].stats.solvedCount;
 
             if (country in stats) {
                 stats[country] += count;

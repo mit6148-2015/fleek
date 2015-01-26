@@ -8,10 +8,10 @@ var userSchema = mongoose.Schema({
     password: String,
     gender: String,
     country: String,
-    solvedCount: Number,
-    solvedProblems: [{type: ObjectId, ref: 'Problem'}],
-    attemptedCount: Number,
-    attemptedProblems: [{type: ObjectId, ref: 'Problem'}]
+    stats.solvedCount: Number,
+    stats.solvedProblems: [{type: ObjectId, ref: 'Problem'}],
+    stats.attemptedCount: Number,
+    stats.attemptedProblems: [{type: ObjectId, ref: 'Problem'}]
 });
 
 // generating a hash

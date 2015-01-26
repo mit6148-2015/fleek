@@ -11,9 +11,9 @@ function solvedProblem(req, res) {
             if (err)
                 console.log(err);
 
-            if (user.solvedProblems.indexOf(problemObjectId) == -1) {
-                user.solvedProblems.push(problemObjectId);
-                user.solvedCount = user.solvedProblems.length;
+            if (user.stats.solvedProblems.indexOf(problemObjectId) == -1) {
+                user.stats.solvedProblems.push(problemObjectId);
+                user.stats.solvedCount = user.stats.solvedProblems.length;
                 user.save();
                 res.send('Problem solve recorded');
             } else {
@@ -21,7 +21,6 @@ function solvedProblem(req, res) {
             }
         });
 
-        
     }
 
 }
