@@ -5,6 +5,9 @@ function queryProblems (req, res) {
     // get conditions
     var queryText = String(req.query.q);
     var tags = req.query.tags;
+    if (Object.prototype.toString.call(setPatterns) === "[object String]")
+        tags = [tags]; // make sure setPatterns is an array
+    console.log(tags);
     var startYear = String(req.query.startYear);
     var endYear = String(req.query.endYear);
     var setPatterns = req.query.setPatterns;
@@ -25,8 +28,8 @@ function queryProblems (req, res) {
         {'meta.setInstance': {$gte: LASTYEAR}}]); // in year range, or instance doesn't indicate year
     query.where('meta.setPattern').in(setPatterns);
 
-    // only return _id and meta fields
-    query.select('_id meta');
+    // only return _id, meta, and stats fields
+    query.select('_id meta stats');
 
     // respond to request with list of found problems
     query.exec(function (err, problems) {

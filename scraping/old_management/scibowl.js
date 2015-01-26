@@ -19,7 +19,7 @@ function doItFor(index) {
     
     var responseType;
     var responseToAdd;
-    if (curdatum.question_type == "multiple_choice" == "multipleChoice") {
+    if (curdatum.question_type == "multiple_choice") {
         responseType = "multipleChoice";
         var answerIndex = -1;
         if (curdatum.answer == "W") {

@@ -1,11 +1,12 @@
 var ObjectId = require('mongoose').Types.ObjectId; 
 var User = require('../models/user');
+var Problem = require('../models/problem');
 
 function solvedProblem(req, res) {
 
     if(req.user){
-        userId = req.user.id;
-        problemObjectId = new ObjectId(req.body.params.id);
+        var userId = req.user.id;
+        var problemObjectId = new ObjectId(req.body.params.id);
 
         User.findById(userId, function (err, user) {
             if (err)
@@ -15,12 +16,27 @@ function solvedProblem(req, res) {
                 user.stats.solvedProblems.push(problemObjectId);
                 user.stats.solvedCount = user.stats.solvedProblems.length;
                 user.save();
+
+                addToProblemStats()
+                
                 res.send('Problem solve recorded');
             } else {
                 res.send('Problem already solved');
             }
         });
+    }
 
+    function addToProblemStats() {
+        var problemId = req.body.params.id;
+        Problem.findById(problemId, function (err, problem) {
+            if (err)
+                console.log(err);
+
+            if (problem) {
+                problem.stats.solvedCount++;
+                problem.save();
+            }
+        });        
     }
 
 }
