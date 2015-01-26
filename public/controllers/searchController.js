@@ -51,9 +51,8 @@ angular.module('fleekApp').controller("searchController", function($scope,$rootS
 		for (var key in $scope.tags) {
 			tagsQuery.push($scope.tags[key]['text']);
 		}
-		console.log(tagsQuery);
 		if ($scope.searchQuery != null) {
-			console.log('searching contests ' + list);
+			console.log('searching tags ' + tagsQuery + ' & contests ' + list);
 			DataService.search($scope.searchQuery,tagsQuery,list,$scope.startYear, $scope.endYear)
 			.then (function(data) {
 				$scope.results = data;
