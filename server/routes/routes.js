@@ -3,30 +3,36 @@ var router = express.Router();
 var passport = require('passport');
 var path = require('path');
 
-// database
+// DATABASE
 var mongoose = require('mongoose');
 var dbConfig = require('../config/database');
 mongoose.connect(dbConfig.uri);
 
-// controllers
+// CONTROLLERS
+// general
 var returnIndex = require('../controllers/returnIndex');
 var auth = require('../controllers/auth');
+var reportProblem = require('../controllers/reportProblem');
+var tagProblem = require('../controllers/tagProblem')
+// db retrieval
 var userById = require('../controllers/userById');
 var currentUser = require('../controllers/currentUser');
 var problemById = require('../controllers/problemById');
 var setById = require('../controllers/setById');
 var setProblems = require('../controllers/setProblems');
 var tagById = require('../controllers/tagById');
+// db query
 var queryUsers = require('../controllers/queryUsers');
 var queryProblems = require('../controllers/queryProblems');
 var querySets = require('../controllers/querySets');
-var correctAttempt = require('../controllers/correctAttempt');
-var incorrectAttempt = require('../controllers/incorrectAttempt');
-var tagProblem = require('../controllers/tagProblem')
-var reportProblem = require('../controllers/reportProblem');
-var countryStats = require('../controllers/countryStats')
+// db lists
 var listTags = require('../controllers/listTags');
 var listSets = require('../controllers/listSets');
+// stats
+var correctAttempt = require('../controllers/correctAttempt');
+var incorrectAttempt = require('../controllers/incorrectAttempt');
+var countryStats = require('../controllers/countryStats')
+
 
 
 
@@ -98,16 +104,19 @@ router.get('/db/curuser', auth, currentUser); // responds with current user obje
 router.get('/db/problem', auth, problemById); // pass problem ID as 'id' parameter, responds with problem object
 router.get('/db/set', auth, setById); // pass set ID as 'id' parameter, responds with set object
 router.get('/db/setproblems', auth, setProblems); // pass set ID as 'id' parameter, responds with list of problems
-router.get('/db/tag', auth, setById); // pass tag ID as 'id' parameter, responds with tag object
+router.get('/db/tag', auth, tagById); // pass tag ID as 'id' parameter, responds with tag object
 
 // database querying
 router.get('/db/query/users', auth, queryUsers); // check queryUsers.js for I/O
 router.get('/db/query/problems', auth, queryProblems); // check queryProblems.js for I/O
 router.get('/db/query/sets', auth, querySets); // check querySets.js for I/O
 
-// database
+// database lists
 router.get('/db/list/tags', auth, listTags); // gets list of tags
 router.get('/db/list/sets', auth, listSets); // gets list of sets
+
+// database network support
+// router.get('/db/network/??', auth, ??);
 
 
 
@@ -119,7 +128,7 @@ router.post('/stats/incorrect', auth, incorrectAttempt); // pass problem ID as '
 router.get('/stats/bycountry', countryStats); // get country statistics
 
 // tags
-router.post('/tag/tagproblem', auth, tagProblem); // pass problem and tag IDs, tags problem
+router.post('/tagproblem', auth, tagProblem); // pass problem and tag IDs, tags problem
 
 // problem reporting
 router.post('/report', auth, reportProblem); // pass problem ID as 'id', responds with same id after storing
