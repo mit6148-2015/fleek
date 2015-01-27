@@ -1,7 +1,19 @@
 var User = require('../models/user');
 
 function updatePaginate(req, res) {
-    User.findOneAndUpdate({'username': req.user.username}, {$set: { 'tutorial': {'paginate': req.body.params.state}}});
+
+    User.findById(req.user.id, function (err, user) {
+        if (err) 
+            console.log(err)
+
+        if (user) {
+            user.tutorial.paginate = req.body.params.state;
+            user.markModified('tutorial');
+            user.save();
+        } else {
+            console.log('User not found');
+        }
+    });
     res.send('Updated tutorial.paginate');
 }
 
