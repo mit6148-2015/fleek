@@ -19,7 +19,8 @@ function listSets (req, res) {
             var instance = set.meta.instance;
             var setId = set._id;
             var returnObject = {};
-            returnObject[instance] = setId;
+            returnObject['instance'] = instance;
+            returnObject['id'] = setId;
 
             if (pattern in setlist) {
                 setlist[pattern].push(returnObject);
