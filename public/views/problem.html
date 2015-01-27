@@ -1,24 +1,22 @@
 <div id="problem-container" class="page-fill">
 	<div id="problem" class="col-sm-6 col-sm-offset-3">
 		<h2>fleek</h2>{{pressed}}
-		<a href="/search/{{searchHistory}}">Back to Search</a> 
-		<div class="pull-right">
+		<div class="text-right pull-right">
+			<a href="/search/{{searchHistory}}" class="btn btn-xs btn-primary">Back to Search</a> 
+			<a ng-disabled="reported" class="btn btn-xs btn-danger" ng-click="report()">Report Mistake</a><br>			
 			Source: <a href="{{problem.source.url}}" target="blank">{{problem.source.name}}</a>
 		</div>
 		<h3>{{problem.meta.setPattern}} </h3>
-		<h4> {{problem.meta.setInstance}}  #{{problem.meta.setIndex+1}} <button ng-disabled="reported" class="btn btn-xs btn-danger pull-right" ng-click="report()">Report</button> </h4>
+		<h4> {{problem.meta.setInstance}}  #{{problem.meta.setIndex+1}} </h4>
 		<div dynamic="problem.statement"> </div>
 		<div style="color: #fff;">{{problem.meta.response}} {{problem.response}}</div>
-		<div class="alert alert-danger" role="alert" ng-show="attempted">
-			You've already tried this problem...
-		</div>
 		<div class="alert alert-success alert-dismissible" role="alert" ng-show="showAnswer">
 			<button type="button" class="close" ng-click="showAnswer = false" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 			Answer: {{problem.response['answer']}}
 		</div>
 		<div class="alert alert-success alert-dismissible" role="alert" ng-show="correct">
 			<button type="button" class="close" ng-click="correct = false" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			Correct!
+			Correct<span ng-hide="attempted">!</span><span ng-show="attempted">, but you've already attempted this problem...</span>
 		</div>
 		<div class="alert alert-warning alert-dismissible" role="alert" ng-show="incorrect">
 			<button type="button" class="close" ng-click="incorrect = false" aria-label="Close"><span aria-hidden="true">&times;</span></button>
