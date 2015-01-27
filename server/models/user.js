@@ -19,7 +19,8 @@ var userSchema = mongoose.Schema({
         multi: Boolean,
         int: Boolean,
         short: Boolean,
-        paginate: Boolean
+        paginate: Boolean,
+        search: Boolean
     }
 });
 
