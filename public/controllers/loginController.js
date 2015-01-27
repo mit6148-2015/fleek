@@ -3,6 +3,7 @@ angular.module('fleekApp').controller("loginController", function($scope, $rootS
 	//default values
 	$scope.submitted = false;
 	$scope.err = false;
+
 	//on form submit, send POST to /login with data
     $scope.submit = function(){
     	$scope.submitted = true;
