@@ -1,10 +1,14 @@
 function profileInfo (req, res) {
-    var user = req.user;
-    var profileObject = {};
+    var username = req.body.params.username;
 
-    profileObject['user'] = user;
+    User.findOne( { 'username' : username }, function (err, user) {
+        if (err)
+            console.log(err);
 
-    res.send(profileObject);
+        var profileObject = {};
+        profileObject['user'] = user;
+        res.send(profileObject);
+    });    
 }
 
 module.exports = profileInfo;
