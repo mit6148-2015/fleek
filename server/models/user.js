@@ -9,6 +9,7 @@ var userSchema = mongoose.Schema({
     gender: String,
     country: String,
     stats: {
+        rating: Number,
         solvedCount: Number,
         solvedProblems: [{type: ObjectId, ref: 'Problem'}],
         attemptedCount: Number,

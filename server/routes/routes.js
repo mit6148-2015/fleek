@@ -19,8 +19,8 @@ var tagById = require('../controllers/tagById');
 var queryUsers = require('../controllers/queryUsers');
 var queryProblems = require('../controllers/queryProblems');
 var querySets = require('../controllers/querySets');
-var solvedProblem = require('../controllers/solvedProblem');
-var attemptedProblem = require('../controllers/attemptedProblem');
+var correctAttempt = require('../controllers/correctAttempt');
+var incorrectAttempt = require('../controllers/incorrectAttempt');
 var tagProblem = require('../controllers/tagProblem')
 var reportProblem = require('../controllers/reportProblem');
 var countryStats = require('../controllers/countryStats')
@@ -111,8 +111,8 @@ router.get('/db/list/sets', listSets); // gets list of sets
 /***** RECEIVING INFORMATION *****/
 
 // stats
-router.post('/stats/solved', auth, solvedProblem); // pass problem ID as 'id'
-router.post('/stats/attempted', auth, attemptedProblem); // pass problem ID as 'id'
+router.post('/stats/correct', auth, correctAttempt); // pass problem ID as 'id'
+router.post('/stats/incorrect', auth, incorrectAttempt); // pass problem ID as 'id'
 router.get('/stats/bycountry', countryStats); // get country statistics
 
 // tags
