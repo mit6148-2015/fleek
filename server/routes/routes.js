@@ -28,11 +28,14 @@ var querySets = require('../controllers/querySets');
 // db lists
 var listTags = require('../controllers/listTags');
 var listSets = require('../controllers/listSets');
+// tutorial
+var updateMulti = require('../controllers/updateMulti');
+var updateShort = require('../controllers/updateShort');
+var updatePaginate = require('../controllers/updatePaginate');
 // stats
 var correctAttempt = require('../controllers/correctAttempt');
 var incorrectAttempt = require('../controllers/incorrectAttempt');
 var countryStats = require('../controllers/countryStats')
-
 
 
 
@@ -121,6 +124,11 @@ router.get('/db/list/sets', auth, listSets); // gets list of sets
 
 
 /***** RECEIVING INFORMATION *****/
+
+// tutorial
+router.post('/tutorial/multi', auth, updateMulti); // pass new value of multi as 'multi' boolean parameter
+router.post('/tutorial/short', auth, updateShort); // pass new value of short as 'short' boolean parameter
+router.post('/tutorial/paginate', auth, updatePaginate); // pass new value of paginate as 'paginate' boolean parameter
 
 // stats
 router.post('/stats/correct', auth, correctAttempt); // pass problem ID as 'id'
