@@ -12,6 +12,10 @@ body {
 }
 
 </style>
+
+
+<div class = "chart">
+    </div>
 <body>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
@@ -28,7 +32,7 @@ var userCountries = [
     {"user":"akshay", "probSubj":"Algebra", "correct":true},
     {"user":"akshay", "probSubj":"Number Theory", "correct":false},
     {"user":"akshay", "probSubj":"Combinatorics", "correct":true},
-    {"user":"akshay", "probSubj":"Geometry", "correct":true},
+    {"user":"akshay", "probSubj":"Geometry", "correct":false},
     {"user":"akshay", "probSubj":"Algebra", "correct":true},
     {"user":"akshay", "probSubj":"Number Theory", "correct":false},
     {"user":"vahid", "probSubj":"Combinatorics", "correct":true},
@@ -78,7 +82,7 @@ var arc = d3.svg.arc()
     .innerRadius(radius - 100)
     .outerRadius(radius - 50);
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select("#chart").append("svg")
     .attr("width", width)
     .attr("height", height)
     .append("g")

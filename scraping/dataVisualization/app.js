@@ -8,6 +8,6 @@ var path = require('path');
 server.listen(3000);
 
 app.get('/', function (req, res) {
-  res.sendFile(__dirname + '/charttest.html');
+  res.sendFile(__dirname + '/network.html');
 });
 

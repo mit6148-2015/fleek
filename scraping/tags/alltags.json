@@ -19,7 +19,10 @@
 {"parentTags": ["trigonometry"],"tag": "trigonometric identity"}
 {"parentTags": ["triangle"],"tag": "triangle center"}
 {"parentTags": ["trigonometry"],"tag": "cosine"}
+{"parentTags": ["statistics"],"tag": "median"}
+{"parentTags": ["statistics"],"tag": "mode"}
 {"parentTags": ["trigonometry"],"tag": "law of sines"}
+{"parentTags": ["statistics"],"tag": "mean"}
 {"parentTags": ["function"],"tag": "domain"}
 {"parentTags": ["trigonometric identity"],"tag": "trigonometry addition formula"}
 {"parentTags": ["algebra"],"tag": "exponent"}
@@ -27,7 +30,10 @@
 {"parentTags": ["polynomial","number theory"],"tag": "binomial theorem"}
 {"parentTags": ["quadrilateral"],"tag": "squares"}
 {"parentTags": ["proof"],"tag": "induction"}
+{"parentTags": ["fleek"],"tag": "math"}
+{"parentTags": ["science"],"tag": "biology"}
 {"parentTags": ["probability","geometry"],"tag": "geometric probability"}
+{"parentTags": ["algebra"],"tag": "statistics"}
 {"parentTags": ["trigonometry"],"tag": "tangent"}
 {"parentTags": ["circle"],"tag": "incircle"}
 {"parentTags": ["trigonometry"],"tag": "sine"}
@@ -61,6 +67,7 @@
 {"parentTags": ["geometry"],"tag": "3D geometry"}
 {"parentTags": ["factor"],"tag": "number of divisors"}
 {"parentTags": ["polynomial","function"],"tag": "quartic"}
+{"parentTags": ["fleek"],"tag": "science"}
 {"parentTags": ["algebra"],"tag": "equation"}
 {"parentTags": ["math"],"tag": "number theory"}
 {"parentTags": ["trigonometry"],"tag": "law of cosines"}
@@ -88,8 +95,10 @@
 {"parentTags": ["polygon"],"tag": "octagon"}
 {"parentTags": ["trigonometric identity"],"tag": "double angle formula"}
 {"parentTags": ["quadrilateral"],"tag": "cyclic quadrilateral"}
+{"parentTags": ["science"],"tag": "chemistry"}
 {"parentTags": ["circle"],"tag": "sectors"}
 {"parentTags": ["circle"],"tag": "chords"}
 {"parentTags": ["factor"],"tag": "greatest common divisor"}
 {"parentTags": ["function"],"tag": "ceiling function"}
+{"parentTags": ["science"],"tag": "physics"}
 {"parentTags": [],"tag": "math"}

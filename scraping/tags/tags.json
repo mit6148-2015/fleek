@@ -1,5 +1,9 @@
 
     {
+        "fleek": [
+            "math",
+            "science"
+        ],
         "math": [
             "algebra",
             "geometry",
@@ -8,6 +12,11 @@
             "proof",
             "arithmetic",
             "logic"
+        ],
+        "science": [
+            "biology",
+            "chemistry",
+            "physics"
         ],
         "algebra": [
             "function",
@@ -19,7 +28,13 @@
             "bases",
             "arithmetic sequence",
             "geometric series",
-            "coordinates"
+            "coordinates",
+            "statistics"
+        ],
+        "statistics":[
+            "mean",
+            "median",
+            "mode"
         ],
         "bases": [
             "binary"
