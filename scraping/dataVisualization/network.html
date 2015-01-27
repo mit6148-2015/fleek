@@ -242,26 +242,23 @@ edges = [];
     selectedTag = allTags[properties.nodes[0]];
     //document.getElementById('info').innerHTML += 'selection: ' + selectedTag + '<br>';
     /* LOOK HERE. RETURN THESE WITH THE RIGHT/WRONG THINGEIES. */
-    makeChart(121,123,312,14);
+    makeChart(selectedTag, 121,123,312,14);
   });
 
 // Make a chart for the right/wrong for the user, and all
-function makeChart(meRight, meWrong, worldRight, worldWrong) {
+function makeChart(tag, meRight, meWrong, worldRight, worldWrong) {
+  meTitle = "How am I doing in #" + tag + "?";
+  worldTitle = "How is everyone #" + tag + "?";
     var chart = AmCharts.makeChart("meDiv", {
       "titles": [
           {
-            "text": "Just Me",
+            "text": meTitle,
             "size": 15
           }
         ],
       "color":"black",
       "type": "pie",
       "theme": "dark",
-      "graphs": [
-          {
-            "title": "Graph title"
-          }
-        ],
       "dataProvider": [
         { "status": "Correct", "number": meRight},
         {"status": "Wrong","number": meWrong}],
@@ -278,7 +275,7 @@ function makeChart(meRight, meWrong, worldRight, worldWrong) {
     var chartWorld = AmCharts.makeChart("worldDiv", {
       "titles": [
         {
-          "text": "The World",
+          "text": worldTitle,
           "size": 15
         }
       ],
