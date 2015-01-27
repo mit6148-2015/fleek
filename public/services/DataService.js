@@ -62,10 +62,10 @@ angular.module('fleekApp').factory('DataService', function($http, $q){
         	);
         },
         getUser: function(username) {
-            return $http.get('/db/profileinfo', { params: {username: username}})
+            return $http.get('/db/curuser')
                 .then(function(response) {
                     if (typeof response.data === 'object') {
-                        console.log("\tUser response " + response.data._id);
+                        console.log("\tUser response " + response.data);
                         return response.data;
                     }
                     else {

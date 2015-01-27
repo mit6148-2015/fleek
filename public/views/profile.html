@@ -1,6 +1,19 @@
 <div id="profile-container" class="page-fill">
-	<div id="profile" class="col-sm-6 col-sm-offset-3">
+	<div id="profile" class="col-md-6 col-md-offset-3">
 		<h2>fleek</h2>
-		<h3>{{userLoggedIn}}</h3>
+		<div class="row">
+			<div class="col col-xs-6">
+				<h3>{{user.username}}</h3>
+				<h4><em>{{user.gender}}, {{user.country}}</em></h4>
+				<button class="btn btn-primary" ng-click="resetTutorial()">Show Help Boxes</button>
+			</div>
+			<div class="col col-xs-6">
+				<div id="user-graph" style="width: 100%; height: 200px;"></div>
+			</div>
+		</div>
 	</div>
 </div>
+
+<script src="/assets/js/vendor/amcharts.js"></script>
+<script src="/assets/js/vendor/pie.js"></script>
+<script src="/assets/js/main.js"></script>

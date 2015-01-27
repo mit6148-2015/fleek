@@ -10,6 +10,7 @@ angular.module('fleekApp').controller("splashController", function($scope,DataSe
 		}
 	})
 	.then (function() {
-		AmCharts.ready(loadmap());
+		// AmCharts.ready(loadmap());
+		loadmap();
 	});
 });
