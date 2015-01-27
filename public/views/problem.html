@@ -1,6 +1,6 @@
 <div id="problem-container" class="page-fill">
 	<div id="problem" class="col-sm-6 col-sm-offset-3">
-		<h2>fleek</h2>
+		<h2>fleek</h2>{{pressed}}
 		<a href="/search/{{searchHistory}}">Back to Search</a> 
 		<div class="pull-right">
 			Source: <a href="{{problem.source.url}}" target="blank">{{problem.source.name}}</a>
@@ -9,6 +9,9 @@
 		<h4> {{problem.meta.setInstance}}  #{{problem.meta.setIndex+1}} <button ng-disabled="reported" class="btn btn-xs btn-danger pull-right" ng-click="report()">Report</button> </h4>
 		<div dynamic="problem.statement"> </div>
 		<div style="color: #fff;">{{problem.meta.response}} {{problem.response}}</div>
+		<div class="alert alert-danger" role="alert" ng-show="attempted">
+			You've already tried this problem...
+		</div>
 		<div class="alert alert-success alert-dismissible" role="alert" ng-show="showAnswer">
 			<button type="button" class="close" ng-click="showAnswer = false" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 			Answer: {{problem.response['answer']}}
