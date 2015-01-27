@@ -6,7 +6,7 @@ function setProblems (req, res) {
         if (err)
             console.log(err);
 
-        res.send(set.problems);
+        res.send(set);
     });
 };
 
