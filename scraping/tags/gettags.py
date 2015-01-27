@@ -20,7 +20,6 @@ def getTagArray():
 	    data = {'tag':x, 'parentTags':tags[x]}
 	    json.dump(data,out_file, separators=(',', ': ')) 
 	    out_file.write("\n")
-	out_file.write("{\"parentTags\": [],\"tag\": \"math\"}\n");
 	print(tags)
 
 # Use the main function to get the AIME problems for any year.

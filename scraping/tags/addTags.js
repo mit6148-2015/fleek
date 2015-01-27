@@ -106,17 +106,21 @@ function addParents(tags, tagos, idlist, mongoose) {
             tagoid = idlist[tago.tag];
             parentoid = new ObjectId(idlist[tago.parentTags[parentIndex]]);
 
-            Tag.findByIdAndUpdate(tagoid, { $push: {parentTags : parentoid}}, function (err, foundTag) {
-                if (err)
-                    console.log(err);
+            if (tago.parentTags[parentIndex] !== 'fleek') {
+                Tag.findByIdAndUpdate(tagoid, { $push: {parentTags : parentoid}}, function (err, foundTag) {
+                    if (err)
+                        console.log(err);
 
-                parentIndex++;
-                if (parentIndex < tago.parentTags.length) {
-                    addThisParent(tago, parentIndex);
-                } else {
-                    moveOn();
-                }
-            });
+                    parentIndex++;
+                    if (parentIndex < tago.parentTags.length) {
+                        addThisParent(tago, parentIndex);
+                    } else {
+                        moveOn();
+                    }
+                });
+            } else {
+                moveOn();
+            }
         }
 
         function moveOn() {
