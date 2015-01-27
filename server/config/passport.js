@@ -59,6 +59,7 @@ function configurePassport(passport) {
                     newUser.tutorial.int = true;
                     newUser.tutorial.short = true;
                     newUser.tutorial.paginate = true;
+                    newUser.tutorial.search = true;
 
                     // save user
                     newUser.save(function(err) {
