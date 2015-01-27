@@ -108,14 +108,14 @@ angular.module('fleekApp').controller("problemController", function($scope,$rout
 	    }
 	    //show short answer answers
 	    else if ($scope.problem.meta.response == "shortAnswer") {
-	    	if (args.key == "enter" && $scope.done[$scope.currentProblem] == 0) {
-	    		$scope.done[$scope.currentProblem] = 2;
+	    	if (args.key == "enter" && $scope.state == 0) {
+	    		$scope.state = 2;
 	    	}
-	    	else if (args.key == "c" && $scope.done[$scope.currentProblem] == 2) {
-	    		$scope.done[$scope.currentProblem] = 1;
+	    	else if (args.key == "c" && $scope.state == 2) {
+	    		$scope.state = 1;
 	    	}
-	    	else if (args.key == "i" && $scope.done[$scope.currentProblem] == 2) {
-	    		$scope.done[$scope.currentProblem] = -1;
+	    	else if (args.key == "i" && $scope.state == 2) {
+	    		$scope.state = -1;
 	    	}
 	    }
 	});
