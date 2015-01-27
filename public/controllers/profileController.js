@@ -12,7 +12,7 @@ angular.module('fleekApp').controller("profileController", function($scope,$rout
 	.then (function() {
 		$timeout(function() {
 			loadchart($scope.user.stats.solvedCount,$scope.user.stats.attemptedCount - $scope.user.stats.solvedCount,'user-graph');
-		},500);
+		},750);
 	});
 
 	//hacky jquery to help make sure chart loads
@@ -25,7 +25,7 @@ angular.module('fleekApp').controller("profileController", function($scope,$rout
 		.then(function() {
 			$timeout(function() {
 				loadchart($scope.user.stats.solvedCount,$scope.user.stats.attemptedCount - $scope.user.stats.solvedCount,'user-graph');
-			},500);
+			},750);
 		})
 	});
 

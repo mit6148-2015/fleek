@@ -97,7 +97,7 @@ var loadchart = function(right,wrong,id) {
 		theme: "light",
 		dataProvider: [
 			{ "status": "Correct", "number": right},
-			{"status": "Wrong","number": wrong}
+			{"status": "Incorrect","number": wrong}
 		],
 		valueField: "number",
 		titleField: "status",
