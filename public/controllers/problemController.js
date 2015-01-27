@@ -16,18 +16,19 @@ angular.module('fleekApp').controller("problemController", function($scope,$rout
 			}
 		}
 	});
+
 	//validate integer responses
 	$scope.intValidate = function() {
 		if ($scope.intResponse == parseInt($scope.problem.response.answer)) {
 			$scope.incorrect = false;
 			$scope.correct = true;
-			DataService.sendProblemResult("/stats/solved",$scope.problem._id);
+			DataService.sendProblemResult("/stats/correct",$scope.problem._id);
 			// console.log("answer correct!");
 		}
 		else {
 			$scope.correct = false;
 			$scope.incorrect = true;
-			DataService.sendProblemResult("/stats/attempted",$scope.problem._id);
+			DataService.sendProblemResult("/stats/incorrect",$scope.problem._id);
 			// console.log("answer incorrect");
 		}
 	}
@@ -36,13 +37,13 @@ angular.module('fleekApp').controller("problemController", function($scope,$rout
 		if (choice == $scope.problem.response.correctIndex) {
 			$scope.incorrect = false;
 			$scope.correct = true;
-			DataService.sendProblemResult("/stats/solved",$scope.problem._id);
+			DataService.sendProblemResult("/stats/correct",$scope.problem._id);
 			// console.log("answer correct!");
 		}
 		else {
 			$scope.correct = false;
 			$scope.incorrect = true;
-			DataService.sendProblemResult("/stats/attempted",$scope.problem._id);
+			DataService.sendProblemResult("/stats/incorrect",$scope.problem._id);
 			// console.log("answer incorrect");
 		}
 	}
@@ -50,11 +51,11 @@ angular.module('fleekApp').controller("problemController", function($scope,$rout
 	$scope.shortValidate = function(response) {
 		$scope.answered = true;
 		if (response) {
-			DataService.sendProblemResult("/stats/solved",$scope.problem._id);
+			DataService.sendProblemResult("/stats/correct",$scope.problem._id);
 			// console.log("answer correct!");
 		}
 		else {
-			DataService.sendProblemResult("/stats/attempted",$scope.problem._id);
+			DataService.sendProblemResult("/stats/incorrect",$scope.problem._id);
 			// console.log("answer incorrect");
 		}
 	}
