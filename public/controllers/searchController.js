@@ -7,16 +7,25 @@ angular.module('fleekApp').controller("searchController", function($scope,$rootS
 	$scope.tagList = [];
 	$scope.minYear = 1950;
 	$scope.maxDate = Date.now();
-	$scope.contests = {'AMC 8': true, 'AMC 10': true, 'AMC 12': true, 'AIME': true, 'USAMO': true, 'USAJMO': true, 'Putnam': true, 'Science Bowl': true};
+	$scope.contests = {};
 	$scope.contestList = [];
 	$scope.startYear = 1950;
 	$scope.endYear = 2015;
 	//holds search results
 	$scope.results;
-	//generate list of contests from map instantiated above
-	for (var key in $scope.contests) {
-		$scope.contestList.push(key);
-	}
+	//generate list of contests from a GET request
+	DataService.getData('/db/list/sets')
+	.then (function(data) {
+		for (var key in data) {
+			$scope.contests[key] = true;
+		}
+	})
+	.then (function() {
+		//generate list of contests from map populated above
+		for (var key in $scope.contests) {
+			$scope.contestList.push(key);
+		}
+	});
 	//generate list of tags from a GET request
 	DataService.getData('/db/list/tags')
 	.then (function(data) {

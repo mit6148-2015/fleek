@@ -4,7 +4,7 @@ angular.module('fleekApp').factory('DataService', function($http, $q){
 	            return $http.get(path)
 	                .then(function(response) {
 	                    if (typeof response.data === 'object') {
-	                    	console.log("\tgetData response " + response.data.length);
+	                    	console.log("\tgetData response from " + path + ": " + typeof response.data);
 	                        return response.data;
 	                    } 
 	                    else {
