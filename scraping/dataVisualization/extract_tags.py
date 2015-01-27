@@ -33,7 +33,7 @@ for line in f:
                 for word in alltags[y]:
                         if word in statement and y not in tags:
                                 tags = tags + [y]
-        data = {"pid":pid, "tags":tags}
+        data = {"_id":pid, "tags":tags}
         json.dump(data,out_file, separators=(',', ': ')) 
         out_file.write("\n")
 #out_file.write("]\n")
