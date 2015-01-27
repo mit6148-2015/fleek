@@ -8,116 +8,157 @@
 
   <style type="text/css">
     #mynetwork {
-      width: 1200px;
+      width: 100%;
       height: 800px;
-      border: 1px solid lightgray;
+      /*border: 1px solid lightgray;*/
     }
+    #meDiv {background: white;color:black; 
+    width   : 100%;
+    height    : 350px;
+    font-size : 11px;
+  }
+  #worldDiv {background: white;color:black; 
+    width   : 100%;
+    height    : 350px;
+    font-size : 11px;
+  }
   </style>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="http://www.amcharts.com/lib/3/amcharts.js"></script>
+<script type="text/javascript" src="http://www.amcharts.com/lib/3/pie.js"></script>
+<script type="text/javascript" src="http://www.amcharts.com/lib/3/themes/dark.js"></script>
 </head>
 
 <body>
-
-<div id="mynetwork"></div>
-<div id="info"></div>
+<div class="container-fluid">
+   <div class="col-md-8">
+    <div id="mynetwork"></div>
+    <div id="info"></div>
+  </div>
+  <div class="col-md-4">
+    <div id="meDiv"></div> <br/>
+    <div id="worldDiv"></div>
+  </div>
+</div>
 
 <script type="text/javascript">
+  /* LOOK HERE. JUST REPLACE THIS TO READ FROM ALLTAGS.JSON. */
 
-    var tags = [{"parentTags": ["geometry"],"tag": "3D Geometry"}
-                ,{"parentTags": ["algebra"],"tag": "logarithms"}
-                ,{"parentTags": ["proofs"],"tag": "proof by contradiction"}
-                ,{"parentTags": ["quadrilaterals"],"tag": "kite"}
-                ,{"parentTags": ["number theory"],"tag": "prime numbers"}
-                ,{"parentTags": ["functions","polynomials"],"tag": "quartics"}
-                ,{"parentTags": ["number theory"],"tag": "modular arithmetic"}
-                ,{"parentTags": ["polynomials"],"tag": "roots"}
+    var tags = [{"parentTags": ["equation","number theory"],"tag": "diophantine equation"}
+                ,{"parentTags": ["proof"],"tag": "proof by contradiction"}
+                ,{"parentTags": ["quadrilateral"],"tag": "kite"}
+                ,{"parentTags": ["polynomial"],"tag": "vieta's formula"}
+                ,{"parentTags": ["polynomial"],"tag": "roots"}
+                ,{"parentTags": ["number theory"],"tag": "prime number"}
                 ,{"parentTags": ["circle"],"tag": "power of a point"}
+                ,{"parentTags": ["equation"],"tag": "proportion"}
                 ,{"parentTags": ["counting"],"tag": "PIE"}
-                ,{"parentTags": ["polynomials"],"tag": "factoring"}
-                ,{"parentTags": ["trigonometry"],"tag": "trigonometric identites"}
+                ,{"parentTags": ["algebra"],"tag": "coordinates"}
                 ,{"parentTags": ["algebra","number theory"],"tag": "bases"}
-                ,{"parentTags": ["triangle"],"tag": "pythagorean theorem"}
-                ,{"parentTags": ["algebra"],"tag": "arithmetic sequences"}
-                ,{"parentTags": ["polygons"],"tag": "pentagons"}
-                ,{"parentTags": ["counting"],"tag": "combinations"}
-                ,{"parentTags": ["counting"],"tag": "Venn Diagrams"}
-                ,{"parentTags": ["equations","number theory"],"tag": "diophantine equations"}
-                ,{"parentTags": ["trigonometry"],"tag": "cosine"}
-                ,{"parentTags": ["trigonometry"],"tag": "law of sines"}
+                ,{"parentTags": ["number theory"],"tag": "factor"}
                 ,{"parentTags": ["2D geometry"],"tag": "circle"}
-                ,{"parentTags": ["functions"],"tag": "domain"}
-                ,{"parentTags": ["3D Geometry"],"tag": "cones"}
-                ,{"parentTags": ["trigonometric identites"],"tag": "trigonometry addition formula"}
-                ,{"parentTags": ["3D Geometry"],"tag": "prisms"}
-                ,{"parentTags": ["triangle"],"tag": "triangle centers"}
-                ,{"parentTags": ["math"],"tag": "proofs"}
-                ,{"parentTags": ["number theory"],"tag": "factors"}
-                ,{"parentTags": ["math"],"tag": "algebra"}
-                ,{"parentTags": ["polynomials","number theory"],"tag": "binomial theorem"}
-                ,{"parentTags": ["quadrilaterals"],"tag": "squares"}
-                ,{"parentTags": ["proofs"],"tag": "induction"}
+                ,{"parentTags": ["triangle"],"tag": "pythagorean theorem"}
+                ,{"parentTags": ["algebra"],"tag": "logarithm"}
+                ,{"parentTags": ["3D geometry"],"tag": "cube"}
+                ,{"parentTags": ["polygon"],"tag": "triangle"}
+                ,{"parentTags": ["counting"],"tag": "combinations"}
+                ,{"parentTags": ["trigonometry"],"tag": "trigonometric identity"}
+                ,{"parentTags": ["triangle"],"tag": "triangle center"}
+                ,{"parentTags": ["trigonometry"],"tag": "cosine"}
+                ,{"parentTags": ["statistics"],"tag": "median"}
+                ,{"parentTags": ["statistics"],"tag": "mode"}
+                ,{"parentTags": ["trigonometry"],"tag": "law of sines"}
+                ,{"parentTags": ["statistics"],"tag": "mean"}
+                ,{"parentTags": ["function"],"tag": "domain"}
+                ,{"parentTags": ["trigonometric identity"],"tag": "trigonometry addition formula"}
+                ,{"parentTags": ["algebra"],"tag": "exponent"}
+                ,{"parentTags": ["polynomial","function"],"tag": "cubic"}
+                ,{"parentTags": ["polynomial","number theory"],"tag": "binomial theorem"}
+                ,{"parentTags": ["quadrilateral"],"tag": "squares"}
+                ,{"parentTags": ["proof"],"tag": "induction"}
+                ,{"parentTags": ["fleek"],"tag": "math"}
+                ,{"parentTags": ["science"],"tag": "biology"}
                 ,{"parentTags": ["probability","geometry"],"tag": "geometric probability"}
+                ,{"parentTags": ["algebra"],"tag": "statistics"}
                 ,{"parentTags": ["trigonometry"],"tag": "tangent"}
                 ,{"parentTags": ["circle"],"tag": "incircle"}
                 ,{"parentTags": ["trigonometry"],"tag": "sine"}
-                ,{"parentTags": ["algebra"],"tag": "equations"}
-                ,{"parentTags": ["3D Geometry"],"tag": "cubes"}
+                ,{"parentTags": ["modular arithmetic"],"tag": "remainder"}
+                ,{"parentTags": ["counting"],"tag": "casework counting"}
+                ,{"parentTags": ["number theory"],"tag": "divisor"}
+                ,{"parentTags": ["math"],"tag": "algebra"}
                 ,{"parentTags": ["math"],"tag": "geometry"}
-                ,{"parentTags": ["quadrilaterals"],"tag": "rhombus"}
-                ,{"parentTags": ["3D Geometry"],"tag": "spheres"}
-                ,{"parentTags": ["functions"],"tag": "range"}
+                ,{"parentTags": ["quadrilateral"],"tag": "rhombus"}
+                ,{"parentTags": ["function"],"tag": "range"}
                 ,{"parentTags": ["geometry"],"tag": "2D geometry"}
+                ,{"parentTags": ["polygon"],"tag": "hexagon"}
                 ,{"parentTags": ["triangle"],"tag": "similar triangles"}
-                ,{"parentTags": ["quadrilaterals"],"tag": "cyclic quadrilaterals"}
+                ,{"parentTags": ["counting"],"tag": "Venn Diagram"}
+                ,{"parentTags": ["number theory"],"tag": "modular arithmetic"}
                 ,{"parentTags": ["combinatorics"],"tag": "probability"}
-                ,{"parentTags": ["algebra"],"tag": "coordinates"}
-                ,{"parentTags": ["polynomials"],"tag": "vieta's formulas"}
-                ,{"parentTags": ["2D geometry"],"tag": "polygons"}
+                ,{"parentTags": ["polygon"],"tag": "quadrilateral"}
+                ,{"parentTags": ["polynomial"],"tag": "factoring"}
+                ,{"parentTags": ["algebra"],"tag": "polynomial"}
+                ,{"parentTags": ["polygon"],"tag": "pentagon"}
+                ,{"parentTags": ["algebra"],"tag": "arithmetic sequence"}
                 ,{"parentTags": ["counting"],"tag": "complementary counting"}
                 ,{"parentTags": ["geometry"],"tag": "area"}
                 ,{"parentTags": ["math"],"tag": "combinatorics"}
-                ,{"parentTags": ["equations"],"tag": "linear equations"}
-                ,{"parentTags": ["functions","polynomials","equations"],"tag": "quadratic"}
+                ,{"parentTags": ["polynomial","function","equation"],"tag": "quadratic"}
                 ,{"parentTags": ["algebra"],"tag": "geometric series"}
-                ,{"parentTags": ["algebra"],"tag": "exponents"}
                 ,{"parentTags": ["geometry"],"tag": "analytic geometry"}
+                ,{"parentTags": ["algebra"],"tag": "function"}
                 ,{"parentTags": ["geometry"],"tag": "congruence"}
                 ,{"parentTags": ["modular arithmetic"],"tag": "chinese remainder theorem"}
-                ,{"parentTags": ["counting"],"tag": "casework counting"}
-                ,{"parentTags": ["geometry"],"tag": "angles"}
-                ,{"parentTags": ["number theory"],"tag": "divisors"}
-                ,{"parentTags": ["factors"],"tag": "number of divisors"}
+                ,{"parentTags": ["geometry"],"tag": "3D geometry"}
+                ,{"parentTags": ["factor"],"tag": "number of divisors"}
+                ,{"parentTags": ["polynomial","function"],"tag": "quartic"}
+                ,{"parentTags": ["fleek"],"tag": "science"}
+                ,{"parentTags": ["algebra"],"tag": "equation"}
                 ,{"parentTags": ["math"],"tag": "number theory"}
                 ,{"parentTags": ["trigonometry"],"tag": "law of cosines"}
-                ,{"parentTags": ["functions"],"tag": "floor function"}
+                ,{"parentTags": ["function"],"tag": "floor function"}
                 ,{"parentTags": ["algebra"],"tag": "trigonometry"}
-                ,{"parentTags": ["equations"],"tag": "proportions"}
+                ,{"parentTags": ["math"],"tag": "proof"}
+                ,{"parentTags": ["3D geometry"],"tag": "pyramid"}
                 ,{"parentTags": ["counting"],"tag": "permutations"}
-                ,{"parentTags": ["polygons"],"tag": "hexagons"}
+                ,{"parentTags": ["equation"],"tag": "linear equation"}
+                ,{"parentTags": ["3D geometry"],"tag": "sphere"}
                 ,{"parentTags": ["circle"],"tag": "circumcircle"}
+                ,{"parentTags": ["3D geometry"],"tag": "cone"}
                 ,{"parentTags": ["combinatorics"],"tag": "counting"}
-                ,{"parentTags": ["polygons"],"tag": "triangle"}
                 ,{"parentTags": ["bases"],"tag": "binary"}
-                ,{"parentTags": ["algebra"],"tag": "functions"}
-                ,{"parentTags": ["equations"],"tag": "recursion"}
+                ,{"parentTags": ["geometry"],"tag": "angle"}
+                ,{"parentTags": ["2D geometry"],"tag": "polygon"}
+                ,{"parentTags": ["equation"],"tag": "recursion"}
                 ,{"parentTags": ["recursion"],"tag": "fibnoacci numbers"}
-                ,{"parentTags": ["functions","polynomials"],"tag": "cubics"}
-                ,{"parentTags": ["polygons"],"tag": "quadrilaterals"}
+                ,{"parentTags": ["3D geometry"],"tag": "prism"}
                 ,{"parentTags": ["counting"],"tag": "constructive counting"}
                 ,{"parentTags": ["math"],"tag": "arithmetic"}
                 ,{"parentTags": ["geometry"],"tag": "perimeter"}
-                ,{"parentTags": ["modular arithmetic"],"tag": "remainders"}
                 ,{"parentTags": ["circle"],"tag": "arcs"}
                 ,{"parentTags": ["math"],"tag": "logic"}
-                ,{"parentTags": ["algebra"],"tag": "polynomials"}
-                ,{"parentTags": ["trigonometric identites"],"tag": "double angle formula"}
-                ,{"parentTags": ["polygons"],"tag": "octagons"}
+                ,{"parentTags": ["polygon"],"tag": "octagon"}
+                ,{"parentTags": ["trigonometric identity"],"tag": "double angle formula"}
+                ,{"parentTags": ["quadrilateral"],"tag": "cyclic quadrilateral"}
+                ,{"parentTags": ["science"],"tag": "chemistry"}
                 ,{"parentTags": ["circle"],"tag": "sectors"}
                 ,{"parentTags": ["circle"],"tag": "chords"}
-                ,{"parentTags": ["factors"],"tag": "greatest common divisor"}
-                ,{"parentTags": ["3D Geometry"],"tag": "pyramids"}
-                ,{"parentTags": ["functions"],"tag": "ceiling function"}
-                ];
+                ,{"parentTags": ["factor"],"tag": "greatest common divisor"}
+                ,{"parentTags": ["function"],"tag": "ceiling function"}
+                ,{"parentTags": ["science"],"tag": "physics"}];
 
+
+
+// Take all the tags and make an array out of them. This is to prevent duplicates and get ID's.
 var allTags = [];
   for (var i = 0; i<tags.length; i++) {
     //console.log(tags[i].tag)
@@ -135,31 +176,28 @@ var allTags = [];
   }
 
 nodes = []
+
+// Go back, and add the nodes now. 
+
 for (var i = 0; i<allTags.length; i++) {
-    console.log(allTags[i])
-    nodes.push({id:i, label:allTags[i]});
+    var displayButton = "<a class=\"btn btn-default btn-xs\" href=\"#\" role=\"button\"> Find \n"+allTags[i]+" problems</a>";
+    nodes.push({id:i, label:allTags[i], title:displayButton});
 }
-
-  console.log(allTags.length);
-
 
 edges = [];
 
+// Now, add the edges. 
+
   for (var i = 0; i<tags.length; i++) {
-    //console.log(tags[i].tag)
     tagDict = tags[i];
     tagName = tagDict.tag;
     firstInd = allTags.indexOf(tagName);
     parentList = tagDict.parentTags;
     for (var j = 0; j<parentList.length; j++) {
-        //console.log(y);
         secondInd = allTags.indexOf(parentList[j]);
         edges.push({from:secondInd, to:firstInd});
-        console.log(firstInd + " " + secondInd);
     }
   }
-
-
 
   // create a network
   var container = document.getElementById('mynetwork');
@@ -167,13 +205,18 @@ edges = [];
     nodes: nodes,
     edges: edges
   };
+
+
   var options = {
-    /*hierarchicalLayout: {
+    zoomExtentOnStabilize:false,
+    keyboard:true,
+    hierarchicalLayout: {
+      nodeSpacing:150,
       enabled: true,
       direction: "UD",
       layout: "direction"
-    },*/
-    dragNodes:false,
+    },
+    dragNodes:true,
     nodes: {
         color: {
           background: '#ecf0f1',
@@ -188,39 +231,77 @@ edges = [];
           }
         },
         shape: 'box'
-      }/*,
-    
-    clustering: {
-      initialMaxNodes: 4,
-      clusterThreshold:500,
-      reduceToNodes:300,
-      chainThreshold: 0.4,
-      clusterEdgeThreshold: 20,
-      sectorThreshold: 100,
-      screenSizeThreshold: 0.2,
-      fontSizeMultiplier:  1.0,
-      maxFontSize: 10,
-      forceAmplification:  0.1,
-      distanceAmplification: 0.1,
-      edgeGrowth: 20,
-      nodeScaling: {width:  1,
-                    height: 1,
-                    radius: 1},
-      maxNodeSizeIncrements: 600,
-      activeAreaBoxSize: 100,
-      clusterLevelDifference: 1
-    }*/
+      }
   };
+
   network = new vis.Network(container, data, options);
 
-  // add event listener
+  // add event listener for selection, make charts now. 
   network.on('select', function(properties) {
-    document.getElementById('info').innerHTML += 'selection: ' + JSON.stringify(properties) + '<br>';
+    /* LOOK HERE. USE THIS VARIABLE TO GET THE RIGHT/WRONG FOR EVERYONE. */
+
+      selectedTag = allTags[properties.nodes[0]];
+    //document.getElementById('info').innerHTML += 'selection: ' + selectedTag + '<br>';
+    /* LOOK HERE. RETURN THESE WITH THE RIGHT/WRONG THINGEIES. */
+        if (selectedTag != undefined) {
+        makeChart(selectedTag, 121,123,312,14);
+      }
   });
 
-  // set initial selection (id's of some nodes)
-  network.selectNodes([3, 4, 5]);
+// Make a chart for the right/wrong for the user, and allj
+function makeChart(tag, meRight, meWrong, worldRight, worldWrong) {
+  meTitle = "Is your #" + tag + " on fleek?";
+  worldTitle = "Is the world's #" + tag + " on fleek?";
+    var chart = AmCharts.makeChart("meDiv", {
+      "titles": [
+          {
+            "text": meTitle,
+            "size": 15
+          }
+        ],
+      "color":"black",
+      "type": "pie",
+      "theme": "dark",
+      "dataProvider": [
+        { "status": "Correct", "number": meRight},
+        {"status": "Wrong","number": meWrong}],
+      "valueField": "number",
+      "titleField": "status",
+      "exportConfig":{  
+        menuItems: [{
+        icon: '/lib/3/images/export.png',
+        format: 'png'   
+        }]  
+    }
+  });
+
+    var chartWorld = AmCharts.makeChart("worldDiv", {
+      "titles": [
+        {
+          "text": worldTitle,
+          "size": 15
+        }
+      ],
+      "color":"black",
+      "type": "pie",
+    "theme": "dark",
+      "dataProvider": [
+        { "status": "Correct", "number": worldRight},
+        {"status": "Wrong","number": worldWrong}],
+      "valueField": "number",
+      "titleField": "status",
+      "exportConfig":{  
+        menuItems: [{
+        icon: '/lib/3/images/export.png',
+        format: 'png'   
+        }]  
+    }
+  });
+}
+
 </script>
+
+
 
 </body>
 </html>

@@ -54,7 +54,7 @@ setMeta['AMC 12'] = function (instance, numProblems) {
             this.name = String(year) + ' AMC 12'; // 2000 AMC 12
         }
     }
-    this.pattern = 'AMC 10';
+    this.pattern = 'AMC 12';
     this.instance = String(instance);
     this.numProblems = parseInt(numProblems);
     this.keys = [];
