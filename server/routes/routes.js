@@ -141,7 +141,7 @@ router.post('/tutorial/int', auth, updateInt); // pass new value of int as 'stat
 router.post('/tutorial/short', auth, updateShort); // pass new value of short as 'state' boolean parameter
 router.post('/tutorial/paginate', auth, updatePaginate); // pass new value of paginate as 'state' boolean parameter
 router.post('/tutorial/search', auth, updateSearch); // pass new value of search as 'state' boolean parameter
-router.post('/tutorial/reset', auth, resetTutorial); // pass new value of search as 'state' boolean parameter
+router.get('/tutorial/reset', auth, resetTutorial); // pass new value of search as 'state' boolean parameter
 
 // stats
 router.post('/stats/correct', auth, correctAttempt); // pass problem ID as 'id'
