@@ -3,7 +3,6 @@ angular.module('fleekApp').controller("searchController", function($scope,$rootS
 	$scope.searchQuery = $routeParams.searchQuery; //set search query to URL parameter
 	$rootScope.searchHistory = $scope.searchQuery; //set search history to last recorded search
 	$scope.predicate = 'meta.setPattern'; //key to sort table by
-	$scope.tutorial; //show helpbox
 	//data for form validation
 	$scope.tagList = [];
 	$scope.minYear = 1950;
@@ -14,11 +13,6 @@ angular.module('fleekApp').controller("searchController", function($scope,$rootS
 	$scope.endYear = 2015;
 	//holds search results
 	$scope.results;
-	//see if user should see tutorial
-	DataService.getData('/tutorial/status')
-	.then (function(data) {
-		$scope.tutorial = data.tutorial.search;
-	})
 	//generate list of contests from a GET request
 	DataService.getData('/db/list/sets')
 	.then (function(data) {
@@ -33,6 +27,7 @@ angular.module('fleekApp').controller("searchController", function($scope,$rootS
 		}
 	})
 	.then (function () {
+		//search on page load when contest list is populated
 		$scope.search();
 	});
 	//generate list of tags from a GET request
@@ -40,13 +35,6 @@ angular.module('fleekApp').controller("searchController", function($scope,$rootS
 	.then (function(data) {
 		$scope.tagList = data;
 	});
-	//create links for search results
-	$scope.closeTutorial = function() {
-		DataService.setTutorial('search',false)
-		.then (function(data) {
-			$scope.tutorial = false;
-		})
-	}
 	//return promise with tag list for autocomplete
 	$scope.loadItems = function(query) {
 		matchingTags = [];

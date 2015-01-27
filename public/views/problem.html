@@ -1,7 +1,6 @@
 <div id="problem-container" class="page-fill">
 	<div id="problem" class="col-md-6 col-md-offset-3">
-		<h2>fleek</h2>
-		<h3 ng-show="$rootScope.tutorial.multi">Hi</h3>
+		<h2>fleek</h2> {{tutorial}}
 		<div class="row">
 				<div class="col col-sm-6">
 					<h3 class="subtitle">{{problem.meta.setPattern}} {{problem.meta.setInstance}}  #{{problem.meta.setIndex+1}} </h3>
@@ -37,6 +36,10 @@
 			</div>
 			<div class="answer-area">
 				<form name="intProblemForm" ng-show="problem.meta.response == 'integerAnswer'" novalidate>
+					<div class="alert alert-info alert-dismissible" role="alert" ng-show="tutorial.int">
+						<button type="button" class="close" ng-click="closeTutorial('int')" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						Hint: Press the ENTER key to select the input field
+					</div>
 					<div class="form-group">
 						<div class="control-group" ng-class="{'has-error':intProblemForm.intResponse.$invalid}">
 							<div class="input-group">
@@ -48,10 +51,20 @@
 						</div>
 					</div>
 				</form>
-				<div ng-repeat="(key,answer) in choices" ng-show="problem.meta.response == 'multipleChoice'">
-					<button class="btn btn-primary answer-choice" ng-click="multiValidate($index)" ng-disabled="state == 1">{{key}}</button> <span dynamic="answer"></span>
+				<div ng-show="problem.meta.response == 'multipleChoice'">
+					<div class="alert alert-info alert-dismissible" role="alert" ng-show="tutorial.multi">
+						<button type="button" class="close" ng-click="closeTutorial('multi')" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						Hint: Type a letter to answer
+					</div>
+					<div ng-repeat="(key,answer) in choices">
+						<button class="btn btn-primary answer-choice" ng-click="multiValidate($index)" ng-disabled="state == 1">{{key}}</button> <span dynamic="answer"></span>
+					</div>
 				</div>
 				<div ng-show="problem.meta.response == 'shortAnswer'">
+					<div class="alert alert-info alert-dismissible" role="alert" ng-show="tutorial.short">
+						<button type="button" class="close" ng-click="closeTutorial('short')" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						Hint: Press the ENTER key to show the answer, and C/I for correct/incorrect
+					</div>
 					<button class="btn btn-primary" ng-show="state == 0" ng-click="state = 2">Show Answer</button>
 					<button class="btn btn-success" ng-show="state != 0" ng-click="shortValidate(true)" ng-disabled="state != 0 && state != 2">Correct</button>
 					<button class="btn btn-danger" ng-show="state != 0" ng-click="shortValidate(false)" ng-disabled="state != 0 && state != 2">Incorrect</button>

@@ -3,9 +3,9 @@
 		<h2>fleek</h2>
 		<h4>Search for problems:</h4>
 		<form name="searchForm" novalidate>
-			<div class="alert alert-success alert-dismissible" role="alert" ng-show="tutorial">
-				<button type="button" class="close" ng-click="closeTutorial()" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				Hint: Press 'enter' to select the search input field (close to dismiss)
+			<div class="alert alert-info alert-dismissible" role="alert" ng-show="tutorial.search">
+				<button type="button" class="close" ng-click="closeTutorial('search')" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				Hint: Press the ENTER key to select the search field
 			</div>
 			<div class="form-group">
 				<div class="input-group">
