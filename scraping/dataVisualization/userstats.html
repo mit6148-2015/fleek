@@ -40,18 +40,17 @@
   <div class="col-md-5">
     <div class="btn-group" role="group" aria-label="...">
       <button type="button" onclick="makeChart(getPercentData(), 0)" class="btn btn-default">Percent Correct</button>
-      <button type="button" onclick="makeChart(getSolvedData(), 1)" class="btn btn-default">Number Solved</button>
-      <button type="button" onclick="makeChart(getAttemptData(), 2)" class="btn btn-default">Number Attempted</button>
+      <button type="button" onclick="makeChartStacked(getRightWrongData())" class="btn btn-default">Number Right/Wrong</button>
   </div>
   </div>
 </div>
     
 <script>
-var allTagData = {"algebra":[123,2123],
-"combinatorics":[123,1235],
+var allTagData = {"algebra":[123,223],
+"combinatorics":[123,235],
 "number theory":[145,321],
 "geometry":[213,312],
-"science":[1234,12312]
+"science":[1234,1312]
 };
 
 var selectedTags = ["algebra", "geometry", "science", "number theory"];
@@ -97,6 +96,24 @@ function getAttemptData() {
     ans.push({"subject":x, "status":attempt, "color":colors[index]})
     index = (index+1)%colors.length;
   }
+  return ans;
+}
+
+
+function getRightWrongData() {
+  console.log("in function");
+  ans = [];
+  colors = ["#2ecc71", "#3498db", "#e67e22", "#9b59b6", "#c0392b", "#f1c40f"];
+  index = 0;
+  for (var i =0; i<selectedTags.length; i++) {
+    var x = selectedTags[i];
+    attempt = allTagData[x][1];
+    solve = allTagData[x][0];
+    wr = attempt-solve;
+    ans.push({"subject":x, "right":solve, "wrong":wr, "color":colors[index]})
+    index = (index+1)%colors.length;
+  }
+  //console.log(ans);
   return ans;
 }
 
@@ -155,7 +172,71 @@ var chart = AmCharts.makeChart("chartdiv", {
 });
 }
 
-makeChart(getPercentData(), 0);
+function makeChartStacked(data) {
+  console.log("hi...");
+  console.log(data);
+    var title = "Number Right/Wrong";
+    var balText = "<b>#[[category]]: [[value]]</b>";
+    var prec = -1;
 
+
+  
+var chart = AmCharts.makeChart("chartdiv", {
+    "type": "serial",
+    "theme": "dark",
+     "pathToImages":"http://www.amcharts.com/lib/3/images/",
+    "dataProvider": data,
+    "valueAxes": [{
+      "stackType": "regular",
+        "axisAlpha": 0,
+        "position": "left",
+        "title": title,
+
+    }],
+    "graphs": [{
+        "balloonText": "<b>[[title]]</b><br><span style='font-size:14px'>[[category]]: <b>[[value]] </b></span>",
+        "fillAlphas": 0.8,
+        "labelText": "[[value]]",
+        "lineAlpha": 0.3,
+        "title": "# Correct",
+        "type": "column",
+    "balloonColor": "#2ecc71",
+    "fillColor": "#2ecc71",
+    "lineColor": "#2ecc71",
+        "valueField": "right"
+    }, {
+        "balloonText": "<b>[[title]]</b><br><span style='font-size:14px'>[[category]]: <b>[[value]] </b></span>",
+        "fillAlphas": 0.8,
+        "labelText": "[[value]]",
+        "lineAlpha": 0.3,
+        "title": "# Incorrect",
+        "type": "column",
+      "balloonColor": "#e74c3c",
+      "fillColor": "#e74c3c",
+      "lineColor": "#e74c3c",
+        "valueField": "wrong"
+    }],
+    "categoryField": "subject",
+    "categoryAxis": {
+        "gridPosition": "start",
+        "axisAlpha": 0,
+        "gridAlpha": 0,
+        "position": "left",
+        "labelRotation": 45
+    },
+  "exportConfig":{
+    "menuTop":"20px",
+        "menuRight":"20px",
+        "menuItems": [{
+        "icon": '/lib/3/images/export.png',
+        "format": 'png'   
+        }]  
+    }
+});
+}
+console.log("hey");
+makeChart(getPercentData(), 0);
+//makeChartStacked(getRightWrongData());
+console.log("done");
 </script>
 </body>
