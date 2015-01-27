@@ -49,9 +49,9 @@
 				<div class="form-group">
 					<div class="control-group" ng-class="{'has-error':intProblemForm.intAnswers[currentProblem].$invalid}">
 						<div class="input-group">
-							<input autofocus focus-me="current=='/views/set.html'" type="number" class="form-control" ng-model="intAnswers[currentProblem]" name="intAnswers[currentProblem]" placeholder="answer" ng-disabled="done[currentProblem] == 1"></input>
+							<input id="focus-input" type="number" class="form-control" ng-model="intAnswers[currentProblem]" name="intAnswers[currentProblem]" placeholder="answer" ng-disabled="done[currentProblem] == 1"></input>
 							<span class="input-group-btn">
-								<button class="btn btn-primary" type="submit" ng-disabled="intProblemForm.$invalid" ng-click="intValidate(intAnswers[currentProblem])">Go</button>
+								<button class="btn btn-primary" type="submit" ng-disabled="done[currentProblem] == 1" ng-click="intValidate(intAnswers[currentProblem])">Go</button>
 							</span>
 						</div>
 					</div>

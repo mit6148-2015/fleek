@@ -19,4 +19,11 @@ angular.module('fleekApp').controller("loginController", function($scope, $rootS
     		}
     	});
     }
+    //listen for keypress
+    $scope.$on('keypress', function(event, args) {
+        //focus on input
+        if (args.key == "enter") {
+            $('#focus-input').focus();
+        }
+    });
 });

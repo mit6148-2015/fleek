@@ -136,6 +136,12 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
     	else if (args.key == "k") {
     		$scope.setCurrent($scope.currentProblem + 1);
     	}
+    	//focus on int answer questions
+	    else if ($scope.problem.meta.response == "integerAnswer") {
+	    	if (args.key == "enter") {
+	    		$('#focus-input').focus();
+	    	}
+	    }
     	//answer multiple choice questions
 	    else if ($scope.problem.meta.response == "multipleChoice") {
 	    	var count = 0;

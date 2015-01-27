@@ -96,8 +96,14 @@ angular.module('fleekApp').controller("problemController", function($scope,$rout
 	}
 	//listen for keypress
 	$scope.$on('keypress', function(event, args) {
+		//focus on int answer questions
+	    if ($scope.problem.meta.response == "integerAnswer") {
+	    	if (args.key == "enter") {
+	    		$('#focus-input').focus();
+	    	}
+	    }
     	//answer multiple choice questions
-	    if ($scope.problem.meta.response == "multipleChoice") {
+	    else if ($scope.problem.meta.response == "multipleChoice") {
 	    	var count = 0;
 	    	for (var k in $scope.choices) {
 	    		if (angular.lowercase(k) == args.key) {

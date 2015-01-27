@@ -86,20 +86,6 @@ angular.module('fleekApp', ['ngRoute','ngTagsInput'])
 	});
 })
 
-//focus elements
-.directive('focusMe', function($timeout) {
-  return {
-    link: function(scope, element, attrs) {
-      scope.$watch(attrs.focusMe, function(value) {
-        if(value === true) { 
-            element[0].focus();
-            scope[attrs.focusMe] = false;
-        }
-      });
-    }
-  };
-})
-
 //refresh mathjax on problem change
 //http://stackoverflow.com/questions/16087146/getting-mathjax-to-update-after-changes-to-angularjs-model
 .directive("mathjaxBind", function() {
