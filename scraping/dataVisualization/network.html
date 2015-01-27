@@ -239,10 +239,13 @@ edges = [];
   // add event listener for selection, make charts now. 
   network.on('select', function(properties) {
     /* LOOK HERE. USE THIS VARIABLE TO GET THE RIGHT/WRONG FOR EVERYONE. */
-    selectedTag = allTags[properties.nodes[0]];
+
+      selectedTag = allTags[properties.nodes[0]];
     //document.getElementById('info').innerHTML += 'selection: ' + selectedTag + '<br>';
     /* LOOK HERE. RETURN THESE WITH THE RIGHT/WRONG THINGEIES. */
-    makeChart(selectedTag, 121,123,312,14);
+        if (selectedTag != undefined) {
+        makeChart(selectedTag, 121,123,312,14);
+      }
   });
 
 // Make a chart for the right/wrong for the user, and allj
