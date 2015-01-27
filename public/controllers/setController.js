@@ -96,23 +96,23 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
 	//validate short answer responses
 	$scope.shortValidate = function(response) {
 		if (response) {
+			$scope.done[$scope.currentProblem] = 1;
 			DataService.sendProblemResult("/stats/correct",$scope.problem._id)
 			.then(function(data){
 				if (data == "Problem already attempted") {
 					$scope.attempted = true;
 				}
 			});
-			$scope.done[$scope.currentProblem] = 1;
 			// console.log("answer correct!");
 		}
 		else {
+			$scope.done[$scope.currentProblem] = -1;
 			DataService.sendProblemResult("/stats/incorrect",$scope.problem._id)
 			.then(function(data){
 				if (data == "Problem already attempted") {
 					$scope.attempted = true;
 				}
 			});
-			$scope.done[$scope.currentProblem] = -1;
 			// console.log("answer incorrect");
 		}
 	}

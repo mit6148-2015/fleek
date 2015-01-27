@@ -19,16 +19,16 @@
 				Source: <a href="{{problem.source.url}}" target="blank">{{problem.source.name}}</a>
 			</div>
 			<div style="color: #fff;">{{problem.meta.response}} {{problem.response}}</div>
-			<div class="alert alert-success alert-dismissible" role="alert" ng-show="showAnswer">
-				<button type="button" class="close" ng-click="showAnswer = false" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<div class="alert alter-dismissible" role="alert" ng-show="problem.meta.response == 'shortAnswer' && state != 0" ng-class="{'alert-success': state == 1, 'alert-danger': state == -1, 'alert-warning':state == 2}">
+				<button type="button" class="close" ng-click="state = 0" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 				Answer: {{problem.response['answer']}}
 			</div>
-			<div class="alert alert-success alert-dismissible" role="alert" ng-show="correct">
-				<button type="button" class="close" ng-click="correct = false" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<div class="alert alert-success alert-dismissible" role="alert" ng-show="state == 1 && problem.meta.response != 'shortAnswer'">
+				<button type="button" class="close" ng-click="state = 0" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 				Correct<span ng-hide="attempted">!</span><span ng-show="attempted">, but you've already attempted this problem...</span>
 			</div>
-			<div class="alert alert-warning alert-dismissible" role="alert" ng-show="incorrect">
-				<button type="button" class="close" ng-click="incorrect = false" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<div class="alert alert-warning alert-dismissible" role="alert" ng-show="state == -1 && problem.meta.response != 'shortAnswer'">
+				<button type="button" class="close" ng-click="state = 0" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 				Try again!
 			</div>
 			<div class="answer-area">
@@ -36,7 +36,7 @@
 					<div class="form-group">
 						<div class="control-group" ng-class="{'has-error':intProblemForm.intResponse.$invalid}">
 							<div class="input-group">
-								<input autofocus focus-me="current=='/views/problem.html'" type="number" class="form-control" ng-model="intResponse" name="intResponse" placeholder="answer" ng-disabled="correct"></input>
+								<input autofocus focus-me="current=='/views/problem.html'" type="number" class="form-control" ng-model="intResponse" name="intResponse" placeholder="answer" ng-disabled="state == 1"></input>
 								<span class="input-group-btn">
 									<button class="btn btn-primary" type="submit" ng-disabled="intProblemForm.$invalid" ng-click="intValidate(intResponse)">Go</button>
 								</span>
@@ -45,12 +45,12 @@
 					</div>
 				</form>
 				<div ng-repeat="(key,answer) in choices" ng-show="problem.meta.response == 'multipleChoice'">
-					<button class="btn btn-primary answer-choice" ng-click="multiValidate($index)" ng-disabled="correct">{{key}}</button> <span dynamic="answer"></span>
+					<button class="btn btn-primary answer-choice" ng-click="multiValidate($index)" ng-disabled="state == 1">{{key}}</button> <span dynamic="answer"></span>
 				</div>
 				<div ng-show="problem.meta.response == 'shortAnswer'">
-					<button class="btn btn-primary" ng-hide="showAnswer" ng-click="showAnswer = true">Show Answer</button>
-					<button class="btn btn-success" ng-show="showAnswer" ng-click="shortValidate(true)" ng-disabled="answered">Correct</button>
-					<button class="btn btn-danger" ng-show="showAnswer" ng-click="shortValidate(false)" ng-disabled="answered">Incorrect</button>
+					<button class="btn btn-primary" ng-show="state == 0" ng-click="state = 2">Show Answer</button>
+					<button class="btn btn-success" ng-show="state != 0" ng-click="shortValidate(true)" ng-disabled="state != 0 && state != 2">Correct</button>
+					<button class="btn btn-danger" ng-show="state != 0" ng-click="shortValidate(false)" ng-disabled="state != 0 && state != 2">Incorrect</button>
 				</div>
 			</div>
 		</div>

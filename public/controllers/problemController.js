@@ -2,10 +2,11 @@
 angular.module('fleekApp').controller("problemController", function($scope,$routeParams,DataService) {
 	$scope.problem = null;
 	$scope.choices = {};
-	$scope.correct = false;
-	$scope.incorrect = false;
+	// $scope.correct = false;
+	// $scope.incorrect = false;
 	$scope.reported = false;
 	$scope.attempted = false;
+	$scope.state = 0; //not attempted = 0, wrong = -1, correct = 1, show answer = 2
 	//send a GET request for the problem data
 	DataService.getProblem($routeParams.problemId)
 	.then (function(data) {
@@ -20,8 +21,7 @@ angular.module('fleekApp').controller("problemController", function($scope,$rout
 	//validate integer responses
 	$scope.intValidate = function(response) {
 		if (response == parseInt($scope.problem.response.answer)) {
-			$scope.incorrect = false;
-			$scope.correct = true;
+			$scope.state = 1;
 			DataService.sendProblemResult("/stats/correct",$scope.problem._id)
 			.then(function(data){
 				if (data == "Problem already attempted") {
@@ -31,8 +31,7 @@ angular.module('fleekApp').controller("problemController", function($scope,$rout
 			// console.log("answer correct!");
 		}
 		else {
-			$scope.correct = false;
-			$scope.incorrect = true;
+			$scope.state = -1;
 			DataService.sendProblemResult("/stats/incorrect",$scope.problem._id)
 			.then(function(data){
 				if (data == "Problem already attempted") {
@@ -45,8 +44,7 @@ angular.module('fleekApp').controller("problemController", function($scope,$rout
 	//validate multiple choice responses
 	$scope.multiValidate = function(choice) {
 		if (choice == $scope.problem.response.correctIndex) {
-			$scope.incorrect = false;
-			$scope.correct = true;
+			$scope.state = 1;
 			DataService.sendProblemResult("/stats/correct",$scope.problem._id)
 			.then(function(data){
 				if (data == "Problem already attempted") {
@@ -56,8 +54,7 @@ angular.module('fleekApp').controller("problemController", function($scope,$rout
 			// console.log("answer correct!");
 		}
 		else {
-			$scope.correct = false;
-			$scope.incorrect = true;
+			$scope.state = -1;
 			DataService.sendProblemResult("/stats/incorrect",$scope.problem._id)
 			.then(function(data){
 				if (data == "Problem already attempted") {
@@ -69,8 +66,8 @@ angular.module('fleekApp').controller("problemController", function($scope,$rout
 	}
 	//validate short answer responses
 	$scope.shortValidate = function(response) {
-		$scope.answered = true;
 		if (response) {
+			$scope.state = 1;
 			DataService.sendProblemResult("/stats/correct",$scope.problem._id)
 			.then(function(data){
 				if (data == "Problem already attempted") {
@@ -80,6 +77,7 @@ angular.module('fleekApp').controller("problemController", function($scope,$rout
 			// console.log("answer correct!");
 		}
 		else {
+			$scope.state = -1;
 			DataService.sendProblemResult("/stats/incorrect",$scope.problem._id)
 			.then(function(data){
 				if (data == "Problem already attempted") {
@@ -98,14 +96,26 @@ angular.module('fleekApp').controller("problemController", function($scope,$rout
 	}
 	//listen for keypress
 	$scope.$on('keypress', function(event, args) {
-	    if ($scope.problem.meta.response == "multipleChoice") 
-	    {
+    	//answer multiple choice questions
+	    if ($scope.problem.meta.response == "multipleChoice") {
 	    	var count = 0;
 	    	for (var k in $scope.choices) {
 	    		if (angular.lowercase(k) == args.key) {
 	    			$scope.multiValidate(count);
 	    		}
 	    		count++;
+	    	}
+	    }
+	    //show short answer answers
+	    else if ($scope.problem.meta.response == "shortAnswer") {
+	    	if (args.key == "enter" && $scope.done[$scope.currentProblem] == 0) {
+	    		$scope.done[$scope.currentProblem] = 2;
+	    	}
+	    	else if (args.key == "c" && $scope.done[$scope.currentProblem] == 2) {
+	    		$scope.done[$scope.currentProblem] = 1;
+	    	}
+	    	else if (args.key == "i" && $scope.done[$scope.currentProblem] == 2) {
+	    		$scope.done[$scope.currentProblem] = -1;
 	    	}
 	    }
 	});
