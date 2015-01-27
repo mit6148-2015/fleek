@@ -13,6 +13,11 @@ angular.module('fleekApp').controller("searchController", function($scope,$rootS
 	$scope.endYear = 2015;
 	//holds search results
 	$scope.results;
+	//see if user should see tutorial
+    DataService.getData('/tutorial/status')
+    .then (function(data) {
+        $scope.tutorial = data.tutorial;
+    })
 	//generate list of contests from a GET request
 	DataService.getData('/db/list/sets')
 	.then (function(data) {
@@ -35,6 +40,13 @@ angular.module('fleekApp').controller("searchController", function($scope,$rootS
 	.then (function(data) {
 		$scope.tagList = data;
 	});
+	//close tutorial box
+	$scope.closeTutorial = function(name) {
+		DataService.setTutorial(name,false)
+		.then (function(data) {
+			$scope.tutorial[name] = false;
+		})
+	}
 	//return promise with tag list for autocomplete
 	$scope.loadItems = function(query) {
 		matchingTags = [];

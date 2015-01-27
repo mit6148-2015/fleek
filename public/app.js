@@ -27,7 +27,7 @@ angular.module('fleekApp', ['ngRoute','ngTagsInput'])
 	        templateUrl: '/views/problem.html',
 	        controller: 'problemController'
 	    })
-	    .when('/profile/:userId', {
+	    .when('/profile/:username', {
 	        templateUrl: '/views/profile.html',
 	        controller: 'profileController'
 	    })

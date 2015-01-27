@@ -7,6 +7,11 @@ angular.module('fleekApp').controller("problemController", function($scope,$rout
 	$scope.reported = false;
 	$scope.attempted = false;
 	$scope.state = 0; //not attempted = 0, wrong = -1, correct = 1, show answer = 2
+	//see if user should see tutorial
+    DataService.getData('/tutorial/status')
+    .then (function(data) {
+        $scope.tutorial = data.tutorial;
+    })
 	//send a GET request for the problem data
 	DataService.getProblem($routeParams.problemId)
 	.then (function(data) {
@@ -18,6 +23,13 @@ angular.module('fleekApp').controller("problemController", function($scope,$rout
 			}
 		}
 	});
+	//close tutorial box
+	$scope.closeTutorial = function(name) {
+		DataService.setTutorial(name,false)
+		.then (function(data) {
+			$scope.tutorial[name] = false;
+		})
+	}
 	//validate integer responses
 	$scope.intValidate = function(response) {
 		if (response == parseInt($scope.problem.response.answer)) {

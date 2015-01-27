@@ -61,6 +61,21 @@ angular.module('fleekApp').factory('DataService', function($http, $q){
         		}
         	);
         },
+        getUser: function(username) {
+            return $http.get('/db/profileinfo', { params: {username: username}})
+                .then(function(response) {
+                    if (typeof response.data === 'object') {
+                        console.log("\tUser response " + response.data._id);
+                        return response.data;
+                    }
+                    else {
+                        return $q.reject(response.data);
+                    }
+                }, function(response) {
+                    return $q.reject(response.data);
+                }
+            );
+        },
         sendProblemResult : function(path,problemId) {
         	return $http.post(path, { params: {id: problemId}})
         		.then(function(response) {
