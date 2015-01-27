@@ -11,10 +11,11 @@ mongoose.connect(dbConfig.uri);
 // controllers
 var returnIndex = require('../controllers/returnIndex');
 var auth = require('../controllers/auth');
-var currentUser = require('../controllers/currentUser');
 var userById = require('../controllers/userById');
+var currentUser = require('../controllers/currentUser');
 var problemById = require('../controllers/problemById');
 var setById = require('../controllers/setById');
+var setProblems = require('../controllers/setProblems');
 var tagById = require('../controllers/tagById');
 var queryUsers = require('../controllers/queryUsers');
 var queryProblems = require('../controllers/queryProblems');
@@ -92,10 +93,11 @@ router.get('/auth', auth, function(req, res) {
 /***** DATABASE INTERACTION *****/
 
 // database retrieval
-router.get('/db/curuser', auth, currentUser); // responds with current user object
 router.get('/db/user', auth, userById); // pass user ID as 'id' parameter, responds with user object
+router.get('/db/curuser', auth, currentUser); // responds with current user object
 router.get('/db/problem', auth, problemById); // pass problem ID as 'id' parameter, responds with problem object
 router.get('/db/set', auth, setById); // pass set ID as 'id' parameter, responds with set object
+router.get('/db/setproblems', auth, setProblems); // pass set ID as 'id' parameter, responds with list of problems
 router.get('/db/tag', auth, setById); // pass tag ID as 'id' parameter, responds with tag object
 
 // database querying
@@ -105,7 +107,7 @@ router.get('/db/query/sets', auth, querySets); // check querySets.js for I/O
 
 // database
 router.get('/db/list/tags', auth, listTags); // gets list of tags
-router.get('/db/list/sets', listSets); // gets list of sets
+router.get('/db/list/sets', auth, listSets); // gets list of sets
 
 
 

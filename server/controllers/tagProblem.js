@@ -1,5 +1,5 @@
 var ObjectId = require('mongoose').Types.ObjectId; 
-var User = require('../models/user');
+var Problem = require('../models/problem');
 var Tag = require('../models/tag');
 
 function tagProblem(req, res) {
