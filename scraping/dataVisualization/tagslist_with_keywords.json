@@ -9,7 +9,7 @@
 },
 {
     "keywords": ["\\log", "logarithm", "\\ln"],
-    "tag": "logarithms"
+    "tag": "logarithm"
 },
 {
     "keywords": [],
@@ -21,7 +21,7 @@
 },
 {
     "keywords": [],
-    "tag": "proofs"
+    "tag": "proof"
 },
 {
     "keywords": ["kite"],
@@ -29,11 +29,11 @@
 },
 {
     "keywords": ["quadrilateral"],
-    "tag": "quadrilaterals"
+    "tag": "quadrilateral"
 },
 {
     "keywords": ["prime"],
-    "tag": "prime numbers"
+    "tag": "prime number"
 },
 {
     "keywords": [],
@@ -41,15 +41,15 @@
 },
 {
     "keywords": ["x^4 "],
-    "tag": "quartics"
+    "tag": "quartic"
 },
 {
     "keywords": ["function"],
-    "tag": "functions"
+    "tag": "function"
 },
 {
     "keywords": ["polynomial"],
-    "tag": "polynomials"
+    "tag": "polynomial"
 },
 {
     "keywords": ["\\mod"],
@@ -68,10 +68,6 @@
     "tag": "circle"
 },
 {
-    "keywords": ["Venn Diagram"],
-    "tag": "PIE"
-},
-{
     "keywords": [],
     "tag": "counting"
 },
@@ -81,7 +77,7 @@
 },
 {
     "keywords": [],
-    "tag": "trigonometric identites"
+    "tag": "trigonometric identity"
 },
 {
     "keywords": [],
@@ -101,7 +97,7 @@
 },
 {
     "keywords": ["arithmetic sequence", "arithmetic progression"],
-    "tag": "arithmetic sequences"
+    "tag": "arithmetic sequence"
 },
 {
     "keywords": ["pentagon"],
@@ -116,16 +112,12 @@
     "tag": "combinations"
 },
 {
-    "keywords": ["venn diagram"],
-    "tag": "Venn Diagrams"
+    "keywords": [],
+    "tag": "diophantine equation"
 },
 {
     "keywords": [],
-    "tag": "diophantine equations"
-},
-{
-    "keywords": [],
-    "tag": "equations"
+    "tag": "equation"
 },
 {
     "keywords": ["\\cos"],
@@ -145,7 +137,7 @@
 },
 {
     "keywords": ["cone"],
-    "tag": "cones"
+    "tag": "cone"
 },
 {
     "keywords": [],
@@ -153,7 +145,7 @@
 },
 {
     "keywords": ["prism"],
-    "tag": "prisms"
+    "tag": "prism"
 },
 {
     "keywords": ["incenter", "orthocenter", "circumcenter", "centroid"],
@@ -165,7 +157,7 @@
 },
 {
     "keywords": ["factor", "divisor"],
-    "tag": "factors"
+    "tag": "factor"
 },
 {
     "keywords": [],
@@ -173,7 +165,7 @@
 },
 {
     "keywords": ["square"],
-    "tag": "squares"
+    "tag": "square"
 },
 {
     "keywords": [],
@@ -201,7 +193,7 @@
 },
 {
     "keywords": ["cube"],
-    "tag": "cubes"
+    "tag": "cube"
 },
 {
     "keywords": ["rhombus"],
@@ -209,18 +201,18 @@
 },
 {
     "keywords": ["sphere"],
-    "tag": "spheres"
+    "tag": "sphere"
 },
 {
     "keywords": ["range"],
     "tag": "range"
 },
 {
-    "keywords": ["similar triangle"],
-    "tag": "similar triangles"
+    "keywords": ["similar triangle", "triangle is similar to", "triangles are similar"],
+    "tag": "similar triangle"
 },
 {
-    "keywords": ["cyclid quadrilateral"],
+    "keywords": ["cyclic quadrilateral"],
     "tag": "cyclic quadrilaterals"
 },
 {
@@ -245,7 +237,7 @@
 },
 {
     "keywords": ["linear equation", "system of equations"],
-    "tag": "linear equations"
+    "tag": "linear equation"
 },
 {
     "keywords": ["x^2 ", "quadratic", "parabola"],
@@ -277,11 +269,11 @@
 },
 {
     "keywords": [" angle"],
-    "tag": "angles"
+    "tag": "angle"
 },
 {
     "keywords": ["divisor", "factor"],
-    "tag": "divisors"
+    "tag": "divisor"
 },
 {
     "keywords": ["number of divisors", "number of factors"],
@@ -297,15 +289,15 @@
 },
 {
     "keywords": ["proportion"],
-    "tag": "proportions"
+    "tag": "proportion"
 },
 {
     "keywords": ["permutation"],
-    "tag": "permutations"
+    "tag": "permutation"
 },
 {
     "keywords": ["hexagon"],
-    "tag": "hexagons"
+    "tag": "hexagon"
 },
 {
     "keywords": ["circumcircle", "circumcenter"],
@@ -321,11 +313,11 @@
 },
 {
     "keywords": ["fibonacci"],
-    "tag": "fibnoacci numbers"
+    "tag": "fibonacci number"
 },
 {
     "keywords": ["cubic", "x^3 "],
-    "tag": "cubics"
+    "tag": "cubic"
 },
 {
     "keywords": [],
@@ -341,7 +333,7 @@
 },
 {
     "keywords": ["remainder"],
-    "tag": "remainders"
+    "tag": "remainder"
 },
 {
     "keywords": ["arc"],
@@ -373,7 +365,7 @@
 },
 {
     "keywords": ["pyramid"],
-    "tag": "pyramids"
+    "tag": "pyramid"
 },
 {
     "keywords": ["mean", "average"],
@@ -386,17 +378,5 @@
 {
     "keywords": ["mode"],
     "tag": "mode"
-},
-{
-    "keywords": ["physics", "force", "eletric field", "magnetic"],
-    "tag": "physics"
-},
-{
-    "keywords": ["chemistry", "molecule", "ionic", "covalent", "electron", "atom", "titration", "nuclear", "nucleus"],
-    "tag": "chemistry"
-},
-{
-    "keywords": ["biology", "protein", "DNA", "RNA", "photosynthesis", "cellular respiration", "species", "hydrogen", "oxygen"],
-    "tag": "biology"
 }
 ]
