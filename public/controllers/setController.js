@@ -1,10 +1,13 @@
 //search view controller - add stuff here later
 angular.module('fleekApp').controller("setController", function($scope,$rootScope,$routeParams,DataService) {
-	$scope.problems = {};
-	$scope.currentProblem = 0;
-	$scope.problem;
+	$scope.problems = {}; //stores response from GET request
+	$scope.currentProblem = 0; //stores current problem index
+	$scope.problem; //stores current problem object
+	$scope.keys = [];
 	$scope.done = []; //saves the states of problems (not attempted = 0, correct = 1, incorrect = -1, show answer = 2)
 	$scope.intAnswers = [];
+	$scope.currentProblem = 0;
+	// $scope.currentProblem = {val:'0', num: 0};
 	$scope.reported = false;
 	$scope.choices = {}
 	//generate list of sets from a GET request
@@ -12,6 +15,10 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
 	.then (function(data) {
 		$scope.problems = data;
 		$scope.problem = $scope.problems.problems[$scope.currentProblem];
+		for (i = 0; i < $scope.problems.meta.numProblems; i++) {
+			$scope.keys[i] = $scope.problems.meta.keys[i];
+			$scope.done[i] = 0;
+		}
 		//if the problem is multiple choice, populate choices dictionary
 		if ($scope.problem.meta.response == "multipleChoice") {
 			for (i = 0; i < $scope.problem.response.numChoices; i++) {
@@ -20,14 +27,7 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
 		}
 	});
 	//set current problem index
-	$scope.setCurrent = function(index) {
-		if (index < 0){
-			index = 0;
-		}
-		else if (index >= $scope.problems.problems.length) {
-			index = $scope.problems.problems.length - 1;
-		}
-		$scope.currentProblem = index;
+	$scope.updateCurrent = function() {
 		$scope.problem = $scope.problems.problems[$scope.currentProblem];
 		$scope.reported = false;
 		//if the problem is multiple choice, populate choices dictionary
@@ -38,15 +38,26 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
 			}
 		}
 	}
-	//generate list of values from 0 to n-1
-	$scope.range = function(n) {
-		list = [];
-		for (i = 0; i < n; i++){
-			list.push(i);
-			$scope.done.push(0);
+	//set current problem index
+	$scope.setCurrent = function(index) {
+		if (index < 0){
+			index = 0;
 		}
-		return list;
-	};
+		else if (index >= $scope.problems.problems.length) {
+			index = $scope.problems.problems.length - 1;
+		}
+		$scope.currentProblem = index;
+		$scope.updateCurrent();
+	}
+	// //generate list of values from 0 to n-1
+	// $scope.range = function(n) {
+	// 	list = [];
+	// 	for (i = 0; i < n; i++){
+	// 		list.push(i);
+	// 		$scope.done.push(0);
+	// 	}
+	// 	return list;
+	// };
 	//validate integer responses
 	$scope.intValidate = function(response) {
 		if (response == parseInt($scope.problem.response.answer)) {

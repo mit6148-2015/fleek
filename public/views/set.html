@@ -1,6 +1,6 @@
 <div id="set-container" class="page-fill">
 	<div id="set" class="col-md-6 col-md-offset-3">
-		<h2>fleek</h2> 
+		<h2>fleek</h2>
 
 		<div class="row">
 			<div class="col col-sm-6">
@@ -16,9 +16,13 @@
 		</div>
 
 		<div class="row">
-			<div class="form-group button-row col-sm-12">
-				<div class="btn-group" role="group" ng-repeat="i in range(problems.meta.numProblems) track by $index">
-					<a href class="btn btn-sm btn-primary btn-multiple" role="button" ng-click="setCurrent(i)" ng-class="{'active':currentProblem == i}">{{problems.meta.keys[i]}}</a> 
+			<div class="form-group col-sm-12">
+				<div class="input-group">
+					<select class="form-control" ng-model="currentProblem" ng-change="updateCurrent()" ng-options="keys.indexOf(key) as key for key in keys"></select>
+					<span class="input-group-btn">
+						<button class="btn btn-primary" ng-click="setCurrent(currentProblem-1)">Prev</button>
+						<button class="btn btn-primary" ng-click="setCurrent(currentProblem+1)">Next</button>
+					</span>
 				</div>
 			</div>
 		</div>
@@ -28,9 +32,6 @@
 			Source: <a href="{{problem.source.url}}" target="blank">{{problem.source.name}}</a>
 		</div>
 		<div style="color: #fff;">{{problem.meta.response}} {{problem.response}}</div>
-		<div class="row problem-alerts">
-			<button class="btn btn-xl btn-primary pull-left" ng-click="setCurrent(currentProblem-1)"><</button>
-			<button class="btn btn-xl btn-primary pull-right" ng-click="setCurrent(currentProblem+1)">></button>
 			<div class="alert" role="alert" ng-show="problem.meta.response == 'shortAnswer' && done[currentProblem] != 0" ng-class="{'alert-success': done[currentProblem] == 1, 'alert-danger': done[currentProblem] == -1, 'alert-warning':done[currentProblem] == 2}">
 				Answer: {{problem.response['answer']}}
 			</div>
@@ -40,7 +41,6 @@
 			<div class="alert alert-warning" role="alert" ng-show="done[currentProblem] == -1 && problem.meta.response != 'shortAnswer'">
 				Try again!
 			</div>
-		</div>
 		<div class="answer-area">
 			<form name="intProblemForm" ng-show="problem.meta.response == 'integerAnswer'" novalidate>
 				<div class="form-group">
