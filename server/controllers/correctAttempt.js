@@ -17,7 +17,7 @@ function correctAttempt(req, res) {
                     user.stats.attemptedProblems.push(problemObjectId);
                     user.stats.attemptedCount = user.stats.attemptedProblems.length;
                     user.save();
-                    addProblemAttempt()
+                    addProblemAttempt();
                     res.send('Problem attempt recorded');
                 } else {
                     res.send('Problem already attmpted');
@@ -27,12 +27,14 @@ function correctAttempt(req, res) {
                     user.stats.solvedProblems.push(problemObjectId);
                     user.stats.solvedCount = user.stats.solvedProblems.length;
                     user.save();
-                    addProblemSolve()
+                    addProblemSolve();
                     res.send('Problem solve recorded');
                 } else {
                     res.send('Problem already solved');
                 }
 
+            } else {
+                console.log('User not found');
             }
 
         });
@@ -47,7 +49,12 @@ function correctAttempt(req, res) {
             if (problem) {
                 problem.stats.attemptedCount++;
                 problem.save();
-        });        
+                updateRating(problem.stats.solvedCount, problem.stats.attemptedCount)
+            } else {
+                console.log('Problem not found');
+            }
+
+        });
     }
 
     function addProblemSolve() {
@@ -59,7 +66,32 @@ function correctAttempt(req, res) {
             if (problem) {
                 problem.stats.solvedCount++;
                 problem.save();
+            }
         });        
+    }
+
+    function updateRating(solved, attempted) {
+        var userId = req.user.id;
+
+        var ratingChange = 5; // default
+        if (attempted > 0) {
+            ratingChange = 1 + 9 * (solved / attempted) // rating formula
+        }
+
+        User.findById(userId, function (err, user) {
+            if (err)
+                console.log(err);
+
+            if (user) {
+                user.stats.rating += ratingChange; // add for correct
+                console.log('Rating changed by ' + ratingChange + ', new rating is ' + user.stats.rating);
+                user.save();
+            } else {
+                console.log('User not found');
+            }
+
+        });
+
     }
 
 }

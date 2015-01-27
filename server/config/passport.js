@@ -50,6 +50,7 @@ function configurePassport(passport) {
                     newUser.password = newUser.generateHash(password);
                     newUser.gender = req.body.gender;
                     newUser.country = req.body.country;
+                    newUser.stats.rating = 1000;
                     newUser.stats.solvedCount = 0;
                     newUser.stats.solvedProblems = [];
                     newUser.stats.attemptedCount = 0;

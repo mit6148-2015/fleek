@@ -2,7 +2,7 @@ var ObjectId = require('mongoose').Types.ObjectId;
 var User = require('../models/user');
 var Problem = require('../models/problem');
 
-function correctAttempt(req, res) {
+function incorrectAttempt(req, res) {
 
     if(req.user){
         var userId = req.user.id;
@@ -17,11 +17,13 @@ function correctAttempt(req, res) {
                     user.stats.attemptedProblems.push(problemObjectId);
                     user.stats.attemptedCount = user.stats.attemptedProblems.length;
                     user.save();
-                    addProblemAttempt()
+                    addProblemAttempt();
                     res.send('Problem attempt recorded');
                 } else {
                     res.send('Problem already attmpted');
                 }
+            } else {
+                console.log('User not found');
             }
 
         });
@@ -36,9 +38,37 @@ function correctAttempt(req, res) {
             if (problem) {
                 problem.stats.attemptedCount++;
                 problem.save();
+                updateRating(problem.stats.solvedCount, problem.stats.attemptedCount)
+            } else {
+                console.log('Problem not found');
+            }
         });        
+    }
+
+    function updateRating(solved, attempted) {
+        var userId = req.user.id;
+
+        var ratingChange = 5; // default
+        if (attempted > 0) {
+            ratingChange = 1 + 9 * (solved / attempted) // rating formula
+        }
+
+        User.findById(userId, function (err, user) {
+            if (err)
+                console.log(err);
+
+            if (user) {
+                user.stats.rating -= ratingChange; // subtract for incorrect
+                console.log('Rating changed by ' + ratingChange + ', new rating is ' + user.stats.rating);
+                user.save();
+            } else {
+                console.log('User not found');
+            }
+
+        });
+
     }
 
 }
 
-module.exports = correctAttempt;
+module.exports = incorrectAttempt;
