@@ -13,16 +13,16 @@ angular.module('fleekApp').controller("searchController", function($scope,$rootS
 	$scope.endYear = 2015;
 	//holds search results
 	$scope.results;
-	//generate list of contests from map
+	//generate list of contests from map instantiated above
 	for (var key in $scope.contests) {
 		$scope.contestList.push(key);
 	}
-	//generate list of tags
+	//generate list of tags from a GET request
 	DataService.getData('/db/list/tags')
 	.then (function(data) {
 		$scope.tagList = data;
 	});
-	//return promise with tag list
+	//return promise with tag list for autocomplete
 	$scope.loadItems = function(query) {
 		matchingTags = [];
 		for (i = 0; i < $scope.tagList.length; i++) {
@@ -34,6 +34,7 @@ angular.module('fleekApp').controller("searchController", function($scope,$rootS
 	    deferred.resolve(matchingTags);
 	    return deferred.promise;
 	}
+	//create links for search results
 	$scope.goTo = function(pid) {
 		$location.path('/problem/'+pid);
 	}
@@ -41,6 +42,7 @@ angular.module('fleekApp').controller("searchController", function($scope,$rootS
 	$scope.search = function(){
 		var list = []
 		var tagsQuery = []
+		//add contests to list
 		for (var key in $scope.contests) {
 			if ($scope.contests.hasOwnProperty(key)) {
 				if ($scope.contests[key]==true) {
@@ -48,25 +50,36 @@ angular.module('fleekApp').controller("searchController", function($scope,$rootS
 				}
 			}
 		}
+		//add tags to list
 		for (var key in $scope.tags) {
 			tagsQuery.push($scope.tags[key]['text']);
 		}
-		if ($scope.searchQuery == null) {
+		//if either query or tags list is blank, send a space as the request
+		if ($scope.searchQuery == null || $scope.searchQuery == "") {
     		$scope.searchQuery = " ";
     	}
     	if (tagsQuery.length < 1) {
     		tagsQuery = " ";
     	}
-		console.log('searching text "'+$scope.searchQuery+'" & tags "' + tagsQuery + '" & contests "' + list+'"');
-		DataService.search($scope.searchQuery,tagsQuery,list,$scope.startYear, $scope.endYear)
-		.then (function(data) {
-			$scope.results = data;
-		});
+    	//if neither query nor tags list is blank, send POST request for search results
+    	if ($scope.searchQuery != " " || tagsQuery != " ") { 
+			console.log('searching text "'+$scope.searchQuery+'" & tags "' + tagsQuery + '" & contests "' + list+'"');
+			DataService.search($scope.searchQuery,tagsQuery,list,$scope.startYear, $scope.endYear)
+			.then (function(data) {
+				$scope.results = data;
+			});
+		}
+		//if search query is a space, revert it to null
+		if ($scope.searchQuery == " ") {
+			$scope.searchQuery = "";
+		}
 	}
 	$scope.search();
-	//on submit, redirect to new path
+	//on submit, redirect to new path if query is not blank
 	$scope.submit = function() {
-		$location.path('/search/'+$scope.searchQuery,false);
+		if ($scope.searchQuery != "") {
+			$location.path('/search/'+$scope.searchQuery,false);
+		}
 		$scope.search();
 	}
 });
