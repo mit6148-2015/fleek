@@ -75,8 +75,6 @@ function queryProblems (req, res) {
             
             var goodProblems;
 
-            console.log(tagIds);
-
             if (tagIds.indexOf(undefined) == -1) {
                 goodProblems = problems.filter(function (problem) {
                     var matchingTags = tagIds.filter(function (tagId) {
