@@ -1,10 +1,10 @@
 html {
 	background-color: #efefef;
+	height: 100%;
 }
-
-/*body {
-	height: 100% !important;
-}*/
+body {
+	height: 100%;
+}
 /*navbar styling*/
 .navbar {
 	margin-bottom: 0;
@@ -118,6 +118,18 @@ input::-webkit-inner-spin-button {
 #search-results tr {
 	cursor: pointer;
 }
+/*setlist max height*/
+.sets-container {
+	overflow-y: auto;
+	margin-bottom: 20px;
+}
+/*main set sidebar background color*/
+.sets-main {
+	background-color: #f8ccc6;
+}
+.sets-secondary {
+	background-color: #fff;
+}
 /*hide fleek vine link*/
 .fleek,
 .fleek:hover,
@@ -135,6 +147,12 @@ input::-webkit-inner-spin-button {
 	.vine-embed {
 		width: 480px;
 		height: 480px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.sets-container {
+		max-height: calc(100vh - 200px);
 	}
 }
 
