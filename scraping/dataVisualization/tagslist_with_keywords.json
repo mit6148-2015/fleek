@@ -101,7 +101,7 @@
 },
 {
     "keywords": ["pentagon"],
-    "tag": "pentagons"
+    "tag": "pentagon"
 },
 {
     "keywords": ["polygon", "n-gon"],
@@ -293,7 +293,7 @@
 },
 {
     "keywords": ["permutation"],
-    "tag": "permutation"
+    "tag": "permutations"
 },
 {
     "keywords": ["hexagon"],
@@ -357,7 +357,7 @@
 },
 {
     "keywords": ["chord"],
-    "tag": "chords"
+    "tag": "chord"
 },
 {
     "keywords": ["greatest common factor", "greatest common divisor", "GCD", "GCF"],

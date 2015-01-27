@@ -1,93 +1,103 @@
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b337d" }, "tagText" : "diophantine equation", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33bc" }, { "$oid" : "54c5da64b49f8669cc0b33bd" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b337e" }, "tagText" : "proof by contradiction", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33c1" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b337f" }, "tagText" : "kite", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33ab" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b3380" }, "tagText" : "Vieta's formula", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33ad" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b3381" }, "tagText" : "roots", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33ad" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b3382" }, "tagText" : "prime number", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33bd" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b3383" }, "tagText" : "power of a point", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b3389" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b3384" }, "tagText" : "proportion", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33bc" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b3386" }, "tagText" : "coordinates", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33a1" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b3387" }, "tagText" : "bases", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33a1" }, { "$oid" : "54c5da64b49f8669cc0b33bd" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b3388" }, "tagText" : "factor", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33bd" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b3389" }, "tagText" : "circle", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33a5" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b338a" }, "tagText" : "pythagorean theorem", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b338d" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b338b" }, "tagText" : "logarithm", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33a1" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b338c" }, "tagText" : "cube", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33b9" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b338d" }, "tagText" : "triangle", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33cb" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b338e" }, "tagText" : "combinations", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33c8" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b338f" }, "tagText" : "trigonometric identity", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33c0" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b3390" }, "tagText" : "triangle center", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b338d" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b3391" }, "tagText" : "cosine", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33c0" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b3392" }, "tagText" : "law of sines", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33c0" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b3393" }, "tagText" : "domain", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33b6" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b3394" }, "tagText" : "trigonometry addition formula", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b338f" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b3395" }, "tagText" : "exponent", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33a1" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b3396" }, "tagText" : "cubic", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33ad" }, { "$oid" : "54c5da64b49f8669cc0b33b6" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b3397" }, "tagText" : "binomial theorem", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33ad" }, { "$oid" : "54c5da64b49f8669cc0b33bd" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b3398" }, "tagText" : "squares", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33ab" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b3399" }, "tagText" : "induction", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33c1" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b339a" }, "tagText" : "geometric probability", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33aa" }, { "$oid" : "54c5da64b49f8669cc0b33a2" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b339b" }, "tagText" : "tangent", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33c0" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b339c" }, "tagText" : "incircle", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b3389" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b339d" }, "tagText" : "sine", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33c0" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b339e" }, "tagText" : "remainder", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33a9" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b339f" }, "tagText" : "casework counting", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33c8" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33a0" }, "tagText" : "divisor", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33bd" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33a1" }, "tagText" : "algebra", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33db" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33a2" }, "tagText" : "geometry", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33db" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33a3" }, "tagText" : "rhombus", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33ab" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33a4" }, "tagText" : "range", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33b6" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33a5" }, "tagText" : "2D geometry", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33a2" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33a6" }, "tagText" : "hexagon", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33cb" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33a7" }, "tagText" : "similar triangles", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b338d" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33a9" }, "tagText" : "modular arithmetic", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33bd" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33aa" }, "tagText" : "probability", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33b2" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33ab" }, "tagText" : "quadrilateral", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33cb" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33ac" }, "tagText" : "factoring", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33ad" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33ad" }, "tagText" : "polynomial", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33a1" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33ae" }, "tagText" : "pentagon", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33cb" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33af" }, "tagText" : "arithmetic sequence", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33a1" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33b0" }, "tagText" : "complementary counting", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33c8" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33b1" }, "tagText" : "area", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33a2" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33b2" }, "tagText" : "combinatorics", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33db" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33b3" }, "tagText" : "quadratic", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33ad" }, { "$oid" : "54c5da64b49f8669cc0b33b6" }, { "$oid" : "54c5da64b49f8669cc0b33bc" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33b4" }, "tagText" : "geometric series", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33a1" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33b5" }, "tagText" : "analytic geometry", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33a2" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33b6" }, "tagText" : "function", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33a1" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33b7" }, "tagText" : "congruence", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33a2" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33b8" }, "tagText" : "chinese remainder theorem", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33a9" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33b9" }, "tagText" : "3D geometry", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33a2" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33ba" }, "tagText" : "number of divisors", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b3388" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33bb" }, "tagText" : "quartic", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33ad" }, { "$oid" : "54c5da64b49f8669cc0b33b6" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33bc" }, "tagText" : "equation", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33a1" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33bd" }, "tagText" : "number theory", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33db" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33be" }, "tagText" : "law of cosines", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33c0" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33bf" }, "tagText" : "floor function", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33b6" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33c0" }, "tagText" : "trigonometry", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33a1" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33c1" }, "tagText" : "proof", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33db" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33c2" }, "tagText" : "pyramid", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33b9" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33c3" }, "tagText" : "permutations", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33c8" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33c4" }, "tagText" : "linear equation", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33bc" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33c5" }, "tagText" : "sphere", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33b9" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33c6" }, "tagText" : "circumcircle", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b3389" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33c7" }, "tagText" : "cone", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33b9" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33c8" }, "tagText" : "counting", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33b2" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33c9" }, "tagText" : "binary", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b3387" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33ca" }, "tagText" : "angle", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33a2" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33cb" }, "tagText" : "polygon", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33a5" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33cc" }, "tagText" : "recursion", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33bc" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33cd" }, "tagText" : "fibnoacci numbers", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33cc" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33ce" }, "tagText" : "prism", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33b9" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33cf" }, "tagText" : "constructive counting", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33c8" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33d0" }, "tagText" : "arithmetic", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33db" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33d1" }, "tagText" : "perimeter", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33a2" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33d2" }, "tagText" : "arcs", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b3389" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33d3" }, "tagText" : "logic", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33db" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33d4" }, "tagText" : "octagon", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33cb" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33d5" }, "tagText" : "double angle formula", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b338f" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33d6" }, "tagText" : "cyclic quadrilateral", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33ab" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33d7" }, "tagText" : "sectors", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b3389" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33d8" }, "tagText" : "chords", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b3389" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33d9" }, "tagText" : "greatest common divisor", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b3388" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33da" }, "tagText" : "ceiling function", "parentTags" : [ { "$oid" : "54c5da64b49f8669cc0b33b6" } ], "__v" : 0 }
-{ "_id" : { "$oid" : "54c5da64b49f8669cc0b33db" }, "tagText" : "math", "parentTags" : [], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed54763e" }, "tagText" : "sector", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54764a" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed54763f" }, "tagText" : "chord", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54764a" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547640" }, "tagText" : "proof by contradiction", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54768a" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547641" }, "tagText" : "kite", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547673" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547642" }, "tagText" : "diophantine equation", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547685" }, { "$oid" : "54c734585e25abd1ed547686" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547643" }, "tagText" : "roots", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547675" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547644" }, "tagText" : "prime number", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547686" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547645" }, "tagText" : "power of a point", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54764a" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547646" }, "tagText" : "proportion", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547685" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547647" }, "tagText" : "factoring", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547675" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547648" }, "tagText" : "bases", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54765c" }, { "$oid" : "54c734585e25abd1ed547686" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547649" }, "tagText" : "factor", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547686" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed54764a" }, "tagText" : "circle", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547663" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed54764b" }, "tagText" : "pythagorean theorem", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54764d" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed54764c" }, "tagText" : "cube", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54768b" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed54764d" }, "tagText" : "triangle", "parentTags" : [ { "$oid" : "54c734595e25abd1ed547696" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed54764e" }, "tagText" : "combinations", "parentTags" : [ { "$oid" : "54c734595e25abd1ed547693" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed54764f" }, "tagText" : "trigonometric identity", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547689" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547650" }, "tagText" : "cosine", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547689" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547651" }, "tagText" : "median", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547664" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547652" }, "tagText" : "mode", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547664" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547653" }, "tagText" : "law of sines", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547689" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547654" }, "tagText" : "mean", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547664" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547655" }, "tagText" : "domain", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54767e" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547656" }, "tagText" : "square", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547673" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547657" }, "tagText" : "trigonometry addition formula", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54764f" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547658" }, "tagText" : "arc", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54764a" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547659" }, "tagText" : "triangle centers", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54764d" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed54765a" }, "tagText" : "exponent", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54765c" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed54765b" }, "tagText" : "pentagon", "parentTags" : [ { "$oid" : "54c734595e25abd1ed547696" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed54765c" }, "tagText" : "algebra", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54765f" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed54765d" }, "tagText" : "binomial theorem", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547675" }, { "$oid" : "54c734585e25abd1ed547686" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed54765e" }, "tagText" : "induction", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54768a" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed54765f" }, "tagText" : "math", "parentTags" : [], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547660" }, "tagText" : "venn diagram", "parentTags" : [ { "$oid" : "54c734595e25abd1ed547693" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547661" }, "tagText" : "biology", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547684" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547662" }, "tagText" : "geometric probability", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547672" }, { "$oid" : "54c734585e25abd1ed54766b" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547663" }, "tagText" : "2d geometry", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54766b" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547664" }, "tagText" : "statistics", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54765c" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547665" }, "tagText" : "tangent", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547689" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547666" }, "tagText" : "incircle", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54764a" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547667" }, "tagText" : "sine", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547689" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547668" }, "tagText" : "remainder", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547671" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547669" }, "tagText" : "casework counting", "parentTags" : [ { "$oid" : "54c734595e25abd1ed547693" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed54766a" }, "tagText" : "divisor", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547686" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed54766b" }, "tagText" : "geometry", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54765f" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed54766c" }, "tagText" : "rhombus", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547673" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed54766d" }, "tagText" : "range", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54767e" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed54766e" }, "tagText" : "logic", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54765f" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed54766f" }, "tagText" : "hexagon", "parentTags" : [ { "$oid" : "54c734595e25abd1ed547696" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547670" }, "tagText" : "similar triangles", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54764d" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547671" }, "tagText" : "modular arithmetic", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547686" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547672" }, "tagText" : "probability", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54767a" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547673" }, "tagText" : "quadrilateral", "parentTags" : [ { "$oid" : "54c734595e25abd1ed547696" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547674" }, "tagText" : "coordinates", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54765c" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547675" }, "tagText" : "polynomial", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54765c" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547676" }, "tagText" : "vieta's formulas", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547675" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547677" }, "tagText" : "arithmetic sequence", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54765c" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547678" }, "tagText" : "complementary counting", "parentTags" : [ { "$oid" : "54c734595e25abd1ed547693" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547679" }, "tagText" : "area", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54766b" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed54767a" }, "tagText" : "combinatorics", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54765f" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed54767b" }, "tagText" : "quadratic", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547675" }, { "$oid" : "54c734585e25abd1ed54767e" }, { "$oid" : "54c734585e25abd1ed547685" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed54767c" }, "tagText" : "geometric series", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54765c" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed54767d" }, "tagText" : "analytic geometry", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54766b" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed54767e" }, "tagText" : "function", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54765c" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed54767f" }, "tagText" : "congruence", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54766b" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547680" }, "tagText" : "chinese remainder theorem", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547671" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547681" }, "tagText" : "logarithm", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54765c" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547682" }, "tagText" : "number of divisors", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547649" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547683" }, "tagText" : "quartic", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547675" }, { "$oid" : "54c734585e25abd1ed54767e" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547684" }, "tagText" : "science", "parentTags" : [], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547685" }, "tagText" : "equation", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54765c" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547686" }, "tagText" : "number theory", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54765f" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547687" }, "tagText" : "law of cosines", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547689" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547688" }, "tagText" : "floor function", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54767e" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed547689" }, "tagText" : "trigonometry", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54765c" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed54768a" }, "tagText" : "proof", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54765f" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734585e25abd1ed54768b" }, "tagText" : "3d geometry", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54766b" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734595e25abd1ed54768c" }, "tagText" : "pyramid", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54768b" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734595e25abd1ed54768d" }, "tagText" : "permutations", "parentTags" : [ { "$oid" : "54c734595e25abd1ed547693" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734595e25abd1ed54768e" }, "tagText" : "linear equation", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547685" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734595e25abd1ed54768f" }, "tagText" : "pie", "parentTags" : [ { "$oid" : "54c734595e25abd1ed547693" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734595e25abd1ed547690" }, "tagText" : "sphere", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54768b" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734595e25abd1ed547691" }, "tagText" : "circumcircle", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54764a" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734595e25abd1ed547692" }, "tagText" : "cone", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54768b" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734595e25abd1ed547693" }, "tagText" : "counting", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54767a" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734595e25abd1ed547694" }, "tagText" : "binary", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547648" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734595e25abd1ed547695" }, "tagText" : "angle", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54766b" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734595e25abd1ed547696" }, "tagText" : "polygon", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547663" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734595e25abd1ed547697" }, "tagText" : "recursion", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547685" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734595e25abd1ed547698" }, "tagText" : "fibnoacci numbers", "parentTags" : [ { "$oid" : "54c734595e25abd1ed547697" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734595e25abd1ed547699" }, "tagText" : "prism", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54768b" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734595e25abd1ed54769a" }, "tagText" : "constructive counting", "parentTags" : [ { "$oid" : "54c734595e25abd1ed547693" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734595e25abd1ed54769b" }, "tagText" : "arithmetic", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54765f" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734595e25abd1ed54769c" }, "tagText" : "perimeter", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54766b" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734595e25abd1ed54769d" }, "tagText" : "cubic", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547675" }, { "$oid" : "54c734585e25abd1ed54767e" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734595e25abd1ed54769e" }, "tagText" : "octagon", "parentTags" : [ { "$oid" : "54c734595e25abd1ed547696" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734595e25abd1ed54769f" }, "tagText" : "double angle formula", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54764f" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734595e25abd1ed5476a0" }, "tagText" : "cyclic quadrilateral", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547673" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734595e25abd1ed5476a1" }, "tagText" : "chemistry", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547684" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734595e25abd1ed5476a2" }, "tagText" : "greatest common divisor", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547649" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734595e25abd1ed5476a3" }, "tagText" : "ceiling function", "parentTags" : [ { "$oid" : "54c734585e25abd1ed54767e" } ], "__v" : 0 }
+{ "_id" : { "$oid" : "54c734595e25abd1ed5476a4" }, "tagText" : "physics", "parentTags" : [ { "$oid" : "54c734585e25abd1ed547684" } ], "__v" : 0 }
