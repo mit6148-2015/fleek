@@ -1,7 +1,9 @@
-function profileInfo (req, res) {
-    var username = req.body.params.username;
+var User = require('../models/user');
 
-    User.findOne( { 'username' : username }, function (err, user) {
+function profileInfo (req, res) {
+    var username = req.query.username;
+
+    User.findOne({ 'username' : username }, function (err, user) {
         if (err)
             console.log(err);
 
