@@ -9,16 +9,15 @@
 	      </button>
 	      <a href="/" class="navbar-brand"><img class="nav-logo" src="/assets/img/icons/logo-alt.png"></a>
 	    </div>
-
 	    <div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
 	      <ul class="nav navbar-nav navbar-right">
-	      	<li><a href="/search" ng-show="userLoggedIn" ng-click="isCollapsed = !isCollapsed">Search</a></li>
-	      	<li><a href="/set" ng-show="userLoggedIn" ng-click="isCollapsed = !isCollapsed">Sets</a></li>
-	      	<li><a href="/profile/{{userLoggedIn}}" ng-show="userLoggedIn" ng-click="isCollapsed = !isCollapsed">Profile</a></li>
-	      	<li ng-hide="userLoggedIn"><a href="/login" ng-click="isCollapsed = !isCollapsed">Log In</a></li>
-	      	<li ng-hide="userLoggedIn"><a href="/signup" ng-click="isCollapsed = !isCollapsed">Sign Up</a></li>
+	      	<li ng-class="{'active':current=='/views/search.html'}"><a href="/search" ng-show="userLoggedIn" ng-click="isCollapsed = !isCollapsed">Search</a></li>
+	      	<li ng-class="{'active':current=='/views/setlist.html'}"><a href="/set" ng-show="userLoggedIn" ng-click="isCollapsed = !isCollapsed">Sets</a></li>
+	      	<li ng-class="{'active':current=='/views/profile.html'}"><a href="/profile/{{userLoggedIn}}" ng-show="userLoggedIn" ng-click="isCollapsed = !isCollapsed">Profile</a></li>
+	      	<li ng-class="{'active':current=='/views/about.html'}"><a href="/about" ng-click="isCollapsed = !isCollapsed">About</a></li>
+	      	<li ng-hide="userLoggedIn" ng-class="{'active':current=='/views/login.html'}"><a href="/login" ng-click="isCollapsed = !isCollapsed">Log In</a></li>
+	      	<li ng-hide="userLoggedIn" ng-class="{'active':current=='/views/signup.html'}"><a href="/signup" ng-click="isCollapsed = !isCollapsed">Sign Up</a></li>
 	      	<li ng-show="userLoggedIn" ng-click="logout()"><a href ng-click="isCollapsed = !isCollapsed">Log Out</a></li>
-	      	<li><a href="/about" ng-click="isCollapsed = !isCollapsed">About</a></li>
 	      </ul>
 	    </div>
 	</div>
