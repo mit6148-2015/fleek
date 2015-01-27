@@ -26,7 +26,7 @@ for line in f:
                 tags = ["science"]
         else:
                 if "amo" in contest or "usajmo" in contest or "utnam" in contest:
-                        tags = ["math", "proofs"]
+                        tags = ["math", "proof"]
                 else:
                         tags = ["math"]   
         for y in alltags:

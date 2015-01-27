@@ -80,8 +80,8 @@
             "binomial theorem"
         ],
         "geometry": [
-            "2D geometry",
-            "3D geometry",
+            "2d geometry",
+            "3d geometry",
             "analytic geometry",
             "area",
             "perimeter",
@@ -130,13 +130,13 @@
         ],
         "quadrilateral": [
             "cyclic quadrilateral",
-            "squares",
+            "square",
             "rhombus",
             "kite"
         ],
         "circle": [
-            "arcs",
-            "chords",
+            "arc",
+            "chord",
             "power of a point",
             "sector",
             "incircle",

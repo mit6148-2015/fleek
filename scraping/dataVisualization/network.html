@@ -160,6 +160,7 @@
 
 // Take all the tags and make an array out of them. This is to prevent duplicates and get ID's.
 var allTags = [];
+
   for (var i = 0; i<tags.length; i++) {
     //console.log(tags[i].tag)
     tagDict = tags[i];
@@ -175,13 +176,21 @@ var allTags = [];
     }
   }
 
-nodes = []
+nodes = [];
 
 // Go back, and add the nodes now. 
 
 for (var i = 0; i<allTags.length; i++) {
     var displayButton = "<a class=\"btn btn-default btn-xs\" href=\"#\" role=\"button\"> Find \n"+allTags[i]+" problems</a>";
-    nodes.push({id:i, label:allTags[i], title:displayButton});
+    if (allTags[i]=="fleek") {
+      nodes.push({id:i, label:allTags[i], title:displayButton, group:"fleek"});
+    }
+    else if (allTags[i]=="math" || allTags[i]=="science") {
+      nodes.push({id:i, label:allTags[i], title:displayButton, group:"mathsci"});
+    }
+    else {
+      nodes.push({id:i, label:allTags[i], title:displayButton});
+    }
 }
 
 edges = [];
@@ -208,10 +217,18 @@ edges = [];
 
 
   var options = {
+    groups: {
+      fleek: {
+        fontSize: 35
+      },
+      mathsci: {
+        fontSize: 24
+      }
+    },
     zoomExtentOnStabilize:false,
     keyboard:true,
     hierarchicalLayout: {
-      nodeSpacing:150,
+      nodeSpacing:180,
       enabled: true,
       direction: "UD",
       layout: "direction"
