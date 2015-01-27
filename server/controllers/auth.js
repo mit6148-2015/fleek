@@ -2,10 +2,11 @@ var auth = function(req, res, next){
     if (!req.isAuthenticated()) {
         res.sendStatus(401); 
     } else {
-        returnObject = {};
+        var returnObject = {};
         returnObject['username'] = req.user.username;
         returnObject['tutorial'] = req.user.tutorial;
-        res.send(returnObject);
+        console.log(returnObject);
+        // res.send(returnObject);
         next(); 
     }
 }
