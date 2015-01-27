@@ -124,7 +124,7 @@ setMeta['Putnam'] = function (instance, numProblems) {
 
 
 setMeta['Science Bowl'] = function (instance, numProblems) {
-    this.name = 'Science Bowl: ' + String(instance);
+    this.name = 'SciBowl: ' + String(instance);
     this.pattern = 'Science Bowl';
     this.instance = String(instance);
     this.numProblems = parseInt(numProblems);
