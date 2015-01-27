@@ -31,14 +31,13 @@
 		<div class="row problem-alerts">
 			<button class="btn btn-xl btn-primary pull-left" ng-click="setCurrent(currentProblem-1)"><</button>
 			<button class="btn btn-xl btn-primary pull-right" ng-click="setCurrent(currentProblem+1)">></button>
-			<div class="alert alert-success alert-dismissible" role="alert" ng-show="showAnswer">
-				<button type="button" class="close" ng-click="showAnswer = false" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<div class="alert" role="alert" ng-show="problem.meta.response == 'shortAnswer' && done[currentProblem] != 0" ng-class="{'alert-success': done[currentProblem] == 1, 'alert-danger': done[currentProblem] == -1, 'alert-warning':done[currentProblem] == 2}">
 				Answer: {{problem.response['answer']}}
 			</div>
-			<div class="alert alert-sm alert-success" role="alert" ng-show="done[currentProblem] == 1">
+			<div class="alert alert-sm alert-success" role="alert" ng-show="done[currentProblem] == 1 && problem.meta.response != 'shortAnswer'">
 				Correct!
 			</div>
-			<div class="alert alert-warning" role="alert" ng-show="done[currentProblem] == -1">
+			<div class="alert alert-warning" role="alert" ng-show="done[currentProblem] == -1 && problem.meta.response != 'shortAnswer'">
 				Try again!
 			</div>
 		</div>
@@ -55,12 +54,12 @@
 			</div>
 		</form>
 		<div ng-repeat="(key,answer) in choices" ng-show="problem.meta.response == 'multipleChoice'">
-			<button class="btn btn-primary answer-choice" ng-click="multiValidate($index)" ng-disabled="correct">{{key}}</button> <span dynamic="answer"></span>
+			<button class="btn btn-primary answer-choice" ng-click="multiValidate($index)" ng-disabled="done[currentProblem] == 1">{{key}}</button> <span dynamic="answer"></span>
 		</div>
 		<div ng-show="problem.meta.response == 'shortAnswer'">
-			<button class="btn btn-primary" ng-hide="showAnswer" ng-click="showAnswer = true">Show Answer</button>
-			<button class="btn btn-success" ng-show="showAnswer" ng-click="shortValidate(true)" ng-disabled="answered">Correct</button>
-			<button class="btn btn-danger" ng-show="showAnswer" ng-click="shortValidate(false)" ng-disabled="answered">Incorrect</button>
+			<button class="btn btn-primary" ng-show="done[currentProblem] == 0" ng-click="done[currentProblem] = 2">Show Answer</button>
+			<button class="btn btn-success" ng-show="done[currentProblem] != 0" ng-click="shortValidate(true)" ng-disabled="done[currentProblem] != 0 && done[currentProblem] != 2">Correct</button>
+			<button class="btn btn-danger" ng-show="done[currentProblem] != 0" ng-click="shortValidate(false)" ng-disabled="done[currentProblem] != 0 && done[currentProblem] != 2">Incorrect</button>
 		</div>
 	</div>
 </div>
