@@ -25,6 +25,9 @@ angular.module('fleekApp').controller("searchController", function($scope,$rootS
 		for (var key in $scope.contests) {
 			$scope.contestList.push(key);
 		}
+	})
+	.then (function () {
+		$scope.search();
 	});
 	//generate list of tags from a GET request
 	DataService.getData('/db/list/tags')
@@ -83,7 +86,6 @@ angular.module('fleekApp').controller("searchController", function($scope,$rootS
 			$scope.searchQuery = "";
 		}
 	}
-	$scope.search();
 	//on submit, redirect to new path if query is not blank
 	$scope.submit = function() {
 		if ($scope.searchQuery != "") {

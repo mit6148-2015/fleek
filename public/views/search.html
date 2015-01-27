@@ -57,9 +57,9 @@
 					     			<img class="sort-arrow" ng-show="predicate == 'meta.setIndex' && reverse == true" src="/assets/img/icons/down-arrow.svg">
 					     		</th>
 					     		<th>
-					     			<a href ng-click="predicate = 'meta.response'; reverse = !reverse">Type</a>
-					     			<img class="sort-arrow" ng-show="predicate == 'meta.response' && reverse == false" src="/assets/img/icons/up-arrow.svg">
-					     			<img class="sort-arrow" ng-show="predicate == 'meta.response' && reverse == true" src="/assets/img/icons/down-arrow.svg">
+					     			<a href ng-click="predicate = 'stats.solvedCount'; reverse = !reverse">Solved</a>
+					     			<img class="sort-arrow" ng-show="predicate == 'stats.solvedCount' && reverse == false" src="/assets/img/icons/up-arrow.svg">
+					     			<img class="sort-arrow" ng-show="predicate == 'stats.solvedCount' && reverse == true" src="/assets/img/icons/down-arrow.svg">
 					     		</th>
 					    	</tr>
 					    </thead>
@@ -67,7 +67,7 @@
 							<td>{{result.meta.setPattern}}</td>
 							<td>{{result.meta.setInstance}}</td>
 							<td>#{{result.meta.setIndex+1}}</td>
-							<td>{{result.meta.response}}</td>
+							<td>{{result.stats.solvedCount}}/{{result.stats.attemptedCount}}</td>
 						</tr>
 					</table>
 				</div>
