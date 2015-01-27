@@ -81,6 +81,10 @@ body {
 .right-buttons {
 	margin-bottom: 10px;
 }
+/*progress bar remove margin*/
+.progress {
+	margin-bottom: 0px;
+}
 /*set focus and active attributes for the select multiple buttons*/
 .btn-multiple:focus {
 	background-color: #dc5133;
