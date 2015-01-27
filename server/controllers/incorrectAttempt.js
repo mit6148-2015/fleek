@@ -18,7 +18,6 @@ function incorrectAttempt(req, res) {
                     user.stats.attemptedCount = user.stats.attemptedProblems.length;
                     user.save();
                     addProblemAttempt();
-                    res.send('Problem attempt recorded');
                 } else {
                     res.send('Problem already attempted');
                 }
@@ -57,6 +56,7 @@ function incorrectAttempt(req, res) {
                 user.stats.rating -= ratingChange; // subtract for incorrect
                 console.log('Rating changed by ' + ratingChange + ', new rating is ' + user.stats.rating);
                 user.save();
+                res.send('Your fleek level dropped by ' + ratingChange + ' to ' + user.stats.rating);
             } else {
                 console.log('User not found');
             }

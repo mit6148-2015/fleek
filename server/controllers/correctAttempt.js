@@ -23,7 +23,6 @@ function correctAttempt(req, res) {
 
                     addProblemSolve();
                     addProblemAttempt();
-                    res.send('Problem attempt recorded');
                 } else {
                     res.send('Problem already attempted');
                 }
@@ -77,6 +76,7 @@ function correctAttempt(req, res) {
                 user.stats.rating += ratingChange; // add for correct
                 console.log('Rating changed by ' + ratingChange + ', new rating is ' + user.stats.rating);
                 user.save();
+                res.send('Your fleek level went up by ' + ratingChange + ' to ' + user.stats.rating + "!");
             } else {
                 console.log('User not found');
             }
