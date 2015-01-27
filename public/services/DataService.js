@@ -76,8 +76,8 @@ angular.module('fleekApp').factory('DataService', function($http, $q){
         		}
         	);
         },
-        setTutorial : function(name,state) {
-        	return $http.post('/tutorial/'+name, { params: {name: state}})
+        setTutorial : function(name,newState) {
+        	return $http.post('/tutorial/'+name, { params: {state: newState}})
         		.then(function(response) {
         			if (typeof response.data === 'string') {
         				console.log(response.data);
