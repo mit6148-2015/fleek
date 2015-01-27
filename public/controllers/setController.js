@@ -127,15 +127,15 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
 	}
 	//listen for keypress
 	$scope.$on('keypress', function(event, args) {
-	    if ($scope.problem.meta.response == "multipleChoice") 
+		if (args.key == "j") {
+    		$scope.setCurrent($scope.currentProblem - 1);
+    	}
+    	else if (args.key == "k") {
+    		$scope.setCurrent($scope.currentProblem + 1);
+    	}
+	    else if ($scope.problem.meta.response == "multipleChoice") 
 	    {
 	    	var count = 0;
-	    	if (args.key == "j") {
-	    		$scope.setCurrent($scope.currentProblem - 1);
-	    	}
-	    	else if (args.key == "k") {
-	    		$scope.setCurrent($scope.currentProblem + 1);
-	    	}
 	    	else {
 		    	for (var k in $scope.choices) {
 		    		if (angular.lowercase(k) == args.key) {
