@@ -133,17 +133,14 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
     	else if (args.key == "k") {
     		$scope.setCurrent($scope.currentProblem + 1);
     	}
-	    else if ($scope.problem.meta.response == "multipleChoice") 
-	    {
+	    else if ($scope.problem.meta.response == "multipleChoice") {
 	    	var count = 0;
-	    	else {
-		    	for (var k in $scope.choices) {
-		    		if (angular.lowercase(k) == args.key) {
-		    			$scope.multiValidate(count);
-		    		}
-		    		count++;
-		    	}
-		    }
+	    	for (var k in $scope.choices) {
+	    		if (angular.lowercase(k) == args.key) {
+	    			$scope.multiValidate(count);
+	    		}
+	    		count++;
+	    	}
 	    }
 	});
 
