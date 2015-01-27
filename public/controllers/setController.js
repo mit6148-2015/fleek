@@ -122,7 +122,7 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
 	}
 	//report problem mistake
 	$scope.report = function(id) {
-		DataService.reportProblem(id)
+		DataService.sendProblemResult('/report',id)
 		.then (function(data) {
 			$scope.reported = true;
 		});
