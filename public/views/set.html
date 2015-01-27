@@ -41,25 +41,27 @@
 				Try again!
 			</div>
 		</div>
-		<form name="intProblemForm" ng-show="problem.meta.response == 'integerAnswer'" novalidate>
-			<div class="form-group">
-				<div class="control-group" ng-class="{'has-error':intProblemForm.intAnswers[currentProblem].$invalid}">
-					<div class="input-group">
-						<input autofocus focus-me="current=='/views/set.html'" type="number" class="form-control" ng-model="intAnswers[currentProblem]" name="intAnswers[currentProblem]" placeholder="answer" ng-disabled="done[currentProblem] == 1"></input>
-						<span class="input-group-btn">
-							<button class="btn btn-primary" type="submit" ng-disabled="intProblemForm.$invalid" ng-click="intValidate(intAnswers[currentProblem])">Go</button>
-						</span>
+		<div class="answer-area">
+			<form name="intProblemForm" ng-show="problem.meta.response == 'integerAnswer'" novalidate>
+				<div class="form-group">
+					<div class="control-group" ng-class="{'has-error':intProblemForm.intAnswers[currentProblem].$invalid}">
+						<div class="input-group">
+							<input autofocus focus-me="current=='/views/set.html'" type="number" class="form-control" ng-model="intAnswers[currentProblem]" name="intAnswers[currentProblem]" placeholder="answer" ng-disabled="done[currentProblem] == 1"></input>
+							<span class="input-group-btn">
+								<button class="btn btn-primary" type="submit" ng-disabled="intProblemForm.$invalid" ng-click="intValidate(intAnswers[currentProblem])">Go</button>
+							</span>
+						</div>
 					</div>
 				</div>
+			</form>
+			<div ng-repeat="(key,answer) in choices" ng-show="problem.meta.response == 'multipleChoice'">
+				<button class="btn btn-primary answer-choice" ng-click="multiValidate($index)" ng-disabled="done[currentProblem] == 1">{{key}}</button> <span dynamic="answer"></span>
 			</div>
-		</form>
-		<div ng-repeat="(key,answer) in choices" ng-show="problem.meta.response == 'multipleChoice'">
-			<button class="btn btn-primary answer-choice" ng-click="multiValidate($index)" ng-disabled="done[currentProblem] == 1">{{key}}</button> <span dynamic="answer"></span>
-		</div>
-		<div ng-show="problem.meta.response == 'shortAnswer'">
-			<button class="btn btn-primary" ng-show="done[currentProblem] == 0" ng-click="done[currentProblem] = 2">Show Answer</button>
-			<button class="btn btn-success" ng-show="done[currentProblem] != 0" ng-click="shortValidate(true)" ng-disabled="done[currentProblem] != 0 && done[currentProblem] != 2">Correct</button>
-			<button class="btn btn-danger" ng-show="done[currentProblem] != 0" ng-click="shortValidate(false)" ng-disabled="done[currentProblem] != 0 && done[currentProblem] != 2">Incorrect</button>
+			<div ng-show="problem.meta.response == 'shortAnswer'">
+				<button class="btn btn-primary" ng-show="done[currentProblem] == 0" ng-click="done[currentProblem] = 2">Show Answer</button>
+				<button class="btn btn-success" ng-show="done[currentProblem] != 0" ng-click="shortValidate(true)" ng-disabled="done[currentProblem] != 0 && done[currentProblem] != 2">Correct</button>
+				<button class="btn btn-danger" ng-show="done[currentProblem] != 0" ng-click="shortValidate(false)" ng-disabled="done[currentProblem] != 0 && done[currentProblem] != 2">Incorrect</button>
+			</div>
 		</div>
 	</div>
 </div>

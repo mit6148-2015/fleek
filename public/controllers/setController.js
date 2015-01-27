@@ -10,7 +10,6 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
 	//generate list of sets from a GET request
 	DataService.getSet($routeParams.setId)
 	.then (function(data) {
-		console.log(data); //
 		$scope.problems = data;
 		$scope.problem = $scope.problems.problems[$scope.currentProblem];
 		//if the problem is multiple choice, populate choices dictionary

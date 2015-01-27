@@ -71,6 +71,9 @@ body {
 	width: 100%;
 	min-height: 100vh;
 }
+.answer-area {
+	margin-bottom: 20px;
+}
 /*remove accessibility outline on focus*/
 .btn {
 	outline: none !important;
