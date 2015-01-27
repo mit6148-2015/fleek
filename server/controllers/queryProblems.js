@@ -59,7 +59,9 @@ function queryProblems (req, res) {
         var query = Problem.find();
 
         // query conditions
-        query.where({$text: { $search: queryText }});
+        if (queryText !== " ") {
+            query.where({$text: { $search: queryText }});
+        }
         query.or([{'meta.setInstance': {$gte: startYear, $lte: endYear + 'z'}},
             {'meta.setInstance': {$lte: FIRSTYEAR}},
             {'meta.setInstance': {$gte: LASTYEAR}}]); // in year range, or instance doesn't indicate year
