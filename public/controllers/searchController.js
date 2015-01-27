@@ -88,7 +88,7 @@ angular.module('fleekApp').controller("searchController", function($scope,$rootS
 	}
 	//on submit, redirect to new path if query is not blank
 	$scope.submit = function() {
-		if ($scope.searchQuery != "") {
+		if ($scope.searchQuery != "" || $routeParams.searchQuery != null) {
 			$location.path('/search/'+$scope.searchQuery,false);
 		}
 		$scope.search();
