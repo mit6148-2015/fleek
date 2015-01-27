@@ -6,12 +6,19 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
 	$scope.done = [];
 	$scope.intAnswers = [];
 	$scope.reported = false;
+	$scope.choices = {}
 	//generate list of sets from a GET request
 	DataService.getSet($routeParams.setId)
 	.then (function(data) {
 		console.log(data); //
-		$scope.problems = data
-		$scope.problem = $scope.problems.problems[$scope.currentProblem]
+		$scope.problems = data;
+		$scope.problem = $scope.problems.problems[$scope.currentProblem];
+		//if the problem is multiple choice, populate choices dictionary
+		if ($scope.problem.meta.response == "multipleChoice") {
+			for (i = 0; i < $scope.problem.response.numChoices; i++) {
+				$scope.choices[$scope.problem.response.keys[i]] = $scope.problem.response.choices[i];
+			}
+		}
 	});
 	//set current problem index
 	$scope.setCurrent = function(index) {
@@ -24,6 +31,13 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
 		$scope.currentProblem = index;
 		$scope.problem = $scope.problems.problems[$scope.currentProblem];
 		$scope.reported = false;
+		//if the problem is multiple choice, populate choices dictionary
+		if ($scope.problem.meta.response == "multipleChoice") {
+			$scope.choices = {};
+			for (i = 0; i < $scope.problem.response.numChoices; i++) {
+				$scope.choices[$scope.problem.response.keys[i]] = $scope.problem.response.choices[i];
+			}
+		}
 	}
 	//generate list of values from 0 to n-1
 	$scope.range = function(n) {
@@ -111,4 +125,26 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
 			$scope.reported = true;
 		});
 	}
+	//listen for keypress
+	$scope.$on('keypress', function(event, args) {
+	    if ($scope.problem.meta.response == "multipleChoice") 
+	    {
+	    	var count = 0;
+	    	if (args.key == "j") {
+	    		$scope.setCurrent($scope.currentProblem - 1);
+	    	}
+	    	else if (args.key == "k") {
+	    		$scope.setCurrent($scope.currentProblem + 1);
+	    	}
+	    	else {
+		    	for (var k in $scope.choices) {
+		    		if (angular.lowercase(k) == args.key) {
+		    			$scope.multiValidate(count);
+		    		}
+		    		count++;
+		    	}
+		    }
+	    }
+	});
+
 });
