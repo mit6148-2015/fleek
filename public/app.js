@@ -35,7 +35,7 @@ angular.module('fleekApp', ['ngRoute','ngTagsInput'])
 	        templateUrl: '/views/setlist.html',
 	        controller: 'setlistController'
 	    })
-	    .when('/set/:userId', {
+	    .when('/set/:setId', {
 	        templateUrl: '/views/set.html',
 	        controller: 'setController'
 	    })

@@ -75,6 +75,12 @@ body {
 .btn {
 	outline: none !important;
 }
+.btn-xl {
+	height: 52px;
+}
+.right-buttons {
+	margin-bottom: 10px;
+}
 /*set focus and active attributes for the select multiple buttons*/
 .btn-multiple:focus {
 	background-color: #dc5133;
@@ -105,6 +111,9 @@ input::-webkit-inner-spin-button {
 	display: block;
 	margin: 14px auto;
 }
+.subtitle {
+	margin-top: 0;
+}
 /*style table header sort arrows*/
 .sort-arrow {
 	height: 14px;
@@ -129,6 +138,23 @@ input::-webkit-inner-spin-button {
 }
 .sets-secondary {
 	background-color: #fff;
+}
+/*set overflow for button row*/
+.button-row {
+	overflow-x: auto;
+	width: 100%;
+}
+/*set problems page styling*/
+.problem-alerts {
+	margin: 15px 0;
+}
+.problem-alerts button{
+	width: 8.3333333333%;
+	vertical-align: center;
+}
+.problem-alerts .alert {
+	width: 83.3333333333%;
+	margin-left: 8.3333333333%;
 }
 /*hide fleek vine link*/
 .fleek,

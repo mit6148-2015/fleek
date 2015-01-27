@@ -1,14 +1,23 @@
 <div id="problem-container" class="page-fill">
-	<div id="problem" class="col-sm-6 col-sm-offset-3">
+	<div id="problem" class="col-md-6 col-md-offset-3">
 		<h2>fleek</h2>
-		<div class="text-right pull-right">
-			<a href="/search/{{searchHistory}}" class="btn btn-xs btn-primary">Back to Search</a> 
-			<a ng-disabled="reported" class="btn btn-xs btn-danger" ng-click="report()">Report Mistake</a><br>			
+		<div class="row">
+			<div class="col col-sm-4">
+				<h3 class="subtitle">{{problem.meta.setPattern}} {{problem.meta.setInstance}}  #{{problem.meta.setIndex+1}} </h3>
+				<h4>  </h4>
+			</div>
+			<div class="col col-sm-8">
+				<div class="text-right right-buttons">
+					<a href="/search/{{searchHistory}}" class="btn btn-xs btn-primary">Back to Search</a> 
+					<a ng-disabled="reported" class="btn btn-xs btn-danger" ng-click="report(problem._id)">Report Mistake</a><br>			
+				</div>
+			</div>
+		</div>
+		<div class="col col-sm-12">
+		<div dynamic="problem.statement"> </div>
+		<div class="pull-right">
 			Source: <a href="{{problem.source.url}}" target="blank">{{problem.source.name}}</a>
 		</div>
-		<h3>{{problem.meta.setPattern}} </h3>
-		<h4> {{problem.meta.setInstance}}  #{{problem.meta.setIndex+1}} </h4>
-		<div dynamic="problem.statement"> </div>
 		<div style="color: #fff;">{{problem.meta.response}} {{problem.response}}</div>
 		<div class="alert alert-success alert-dismissible" role="alert" ng-show="showAnswer">
 			<button type="button" class="close" ng-click="showAnswer = false" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -28,7 +37,7 @@
 					<div class="input-group">
 						<input autofocus focus-me="current=='/views/problem.html'" type="number" class="form-control" ng-model="intResponse" name="intResponse" placeholder="answer" ng-disabled="correct"></input>
 						<span class="input-group-btn">
-							<button class="btn btn-primary" type="submit" ng-disabled="intProblemForm.$invalid" ng-click="intValidate()">Go</button>
+							<button class="btn btn-primary" type="submit" ng-disabled="intProblemForm.$invalid" ng-click="intValidate(intResponse)">Go</button>
 						</span>
 					</div>
 				</div>
@@ -42,5 +51,6 @@
 			<button class="btn btn-success" ng-show="showAnswer" ng-click="shortValidate(true)" ng-disabled="answered">Correct</button>
 			<button class="btn btn-danger" ng-show="showAnswer" ng-click="shortValidate(false)" ng-disabled="answered">Incorrect</button>
 		</div>
+	</div>
 	</div>
 </div>

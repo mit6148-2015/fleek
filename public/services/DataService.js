@@ -35,7 +35,22 @@ angular.module('fleekApp').factory('DataService', function($http, $q){
 	        	return $http.get('/db/problem', { params: {id: problemId}})
 	        		.then(function(response) {
 	        			if (typeof response.data === 'object') {
-							console.log("\tSearch response " + response.data._id);
+							console.log("\tProblem response " + response.data._id);
+	        				return response.data;
+	        			}
+	        			else {
+	        				return $q.reject(response.data);
+	        			}
+	        		}, function(response) {
+	        			return $q.reject(response.data);
+	        		}
+	        	);
+	        },
+	        getSet: function(setId) {
+	        	return $http.get('/db/setproblems', { params: {id: setId}})
+	        		.then(function(response) {
+	        			if (typeof response.data === 'object') {
+							console.log("\tSet response " + response.data._id);
 	        				return response.data;
 	        			}
 	        			else {
