@@ -14,17 +14,14 @@ function correctAttempt(req, res) {
 
             if (user) {
                 
-                if (user.stats.solvedProblems.indexOf(problemObjectId) == -1) {
-                    user.stats.solvedProblems.push(problemObjectId);
-                    user.stats.solvedCount = user.stats.solvedProblems.length;
-                    user.save();
-                    addProblemSolve();
-                }
-
                 if (user.stats.attemptedProblems.indexOf(problemObjectId) == -1) {
                     user.stats.attemptedProblems.push(problemObjectId);
+                    user.stats.solvedProblems.push(problemObjectId);
                     user.stats.attemptedCount = user.stats.attemptedProblems.length;
+                    user.stats.solvedCount = user.stats.solvedProblems.length;
                     user.save();
+
+                    addProblemSolve();
                     addProblemAttempt();
                     res.send('Problem attempt recorded');
                 } else {
