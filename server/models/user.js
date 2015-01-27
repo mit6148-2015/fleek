@@ -14,6 +14,11 @@ var userSchema = mongoose.Schema({
         solvedProblems: [{type: ObjectId, ref: 'Problem'}],
         attemptedCount: Number,
         attemptedProblems: [{type: ObjectId, ref: 'Problem'}]
+    },
+    tutorial: {
+        multi: Boolean,
+        short: Boolean,
+        paginate: Boolean
     }
 });
 
