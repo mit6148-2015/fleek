@@ -13,6 +13,14 @@ function correctAttempt(req, res) {
                 console.log(err);
 
             if (user) {
+                
+                if (user.stats.solvedProblems.indexOf(problemObjectId) == -1) {
+                    user.stats.solvedProblems.push(problemObjectId);
+                    user.stats.solvedCount = user.stats.solvedProblems.length;
+                    user.save();
+                    addProblemSolve();
+                }
+
                 if (user.stats.attemptedProblems.indexOf(problemObjectId) == -1) {
                     user.stats.attemptedProblems.push(problemObjectId);
                     user.stats.attemptedCount = user.stats.attemptedProblems.length;
@@ -21,16 +29,6 @@ function correctAttempt(req, res) {
                     res.send('Problem attempt recorded');
                 } else {
                     res.send('Problem already attmpted');
-                }
-
-                if (user.stats.solvedProblems.indexOf(problemObjectId) == -1) {
-                    user.stats.solvedProblems.push(problemObjectId);
-                    user.stats.solvedCount = user.stats.solvedProblems.length;
-                    user.save();
-                    addProblemSolve();
-                    res.send('Problem solve recorded');
-                } else {
-                    res.send('Problem already solved');
                 }
 
             } else {
@@ -72,11 +70,7 @@ function correctAttempt(req, res) {
 
     function updateRating(solved, attempted) {
         var userId = req.user.id;
-
-        var ratingChange = 5; // default
-        if (attempted > 0) {
-            ratingChange = 1 + 9 * (solved / attempted) // rating formula
-        }
+        var ratingChange = 1 + 9 * (1 - solved/attempted); // rating formula
 
         User.findById(userId, function (err, user) {
             if (err)

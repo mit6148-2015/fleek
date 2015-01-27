@@ -47,11 +47,7 @@ function incorrectAttempt(req, res) {
 
     function updateRating(solved, attempted) {
         var userId = req.user.id;
-
-        var ratingChange = 5; // default
-        if (attempted > 0) {
-            ratingChange = 1 + 9 * (solved / attempted) // rating formula
-        }
+        var ratingChange = 1 + 9 * (1 - solved/attempted); // rating formula
 
         User.findById(userId, function (err, user) {
             if (err)
