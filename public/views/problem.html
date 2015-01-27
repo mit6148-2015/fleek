@@ -21,7 +21,6 @@
 			<div class="pull-right">
 				Source: <a href="{{problem.source.url}}" target="blank">{{problem.source.name}}</a>
 			</div>
-			<div style="color: #fff;">{{problem.meta.response}} {{problem.response}}</div>
 			<div class="alert alert-dismissible" role="alert" ng-show="problem.meta.response == 'shortAnswer' && state != 0" ng-class="{'alert-success': state == 1, 'alert-danger': state == -1, 'alert-warning':state == 2}">
 				<button type="button" class="close" ng-click="state = 0" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 				Answer: {{problem.response['answer']}} <span ng-show="state != 0"><br></span>{{message}} <span ng-show="attempted">You've already tried this problem!</span>

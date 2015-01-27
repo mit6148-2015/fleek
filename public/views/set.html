@@ -38,7 +38,6 @@
 		<div class="pull-right">
 			Source: <a href="{{problem.source.url}}" target="blank">{{problem.source.name}}</a>
 		</div>
-		<div style="color: #fff;">{{problem.meta.response}} {{problem.response}}</div>
 
 		<div class="alert" role="alert" ng-show="problem.meta.response == 'shortAnswer' && done[currentProblem] != 0" ng-class="{'alert-success': done[currentProblem] == 1, 'alert-danger': done[currentProblem] == -1, 'alert-warning':done[currentProblem] == 2}">
 			Answer: {{problem.response['answer']}} <span ng-show="done[currentProblem] != 0"><br></span>{{message}} <span ng-show="attempted">You've already tried this problem!</span>
