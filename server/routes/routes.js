@@ -37,6 +37,7 @@ var updateInt = require('../controllers/updateInt');
 var updateShort = require('../controllers/updateShort');
 var updatePaginate = require('../controllers/updatePaginate');
 var updateSearch = require('../controllers/updateSearch');
+var resetTutorial = require('../controllers/resetTutorial');
 // stats
 var correctAttempt = require('../controllers/correctAttempt');
 var incorrectAttempt = require('../controllers/incorrectAttempt');
@@ -140,6 +141,7 @@ router.post('/tutorial/int', auth, updateInt); // pass new value of int as 'stat
 router.post('/tutorial/short', auth, updateShort); // pass new value of short as 'state' boolean parameter
 router.post('/tutorial/paginate', auth, updatePaginate); // pass new value of paginate as 'state' boolean parameter
 router.post('/tutorial/search', auth, updateSearch); // pass new value of search as 'state' boolean parameter
+router.get('/tutorial/reset', auth, resetTutorial); // pass new value of search as 'state' boolean parameter
 
 // stats
 router.post('/stats/correct', auth, correctAttempt); // pass problem ID as 'id'
