@@ -3,7 +3,7 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
 	$scope.problems = {};
 	$scope.currentProblem = 0;
 	$scope.problem;
-	$scope.done = [];
+	$scope.done = []; //saves the states of problems (not attempted = 0, correct = 1, incorrect = -1, show answer = 2)
 	$scope.intAnswers = [];
 	$scope.reported = false;
 	$scope.choices = {}
@@ -96,7 +96,6 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
 	}
 	//validate short answer responses
 	$scope.shortValidate = function(response) {
-		$scope.answered = true;
 		if (response) {
 			DataService.sendProblemResult("/stats/correct",$scope.problem._id)
 			.then(function(data){
@@ -127,12 +126,14 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
 	}
 	//listen for keypress
 	$scope.$on('keypress', function(event, args) {
+		//navigate through problems
 		if (args.key == "j") {
     		$scope.setCurrent($scope.currentProblem - 1);
     	}
     	else if (args.key == "k") {
     		$scope.setCurrent($scope.currentProblem + 1);
     	}
+    	//answer multiple choice questions
 	    else if ($scope.problem.meta.response == "multipleChoice") {
 	    	var count = 0;
 	    	for (var k in $scope.choices) {
@@ -140,6 +141,18 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
 	    			$scope.multiValidate(count);
 	    		}
 	    		count++;
+	    	}
+	    }
+	    //show short answer answers
+	    else if ($scope.problem.meta.response == "shortAnswer") {
+	    	if (args.key == "enter" && $scope.done[$scope.currentProblem] == 0) {
+	    		$scope.done[$scope.currentProblem] = 2;
+	    	}
+	    	else if (args.key == "c" && $scope.done[$scope.currentProblem] == 2) {
+	    		$scope.done[$scope.currentProblem] = 1;
+	    	}
+	    	else if (args.key == "i" && $scope.done[$scope.currentProblem] == 2) {
+	    		$scope.done[$scope.currentProblem] = -1;
 	    	}
 	    }
 	});
