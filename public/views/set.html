@@ -25,7 +25,7 @@
 						<button class="btn btn-primary" ng-click="setCurrent(currentProblem-1)">Prev</button>
 						<button class="btn btn-primary" ng-click="setCurrent(currentProblem+1)">Next</button>
 					</span>
-					<select class="form-control" ng-model="currentProblem" ng-change="updateCurrent()" ng-options="keys.indexOf(key) as key for key in keys"></select>
+					<select class="form-select form-control" ng-model="currentProblem" ng-change="updateCurrent()" ng-options="keys.indexOf(key) as key for key in keys"></select>
 					<span class="input-group-btn"><button class="btn btn-primary disabled">{{numCorrect}}/{{problems.meta.numProblems}}</button></span>
 				</div>
 			</div>

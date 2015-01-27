@@ -111,11 +111,15 @@ body {
 	border-color: #9d321b;
 	box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
 }
-/*number input: hide spin buttons*/
+/*input: hide number spin buttons, remove select rounded corners*/
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
+}
+.form-select {
+	border-radius: 0;
+	-webkit-appearance: none;
 }
 /*answers: add margin to answer area, set multiple choice styling, */
 .answer-area {

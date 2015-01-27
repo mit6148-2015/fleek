@@ -21,7 +21,7 @@
 				</select>
 			</div>
 			<div class="control-group form-group">
-				<select required class="form-control" ng-model="ctry" ng-options="key as key for (key,value) in countries"></select>
+				<select required class="form-select form-control" ng-model="ctry" ng-options="key as key for (key,value) in countries"></select>
 			</div>
 			<button class="btn btn-primary" ng-disabled="signupForm.$invalid || submitted" type="submit">Sign Up</button>
 		</form>
