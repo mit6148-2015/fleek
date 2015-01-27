@@ -38,6 +38,11 @@ angular.module('fleekApp').controller("problemController", function($scope,$rout
 			.then(function(data){
 				if (data == "Problem already attempted") {
 					$scope.attempted = true;
+					$scope.message = "";
+				}
+				else {
+					$scope.message = data;
+					$scope.attempted = false;
 				}
 			});
 			// console.log("answer correct!");
@@ -48,6 +53,11 @@ angular.module('fleekApp').controller("problemController", function($scope,$rout
 			.then(function(data){
 				if (data == "Problem already attempted") {
 					$scope.attempted = true;
+					$scope.message = "";
+				}
+				else {
+					$scope.message = data;
+					$scope.attempted = false;
 				}
 			});
 			// console.log("answer incorrect");
@@ -61,6 +71,11 @@ angular.module('fleekApp').controller("problemController", function($scope,$rout
 			.then(function(data){
 				if (data == "Problem already attempted") {
 					$scope.attempted = true;
+					$scope.message = "";
+				}
+				else {
+					$scope.message = data;
+					$scope.attempted = false;
 				}
 			});
 			// console.log("answer correct!");
@@ -71,6 +86,11 @@ angular.module('fleekApp').controller("problemController", function($scope,$rout
 			.then(function(data){
 				if (data == "Problem already attempted") {
 					$scope.attempted = true;
+					$scope.message = "";
+				}
+				else {
+					$scope.message = data;
+					$scope.attempted = false;
 				}
 			});
 			// console.log("answer incorrect");
@@ -84,6 +104,11 @@ angular.module('fleekApp').controller("problemController", function($scope,$rout
 			.then(function(data){
 				if (data == "Problem already attempted") {
 					$scope.attempted = true;
+					$scope.message = "";
+				}
+				else {
+					$scope.message = data;
+					$scope.attempted = false;
 				}
 			});
 			// console.log("answer correct!");
@@ -94,6 +119,11 @@ angular.module('fleekApp').controller("problemController", function($scope,$rout
 			.then(function(data){
 				if (data == "Problem already attempted") {
 					$scope.attempted = true;
+					$scope.message = "";
+				}
+				else {
+					$scope.message = data;
+					$scope.attempted = false;
 				}
 			});
 			// console.log("answer incorrect");
@@ -115,7 +145,7 @@ angular.module('fleekApp').controller("problemController", function($scope,$rout
 	    	}
 	    }
     	//answer multiple choice questions
-	    else if ($scope.problem.meta.response == "multipleChoice") {
+	    else if ($scope.problem.meta.response == "multipleChoice" && $scope.state != 1) {
 	    	var count = 0;
 	    	for (var k in $scope.choices) {
 	    		if (angular.lowercase(k) == args.key) {
@@ -130,10 +160,10 @@ angular.module('fleekApp').controller("problemController", function($scope,$rout
 	    		$scope.state = 2;
 	    	}
 	    	else if (args.key == "c" && $scope.state == 2) {
-	    		$scope.state = 1;
+	    		$scope.shortValidate(true);
 	    	}
 	    	else if (args.key == "i" && $scope.state == 2) {
-	    		$scope.state = -1;
+	    		$scope.shortValidate(false);
 	    	}
 	    }
 	});

@@ -24,15 +24,15 @@
 			<div style="color: #fff;">{{problem.meta.response}} {{problem.response}}</div>
 			<div class="alert alter-dismissible" role="alert" ng-show="problem.meta.response == 'shortAnswer' && state != 0" ng-class="{'alert-success': state == 1, 'alert-danger': state == -1, 'alert-warning':state == 2}">
 				<button type="button" class="close" ng-click="state = 0" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				Answer: {{problem.response['answer']}}
+				Answer: {{problem.response['answer']}} <span ng-show="state != 0"><br></span>{{message}} <span ng-show="attempted">You've already tried this problem!</span>
 			</div>
 			<div class="alert alert-success alert-dismissible" role="alert" ng-show="state == 1 && problem.meta.response != 'shortAnswer'">
 				<button type="button" class="close" ng-click="state = 0" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				Correct<span ng-hide="attempted">!</span><span ng-show="attempted">, but you've already attempted this problem...</span>
+				{{message}} <span ng-show="attempted">Correct, but you've already tried this problem!</span>
 			</div>
 			<div class="alert alert-warning alert-dismissible" role="alert" ng-show="state == -1 && problem.meta.response != 'shortAnswer'">
 				<button type="button" class="close" ng-click="state = 0" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				Try again!
+				{{message}} <span ng-show="attempted">Try again!</span>
 			</div>
 			<div class="answer-area">
 				<form name="intProblemForm" ng-show="problem.meta.response == 'integerAnswer'" novalidate>
@@ -45,7 +45,7 @@
 							<div class="input-group">
 								<input id="focus-input" type="number" class="form-control" ng-model="intResponse" name="intResponse" placeholder="answer" ng-disabled="state == 1"></input>
 								<span class="input-group-btn">
-									<button class="btn btn-primary" type="submit" ng-disabled="intProblemForm.$invalid" ng-click="intValidate(intResponse)">Go</button>
+									<button class="btn btn-primary" type="submit" ng-disabled="state == 1" ng-click="intValidate(intResponse)">Go</button>
 								</span>
 							</div>
 						</div>
