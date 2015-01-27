@@ -75,7 +75,7 @@
             "quartic",
             "quadratic",
             "roots",
-            "vieta's formula",
+            "vieta's formulas",
             "factoring",
             "binomial theorem"
         ],
@@ -102,17 +102,17 @@
             "complementary counting",
             "constructive counting",
             "casework counting",
-            "PIE",
-            "Venn Diagram"
+            "pie",
+            "venn diagram"
         ],
-        "3D geometry": [
+        "3d geometry": [
             "cube",
             "pyramid",
             "cone",
             "prism",
             "sphere"
         ],
-        "2D geometry": [
+        "2d geometry": [
             "polygon",
             "circle"
         ],
@@ -124,7 +124,7 @@
             "octagon"
         ],
         "triangle": [
-            "triangle center",
+            "triangle centers",
             "similar triangles",
             "pythagorean theorem"
         ],
@@ -138,7 +138,7 @@
             "arcs",
             "chords",
             "power of a point",
-            "sectors",
+            "sector",
             "incircle",
             "circumcircle"
         ],

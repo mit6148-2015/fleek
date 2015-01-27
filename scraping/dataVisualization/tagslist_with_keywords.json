@@ -1,7 +1,7 @@
 [
 {
     "keywords": ["volume"],
-    "tag": "3D Geometry"
+    "tag": "3d geometry"
 },
 {
     "keywords": [],
@@ -105,7 +105,7 @@
 },
 {
     "keywords": ["polygon", "n-gon"],
-    "tag": "polygons"
+    "tag": "polygon"
 },
 {
     "keywords": ["\\binom"],
@@ -209,11 +209,11 @@
 },
 {
     "keywords": ["similar triangle", "triangle is similar to", "triangles are similar"],
-    "tag": "similar triangle"
+    "tag": "similar triangles"
 },
 {
     "keywords": ["cyclic quadrilateral"],
-    "tag": "cyclic quadrilaterals"
+    "tag": "cyclic quadrilateral"
 },
 {
     "keywords": [],
@@ -249,7 +249,7 @@
 },
 {
     "keywords": ["exponent", "the power of"],
-    "tag": "exponents"
+    "tag": "exponent"
 },
 {
     "keywords": [],
@@ -313,7 +313,7 @@
 },
 {
     "keywords": ["fibonacci"],
-    "tag": "fibonacci number"
+    "tag": "fibonacci numbers"
 },
 {
     "keywords": ["cubic", "x^3 "],
@@ -337,7 +337,7 @@
 },
 {
     "keywords": ["arc"],
-    "tag": "arcs"
+    "tag": "arc"
 },
 {
     "keywords": [],
@@ -349,11 +349,11 @@
 },
 {
     "keywords": ["octagon"],
-    "tag": "octagons"
+    "tag": "octagon"
 },
 {
     "keywords": ["sector"],
-    "tag": "sectors"
+    "tag": "sector"
 },
 {
     "keywords": ["chord"],
