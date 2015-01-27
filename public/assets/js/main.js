@@ -24,6 +24,7 @@ var loadmap = function () {
 	console.log("loading map");
 	map = new AmCharts.AmMap();
 	//settings
+	map.addTitle("Problems solved by country", 20, "#333", 0.8, false)
 	map.zoomOnDoubleClick = false;
 	map.pathToImages = "images/";
 	map.zoomControl.zoomControlEnabled = false;
@@ -80,6 +81,7 @@ var loadmap = function () {
 	map.dataProvider = dataProvider;
 
 	map.write("map-container");
+	
 };
 
 // Make a pie chart
