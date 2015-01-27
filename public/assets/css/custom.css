@@ -1,3 +1,4 @@
+/*main stuff*/
 html {
 	background-color: #efefef;
 	height: 100%;
@@ -35,6 +36,13 @@ body {
 	padding: 0;
 	background-color: #efefef;
 }
+.page-fill {
+	padding-top: 60px;
+	height: 100%;
+	width: 100%;
+	min-height: 100vh;
+}
+/*splash page styling*/
 #splash-container {
 	margin: 0;
 }
@@ -71,27 +79,28 @@ body {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-.page-fill {
-	padding-top: 60px;
-	height: 100%;
-	width: 100%;
-	min-height: 100vh;
-}
-/*remove accessibility outline on focus*/
+/*buttons: remove accessibility outline, adjust margins*/
 .btn {
 	outline: none !important;
-}
-.btn-xl {
-	height: 52px;
 }
 .right-buttons {
 	margin-bottom: 10px;
 }
-/*progress bar remove margin*/
+/*search page: add pointer for results style sort arrows, adjust progress bar margins, add progress bar label*/
+#search-results tr {
+	cursor: pointer;
+}
+.sort-arrow {
+	height: 14px;
+}
 .progress {
 	margin-bottom: 0px;
 }
-/*set focus and active attributes for the select multiple buttons*/
+.progress-label {
+    float: left;
+    margin-right: 1em;
+}
+/*button groups: set focus and active attributes*/
 .btn-multiple:focus {
 	background-color: #dc5133;
 	border-color: #d24324;
@@ -102,31 +111,29 @@ body {
 	border-color: #9d321b;
 	box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
 }
-/*hide type="number" spin buttons*/
+/*number input: hide spin buttons*/
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
-/*add label to progress bar*/
-.progress-label {
-    float: left;
-    margin-right: 1em;
-}
-/*add margin to answer answer*/
+/*answers: add margin to answer area, set multiple choice styling, */
 .answer-area {
 	margin: 20px 0;
 }
-/*set multiple choice styling*/
 .answer-choice {
 	width: 35px;
 	margin-bottom: 5px;
+	margin-right: 5px;
 }
-/*set tag text styling*/
+/*problems: remove subtitle margin, set tag text color*/
+.subtitle {
+	margin-top: 0;
+}
 .problem-tags {
 	color: #00718A;
 }
-/*set embedded asy img size and display them in their own rows*/
+/*asy images: set embedded size and display them in their own rows*/
 .problem-img {
 	min-width: 150px;
 	min-height: 150px;
@@ -134,57 +141,7 @@ input::-webkit-inner-spin-button {
 	display: block;
 	margin: 14px auto;
 }
-.subtitle {
-	margin-top: 0;
-}
-/*style table header sort arrows*/
-.sort-arrow {
-	height: 14px;
-}
-/*style team image on about page*/
-.team-image {
-	width: 100%;
-	margin-bottom: 10px;
-}
-/*profile page graph*/
-#user-graph {
-	width: 100%;
-	min-height: 300px;
-}
-/*set pointer over search result rows to indicate a link*/
-#search-results tr {
-	cursor: pointer;
-}
-/*setlist max height*/
-.sets-container {
-	overflow-y: auto;
-	margin-bottom: 20px;
-}
-/*main set sidebar background color*/
-.sets-main {
-	background-color: #f8ccc6;
-}
-.sets-secondary {
-	background-color: #fff;
-}
-/*set overflow for button row*/
-.button-row {
-	overflow-x: auto;
-	width: 100%;
-}
-/*set problems page styling*/
-.problem-alerts {
-	margin: 15px 0;
-}
-.problem-alerts button{
-	width: 8.3333333333%;
-	vertical-align: center;
-}
-.problem-alerts .alert {
-	width: 83.3333333333%;
-	margin-left: 8.3333333333%;
-}
-/*hide fleek vine link*/
+/*about page: hide fleek vine link, adjust team image dimensions*/
 .fleek,
 .fleek:hover,
 .fleek:visited,
@@ -193,7 +150,31 @@ input::-webkit-inner-spin-button {
 	color: #333;
 	text-decoration: none;
 }
-/*media queries for splash page map size*/
+.team-image {
+	width: 100%;
+	margin-bottom: 10px;
+}
+/*user page image: set dimensions*/
+#user-graph {
+	width: 100%;
+	min-height: 300px;
+}
+/*set list: add max height, background colors, button styling*/
+.sets-container {
+	overflow-y: auto;
+	margin-bottom: 20px;
+}
+.sets-main {
+	background-color: #f8ccc6;
+}
+.sets-secondary {
+	background-color: #fff;
+}
+.button-row {
+	overflow-x: auto;
+	width: 100%;
+}
+/*media queries for splash page map size, vine sizing, set list*/
 @media only screen and (min-width: 480px) {
 	#map-container {
 		height: 60vw;
@@ -203,13 +184,11 @@ input::-webkit-inner-spin-button {
 		height: 480px;
 	}
 }
-
 @media only screen and (min-width: 768px) {
 	.sets-container {
 		max-height: calc(100vh - 200px);
 	}
 }
-
 @media only screen and (min-width: 992px) {
 	#splash{
 		top: 20vh;

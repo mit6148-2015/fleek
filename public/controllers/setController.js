@@ -5,6 +5,8 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
 	$scope.problem; //stores current problem object
 	$scope.keys = []; //stores problem keys
 	$scope.done = []; //saves the states of problems (not attempted = 0, correct = 1, incorrect = -1, show answer = 2)
+	$scope.attempted = []; //stores booleans of problems attempted
+	$scope.messages = []; //stores message strings for problems
 	$scope.numCorrect = 0;
 	$scope.intAnswers = []; //stores list of integer answers
 	$scope.reported = false;
@@ -68,12 +70,12 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
 			DataService.sendProblemResult("/stats/correct",$scope.problem._id)
 			.then(function(data){
 				if (data == "Problem already attempted") {
-					$scope.attempted = true;
-					$scope.message = "";
+					$scope.attempted[$scope.currentProblem] = true;
+					$scope.messages[$scope.currentProblem] = "";
 				}
 				else {
-					$scope.message = data;
-					$scope.attempted = false;
+					$scope.messages[$scope.currentProblem] = data;
+					$scope.attempted[$scope.currentProblem] = false;
 				}
 			});
 			// console.log("answer correct!");
@@ -83,12 +85,12 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
 			DataService.sendProblemResult("/stats/incorrect",$scope.problem._id)
 			.then(function(data){
 				if (data == "Problem already attempted") {
-					$scope.attempted = true;
-					$scope.message = "";
+					$scope.attempted[$scope.currentProblem] = true;
+					$scope.messages[$scope.currentProblem] = "";
 				}
 				else {
-					$scope.message = data;
-					$scope.attempted = false;
+					$scope.messages[$scope.currentProblem] = data;
+					$scope.attempted[$scope.currentProblem] = false;
 				}
 			});
 			// console.log("answer incorrect");
@@ -102,12 +104,12 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
 			DataService.sendProblemResult("/stats/correct",$scope.problem._id)
 			.then(function(data){
 				if (data == "Problem already attempted") {
-					$scope.attempted = true;
-					$scope.message = "";
+					$scope.attempted[$scope.currentProblem] = true;
+					$scope.messages[$scope.currentProblem] = "";
 				}
 				else {
-					$scope.message = data;
-					$scope.attempted = false;
+					$scope.messages[$scope.currentProblem] = data;
+					$scope.attempted[$scope.currentProblem] = false;
 				}
 			});
 			// console.log("answer correct!");
@@ -117,12 +119,12 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
 			DataService.sendProblemResult("/stats/incorrect",$scope.problem._id)
 			.then(function(data){
 				if (data == "Problem already attempted") {
-					$scope.attempted = true;
-					$scope.message = "";
+					$scope.attempted[$scope.currentProblem] = true;
+					$scope.messages[$scope.currentProblem] = "";
 				}
 				else {
-					$scope.message = data;
-					$scope.attempted = false;
+					$scope.messages[$scope.currentProblem] = data;
+					$scope.attempted[$scope.currentProblem] = false;
 				}
 			});
 			// console.log("answer incorrect");
@@ -136,12 +138,12 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
 			DataService.sendProblemResult("/stats/correct",$scope.problem._id)
 			.then(function(data){
 				if (data == "Problem already attempted") {
-					$scope.attempted = true;
-					$scope.message = "";
+					$scope.attempted[$scope.currentProblem] = true;
+					$scope.messages[$scope.currentProblem] = "";
 				}
 				else {
-					$scope.message = data;
-					$scope.attempted = false;
+					$scope.messages[$scope.currentProblem] = data;
+					$scope.attempted[$scope.currentProblem] = false;
 				}
 			});
 			// console.log("answer correct!");
@@ -151,12 +153,12 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
 			DataService.sendProblemResult("/stats/incorrect",$scope.problem._id)
 			.then(function(data){
 				if (data == "Problem already attempted") {
-					$scope.attempted = true;
-					$scope.message = "";
+					$scope.attempted[$scope.currentProblem] = true;
+					$scope.messages[$scope.currentProblem] = "";
 				}
 				else {
-					$scope.message = data;
-					$scope.attempted = false;
+					$scope.messages[$scope.currentProblem] = data;
+					$scope.attempted[$scope.currentProblem] = false;
 				}
 			});
 			// console.log("answer incorrect");
