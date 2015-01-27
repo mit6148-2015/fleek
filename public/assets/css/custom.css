@@ -98,6 +98,11 @@ input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+/*add label to progress bar*/
+.progress-label {
+    float: left;
+    margin-right: 1em;
+}
 /*add margin to answer answer*/
 .answer-area {
 	margin: 20px 0;

@@ -68,7 +68,14 @@
 							<td>{{result.meta.setPattern}}</td>
 							<td>{{result.meta.setInstance}}</td>
 							<td>#{{result.meta.setIndex+1}}</td>
-							<td>{{result.stats.solvedCount}}/{{result.stats.attemptedCount}}</td>
+							<td>
+								<span class="progress-label">{{result.stats.solvedCount}}/{{result.stats.attemptedCount}}</span>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow="{{result.stats.solvedCount*100/result.stats.attemptedCount}}" aria-valuemin="0" aria-valuemax="100" style="width: {{result.stats.solvedCount*100/result.stats.attemptedCount}}%;">
+										<span class="sr-only">{{result.stats.solvedCount*100/result.stats.attemptedCount}}% Complete</span>
+									</div>
+								</div>
+							</td>
 						</tr>
 					</table>
 				</div>
