@@ -128,6 +128,17 @@ setMeta['Science Bowl'] = function (instance, numProblems) {
     this.pattern = 'Science Bowl';
     this.instance = String(instance);
     this.numProblems = parseInt(numProblems);
+    this.keys = [];
+    for (var i = 0; i < numProblems; i++) {
+        var key;
+        if (i % 2 == 0) {
+            key = "Toss Up ";
+        } else {
+            key = "Bonus "
+        }
+        key += (i - (i%2))/2 + 1;
+        this.keys.push(key);
+    }
 };
 
 

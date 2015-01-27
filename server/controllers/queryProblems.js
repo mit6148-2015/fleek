@@ -14,6 +14,29 @@ function queryProblems (req, res) {
     if (Object.prototype.toString.call(setPatterns) === "[object String]")
         setPatterns = [setPatterns]; // make sure setPatterns is an array
 
+    // var tagDict = {};
+    // function getTagDict() {
+    //     Tag.find({},function (err, tags) {
+    //         if (err)
+    //             console.log(err);
+
+    //         doItFor(0);
+
+    //         function doItFor(index) {
+    //             var tag = tags[index];
+
+    //             tagDict[tag.tagText] = tag._id;
+
+    //             index++;
+    //             if(index < tags.length) {
+    //                 doItFor(index);
+    //             } else {
+    //                 // callback
+    //             }
+    //         }
+    //     });
+    // }
+
     // uses year condition only if instance is between these years
     var FIRSTYEAR = "1900";
     var LASTYEAR = "2100";
@@ -27,6 +50,7 @@ function queryProblems (req, res) {
         {'meta.setInstance': {$lte: FIRSTYEAR}},
         {'meta.setInstance': {$gte: LASTYEAR}}]); // in year range, or instance doesn't indicate year
     query.where('meta.setPattern').in(setPatterns);
+
 
     // only return _id, meta, and stats fields
     query.select('_id meta stats');
