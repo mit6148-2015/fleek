@@ -75,6 +75,15 @@ angular.module('fleekApp', ['ngRoute','ngTagsInput'])
 			// console.log('logged in user: '+ $rootScope.userLoggedIn + ', current template: ' + $rootScope.current);
 		});
 	});
+
+    //watch for keypresses
+	$(document).keyup(function(event) {
+		//if pressed enter or an alphabet key, broadcast event
+	    if (event.which == 13 || (event.which > 64 && event.which < 91)) {
+			$rootScope.$broadcast('keypress', { key: keycodes[event.which] });
+			$rootScope.$apply();
+		}
+	});
 })
 
 //focus elements
@@ -136,3 +145,8 @@ angular.module('fleekApp', ['ngRoute','ngTagsInput'])
 		controller: 'navBarController'
 	};
 });
+
+//keycode map
+var keycodes = {
+	13: 'enter', 65: 'a', 66: 'b', 67: 'c', 68: 'd', 69: 'e', 70: 'f', 71: 'g', 72: 'h', 73: 'i', 74: 'j', 75: 'k', 76: 'l', 77: 'm', 78: 'n', 79: 'o', 80: 'p', 81: 'q', 82: 'r', 83: 's', 84: 't', 85: 'u', 86: 'v', 87: 'w', 88: 'x', 89: 'y', 90: 'z'
+}

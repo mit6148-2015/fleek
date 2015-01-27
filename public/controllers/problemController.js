@@ -17,7 +17,6 @@ angular.module('fleekApp').controller("problemController", function($scope,$rout
 			}
 		}
 	});
-
 	//validate integer responses
 	$scope.intValidate = function() {
 		if ($scope.intResponse == parseInt($scope.problem.response.answer)) {
@@ -90,10 +89,25 @@ angular.module('fleekApp').controller("problemController", function($scope,$rout
 			// console.log("answer incorrect");
 		}
 	}
+	//report problem mistake
 	$scope.report = function() {
 		DataService.reportProblem($scope.problem._id)
 		.then (function(data) {
 			$scope.reported = true;
 		});
 	}
+	//listen for keypress
+	$scope.$on('keypress', function(event, args) {
+	    if ($scope.problem.meta.response == "multipleChoice") 
+	    {
+	    	var count = 0;
+	    	for (var k in $scope.choices) {
+	    		if (angular.lowercase(k) == args.key) {
+	    			$scope.multiValidate(count);
+	    		}
+	    		count++;
+	    	}
+	    }
+	});
+
 });
