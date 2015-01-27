@@ -20,7 +20,7 @@ function incorrectAttempt(req, res) {
                     addProblemAttempt();
                     res.send('Problem attempt recorded');
                 } else {
-                    res.send('Problem already attmpted');
+                    res.send('Problem already attempted');
                 }
             } else {
                 console.log('User not found');
