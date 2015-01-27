@@ -135,11 +135,11 @@ router.get('/db/profileinfo', auth, profileInfo);
 
 // tutorial
 router.get('/tutorial/status', auth, tutorialStatus); // get user tutorial booleans
-router.post('/tutorial/multi', auth, updateMulti); // pass new value of multi as 'multi' boolean parameter
-router.post('/tutorial/int', auth, updateInt); // pass new value of int as 'int' boolean parameter
-router.post('/tutorial/short', auth, updateShort); // pass new value of short as 'short' boolean parameter
-router.post('/tutorial/paginate', auth, updatePaginate); // pass new value of paginate as 'paginate' boolean parameter
-router.post('/tutorial/search', auth, updateSearch); // pass new value of search as 'serach' boolean parameter
+router.post('/tutorial/multi', auth, updateMulti); // pass new value of multi as 'state' boolean parameter
+router.post('/tutorial/int', auth, updateInt); // pass new value of int as 'state' boolean parameter
+router.post('/tutorial/short', auth, updateShort); // pass new value of short as 'state' boolean parameter
+router.post('/tutorial/paginate', auth, updatePaginate); // pass new value of paginate as 'state' boolean parameter
+router.post('/tutorial/search', auth, updateSearch); // pass new value of search as 'state' boolean parameter
 
 // stats
 router.post('/stats/correct', auth, correctAttempt); // pass problem ID as 'id'
