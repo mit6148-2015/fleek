@@ -56,7 +56,7 @@ function incorrectAttempt(req, res) {
                 user.stats.rating -= ratingChange; // subtract for incorrect
                 console.log('Rating changed by ' + ratingChange + ', new rating is ' + user.stats.rating);
                 user.save();
-                res.send('Your fleek level dropped by ' + ratingChange + ' to ' + user.stats.rating);
+                res.send('Oh no :( your fleek level dropped by ' + ratingChange + ' to ' + user.stats.rating);
             } else {
                 console.log('User not found');
             }

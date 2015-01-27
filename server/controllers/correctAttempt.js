@@ -76,7 +76,7 @@ function correctAttempt(req, res) {
                 user.stats.rating += ratingChange; // add for correct
                 console.log('Rating changed by ' + ratingChange + ', new rating is ' + user.stats.rating);
                 user.save();
-                res.send('Your fleek level went up by ' + ratingChange + ' to ' + user.stats.rating + "!");
+                res.send('Nice! Your fleek level went up by ' + ratingChange + ' to ' + user.stats.rating);
             } else {
                 console.log('User not found');
             }
