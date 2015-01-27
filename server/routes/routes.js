@@ -29,7 +29,9 @@ var querySets = require('../controllers/querySets');
 var listTags = require('../controllers/listTags');
 var listSets = require('../controllers/listSets');
 // tutorial
+var tutorialStatus = require('../controllers/tutorialStatus');
 var updateMulti = require('../controllers/updateMulti');
+var updateInt = require('../controllers/updateInt');
 var updateShort = require('../controllers/updateShort');
 var updatePaginate = require('../controllers/updatePaginate');
 // stats
@@ -126,7 +128,9 @@ router.get('/db/list/sets', auth, listSets); // gets list of sets
 /***** RECEIVING INFORMATION *****/
 
 // tutorial
+router.get('/tutorial/status', auth, tutorialStatus); // get user tutorial booleans
 router.post('/tutorial/multi', auth, updateMulti); // pass new value of multi as 'multi' boolean parameter
+router.post('/tutorial/int', auth, updateInt); // pass new value of int as 'int' boolean parameter
 router.post('/tutorial/short', auth, updateShort); // pass new value of short as 'short' boolean parameter
 router.post('/tutorial/paginate', auth, updatePaginate); // pass new value of paginate as 'paginate' boolean parameter
 

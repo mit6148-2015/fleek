@@ -56,6 +56,7 @@ function configurePassport(passport) {
                     newUser.stats.attemptedCount = 0;
                     newUser.stats.attemptedProblems = [];
                     newUser.tutorial.multi = true;
+                    newUser.tutorial.int = true;
                     newUser.tutorial.short = true;
                     newUser.tutorial.paginate = true;
 

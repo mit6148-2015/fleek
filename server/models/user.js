@@ -17,6 +17,7 @@ var userSchema = mongoose.Schema({
     },
     tutorial: {
         multi: Boolean,
+        int: Boolean,
         short: Boolean,
         paginate: Boolean
     }
