@@ -9,6 +9,11 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
 	$scope.intAnswers = []; //stores list of integer answers
 	$scope.reported = false;
 	$scope.choices = {}
+	//see if user should see tutorial
+    DataService.getData('/tutorial/status')
+    .then (function(data) {
+        $scope.tutorial = data.tutorial;
+    })
 	//generate list of sets from a GET request
 	DataService.getSet($routeParams.setId)
 	.then (function(data) {
@@ -25,6 +30,13 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
 			}
 		}
 	});
+	//close tutorial box
+	$scope.closeTutorial = function(name) {
+		DataService.setTutorial(name,false)
+		.then (function(data) {
+			$scope.tutorial[name] = false;
+		})
+	}
 	//set current problem index
 	$scope.updateCurrent = function() {
 		$scope.problem = $scope.problems.problems[$scope.currentProblem];
