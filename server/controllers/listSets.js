@@ -18,11 +18,13 @@ function listSets (req, res) {
             var pattern = set.meta.pattern;
             var instance = set.meta.instance;
             var setId = set._id;
+            var returnObject = {};
+            returnObject[instance] = setId;
 
             if (pattern in setlist) {
-                setlist[pattern].push({instance : setId});
+                setlist[pattern].push(returnObject);
             } else {
-                setlist[pattern] = [{instance : setId}];
+                setlist[pattern] = [returnObject];
             }
 
             index++;
