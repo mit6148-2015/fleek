@@ -14,6 +14,9 @@
 				</div>
 			</div>
 			<div class="col col-sm-12">
+			<div class="problem-tags text-right">
+				<em><span ng-repeat="tag in problem.tags">#{{tag.tagText}} </span></em>
+			</div>
 			<div dynamic="problem.statement"> </div>
 			<div class="pull-right">
 				Source: <a href="{{problem.source.url}}" target="blank">{{problem.source.name}}</a>

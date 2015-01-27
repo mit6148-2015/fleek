@@ -71,9 +71,6 @@ body {
 	width: 100%;
 	min-height: 100vh;
 }
-.answer-area {
-	margin-bottom: 20px;
-}
 /*remove accessibility outline on focus*/
 .btn {
 	outline: none !important;
@@ -101,10 +98,18 @@ input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+/*add margin to answer answer*/
+.answer-area {
+	margin: 20px 0;
+}
 /*set multiple choice styling*/
 .answer-choice {
 	width: 35px;
 	margin-bottom: 5px;
+}
+/*set tag text styling*/
+.problem-tags {
+	color: #00718A;
 }
 /*set embedded asy img size and display them in their own rows*/
 .problem-img {
