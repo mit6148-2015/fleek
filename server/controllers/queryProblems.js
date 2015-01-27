@@ -1,67 +1,96 @@
 var Problem = require('../models/problem');
+var Tag = require('../models/tag');
 
 function queryProblems (req, res) {
 
-    // get conditions
-    var queryText = String(req.query.q);
-    var tags = req.query.tags;
-    if (Object.prototype.toString.call(setPatterns) === "[object String]")
-        tags = [tags]; // make sure setPatterns is an array
-    console.log(tags);
-    var startYear = String(req.query.startYear);
-    var endYear = String(req.query.endYear);
-    var setPatterns = req.query.setPatterns;
-    if (Object.prototype.toString.call(setPatterns) === "[object String]")
-        setPatterns = [setPatterns]; // make sure setPatterns is an array
+    var tagDict = {};
 
-    // var tagDict = {};
-    // function getTagDict() {
-    //     Tag.find({},function (err, tags) {
-    //         if (err)
-    //             console.log(err);
+    getTagDict();
 
-    //         doItFor(0);
+    function getTagDict() {
+        Tag.find({},function (err, tags) {
+            if (err)
+                console.log(err);
 
-    //         function doItFor(index) {
-    //             var tag = tags[index];
+            doItFor(0);
 
-    //             tagDict[tag.tagText] = tag._id;
+            function doItFor(index) {
+                var tag = tags[index];
 
-    //             index++;
-    //             if(index < tags.length) {
-    //                 doItFor(index);
-    //             } else {
-    //                 // callback
-    //             }
-    //         }
-    //     });
-    // }
+                tagDict[tag.tagText] = tag._id;
 
-    // uses year condition only if instance is between these years
-    var FIRSTYEAR = "1900";
-    var LASTYEAR = "2100";
+                index++;
+                if(index < tags.length) {
+                    doItFor(index);
+                } else {
+                    mapTags();
+                }
+            }
+        });
+    }
 
-    // start query
-    var query = Problem.find();
+    function mapTags() {
+        var tagTexts = req.query.tags;
+        if (Object.prototype.toString.call(tagTexts) === "[object String]")
+            tagTexts = [tagTexts]; // make sure setPatterns is an array
+        
+        var tagIds = [];
+        for (var i = 0; i < tagTexts.length; i++) {
+            tagIds.push(tagDict[tagTexts[i]]);
+        }
 
-    // query conditions
-    query.where({$text: { $search: queryText }});
-    query.or([{'meta.setInstance': {$gte: startYear, $lte: endYear + 'z'}},
-        {'meta.setInstance': {$lte: FIRSTYEAR}},
-        {'meta.setInstance': {$gte: LASTYEAR}}]); // in year range, or instance doesn't indicate year
-    query.where('meta.setPattern').in(setPatterns);
+        performQuery(tagIds);
+    }
 
+    function performQuery(tagIds) {
+        // get conditions
+        var queryText = String(req.query.q);
+        var startYear = String(req.query.startYear);
+        var endYear = String(req.query.endYear);
+        var setPatterns = req.query.setPatterns;
+        if (Object.prototype.toString.call(setPatterns) === "[object String]")
+            setPatterns = [setPatterns]; // make sure setPatterns is an array
 
-    // only return _id, meta, and stats fields
-    query.select('_id meta stats');
+        // uses year condition only if instance is between these years
+        var FIRSTYEAR = "1900";
+        var LASTYEAR = "2100";
 
-    // respond to request with list of found problems
-    query.exec(function (err, problems) {
-        if (err)
-            console.log(err);
+        // start query
+        var query = Problem.find();
 
-        res.send(problems);
-    });
+        // query conditions
+        query.where({$text: { $search: queryText }});
+        query.or([{'meta.setInstance': {$gte: startYear, $lte: endYear + 'z'}},
+            {'meta.setInstance': {$lte: FIRSTYEAR}},
+            {'meta.setInstance': {$gte: LASTYEAR}}]); // in year range, or instance doesn't indicate year
+        query.where('meta.setPattern').in(setPatterns);
+
+        // only return _id, meta, and stats fields
+        query.select('_id meta stats tags');
+
+        // respond to request with list of found problems
+        query.exec(function (err, problems) {
+            if (err)
+                console.log(err);
+            
+            var goodProblems;
+
+            console.log(tagIds);
+
+            if (tagIds.indexOf(undefined) == -1) {
+                goodProblems = problems.filter(function (problem) {
+                    var matchingTags = tagIds.filter(function (tagId) {
+                        return (problem.tags.indexOf(tagId) !== -1);
+                    });
+                    return (matchingTags.length > 0);
+                });            
+            } else {
+                goodProblems = problems;
+            }
+    
+            res.send(goodProblems);
+        });
+    }
 
 }
 
