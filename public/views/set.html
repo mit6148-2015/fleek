@@ -39,15 +39,26 @@
 			Source: <a href="{{problem.source.url}}" target="blank">{{problem.source.name}}</a>
 		</div>
 		<div style="color: #fff;">{{problem.meta.response}} {{problem.response}}</div>
-			<div class="alert" role="alert" ng-show="problem.meta.response == 'shortAnswer' && done[currentProblem] != 0" ng-class="{'alert-success': done[currentProblem] == 1, 'alert-danger': done[currentProblem] == -1, 'alert-warning':done[currentProblem] == 2}">
-				Answer: {{problem.response['answer']}}
-			</div>
-			<div class="alert alert-sm alert-success" role="alert" ng-show="done[currentProblem] == 1 && problem.meta.response != 'shortAnswer'">
-				Correct!
-			</div>
-			<div class="alert alert-warning" role="alert" ng-show="done[currentProblem] == -1 && problem.meta.response != 'shortAnswer'">
-				Try again!
-			</div>
+
+		<div class="alert" role="alert" ng-show="problem.meta.response == 'shortAnswer' && done[currentProblem] != 0" ng-class="{'alert-success': done[currentProblem] == 1, 'alert-danger': done[currentProblem] == -1, 'alert-warning':done[currentProblem] == 2}">
+			Answer: {{problem.response['answer']}} <span ng-show="done[currentProblem] != 0"><br></span>{{message}} <span ng-show="attempted">You've already tried this problem!</span>
+		</div>
+		<div class="alert alert-sm alert-success" role="alert" ng-show="done[currentProblem] == 1 && problem.meta.response != 'shortAnswer'">
+			{{message}}<span ng-show="attempted">Correct, but you've already tried this problem!</span>
+		</div>
+		<div class="alert alert-warning" role="alert" ng-show="done[currentProblem] == -1 && problem.meta.response != 'shortAnswer'">
+			{{message}} <span ng-show="attempted">Try again!</span>
+		</div>
+
+		<!-- <div class="alert" role="alert" ng-show="problem.meta.response == 'shortAnswer' && done[currentProblem] != 0" ng-class="{'alert-success': done[currentProblem] == 1, 'alert-danger': done[currentProblem] == -1, 'alert-warning':done[currentProblem] == 2}">
+			Answer: {{problem.response['answer']}}
+		</div>
+		<div class="alert alert-success" role="alert" ng-show="done[currentProblem] == 1 && problem.meta.response != 'shortAnswer'">
+			Correct!
+		</div>
+		<div class="alert alert-warning" role="alert" ng-show="done[currentProblem] == -1 && problem.meta.response != 'shortAnswer'">
+			Try again!
+		</div> -->
 		<div class="answer-area">
 			<form name="intProblemForm" ng-show="problem.meta.response == 'integerAnswer'" novalidate>
 				<div class="alert alert-info alert-dismissible" role="alert" ng-show="tutorial.int">

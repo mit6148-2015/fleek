@@ -63,72 +63,102 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
 	//validate integer responses
 	$scope.intValidate = function(response) {
 		if (response == parseInt($scope.problem.response.answer)) {
+			$scope.done[$scope.currentProblem] = 1;
+			$scope.numCorrect++;
 			DataService.sendProblemResult("/stats/correct",$scope.problem._id)
 			.then(function(data){
 				if (data == "Problem already attempted") {
 					$scope.attempted = true;
+					$scope.message = "";
+				}
+				else {
+					$scope.message = data;
+					$scope.attempted = false;
 				}
 			});
-			$scope.done[$scope.currentProblem] = 1;
-			$scope.numCorrect++;
 			// console.log("answer correct!");
 		}
 		else {
+			$scope.done[$scope.currentProblem] = -1;
 			DataService.sendProblemResult("/stats/incorrect",$scope.problem._id)
 			.then(function(data){
 				if (data == "Problem already attempted") {
 					$scope.attempted = true;
+					$scope.message = "";
+				}
+				else {
+					$scope.message = data;
+					$scope.attempted = false;
 				}
 			});
-			$scope.done[$scope.currentProblem] = -1;
 			// console.log("answer incorrect");
 		}
 	}
 	//validate multiple choice responses
 	$scope.multiValidate = function(choice) {
 		if (choice == $scope.problem.response.correctIndex) {
+			$scope.done[$scope.currentProblem] = 1;
+			$scope.numCorrect++;
 			DataService.sendProblemResult("/stats/correct",$scope.problem._id)
 			.then(function(data){
 				if (data == "Problem already attempted") {
 					$scope.attempted = true;
+					$scope.message = "";
+				}
+				else {
+					$scope.message = data;
+					$scope.attempted = false;
 				}
 			});
-			$scope.done[$scope.currentProblem] = 1;
-			$scope.numCorrect++;
 			// console.log("answer correct!");
 		}
 		else {
+			$scope.done[$scope.currentProblem] = -1;
 			DataService.sendProblemResult("/stats/incorrect",$scope.problem._id)
 			.then(function(data){
 				if (data == "Problem already attempted") {
 					$scope.attempted = true;
+					$scope.message = "";
+				}
+				else {
+					$scope.message = data;
+					$scope.attempted = false;
 				}
 			});
-			$scope.done[$scope.currentProblem] = -1;
 			// console.log("answer incorrect");
 		}
 	}
 	//validate short answer responses
 	$scope.shortValidate = function(response) {
 		if (response) {
+			$scope.done[$scope.currentProblem] = 1;
+			$scope.numCorrect++;
 			DataService.sendProblemResult("/stats/correct",$scope.problem._id)
 			.then(function(data){
 				if (data == "Problem already attempted") {
 					$scope.attempted = true;
+					$scope.message = "";
+				}
+				else {
+					$scope.message = data;
+					$scope.attempted = false;
 				}
 			});
-			$scope.done[$scope.currentProblem] = 1;
-			$scope.numCorrect++;
 			// console.log("answer correct!");
 		}
 		else {
+			$scope.done[$scope.currentProblem] = -1;
 			DataService.sendProblemResult("/stats/incorrect",$scope.problem._id)
 			.then(function(data){
 				if (data == "Problem already attempted") {
 					$scope.attempted = true;
+					$scope.message = "";
+				}
+				else {
+					$scope.message = data;
+					$scope.attempted = false;
 				}
 			});
-			$scope.done[$scope.currentProblem] = -1;
 			// console.log("answer incorrect");
 		}
 	}
@@ -170,10 +200,10 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
 	    		$scope.done[$scope.currentProblem] = 2;
 	    	}
 	    	else if (args.key == "c" && $scope.done[$scope.currentProblem] == 2) {
-	    		$scope.done[$scope.currentProblem] = 1;
+	    		$scope.shortValidate(true);
 	    	}
 	    	else if (args.key == "i" && $scope.done[$scope.currentProblem] == 2) {
-	    		$scope.done[$scope.currentProblem] = -1;
+	    		$scope.shortValidate(false);
 	    	}
 	    }
 	});
