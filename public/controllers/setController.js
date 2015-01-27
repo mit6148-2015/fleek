@@ -3,11 +3,10 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
 	$scope.problems = {}; //stores response from GET request
 	$scope.currentProblem = 0; //stores current problem index
 	$scope.problem; //stores current problem object
-	$scope.keys = [];
+	$scope.keys = []; //stores problem keys
 	$scope.done = []; //saves the states of problems (not attempted = 0, correct = 1, incorrect = -1, show answer = 2)
-	$scope.intAnswers = [];
-	$scope.currentProblem = 0;
-	// $scope.currentProblem = {val:'0', num: 0};
+	$scope.numCorrect = 0;
+	$scope.intAnswers = []; //stores list of integer answers
 	$scope.reported = false;
 	$scope.choices = {}
 	//generate list of sets from a GET request
@@ -49,15 +48,6 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
 		$scope.currentProblem = index;
 		$scope.updateCurrent();
 	}
-	// //generate list of values from 0 to n-1
-	// $scope.range = function(n) {
-	// 	list = [];
-	// 	for (i = 0; i < n; i++){
-	// 		list.push(i);
-	// 		$scope.done.push(0);
-	// 	}
-	// 	return list;
-	// };
 	//validate integer responses
 	$scope.intValidate = function(response) {
 		if (response == parseInt($scope.problem.response.answer)) {
@@ -68,6 +58,7 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
 				}
 			});
 			$scope.done[$scope.currentProblem] = 1;
+			$scope.numCorrect++;
 			// console.log("answer correct!");
 		}
 		else {
@@ -91,6 +82,7 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
 				}
 			});
 			$scope.done[$scope.currentProblem] = 1;
+			$scope.numCorrect++;
 			// console.log("answer correct!");
 		}
 		else {
@@ -107,23 +99,24 @@ angular.module('fleekApp').controller("setController", function($scope,$rootScop
 	//validate short answer responses
 	$scope.shortValidate = function(response) {
 		if (response) {
-			$scope.done[$scope.currentProblem] = 1;
 			DataService.sendProblemResult("/stats/correct",$scope.problem._id)
 			.then(function(data){
 				if (data == "Problem already attempted") {
 					$scope.attempted = true;
 				}
 			});
+			$scope.done[$scope.currentProblem] = 1;
+			$scope.numCorrect++;
 			// console.log("answer correct!");
 		}
 		else {
-			$scope.done[$scope.currentProblem] = -1;
 			DataService.sendProblemResult("/stats/incorrect",$scope.problem._id)
 			.then(function(data){
 				if (data == "Problem already attempted") {
 					$scope.attempted = true;
 				}
 			});
+			$scope.done[$scope.currentProblem] = -1;
 			// console.log("answer incorrect");
 		}
 	}

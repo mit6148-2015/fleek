@@ -5,7 +5,6 @@
 		<div class="row">
 			<div class="col col-sm-6">
 				<h3 class="subtitle">{{problems.meta.name}}</h3>
-				<h4>  </h4>
 			</div>
 			<div class="col col-sm-6">
 				<div class="text-right right-buttons">
@@ -18,11 +17,12 @@
 		<div class="row">
 			<div class="form-group col-sm-12">
 				<div class="input-group">
-					<select class="form-control" ng-model="currentProblem" ng-change="updateCurrent()" ng-options="keys.indexOf(key) as key for key in keys"></select>
 					<span class="input-group-btn">
 						<button class="btn btn-primary" ng-click="setCurrent(currentProblem-1)">Prev</button>
 						<button class="btn btn-primary" ng-click="setCurrent(currentProblem+1)">Next</button>
 					</span>
+					<select class="form-control" ng-model="currentProblem" ng-change="updateCurrent()" ng-options="keys.indexOf(key) as key for key in keys"></select>
+					<span class="input-group-btn"><button class="btn btn-primary disabled">{{numCorrect}}/{{problems.meta.numProblems}}</button></span>
 				</div>
 			</div>
 		</div>
