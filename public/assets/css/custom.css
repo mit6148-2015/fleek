@@ -45,7 +45,7 @@ body {
 	padding-top: 60px;
 	position: absolute;
 	width: calc(100% - 30px);
-	height: 50vh;
+	height: 80vw;
 }
 #splash{
 	position: relative;
@@ -181,7 +181,7 @@ input::-webkit-inner-spin-button {
 /*media queries for splash page map size*/
 @media only screen and (min-width: 480px) {
 	#map-container {
-		height: 50vh;
+		height: 60vw;
 	}
 	.vine-embed {
 		width: 480px;
