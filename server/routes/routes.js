@@ -28,6 +28,8 @@ var querySets = require('../controllers/querySets');
 // db lists
 var listTags = require('../controllers/listTags');
 var listSets = require('../controllers/listSets');
+// db miscellaneous
+var profileInfo = require('../controllers/profileInfo');
 // tutorial
 var tutorialStatus = require('../controllers/tutorialStatus');
 var updateMulti = require('../controllers/updateMulti');
@@ -120,6 +122,9 @@ router.get('/db/query/sets', auth, querySets); // check querySets.js for I/O
 // database lists
 router.get('/db/list/tags', auth, listTags); // gets list of tags
 router.get('/db/list/sets', auth, listSets); // gets list of sets
+
+// database profile information
+router.get('/db/profileinfo', auth, profileInfo);
 
 // database network support
 // router.get('/db/network/??', auth, ??);
