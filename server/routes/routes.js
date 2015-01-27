@@ -34,6 +34,7 @@ var updateMulti = require('../controllers/updateMulti');
 var updateInt = require('../controllers/updateInt');
 var updateShort = require('../controllers/updateShort');
 var updatePaginate = require('../controllers/updatePaginate');
+var updateSearch = require('../controllers/updateSearch');
 // stats
 var correctAttempt = require('../controllers/correctAttempt');
 var incorrectAttempt = require('../controllers/incorrectAttempt');
