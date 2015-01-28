@@ -1,3 +1,6 @@
 [submodule "public/assets/js/vendor/MathJax"]
 	path = public/assets/js/vendor/MathJax
 	url = https://github.com/mathjax/MathJax
+[submodule "public/assets/js/vendor/pie-chart"]
+	path = public/assets/js/vendor/pie-chart
+	url = https://github.com/n3-charts/pie-chart.git
