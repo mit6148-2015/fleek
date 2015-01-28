@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Network | Selections</title>
-
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/3.9.0/vis.min.js"></script>
   <link href="vis.css" rel="stylesheet" type="text/css" />
 
@@ -86,7 +86,7 @@
                 ,{"parentTags": ["proof"],"tag": "induction"}
                 ,{"parentTags": ["fleek"],"tag": "math"}
                 ,{"parentTags": ["science"],"tag": "biology"}
-                ,{"parentTags": ["probability","geometry"],"tag": "geometric probability"}
+                ,{"parentTags": ["probability"],"tag": "geometric probability"}
                 ,{"parentTags": ["algebra"],"tag": "statistics"}
                 ,{"parentTags": ["trigonometry"],"tag": "tangent"}
                 ,{"parentTags": ["circle"],"tag": "incircle"}
@@ -177,24 +177,30 @@ var allTags = [];
     }
   }
 
-nodes = [];
+
+function getID(tag_name) {
+  return allTags.indexOf(tag_name);
+}
+totalNodes = [];
 
 // Go back, and add the nodes now. 
+var vis_nodes = new vis.DataSet();
 
 for (var i = 0; i<allTags.length; i++) {
     var displayButton = "<a class=\"btn btn-default btn-xs\" href=\"#\" role=\"button\"> Find \n"+allTags[i]+" problems</a>";
     if (allTags[i]=="fleek") {
-      nodes.push({id:i, label:allTags[i], title:displayButton, group:"fleek"});
+      totalNodes.push({id:i, label:allTags[i], title:displayButton, group:"fleek"});
     }
     else if (allTags[i]=="math" || allTags[i]=="science") {
-      nodes.push({id:i, label:allTags[i], title:displayButton, group:"mathsci"});
+      totalNodes.push({id:i, label:allTags[i], title:displayButton, group:"mathsci"});
     }
     else {
-      nodes.push({id:i, label:allTags[i], title:displayButton});
+      totalNodes.push({id:i, label:allTags[i], title:displayButton});
     }
 }
 
-edges = [];
+totalEdges = [];
+ vis_edges = new vis.DataSet();
 
 // Now, add the edges. 
 
@@ -205,47 +211,86 @@ edges = [];
     parentList = tagDict.parentTags;
     for (var j = 0; j<parentList.length; j++) {
         secondInd = allTags.indexOf(parentList[j]);
-        edges.push({from:secondInd, to:firstInd});
+        totalEdges.push({from:secondInd, to:firstInd});
     }
   }
+
+
+vis_nodes.add({id:getID("fleek"), label:"fleek", group:"nochildren"});
+vis_nodes.add({id:getID("math"), label:"math", group:"haschildren"});
+vis_nodes.add({id:getID("science"), label:"science", group:"haschildren"});
+vis_edges.add({from:getID("fleek"), to:getID("math")});
+vis_edges.add({from:getID("fleek"), to:getID("science")});
+
+
+
 
   // create a network
   var container = document.getElementById('mynetwork');
   var data = {
-    nodes: nodes,
-    edges: edges
+    nodes: vis_nodes,
+    edges: vis_edges
   };
 
 
   var options = {
     groups: {
-      fleek: {
-        fontSize: 35
-      },
-      mathsci: {
-        fontSize: 24
+      haschildren: {
+        fontSize: 24,
+        color: {
+          border: '#FFB6C1',
+          background: '#FFB6C1',
+        }
+        },
+      nochildren: {
+        fontSize: 24,
+        color: {
+          border: '#e74c3c',
+          background: '#e74c3c',
+        }
       }
     },
     zoomExtentOnStabilize:false,
-    keyboard:true,
+    keyboard:true,/*
     hierarchicalLayout: {
       nodeSpacing:180,
       enabled: true,
       direction: "UD",
       layout: "direction"
-    },
+    },*/
+    tooltip: {
+    delay: 300,
+    fontColor: "black",
+    fontSize: 14, // px
+    fontFace: "verdana",
+    color: {
+      border: "#666",
+      background: "transparent"
+    }
+  },
+   repulsion: {
+          centralGravity: -0.1,
+          springLength: 70,
+          springConstant: 0.15,
+          nodeDistance: 100,
+          damping: 0.10
+      },
+      barnesHut: {
+          enabled: true,
+          gravitationalConstant: -3000,
+      },
     dragNodes:true,
     nodes: {
         color: {
-          background: '#ecf0f1',
-          border: '#3498db',
+          background: '#FFB6C1',
+          border: '#ed458d',
           highlight: {
             background: '#3498db',
             border: '#3498db'
           },
           hover: {
             background:'white',
-            border: '#3498db'
+            border: '#ed458d'
           }
         },
         shape: 'box'
@@ -254,68 +299,111 @@ edges = [];
 
   network = new vis.Network(container, data, options);
 
+function stillHasChildren(tagID) {
+  numCurr = 0;
+  var group2 = vis_edges.get({
+      filter: function (item) {
+        if (item.from == tagID) {
+          numCurr++;
+        }
+        return (item.from == tagID);
+      }
+    });
+
+  //numCurr = group2.length;
+
+  numTot = 0;
+  for (var j = 0; j < totalEdges.length; j++) {
+      if (totalEdges[j].from == tagID) {
+        numTot ++;
+      }
+  }
+  //console.log("right now, " + allTags[tagID]  + " has " + numCurr + " attachments, but in total it has " + numTot);
+  if (numTot > numCurr) {
+    return true;
+  }
+  return false;
+}
+
+function hasChildrenNow (tagID) {
+  ans = 0;
+    var group2 = vis_edges.get({
+    filter: function (item) {
+      if (item.from == tagID) {
+        ans++;
+      }
+      return (item.from == tagID);
+    }
+  });
+  return (ans>0);
+}
+
+//nodes.on()
   // add event listener for selection, make charts now. 
-  network.on('select', function(properties) {
-    /* LOOK HERE. USE THIS VARIABLE TO GET THE RIGHT/WRONG FOR EVERYONE. */
+  network.on('doubleClick', function(properties) {
+    //console.log("picked  " + allTags[properties.nodes[0]])
+    selNode = properties.nodes[0];
+      /* LOOK HERE. USE THIS VARIABLE TO GET THE RIGHT/WRONG FOR EVERYONE. */
+    if (allTags[selNode] == "fleek") {
+      return 0;
+    }
+      if (stillHasChildren(selNode)) {
+        //console.log(allTags[selNode] + " does have children, let's add them.");
+        for (var i = 0; i < totalEdges.length; i++) {
+          parentNode = totalEdges[i].from;
+          childNode = totalEdges[i].to;
+          //console.log(selNode + " " + parentNode)
+          if (parentNode == selNode) {
+            console.log(totalEdges[i]);
+            if (vis_nodes.get(childNode) == undefined) {
+              if (stillHasChildren(childNode)) {
+                vis_nodes.add({id:childNode, label:allTags[childNode], group:"haschildren"});
+              }
+              else {
+                vis_nodes.add({id:childNode, label:allTags[childNode], group:"nochildren"});
+              }
+              
+              vis_nodes.update({id:parentNode, label:allTags[[parentNode]], group:"nochildren"});
+            }
+            vis_edges.add(totalEdges[i]);
+          }
+        }
+    }
+    /*
+    else {
+      //console.log(allTags[selNode] + " doen't have children, doing a delete functoin instead.");
+        for (var i = 0; i < currentEdges.length; i++) {
+            parentNode = currentEdges[i].from;
+            childNode = currentEdges[i].to;
+            //console.log(selNode + " " + parentNode)
+            if (parentNode == selNode) {
+              if (hasChildrenNow(childNode) == false) {
+                vis_nodes.remove(childNode);
+                var connEdges = vis_edges.get({
+                  filter: function (item) {
+                    if (item.to == childNode) {
+                       vis_edges.remove(item);
+                    }
+                    return (item.from == childNode);
+                  }
+                });
+                console.log(connEdges);
+
+              }
+          }
+      }
+    }
+    */
 
       selectedTag = allTags[properties.nodes[0]];
-    //document.getElementById('info').innerHTML += 'selection: ' + selectedTag + '<br>';
-    /* LOOK HERE. RETURN THESE WITH THE RIGHT/WRONG THINGEIES. */
-        if (selectedTag != undefined) {
-        makeChart(selectedTag, 121,123,312,14);
-      }
+      //document.getElementById('info').innerHTML += 'selection: ' + selectedTag + '<br>';
+      /* LOOK HERE. RETURN THESE WITH THE RIGHT/WRONG THINGEIES. */
   });
+
+
 
 // Make a chart for the right/wrong for the user, and allj
-function makeChart(tag, meRight, meWrong, worldRight, worldWrong) {
-  meTitle = "Is your #" + tag + " on fleek?";
-  worldTitle = "Is the world's #" + tag + " on fleek?";
-    var chart = AmCharts.makeChart("meDiv", {
-      "titles": [
-          {
-            "text": meTitle,
-            "size": 15
-          }
-        ],
-      "color":"black",
-      "type": "pie",
-      "theme": "dark",
-      "dataProvider": [
-        { "status": "Correct", "number": meRight},
-        {"status": "Wrong","number": meWrong}],
-      "valueField": "number",
-      "titleField": "status",
-      "exportConfig":{  
-        menuItems: [{
-        icon: '/lib/3/images/export.png',
-        format: 'png'   
-        }]  
-    }
-  });
 
-    var chartWorld = AmCharts.makeChart("worldDiv", {
-      "titles": [
-        {
-          "text": worldTitle,
-          "size": 15
-        }
-      ],
-      "color":"black",
-      "type": "pie",
-    "theme": "dark",
-      "dataProvider": [
-        { "status": "Correct", "number": worldRight},
-        {"status": "Wrong","number": worldWrong}],
-      "valueField": "number",
-      "titleField": "status",
-      "exportConfig":{  
-        menuItems: [{
-        icon: '/lib/3/images/export.png',
-        format: 'png'   
-        }]  
-    }
-  });
-}
 
 </script>
 
