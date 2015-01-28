@@ -169,6 +169,12 @@ input::-webkit-inner-spin-button {
 	width: 100%;
 	min-height: 300px;
 }
+#user-graph svg {
+	width: 100%;
+}
+#user-graph text {
+	font-family: 'Roboto' !important;
+}
 /*set list: add max height, background colors, button styling*/
 .sets-container {
 	overflow-y: auto;
@@ -212,6 +218,9 @@ input::-webkit-inner-spin-button {
 	}
 	#map-container {
 		height: 100vh;
+	}
+	#user-graph svg {
+		width: 120%;
 	}
 	
 }

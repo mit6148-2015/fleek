@@ -10,12 +10,10 @@
 				<button class="btn btn-primary" ng-click="resetTutorial()" ng-disabled="reset">Show all hints</button>
 			</div>
 			<div class="col col-sm-6">
-				<div id="user-graph"></div>
+				<pie-chart id="user-graph" data="piedata" options="pieoptions"></pie-chart>				
 			</div>
 		</div>
 	</div>
 </div>
 
-<script src="/assets/js/vendor/amcharts.js"></script>
-<script src="/assets/js/vendor/pie.js"></script>
-<script src="/assets/js/main.js"></script>
+<script src="/assets/js/vendor/d3.v3.min.js"></script>

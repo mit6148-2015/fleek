@@ -84,38 +84,6 @@ var loadmap = function () {
 	
 };
 
-// Make a pie chart
-var loadchart = function(right,wrong,id) {
-    var chart = AmCharts.makeChart(id, {
-    	titles: [{
-    		text: "User statistics",
-    		size: 14
-    	}],
-		type: "pie",
-		color: "black",
-		colors: ["#ED458D","#50C6E7"],
-		fontFamily: "Roboto",
-		theme: "light",
-		dataProvider: [
-			{ "status": "Correct", "number": right},
-			{"status": "Incorrect","number": wrong}
-		],
-		valueField: "number",
-		titleField: "status",
-		labelsEnabled: false,
-		startEffect: ">",
-		startDuration: 1
-	});
-	var balloon = chart.balloon;
-	// set properties
-	balloon.adjustBorderColor = true;
-	balloon.color = "#333";
-	// balloon.cornerRadius = 2;
-	balloon.fillColor = "#fff";
-	balloon.borderThickness = 0;
-	balloon.fillAlpha = 1;
-};
-
 var latlong = {};
 	latlong["AD"] = {"latitude":42.5, "longitude":1.5};
 	latlong["AE"] = {"latitude":24, "longitude":54};
