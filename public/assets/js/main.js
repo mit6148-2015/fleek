@@ -2,22 +2,11 @@
 
 var map;
 var minBulletSize = 3;
-var maxBulletSize = 3000;
+var maxBulletSize = 100;
 var min = 0;
-var max = 1000;
+var max = 100;
 
 AmCharts.theme = AmCharts.themes.light;
-
- // get min and max values
-for (var i in mapData) {
-	var value = mapData[i].value;
-	if (value < min) {
-		min = value;
-	}
-	if (value > max) {
-		max = value;
-	}
-}
 
 // build map
 var loadmap = function () {
@@ -29,7 +18,7 @@ var loadmap = function () {
 	map.zoomControl.zoomControlEnabled = false;
 	map.zoomControl.panControlEnabled = false;
 	map.dragMap = false;
-	map.fontFamily = "Open Sans";
+	map.fontFamily = "Roboto";
 	// get balloon intance
 	var balloon = map.balloon;
 	// set properties
@@ -54,6 +43,18 @@ var loadmap = function () {
 		images: []
 	}
 
+	 // get min and max values
+	for (var i in mapData) {
+		var value = mapData[i].value;
+		if (value < min) {
+			min = value;
+		}
+		if (value > max) {
+			max = value;
+			maxBulletSize = value;
+		}
+	}
+
 	// create circle for each country
 	for (var i in mapData) {
 		var dataItem = mapData[i];
@@ -69,7 +70,7 @@ var loadmap = function () {
 			type: "circle",
 			width: size,
 			height: size,
-			color: "#FFC53C",
+			color: "#50C6E7",
 			longitude: latlong[id].longitude,
 			latitude: latlong[id].latitude,
 			title: i,
@@ -92,8 +93,8 @@ var loadchart = function(right,wrong,id) {
     	}],
 		type: "pie",
 		color: "black",
-		colors: ["#FFC53C","#DC5133"],
-		fontFamily: "Open Sans",
+		colors: ["#ED458D","#50C6E7"],
+		fontFamily: "Roboto",
 		theme: "light",
 		dataProvider: [
 			{ "status": "Correct", "number": right},

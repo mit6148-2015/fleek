@@ -106,10 +106,12 @@ angular.module('fleekApp').controller("searchController", function($scope,$rootS
 		}
 		$scope.search();
 	}
+
 	//listen for keypress
     $scope.$on('keypress', function(event, args) {
         //focus on input
-        if (args.key == "enter") {
+        if (args.key == "enter" && $scope.tags.length == 0) {
+        	console.log('hi');
             $('#focus-input').focus();
         }
     });

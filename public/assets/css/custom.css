@@ -1,6 +1,6 @@
 /*main stuff*/
 html {
-	background-color: #efefef;
+	background-color: #fff;
 	height: 100%;
 }
 body {
@@ -27,14 +27,14 @@ body {
 .navbar-toggle:active,
 .navbar-toggle:focus,
 .navbar-toggle:hover {
-	background-color: #277D8A !important;
+	background-color: #ed458d !important;
 }
 /*page styling*/
 #page-content {
 	width: 100%;
 	height: 100%;
 	padding: 0;
-	background-color: #efefef;
+	background-color: #fff;
 }
 .page-fill {
 	padding-top: 60px;
@@ -51,6 +51,7 @@ body {
 }
 #map-title {
 	position: absolute;
+	left: 40px;
 	top: 100px;
 	font-size: 18px;
 	opacity: 0.8;
@@ -68,7 +69,7 @@ body {
 	top: 60px;
 	padding: 10px;
 	border-radius: 0;
-	box-shadow: 0 0 20px #222;
+	box-shadow: 0 0 10px #222;
 }
 #splash-logo {
 	width: 150px;
@@ -93,22 +94,27 @@ body {
 .sort-arrow {
 	height: 14px;
 }
+.progress-container {
+	min-width:100px; 
+	width: auto !important; 
+	width: 100px;
+}
 .progress {
 	margin-bottom: 0px;
 }
 .progress-label {
-    float: left;
-    margin-right: 1em;
+    float: right;
+    margin-left: 1em;
 }
 /*button groups: set focus and active attributes*/
 .btn-multiple:focus {
-	background-color: #dc5133;
-	border-color: #d24324;
+	background-color: #ed458d;
+	border-color: #eb2e7f;
 	box-shadow: none;
 }
 .btn-multiple.active {
-	background-color: #bc3c20;
-	border-color: #9d321b;
+	background-color: #e91670;
+	border-color: #c81361;
 	box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
 }
 /*input: hide number spin buttons, remove select rounded corners*/
@@ -135,7 +141,7 @@ input::-webkit-inner-spin-button {
 	margin-top: 0;
 }
 .problem-tags {
-	color: #00718A;
+	color: #50c6e7;
 }
 /*asy images: set embedded size and display them in their own rows*/
 .problem-img {
@@ -169,10 +175,16 @@ input::-webkit-inner-spin-button {
 	margin-bottom: 20px;
 }
 .sets-main {
-	background-color: #f8ccc6;
+	background-color: #fbd4e5;
+}
+.set-main a:hover {
+	background-color: #f9c2da !important;
 }
 .sets-secondary {
-	background-color: #fff;
+	background-color: #fef8fb;
+}
+.set-secondary a:hover {
+	background-color: #fde6f0 !important;
 }
 .button-row {
 	overflow-x: auto;
@@ -196,7 +208,7 @@ input::-webkit-inner-spin-button {
 @media only screen and (min-width: 992px) {
 	#splash{
 		top: 20vh;
-		border-radius: 20px;
+		border-radius: 10px;
 	}
 	#map-container {
 		height: 100vh;
