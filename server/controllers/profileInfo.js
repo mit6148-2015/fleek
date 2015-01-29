@@ -17,7 +17,7 @@ function profileInfo (req, res) {
         var tagDict = {};
 
         sendObject();
-        // getTagDict();
+        getTagDict();
         
         function getTagDict() {
             Tag.find({},function (err, tags) {

@@ -156,6 +156,11 @@ router.post('/report', auth, reportProblem); // pass problem ID as 'id', respond
 
 
 
+// demo
+router.get('/network', returnIndex);
+
+
+
 /***** ERROR HANDLING *****/
 
 // 404
