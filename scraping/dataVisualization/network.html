@@ -39,13 +39,9 @@
 
 <body>
 <div class="container-fluid">
-   <div class="col-md-8">
+   <div class="col-md-12">
     <div id="mynetwork"></div>
     <div id="info"></div>
-  </div>
-  <div class="col-md-4">
-    <div id="meDiv"></div> <br/>
-    <div id="worldDiv"></div>
   </div>
 </div>
 
@@ -223,8 +219,6 @@ vis_edges.add({from:getID("fleek"), to:getID("math")});
 vis_edges.add({from:getID("fleek"), to:getID("science")});
 
 
-
-
   // create a network
   var container = document.getElementById('mynetwork');
   var data = {
@@ -250,7 +244,7 @@ vis_edges.add({from:getID("fleek"), to:getID("science")});
         }
       }
     },
-    zoomExtentOnStabilize:false,
+    zoomExtentOnStabilize:true,
     keyboard:true,/*
     hierarchicalLayout: {
       nodeSpacing:180,
@@ -268,17 +262,23 @@ vis_edges.add({from:getID("fleek"), to:getID("science")});
       background: "transparent"
     }
   },
-   repulsion: {
-          centralGravity: -0.1,
-          springLength: 70,
-          springConstant: 0.15,
-          nodeDistance: 100,
-          damping: 0.10
-      },
+physics: {
       barnesHut: {
           enabled: true,
-          gravitationalConstant: -3000,
+          gravitationalConstant: -40000,
+          centralGravity: 0.1,
+          springLength: 98,
+          springConstant: 0.14,
+          damping: 0.09
       },
+      repulsion: {
+          centralGravity: -0.1,
+          springLength: 50,
+          springConstant: 0.15,
+          nodeDistance: 30,
+          damping: 0.09
+      }
+  },
     dragNodes:true,
     nodes: {
         color: {
@@ -338,8 +338,15 @@ function hasChildrenNow (tagID) {
   return (ans>0);
 }
 
+//network.focusOnNode(getID("fleek"));
 //nodes.on()
   // add event listener for selection, make charts now. 
+
+
+  network.on('click', function(properties) {
+      selectedTag = allTags[properts.nodes[0]];
+      /* LOOK HERE. THIS IS WHERE YOU WOULD MAKE THE CHARTS. */
+  });
   network.on('doubleClick', function(properties) {
     //console.log("picked  " + allTags[properties.nodes[0]])
     selNode = properties.nodes[0];
@@ -347,6 +354,7 @@ function hasChildrenNow (tagID) {
     if (allTags[selNode] == "fleek") {
       return 0;
     }
+
       if (stillHasChildren(selNode)) {
         //console.log(allTags[selNode] + " does have children, let's add them.");
         for (var i = 0; i < totalEdges.length; i++) {
@@ -358,14 +366,18 @@ function hasChildrenNow (tagID) {
             if (vis_nodes.get(childNode) == undefined) {
               if (stillHasChildren(childNode)) {
                 vis_nodes.add({id:childNode, label:allTags[childNode], group:"haschildren"});
+                vis_edges.add(totalEdges[i]);
               }
               else {
                 vis_nodes.add({id:childNode, label:allTags[childNode], group:"nochildren"});
+                vis_edges.add(totalEdges[i]);
               }
               
-              vis_nodes.update({id:parentNode, label:allTags[[parentNode]], group:"nochildren"});
             }
-            vis_edges.add(totalEdges[i]);
+            else {
+              vis_edges.add(totalEdges[i]);
+            }
+              vis_nodes.update({id:parentNode, label:allTags[[parentNode]], group:"nochildren"});
           }
         }
     }
@@ -399,7 +411,6 @@ function hasChildrenNow (tagID) {
       //document.getElementById('info').innerHTML += 'selection: ' + selectedTag + '<br>';
       /* LOOK HERE. RETURN THESE WITH THE RIGHT/WRONG THINGEIES. */
   });
-
 
 
 // Make a chart for the right/wrong for the user, and allj
