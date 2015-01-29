@@ -1004,4 +1004,3 @@ var mapData = {
         "value": 0
     }
 };
-

@@ -42,6 +42,9 @@ angular.module('fleekApp', ['ngRoute','ngTagsInput','n3-pie-chart'])
 	    .when('/about', {
 	        templateUrl: '/views/about.html'
 	    })
+	    .when('/network', {
+	        templateUrl: '/views/network.html',
+	    })
 	    .otherwise({
 	        redirectTo: '/'
 	    });
