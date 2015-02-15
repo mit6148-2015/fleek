@@ -1,4 +1,4 @@
-angular.module('fleekApp', ['ngRoute','ngTagsInput','n3-pie-chart'])
+angular.module('fleekApp', ['ngRoute','ngTagsInput'])
 //routing definitions
 .config(['$routeProvider', '$locationProvider',
 	function($routeProvider, $locationProvider) {
@@ -27,6 +27,10 @@ angular.module('fleekApp', ['ngRoute','ngTagsInput','n3-pie-chart'])
 	        templateUrl: '/views/problem.html',
 	        controller: 'problemController'
 	    })
+        .when('/edit/:problemId', {
+            templateUrl: '/views/edit.html',
+            controller: 'editController'
+        })
 	    .when('/profile/:username', {
 	        templateUrl: '/views/profile.html',
 	        controller: 'profileController'

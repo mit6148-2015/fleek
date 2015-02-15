@@ -66,6 +66,9 @@ router.get('/profile/*', returnIndex);
 // view single problem
 router.get('/problem/*', returnIndex);
 
+// edit single problem
+router.get('/edit/*', returnIndex);
+
 // view single set
 router.get('/set', returnIndex);
 router.get('/set/*', returnIndex);

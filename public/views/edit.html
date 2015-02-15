@@ -1,0 +1,32 @@
+<div id="problem-container" class="page-fill">
+	<div id="editor" class="col-md-6 col-md-offset-3">
+		<h2>edit problem</h2>
+		<div class="row">
+			<textarea ng-model="problem.statement" style="width:100%" rows="6">{{problem.statement}}</textarea>
+		</div>
+	</div>
+	<div id="problem" class="col-md-6 col-md-offset-3">
+		<div class="row">
+				<div class="col col-sm-6">
+					<h3 class="subtitle">{{problem.meta.setPattern}} {{problem.meta.setInstance}}  #{{problem.meta.setIndex+1}} </h3>
+					<h4>  </h4>
+				</div>
+				<div class="col col-sm-6">
+					<div class="text-right right-buttons">
+						<a ng-disabled="reported" class="btn btn-xs btn-warning" ng-click="report(problem._id)">Report Mistake</a><br>	
+					</div>
+				</div>
+			</div>
+			<div class="col col-sm-12">
+			<div class="problem-tags text-right">
+				<em><span ng-repeat="tag in problem.tags">#{{tag.tagText}} </span></em>
+			</div>
+			<div dynamic="problem.statement"> </div>
+			<div class="row">
+				<div class="col col-sm-12 text-right">
+					Source: <a href="{{problem.source.url}}" target="blank">{{problem.source.name}}</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
