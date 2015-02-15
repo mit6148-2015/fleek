@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="apidoc.css">
+</head>
+<body>
+
+<h1>fleek API</h1>
+
+<div class="intro">
+<h2>Endpoints</h2>
+<p>An asterisk (*) on methods indicates that authorization is required. Also check object reference at the bottom.</p>
+</div>
+
+<table>
+    <tr>
+        <th colspan="4">db/</th>
+    </tr>
+    <tr>
+        <td><b>URL</b></td>
+        <td><b>method</b></td>
+        <td><b>parameters</b></td>
+        <td><b>response</b></td>
+    </tr>
+    <tr>
+        <td>db/user</td>
+        <td>GET*</td>
+        <td><ul>
+            <li><code>id</code>: user ID</li>
+        </ul></td>
+        <td><code>User
+        </code></td>
+    </tr>
+    <tr>
+        <td>db/curuser</td>
+        <td>GET*</td>
+        <td>none</td>
+        <td><code>
+            User
+        </code></td>
+    </tr>
+    <tr>
+        <td>db/problem</td>
+        <td>GET*</td>
+        <td><ul>
+            <li><code>id</code>: problem ID</li>
+        </ul></td>
+        <td><code>
+            Problem
+        </code></td>
+    </tr>
+    <tr>
+        <td>db/set</td>
+        <td>GET*</td>
+        <td><ul>
+            <li><code>id</code>: set ID</li>
+        </ul></td>
+        <td><code>
+            Set
+        </code></td>
+    </tr>
+    <tr>
+        <td>db/setproblems</td>
+        <td>GET*</td>
+        <td><ul>
+            <li><code>id</code>: set ID</li>
+        </ul></td>
+        <td><code>
+            {<br>
+            &nbsp;&nbsp;meta: Set.meta,<br>
+            &nbsp;&nbsp;problems: [Problem]<br>
+            }
+        </code></td>
+    </tr>
+    <tr>
+        <td>db/tag</td>
+        <td>GET*</td>
+        <td><ul>
+            <li><code>id</code>: tag ID</li>
+        </ul></td>
+        <td><code>
+            Tag
+        </code></td>
+    </tr>
+
+    <tr>
+        <th colspan="4">db/query/</th>
+    </tr>
+    <tr>
+        <td><b>URL</b></td>
+        <td><b>method</b></td>
+        <td><b>parameters</b></td>
+        <td><b>response</b></td>
+    </tr>
+    <tr>
+        <td>db/query/problems</td>
+        <td>GET*</td>
+        <td>tbd</td>
+        <td>tbd</td>
+    </tr>
+    <tr>
+        <td>db/query/users</td>
+        <td>GET*</td>
+        <td>tbd</td>
+        <td>tbd</td>
+    </tr>
+    <tr>
+        <td>db/query/sets</td>
+        <td>GET*</td>
+        <td>tbd</td>
+        <td>tbd</td>
+    </tr>
+
+    <tr>
+        <th colspan="4">db/list/</th>
+    </tr>
+    <tr>
+        <td><b>URL</b></td>
+        <td><b>method</b></td>
+        <td><b>parameters</b></td>
+        <td><b>response</b></td>
+    </tr>
+    <tr>
+        <td>db/list/tags</td>
+        <td>GET*</td>
+        <td>tbd</td>
+        <td>tbd</td>
+    </tr>
+    <tr>
+        <td>db/list/sets</td>
+        <td>GET*</td>
+        <td>tbd</td>
+        <td>tbd</td>
+    </tr>
+
+    <tr>
+        <th colspan="4">db/edit/</th>
+    </tr>
+    <tr>
+        <td><b>URL</b></td>
+        <td><b>method</b></td>
+        <td><b>parameters</b></td>
+        <td><b>response</b></td>
+    </tr>
+
+    <tr>
+        <th colspan="4">stats/</th>
+    </tr>
+    <tr>
+        <td><b>URL</b></td>
+        <td><b>method</b></td>
+        <td><b>parameters</b></td>
+        <td><b>response</b></td>
+    </tr>
+    <tr>
+        <td>stats/correct</td>
+        <td>POST*</td>
+        <td><ul>
+            <li><code>id</code>: problem ID</li>
+        </ul></td>
+        <td>none</td>
+    </tr>
+    <tr>
+        <td>stats/incorrect</td>
+        <td>POST*</td>
+        <td><ul>
+            <li><code>id</code>: problem ID</li>
+        </ul></td>
+        <td>none</td>
+    </tr>
+    <tr>
+        <td>stats/bycountry</td>
+        <td>GET</td>
+        <td>none</td>
+        <td>tbd</td>
+    </tr>
+
+    <tr>
+        <th colspan="4">tutorial/</th>
+    </tr>
+    <tr>
+        <td><b>URL</b></td>
+        <td><b>method</b></td>
+        <td><b>parameters</b></td>
+        <td><b>response</b></td>
+    </tr>
+</table>
+<br>
+
+<div class="intro">
+<h2>Object Reference</h2>
+<p>Fields that have type <code>{}</code> are usually objects of variable form as determined by prototypes.</p>
+</div>
+
+<table>
+    <tr>
+        <th colspan="2">mongoose database models</th>
+    </tr>
+    <tr>
+        <td><b>type</b></td>
+        <td><b>model</b></td>
+    </tr>
+    <tr>
+        <td><code>User</code></td>
+        <td><code>
+            {<br>
+                &nbsp;&nbsp;username: String,<br>
+                &nbsp;&nbsp;password: String,<br>
+                &nbsp;&nbsp;gender: String,<br>
+                &nbsp;&nbsp;country: String,<br>
+                &nbsp;&nbsp;stats: {<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;rating: Number,<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;solvedCount: Number,<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;solvedProblems: [{type: ObjectId, ref: 'Problem'}],<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;attemptedCount: Number,<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;attemptedProblems: [{type: ObjectId, ref: 'Problem'}]<br>
+                &nbsp;&nbsp;},<br>
+                &nbsp;&nbsp;tutorial: {<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;multi: Boolean,<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;int: Boolean,<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;short: Boolean,<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;paginate: Boolean,<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;search: Boolean<br>
+                &nbsp;&nbsp;}<br>
+            }
+        </code></td>
+    </tr>
+    <tr>
+        <td><code>Problem</code></td>
+        <td><code>
+            {<br>
+                &nbsp;&nbsp;meta: {},<br>
+                &nbsp;&nbsp;source: {<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;name: String,<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;url: String,<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;citation: String<br>
+                &nbsp;&nbsp;},<br>
+                &nbsp;&nbsp;stats: {<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;solvedCount: Number,<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;attemptedCount: Number<br>
+                &nbsp;&nbsp;},<br>
+                &nbsp;&nbsp;tags: [{type: ObjectId, ref: 'Tag'}],<br>
+                &nbsp;&nbsp;statement: String,<br>
+                &nbsp;&nbsp;attachments: {},<br>
+                &nbsp;&nbsp;response: {}<br>
+            }
+        </code></td>
+    </tr>
+    <tr>
+        <td><code>Set</code></td>
+        <td><code>
+            {<br>
+                &nbsp;&nbsp;meta: {},<br>
+                &nbsp;&nbsp;problems: [{type: ObjectId, ref: 'Problem'}]<br>
+            }
+        </code></td>
+    </tr>
+    <tr>
+        <td><code>Tag</code></td>
+        <td><code>
+            {<br>
+                &nbsp;&nbsp;tagText: String,<br>
+                &nbsp;&nbsp;parentTags: [{type: ObjectId, ref: 'Tag'}]<br>
+            }
+        </code></td>
+    </tr>
+
+</table>
+
+</body>
+</html>
+
+
