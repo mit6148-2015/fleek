@@ -1,6 +1,6 @@
 var User = require('../models/user');
 
-function queryUsers (req, res) {
+function dbQueryUsers(req, res) {
 
     // get conditions
     var queryText = String(req.query.q);
@@ -32,4 +32,4 @@ function queryUsers (req, res) {
     
 }
 
-module.exports = queryUsers;
+module.exports = dbQueryUsers;

@@ -1,6 +1,6 @@
 var Set = require('../models/set');
 
-function listSets (req, res) {
+function dbListSets(req, res) {
     Set.find({}, function (err, sets) {
         if (err)
             console.log(err);
@@ -38,4 +38,4 @@ function listSets (req, res) {
     });
 };
 
-module.exports = listSets;
+module.exports = dbListSets;

@@ -1,7 +1,7 @@
 var Problem = require('../models/problem');
 var Tag = require('../models/tag');
 
-function queryProblems (req, res) {
+function dbQueryProblems(req, res) {
 
     var tagDict = {};
 
@@ -94,4 +94,4 @@ function queryProblems (req, res) {
 
 }
 
-module.exports = queryProblems;
+module.exports = dbQueryProblems;

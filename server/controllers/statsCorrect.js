@@ -2,7 +2,7 @@ var ObjectId = require('mongoose').Types.ObjectId;
 var User = require('../models/user');
 var Problem = require('../models/problem');
 
-function correctAttempt(req, res) {
+function statsCorrect(req, res) {
 
     if(req.user){
         var userId = req.user.id;
@@ -87,4 +87,4 @@ function correctAttempt(req, res) {
 
 }
 
-module.exports = correctAttempt;
+module.exports = statsCorrect;

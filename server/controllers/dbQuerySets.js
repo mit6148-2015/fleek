@@ -1,6 +1,6 @@
 var Set = require('../models/set');
 
-function querySets (req, res) {
+function dbQuerySets(req, res) {
 
     // get conditions
     var queryText = String(req.query.q);
@@ -37,4 +37,4 @@ function querySets (req, res) {
     
 }
 
-module.exports = querySets;
+module.exports = dbQuerySets;

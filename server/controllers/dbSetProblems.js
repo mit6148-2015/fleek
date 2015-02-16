@@ -2,7 +2,7 @@ var ObjectId = require('mongoose').Types.ObjectId;
 var Set = require('../models/set');
 var Problem = require('../models/problem');
 
-function setProblems (req, res) {
+function dbSetProblems(req, res) {
     Set.findOne( { _id : ObjectId(req.query.id) }).exec(function (err, set) {
         if (err)
             console.log(err);
@@ -29,4 +29,4 @@ function setProblems (req, res) {
     });
 };
 
-module.exports = setProblems;
+module.exports = dbSetProblems;

@@ -1,7 +1,7 @@
 var ObjectId = require('mongoose').Types.ObjectId; 
 var User = require('../models/user');
 
-function userById (req, res) {
+function dbUser(req, res) {
     User.findOne( { _id : ObjectId(req.query.id) },function (err, user) {
         if (err)
             console.log(err);
@@ -10,4 +10,4 @@ function userById (req, res) {
     });
 };
 
-module.exports = userById;
+module.exports = dbUser;

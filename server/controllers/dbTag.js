@@ -1,7 +1,7 @@
 var ObjectId = require('mongoose').Types.ObjectId; 
 var Tag = require('../models/tag');
 
-function tagById (req, res) {
+function dbTag(req, res) {
     Tag.findOne( { _id : ObjectId(req.query.id) },function (err, tag) {
         if (err)
             console.log(err);
@@ -10,4 +10,4 @@ function tagById (req, res) {
     });
 };
 
-module.exports = tagById;
+module.exports = dbTag;

@@ -1,7 +1,7 @@
 var ObjectId = require('mongoose').Types.ObjectId; 
 var Problem = require('../models/problem');
 
-function problemById (req, res) {
+function dbProblem(req, res) {
     Problem.findOne( { _id : ObjectId(req.query.id) }).populate('tags').exec(function (err, problem) {
         if (err)
             console.log(err);
@@ -10,4 +10,4 @@ function problemById (req, res) {
     });
 };
 
-module.exports = problemById;
+module.exports = dbProblem;

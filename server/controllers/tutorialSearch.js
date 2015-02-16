@@ -1,6 +1,6 @@
 var User = require('../models/user');
 
-function updateSearch(req, res) {
+function tutorialSearch(req, res) {
 
     User.findById(req.user.id, function (err, user) {
         if (err) 
@@ -17,4 +17,4 @@ function updateSearch(req, res) {
     res.send('Updated tutorial.search');
 }
 
-module.exports = updateSearch;
+module.exports = tutorialSearch;

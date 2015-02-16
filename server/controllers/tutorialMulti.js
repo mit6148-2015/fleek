@@ -1,6 +1,6 @@
 var User = require('../models/user');
 
-function updateMulti(req, res) {
+function tutorialMulti(req, res) {
 
     User.findById(req.user.id, function (err, user) {
         if (err) 
@@ -17,4 +17,4 @@ function updateMulti(req, res) {
     res.send('Updated tutorial.multi');
 }
 
-module.exports = updateMulti;
+module.exports = tutorialMulti;

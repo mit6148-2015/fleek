@@ -1,6 +1,6 @@
 var User = require('../models/user');
 
-function updatePaginate(req, res) {
+function tutorialPaginate(req, res) {
 
     User.findById(req.user.id, function (err, user) {
         if (err) 
@@ -17,4 +17,4 @@ function updatePaginate(req, res) {
     res.send('Updated tutorial.paginate');
 }
 
-module.exports = updatePaginate;
+module.exports = tutorialPaginate;

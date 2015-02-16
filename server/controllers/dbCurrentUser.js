@@ -1,7 +1,7 @@
 var ObjectId = require('mongoose').Types.ObjectId; 
 var User = require('../models/user');
 
-function currentUser (req, res) {
+function dbCurrentUser(req, res) {
     User.findOne( { _id : ObjectId(req.user._id) },function (err, user) {
         if (err)
             console.log(err);
@@ -10,4 +10,4 @@ function currentUser (req, res) {
     });
 };
 
-module.exports = currentUser;
+module.exports = dbCurrentUser;

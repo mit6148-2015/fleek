@@ -1,6 +1,6 @@
 var User = require('../models/user');
 
-function updateShort(req, res) {
+function tutorialShort(req, res) {
 
     User.findById(req.user.id, function (err, user) {
         if (err) 
@@ -17,4 +17,4 @@ function updateShort(req, res) {
     res.send('Updated tutorial.short');
 }
 
-module.exports = updateShort;
+module.exports = tutorialShort;

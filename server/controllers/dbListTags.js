@@ -1,6 +1,6 @@
 var Tag = require('../models/tag');
 
-function listTags (req, res) {
+function dbListTags(req, res) {
     Tag.find({})
     .sort({ tagText: 'asc'})
     .exec(function (err, tags) {
@@ -30,4 +30,4 @@ function listTags (req, res) {
     });
 };
 
-module.exports = listTags;
+module.exports = dbListTags;

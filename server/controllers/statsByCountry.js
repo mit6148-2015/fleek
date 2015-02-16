@@ -1,6 +1,6 @@
 var User = require('../models/user');
 
-function countryStats(req, res) {
+function statsByCountry(req, res) {
 
     User.find({}, function (err, users) {
         if (err)
@@ -35,4 +35,4 @@ function countryStats(req, res) {
 
 }
 
-module.exports = countryStats;
+module.exports = statsByCountry;
