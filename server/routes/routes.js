@@ -14,89 +14,75 @@ var returnIndex = require('../controllers/returnIndex');
 var auth = require('../controllers/auth');
 var reportProblem = require('../controllers/reportProblem');
 var tagProblem = require('../controllers/tagProblem')
-// db retrieval
-var userById = require('../controllers/userById');
-var currentUser = require('../controllers/currentUser');
-var problemById = require('../controllers/problemById');
-var setById = require('../controllers/setById');
-var setProblems = require('../controllers/setProblems');
-var tagById = require('../controllers/tagById');
-// db query
-var queryUsers = require('../controllers/queryUsers');
-var queryProblems = require('../controllers/queryProblems');
-var querySets = require('../controllers/querySets');
-// db lists
-var listTags = require('../controllers/listTags');
-var listSets = require('../controllers/listSets');
-// db miscellaneous
 var profileInfo = require('../controllers/profileInfo');
+// db
+var dbUser = require('../controllers/dbUser');
+var dbCurrentUser = require('../controllers/dbCurrentUser');
+var dbProblem = require('../controllers/dbProblem');
+var dbSet = require('../controllers/dbSet');
+var dbSetProblems = require('../controllers/dbSetProblems');
+var dbTag = require('../controllers/dbTag');
+// db/query
+var dbQueryUsers = require('../controllers/dbQueryUsers');
+var dbQueryProblems = require('../controllers/dbQueryProblems');
+var dbQuerySets = require('../controllers/dbQuerySets');
+// db/list
+var dbListTags = require('../controllers/dbListTags');
+var dbListSets = require('../controllers/dbListSets');
 // tutorial
 var tutorialStatus = require('../controllers/tutorialStatus');
-var updateMulti = require('../controllers/updateMulti');
-var updateInt = require('../controllers/updateInt');
-var updateShort = require('../controllers/updateShort');
-var updatePaginate = require('../controllers/updatePaginate');
-var updateSearch = require('../controllers/updateSearch');
-var resetTutorial = require('../controllers/resetTutorial');
+var tutorialReset = require('../controllers/tutorialReset');
+var tutorialMulti = require('../controllers/tutorialMulti');
+var tutorialInt = require('../controllers/tutorialInt');
+var tutorialShort = require('../controllers/tutorialShort');
+var tutorialPaginate = require('../controllers/tutorialPaginate');
+var tutorialSearch = require('../controllers/tutorialSearch');
 // stats
-var correctAttempt = require('../controllers/correctAttempt');
-var incorrectAttempt = require('../controllers/incorrectAttempt');
-var countryStats = require('../controllers/countryStats')
+var statsCorrect = require('../controllers/statsCorrect');
+var statsIncorrect = require('../controllers/statsIncorrect');
+var statsByCountry = require('../controllers/statsByCountry')
 
 
 
-/***** PAGES (HANDLED CLIENT SIDE) *****/
-
+/***** PAGES HANDLED CLIENT SIDE *****/
 // landing page
 router.get('/', returnIndex);
-
 // signup page
 router.get('/signup', returnIndex);
-
 // login page
 router.get('/login', returnIndex);
-
 // about page
 router.get('/about', returnIndex);
-
 // view profile
 router.get('/profile', returnIndex);
 router.get('/profile/*', returnIndex);
-
 // view single problem
 router.get('/problem/*', returnIndex);
-
 // view single set
 router.get('/set', returnIndex);
 router.get('/set/*', returnIndex);
-
 // problem search
 router.get('/search', returnIndex);
 router.get('/search/*', returnIndex);
 
 
-
 /***** PASSPORT ENDPOINTS *****/
-
 // signup via Passport
 router.post('/signup', passport.authenticate('local-signup'), function(req, res) {
     console.log('Signup successful');
     res.send('Signup successful');
 });
-
 // login via Passport
 router.post('/login', passport.authenticate('local-login'), function(req, res) {
     console.log('Login successful');
     res.send('Login successful');
 });
-
 // logout via Passport
 router.get('/logout', auth, function(req, res) {
     req.logout();
     console.log('Logout successful');
     res.send('Logout successful');
 });
-
 // authorization via Passport
 router.get('/auth', auth, function(req, res) {
     console.log('Authorization successful');
@@ -104,70 +90,52 @@ router.get('/auth', auth, function(req, res) {
 });
 
 
-
-/***** DATABASE INTERACTION *****/
-
+/***** DATABASE INFORMATION RETRIEVAL *****/
 // database retrieval
-router.get('/db/user', auth, userById); // pass user ID as 'id' parameter, responds with user object
-router.get('/db/curuser', auth, currentUser); // responds with current user object
-router.get('/db/problem', auth, problemById); // pass problem ID as 'id' parameter, responds with problem object
-router.get('/db/set', auth, setById); // pass set ID as 'id' parameter, responds with set object
-router.get('/db/setproblems', auth, setProblems); // pass set ID as 'id' parameter, responds with list of problems
-router.get('/db/tag', auth, tagById); // pass tag ID as 'id' parameter, responds with tag object
-
+router.get('/db/user', auth, dbUser); // pass user ID as 'id' parameter, responds with user object
+router.get('/db/currentuser', auth, dbCurrentUser); // responds with current user object
+router.get('/db/problem', auth, dbProblem); // pass problem ID as 'id' parameter, responds with problem object
+router.get('/db/set', auth, dbSet); // pass set ID as 'id' parameter, responds with set object
+router.get('/db/setproblems', auth, dbSetProblems); // pass set ID as 'id' parameter, responds with list of problems
+router.get('/db/tag', auth, dbTag); // pass tag ID as 'id' parameter, responds with tag object
 // database querying
-router.get('/db/query/users', auth, queryUsers); // check queryUsers.js for I/O
-router.get('/db/query/problems', auth, queryProblems); // check queryProblems.js for I/O
-router.get('/db/query/sets', auth, querySets); // check querySets.js for I/O
-
+router.get('/db/query/users', auth, dbQueryUsers); // check queryUsers.js for I/O
+router.get('/db/query/problems', auth, dbQueryProblems); // check queryProblems.js for I/O
+router.get('/db/query/sets', auth, dbQuerySets); // check querySets.js for I/O
 // database lists
-router.get('/db/list/tags', auth, listTags); // gets list of tags
-router.get('/db/list/sets', auth, listSets); // gets list of sets
-
-// database profile information
-router.get('/db/profileinfo', auth, profileInfo);
-
-// database network support
-// router.get('/db/network/??', auth, ??);
-
+router.get('/db/list/tags', auth, dbListTags); // gets list of tags
+router.get('/db/list/sets', auth, dbListSets); // gets list of sets
 
 
 /***** RECEIVING INFORMATION *****/
-
 // tutorial
 router.get('/tutorial/status', auth, tutorialStatus); // get user tutorial booleans
-router.post('/tutorial/multi', auth, updateMulti); // pass new value of multi as 'state' boolean parameter
-router.post('/tutorial/int', auth, updateInt); // pass new value of int as 'state' boolean parameter
-router.post('/tutorial/short', auth, updateShort); // pass new value of short as 'state' boolean parameter
-router.post('/tutorial/paginate', auth, updatePaginate); // pass new value of paginate as 'state' boolean parameter
-router.post('/tutorial/search', auth, updateSearch); // pass new value of search as 'state' boolean parameter
-router.get('/tutorial/reset', auth, resetTutorial); // pass new value of search as 'state' boolean parameter
-
+router.post('/tutorial/multi', auth, tutorialMulti); // pass new value of multi as 'state' boolean parameter
+router.post('/tutorial/int', auth, tutorialInt); // pass new value of int as 'state' boolean parameter
+router.post('/tutorial/short', auth, tutorialShort); // pass new value of short as 'state' boolean parameter
+router.post('/tutorial/paginate', auth, tutorialPaginate); // pass new value of paginate as 'state' boolean parameter
+router.post('/tutorial/search', auth, tutorialSearch); // pass new value of search as 'state' boolean parameter
+router.post('/tutorial/reset', auth, tutorialReset); // reset all tutorials
 // stats
-router.post('/stats/correct', auth, correctAttempt); // pass problem ID as 'id'
-router.post('/stats/incorrect', auth, incorrectAttempt); // pass problem ID as 'id'
-router.get('/stats/bycountry', countryStats); // get country statistics
-
-// tags
-router.post('/tagproblem', auth, tagProblem); // pass problem and tag IDs, tags problem
-
-// problem reporting
+router.post('/stats/correct', auth, statsCorrect); // pass problem ID as 'id'
+router.post('/stats/incorrect', auth, statsIncorrect); // pass problem ID as 'id'
+router.get('/stats/bycountry', statsByCountry); // get country statistics
+// report problem
 router.post('/report', auth, reportProblem); // pass problem ID as 'id', responds with same id after storing
 
 
-
-// demo
-router.get('/network', returnIndex);
-
+/***** NOT BEING USED? *****/
+// database profile information
+router.get('/db/profileinfo', auth, profileInfo);
+// tags
+router.post('/tagproblem', auth, tagProblem); // pass problem and tag IDs, tags problem
 
 
 /***** ERROR HANDLING *****/
-
 // 404
 router.all('*', function (req, res) {
     res.sendFile(path.join(__dirname, '../../public/views/404.html'));
 });
-
 
 
 module.exports = router;

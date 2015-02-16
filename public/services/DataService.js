@@ -62,7 +62,7 @@ angular.module('fleekApp').factory('DataService', function($http, $q){
         	);
         },
         getUser: function(username) {
-            return $http.get('/db/curuser')
+            return $http.get('/db/currentuser')
                 .then(function(response) {
                     if (typeof response.data === 'object') {
                         console.log("\tUser response " + response.data);
