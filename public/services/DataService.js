@@ -16,6 +16,16 @@ angular.module('fleekApp').factory('DataService', function($http, $q){
             	}
             );
         },
+        postData: function(path, paramsToPass) {
+            return $http.post(path, { params: paramsToPass})
+                .then(function(response) {
+                        console.log(response.data);
+                        return response.data;
+                }, function(response) {
+                    return $q.reject(response.data);
+                }
+            );
+        },
         search: function(text,tags,conts,syear,eyear) {
         	return $http.get('/db/query/problems', { params: {q: text, tags: tags, setPatterns: conts, startYear: syear, endYear: eyear}})
         		.then(function(response) {

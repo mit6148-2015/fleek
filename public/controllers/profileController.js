@@ -21,7 +21,7 @@ angular.module('fleekApp').controller("profileController", function($scope,$rout
 	});
 
 	$scope.resetTutorial = function() {
-		DataService.getData('/tutorial/reset');
+		DataService.postData('/tutorial/reset', {});
 		$scope.reset = true;
 	}
 });
