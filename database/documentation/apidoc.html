@@ -28,7 +28,8 @@
         <td><ul>
             <li><code>id</code>: user ID</li>
         </ul></td>
-        <td><code>User
+        <td><code>
+            User
         </code></td>
     </tr>
     <tr>
@@ -46,7 +47,7 @@
             <li><code>id</code>: problem ID</li>
         </ul></td>
         <td><code>
-            Problem
+            Problem.populate('tags')
         </code></td>
     </tr>
     <tr>
@@ -68,7 +69,7 @@
         <td><code>
             {<br>
             &nbsp;&nbsp;meta: Set.meta,<br>
-            &nbsp;&nbsp;problems: [Problem]<br>
+            &nbsp;&nbsp;problems: [Problem.populate('tags')]<br>
             }
         </code></td>
     </tr>
@@ -95,20 +96,41 @@
     <tr>
         <td>db/query/problems</td>
         <td>GET*</td>
-        <td>tbd</td>
-        <td>tbd</td>
+        <td><ul>
+            <li><code>q</code>: query text</li>
+            <li><code>startYear</code>: first allowed year</li>
+            <li><code>endYear</code>: last allowed year</li>
+            <li><code>setPatterns</code>: array of acceptable patterns</li>
+            <li><code>tags</code>: array of acceptable tag texts</li>
+        </ul></td>
+        <td><code>
+            [Problem.select('_id meta stats tags')]
+        </code></td>
     </tr>
     <tr>
         <td>db/query/users</td>
         <td>GET*</td>
-        <td>tbd</td>
-        <td>tbd</td>
+        <td><ul>
+            <li><code>q</code>: query text</li>
+            <li><code>genders</code>: array of acceptable genders</li>
+            <li><code>countries</code>: array of acceptable countries</li>
+        </ul></td>
+        <td><code>
+            [User.select('_id country gender username')]
+        </code></td>
     </tr>
     <tr>
         <td>db/query/sets</td>
         <td>GET*</td>
-        <td>tbd</td>
-        <td>tbd</td>
+        <td><ul>
+            <li><code>q</code>: query text</li>
+            <li><code>startYear</code>: first allowed year</li>
+            <li><code>endYear</code>: last allowed year</li>
+            <li><code>patterns</code>: array of acceptable patterns</li>
+        </ul></td>
+        <td><code>
+            [Set.select('_id meta')]
+        </code></td>
     </tr>
 
     <tr>
@@ -123,14 +145,25 @@
     <tr>
         <td>db/list/tags</td>
         <td>GET*</td>
-        <td>tbd</td>
-        <td>tbd</td>
+        <td>none</td>
+        <td><code>
+            [{<br>
+                &nbsp;&nbsp;text: String<br>
+            }]
+        </code></td>
     </tr>
     <tr>
         <td>db/list/sets</td>
         <td>GET*</td>
-        <td>tbd</td>
-        <td>tbd</td>
+        <td>none</td>
+        <td><code>
+            {<br>
+                &nbsp;&nbsp;&lt;set pattern&gt;: {<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;instance: String,<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;id: {type: ObjectId, ref: 'Set'}<br>
+                &nbsp;&nbsp;}<br>
+            }
+        </code></td>
     </tr>
 
     <tr>
@@ -172,7 +205,11 @@
         <td>stats/bycountry</td>
         <td>GET</td>
         <td>none</td>
-        <td>tbd</td>
+        <td><code>
+            {<br>
+                &nbsp;&nbsp;&lt;country&gt;: Number<br>
+            }
+        </code></td>
     </tr>
 
     <tr>
@@ -183,6 +220,63 @@
         <td><b>method</b></td>
         <td><b>parameters</b></td>
         <td><b>response</b></td>
+    </tr>
+    <tr>
+        <td>tutorial/status</td>
+        <td>GET*</td>
+        <td>none</td>
+        <td><code>
+            {<br>
+            &nbsp;&nbsp;username: User.username,<br>
+            &nbsp;&nbsp;tutorial: User.tutorial<br>
+            }
+        </code></td>
+    </tr>
+    <tr>
+        <td>tutorial/reset</td>
+        <td>POST*</td>
+        <td>none</td>
+        <td>none</td>
+    </tr>
+    <tr>
+        <td>tutorial/multi</td>
+        <td>POST*</td>
+        <td><ul>
+            <li><code>state</code>: updated state</li>
+        </ul></td>
+        <td>none</td>
+    </tr>
+    <tr>
+        <td>tutorial/int</td>
+        <td>POST*</td>
+        <td><ul>
+            <li><code>state</code>: updated state</li>
+        </ul></td>
+        <td>none</td>
+    </tr>
+    <tr>
+        <td>tutorial/short</td>
+        <td>POST*</td>
+        <td><ul>
+            <li><code>state</code>: updated state</li>
+        </ul></td>
+        <td>none</td>
+    </tr>
+    <tr>
+        <td>tutorial/paginate</td>
+        <td>POST*</td>
+        <td><ul>
+            <li><code>state</code>: updated state</li>
+        </ul></td>
+        <td>none</td>
+    </tr>
+    <tr>
+        <td>tutorial/search</td>
+        <td>POST*</td>
+        <td><ul>
+            <li><code>state</code>: updated state</li>
+        </ul></td>
+        <td>none</td>
     </tr>
 </table>
 <br>

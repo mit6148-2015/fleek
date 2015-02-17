@@ -3,30 +3,46 @@ var Set = require('../models/set');
 var Problem = require('../models/problem');
 
 function dbSetProblems(req, res) {
+
+    // find set with given ID
     Set.findOne( { _id : ObjectId(req.query.id) }).exec(function (err, set) {
         if (err)
             console.log(err);
 
-        populatedSet = {};
-        populatedSet['meta'] = set.meta;
-        populatedSet['problems'] = [];
+        if (set) {
+            // manually populate problems with tags because second-level population not supported by mongoose
 
-        addProblem(0);
+            // set populated with problems containing tag text
+            populatedSet = {};
+            populatedSet['meta'] = set.meta;
+            populatedSet['problems'] = [];
 
-        function addProblem (index) {
-            problemId = set.problems[index]
-            Problem.findById(problemId).populate('tags').exec(function (err, problem) {
-                populatedSet['problems'].push(problem)
+            addProblem(0);
 
-                index++;
-                if (index < set.problems.length) {
-                    addProblem(index);
-                } else {
-                    res.send(populatedSet);
-                }
-            })
+            // use problem IDs to populate return object with raw problem information
+            function addProblem (index) {
+
+                // find problem with given ID from set
+                problemId = set.problems[index]
+                Problem.findById(problemId).populate('tags').exec(function (err, problem) {
+
+                    // add problem to set array
+                    populatedSet['problems'].push(problem)
+
+                    // loop until last problem
+                    index++;
+                    if (index < set.problems.length) {
+                        addProblem(index);
+                    } else {
+                        res.send(populatedSet);
+                    }
+                })
+            }
+        } else {
+            console.log('Set not found');
         }
-    });
+
+        });
 };
 
 module.exports = dbSetProblems;

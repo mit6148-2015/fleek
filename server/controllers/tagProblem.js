@@ -1,3 +1,5 @@
+/* CURRENTLY UNSUPPORTED */
+
 var ObjectId = require('mongoose').Types.ObjectId; 
 var Problem = require('../models/problem');
 var Tag = require('../models/tag');

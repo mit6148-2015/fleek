@@ -1,3 +1,5 @@
+/* CURRENTLY BROKEN */
+
 var User = require('../models/user');
 var Problem = require('../models/problem');
 var Tag = require('../models/tag');
