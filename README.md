@@ -22,3 +22,7 @@ The [fleek](https://vine.co/v/MTFn7EPvtnd) team consists of three MIT '18 member
 * [To-do](https://docs.google.com/spreadsheets/d/1PW5d5G79-YgQf4mwm964JAhy5IkBNCHCIDHaQZ6h6Lc/edit?usp=sharing)
 * [API documentation](https://docs.google.com/document/d/1njiFgq-GnSvzM7u2Nv_fUPrHQNmly5EnZKegEjvr2gA/edit?usp=sharing)
 * [Bug report](https://docs.google.com/spreadsheets/d/1EkF1iYNpoKUcqpG5VoI-gcLbWxztlgOsTocL1VGDHjg/edit?usp=sharing)
+
+### Dev
+
+To start the server, run `mongod` and `npm start`. When importing data, run `database/management/importlocal.sh` on your local dev environment or `database/management/importmongolab.sh` for MongoLab.
