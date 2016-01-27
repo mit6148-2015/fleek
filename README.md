@@ -25,4 +25,4 @@ The [fleek](https://vine.co/v/MTFn7EPvtnd) team consists of three MIT '18 member
 
 ### Dev
 
-To start the server, run `mongod` and `npm start`. When importing data, run `database/management/importlocal.sh` on your local dev environment or `database/management/importmongolab.sh` for MongoLab.
+To start the server, run `mongod` and `npm start`. When importing data, run `database/management/importlocal.sh` on your local dev environment or `database/management/importmongolab.sh` for MongoLab. After initially cloning this repo, run `git submodule update --init` to clone from our submodules for MathJax and pie-chart. 
